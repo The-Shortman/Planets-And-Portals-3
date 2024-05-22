@@ -232,6 +232,11 @@ hash = "09c677f5c83baf5ba5fa27528522283d192eb0ee024955b98954e87f27a0bfc5"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
+metafile = true
+
+[[files]]
 file = "mods/applied-energistics-2.pw.toml"
 hash = "1ccdc223317e3c8da5594e56d66a0da5dd9b8a7caa43bbc03d517309321193b6"
 metafile = true
@@ -254,6 +259,11 @@ metafile = true
 [[files]]
 file = "mods/better-chunk-loading-forge-fabric.pw.toml"
 hash = "ea1d88d088e88bd10fba246395957bdcc3e5d62f66ad24c97f60ea4e79e95dad"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "475a3bafbd5a7b6e8a7f8008f9a137e25a7c0d3474cca99eaa8bfa313899b408"
 metafile = true
 
 [[files]]
@@ -287,6 +297,16 @@ hash = "86252c4e6701b798dac5ddef4b0fa6b6f5bdb280e83945b5b98d7c0be4441a35"
 metafile = true
 
 [[files]]
+file = "mods/clean-swing-through-grass.pw.toml"
+hash = "98952c950b934d7897e58d3602dab4a1ec64d63fa672d11b1320c7c09ef026fa"
+metafile = true
+
+[[files]]
+file = "mods/climb-ladders-fast.pw.toml"
+hash = "caf5146f2bb9684ad6ba57da0a0564f3693796e78e5cc40d24260e42b4d049ff"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "d4512023e6eb03c5045365468de16cebe1aea7f14f6cb94902d72848f69c79ce"
 metafile = true
@@ -294,6 +314,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "e3173aaa4e9078ad7ace2b9ef43ce15ce9919c0b566d8830cea87264f92b3a6a"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "d991200509d9cac4beac85ae96ee2bda9feb38fb622679493c18e0f4639eead8"
 metafile = true
 
 [[files]]
@@ -397,8 +422,18 @@ hash = "a2888c614afd7ad2e06e8b6e5a1d2d8fc18e950b0c3855ae6adb459eb3778a30"
 metafile = true
 
 [[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "32e9c2612ad11bf65a8f8904181c186191683d24f1d3505a59627a7bb47ae6a8"
+metafile = true
+
+[[files]]
 file = "mods/epherolib.pw.toml"
 hash = "fadaae47087ff0af2442bed6c9978eaa14f2926990738d81b5ce382d4c4a86fa"
+metafile = true
+
+[[files]]
+file = "mods/extreme-sound-muffler.pw.toml"
+hash = "c7457239576d51a1eb220ec83ee336a4f3b49ab54c2823a0fc01318d67b0fd2a"
 metafile = true
 
 [[files]]
@@ -472,6 +507,11 @@ hash = "eb407f60b4dcfa0b7b051f59074971ef6f4b77941ab493c0fe2ec0607a4c6085"
 metafile = true
 
 [[files]]
+file = "mods/hourglass.pw.toml"
+hash = "fbb371c2bb573d6d84600f10937f535b7f19f7df6e536f25b7b4e46471c32904"
+metafile = true
+
+[[files]]
 file = "mods/iceberg.pw.toml"
 hash = "ad39b6fb2bc55933c421297e8ecf931d82dcb056a5513ba3f3b407fdeaef7b02"
 metafile = true
@@ -479,6 +519,16 @@ metafile = true
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
 hash = "e50f67e37775aca9ee5c5a1c91bd8e10846f8077e20ace467e4acb7892e1aca0"
+metafile = true
+
+[[files]]
+file = "mods/immersive-melodies.pw.toml"
+hash = "9c4898b5fb29da356a690d575ea9761cbe7198d2181a34d2c6aaa7268062d20f"
+metafile = true
+
+[[files]]
+file = "mods/inventory-sorter.pw.toml"
+hash = "537f95eb95c08a7510b7151d2960904d2fae3ccd515a5f369063c11f707584fb"
 metafile = true
 
 [[files]]
@@ -552,6 +602,16 @@ hash = "0daa6f3e2326ab0ea10690d67edadcdd6ceb9a220515aa69791f2b7a0405ed80"
 metafile = true
 
 [[files]]
+file = "mods/magnum-torch-forge.pw.toml"
+hash = "5f6768157929bccb85b4b561fb4e16c99018ad93ce3f53b945ab9b37307c3665"
+metafile = true
+
+[[files]]
+file = "mods/mekanism.pw.toml"
+hash = "e7695cb9ca190c1da74abbc43643d63f94cf517163756c4615c84d83fa72240b"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "0b9cc190139b0eb2d5f0153f05717ed53edd499ad2a3eeee99ea75d22fd0ef1c"
 metafile = true
@@ -597,6 +657,11 @@ hash = "1d602996f39fb6103a5b968f50ec06800db7125b145570474c9c10e6dcd0c68e"
 metafile = true
 
 [[files]]
+file = "mods/no-feather-trample.pw.toml"
+hash = "1f4154f18a72e1ae3ee29ea225c7b6139c339e9045f2615703147911e4e8d821"
+metafile = true
+
+[[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "165612664bf8ecd6f5d3ff6a6181293cc1233116f72c71c7a1cbb8c59aca1944"
 metafile = true
@@ -622,6 +687,11 @@ hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
 metafile = true
 
 [[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "5e473ace785a853a7929adaaef0bb94963002fecb41656d77351fdd045044483"
+metafile = true
+
+[[files]]
 file = "mods/polylib.pw.toml"
 hash = "947d5f3b9213360b68e9b65a8d2d5111939e82e248cf61eb02137f119c6eaeb6"
 metafile = true
@@ -639,6 +709,11 @@ metafile = true
 [[files]]
 file = "mods/ponder.pw.toml"
 hash = "3101da4864003d709770fd9c1cf7afa86554736f44862781b693a9865357b309"
+metafile = true
+
+[[files]]
+file = "mods/presence-footsteps-forge.pw.toml"
+hash = "81006dc530e5aaeb55c00b6891f73cd9e2fc1f3f3b84819df3a00c4aae151c2d"
 metafile = true
 
 [[files]]
@@ -732,6 +807,11 @@ hash = "66e091a1aa7ee6fd986931a99914cb9f3133957bd99454b7d768350d5c54b312"
 metafile = true
 
 [[files]]
+file = "mods/tempad.pw.toml"
+hash = "4453118c42c3364c51e577fbcc16e2ae5e85069902eee545cfa8db534e2f2d21"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "4ffe582cac7b3cea7278ba2246d392df7240b45c2cdb74243025c8a4c1650894"
 metafile = true
@@ -739,6 +819,11 @@ metafile = true
 [[files]]
 file = "mods/tetra.pw.toml"
 hash = "7cd5ba3f6e15a5bb367a6e7e3549f2f89b86e8936fc1e3de959ce47068abd991"
+metafile = true
+
+[[files]]
+file = "mods/tips.pw.toml"
+hash = "0f83c8e4d8901d6c927a1fe9f9aa0e4df45bf0f792736d199701af2e72dc6671"
 metafile = true
 
 [[files]]
