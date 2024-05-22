@@ -1,0 +1,13 @@
+name = "Create: Ad Astra Compatibility"
+filename = "create_ad_astra_compat-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "348f8477b3af519b250e65efbaec8a743c6b89d2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5252441
+project-id = 1001456
