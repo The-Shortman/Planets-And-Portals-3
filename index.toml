@@ -233,7 +233,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "8d0321177fed4a0b48554c40158b43db62f6cdaa768f584ef6a11575dfaa6223"
+hash = "2a6d398aa111a6448b1d4072e34f61294a517d2c8545cb0aa4239ea8ad63ce45"
 metafile = true
 
 [[files]]
@@ -263,7 +263,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "475a3bafbd5a7b6e8a7f8008f9a137e25a7c0d3474cca99eaa8bfa313899b408"
+hash = "80223f3fe21fd153b84eb5ca7f55b93b6e6f43ce0dc2cb58486aa295ff957626"
 metafile = true
 
 [[files]]
@@ -298,12 +298,12 @@ metafile = true
 
 [[files]]
 file = "mods/clean-swing-through-grass.pw.toml"
-hash = "98952c950b934d7897e58d3602dab4a1ec64d63fa672d11b1320c7c09ef026fa"
+hash = "880a42d96f33ec4d32bb06e7b7fa3662c6c7779bbdf81c2c02ba374f0af9491e"
 metafile = true
 
 [[files]]
 file = "mods/climb-ladders-fast.pw.toml"
-hash = "caf5146f2bb9684ad6ba57da0a0564f3693796e78e5cc40d24260e42b4d049ff"
+hash = "ef9a9c0d2ba088d1964743b02493b4a88c2f06c0b12ee66b586d7fe1230235a8"
 metafile = true
 
 [[files]]
@@ -318,7 +318,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "d991200509d9cac4beac85ae96ee2bda9feb38fb622679493c18e0f4639eead8"
+hash = "af462f413228dc81fdd12fdba534a37eeda957feb2041bf81c1e2949fda2269e"
 metafile = true
 
 [[files]]
@@ -423,7 +423,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "32e9c2612ad11bf65a8f8904181c186191683d24f1d3505a59627a7bb47ae6a8"
+hash = "a6af0a33becef3e1922baa2454612053dbae4d813c1ad133ff2bb16b2ee78bae"
 metafile = true
 
 [[files]]
@@ -433,7 +433,7 @@ metafile = true
 
 [[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
-hash = "c7457239576d51a1eb220ec83ee336a4f3b49ab54c2823a0fc01318d67b0fd2a"
+hash = "fa0e11f73c0e47ff3ce350fcb7913890f8441c71dbe9df8ba6bfce7133fa64b3"
 metafile = true
 
 [[files]]
@@ -508,7 +508,7 @@ metafile = true
 
 [[files]]
 file = "mods/hourglass.pw.toml"
-hash = "fbb371c2bb573d6d84600f10937f535b7f19f7df6e536f25b7b4e46471c32904"
+hash = "35ee1e29189e0778caa9d15fd618d224e9ce6fe94f622c4ae6aea12d7727cead"
 metafile = true
 
 [[files]]
@@ -523,12 +523,12 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
-hash = "9c4898b5fb29da356a690d575ea9761cbe7198d2181a34d2c6aaa7268062d20f"
+hash = "695faf011fad7411385e4e7e730918908cbf52255feab03ec3635881e7e78bf5"
 metafile = true
 
 [[files]]
 file = "mods/inventory-sorter.pw.toml"
-hash = "537f95eb95c08a7510b7151d2960904d2fae3ccd515a5f369063c11f707584fb"
+hash = "a709ef9491ad84dc838c11f305772dfe06de6eb1ec8550c3a2d410ff1503b08b"
 metafile = true
 
 [[files]]
@@ -603,12 +603,12 @@ metafile = true
 
 [[files]]
 file = "mods/magnum-torch-forge.pw.toml"
-hash = "5f6768157929bccb85b4b561fb4e16c99018ad93ce3f53b945ab9b37307c3665"
+hash = "342689b81a6bc7d3aa79b4610b79c88cddfdbd17e9f0dac77c6a975e51033cc1"
 metafile = true
 
 [[files]]
 file = "mods/mekanism.pw.toml"
-hash = "e7695cb9ca190c1da74abbc43643d63f94cf517163756c4615c84d83fa72240b"
+hash = "92b807b60a6999c4bdd29c74ef21235ce7d0218875c8f68e575180791ad98b42"
 metafile = true
 
 [[files]]
@@ -658,7 +658,7 @@ metafile = true
 
 [[files]]
 file = "mods/no-feather-trample.pw.toml"
-hash = "1f4154f18a72e1ae3ee29ea225c7b6139c339e9045f2615703147911e4e8d821"
+hash = "47dd527025f8d33db7a483daef2dc80f5097d5512c9fd162c016e467b2a92b05"
 metafile = true
 
 [[files]]
@@ -688,7 +688,7 @@ metafile = true
 
 [[files]]
 file = "mods/ping-wheel.pw.toml"
-hash = "5e473ace785a853a7929adaaef0bb94963002fecb41656d77351fdd045044483"
+hash = "c69b232f5b49158fd015b7e2cad3acca262adc412844262b62c13d9442580ab4"
 metafile = true
 
 [[files]]
@@ -713,7 +713,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps-forge.pw.toml"
-hash = "81006dc530e5aaeb55c00b6891f73cd9e2fc1f3f3b84819df3a00c4aae151c2d"
+hash = "a0448cd361a431dadd5a265cdba19a256d6d4fb1e1ef15b6337c43b3fad9a446"
 metafile = true
 
 [[files]]
@@ -808,7 +808,7 @@ metafile = true
 
 [[files]]
 file = "mods/tempad.pw.toml"
-hash = "4453118c42c3364c51e577fbcc16e2ae5e85069902eee545cfa8db534e2f2d21"
+hash = "9ff8bec2aec5935a9c8e448e7a62ccdd026f90da4beb2d5b30bbe77710b37321"
 metafile = true
 
 [[files]]
@@ -823,7 +823,7 @@ metafile = true
 
 [[files]]
 file = "mods/tips.pw.toml"
-hash = "0f83c8e4d8901d6c927a1fe9f9aa0e4df45bf0f792736d199701af2e72dc6671"
+hash = "c707f903fa7dbebcdae7680de6e2d923419317ab2b0a3e39f17bcd10b6dc55dd"
 metafile = true
 
 [[files]]
