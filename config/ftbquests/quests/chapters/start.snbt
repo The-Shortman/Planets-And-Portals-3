@@ -68,7 +68,7 @@
 				"At each planet more powerful resources are unlocked, allowing you to gain greater control over how your factory runs, improve your resource yields, and do loads of useless and stupid things along the way!"
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "ad_astra:tier_1_rocket"
 				tag: { }
 			}
@@ -102,7 +102,7 @@
 			rewards: [{
 				id: "07BD08F7ED834954"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "minecraft:wooden_sword"
 					tag: {
 						Damage: 0
@@ -127,7 +127,7 @@
 				"You may notice that you can't craft anything more than wooden tools for a while, and this is because you are encouraged to use Tetra to upgrade your tools, stemming all the way from a wooden pickaxe."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "tetra:modular_double"
 				tag: {
 					Damage: 0
@@ -237,6 +237,11 @@
 			description: ["Currently the only celestial bodies available are Earth and the Moon. This will change over time, ideally including ALL Ad Astra planets by the time of the full pack release."]
 			icon: "supplementaries:globe"
 			id: "6AF6A17A5E8F0C11"
+			rewards: [{
+				id: "48D9AE85C264FEBB"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "To the stars!"
 			tasks: [{
 				id: "1ACE5AF8BDC0A7BD"
@@ -251,6 +256,11 @@
 			description: ["Currently the only portals are the vanilla portals. The portals theme is still yet TBD as to the direction I will take it."]
 			icon: "tempad:he_who_remains_tempad"
 			id: "4F98F89290C89B6B"
+			rewards: [{
+				id: "20D9EDFEDBCC1BDC"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Worlds unknown"
 			tasks: [{
 				id: "31EC94DA0B5F91B5"
@@ -270,14 +280,19 @@
 			]
 			icon: "minecraft:ender_eye"
 			id: "37ECD1B859DD6F38"
+			rewards: [{
+				id: "5A0EED09F63AA486"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Observable and spark my beloved"
 			tasks: [{
 				id: "308854C5C82B6AF2"
 				title: "Locating Lag"
 				type: "checkmark"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: 0.0d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Start here!"]

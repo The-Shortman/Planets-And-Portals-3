@@ -30,6 +30,7 @@
 		}
 		{
 			dependencies: ["3BB359C6FE95C544"]
+			description: ["People that helped with gameplay balance by playing the modpack before it was released."]
 			icon: "create:linked_controller"
 			id: "60C59D590B54221F"
 			shape: "octagon"
@@ -61,11 +62,17 @@
 		}
 		{
 			dependencies: ["3BB359C6FE95C544"]
+			description: ["People that don't fit into the other categories, but helped out in their own special ways!"]
 			icon: "dummmmmmy:target_dummy"
 			id: "3E3AC0C89A2A5D98"
+			rewards: [{
+				id: "04657A9139E91D6E"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "People that don't fit into the other 3 categories, but helped out in their own special ways!"
+			subtitle: "I'm running out of space on this quest chapter"
 			tasks: [{
 				id: "0D838E7E60D9C2D5"
 				title: "Other Credit-Worthy Individuals"
@@ -113,6 +120,7 @@
 			dependencies: ["3E3AC0C89A2A5D98"]
 			description: ["Helped me out way too much with a bunch of KubeJS code, thanks a tonne!"]
 			hide_dependency_lines: true
+			icon: "ae2:mysterious_cube"
 			id: "75B5F03F4E536869"
 			subtitle: "KubeJS stuff"
 			tasks: [{

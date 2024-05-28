@@ -1,4 +1,5 @@
 {
+	autofocus_id: "6F399F281A4AE660"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_numismatics"
@@ -7,7 +8,149 @@
 	id: "7AAB9D3105763B07"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["33965327E319C662"]
+			description: ["You can store your money in here and exchange for higher or lower currencies too!"]
+			id: "6F399F281A4AE660"
+			rewards: [{
+				id: "7696E74ADADF789F"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 3.0d
+			subtitle: "Keep your money safe!"
+			tasks: [{
+				id: "588A2DAF8792C99E"
+				item: "numismatics:bank_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0541277DE16681E9"]
+			description: [
+				"When the correct amount of money is inserted, the block will pulse a redstone signal. You can power the block itself with redstone to prevent it from accepting money."
+				""
+				"The Andesite Depositor can only accept one of a coin type per payment (the coin can be configured in the block)."
+				""
+				"The Brass Depositor can be fully configured to accept payment."
+				""
+				"These can be used for paid access areas in a base, buying tickets for a train, &mgambling&r, the possibilities are endless!"
+			]
+			id: "6F2C3EB15823383C"
+			rewards: [{
+				id: "66ACCC2AD2F54038"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Make people pay for stuff!"
+			tasks: [
+				{
+					id: "68CA90F8B4BB6E9C"
+					item: "numismatics:andesite_depositor"
+					type: "item"
+				}
+				{
+					id: "4DBF36C67C30A6DC"
+					item: "numismatics:brass_depositor"
+					type: "item"
+				}
+			]
+			title: "Depositors"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F63BC3B13248EEA"]
+			description: [
+				"Give to a Blaze Banker to gain access to the configs of your bank accounts and allow other people to access the money inside it."
+				""
+				"It also gives the blaze a very sophisticated top hat!"
+			]
+			id: "60632AF5D8679760"
+			rewards: [{
+				count: 4
+				id: "23E706C21B019956"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Personal Accountant"
+			tasks: [{
+				id: "5F5D10FA3DCE906E"
+				item: "numismatics:banking_guide"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C514564EAFAB27"]
+			description: ["You can sell and buy goods from this block. Shift+RMB to configure it!"]
+			id: "6E94FAD5F2CDBFCE"
+			rewards: [{
+				id: "088D31F2C677086F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Markets!"
+			tasks: [{
+				id: "054A87A7365FC4ED"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33965327E319C662"]
+			description: [
+				"Bank Cards can be placed in depositors and vendors to automatically put money in your bank account."
+				""
+				"It also allows you to access other bank accounts you have access to in the Bank Terminal."
+				""
+				"ID Cards can be bound to yourself and placed in a blaze banker along with a Bank Card to allow the linked person to access that bank account. Useful for teams!"
+			]
+			id: "41F0222C50CB534F"
+			rewards: [{
+				id: "3438CE37C940C44D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Shared bank accounts and automatic deposits!"
+			tasks: [
+				{
+					id: "3F67D670B980FB45"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "numismatics:cards"
+						}
+					}
+					title: "Any #numismatics:cards"
+					type: "item"
+				}
+				{
+					id: "734AC10A9931F0B5"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "numismatics:id_cards"
+						}
+					}
+					title: "Any #numismatics:id_cards"
+					type: "item"
+				}
+			]
+			title: "Banking Cards"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
 	subtitle: ["Capitalism"]
 	title: "Create: Numismatics"
 }

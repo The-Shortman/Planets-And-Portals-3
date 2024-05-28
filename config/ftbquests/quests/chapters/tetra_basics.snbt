@@ -1,10 +1,11 @@
 {
+	autofocus_id: "179CA7253B021017"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "tetra_basics"
 	group: "34B8FB3F21E5817B"
 	icon: {
-		Count: 1b
+		Count: 1
 		id: "tetra:modular_double"
 		tag: {
 			Damage: 0
@@ -26,7 +27,7 @@
 			tasks: [{
 				id: "7FA020A3117D1D19"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:modular_double"
 					tag: {
 						Damage: 0
@@ -56,14 +57,14 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["594CD35ACE90F9A8"]
+			dependencies: ["179CA7253B021017"]
 			description: ["The STRC and SYST options at the top don't currently do anything. They might do something in a later version of Tetra though!"]
 			id: "439F098B13E00345"
 			subtitle: "Tetra's Mod Manual"
 			tasks: [{
 				id: "043912DF2A627F8C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "tetra:holo"
 					tag: {
 						"holo/core": "holo/core"
@@ -78,93 +79,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["594CD35ACE90F9A8"]
-			id: "0E81B73CEC691F6D"
-			tasks: [{
-				id: "5029D2A801584E5A"
-				item: {
-					Count: 1b
-					id: "minecraft:wooden_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["594CD35ACE90F9A8"]
-			id: "6CEB00D60F926751"
-			tasks: [{
-				id: "5FC73253BF961628"
-				item: {
-					Count: 1b
-					id: "minecraft:wooden_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["594CD35ACE90F9A8"]
-			id: "503CF0BD6DC5A79B"
-			tasks: [{
-				id: "32D5F089371FCF61"
-				item: {
-					Count: 1b
-					id: "minecraft:wooden_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
+			x: 0.5d
 			y: -1.5d
-		}
-		{
-			dependencies: ["594CD35ACE90F9A8"]
-			id: "17D652A5C5493E42"
-			tasks: [{
-				id: "6253867D5B482655"
-				item: {
-					Count: 1b
-					id: "minecraft:wooden_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["594CD35ACE90F9A8"]
-			id: "10987816FF1A34AF"
-			tasks: [{
-				id: "65445822C0FA4050"
-				item: {
-					Count: 1b
-					id: "minecraft:wooden_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 2.0d
-			y: -7.5d
 		}
 		{
 			dependencies: ["594CD35ACE90F9A8"]
@@ -174,7 +90,141 @@
 				item: "tetra:geode"
 				type: "item"
 			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			description: ["Tetra is an extensive mod and as such I will document it in this quest tree at a much later time."]
+			id: "71DD87BED0226744"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Quest tree is WIP"
+			tasks: [{
+				id: "29DC5FFAD034CFC3"
+				title: "Unfinished Questline"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["594CD35ACE90F9A8"]
+			id: "2C7A09965DAB183F"
+			tasks: [{
+				id: "41A12475807EC6D4"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/stone"
+						"double/basic_hammer_right_material": "basic_hammer/stone"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "8535f21b-a7dd-4987-b8fd-79a4c6f7647d"
+					}
+				}
+				type: "item"
+			}]
 			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C7A09965DAB183F"]
+			id: "1E7BF86D0030CF42"
+			tasks: [{
+				id: "7769A767F61E08CF"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/iron"
+						"double/basic_hammer_right_material": "basic_hammer/iron"
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "b0ab132f-fc05-4ca3-974c-6981f31dad10"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E7BF86D0030CF42"]
+			id: "44B725CFBDE8BD48"
+			tasks: [{
+				id: "49461D83646BFB18"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/blackstone"
+						"double/basic_hammer_right_material": "basic_hammer/blackstone"
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "3ff2d73a-42e9-4fce-9b74-32ba14c0c3cd"
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44B725CFBDE8BD48"]
+			id: "1C25C96DC5044095"
+			tasks: [{
+				id: "586104621E87B047"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/obsidian"
+						"double/basic_hammer_right_material": "basic_hammer/obsidian"
+						"double/basic_handle_material": "basic_handle/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "3b92c862-55a4-4b84-aa58-b97b78429db5"
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C25C96DC5044095"]
+			id: "30F89AC70C99048D"
+			tasks: [{
+				id: "0D019495EDC0C8BA"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						"double/basic_handle_material": "basic_handle/forged_beam"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "4ae70604-a6e1-4508-9f48-d2169c4be990"
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
 			y: 0.0d
 		}
 	]

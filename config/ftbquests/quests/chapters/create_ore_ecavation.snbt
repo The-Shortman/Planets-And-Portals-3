@@ -1,13 +1,100 @@
 {
+	autofocus_id: "602915031BB8E671"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_ore_ecavation"
 	group: "34B8FB3F21E5817B"
 	icon: "createoreexcavation:drill"
 	id: "4F0B1F06047DAE20"
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			description: ["Right click while this is in your hand in order to locate the nearest ore deposit."]
+			id: "602915031BB8E671"
+			rewards: [{
+				id: "170662D6E8E4B240"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Locate hidden ore veins"
+			tasks: [{
+				id: "6B9D880F0D3755DA"
+				item: "createoreexcavation:vein_finder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22E1F637EC14FA16"]
+			id: "49F9E3ED99A62079"
+			rewards: [{
+				id: "46351403D76AA1E9"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A05173EF11B5AEF"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22E1F637EC14FA16"]
+			id: "2F20EF4550079875"
+			rewards: [{
+				id: "7E3A7664C0F5AEB7"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "Extract fluids from the earth"
+			tasks: [{
+				id: "355FE914F8D5E362"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			description: ["Drills need to be attached to your extractors"]
+			id: "470F8B44F319713F"
+			tasks: [{
+				id: "708EE088174CEF7E"
+				item: "createoreexcavation:drill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["470F8B44F319713F"]
+			id: "36DE9E336B6BCCB7"
+			tasks: [{
+				id: "6AB2C7578C28C1AA"
+				item: "createoreexcavation:diamond_drill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["36DE9E336B6BCCB7"]
+			id: "1D15C5B1C03FE53F"
+			tasks: [{
+				id: "5AB01488C5300F5C"
+				item: "createoreexcavation:netherite_drill"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+	]
 	subtitle: ["Exploit the earth of its hidden resources"]
-	title: "Create Ore Excavation (Tier 1)"
+	title: "Create: Ore Excavation"
 }

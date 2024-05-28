@@ -1,4 +1,5 @@
 {
+	autofocus_id: "436668D6666D9327"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "storage_solutions"
@@ -7,7 +8,299 @@
 	id: "05618391178E3683"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "436668D6666D9327"
+			rewards: [{
+				id: "4BBE91E6D4B6F1C8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Basic yet effective multiblock storage"
+			tasks: [{
+				id: "2A3E70BC35D13212"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["288434BE4742D809"]
+			id: "52B37966DD8ECE50"
+			rewards: [{
+				id: "4C308EDF99A07F47"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Filter what items your drawers accept"
+			tasks: [{
+				id: "7D4BD16DDE94E485"
+				item: "storagedrawers:drawer_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["436668D6666D9327"]
+			id: "288434BE4742D809"
+			rewards: [{
+				id: "00B3B8AB578F5D21"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "320F2811AAC06FEB"
+				item: "storagedrawers:upgrade_template"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["436668D6666D9327"]
+			description: ["Compacts compactable items (e.g. resources into resource nuggets, ingots, and blocks) so you don't have to craft as much."]
+			id: "0B9BBBF0A783ADAC"
+			rewards: [{
+				id: "37973827E6A0904C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Automatic storage efficiency"
+			tasks: [{
+				id: "3991BC9C53806CD1"
+				item: "storagedrawers:compacting_drawers_3"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["436668D6666D9327"]
+			description: [
+				"Place in a wall of drawers to connect them all together through this block!"
+				""
+				"The controller itself has no storage capacity but it allows you to dump all items in your inventory that match drawers in the wall by double right clicking on it with an empty hand, or double right click with the item you want to deposit to only deposit that item."
+			]
+			id: "7DE4195155792419"
+			rewards: [{
+				id: "59BDAF003F4456C2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Link your drawers together"
+			tasks: [{
+				id: "70F56F5CBFA8D9E1"
+				item: "storagedrawers:controller"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["436668D6666D9327"]
+			description: ["Allows you to add extra interface points for your drawer system. Interface points represent the whole drawer wall."]
+			id: "2E2622263311F66E"
+			rewards: [{
+				id: "2C0671FD790D4FC5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "More interface points"
+			tasks: [{
+				id: "223FC64DA252AEA7"
+				item: "storagedrawers:controller_slave"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52B37966DD8ECE50"]
+			id: "26E484BFD7078E02"
+			rewards: [{
+				count: 4
+				id: "530FE031434F802B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Show or hide labels on drawers"
+			tasks: [{
+				id: "0F0E22A9C7B627CC"
+				item: "storagedrawers:shroud_key"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["52B37966DD8ECE50"]
+			id: "6397FC354FE5626A"
+			rewards: [{
+				count: 4
+				id: "45910BEE4B038558"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Show or hide how many items are in the drawer"
+			tasks: [{
+				id: "4D84ADBFC41D7B53"
+				item: "storagedrawers:quantify_key"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["288434BE4742D809"]
+			icon: "storagedrawers:obsidian_storage_upgrade"
+			id: "0EF8F9096BC295D5"
+			rewards: [{
+				count: 8
+				id: "0A3B126696DA7144"
+				item: "storagedrawers:emerald_storage_upgrade"
+				type: "item"
+			}]
+			subtitle: "Increase capacity of your drawers"
+			tasks: [
+				{
+					id: "78DD63AA94280862"
+					item: "storagedrawers:obsidian_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "6CF7C9CAE9809F78"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "0297C091753D698A"
+					item: "storagedrawers:gold_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "0E1FAA78B3A82DFB"
+					item: "storagedrawers:diamond_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "3C885334048D7014"
+					item: "storagedrawers:emerald_storage_upgrade"
+					type: "item"
+				}
+			]
+			title: "Storage Upgrades"
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["288434BE4742D809"]
+			id: "01B0AD4594B1A75C"
+			rewards: [{
+				count: 4
+				id: "0632483E7722E1EB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Decrease capacity of your drawers"
+			tasks: [{
+				id: "02A3DD5BD5B4201A"
+				item: "storagedrawers:one_stack_upgrade"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["288434BE4742D809"]
+			id: "3973B79E88495347"
+			rewards: [{
+				id: "6CF6929A7CA2FA03"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Void excess items"
+			tasks: [{
+				id: "5B773B5BA5D1B8DA"
+				item: "storagedrawers:void_upgrade"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["288434BE4742D809"]
+			id: "3C9344740E10D709"
+			rewards: [{
+				count: 4
+				id: "18C49435FE3DD3A5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Detect when your drawer is full"
+			tasks: [{
+				id: "67E461947F3F273C"
+				item: "storagedrawers:redstone_upgrade"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["693CB7DA05A91905"]
+			description: ["Warning: can be quite performance intensive when combined with filtered Brass Funnels/Smart Chutes!"]
+			id: "3DFC5E253C3E9E59"
+			rewards: [{
+				count: 4
+				id: "2B8A91843F400BBB"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Mass item storage"
+			tasks: [{
+				id: "7D12221E4B67BB4E"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			description: ["Please don't"]
+			id: "3BE8F73A60641538"
+			rewards: [{
+				id: "52E14845E6316FD5"
+				type: "xp"
+				xp: 20
+			}]
+			subtitle: "...or you could just make a massive chest monster"
+			tasks: [{
+				id: "3FF6356068C02219"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Any #forge:chests/wooden"
+				type: "item"
+			}]
+			title: "Chests"
+			x: -3.5d
+			y: -4.0d
+		}
+	]
 	subtitle: ["You will have a storage problem"]
 	title: "Crude Storage Solutions"
 }

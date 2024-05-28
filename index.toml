@@ -245,6 +245,10 @@ file = "config/enchdesc.json"
 hash = "ecdaf0d14778cb281e959f51c474ddf40338497010af727558b935202b85e337"
 
 [[files]]
+file = "config/exposure-common.toml"
+hash = "bd74004e5f974a3c04e9491d3618dde4db9a2f092de0e9e6e3c8ef860bbd7360"
+
+[[files]]
 file = "config/extremesoundmuffler-client.toml"
 hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
@@ -490,11 +494,11 @@ hash = "8de0044a7df761eade5f0395f2d189a677c6b80a9a7c1e621657b1931df429cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "8f890678d669f8846f7ac4451e6c7724e07677c77a542728d998f1ed15929321"
+hash = "d48ece27cf4fcf341bc415ca8231086ab85dab34e76a6e9866a7e24d2103e13a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_growing_the_factory.snbt"
-hash = "7be8d2ca1cfb11afdee79f963b8b34dd375d1c1ddf05046ad19182fbf83e876b"
+hash = "54a3986e35ef0777cca9b17ccc20438ec097a9cd7e47f27d5b971ea5bd484108"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_new_age.snbt"
@@ -502,15 +506,15 @@ hash = "de6f3a57ec42ac4528496adb655cce5f2937bd5beec468f7487c8e1bc78883f8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_numismatics.snbt"
-hash = "d32420ebb6ff437f47433441bc32eb998581341da928c9626a5435d201c2afd7"
+hash = "01275c1e0587851824d8c9b9bb1d4e43464deba77fafec8c1f2f99f4c78628e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_ore_ecavation.snbt"
-hash = "a65bc5bd098dec11e3dc6d7630d8559499e7896063047ecc6dafcb5847bbd234"
+hash = "7bec4d90b62c46f09f8bd4c2e3d8e2a93e0f3c087fcdbb65ba647a684b63acfd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/credits.snbt"
-hash = "e50e88875239f1580dacf4fa92a754b91a05fafbf1ba66bdd1e4abebe237d162"
+hash = "2be27551503d8352f3ded596f8159f14b3d8dde7b21591e874b5d6427ffe7e2f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lunar_expeditions.snbt"
@@ -530,19 +534,19 @@ hash = "833ee1fa14ffed97d59118c0ca05df6342cd35a57724736a4ffb09d8b5fe5980"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "49e766523a90c891d852fb9b4e57fa160cfd3af227f16bb60641b7513a17e735"
+hash = "5cefd4a6ee82447b28f8072871833b081d13422fd8aa2ff659c8d0a1808c3288"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
-hash = "014bedefc323477dae71ae763a763090e48e31f2b896258771598fda37616bf5"
+hash = "ab6f75b38ffef6f1cf771fac884a6c1c4793d7daf4c614cc7bb9eecaff7b82bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tetra_basics.snbt"
-hash = "5efc535ea9cc360ba49afc1981e0d19ab2f71a8b26800d85b24ae688268919fa"
+hash = "c2600646633e876dbe4565ac8f956f5de0c1636d7ada931541b5e6c13228a855"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_shop.snbt"
-hash = "8dd35b72510311f90356028933afcbe6b26853a2912f8b97847f72b5a982b7d5"
+hash = "af2089baafa8d238e9949875e7112400d89573cbd24f6d28fb1584c91a0f8043"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/venus_goddess_of_love.snbt"
@@ -550,7 +554,7 @@ hash = "09f068fa21a6c2840c66b11f6a14e1b54fb0b1022f25f6a68c01e65e380496f0"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "5f3411d4049c03f498b7c25cb8baa8d7fcf6ca3aa9d8f1651bca1410d663b3da"
+hash = "384f9f835caf0a39bb051f29386b981af7b7f9e857a5d0da3964bcadbd4fa9f8"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/beds.snbt"
@@ -606,7 +610,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "9751dd2d4b9f583cba21c063ac8eead3603e2b494a1787ae86a27d212da235f0"
+hash = "4a9ff29b2bd77a0d89a3e7cd69505e353cc14da261d3a302bccec6f0db7df9e5"
 
 [[files]]
 file = "config/jmi-client.toml"
@@ -810,7 +814,7 @@ hash = "103249151fef996292834f3c4628d929305097d6f4f9da348870a17c167bcd6b"
 
 [[files]]
 file = "config/terrablender.toml"
-hash = "59d79e8bc4a42e678196a7164e5841a9803f8684f1b52b9944ce554c9f353691"
+hash = "11ef4c2666fa094b456310710c2b5cb8babbd71982d4d187c9a80ad4011d8014"
 
 [[files]]
 file = "config/tetra.toml"
@@ -839,6 +843,14 @@ hash = "9bda993074c56a87405bf37ceb4ac07157445772b6401f46bb13720117eeb4f9"
 [[files]]
 file = "config/visualworkbench-client.toml"
 hash = "a48b352862f74f6fe3ab071e7e43e631618e9c5f68b5f992b591d4dc87992954"
+
+[[files]]
+file = "config/weeping-angels-spawns.toml"
+hash = "1e7ba171c1128855a0c1fca9f910a5863cba066fa1edad22ef211cb6a4c3f22a"
+
+[[files]]
+file = "config/weeping_angels-common.toml"
+hash = "4fcec638d7311d5f3090d439828b588a1508e8f5ea3c6472502456eac656d98a"
 
 [[files]]
 file = "config/worldedit/.archive-unpack/2e1dd752/.unpack_finished"
@@ -1314,7 +1326,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "650ebfc123821af64a488718fbcc34a096c37ddc1586a03c20c2941c6d65cac6"
+hash = "d5e0db6a9a5f8e5f9356a4115ef33e6fca168e01f4fcb71a15369b60fce3136d"
 
 [[files]]
 file = "config/zeta-common.toml"
@@ -1426,7 +1438,7 @@ hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "11825df9f998f5fcd7fc7b97fdcdaaeca8cafb3a9bdea0e6adda88b08d072681"
+hash = "4e3656198522a8e2fb9df652a66614dc32b905633ecb95042dcd5e9708e35c27"
 
 [[files]]
 file = "kubejs/server_scripts/oredeposits.js"

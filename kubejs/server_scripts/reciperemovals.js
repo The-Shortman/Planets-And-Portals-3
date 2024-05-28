@@ -36,7 +36,6 @@ ServerEvents.recipes(e => {
 		// Create: TFMG
 		{output: 'tfmg:coke_oven'},
 		{output: 'tfmg:heavy_plate'},
-		{output: 'tfmg:steel_mechanism'},
 
 		// Create: New Age
 		{output: 'create_new_age:energiser_t1'},
@@ -50,7 +49,6 @@ ServerEvents.recipes(e => {
 
 		// Ad Astra
 		{output: 'ad_astra:steel_ingot'},
-		{output: 'ad_astra:steel_block'},
 		{output: 'ad_astra:etrionic_blast_furnace'},
 		{output: 'ad_astra:fuel_refinery'},
 		{output: 'ad_astra:compressor'},

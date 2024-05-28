@@ -5,11 +5,11 @@
 	group: "34B8FB3F21E5817B"
 	icon: "tfmg:cast_iron_smart_fluid_pipe"
 	id: "11278DA0961E4BA0"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2FED5D8D469697E9"]
+			dependencies: ["41758E06F66BD694"]
 			description: ["Don't overload on cresosote oil, your coke ovens will stop working!"]
 			id: "28BCBC0209B7C4ED"
 			subtitle: "Feed a coke oven coal and wait"
@@ -24,6 +24,7 @@
 		{
 			dependencies: ["28BCBC0209B7C4ED"]
 			id: "5C92A98D3E1D3722"
+			subtitle: "Crush coal coke between crushing wheels"
 			tasks: [{
 				id: "529E59515955F00F"
 				item: "tfmg:coal_coke_dust"
@@ -42,8 +43,8 @@
 				item: "tfmg:flarestack"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: -2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["2FED5D8D469697E9"]
@@ -59,8 +60,8 @@
 				item: "tfmg:low_grade_fuel_engine"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: -1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -68,6 +69,12 @@
 				"5C92A98D3E1D3722"
 			]
 			id: "00049FB88E368082"
+			rewards: [{
+				id: "1BB554DAD60B589E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Stronger iron alloys"
 			tasks: [{
 				id: "4BDE9654A29C17F7"
 				item: "tfmg:molten_steel_bucket"
@@ -77,9 +84,18 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3FB950C2AAB63B7E"]
+			dependencies: [
+				"3FB950C2AAB63B7E"
+				"1CB3E51C7C3FDC28"
+			]
 			icon: "tfmg:blast_furnace_output"
 			id: "0CAC39CC53D2824F"
+			rewards: [{
+				count: 4
+				id: "243E444413C0CCFA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 16L
@@ -111,7 +127,7 @@
 				item: "tfmg:fireproof_brick"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -122,21 +138,32 @@
 				item: "tfmg:fireclay_ball"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
+			description: ["Can be found underground and sometimes on the surface."]
 			id: "727F0ACD278108BF"
+			subtitle: "Incredibly heat resistant material"
 			tasks: [{
 				id: "447C873F0AA4EED9"
 				item: "tfmg:fireclay"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.5d
 			y: 3.0d
 		}
 		{
+			dependencies: [
+				"00049FB88E368082"
+				"2D6E59F3B491915E"
+			]
 			id: "6B3AD7F1EE3A08C3"
+			rewards: [{
+				id: "5BDADE99F740640F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2FD30D273A53EAD4"
 				item: "tfmg:steel_ingot"
@@ -144,6 +171,629 @@
 			}]
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["2FED5D8D469697E9"]
+			id: "41758E06F66BD694"
+			rewards: [{
+				id: "0E86CA74B47D4A0A"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Cook your coal into coal coke"
+			tasks: [{
+				count: 9L
+				id: "07A6136EE77204E5"
+				item: "tfmg:coke_oven"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34849FEBAB716C1D"]
+			id: "3738B2352BB897C7"
+			subtitle: "Basic iron alloying"
+			tasks: [{
+				id: "7C35AF2107A8F4AC"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3738B2352BB897C7"]
+			id: "35D51910C3C1DF00"
+			tasks: [{
+				id: "1CB3E51C7C3FDC28"
+				item: "tfmg:cast_iron_pipe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35D51910C3C1DF00"]
+			id: "2D6E59F3B491915E"
+			tasks: [
+				{
+					id: "160FE9760CE6530B"
+					item: "tfmg:casting_spout"
+					type: "item"
+				}
+				{
+					id: "2576ADC5014AE187"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+			]
+			title: "Casting"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B3AD7F1EE3A08C3"]
+			id: "1733F17BF59BB76C"
+			tasks: [{
+				id: "36114037B39F9C25"
+				item: "tfmg:steel_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1733F17BF59BB76C"]
+			id: "20DF00AF53604135"
+			rewards: [{
+				count: 4
+				id: "20DF00F3AB06651E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E1F18748DBBFCD2"
+				item: "tfmg:heavy_plate"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20DF00AF53604135"]
+			id: "70D398955F494CCC"
+			subtitle: "Scan for an oil deposit"
+			tasks: [{
+				id: "6A69244151392531"
+				item: "tfmg:surface_scanner"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70D398955F494CCC"]
+			description: ["You just need to look at the deposit to complete this quest"]
+			id: "3FE8367A52726DB8"
+			rewards: [{
+				count: 4
+				id: "137BFE1FC3E72B5B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Find an oil deposit in bedrock"
+			tasks: [{
+				icon: "tfmg:oil_deposit"
+				id: "6D463597AC2F7C47"
+				observe_type: 0
+				timer: 0L
+				title: "Find an oil deposit"
+				to_observe: "tfmg:oil_deposit"
+				type: "observation"
+			}]
+			title: "Oil Deposit"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"19EBDB24B938BF28"
+				"20DF00AF53604135"
+			]
+			id: "4D42D999C2360B89"
+			rewards: [{
+				id: "28311FC368D7E241"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19A5E9020CB00B08"
+				item: "tfmg:heavy_machinery_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3AD7F1EE3A08C3"]
+			id: "46DC00B20F31E3EF"
+			tasks: [{
+				id: "19EBDB24B938BF28"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"46DC00B20F31E3EF"
+				"2280E22683CB66C8"
+			]
+			description: ["Unlocks the Create: New Age chapter"]
+			id: "70DE94491EC1CB3F"
+			shape: "gear"
+			subtitle: "Start generating power!"
+			tasks: [{
+				id: "1C49BF443FDC3F4A"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			id: "2280E22683CB66C8"
+			subtitle: "Can be found underground"
+			tasks: [{
+				id: "654E70B6F3383AA7"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["19A5E9020CB00B08"]
+			id: "527432B1CA70E6B9"
+			tasks: [{
+				id: "37BBEDD922A2A751"
+				item: "tfmg:machine_input"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D42D999C2360B89"]
+			id: "378F08E949C1191A"
+			tasks: [{
+				id: "13AC0B24C84F46EC"
+				item: "tfmg:pumpjack_crank"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19A5E9020CB00B08"]
+			id: "4137992D80F7130D"
+			tasks: [{
+				id: "499F956D936FE5D9"
+				item: "tfmg:pumpjack_hammer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19A5E9020CB00B08"]
+			id: "79E1036C7ED127A9"
+			tasks: [{
+				id: "3655E10AD8BCC888"
+				item: "tfmg:steel_truss"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19A5E9020CB00B08"]
+			id: "2A75ABCD792ED92A"
+			tasks: [{
+				id: "6AD8C6CF9207A270"
+				item: "tfmg:pumpjack_hammer_part"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19A5E9020CB00B08"]
+			id: "7FC725C956DDA3D7"
+			tasks: [{
+				id: "3E40CCC69CD890E3"
+				item: "tfmg:pumpjack_hammer_head"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19A5E9020CB00B08"]
+			id: "11A44E1920BA9A0D"
+			tasks: [{
+				id: "00FA1D01757B1769"
+				item: "tfmg:pumpjack_hammer_connector"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19A5E9020CB00B08"]
+			id: "6CA4CA664C4666C1"
+			tasks: [{
+				id: "35BE3283770F876D"
+				item: "tfmg:pumpjack_base"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"35BE3283770F876D"
+				"13AC0B24C84F46EC"
+				"00FA1D01757B1769"
+				"3E40CCC69CD890E3"
+				"499F956D936FE5D9"
+				"6AD8C6CF9207A270"
+				"71A48F730F14BEC6"
+				"3655E10AD8BCC888"
+				"37BBEDD922A2A751"
+			]
+			description: [
+				"For instructions on building the pupjack, refer to the ponder guide."
+				""
+				"There is no functional difference between the normal and large pumpjacks. If you prefer the large one go for it!"
+			]
+			id: "12BB221EA057225A"
+			rewards: [{
+				id: "37A2C6B885994A0C"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "The pumpjack allows you to extract oil from deep below the Earth"
+			tasks: [{
+				id: "0D4158C592E6905C"
+				title: "Complete the Pumpjack"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"12BB221EA057225A"
+				"7358EA6E75E5D3FE"
+			]
+			dependency_requirement: "one_completed"
+			id: "67056B9B4D6219CB"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 4
+				id: "08E67B8EDF0CF5D3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "You really should set up a pumpjack to automate this"
+			tasks: [{
+				id: "07E73382434A1380"
+				item: "tfmg:crude_oil_fluid_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D463597AC2F7C47"]
+			id: "1117B7B93F6EBD5B"
+			subtitle: "Use this to extend down to the oil deposit"
+			tasks: [{
+				id: "71A48F730F14BEC6"
+				item: "tfmg:industrial_pipe"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D42D999C2360B89"]
+			id: "0EA4FC7AC553FC56"
+			rewards: [{
+				count: 4
+				id: "77586668452F9725"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59A2BFB34053B75E"
+				item: "tfmg:engine_base"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EA4FC7AC553FC56"]
+			description: ["It will only burn gasoline"]
+			id: "7B743487222AE17C"
+			subtitle: "This is a gasoline engine"
+			tasks: [{
+				id: "12B69C28BD848C69"
+				item: "tfmg:compact_engine"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EA4FC7AC553FC56"]
+			id: "5A4440D246D5535B"
+			subtitle: "Craft one of these into a Turbine Engine Back to complete the full turbine engine"
+			tasks: [{
+				count: 2L
+				id: "6FF0CA3ED8926B98"
+				item: "tfmg:turbine_engine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0EA4FC7AC553FC56"]
+			id: "7A8FE4C541C22245"
+			subtitle: "Craft one of these into a Gasoline Engine Back to complete the full gasoline engine"
+			tasks: [{
+				id: "3E8C9A1CDAEAED52"
+				item: "tfmg:gasoline_engine"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EA4FC7AC553FC56"]
+			id: "6A813C19D1453068"
+			subtitle: "Craft one of these into an Lpg Engine Back to complete the full LPG engine"
+			tasks: [{
+				id: "1E8E2B5C4C0D0557"
+				item: "tfmg:lpg_engine"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			id: "7358EA6E75E5D3FE"
+			optional: true
+			subtitle: "Find oil geysers on the surface of oceans"
+			tasks: [{
+				id: "493B8F4A6136629C"
+				item: "ad_astra:oil_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67056B9B4D6219CB"]
+			description: ["You can turn on 'Comfy Reading' at the bottom right side of the ponder index to slow down the text so it's easier to read."]
+			id: "3311928D4594E56C"
+			rewards: [{
+				id: "5C6CA6751244EC4D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Use the ponder guide to set this up"
+			tasks: [{
+				id: "320D9186573A21E9"
+				item: "tfmg:steel_distillation_controller"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B3AD7F1EE3A08C3"]
+			id: "7F1BAB10996A8AAF"
+			tasks: [{
+				id: "56DC9370302A355F"
+				item: "tfmg:steel_fluid_tank"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3311928D4594E56C"]
+			id: "497D102882789ED2"
+			rewards: [{
+				id: "61194313FABFE6DF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FB256879319D891"
+				item: "tfmg:steel_distillation_output"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["497D102882789ED2"]
+			id: "501F28ABF519FFA4"
+			tasks: [{
+				id: "0130FF5F7FF083E4"
+				item: "tfmg:kerosene_bucket"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["497D102882789ED2"]
+			id: "1ABC5FB76410824A"
+			tasks: [{
+				id: "70BBA715A3720982"
+				item: "tfmg:gasoline_bucket"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"1ABC5FB76410824A"
+				"501F28ABF519FFA4"
+			]
+			description: ["Unlocks the Preparing the Launch Site Chapter"]
+			id: "7719389CD71E8D88"
+			shape: "gear"
+			subtitle: "A mixture of gasoline and kerosene seems to be perfect for rocket fuel"
+			tasks: [{
+				id: "35F064DE45332C06"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["497D102882789ED2"]
+			id: "5A758B88D0BF17BD"
+			tasks: [{
+				id: "5F986151C3011B76"
+				title: "Other Fuels"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4D42D999C2360B89"]
+			id: "6F213995B4CCEEE9"
+			rewards: [{
+				id: "718BAC50F569DAD3"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5101FB5EB45BF0CB"
+				item: "tfmg:diesel_engine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5A758B88D0BF17BD"]
+			description: ["Cannot be bucketed, but can be pumped around"]
+			icon: "minecraft:bucket"
+			id: "4E249AF5F138AB3D"
+			subtitle: "Can be used in an LPG Engine"
+			tasks: [{
+				id: "5861EC6B3F2C159C"
+				title: "LPG"
+				type: "checkmark"
+			}]
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A758B88D0BF17BD"]
+			id: "24BA9B8251491CE3"
+			subtitle: "Can be further distilled into monomers"
+			tasks: [{
+				id: "3E424A3E87FD1089"
+				item: "tfmg:naphtha_bucket"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5A758B88D0BF17BD"]
+			id: "775B56F35CDF0155"
+			subtitle: "Can be used in a diesel engine"
+			tasks: [{
+				id: "5131D3D379E623F8"
+				item: "tfmg:diesel_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5A758B88D0BF17BD"]
+			id: "03B74B0C2D83149D"
+			tasks: [{
+				id: "7AFD31C816469219"
+				item: "tfmg:heavy_oil_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["03B74B0C2D83149D"]
+			id: "31F48114D43FCEC8"
+			subtitle: "Used in manufacturing engines"
+			tasks: [{
+				id: "3FB08F462A995A8B"
+				item: "tfmg:lubrication_oil_bucket"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6F213995B4CCEEE9"]
+			id: "6BAC0D1801F6CCCB"
+			tasks: [{
+				id: "31C39B687B885931"
+				item: "tfmg:air_intake"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F213995B4CCEEE9"]
+			id: "4C835AA1522E71E0"
+			tasks: [{
+				id: "6699307BDD71EE93"
+				item: "tfmg:exhaust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6F213995B4CCEEE9"]
+			id: "4EBB35B95A9AA4D5"
+			tasks: [{
+				id: "036C956B29DFB3E8"
+				item: "tfmg:diesel_engine_expansion"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
 		}
 	]
 	subtitle: ["E X P A N D"]

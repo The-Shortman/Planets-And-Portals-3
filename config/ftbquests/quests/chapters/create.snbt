@@ -12,9 +12,15 @@
 			description: [
 				"Create is an expansive mod that allows you to do quite basically anything you desire."
 				""
-				"Want to automate bread? Easy! Want to drill out an entire chunk at a time down to bedrock? Gotcha covered!"
+				"Want to automate bread? Easy! Want to drill out an entire chunk at a time down to bedrock? Gotcha covered! Want to run a train several thousand blocks to transport your beloved pet crab back and forth in a perpetual, neverending loop? Sure thing!"
 			]
 			id: "440ACAEBB9D96DB7"
+			rewards: [{
+				id: "2C611643B582CED5"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
 			size: 2.0d
 			subtitle: "I literally cannot live without this mod"
 			tasks: [{
@@ -69,7 +75,7 @@
 					advancement: "create:water_wheel"
 					criterion: ""
 					icon: {
-						Count: 1b
+						Count: 1
 						id: "minecraft:tipped_arrow"
 						tag: {
 							Potion: "minecraft:water_breathing"
@@ -157,6 +163,11 @@
 		{
 			dependencies: ["34849FEBAB716C1D"]
 			id: "7C0114C27044FF00"
+			rewards: [{
+				id: "27F3411702BFB79F"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "4716BC3BC85993BD"
@@ -170,6 +181,11 @@
 		{
 			dependencies: ["2CA59BD614BF28D5"]
 			id: "5F63BC3B13248EEA"
+			rewards: [{
+				id: "49627E5FA2C68B15"
+				type: "xp"
+				xp: 100
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "5792D44AF6CD9660"
@@ -199,6 +215,11 @@
 			]
 			icon: "create:goggles"
 			id: "18B46C77C6607534"
+			rewards: [{
+				id: "3CB38CF1769EF5D2"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Best in game guide ever devised"
 			tasks: [{
@@ -401,7 +422,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["440ACAEBB9D96DB7"]
+			dependencies: [
+				"440ACAEBB9D96DB7"
+				"7C1B4EDF0B3B0A7C"
+			]
 			description: ["Place this underneath your mixer's basin and give it solid fuel or lava to heat it up."]
 			id: "34849FEBAB716C1D"
 			subtitle: "You need some high temperatures to mix copper and zinc"
@@ -596,6 +620,11 @@
 				"It can also be used to configure certain blocks, and also rotate them. RMB on a block's face to rotate it. "
 			]
 			id: "66D01FC4A38BE2E1"
+			rewards: [{
+				id: "73F82CDCB709F972"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			subtitle: "So goddamn useful"
 			tasks: [{
 				id: "7B84DFD23B6EBA35"
@@ -612,6 +641,11 @@
 				"(Disclaimer: info about Create items only)"
 			]
 			id: "5E86B8B67D6646F7"
+			rewards: [{
+				id: "17C9820D06C310B3"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			subtitle: "Give me ALL the info!"
 			tasks: [{
 				id: "44C9B01663CC17D0"
@@ -899,7 +933,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7C0114C27044FF00"]
+			dependencies: [
+				"7C0114C27044FF00"
+				"247C80821D3B9E5C"
+			]
 			id: "2CA59BD614BF28D5"
 			tasks: [{
 				id: "6474120DA58A9843"
@@ -916,7 +953,7 @@
 			tasks: [{
 				id: "65736D5C56DF3E8C"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:potato_cannon"
 					tag: {
 						Damage: 0
@@ -933,7 +970,7 @@
 			tasks: [{
 				id: "2F0A632B095A77F6"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:extendo_grip"
 					tag: {
 						Damage: 0
@@ -972,15 +1009,21 @@
 		{
 			dependencies: ["6D63618CFFC9631F"]
 			id: "5121489503016E16"
+			rewards: [{
+				count: 4
+				id: "65C14186AB506FDA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Polish your rose quartz!"
 			tasks: [
 				{
 					id: "655183E74768D309"
 					item: {
-						Count: 1b
-						id: "create:sand_paper"
+						Count: 1
+						id: "itemfilters:tag"
 						tag: {
-							Damage: 0
+							value: "create:sandpaper"
 						}
 					}
 					title: "Sand Paper"
@@ -998,6 +1041,12 @@
 		}
 		{
 			id: "6D63618CFFC9631F"
+			rewards: [{
+				count: 4
+				id: "5BB72749AB5F418C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B56C02FF34C6EA7"
 				item: "create:rose_quartz"
@@ -1012,6 +1061,11 @@
 				"5121489503016E16"
 			]
 			id: "3C3D74F483D0DC76"
+			rewards: [{
+				id: "24BDB8A911843E12"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			subtitle: "I hate making these"
 			tasks: [{
 				id: "48483C22553615A1"
@@ -1027,6 +1081,7 @@
 			tasks: [{
 				id: "77B6DF58CB632607"
 				item: "create:track"
+				title: "Train Track"
 				type: "item"
 			}]
 			x: 5.5d
@@ -1096,7 +1151,7 @@
 			tasks: [{
 				id: "4A278657DC6F519A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:super_glue"
 					tag: {
 						Damage: 0
@@ -1151,7 +1206,7 @@
 			tasks: [{
 				id: "67714E57A9C15A4A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_backtank"
 					tag: {
 						Air: 900
@@ -1169,7 +1224,7 @@
 			tasks: [{
 				id: "52431D9AFBD8E511"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_diving_helmet"
 					tag: {
 						Damage: 0
@@ -1192,7 +1247,7 @@
 			tasks: [{
 				id: "68B1DDFA111C6EBD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:copper_diving_boots"
 					tag: {
 						Damage: 0
@@ -1211,7 +1266,7 @@
 			tasks: [{
 				id: "1D011482EF427EAC"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_backtank"
 					tag: {
 						Air: 900
@@ -1229,7 +1284,7 @@
 			tasks: [{
 				id: "3967E8585D299DCD"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_diving_helmet"
 					tag: {
 						Damage: 0
@@ -1248,7 +1303,7 @@
 			tasks: [{
 				id: "25A7D64676032495"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_diving_boots"
 					tag: {
 						Damage: 0
@@ -1324,7 +1379,13 @@
 			optional: true
 			tasks: [{
 				id: "3E8B549BB3E4F22B"
-				item: "railways:white_conductor_cap"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "railways:conductor_caps"
+					}
+				}
 				title: "Conductor Cap"
 				type: "item"
 			}]
@@ -1486,7 +1547,6 @@
 			size: 1.5d
 			subtitle: "E X P A N D"
 			tasks: [{
-				count: 9L
 				id: "1302FD0D059F0037"
 				item: "tfmg:coke_oven"
 				type: "item"
@@ -1537,7 +1597,7 @@
 				advancement: "create:diving_suit_lava"
 				criterion: ""
 				icon: {
-					Count: 1b
+					Count: 1
 					id: "create:netherite_diving_helmet"
 					tag: {
 						Damage: 0
