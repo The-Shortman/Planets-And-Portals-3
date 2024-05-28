@@ -845,14 +845,6 @@ file = "config/visualworkbench-client.toml"
 hash = "a48b352862f74f6fe3ab071e7e43e631618e9c5f68b5f992b591d4dc87992954"
 
 [[files]]
-file = "config/weeping-angels-spawns.toml"
-hash = "1e7ba171c1128855a0c1fca9f910a5863cba066fa1edad22ef211cb6a4c3f22a"
-
-[[files]]
-file = "config/weeping_angels-common.toml"
-hash = "4fcec638d7311d5f3090d439828b588a1508e8f5ea3c6472502456eac656d98a"
-
-[[files]]
 file = "config/worldedit/.archive-unpack/2e1dd752/.unpack_finished"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
@@ -2138,11 +2130,6 @@ metafile = true
 [[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "3a3648832ed73aad40fc1a29e1092238cbd3cd2b6f70f305db8a0ac6608e95ba"
-metafile = true
-
-[[files]]
-file = "mods/weeping-angels-mod.pw.toml"
-hash = "ebb996456a05f073cfb054e8a4d8e37ad5b809a9e8a8fd640603be95e73c02e5"
 metafile = true
 
 [[files]]
