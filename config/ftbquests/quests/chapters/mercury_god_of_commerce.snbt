@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mercury_god_of_commerce"
+	group: "17732307FB749052"
+	icon: "ad_astra:mercury_globe"
+	id: "5DB8FDF9A394AAD4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mercury, God of Commerce"
+}

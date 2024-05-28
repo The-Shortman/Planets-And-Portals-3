@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Create: Astral",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Create: Astral is a modpack for 1.18.2 Fabric. Its community really helped me out in making Planets and Portals, and I've contributed several features to the modpack itself. Check it out on Curseforge!",
+      "bold": false,
+      "color": "white"
+    }
+  }

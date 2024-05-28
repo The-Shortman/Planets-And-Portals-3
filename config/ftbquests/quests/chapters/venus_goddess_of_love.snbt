@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "venus_goddess_of_love"
+	group: "17732307FB749052"
+	icon: "ad_astra:venus_globe"
+	id: "09CCA4976D382030"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Venus, Goddess of Prosperity"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lunar_expeditions"
+	group: "00686336DBB6F3DF"
+	icon: "ad_astra:moon_globe"
+	id: "54197E6675FEF3E9"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Lunar Expeditions"
+}

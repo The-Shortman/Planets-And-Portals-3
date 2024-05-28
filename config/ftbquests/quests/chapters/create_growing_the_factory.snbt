@@ -1,0 +1,151 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_growing_the_factory"
+	group: "34B8FB3F21E5817B"
+	icon: "tfmg:cast_iron_smart_fluid_pipe"
+	id: "11278DA0961E4BA0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2FED5D8D469697E9"]
+			description: ["Don't overload on cresosote oil, your coke ovens will stop working!"]
+			id: "28BCBC0209B7C4ED"
+			subtitle: "Feed a coke oven coal and wait"
+			tasks: [{
+				id: "6C90013473FB348B"
+				item: "tfmg:coal_coke"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["28BCBC0209B7C4ED"]
+			id: "5C92A98D3E1D3722"
+			tasks: [{
+				id: "529E59515955F00F"
+				item: "tfmg:coal_coke_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2FED5D8D469697E9"]
+			description: ["Essentially voids flammable fluids. Stick it on the end of a pipe that is pumping your undesired fluid.."]
+			id: "7D66E5F2CFA0887D"
+			subtitle: "Can be used to burn off excess creosote oil and other flammable liquids"
+			tasks: [{
+				id: "3AAE919F8622A73C"
+				item: "tfmg:flarestack"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FED5D8D469697E9"]
+			description: [
+				"Doesn't actually burn much cresoste, and generates relatively very little rotational force."
+				""
+				"Requires a redstone signal to operate. The stronger the signal, the higher the output."
+			]
+			id: "72AB5133DAE92261"
+			subtitle: "Can be used to burn off excess creosote oil in a more useful way"
+			tasks: [{
+				id: "1B645628BB032F3D"
+				item: "tfmg:low_grade_fuel_engine"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"0CAC39CC53D2824F"
+				"5C92A98D3E1D3722"
+			]
+			id: "00049FB88E368082"
+			tasks: [{
+				id: "4BDE9654A29C17F7"
+				item: "tfmg:molten_steel_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FB950C2AAB63B7E"]
+			icon: "tfmg:blast_furnace_output"
+			id: "0CAC39CC53D2824F"
+			tasks: [
+				{
+					count: 16L
+					id: "54C5DDB109AB68D5"
+					item: "tfmg:fireproof_bricks"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "1FC4FED39E61723E"
+					item: "tfmg:fireproof_brick_reinforcement"
+					type: "item"
+				}
+				{
+					id: "52DDD9F22C5E0753"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+			]
+			title: "Blast Furnace"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7BD6AFA8A8A65144"]
+			id: "3FB950C2AAB63B7E"
+			tasks: [{
+				id: "4A144E93396C47A6"
+				item: "tfmg:fireproof_brick"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["727F0ACD278108BF"]
+			id: "7BD6AFA8A8A65144"
+			tasks: [{
+				id: "32F6CC3CC276B006"
+				item: "tfmg:fireclay_ball"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "727F0ACD278108BF"
+			tasks: [{
+				id: "447C873F0AA4EED9"
+				item: "tfmg:fireclay"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "6B3AD7F1EE3A08C3"
+			tasks: [{
+				id: "2FD30D273A53EAD4"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["E X P A N D"]
+	title: "Create: The Factory Must Grow"
+}

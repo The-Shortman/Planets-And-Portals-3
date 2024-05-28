@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "preparing_the_launch_site"
+	group: "00686336DBB6F3DF"
+	icon: "ad_astra:launch_pad"
+	id: "3572CF1B13404731"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Preparing the Launch Site"
+}

@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_solutions"
+	group: "34B8FB3F21E5817B"
+	icon: "storagedrawers:oak_full_drawers_4"
+	id: "05618391178E3683"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["You will have a storage problem"]
+	title: "Crude Storage Solutions"
+}

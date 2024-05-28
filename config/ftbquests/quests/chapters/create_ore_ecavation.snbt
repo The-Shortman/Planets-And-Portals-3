@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_ore_ecavation"
+	group: "34B8FB3F21E5817B"
+	icon: "createoreexcavation:drill"
+	id: "4F0B1F06047DAE20"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Exploit the earth of its hidden resources"]
+	title: "Create Ore Excavation (Tier 1)"
+}

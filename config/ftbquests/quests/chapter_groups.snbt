@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "34B8FB3F21E5817B", title: "Book 1 - Terragenesis" }
+		{ id: "00686336DBB6F3DF", title: "Book 2 - To the Stars" }
+		{ id: "674187E378257ECA", title: "Book 3 - The Red Planet" }
+		{ id: "17732307FB749052", title: "Book 4 - The Inner Twins" }
+	]
+}

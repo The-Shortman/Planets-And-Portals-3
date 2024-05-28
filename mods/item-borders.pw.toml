@@ -1,0 +1,13 @@
+name = "Item Borders [Forge]"
+filename = "ItemBorders-1.20.1-forge-1.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "496947f22a6b860af7a6211342714735f1f014c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4985587
+project-id = 513769

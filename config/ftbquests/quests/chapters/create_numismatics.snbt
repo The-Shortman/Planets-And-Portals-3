@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_numismatics"
+	group: ""
+	icon: "numismatics:cog"
+	id: "7AAB9D3105763B07"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	subtitle: ["Capitalism"]
+	title: "Create: Numismatics"
+}

@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Shaders",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Complimentary Unbound and Reimagined shaders are included in the pack by default. Enable them in video settings!",
+      "bold": false,
+      "color": "white"
+    }
+  }

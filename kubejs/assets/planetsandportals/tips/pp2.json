@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Did you know?",
+      "bold": true,
+      "color": "yellow"
+    },
+    "tip": {
+      "text": "Planets and Portals 2 was made for 1.18.2 Fabric and was abandoned partway through development. It was decided that the game version wasn't as workable as a more recent version and more popular modloader like 1.20.1 Forge, which is what P&P3 runs on.",
+      "bold": false,
+      "color": "white"
+    }
+  }

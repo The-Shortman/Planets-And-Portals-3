@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Planets and Portals 3",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Thanks for playing! <3",
+      "bold": false,
+      "color": "white"
+    }
+  }

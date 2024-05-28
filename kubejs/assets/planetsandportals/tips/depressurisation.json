@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Depressurisation",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "If an oxygen seal is broken in a sealed room in an airless environment, you'll be sucked out!",
+      "bold": false,
+      "color": "white"
+    }
+  }

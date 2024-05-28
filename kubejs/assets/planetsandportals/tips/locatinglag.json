@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Game lagging?",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "If you're opped, you can open the Observable profiler (you need to set the keybind) to find out exactly what's eating your processing time. If you're a bit more techincal, you can use the /spark command for a more detailed report!",
+      "bold": false,
+      "color": "white"
+    }
+  }

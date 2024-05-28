@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "martian_landscapes"
+	group: "674187E378257ECA"
+	icon: "ad_astra:mars_globe"
+	id: "49EBB2A4B15518DB"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mars, God of Conflict"
+}

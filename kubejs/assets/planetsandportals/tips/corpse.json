@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Corpses",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Upon death, your body will turn into a corpse, allowing you to safely collect your stuff. It floats on lava!",
+      "bold": false,
+      "color": "white"
+    }
+  }

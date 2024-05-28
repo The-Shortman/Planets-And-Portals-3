@@ -1,0 +1,129 @@
+{
+	autofocus_id: "3BB359C6FE95C544"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "credits"
+	group: ""
+	icon: "create:clipboard"
+	id: "40F5A23960C06A8D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Everyone who has contributed to this modpack in any substantial way is listed here!"
+				""
+				"Huge thanks to the Create: Astral discord server for helping me out with all the issues I had while making Planets and Portals!"
+			]
+			icon: "create:clipboard"
+			id: "3BB359C6FE95C544"
+			shape: "heart"
+			size: 4.0d
+			subtitle: "Massive thanks to ALL OF YOU!"
+			tasks: [{
+				id: "7F3F2815C16ACFFE"
+				title: "Credits!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BB359C6FE95C544"]
+			icon: "create:linked_controller"
+			id: "60C59D590B54221F"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Lab Rats"
+			tasks: [{
+				id: "131DB96278BBD76A"
+				title: "Playtesters"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BB359C6FE95C544"]
+			description: ["People that have directly contributed assets or code to the modpack"]
+			icon: "computercraft:computer_advanced"
+			id: "46D15BBDFEFAD5E3"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Behind the Scenes"
+			tasks: [{
+				id: "709E7AD62BF05EE4"
+				title: "Contributors and Developers"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3BB359C6FE95C544"]
+			icon: "dummmmmmy:target_dummy"
+			id: "3E3AC0C89A2A5D98"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "People that don't fit into the other 3 categories, but helped out in their own special ways!"
+			tasks: [{
+				id: "0D838E7E60D9C2D5"
+				title: "Other Credit-Worthy Individuals"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3BB359C6FE95C544"]
+			description: ["!!!"]
+			hide_dependency_lines: true
+			id: "621799EBD03A8A42"
+			min_required_dependencies: 2
+			subtitle: "???"
+			tasks: [{
+				icon: "minecraft:recovery_compass"
+				id: "3CB1B9D8E87C8B13"
+				title: "???"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["46D15BBDFEFAD5E3"]
+			hide_dependency_lines: true
+			icon: "create:goggles"
+			id: "322BA23516FDDBFD"
+			rewards: [{
+				id: "7555DED64484F704"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			subtitle: "Creator of Planets and Portals"
+			tasks: [{
+				id: "28AE0E67E353860C"
+				title: "_Shortman"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E3AC0C89A2A5D98"]
+			description: ["Helped me out way too much with a bunch of KubeJS code, thanks a tonne!"]
+			hide_dependency_lines: true
+			id: "75B5F03F4E536869"
+			subtitle: "KubeJS stuff"
+			tasks: [{
+				id: "55031F6DEF68E739"
+				title: "HyperRaccoon13"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+	]
+	subtitle: ["Thank you!"]
+	title: "Credits"
+}

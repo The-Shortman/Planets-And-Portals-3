@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_new_age"
+	group: "00686336DBB6F3DF"
+	icon: "create_new_age:generator_coil"
+	id: "729D8570CB598F5E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Create: New Age"
+}

@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Did you know?",
+      "bold": true,
+      "color": "yellow"
+    },
+    "tip": {
+      "text": "Planets and Portals (the original modpack) was made in 2021 for 1.12.2 Forge, and had nearly 10k downloads when P&P3 was being developed. You can still find it on Curseforge!",
+      "bold": false,
+      "color": "white"
+    }
+  }

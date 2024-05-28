@@ -1,0 +1,285 @@
+{
+	autofocus_id: "67E8273831E8B9D2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "start"
+	group: ""
+	icon: "create:content_observer"
+	id: "7C289CC7B7FC0A63"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: [
+				"It's a bit of a long story..."
+				""
+				"Planets and Portals (the first modpack) was a very basic collection of a couple of Forge 1.12.2 mods that I liked, and was by no means an enjoyable experience, at least in my opinion. I threw it together for a couple of friends and I back in 2021 and it has since reached almost 10 thousand downloads, and I have no idea why! You can still find it on curseforge!"
+				""
+				"Considering the success of the first modpack I eventually decided to improve upon it in a more recent version of Minecraft, so I landed on Fabric 1.18.2, and I started development on Planets and Portals 2 in May 2023. I actually got pretty invested in it, but a lot of limitations that comes with a lack of mods that I really liked not being on Fabric 1.18.2, eventually caused me to suffer from burnout after a couple of weeks."
+				""
+				"However, I finally cut my losses and abandoned Planets and Portals 2, opting to go for Forge 1.20.1 instead, which has a much wider selection of more updated mods, and I just couldn't resist it. It did mean having to completely change how the modpack is played, and losing over 2000 lines of KubeJS code that I had worked for tens of hours on, but I thought it would be worth it. So here we are, Planets and Portals 3!"
+				""
+				"If you read all of the above context then I really appreciate you taking the time to learn the history behind this modpack, so you've earned the free cookie. I hope you have a great time playing! <3"
+			]
+			icon: "computercraft:printed_book"
+			id: "47509DC6F7C9D88F"
+			rewards: [{
+				id: "7FA8D0F3189754AC"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			subtitle: "Wait- what happened to 1 and 2?"
+			tasks: [{
+				id: "1436B2A982978842"
+				title: "History Lesson"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			icon: "create_questing:blueprint"
+			id: "67E8273831E8B9D2"
+			rewards: [{
+				count: 8
+				id: "47A1BAFF92C3765C"
+				item: "croptopia:toast"
+				type: "item"
+			}]
+			shape: "heart"
+			size: 3.0d
+			subtitle: "Thanks for downloading!"
+			tasks: [{
+				id: "5AC5E395F404DE75"
+				title: "Planets and Portals 3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: [
+				"This modpack aims to stretch you out. In order to generate large, reliable quantities of resources you'll need to travel out a fair distance to find hidden underground resource deposits, which also means you'll need some sort of reliable long-distance transport infrastructure..."
+				""
+				"Beyond that, the processes for leaving the planet are far more tedious than the base Ad Astra mod, involving a much more tedious process for manufacturing steel and fuel, a new way to generate power for your machines, and the requirement of much more advanced rocket technology to reach the Moon than usual."
+				""
+				"At each planet more powerful resources are unlocked, allowing you to gain greater control over how your factory runs, improve your resource yields, and do loads of useless and stupid things along the way!"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "47CDBE631E57835F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "611488433AEBCCB9"
+				table_id: 6293641733887118551L
+				type: "choice"
+			}]
+			subtitle: "Hell yeah, gameplay!"
+			tasks: [{
+				id: "242D7A25AE73B68D"
+				title: "Progression?"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: [
+				"Bugs and suggestions can be made on the Github repository: &9&nhttps://github.com/The-Shortman/Planets-And-Portals-3/issues&r"
+				""
+				"(I don't actually know how to make this link clickable lol, a clickable link can be found on the modpack page)"
+				""
+				"You can even open a pull request if you've implemented your own idea or bug fix! Get your name in the credits!"
+			]
+			icon: "advancedperipherals:computer_tool"
+			id: "5035B04C3A0052E8"
+			rewards: [{
+				id: "07BD08F7ED834954"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Community Contribution!"
+			tasks: [{
+				id: "34F2A7D9426E6F9F"
+				title: "Reporting Bugs and Making Suggestions"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: [
+				"This pack comes with Tetra, a modular tool builder."
+				""
+				"You may notice that you can't craft anything more than wooden tools for a while, and this is because you are encouraged to use Tetra to upgrade your tools, stemming all the way from a wooden pickaxe."
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "097edfd1-d9fb-4fbf-8e67-f55d89ec427e"
+				}
+			}
+			id: "6C4EA412A208EDE0"
+			rewards: [{
+				count: 16
+				id: "68A5C9E8B3A9655F"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "Tinkers' Not Included™"
+			tasks: [{
+				id: "383A54365F952D6F"
+				title: "Modular tools"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: [
+				"You should have recieved a quest book upon loading the world, but you can throw it out - you don't actually need it!"
+				""
+				"By default the keybind *should* be 'J' to open the quests. You can change this in your keybinds, just search for quests."
+				""
+				"Or, you can access it from your inventory in the top left!"
+				""
+				"The Blueprint (reward for this quest) is just a retextured Quest Book."
+			]
+			icon: "ftbquests:book"
+			id: "4EE7592E664C47BD"
+			rewards: [{
+				id: "6811B372ECBC654C"
+				item: "create_questing:blueprint"
+				type: "item"
+			}]
+			subtitle: "Your best friend"
+			tasks: [{
+				id: "382803D2B80CFC44"
+				title: "Quest Book"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: [
+				"Certus quartz cannot be found in the overworld, and all of AE2 will eventually be gated behind Mercury."
+				""
+				"Mekanism will probably be gated behind Mars somehow. For now all Mekanism recipes are disabled."
+				""
+				"This pack uses a biome mod called Regions Unexplored. I likely won't add any more vanilla biome overhaul mods."
+			]
+			icon: "ad_astra:earth_globe"
+			id: "519C3A8987AC3CF9"
+			rewards: [{
+				count: 16
+				id: "0A9B50CE30902B5A"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			subtitle: "What is and isn't available?"
+			tasks: [{
+				id: "4B69482B62866F58"
+				title: "World Gen"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: [
+				"As you progress through the modpack, you'll be rewarded with a form of currency. This currency can only be generated inside the quests, and repeatable quests for money are tedious and require manual labour. This is to avoid hyperinflation."
+				""
+				"Yes, hyperinflation. Create: Numismatics allows a player-based economy with banking, trading, vending, depositing, and more! Check out the dedicated chapter!"
+			]
+			icon: "numismatics:cog"
+			id: "723A9A15D6A4F51A"
+			rewards: [{
+				id: "2E1238898CC9E2EE"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Capitalism in modded Minecraft"
+			tasks: [{
+				id: "762A763EFD684122"
+				title: "Numismatics"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: ["Currently the only celestial bodies available are Earth and the Moon. This will change over time, ideally including ALL Ad Astra planets by the time of the full pack release."]
+			icon: "supplementaries:globe"
+			id: "6AF6A17A5E8F0C11"
+			subtitle: "To the stars!"
+			tasks: [{
+				id: "1ACE5AF8BDC0A7BD"
+				title: "Planets"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: ["Currently the only portals are the vanilla portals. The portals theme is still yet TBD as to the direction I will take it."]
+			icon: "tempad:he_who_remains_tempad"
+			id: "4F98F89290C89B6B"
+			subtitle: "Worlds unknown"
+			tasks: [{
+				id: "31EC94DA0B5F91B5"
+				title: "Portals"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["67E8273831E8B9D2"]
+			description: [
+				"Observable and spark can be used to find sources of lag in your game."
+				""
+				"Observable can be acccessed with 0 on the numbers at the top of the keyboard."
+				"spark can be accessed by running /spark [subcommand] in chat/console."
+			]
+			icon: "minecraft:ender_eye"
+			id: "37ECD1B859DD6F38"
+			subtitle: "Observable and spark my beloved"
+			tasks: [{
+				id: "308854C5C82B6AF2"
+				title: "Locating Lag"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Start here!"]
+	title: "Welcome!"
+}

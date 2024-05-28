@@ -1,0 +1,22 @@
+{
+	id: "03FF1A25404FC7DE"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 512, item: "create:track" }
+		{ count: 512, item: "railways:track_acacia" }
+		{ count: 512, item: "railways:track_birch" }
+		{ count: 512, item: "railways:track_crimson" }
+		{ count: 512, item: "railways:track_dark_oak" }
+		{ count: 512, item: "railways:track_jungle" }
+		{ count: 512, item: "railways:track_oak" }
+		{ count: 512, item: "railways:track_spruce" }
+		{ count: 512, item: "railways:track_warped" }
+		{ count: 512, item: "railways:track_blackstone" }
+		{ count: 512, item: "railways:track_ender" }
+		{ count: 512, item: "railways:track_tieless" }
+		{ count: 512, item: "railways:track_phantom" }
+		{ count: 512, item: "railways:track_monorail" }
+	]
+	title: "Tracks"
+}

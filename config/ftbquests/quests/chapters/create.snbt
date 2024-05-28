@@ -1,0 +1,1567 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "34B8FB3F21E5817B"
+	icon: "create:flywheel"
+	id: "7D150AC8D1166D3A"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Create is an expansive mod that allows you to do quite basically anything you desire."
+				""
+				"Want to automate bread? Easy! Want to drill out an entire chunk at a time down to bedrock? Gotcha covered!"
+			]
+			id: "440ACAEBB9D96DB7"
+			size: 2.0d
+			subtitle: "I literally cannot live without this mod"
+			tasks: [{
+				id: "3E45C84EA3DC473B"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Welcome to Create!"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0F75E8F40A49C283"]
+			id: "31D45C44DBFB0EF9"
+			tasks: [{
+				id: "6D922EDEE7847872"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["31D45C44DBFB0EF9"]
+			id: "7A9A86D808631479"
+			tasks: [
+				{
+					id: "08DB1A2F39E89686"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "1645C34A7E2B2E3C"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00E07653D4637318"]
+			icon: "create:water_wheel"
+			id: "35C5D64CDBBA288B"
+			tasks: [
+				{
+					id: "16176709923211EB"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					advancement: "create:water_wheel"
+					criterion: ""
+					icon: {
+						Count: 1b
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
+					}
+					id: "48B20A40C9EA65F4"
+					type: "advancement"
+				}
+			]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35C5D64CDBBA288B"]
+			id: "5B86942E92787345"
+			tasks: [{
+				id: "105BC2BC3ACDF2C7"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["440ACAEBB9D96DB7"]
+			id: "0541277DE16681E9"
+			subtitle: "First age of industry"
+			tasks: [{
+				id: "74AEE8F2250D31D4"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7C0114C27044FF00"]
+			id: "15C514564EAFAB27"
+			subtitle: "Realising potential"
+			tasks: [{
+				id: "30EBB93E3623316C"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5F63BC3B13248EEA"]
+			id: "5D1C22F64BF373A4"
+			subtitle: "TRAINS!!!"
+			tasks: [{
+				id: "1B6F8993C2148841"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1511184307BF3AF3"]
+			id: "60ABC5E498C4F790"
+			subtitle: "Fluid transportation for everyone!"
+			tasks: [{
+				id: "06160F1D512BA01A"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["440ACAEBB9D96DB7"]
+			id: "1511184307BF3AF3"
+			size: 2.0d
+			tasks: [{
+				id: "29F95646602065DD"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Copper Age"
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["34849FEBAB716C1D"]
+			id: "7C0114C27044FF00"
+			size: 2.0d
+			tasks: [{
+				id: "4716BC3BC85993BD"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Brass Age"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CA59BD614BF28D5"]
+			id: "5F63BC3B13248EEA"
+			size: 2.0d
+			tasks: [{
+				id: "5792D44AF6CD9660"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "Logistical Age"
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31D45C44DBFB0EF9"]
+			id: "1652F06E47C2F2D7"
+			tasks: [{
+				id: "01F8D2183991E011"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Hold 'w' on most Create items to get a detailed guide on most of its functions."
+				""
+				"You can even hold 'w' on items in the quest book!"
+			]
+			icon: "create:goggles"
+			id: "18B46C77C6607534"
+			shape: "rsquare"
+			subtitle: "Best in game guide ever devised"
+			tasks: [{
+				id: "566C8E331CD14EE2"
+				title: "Ponder index"
+				type: "checkmark"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["35C5D64CDBBA288B"]
+			id: "38D9D69D8B95D9AF"
+			tasks: [
+				{
+					id: "3BC4A9B2AC22D439"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "44ED7F01F8414BEB"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Windmill"
+			x: -8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["440ACAEBB9D96DB7"]
+			icon: "create:andesite_encased_large_cogwheel"
+			id: "0F75E8F40A49C283"
+			subtitle: "Things that move kinetic energy and items"
+			tasks: [{
+				id: "2F81CA56A325AEA9"
+				title: "Andesite Kinetic Movers"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["440ACAEBB9D96DB7"]
+			icon: "create:water_wheel"
+			id: "00E07653D4637318"
+			subtitle: "Things that generate kinetic energy"
+			tasks: [{
+				id: "445E04C13FB7FD6F"
+				title: "Andesite Kinetic Sources"
+				type: "checkmark"
+			}]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"440ACAEBB9D96DB7"
+				"74AEE8F2250D31D4"
+			]
+			icon: "create:mechanical_press"
+			id: "1C707675E327A49A"
+			subtitle: "Things that use kinetic energy"
+			tasks: [{
+				id: "288D5A094C0F817D"
+				title: "Andesite Kinetic Machines"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C707675E327A49A"]
+			id: "693CB7DA05A91905"
+			subtitle: "Metal sheets are a very common crafting ingredient"
+			tasks: [{
+				id: "7C1B4EDF0B3B0A7C"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["693CB7DA05A91905"]
+			id: "010DE0CE83CE9084"
+			tasks: [
+				{
+					id: "1D7541E48774EFB6"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "4FF25FBD26C39381"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0541277DE16681E9"]
+			id: "34DD41A497F1AD7E"
+			tasks: [{
+				id: "05BB2D64DC56D4CB"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["693CB7DA05A91905"]
+			id: "5EFF1C0FBFD04F76"
+			tasks: [{
+				id: "51480B2D664F3A19"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A9A86D808631479"]
+			id: "378A3E8D12F25BFE"
+			tasks: [{
+				id: "517EFA8A16BB4B47"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00E07653D4637318"]
+			id: "296F6DF6B6B2CA2D"
+			tasks: [{
+				id: "23FEAC0549917F29"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["378A3E8D12F25BFE"]
+			id: "3DB52287CE3CE3A2"
+			tasks: [{
+				id: "00B49F86ED90BE86"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["378A3E8D12F25BFE"]
+			id: "15E5D1BF337CE1E1"
+			tasks: [{
+				id: "17869888B460F070"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["378A3E8D12F25BFE"]
+			id: "74DA0EFBA31B98A0"
+			tasks: [{
+				id: "63E2C2F32F27C5FD"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["74DA0EFBA31B98A0"]
+			id: "5D88A96F5C61277A"
+			tasks: [{
+				id: "5AE486144238109B"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1C707675E327A49A"]
+			id: "168419BA5C343092"
+			tasks: [{
+				id: "209031D3B62148F6"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["440ACAEBB9D96DB7"]
+			description: ["Place this underneath your mixer's basin and give it solid fuel or lava to heat it up."]
+			id: "34849FEBAB716C1D"
+			subtitle: "You need some high temperatures to mix copper and zinc"
+			tasks: [{
+				id: "4CD9D5DFD33017BB"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C707675E327A49A"]
+			id: "6F6E734835B731D7"
+			tasks: [{
+				id: "7AE03B80E691DB2C"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["693CB7DA05A91905"]
+			id: "709415E21A2F8867"
+			tasks: [{
+				id: "3827D4D75F920E67"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C707675E327A49A"]
+			id: "2FB2AAFF223C1E18"
+			tasks: [
+				{
+					id: "0C1075041F987C07"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "515E34BBDB5C4C97"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C707675E327A49A"]
+			id: "2E52F21EFD1DA6D2"
+			tasks: [{
+				id: "179E27B16739802D"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["693CB7DA05A91905"]
+			id: "2F8EA259BC25BAD0"
+			tasks: [{
+				id: "035EA54FAD753477"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1C707675E327A49A"]
+			id: "18213C1653F123C7"
+			tasks: [
+				{
+					id: "4600C7C47A3551D8"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					id: "7E226F405F36E9A6"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["693CB7DA05A91905"]
+			id: "306A5490910D2F91"
+			tasks: [{
+				id: "2D566A73B1EBCF9D"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["693CB7DA05A91905"]
+			id: "108807A9385C5A61"
+			tasks: [{
+				id: "5F2871153CB6516B"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0F75E8F40A49C283"]
+			id: "446962852EF24907"
+			tasks: [{
+				id: "463229DC919FDD27"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["693CB7DA05A91905"]
+			id: "7A7FD1A654445E82"
+			tasks: [{
+				id: "15F47A87FB24DD8E"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7A7FD1A654445E82"]
+			id: "12C07C9CB072468C"
+			tasks: [{
+				id: "0F1FCBA4F655BF75"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7C0114C27044FF00"]
+			icon: "create:steam_engine"
+			id: "2EDF729988C319A6"
+			subtitle: "Things that generate a bit more kinetic energy"
+			tasks: [{
+				id: "4EAF29D3F9789FC3"
+				title: "Brass Kinetic Sources"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C0114C27044FF00"]
+			icon: "create:brass_encased_large_cogwheel"
+			id: "7CFA9A1D9B9A5579"
+			subtitle: "Things that do a bit more than move kinetic energy and items"
+			tasks: [{
+				id: "35BBEC9F485F0C7A"
+				title: "Brass Kinetic Movers"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7C0114C27044FF00"]
+			icon: "create:mechanical_crafter"
+			id: "7A747F84576B724F"
+			subtitle: "Things that use a lot more kinetic energy"
+			tasks: [{
+				id: "3C78627F0D10B87C"
+				title: "Brass Kinetic Machines"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Shift+RMB on any Create block or vanilla redstone component to pick it back up, instantly!"
+				""
+				"The item is put directly in your inventory (meaning the item won't drop off a cliff), the wrench takes no durability hits, and it can even instantly break minecarts with LMB!"
+				""
+				"It can also be used to configure certain blocks, and also rotate them. RMB on a block's face to rotate it. "
+			]
+			id: "66D01FC4A38BE2E1"
+			subtitle: "So goddamn useful"
+			tasks: [{
+				id: "7B84DFD23B6EBA35"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Put this on your face to get extra info about EVERYTHING!"
+				""
+				"(Disclaimer: info about Create items only)"
+			]
+			id: "5E86B8B67D6646F7"
+			subtitle: "Give me ALL the info!"
+			tasks: [{
+				id: "44C9B01663CC17D0"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7A747F84576B724F"
+				"48483C22553615A1"
+			]
+			id: "294E24EA4F730A31"
+			tasks: [{
+				id: "61AFDB597FAA1D95"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2EDF729988C319A6"]
+			description: [
+				"A level 9 boiler is the only thing that's worth building at this stage."
+				""
+				"You can automatically feed the blaze burners solid fuel/lava buckets with a Mechanical Arm (Deployers can also be used but are much harder to set up)."
+			]
+			icon: "create:steam_whistle"
+			id: "735F34213F777729"
+			tasks: [
+				{
+					count: 9L
+					id: "673322A9BE8580CA"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "5E8C1A908DC558E1"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					id: "6763C18230501C0E"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "0E7770F74EA3C523"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Level 9 Steam Engine"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["294E24EA4F730A31"]
+			id: "33965327E319C662"
+			subtitle: "20% chance random salvage jumpscare"
+			tasks: [{
+				id: "4D9728B1D3B73E38"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7CFA9A1D9B9A5579"]
+			id: "544FBDF8544D7F36"
+			tasks: [{
+				id: "099B01B2D0F70660"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7CFA9A1D9B9A5579"]
+			id: "51A26B58132877E1"
+			tasks: [{
+				id: "14B4C11AB54258FF"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0F75E8F40A49C283"]
+			id: "2B157D975D1D734B"
+			tasks: [{
+				id: "2C069584055BE02E"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7CFA9A1D9B9A5579"]
+			id: "377C74F6C3ABD06C"
+			tasks: [{
+				id: "7824B917210FF2AA"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4D9728B1D3B73E38"
+				"7CFA9A1D9B9A5579"
+			]
+			id: "0A2498D4F02D7033"
+			tasks: [{
+				id: "4639FB32623A9D79"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1511184307BF3AF3"]
+			id: "06653DB7C2D3DDC2"
+			tasks: [{
+				id: "1B5FCF95ED1F7AA4"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["06653DB7C2D3DDC2"]
+			id: "231A429D4336F954"
+			tasks: [{
+				id: "6F2B0AF170B807E1"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["06653DB7C2D3DDC2"]
+			id: "5C0015FC1A75D309"
+			tasks: [{
+				id: "6B48048FA95AA70B"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1511184307BF3AF3"]
+			id: "204B7EDD04AA34EF"
+			tasks: [{
+				id: "1A32DC6C8CA19660"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["06653DB7C2D3DDC2"]
+			id: "132288D880F583C9"
+			tasks: [{
+				id: "0C46357B62CC1732"
+				item: "create:fluid_valve"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["132288D880F583C9"]
+			id: "6C1490CD9D1E71E0"
+			tasks: [{
+				id: "16481D2BF0C604DA"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1511184307BF3AF3"]
+			id: "40E173CFBB88493D"
+			subtitle: "Bottomless fluid sources are disabled!"
+			tasks: [{
+				id: "7131362946E839E0"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1511184307BF3AF3"]
+			id: "33051C0C7B84B5CA"
+			tasks: [{
+				id: "1CE7D671A49FC741"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1511184307BF3AF3"]
+			id: "555548953B87AFDC"
+			tasks: [{
+				id: "75E0905C8160B2F0"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1511184307BF3AF3"]
+			id: "477E46D831F78C7E"
+			tasks: [{
+				id: "707F303AF39E68F6"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["33965327E319C662"]
+			id: "3DEC106CF503987A"
+			tasks: [{
+				id: "5AB8181C01040A11"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33965327E319C662"]
+			id: "22E1F637EC14FA16"
+			tasks: [{
+				id: "3C13D7999AC92982"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7A747F84576B724F"]
+			id: "3BC6FECBD744C970"
+			tasks: [{
+				id: "46CFE32512B89DE1"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7A747F84576B724F"]
+			id: "579EB59435E7A073"
+			tasks: [{
+				id: "49DA251322FAE77A"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C0114C27044FF00"]
+			id: "2CA59BD614BF28D5"
+			tasks: [{
+				id: "6474120DA58A9843"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22E1F637EC14FA16"]
+			id: "0C24E18BA55C0092"
+			subtitle: "Weapon of mass destruction"
+			tasks: [{
+				id: "65736D5C56DF3E8C"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["22E1F637EC14FA16"]
+			id: "294001180EA89214"
+			tasks: [{
+				id: "2F0A632B095A77F6"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["22E1F637EC14FA16"]
+			id: "31DA21EF20F5CBED"
+			tasks: [{
+				id: "247C80821D3B9E5C"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"693CB7DA05A91905"
+				"48483C22553615A1"
+			]
+			id: "0F5C5C071BFEFAD4"
+			tasks: [{
+				id: "4BD40C20252A98CB"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["6D63618CFFC9631F"]
+			id: "5121489503016E16"
+			subtitle: "Polish your rose quartz!"
+			tasks: [
+				{
+					id: "655183E74768D309"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Sand Paper"
+					type: "item"
+				}
+				{
+					id: "6393BCDA3B615B75"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			title: "Sandpaper"
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			id: "6D63618CFFC9631F"
+			tasks: [{
+				id: "4B56C02FF34C6EA7"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7C1B4EDF0B3B0A7C"
+				"5121489503016E16"
+			]
+			id: "3C3D74F483D0DC76"
+			subtitle: "I hate making these"
+			tasks: [{
+				id: "48483C22553615A1"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3F4F6CB631C6E853"]
+			id: "4A94EB7FDD046A00"
+			tasks: [{
+				id: "77B6DF58CB632607"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F63BC3B13248EEA"]
+			icon: "create:track_station"
+			id: "3F4F6CB631C6E853"
+			tasks: [{
+				id: "0F338464D16B4440"
+				title: "Train Basics"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5F63BC3B13248EEA"]
+			icon: "railways:semaphore"
+			id: "128EDEA4A2B85D68"
+			tasks: [{
+				id: "6EE2B4F574660354"
+				title: "Advanced Train Infrastructure"
+				type: "checkmark"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["128EDEA4A2B85D68"]
+			id: "3192CD050ABA16C3"
+			optional: true
+			tasks: [{
+				id: "646D4F71D4ABFF88"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4A94EB7FDD046A00"]
+			id: "33518E61F4A2450A"
+			tasks: [{
+				id: "5B7BB583EDDA5168"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4A94EB7FDD046A00"]
+			id: "5ED8E4A6417E3FCF"
+			tasks: [{
+				id: "4BCA182F5989BBA3"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4A94EB7FDD046A00"]
+			id: "596D4221A46B54BF"
+			tasks: [{
+				id: "4A278657DC6F519A"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4A94EB7FDD046A00"]
+			id: "18BF2B6AE5807713"
+			optional: true
+			tasks: [{
+				id: "0F95BD4E5DFB4F18"
+				item: "create:white_seat"
+				type: "item"
+			}]
+			title: "Seat"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"596D4221A46B54BF"
+				"33518E61F4A2450A"
+				"5ED8E4A6417E3FCF"
+			]
+			id: "425A1A754363034A"
+			shape: "hexagon"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "2592EE34AF8C8D05"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1511184307BF3AF3"]
+			description: [
+				"Place this underneath a shaft to start filling it up."
+				""
+				"The backtank will gather air over time and make a DING when it's done. Its capacity can be increased with enchanting."
+				""
+				"Some late-mod items need pressurised air to function, such as the extendo grip and the potato cannon."
+			]
+			id: "5D72CD80A8384357"
+			subtitle: "Portable pressurised air"
+			tasks: [{
+				id: "67714E57A9C15A4A"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["5D72CD80A8384357"]
+			description: ["This is required for the backtank to keep you alive underwater!"]
+			id: "30940371AA326E00"
+			tasks: [{
+				id: "52431D9AFBD8E511"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5D72CD80A8384357"]
+			description: [
+				"This is not required to dive underwater, but is very useful for walking on the sea floor."
+				""
+				"They even prevent mechanical belts from moving you!"
+			]
+			id: "2007A50E6AA5A7F0"
+			subtitle: "Optional diving equipment"
+			tasks: [{
+				id: "68B1DDFA111C6EBD"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5D72CD80A8384357"]
+			description: ["You must wear a full netherite set for this to work! Use normal netherite leggings for the legs slot!"]
+			id: "24A3E10C86F30E42"
+			subtitle: "Volcanologist's dream"
+			tasks: [{
+				id: "1D011482EF427EAC"
+				item: {
+					Count: 1b
+					id: "create:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["30940371AA326E00"]
+			description: ["This is required for the diving set to work!"]
+			id: "7CE9E724A218FEDE"
+			tasks: [{
+				id: "3967E8585D299DCD"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2007A50E6AA5A7F0"]
+			description: ["You can use normal netherite boots for the netherite diving set, the diving boots are just more useful for moving through the lava."]
+			id: "75C4E67A0D04F636"
+			subtitle: "Optional diving equipment"
+			tasks: [{
+				id: "25A7D64676032495"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["3192CD050ABA16C3"]
+			description: ["Place this on top of signals to make them more visible!"]
+			id: "6A09985AE578310E"
+			optional: true
+			tasks: [{
+				id: "3287C0D8D88E8F40"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3192CD050ABA16C3"]
+			description: ["Place this on top of signals to make them more visible!"]
+			id: "4C9268C83E1F3FD6"
+			optional: true
+			tasks: [{
+				id: "5502938D1A1256C9"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["128EDEA4A2B85D68"]
+			id: "633958CDB9849EE8"
+			optional: true
+			tasks: [{
+				id: "43254807ED8BBE7E"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["128EDEA4A2B85D68"]
+			id: "7309E554BA7F5981"
+			optional: true
+			tasks: [
+				{
+					id: "0632CB5D160F25C5"
+					item: "railways:track_switch_andesite"
+					type: "item"
+				}
+				{
+					id: "0992CE23FFB2F421"
+					item: "railways:track_switch_brass"
+					type: "item"
+				}
+			]
+			title: "Track Switches"
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["128EDEA4A2B85D68"]
+			icon: "railways:white_conductor_cap"
+			id: "181E3F2871D043DA"
+			optional: true
+			tasks: [{
+				id: "3E8B549BB3E4F22B"
+				item: "railways:white_conductor_cap"
+				title: "Conductor Cap"
+				type: "item"
+			}]
+			title: "Conductor Cap"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["181E3F2871D043DA"]
+			description: [
+				"When bound to a conductor, allows you to right click on any rail segment to request that the conductor pathfind to that location."
+				""
+				"It will not pathfind if there is no route available, or it has to cross the wrong way over a signal."
+			]
+			id: "7BA62905826F6B78"
+			optional: true
+			tasks: [{
+				id: "54A4E0C0C4A5F19E"
+				item: "railways:conductor_whistle"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["181E3F2871D043DA"]
+			description: ["WHen linked to a conductor wearing goggles, allows you to take manual control of the conductor."]
+			id: "5CC372490FB846C8"
+			optional: true
+			tasks: [{
+				id: "0F6B65153BA1CE07"
+				item: "railways:remote_lens"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["128EDEA4A2B85D68"]
+			id: "25707B73F95FC1E6"
+			optional: true
+			tasks: [{
+				id: "690BBAE377F4E17B"
+				item: "create:schedule"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A94EB7FDD046A00"]
+			description: ["These are just the vanilla variants. Quark adds a few more!"]
+			id: "211A53F47D6612BE"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "0AF6B70AF1FAB033"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: "create:track"
+					id: "0E2C339204E950E9"
+					table_id: 287977648470083550L
+					type: "choice"
+				}
+			]
+			subtitle: "Collect them all!"
+			tasks: [
+				{
+					id: "22207A26D81EEA7A"
+					item: "railways:track_acacia"
+					type: "item"
+				}
+				{
+					id: "3F50E23D90DB9DD0"
+					item: "railways:track_birch"
+					type: "item"
+				}
+				{
+					id: "247CD6CC464B4041"
+					item: "railways:track_crimson"
+					type: "item"
+				}
+				{
+					id: "68F7FB8F6923B9FD"
+					item: "railways:track_dark_oak"
+					type: "item"
+				}
+				{
+					id: "697DE774AF14655E"
+					item: "railways:track_jungle"
+					type: "item"
+				}
+				{
+					id: "4B79D1921D12868D"
+					item: "railways:track_oak"
+					type: "item"
+				}
+				{
+					id: "0E7AD720672055F6"
+					item: "railways:track_spruce"
+					type: "item"
+				}
+				{
+					id: "609C79681E9DCC53"
+					item: "railways:track_warped"
+					type: "item"
+				}
+				{
+					id: "5B14A39B95C9B87F"
+					item: "railways:track_blackstone"
+					type: "item"
+				}
+				{
+					id: "0C22BC41D73EFC33"
+					item: "railways:track_ender"
+					type: "item"
+				}
+				{
+					id: "0C28F2B26EA722BD"
+					item: "railways:track_tieless"
+					type: "item"
+				}
+				{
+					id: "10DD019C4B83AA53"
+					item: "railways:track_phantom"
+					type: "item"
+				}
+				{
+					id: "0F33E3DD566F28E5"
+					item: "railways:track_monorail"
+					type: "item"
+				}
+			]
+			title: "Train track variants"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["128EDEA4A2B85D68"]
+			id: "4923AF3353D89CBE"
+			optional: true
+			tasks: [{
+				id: "0E09B1287E1B9334"
+				item: "railways:track_coupler"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F63BC3B13248EEA"]
+			description: ["Unlocks the \"Create: The Factory Must Grow\" Chapter."]
+			id: "2FED5D8D469697E9"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "E X P A N D"
+			tasks: [{
+				count: 9L
+				id: "1302FD0D059F0037"
+				item: "tfmg:coke_oven"
+				type: "item"
+			}]
+			title: "The Factory Must Grow"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			icon: "create:schematicannon"
+			id: "0625CFA53C315767"
+			rewards: [{
+				count: 16
+				id: "4A31F98E2D2766C0"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "64942FD48DB0D45D"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "74F88702C6CDE7CB"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "344E41DA1276952C"
+					item: "create:schematic_table"
+					type: "item"
+				}
+			]
+			title: "House builder gun"
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"7CE9E724A218FEDE"
+				"75C4E67A0D04F636"
+				"24A3E10C86F30E42"
+			]
+			description: ["Yes, this is a Helldivers 2 reference."]
+			id: "754113CC7ADFDAA9"
+			tasks: [{
+				advancement: "create:diving_suit_lava"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7E14E29A60BF4AC6"
+				title: "Democracy Achieved"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1C707675E327A49A"]
+			id: "703C542DB83858C4"
+			tasks: [{
+				id: "677463496C84EA35"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+	]
+	subtitle: ["Industrialisation"]
+	title: "Create"
+}
