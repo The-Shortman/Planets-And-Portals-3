@@ -30,7 +30,16 @@ ServerEvents.recipes(e => {
         e.recipes.create.deploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'create:cogwheel']),
         e.recipes.create.deploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'tfmg:screw']),
         e.recipes.create.deploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'tfmg:screwdriver']).keepHeldItem()
-    ]).transitionalItem('tfmg:unfinished_steel_mechanism').loops(4)
+    ]).transitionalItem('tfmg:unfinished_steel_mechanism').loops(4),
+
+    e.recipes.create.sequenced_assembly([
+        Item.of('create:sturdy_sheet').withChance(0.6),
+        Item.of('minecraft:iron_nugget').withChance(0.4) // Output
+    ], 'create:powdered_obsidian', [ // Input
+        e.recipes.create.deploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'minecraft:iron_nugget']),
+        e.recipes.create.pressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+        e.recipes.create.pressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
+    ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(5)
 })
 
 //function compactingRecipes(e) {
@@ -118,20 +127,48 @@ function mixingRecipes(e) {
         }
     ].forEach((recipe) => {
         e.recipes.create.mixing(recipe.outputs, recipe.inputs)
+    }),
+
+    [
+        {
+            outputs: [
+                'mekanism:ingot_osmium',
+            ],
+            inputs: [
+                'mekanism:dust_osmium',
+                'ad_astra:desh_nugget'
+            ]
+        },
+        {
+            outputs: [
+                'mekanism:ingot_lead',
+            ],
+            inputs: [
+                'mekanism:dust_lead',
+                'ad_astra:desh_nugget'
+            ]
+        },
+        {
+            outputs: [
+                'mekanism:dust_refined_obsidian',
+            ],
+            inputs: [
+                'mekanism:dust_obsidian',
+                'ad_astra:ostrum_nugget'
+            ]
+        },
+        {
+            outputs: [
+                'mekanism:ingot_uranium',
+            ],
+            inputs: [
+                'mekanism:dust_uranium',
+                'ad_astra:calorite_nugget'
+            ]
+        },
+    ].forEach((recipe) => {
+        e.recipes.create.mixing(recipe.outputs, recipe.inputs).heated()
     })
-//
-//    [
-//        {
-//            outputs: [
-//                '',
-//            ],
-//            inputs: [
-//                '',
-//            ]
-//        }
-//    ].forEach((recipe) => {
-//        e.recipes.create.mixing(recipe.outputs, recipe.inputs).heated()
-//    }),
 //
 //    [
 //        {
@@ -237,10 +274,32 @@ function crushingRecipes(e) {
                 'planetsandportals:crushed_ostrum_ore',
                 Item.of('create:experience_nugget').withChance(0.75)
             ]
-        },{
+        },
+        {
             input: 'ad_astra:raw_calorite',
             outputs: [
                 'planetsandportals:crushed_calorite_ore',
+                Item.of('create:experience_nugget').withChance(0.75)
+            ]
+        },
+        {
+            input: 'create:crushed_raw_osmium',
+            outputs: [
+                'mekanism:dust_osmium',
+                Item.of('create:experience_nugget').withChance(0.75)
+            ]
+        },
+        {
+            input: 'create:crushed_raw_lead',
+            outputs: [
+                'mekanism:dust_lead',
+                Item.of('create:experience_nugget').withChance(0.75)
+            ]
+        },
+        {
+            input: 'create:crushed_raw_uranium',
+            outputs: [
+                'mekanism:dust_uranium',
                 Item.of('create:experience_nugget').withChance(0.75)
             ]
         },

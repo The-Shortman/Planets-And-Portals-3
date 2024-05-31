@@ -1,12 +1,378 @@
 {
+	autofocus_id: "672E8CA30F5D1405"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_new_age"
 	group: "00686336DBB6F3DF"
 	icon: "create_new_age:generator_coil"
 	id: "729D8570CB598F5E"
-	order_index: 0
+	images: [{
+		height: 3.0d
+		image: "ftbquests:block/energy_input"
+		rotation: 0.0d
+		width: 3.0d
+		x: 3.5d
+		y: -4.5d
+	}]
+	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["46DC00B20F31E3EF"]
+			id: "623AA0C1D3B34A7B"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Motors and energisers"
+			tasks: [{
+				id: "4915BEB8729CC9F5"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			title: "Electricity Usage"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D42D999C2360B89"]
+			description: ["The ponder index is your best friend!"]
+			id: "672E8CA30F5D1405"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Generator Coil"
+			tasks: [{
+				id: "1C2A2BB8BB35110B"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			title: "Electricity Generation"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["672E8CA30F5D1405"]
+			id: "7E76459CFE57B0ED"
+			tasks: [{
+				id: "6721456DA6129570"
+				item: "create_new_age:carbon_brushes"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["672E8CA30F5D1405"]
+			description: [
+				"TIL respawn anchors are magnetic."
+				""
+				"Yes. They actually work with the generator coil."
+			]
+			id: "3B46BD7C9DF8E6CD"
+			tasks: [{
+				count: 12L
+				id: "530467FF94CC6DDA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create_new_age:magnet"
+					}
+				}
+				title: "Any #create_new_age:magnet"
+				type: "item"
+			}]
+			title: "Magnets"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["672E8CA30F5D1405"]
+			id: "4A4D8026038A8990"
+			tasks: [{
+				id: "4827826FD6D66E09"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["672E8CA30F5D1405"]
+			id: "48955C4FC600021F"
+			tasks: [{
+				id: "29CC74DEE6FFF4B1"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["623AA0C1D3B34A7B"]
+			id: "4018EDC66172D030"
+			tasks: [{
+				id: "78B64E28C46B0BD2"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["623AA0C1D3B34A7B"]
+			id: "4764356EC37D8E20"
+			tasks: [{
+				id: "0D614B799DB498B9"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4818CB59380DA6E0"]
+			id: "07CA8CF869C9FDA7"
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Basic Solar Plate"
+			tasks: [{
+				id: "75D13B1E24702D20"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			title: "Heat Generation"
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4818CB59380DA6E0"]
+			id: "536210E871FB61E1"
+			subtitle: "Concentrate heat into a component"
+			tasks: [{
+				id: "344DF8AFA1372635"
+				item: "create_new_age:heat_pump"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07CA8CF869C9FDA7"]
+			description: ["The stirling generator uses heat to spin a shaft."]
+			id: "02BF18769BC921B9"
+			subtitle: "Use that heat!"
+			tasks: [{
+				id: "5899B8F4E9005D10"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1511184307BF3AF3"]
+			description: [
+				"The heating system is a bit complex:"
+				""
+				"Heat generators will generate an amount of heat eavery tick. This heat is the added to the TOTAL heat of the whole network. Heat is spread evenly across all componenets, including heat pipes."
+				""
+				"Heat pumps can be used to concentrate heat in the network to certain areas (i.e. your heat users). Be careful though, as too much heat can cause the components to melt."
+			]
+			id: "4818CB59380DA6E0"
+			subtitle: "Spread heat around"
+			tasks: [{
+				id: "3B167EB205CC74C6"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4018EDC66172D030"]
+			id: "2D6E0596A3AA9137"
+			tasks: [{
+				id: "78A5A28CD05ECD17"
+				item: "create_new_age:advanced_motor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4764356EC37D8E20"]
+			id: "70EA7979F0F85ACD"
+			tasks: [{
+				id: "4871B5D418FC889A"
+				item: "create_new_age:energiser_t2"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["70EA7979F0F85ACD"]
+			id: "265B563CE677C82F"
+			tasks: [{
+				id: "236D173CF5FDB5A1"
+				item: "create_new_age:energiser_t3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2D6E0596A3AA9137"]
+			id: "44B616F679F6BF4E"
+			tasks: [{
+				id: "780C374E67BE44CE"
+				item: "create_new_age:reinforced_motor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["07CA8CF869C9FDA7"]
+			description: [
+				"These require a lot of heat to operate and as such it is recommended that you use blaze burners until you can make a crude fission reactor from Create: New Age."
+				""
+				"Using these over blaze burners can be beneficial due to the lack of actively feeding solid fuel, instead requiring a central heating system."
+			]
+			id: "089B9DB090C78824"
+			subtitle: "Overcomplicated blaze burner"
+			tasks: [{
+				id: "09CAC1022B70AB14"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07CA8CF869C9FDA7"]
+			id: "448337EEC0D38AFA"
+			subtitle: "Generate enven more heat!"
+			tasks: [{
+				id: "6930FC9C6350E7FB"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A4D8026038A8990"]
+			id: "2D21F1748D18D08E"
+			tasks: [{
+				id: "4BC33AF07549558C"
+				item: "create_new_age:overcharged_iron_wire"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D21F1748D18D08E"]
+			id: "07BC60FC96E88761"
+			tasks: [{
+				id: "5C4EE69F63510E4F"
+				item: "create_new_age:overcharged_golden_wire"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["07BC60FC96E88761"]
+			id: "1AC506808D26FB4D"
+			tasks: [{
+				id: "39B35A2D4B417B16"
+				item: "create_new_age:overcharged_diamond_wire"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4018EDC66172D030"]
+			id: "31A0C61AE0E7500B"
+			tasks: [{
+				id: "4BFA57C3EAADF4EF"
+				item: "create_new_age:basic_motor_extension"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44B616F679F6BF4E"]
+			id: "76385B70C4372640"
+			tasks: [{
+				id: "0C337445A37CDBB8"
+				item: "create_new_age:advanced_motor_extension"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5CFC86AC603DCA9E"]
+			id: "549DF43774BC3005"
+			tasks: [{
+				id: "5DC6C2872ED7BB96"
+				item: "create_new_age:nuclear_fuel"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["07CA8CF869C9FDA7"]
+			id: "5CFC86AC603DCA9E"
+			tasks: [{
+				id: "74A8CA1922E45957"
+				item: "create_new_age:radioactive_thorium"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["549DF43774BC3005"]
+			description: [
+				"PLEASE read the ponder guide for this!"
+				""
+				"Nuclear reactors are not viable for powering stirling engines! hook them up to Boiler Heaters to heat steam engines instead!"
+			]
+			id: "5089EFBB47655316"
+			subtitle: "This can only be used to generate heat directly, not electricity"
+			tasks: [
+				{
+					id: "6383123C2B45B0EC"
+					item: "create_new_age:reactor_rod"
+					type: "item"
+				}
+				{
+					id: "7F76BCFAE4822619"
+					item: "create_new_age:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "59C006D39E833CF4"
+					item: "create_new_age:reactor_fuel_acceptor"
+					type: "item"
+				}
+				{
+					id: "3B86DC04658533B7"
+					item: "create_new_age:reactor_heat_vent"
+					type: "item"
+				}
+			]
+			title: "Crude Nuclear Reactor"
+			x: 11.0d
+			y: -5.0d
+		}
+	]
+	subtitle: ["C O N S U M E"]
 	title: "Create: New Age"
 }

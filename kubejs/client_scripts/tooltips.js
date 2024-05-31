@@ -25,6 +25,10 @@ ItemEvents.tooltip(tooltip => {
         {
             ids: 'ad_astra:coal_generator',
             text: 'Disabled - use machines from [Create: New Age] instead.'
+        },
+        {
+            ids: 'mekanismgenerators:wind_generator',
+            text: "Disabled (I'm not having another 'Wind Mill' incident in my modpack)"
         }
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkRed())
@@ -43,6 +47,14 @@ ItemEvents.tooltip(tooltip => {
             ids: ['ad_astra:oil', 'ad_astra:oil_bucket'],
             text: 'Needs to be "crudified" in a mixing basin.'
         },
+        {
+            ids: 'minecraft:rotten_flesh',
+            text: 'Can be smelted/bulk blasted into leather.'
+        },
+        {
+            ids: 'minecraft:leather',
+            text: 'Can be obtained from smelting/bulk blasting rotten flesh.'
+        }
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkGreen())
     })

@@ -1,12 +1,220 @@
 {
+	autofocus_id: "744FDD3F40EC4A3D"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "preparing_the_launch_site"
 	group: "00686336DBB6F3DF"
 	icon: "ad_astra:launch_pad"
 	id: "3572CF1B13404731"
-	order_index: 1
+	images: [
+		{
+			height: 2.0d
+			image: "ad_astra:textures/environment/moon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			height: 5.0d
+			image: "ad_astra:textures/environment/earth.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.5d
+			y: 3.0d
+		}
+	]
+	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["20DF00AF53604135"]
+			id: "37820844114C6ABA"
+			tasks: [{
+				id: "16560EE72DA1945E"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["37820844114C6ABA"]
+			id: "09FCA7CF856F7061"
+			tasks: [
+				{
+					id: "3D0CEBEA4C80A768"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3AC2DEFF5E3D1FCA"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F5205FAF67B818D"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26B314432E09FFF3"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Spaceman"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"39E60485204E117F"
+				"4941BEA8A488150B"
+				"6149EBE3249827BE"
+				"1D521FC501CD386D"
+				"2AE1FA0784BFDD35"
+			]
+			id: "0A9445567E4ED5DA"
+			tasks: [{
+				id: "143B1C0C6A13A48A"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7719389CD71E8D88"]
+			id: "2334C5115E26D992"
+			subtitle: "3 to get there, 3 to return"
+			tasks: [{
+				count: 6L
+				id: "48A844A3C3F963BA"
+				item: "ad_astra:fuel_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"09FCA7CF856F7061"
+				"2334C5115E26D992"
+				"7DAFC038CA0C66EF"
+				"0A9445567E4ED5DA"
+			]
+			id: "744FDD3F40EC4A3D"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Please remember a backup launchpad and extra fuel!"
+			tasks: [{
+				advancement: "ad_astra:moon"
+				criterion: ""
+				id: "775AEABFFB0E2523"
+				type: "advancement"
+			}]
+			title: "Land on the Moon"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20DF00AF53604135"]
+			id: "7DAFC038CA0C66EF"
+			subtitle: "You need a launch pad to return to Earth!"
+			tasks: [{
+				count: 2L
+				id: "6C000F1493A80FA3"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["20DF00AF53604135"]
+			id: "6149EBE3249827BE"
+			tasks: [{
+				id: "1F1AE499FC56BC89"
+				item: "ad_astra:steel_engine"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6B3AD7F1EE3A08C3"]
+			id: "4941BEA8A488150B"
+			tasks: [{
+				id: "56299D9162817956"
+				item: "mekanism:structural_glass"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D42D999C2360B89"]
+			id: "1D521FC501CD386D"
+			tasks: [{
+				id: "07208ED5F3DFC1F0"
+				item: "tfmg:heavy_machinery_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4764356EC37D8E20"]
+			id: "2AE1FA0784BFDD35"
+			tasks: [{
+				id: "30193C9E49BE92E2"
+				item: "create_new_age:reactor_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F63BC3B13248EEA"]
+			id: "39E60485204E117F"
+			tasks: [{
+				id: "667EE3650BCE40F5"
+				item: "railways:fuel_tank"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+	]
+	subtitle: ["C O N Q U E R"]
 	title: "Preparing the Launch Site"
 }

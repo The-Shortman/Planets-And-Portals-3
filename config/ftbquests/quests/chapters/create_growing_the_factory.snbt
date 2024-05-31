@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_growing_the_factory"
-	group: "34B8FB3F21E5817B"
+	group: "00686336DBB6F3DF"
 	icon: "tfmg:cast_iron_smart_fluid_pipe"
 	id: "11278DA0961E4BA0"
-	order_index: 4
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
@@ -309,6 +309,7 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
+			subtitle: "Start generating power!"
 			tasks: [{
 				id: "19A5E9020CB00B08"
 				item: "tfmg:heavy_machinery_casing"
@@ -336,7 +337,7 @@
 			description: ["Unlocks the Create: New Age chapter"]
 			id: "70DE94491EC1CB3F"
 			shape: "gear"
-			subtitle: "Start generating power!"
+			subtitle: "Start using power!"
 			tasks: [{
 				id: "1C49BF443FDC3F4A"
 				item: "create_new_age:basic_motor"
@@ -665,12 +666,13 @@
 			description: ["Unlocks the Preparing the Launch Site Chapter"]
 			id: "7719389CD71E8D88"
 			shape: "gear"
-			subtitle: "A mixture of gasoline and kerosene seems to be perfect for rocket fuel"
+			subtitle: "A 50/50 mixture of gasoline and kerosene seems to be perfect for rocket fuel"
 			tasks: [{
 				id: "35F064DE45332C06"
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
+			title: "Rocket Fuel!"
 			x: 21.0d
 			y: 0.0d
 		}
@@ -742,6 +744,7 @@
 		{
 			dependencies: ["5A758B88D0BF17BD"]
 			id: "03B74B0C2D83149D"
+			subtitle: "Can be further distilled into useful products"
 			tasks: [{
 				id: "7AFD31C816469219"
 				item: "tfmg:heavy_oil_bucket"
@@ -787,6 +790,7 @@
 		{
 			dependencies: ["6F213995B4CCEEE9"]
 			id: "4EBB35B95A9AA4D5"
+			subtitle: "Attach to your diesel engine to make it more powerful!"
 			tasks: [{
 				id: "036C956B29DFB3E8"
 				item: "tfmg:diesel_engine_expansion"

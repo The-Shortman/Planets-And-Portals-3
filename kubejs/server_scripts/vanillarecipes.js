@@ -58,6 +58,10 @@ function smeltingRecipes(e) {
             input: 'planetsandportals:crushed_calorite_ore',
             output: 'ad_astra:calorite_ingot'
         },
+        {
+            input: 'minecraft:rotten_flesh',
+            output: 'minecraft:leather'
+        }
     ].forEach((recipe) => {
         e.smelting(recipe.output, recipe.input)
     })

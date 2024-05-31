@@ -10,7 +10,15 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Right click while this is in your hand in order to locate the nearest ore deposit."]
+			description: [
+				"Right click while this is in your hand in order to locate the nearest ore deposit."
+				""
+				"It will also show a red circle on your JourneyMap displaying the possible area the nearest deposit is located in. Once you find it, a permanent marker will remain on your map indicating all infinite deposits you've found."
+				""
+				"Depending on the ore vein you want, you might be searching a while. It's a good idea to make a biplane or similar aircraft to explore."
+				""
+				"That also means it will be an effort to transport. It is recommended that you invenst into a train manufacturing plant of sorts to transport your goods. Trains can travel through unloaded chunks, but their stations must be chunkloaded in order to load/unload resources."
+			]
 			id: "602915031BB8E671"
 			rewards: [{
 				id: "170662D6E8E4B240"
@@ -30,12 +38,18 @@
 		}
 		{
 			dependencies: ["22E1F637EC14FA16"]
+			description: [
+				"This needs to be placed in a chunk containing an underground resource deposit. It requires rotational power and sometimes fluids to function."
+				""
+				"Check REI for resource deposit requirements by searching for 'infinite vein'."
+			]
 			id: "49F9E3ED99A62079"
 			rewards: [{
 				id: "46351403D76AA1E9"
 				item: "numismatics:sprocket"
 				type: "item"
 			}]
+			subtitle: "Extract ores from the earth"
 			tasks: [{
 				id: "1A05173EF11B5AEF"
 				item: "createoreexcavation:drilling_machine"
@@ -46,6 +60,11 @@
 		}
 		{
 			dependencies: ["22E1F637EC14FA16"]
+			description: [
+				"This needs to be placed in a chunk containing an underground resource deposit. It requires rotational power and sometimes fluids to function."
+				""
+				"Check REI for resource deposit requirements by searching for 'infinite vein'."
+			]
 			id: "2F20EF4550079875"
 			rewards: [{
 				id: "7E3A7664C0F5AEB7"
@@ -64,6 +83,12 @@
 		{
 			description: ["Drills need to be attached to your extractors"]
 			id: "470F8B44F319713F"
+			rewards: [{
+				count: 4
+				id: "57BE0D8E038879D5"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "708EE088174CEF7E"
 				item: "createoreexcavation:drill"
@@ -75,6 +100,11 @@
 		{
 			dependencies: ["470F8B44F319713F"]
 			id: "36DE9E336B6BCCB7"
+			rewards: [{
+				id: "7F4ADF739BC5E405"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AB2C7578C28C1AA"
 				item: "createoreexcavation:diamond_drill"
@@ -86,6 +116,12 @@
 		{
 			dependencies: ["36DE9E336B6BCCB7"]
 			id: "1D15C5B1C03FE53F"
+			rewards: [{
+				count: 2
+				id: "0FC2EC9BD9AFBD4F"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AB01488C5300F5C"
 				item: "createoreexcavation:netherite_drill"

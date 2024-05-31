@@ -49,16 +49,25 @@
 			dependencies: ["179CA7253B021017"]
 			id: "594CD35ACE90F9A8"
 			tasks: [{
-				id: "648E082C66EA0DB3"
-				item: "tetra:basic_workbench"
-				type: "item"
+				icon: "tetra:basic_workbench"
+				id: "363EAE34953EF8C7"
+				observe_type: 0
+				timer: 0L
+				title: "Create a Workbench"
+				to_observe: "tetra:basic_workbench"
+				type: "observation"
 			}]
+			title: "Workbench"
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["179CA7253B021017"]
-			description: ["The STRC and SYST options at the top don't currently do anything. They might do something in a later version of Tetra though!"]
+			description: [
+				"The STRC and SYST options at the top don't currently do anything. They might do something in a later version of Tetra though!"
+				""
+				"This is also required for certain functionality of the workbench, you can place it on the floor by Shift+RMB."
+			]
 			id: "439F098B13E00345"
 			subtitle: "Tetra's Mod Manual"
 			tasks: [{
@@ -109,123 +118,145 @@
 		}
 		{
 			dependencies: ["594CD35ACE90F9A8"]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/stone"
+					"double/basic_hammer_right_material": "basic_hammer/stone"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "8535f21b-a7dd-4987-b8fd-79a4c6f7647d"
+				}
+			}
 			id: "2C7A09965DAB183F"
 			tasks: [{
-				id: "41A12475807EC6D4"
-				item: {
-					Count: 1
-					id: "tetra:modular_double"
-					tag: {
-						Damage: 0
-						"double/basic_hammer_left_material": "basic_hammer/stone"
-						"double/basic_hammer_right_material": "basic_hammer/stone"
-						"double/basic_handle_material": "basic_handle/stick"
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "8535f21b-a7dd-4987-b8fd-79a4c6f7647d"
-					}
-				}
-				type: "item"
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+				id: "714A84FFF2F4A5D9"
+				type: "advancement"
 			}]
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2C7A09965DAB183F"]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "b0ab132f-fc05-4ca3-974c-6981f31dad10"
+				}
+			}
 			id: "1E7BF86D0030CF42"
 			tasks: [{
-				id: "7769A767F61E08CF"
-				item: {
-					Count: 1
-					id: "tetra:modular_double"
-					tag: {
-						Damage: 0
-						"double/basic_hammer_left_material": "basic_hammer/iron"
-						"double/basic_hammer_right_material": "basic_hammer/iron"
-						"double/basic_handle_material": "basic_handle/spruce"
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "b0ab132f-fc05-4ca3-974c-6981f31dad10"
-					}
-				}
-				type: "item"
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "102EAE909257AC2E"
+				type: "advancement"
 			}]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1E7BF86D0030CF42"]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/blackstone"
+					"double/basic_hammer_right_material": "basic_hammer/blackstone"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "3ff2d73a-42e9-4fce-9b74-32ba14c0c3cd"
+				}
+			}
 			id: "44B725CFBDE8BD48"
 			tasks: [{
-				id: "49461D83646BFB18"
-				item: {
-					Count: 1
-					id: "tetra:modular_double"
-					tag: {
-						Damage: 0
-						"double/basic_hammer_left_material": "basic_hammer/blackstone"
-						"double/basic_hammer_right_material": "basic_hammer/blackstone"
-						"double/basic_handle_material": "basic_handle/spruce"
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "3ff2d73a-42e9-4fce-9b74-32ba14c0c3cd"
-					}
-				}
-				type: "item"
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "6E050924E1990B97"
+				type: "advancement"
 			}]
 			x: 6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["44B725CFBDE8BD48"]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/obsidian"
+					"double/basic_hammer_right_material": "basic_hammer/obsidian"
+					"double/basic_handle_material": "basic_handle/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "3b92c862-55a4-4b84-aa58-b97b78429db5"
+				}
+			}
 			id: "1C25C96DC5044095"
 			tasks: [{
-				id: "586104621E87B047"
-				item: {
-					Count: 1
-					id: "tetra:modular_double"
-					tag: {
-						Damage: 0
-						"double/basic_hammer_left_material": "basic_hammer/obsidian"
-						"double/basic_hammer_right_material": "basic_hammer/obsidian"
-						"double/basic_handle_material": "basic_handle/iron"
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "3b92c862-55a4-4b84-aa58-b97b78429db5"
-					}
-				}
-				type: "item"
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+				id: "651661A5A7F30FF2"
+				type: "advancement"
 			}]
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1C25C96DC5044095"]
+			icon: {
+				Count: 1
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/netherite"
+					"double/basic_hammer_right_material": "basic_hammer/netherite"
+					"double/basic_handle_material": "basic_handle/forged_beam"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "4ae70604-a6e1-4508-9f48-d2169c4be990"
+				}
+			}
 			id: "30F89AC70C99048D"
 			tasks: [{
-				id: "0D019495EDC0C8BA"
-				item: {
-					Count: 1
-					id: "tetra:modular_double"
-					tag: {
-						Damage: 0
-						"double/basic_hammer_left_material": "basic_hammer/netherite"
-						"double/basic_hammer_right_material": "basic_hammer/netherite"
-						"double/basic_handle_material": "basic_handle/forged_beam"
-						"double/handle": "double/basic_handle"
-						"double/head_left": "double/basic_hammer_left"
-						"double/head_right": "double/basic_hammer_right"
-						id: "4ae70604-a6e1-4508-9f48-d2169c4be990"
-					}
-				}
-				type: "item"
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+				id: "48D4BB6AC17910D7"
+				type: "advancement"
 			}]
 			x: 9.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["439F098B13E00345"]
+			id: "02CF2842485298BE"
+			tasks: [{
+				advancement: "tetra:spelunking/percussion_scanner"
+				criterion: ""
+				id: "35EA321A9D8FCE12"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Modular tools babyy!"]

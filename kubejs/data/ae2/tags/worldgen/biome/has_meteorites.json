@@ -1,4 +1,5 @@
 {
+    "replace": true,
     "values": [
         {
             "id": "ad_astra:mercury_deltas",
