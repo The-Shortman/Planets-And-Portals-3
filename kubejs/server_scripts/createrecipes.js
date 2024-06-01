@@ -40,6 +40,15 @@ ServerEvents.recipes(e => {
         e.recipes.create.pressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
         e.recipes.create.pressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
     ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(5)
+
+    e.recipes.create.sequenced_assembly([
+        Item.of('ad_astra:desh_plate'), // Output
+    ], 'ad_astra:desh_block', [ // Input
+        e.recipes.create.pressing(placehold, placehold),
+        e.recipes.create.deploying(placehold, [placehold, 'tfmg:heavy_plate']),
+        e.recipes.create.pressing(placehold, placehold),
+        e.recipes.create.pressing(placehold, placehold)
+    ]).transitionalItem(placehold).loops(1)
 })
 
 //function compactingRecipes(e) {
@@ -145,7 +154,7 @@ function mixingRecipes(e) {
             ],
             inputs: [
                 'mekanism:dust_lead',
-                'ad_astra:desh_nugget'
+                'ad_astra:ostrum_nugget'
             ]
         },
         {
@@ -189,6 +198,10 @@ function hauntingRecipes(e) {
         {
             input: 'minecraft:glass',
             output: 'create:framed_glass'
+        },
+        {
+            input: 'minecraft:charcoal',
+            output: 'minecraft:coal'
         }
     ].forEach((recipe) => {
         e.recipes.create.haunting(recipe.output, recipe.input)
@@ -201,6 +214,16 @@ function deployingRecipes(e) {
             input: 'create:railway_casing',
             heldItem: 'tfmg:cast_iron_ingot',
             output: 'tfmg:coke_oven'
+        },
+        {
+            input: 'brewery:wooden_brewingstation',
+            heldItem: 'minecraft:copper_block',
+            output: 'brewery:copper_brewingstation'
+        },
+        {
+            input: 'brewery:silo_wood',
+            heldItem: 'minecraft:copper_block',
+            output: 'brewery:silo_copper'
         },
     ].forEach((recipe) => {
         e.recipes.create.deploying(recipe.output, [recipe.input, recipe.heldItem])
@@ -253,6 +276,29 @@ function mechanicalCraftingRecipes(e) {
                 J: 'ad_astra:steel_engine'
             },
             output: 'ad_astra:tier_1_rocket'
+        },
+        {
+            pattern: [
+                '  A  ',
+                ' BCB ',
+                ' DED ',
+                ' FGF ',
+                'HFIFH',
+                'H J H'
+            ],
+            key: {
+                A: 'ad_astra:rocket_nose_cone',
+                B: 'mekanism:advanced_bin',
+                C: 'ad_astra:oxygen_loader',
+                D: 'mekanism:advanced_fluid_tank',
+                E: 'create_new_age:reactor_glass',
+                F: 'ad_astra:desh_plateblock',
+                G: 'create:white_seat',
+                H: 'ad_astra:rocket_fin',
+                I: 'ad_astra:gravity_normalizer',
+                J: 'ad_astra:desh_engine'
+            },
+            output: 'ad_astra:tier_2_rocket'
         },
     ].forEach((recipe) => {
         e.recipes.create.mechanical_crafting(recipe.output, recipe.pattern, recipe.key)

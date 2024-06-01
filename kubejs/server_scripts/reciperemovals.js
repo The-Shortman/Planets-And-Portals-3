@@ -40,6 +40,13 @@ ServerEvents.recipes(e => {
 		// Create: New Age
 		{output: 'create_new_age:thorium'},
 
+		// Create Ore Excavation
+		{id: 'createoreexcavation:ore_vein_type/water'},
+		{mod: 'createoreexcavation', output: Fluid.of('minecraft:water')},
+		{id: 'createoreexcavation:ore_vein_type/nether_gold'},
+		{mod: 'createoreexcavation', output: 'minecraft:gold_nugget'},
+
+
 		// AE2
 		{output: 'ae2:inscriber'},
 
@@ -95,9 +102,16 @@ ServerEvents.recipes(e => {
 		{output: 'ad_astra:steel_engine'},
 		{output: 'ad_astra:launch_pad'},
 		{output: 'ad_astra:coal_generator'},
+		{output: 'ad_astra:desh_plate'},
+		{output: 'ad_astra:desh_plateblock'},
+		{output: 'ad_astra:desh_engine'},
 
 		// Tempad
 		{mod: 'tempad'},
+
+		// Brewery
+		{output: 'brewery:copper_brewingstation'},
+		{output: 'brewery:silo_copper'}
 
 	].forEach((recipe => {
 		e.remove(recipe)

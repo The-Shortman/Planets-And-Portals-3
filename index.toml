@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "b66804e4a81e3873fd035774f21accb63c07d5b84ff1f6af043c51f72f0f5a28"
+hash = "993a0366e7e3d14cd5395d61ff6e34bcc1fd096360b5cc7150bbbdcccde66b5d"
 
 [[files]]
 file = "config/Advancedperipherals/general.toml"
@@ -373,10 +373,6 @@ file = "config/fancymenu/assets/trainmountain.png"
 hash = "36d2e9491b4854cc6cbacb639c099cbc7f6b2b4800d5dc46373571e23cff0ede"
 
 [[files]]
-file = "config/fancymenu/assets/voidgeyser.png"
-hash = "905ce0f1f9b8db9e4b2d24481a422d83c7021df2a499efe948bf3f6f1420eb0d"
-
-[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
 hash = "7d4410bcfc1dcf3265c53842a57f0f9d95a07131d4de67116a9f65def0bcf54a"
 
@@ -402,7 +398,7 @@ hash = "cea002aa8ebc1f665d7652e1c9dd9abf2651002a1b76c0cab85832c6e0d8e74e"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "145912f0157c11082a0eae9a2f1a3b4cb7ed2f7892975148a49e16be866d2edf"
+hash = "652a6379ffbe067e08915a8449049aab0c1bd1b99baa810af680fa377df42c36"
 
 [[files]]
 file = "config/fancymenu/customization/edit_server_screen_layout.txt"
@@ -438,7 +434,7 @@ hash = "41518af7a1887278ebbea3f6fa2df817dcfbb67d2a8ecd347e5c58f25cf07e46"
 
 [[files]]
 file = "config/fancymenu/customization/pause_screen_layout.txt"
-hash = "4b64d02dad1773830a6bf9a502a5acd4563537235f8c8942764d535f22f6eb26"
+hash = "e7ea7731ff3c800361d84ee2046b6543fe15496c617bd82f4cc614b57990ddae"
 
 [[files]]
 file = "config/fancymenu/customization/select_world_screen_layout.txt"
@@ -454,7 +450,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "1d3da37182fafef1292c71850d5acb4bcd5f21712b1273694eef42c0bf78277a"
+hash = "c4797477cdcaff39ab2ec8751e493a9f3a1fc52619649bb4c339ccbae46b6c95"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -466,7 +462,27 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "8794aef598a6b2d3fb3acfb55832145a26d7fe4ad5db5ff50061f8fdfca39c9f"
+hash = "916db098eae11203cdcd10f83c99c9e393bd88b1d12cac1b4c5678d47d511ecd"
+
+[[files]]
+file = "config/fancymenu/slideshows/menu_screen/images/image_1.jpg"
+hash = "54d026a13defbbf9e56fb54c4d3bede32ade2b8fb2b5eb1d52b1a572b564c161"
+
+[[files]]
+file = "config/fancymenu/slideshows/menu_screen/images/image_2.jpg"
+hash = "f387963f5069cac2ceb7153fba4ed4e9bb30cb54a3e36c785329dd1fe0d96cfa"
+
+[[files]]
+file = "config/fancymenu/slideshows/menu_screen/images/image_3.jpg"
+hash = "e66468a7accfe651043c14cf979545012d5c6039e40a9eff73ce757403b1acdc"
+
+[[files]]
+file = "config/fancymenu/slideshows/menu_screen/images/image_4.jpg"
+hash = "e5379ca3632b163c3d93648b066eba24bc43540cfdcf2fc431d9dd9c8a7aeaec"
+
+[[files]]
+file = "config/fancymenu/slideshows/menu_screen/properties.txt"
+hash = "ba407507e9ac667c29a4a8a87305334d6785efe9f5a013f95a6bb3059d2a132f"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -1450,11 +1466,11 @@ hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "75a823da1d99e2233fa2e3aebcecc11e399b2ecf0df079bd94025367008d9691"
+hash = "e8a88f90e8ef6443b6edcb9f827dd79a13ad50dd42d9406d0bfde471db48a097"
 
 [[files]]
 file = "kubejs/server_scripts/oredeposits.js"
-hash = "067c0534dad7edb85781dcbf1bab563e03d948e4c54a63db95520aa7f97efb70"
+hash = "5d6e17bcf6b5675602c00ab5cae011acba3534a0874d3f619d448a5cb314f058"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"
@@ -1462,11 +1478,11 @@ hash = "14b36debff2f1772006ad1dd3e398420966faca3353031d8a90ee65d1a30ff26"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "f75b4f9ec95c774cbe2882334ab948001e25e82d829f61bacee763945e788747"
+hash = "1edd5de500b2001570186817e32251629c560bb24f2bb56a4633a44a14e76fdf"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "acd10e1a0a9a2ed6bbb7795a2e63842f07caa2197e4878cf47d22634da3cc662"
+hash = "11187de57abc9b21bfe0a6e4cd7cfd6836a83c6de672e0c35de101ee3fb328d8"
 
 [[files]]
 file = "kubejs/startup_scripts/itemregistry.js"
@@ -1514,7 +1530,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "1ccdc223317e3c8da5594e56d66a0da5dd9b8a7caa43bbc03d517309321193b6"
+hash = "1067eb79a7595900dfe6b117a8a9dae8ce2c8872cc996cf5e30da4bf1aca770b"
 metafile = true
 
 [[files]]
@@ -1555,6 +1571,11 @@ metafile = true
 [[files]]
 file = "mods/canary.pw.toml"
 hash = "e5df83a3dd1686106741d1d61da5869aed0537c2931a40234e1b3bd2d09e1971"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
+hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
 metafile = true
 
 [[files]]
@@ -1854,7 +1875,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "d8ff6c7b4962348db5e8d901921b2b7133ef7c2ec42f4a3eca4028665a656921"
+hash = "67e1f27f4afae2accf10b9ac25a20eacb7459f8edd89d94a338f6591eed376c3"
 metafile = true
 
 [[files]]

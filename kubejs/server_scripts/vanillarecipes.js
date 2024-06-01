@@ -25,6 +25,33 @@ function shapedRecipes(e) {
             },
             output: 'ad_astra:steel_engine'
         },
+        {
+            pattern: [
+                'ABA',
+                'BBB',
+                'ABA'
+            ],
+            key: {
+                A: 'ad_astra:desh_plate',
+                B: 'ad_astra:desh_ingot',
+            },
+            output: 'ad_astra:desh_plateblock'
+        },
+        {
+            pattern: [
+                'ABA',
+                'CDC',
+                ' E '
+            ],
+            key: {
+                A: 'mekanism:block_osmium',
+                B: 'create_new_age:reactor_heat_vent',
+                C: 'ad_astra:desh_plate',
+                D: 'ad_astra:desh_plateblock',
+                E: 'ad_astra:steel_engine',
+            },
+            output: 'ad_astra:desh_engine'
+        },
     ].forEach((recipe) => {
         e.shaped(recipe.output, recipe.pattern, recipe.key)
     })
