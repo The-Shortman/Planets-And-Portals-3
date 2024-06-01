@@ -1,6 +1,6 @@
 # Planets-And-Portals-3
 An in-development modpack for Minecraft Forge 1.20.1
-This is the official repository for the Planets and Portals 3 modpack, available on Curseforge. Reporting issues and making suggestions is to be done in the Issues tab on this repository and nowhere else. It makes it much easier to keep track of everything <3
+This is the official repository for the Planets and Portals 3 modpack, soon to be available on Curseforge. Reporting issues and making suggestions is to be done in the Issues tab on this repository and nowhere else. It makes it much easier to keep track of everything <3
 
 If you're looking to simply play the modpack, it is recommended you download it from Curseforge, not here.
 
