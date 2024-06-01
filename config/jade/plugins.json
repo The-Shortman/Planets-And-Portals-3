@@ -53,6 +53,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "exposure": {
+    "lightroom": true
+  },
   "mekanism": {
     "infuse_type": true,
     "gas": true,
