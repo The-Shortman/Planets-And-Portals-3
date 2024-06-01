@@ -7,7 +7,7 @@ If you're looking to simply play the modpack, it is recommended you download it 
 **Current version: Pre-release v001**
 
 ## Playtesters
-This repository is for the most up-to-date development build. The most stable/complete release of the pack for the Curseforge launcher can be found on the discord server in the Releases channel. You should also be able to use it with other modded launchers like Prism. It is recommended that you use Prism.
+This repository is for the most up-to-date development build. The most stable/complete release of the pack for the Curseforge launcher can be found on the discord (https://discord.gg/QxQFrYfwkg) server in the Releases channel. You should also be able to use it with other modded launchers like Prism. It is recommended that you use Prism.
 
 You **can** share this pack with your friends, just ask them to join the discord server as well, so I can credit them for playtesting, and so they can report issues.
 
