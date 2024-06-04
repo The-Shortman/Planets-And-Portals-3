@@ -6,6 +6,16 @@
 	group: ""
 	icon: "create:content_observer"
 	id: "7C289CC7B7FC0A63"
+	images: [{
+		click: "https://github.com/The-Shortman/Planets-And-Portals-3/issues"
+		height: 1.0d
+		hover: ["Click to access the github issue tracker!"]
+		image: "ftblibrary:icons/bug"
+		rotation: 0.0d
+		width: 1.0d
+		x: 0.0d
+		y: 5.5d
+	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -91,9 +101,7 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"Bugs and suggestions can be made on the Github repository: &9&nhttps://github.com/The-Shortman/Planets-And-Portals-3/issues&r"
-				""
-				"(I don't actually know how to make this link clickable lol, a clickable link can be found on the modpack page)"
+				"Bugs and suggestions can be made on the Github repository, the link is on the image below this quest."
 				""
 				"You can even open a pull request if you've implemented your own idea or bug fix! Get your name in the credits!"
 			]
@@ -161,7 +169,7 @@
 			description: [
 				"You should have recieved a quest book upon loading the world, but you can throw it out - you don't actually need it!"
 				""
-				"By default the keybind *should* be 'J' to open the quests. You can change this in your keybinds, just search for quests."
+				"I would recommend setting a keybind to open the quest book. Go to your controls, and search for quests."
 				""
 				"Or, you can access it from your inventory in the top left!"
 				""
@@ -188,7 +196,7 @@
 			description: [
 				"Certus quartz cannot be found in the overworld, and all of AE2 will eventually be gated behind Mercury."
 				""
-				"Mekanism will probably be gated behind Mars somehow. For now all Mekanism recipes are disabled."
+				"Basic Mekanism machines are gated behind the moon. More advanced Mekanism recipes are locked behind later planets"
 				""
 				"This pack uses a biome mod called Regions Unexplored. I likely won't add any more vanilla biome overhaul mods."
 			]
@@ -293,6 +301,26 @@
 			}]
 			x: 0.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["6C4EA412A208EDE0"]
+			description: ["To fix the fact that Tetra tools can't be crafted from Regions Unexplored's wood types, here's a free oak tree until I fix it :3"]
+			icon: "minecraft:oak_sapling"
+			id: "4D0E70CE1E8B6DF6"
+			rewards: [{
+				id: "7CA0D9F1D133B313"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			subtitle: "Peak modpack development"
+			tasks: [{
+				id: "0EFCE4C8350E96DD"
+				title: "Free Oak Tree Please"
+				type: "checkmark"
+			}]
+			title: "Free Oak Tree [TEMPORARY]"
+			x: -4.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Start here!"]

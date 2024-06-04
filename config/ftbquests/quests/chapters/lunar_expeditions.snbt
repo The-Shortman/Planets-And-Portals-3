@@ -7,6 +7,31 @@
 	id: "54197E6675FEF3E9"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		dependencies: ["0A9445567E4ED5DA"]
+		icon: "ad_astra:moon_globe"
+		id: "75A8BA081E0C763E"
+		shape: "octagon"
+		size: 3.0d
+		subtitle: "YOOOO"
+		tasks: [
+			{
+				advancement: "ad_astra:moon"
+				criterion: ""
+				id: "30A3D80609AD6E46"
+				title: "Land on the Moon"
+				type: "advancement"
+			}
+			{
+				id: "763682623BAE121B"
+				title: "Let's get started!"
+				type: "checkmark"
+			}
+		]
+		title: "Starting your interplanetary empire"
+		x: 0.0d
+		y: 0.0d
+	}]
+	subtitle: ["A new world to destroy"]
 	title: "Lunar Expeditions"
 }

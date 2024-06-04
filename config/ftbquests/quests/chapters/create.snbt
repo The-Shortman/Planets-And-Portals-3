@@ -262,6 +262,7 @@
 			dependencies: ["440ACAEBB9D96DB7"]
 			icon: "create:andesite_encased_large_cogwheel"
 			id: "0F75E8F40A49C283"
+			shape: "square"
 			subtitle: "Things that move kinetic energy and items"
 			tasks: [{
 				id: "2F81CA56A325AEA9"
@@ -275,6 +276,7 @@
 			dependencies: ["440ACAEBB9D96DB7"]
 			icon: "create:water_wheel"
 			id: "00E07653D4637318"
+			shape: "square"
 			subtitle: "Things that generate kinetic energy"
 			tasks: [{
 				id: "445E04C13FB7FD6F"
@@ -291,6 +293,7 @@
 			]
 			icon: "create:mechanical_press"
 			id: "1C707675E327A49A"
+			shape: "square"
 			subtitle: "Things that use kinetic energy"
 			tasks: [{
 				id: "288D5A094C0F817D"
@@ -584,6 +587,7 @@
 			dependencies: ["7C0114C27044FF00"]
 			icon: "create:steam_engine"
 			id: "2EDF729988C319A6"
+			shape: "square"
 			subtitle: "Things that generate a bit more kinetic energy"
 			tasks: [{
 				id: "4EAF29D3F9789FC3"
@@ -597,6 +601,7 @@
 			dependencies: ["7C0114C27044FF00"]
 			icon: "create:brass_encased_large_cogwheel"
 			id: "7CFA9A1D9B9A5579"
+			shape: "square"
 			subtitle: "Things that do a bit more than move kinetic energy and items"
 			tasks: [{
 				id: "35BBEC9F485F0C7A"
@@ -610,6 +615,7 @@
 			dependencies: ["7C0114C27044FF00"]
 			icon: "create:mechanical_crafter"
 			id: "7A747F84576B724F"
+			shape: "square"
 			subtitle: "Things that use a lot more kinetic energy"
 			tasks: [{
 				id: "3C78627F0D10B87C"
@@ -1099,6 +1105,7 @@
 			dependencies: ["5F63BC3B13248EEA"]
 			icon: "create:track_station"
 			id: "3F4F6CB631C6E853"
+			shape: "square"
 			tasks: [{
 				id: "0F338464D16B4440"
 				title: "Train Basics"
@@ -1111,6 +1118,7 @@
 			dependencies: ["5F63BC3B13248EEA"]
 			icon: "railways:semaphore"
 			id: "128EDEA4A2B85D68"
+			shape: "square"
 			tasks: [{
 				id: "6EE2B4F574660354"
 				title: "Advanced Train Infrastructure"
@@ -1122,7 +1130,6 @@
 		{
 			dependencies: ["128EDEA4A2B85D68"]
 			id: "3192CD050ABA16C3"
-			optional: true
 			tasks: [{
 				id: "646D4F71D4ABFF88"
 				item: "create:track_signal"
@@ -1434,7 +1441,6 @@
 		{
 			dependencies: ["128EDEA4A2B85D68"]
 			id: "25707B73F95FC1E6"
-			optional: true
 			tasks: [{
 				id: "690BBAE377F4E17B"
 				item: "create:schedule"

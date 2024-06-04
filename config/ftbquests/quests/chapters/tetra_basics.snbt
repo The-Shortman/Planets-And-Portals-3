@@ -24,6 +24,11 @@
 	quests: [
 		{
 			id: "179CA7253B021017"
+			rewards: [{
+				id: "68FCE3E11027B24A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FA020A3117D1D19"
 				item: {
@@ -48,6 +53,7 @@
 		{
 			dependencies: ["179CA7253B021017"]
 			id: "594CD35ACE90F9A8"
+			subtitle: "Right click on a crafting table with a hammer"
 			tasks: [{
 				icon: "tetra:basic_workbench"
 				id: "363EAE34953EF8C7"
@@ -66,7 +72,7 @@
 			description: [
 				"The STRC and SYST options at the top don't currently do anything. They might do something in a later version of Tetra though!"
 				""
-				"This is also required for certain functionality of the workbench, you can place it on the floor by Shift+RMB."
+				"This is also required for certain functionalities of the workbench, you can place it on the floor by Shift+RMB."
 			]
 			id: "439F098B13E00345"
 			subtitle: "Tetra's Mod Manual"
@@ -93,7 +99,14 @@
 		}
 		{
 			dependencies: ["594CD35ACE90F9A8"]
+			description: ["Certain deepslate blocks will 'glimmer'. Breaking these will yield a geode."]
 			id: "3BB37AC662791A27"
+			rewards: [{
+				id: "20D656CA5E9F6E07"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Can be found in deepslate"
 			tasks: [{
 				id: "47AB5D1791FE2952"
 				item: "tetra:geode"
@@ -133,6 +146,12 @@
 				}
 			}
 			id: "2C7A09965DAB183F"
+			rewards: [{
+				count: 4
+				id: "3B98C60947093BDE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/hammer_2"
 				criterion: ""
@@ -159,6 +178,11 @@
 				}
 			}
 			id: "1E7BF86D0030CF42"
+			rewards: [{
+				id: "5B77356810529D99"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/hammer_3"
 				criterion: ""
@@ -185,6 +209,11 @@
 				}
 			}
 			id: "44B725CFBDE8BD48"
+			rewards: [{
+				id: "5DF73E15C5E2B580"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/hammer_4"
 				criterion: ""
@@ -211,6 +240,12 @@
 				}
 			}
 			id: "1C25C96DC5044095"
+			rewards: [{
+				count: 2
+				id: "18B8E550F4404097"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/hammer_5"
 				criterion: ""
@@ -237,6 +272,11 @@
 				}
 			}
 			id: "30F89AC70C99048D"
+			rewards: [{
+				id: "7E71CAB571E73BBD"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "tetra:upgrades/hammer_6"
 				criterion: ""

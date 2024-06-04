@@ -118,7 +118,11 @@
 		}
 		{
 			dependencies: ["3E3AC0C89A2A5D98"]
-			description: ["Helped me out way too much with a bunch of KubeJS code, thanks a tonne!"]
+			description: [
+				"Helped me out way too much with a bunch of KubeJS code, thanks a tonne!"
+				""
+				"(Discord: TheOverlyCaffeinatedTrashPanda)"
+			]
 			hide_dependency_lines: true
 			icon: "ae2:mysterious_cube"
 			id: "75B5F03F4E536869"
@@ -130,6 +134,192 @@
 			}]
 			x: 0.0d
 			y: 6.5d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			icon: "railways:pink_conductor_cap"
+			id: "4CC107C793241A14"
+			rewards: [{
+				id: "1D9D3BAC4D2E913D"
+				item: "minecraft:pink_dye"
+				type: "item"
+			}]
+			subtitle: "\"PINK!!!\""
+			tasks: [{
+				id: "630AD67E4ACA6CF0"
+				title: "Violet"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			icon: "brewery:beer_mug"
+			id: "78E699EFB18890B9"
+			rewards: [{
+				id: "3105C6F1971627F0"
+				item: "brewery:beer_mug"
+				type: "item"
+			}]
+			subtitle: "\"Want a brew?\""
+			tasks: [{
+				id: "4CE7C003A7FBA78E"
+				title: "MrRumblz89"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "469B08C6BC60183A"
+			tasks: [{
+				id: "7F62F15D8CD40E7A"
+				title: "Skullboy987"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "4D0A5D80EC86F9C7"
+			tasks: [{
+				id: "4E2DF33B187EAC0F"
+				title: "Yoperion"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "33615DAFE979201C"
+			tasks: [{
+				id: "218622B152DFC1AA"
+				title: "thegoofygoose"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "3CC45D3D3E61E7D6"
+			tasks: [{
+				id: "479E5E93AB9D40FD"
+				title: "RaKonski"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "66EFB4241F852879"
+			tasks: [{
+				id: "4C991A93A2C54E46"
+				title: "Zero"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			icon: "minecraft:wolf_spawn_egg"
+			id: "611FAC0E5D5BBDC3"
+			rewards: [{
+				id: "24CEB90030E2BC9C"
+				item: "minecraft:wolf_spawn_egg"
+				type: "item"
+			}]
+			subtitle: ":wolfGif:"
+			tasks: [{
+				id: "03A2FE286C36C912"
+				title: "Laskyyy"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "6062DE29C838D55F"
+			tasks: [{
+				id: "5651CC92BE253E63"
+				title: "defineduser"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "183DDD98CB132DD2"
+			tasks: [{
+				id: "300643DBE6CA81DD"
+				title: "The Spokesman"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "340E8CA13D3098CF"
+			tasks: [{
+				id: "07E4780E5937B29E"
+				title: "ThEmeralDuke"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "5843A40719FBF40F"
+			tasks: [{
+				id: "58468D72758412E1"
+				title: "Artificial Beans"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "0807CDE478A5C5CE"
+			tasks: [{
+				id: "5845CBC723B88946"
+				title: "DepressedBlobfish"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "2CFC92F30E1424DB"
+			tasks: [{
+				id: "1A254B59EBC4D7AE"
+				title: "zakzax"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["131DB96278BBD76A"]
+			id: "0AE97A75634A24B0"
+			tasks: [{
+				id: "204C5557E4796D30"
+				title: "Thor0510"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: -2.0d
 		}
 	]
 	subtitle: ["Thank you!"]

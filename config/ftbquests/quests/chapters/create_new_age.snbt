@@ -64,7 +64,9 @@
 			description: [
 				"TIL respawn anchors are magnetic."
 				""
-				"Yes. They actually work with the generator coil."
+				"Yes. They actually work with the generator coil, giving the same amount of magnetic force as a layered magnet."
+				""
+				"No, lodestones do not work as magnets."
 			]
 			id: "3B46BD7C9DF8E6CD"
 			tasks: [{
@@ -251,7 +253,7 @@
 		{
 			dependencies: ["07CA8CF869C9FDA7"]
 			id: "448337EEC0D38AFA"
-			subtitle: "Generate enven more heat!"
+			subtitle: "Generate even more heat!"
 			tasks: [{
 				id: "6930FC9C6350E7FB"
 				item: "create_new_age:advanced_solar_heating_plate"

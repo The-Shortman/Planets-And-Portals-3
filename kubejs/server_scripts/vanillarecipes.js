@@ -11,6 +11,30 @@ function shapedRecipes(e) {
     [
         {
             pattern: [
+                'AAA',
+                'A A',
+                'AAA'
+            ],
+            key: {
+                A: '#forge:planks'
+            },
+            output: 'minecraft:chest'
+        },
+        {
+            pattern: [
+                'A A',
+                'ABA',
+                'A A'
+            ],
+            key: {
+                A: 'minecraft:stick',
+                B: ['#forge:planks', 'minecraft:oak_planks']
+            },
+            output: '4x minecraft:ladder'
+        },
+        
+        {
+            pattern: [
                 'ABA',
                 'CDC',
                 'EFE'
@@ -179,6 +203,11 @@ function inputReplacements(e) {
             filter: {mod: 'create_new_age'},
             init: ['create:brass_casing', 'create:andesite_alloy_block'],
             replacement: 'tfmg:heavy_machinery_casing'
+        },
+        {
+            filter: {mod: 'mekanism'},
+            init: 'minecraft:iron_ingot',
+            replacement: 'mekanism:ingot_osmium'
         },
     ].forEach((replace) => {
         e.replaceInput(replace.filter, replace.init, replace.replacement)

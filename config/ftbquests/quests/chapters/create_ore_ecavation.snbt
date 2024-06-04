@@ -61,7 +61,7 @@
 		{
 			dependencies: ["22E1F637EC14FA16"]
 			description: [
-				"This needs to be placed in a chunk containing an underground resource deposit. It requires rotational power and sometimes fluids to function."
+				"This needs to be placed in a chunk containing an underground fluid deposit. It requires rotational power and sometimes fluids to function."
 				""
 				"Check REI for resource deposit requirements by searching for 'infinite vein'."
 			]
@@ -129,6 +129,26 @@
 			}]
 			x: 0.0d
 			y: 5.5d
+		}
+		{
+			description: [
+				"Trains can travel through unloaded chunks, so they're perfect for transporting items and fluids long-distance."
+				""
+				"Do note that chunks have to be loaded for trains to load/unload materials."
+				""
+				"Check out the trains section in the ponder index [Pause menu -> Goggles -> Ponder Index]"
+			]
+			icon: "create:controls"
+			id: "40E7DA301AB9E778"
+			subtitle: "Veins can be extremely far away from your base"
+			tasks: [{
+				id: "50FD322BA5F6D82C"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "Long distance transportation"
+			x: 0.0d
+			y: -2.5d
 		}
 	]
 	subtitle: ["Exploit the earth of its hidden resources"]

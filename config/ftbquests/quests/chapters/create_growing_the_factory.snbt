@@ -68,6 +68,11 @@
 				"0CAC39CC53D2824F"
 				"5C92A98D3E1D3722"
 			]
+			description: [
+				"The blast furnace also produces slag as a byproduct. This can be stored, voided, or used in manufacturing concrete."
+				""
+				"Use smart fluid pipes to filter the liquids. Mixing different liquids will cause your pipes to break."
+			]
 			id: "00049FB88E368082"
 			rewards: [{
 				id: "1BB554DAD60B589E"
@@ -146,9 +151,13 @@
 			id: "727F0ACD278108BF"
 			subtitle: "Incredibly heat resistant material"
 			tasks: [{
-				id: "447C873F0AA4EED9"
-				item: "tfmg:fireclay"
-				type: "item"
+				icon: "tfmg:fireclay"
+				id: "571F218B33139D1B"
+				observe_type: 0
+				timer: 0L
+				title: "Fireclay"
+				to_observe: "tfmg:fireclay"
+				type: "observation"
 			}]
 			x: -1.5d
 			y: 3.0d
