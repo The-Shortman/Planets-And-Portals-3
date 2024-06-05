@@ -1556,7 +1556,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "09c677f5c83baf5ba5fa27528522283d192eb0ee024955b98954e87f27a0bfc5"
+hash = "666e8d0d031531bc526e4c7ff6b47c8331b5c7dc050138fb2bd36f35711ee5cd"
 metafile = true
 
 [[files]]
@@ -1581,17 +1581,17 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "d02b891b8549c4bacda20466c941001255efd7f184f5ff6bd662ef90c9f6de95"
+hash = "7326f4a85591cb390d744ffc76f8daa1bb056aa0e0dcc9d27b6c661d10c441de"
 metafile = true
 
 [[files]]
 file = "mods/better-chunk-loading-forge-fabric.pw.toml"
-hash = "ea1d88d088e88bd10fba246395957bdcc3e5d62f66ad24c97f60ea4e79e95dad"
+hash = "79a3fb06122208f61eede6e34a4ed3ea15107cd89ebcbfd8afc2903a6fa01a8a"
 metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "80223f3fe21fd153b84eb5ca7f55b93b6e6f43ce0dc2cb58486aa295ff957626"
+hash = "6299edab7c031a3f8a8fd59bc19a22213d9c4a4f745a2ae04f4ac78086f38355"
 metafile = true
 
 [[files]]
@@ -1696,7 +1696,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-ore-excavation.pw.toml"
-hash = "70a38138809b0d8de02a22b050a599a977c7f6877fad8d3583512f55100f81fb"
+hash = "91e304165eee0a20c6b9fee2003aa2ce118a7a5814b71e8a7248a6d015120e34"
 metafile = true
 
 [[files]]
@@ -1766,7 +1766,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "ef7e7ce8131959ca45add7ec72a6ab8abcab45f8f2eda154dfeb0bba3c7e5c1e"
+hash = "4d7d45d515ea2a7f786672b8b0dd82d5f292b69237500b71216dffdc5655fcc6"
 metafile = true
 
 [[files]]
@@ -1866,7 +1866,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
-hash = "695faf011fad7411385e4e7e730918908cbf52255feab03ec3635881e7e78bf5"
+hash = "9952ac3f216a2a5558cd4e5999c174a5f873ed14aeef266de65151c466019916"
 metafile = true
 
 [[files]]
@@ -1896,7 +1896,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "fcb1cb77c34aa9819c2dd9dacd13526592fb0995da7e8cd5f1f6d595b7ffd9d4"
+hash = "212633e875f70f3990a8064079e116dae6b957363c2d67776cc56debb2e64c7b"
 metafile = true
 
 [[files]]
@@ -1911,7 +1911,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap.pw.toml"
-hash = "67e1f27f4afae2accf10b9ac25a20eacb7459f8edd89d94a338f6591eed376c3"
+hash = "2fb61574c93469ae799bcfb2806bf7a43309e3a36e562145f9dfeb208ec5b499"
 metafile = true
 
 [[files]]
@@ -1941,7 +1941,7 @@ metafile = true
 
 [[files]]
 file = "mods/let-me-despawn.pw.toml"
-hash = "29e8b5ebc8295fbe6fd1bc2e7e036bf3ad21a905a7cc4d765053e3c56094943f"
+hash = "f19f61fcce9df3befee6d0d6096a93a9646f93766b2523b27e7903da81e4269b"
 metafile = true
 
 [[files]]
@@ -1966,12 +1966,12 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
-hash = "38a79d992a5b4c5f528a97e4dc556943976a3c1dcbbbf61dc7581feacfcd1020"
+hash = "31bedc841cd4f28284805ce9b2c1ab53a39c2fa062816e1e520ef1b7d631f7db"
 metafile = true
 
 [[files]]
 file = "mods/mekanism.pw.toml"
-hash = "92b807b60a6999c4bdd29c74ef21235ce7d0218875c8f68e575180791ad98b42"
+hash = "97abd23496116a8b3fb4b832ae5a7ef7c84063909b16dcbf1a403963893f2ea3"
 metafile = true
 
 [[files]]
@@ -1986,7 +1986,7 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
-hash = "9c29166ac593cc02740a23ead3862f61a78d733e3c72567413ed6ef19f85e182"
+hash = "c835e3734d6bd1156827fb51f539bf8871d1d87a237561ed38f59d3deb0c8d54"
 metafile = true
 
 [[files]]
@@ -2096,7 +2096,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "6974066748d1a32944b57b99be5098127cc5ebaee4c600c7ff719f8c110bf9af"
+hash = "c468544880d0cd8dee9095db1715f05fc105cde29586635b57fba33ba8012e3e"
 metafile = true
 
 [[files]]
@@ -2181,7 +2181,7 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "66e091a1aa7ee6fd986931a99914cb9f3133957bd99454b7d768350d5c54b312"
+hash = "a943b190ae8648304ae8f33c139ee59a0f90f2f30c997e4fcb4f246aed4f9a0a"
 metafile = true
 
 [[files]]
