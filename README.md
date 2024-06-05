@@ -15,18 +15,22 @@ Updating the modpack is effortless once you set up packwiz to automatically upda
 The download for Prism Launcher can be found here: https://prismlauncher.org/download/
 
 Follow Prism's installation instructions and link your Minecraft login. Create a new instance:
+
 ![Create a new instance](https://i.imgur.com/je4mt6H.png)
 
 Choose Minecraft version 1.20.1 and Forge version 47.3.0:
+
 ![Choose versions](https://i.imgur.com/PC25bQF.png)
 
 Run the modpack and close it once you see the main menu, so Prism can download the asset files from Mojang and Forge.
 
-Download the `packwiz-installer-bootstrap.jar` file from https://github.com/packwiz/packwiz-installer-bootstrap/releases and drag and drop it into the `.minecraft` folder, **__NOT THE MODS FOLDER__**
+Download the `packwiz-installer-bootstrap.jar` file from https://github.com/packwiz/packwiz-installer-bootstrap/releases and drag and drop it into the `.minecraft` folder, **NOT THE MODS FOLDER**
+
 ![Access your instance folder](https://i.imgur.com/bFigEgs.png)
 ![Drop the bootstrap into .minecraft](https://i.imgur.com/rww7LUW.png)
 
 Navigate to where you can input your pre-launch commands, for Prism that's `Edit → Settings → Custom commands`, then tick the 'Custom Commands' box.
+
 ![Edit](https://i.imgur.com/y3InVQL.png)
 ![Custom Commands](https://i.imgur.com/41PyNjs.png)
 
