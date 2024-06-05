@@ -39,6 +39,14 @@ Paste this whole string **(including the link and the quotation marks)** into th
 
 If you run into this problem:
 
+![Failed file downloads error](https://i.imgur.com/gKOLq0V.png)
+
+Click on 'Open missing mods' and download the mods from curseforge
+
+![Download file](https://i.imgur.com/F23UoHy.png)
+
+Drag the downloaded file from Curseforge into your instance's `.minecraft/mods` folder.
+
 The pack should now automatically update every time you run the instance
 
 ### Other info
