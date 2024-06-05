@@ -1,12 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/ISSUE_TEMPLATE/bug_report.md"
-hash = "11741d7084455c8efe6e8e1ac33807c44a1bc975cc59c476ea2be8a6756e59dc"
+file = ".vscode/ltex.dictionary.en-US.txt"
+hash = "b52a9b0faf77e3bc9ce7d0f9c6b73f0f89f0823eb820da62037d15e3ca4c9a48"
 
 [[files]]
-file = ".github/ISSUE_TEMPLATE/feature_request.md"
-hash = "72a5f467b083c24507b1e848bbb958800f783fe1d313a8ca017f2a2673acad47"
+file = ".vscode/ltex.disabledRules.en-US.txt"
+hash = "539b2d9eb27369d8f71781fad9c1639dcd09f5488fce6083328433be81d83fcf"
+
+[[files]]
+file = ".vscode/ltex.hiddenFalsePositives.en-US.txt"
+hash = "da57534b8af698fce2f9d17a85f23d1599d208d009354107723995857804e619"
 
 [[files]]
 file = "config/Advancedperipherals/general.toml"
