@@ -14,30 +14,40 @@ Updating the modpack is effortless once you set up packwiz to automatically upda
 
 The download for Prism Launcher can be found here: https://prismlauncher.org/download/
 
-Follow Prism's installation instructions and link your Minecraft login. Create a new instance:
+**If you already have a Prism instancce of the modpack, you can skip to step 4.**
+
+1) Follow Prism's installation instructions and link your Minecraft login. Create a new instance:
 
 ![Create a new instance](https://i.imgur.com/je4mt6H.png)
 
-Choose Minecraft version 1.20.1 and Forge version 47.3.0:
+2) Choose Minecraft version 1.20.1 and Forge version 47.3.0:
 
 ![Choose versions](https://i.imgur.com/PC25bQF.png)
 
-Run the modpack and close it once you see the main menu, so Prism can download the asset files from Mojang and Forge.
+3) Run the modpack and close it once you see the main menu, so Prism can download the asset files from Mojang and Forge.
 
-Download the `packwiz-installer-bootstrap.jar` file from https://github.com/packwiz/packwiz-installer-bootstrap/releases and drag and drop it into the `.minecraft` folder, **NOT THE MODS FOLDER**
+4) Download the `packwiz-installer-bootstrap.jar` file from https://github.com/packwiz/packwiz-installer-bootstrap/releases and drag and drop it into the `.minecraft` folder, **NOT THE MODS FOLDER**
 
 ![Access your instance folder](https://i.imgur.com/bFigEgs.png)
 ![Drop the bootstrap into .minecraft](https://i.imgur.com/rww7LUW.png)
 
-Navigate to where you can input your pre-launch commands, for Prism that's `Edit → Settings → Custom commands`, then tick the 'Custom Commands' box.
+5) Navigate to where you can input your pre-launch commands, for Prism that's `Edit → Settings → Custom commands`, then tick the 'Custom Commands' box.
 
 ![Edit](https://i.imgur.com/y3InVQL.png)
 ![Custom Commands](https://i.imgur.com/41PyNjs.png)
 
-Paste this whole string **(including the link and the quotation marks)** into the 'Pre-launch command' field:
+6) Paste this whole string **(including the link and the quotation marks)** into the 'Pre-launch command' field:
 `"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://the-shortman.github.io/Planets-And-Portals-3/pack.toml`
 
 If you run into this problem:
+
+![Failed file downloads error](https://i.imgur.com/gKOLq0V.png)
+
+7) Click on 'Open missing mods' and download the mods from curseforge
+
+![Download file](https://i.imgur.com/F23UoHy.png)
+
+8) Drag the downloaded file from Curseforge into your instance's `.minecraft/mods` folder.
 
 The pack should now automatically update every time you run the instance
 
