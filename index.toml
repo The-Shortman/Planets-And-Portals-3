@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".vscode/ltex.dictionary.en-US.txt"
-hash = "b52a9b0faf77e3bc9ce7d0f9c6b73f0f89f0823eb820da62037d15e3ca4c9a48"
-
-[[files]]
-file = ".vscode/ltex.disabledRules.en-US.txt"
-hash = "539b2d9eb27369d8f71781fad9c1639dcd09f5488fce6083328433be81d83fcf"
-
-[[files]]
-file = ".vscode/ltex.hiddenFalsePositives.en-US.txt"
-hash = "da57534b8af698fce2f9d17a85f23d1599d208d009354107723995857804e619"
-
-[[files]]
 file = "config/Advancedperipherals/general.toml"
 hash = "78bc066a3400a0676828e159da326fb5cf41869e393f935c13641ec7a078ee2f"
 
