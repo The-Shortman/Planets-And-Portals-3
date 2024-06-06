@@ -16,6 +16,15 @@ StartupEvents.registry('item', e => {
             type: 'basic',
             name: 'Crushed Calorite Ore'
         },
+
+        // Playtester items
+        {
+            id: 'planetsandportals:the_badge',
+            type: 'helmet',
+            name: 'The Badge',
+            stackSize: '1',
+            rarity: 'uncommon'
+        },
     ].forEach((item) => {
         e.create(item.id, item.type).displayName(item.name).maxStackSize(item.stackSize ?? 64).rarity(item.rarity ?? 'common')
     })

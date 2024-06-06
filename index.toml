@@ -1433,6 +1433,10 @@ file = "kubejs/assets/planetsandportals/textures/item/crushed_ostrum_ore.png"
 hash = "5ef7140f92f86ebcbda7bfbdc018538448c38dc7a545e5c035651af5281dca45"
 
 [[files]]
+file = "kubejs/assets/planetsandportals/textures/item/the_badge.png"
+hash = "1e80f8023d23a10cb7a538ebe711b25d3b243f6f4838d676ba3c01de2afd7a9c"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/tips/astral.json"
 hash = "21e06198c0b23b7ac309fe6f9be137580ff8d68fa8a1c23347f6de4099b1859e"
 
@@ -1514,7 +1518,7 @@ hash = "9da65e84e52313de5ed36517150eb40e588128e9d01d786e70a0c0c9337329e5"
 
 [[files]]
 file = "kubejs/startup_scripts/itemregistry.js"
-hash = "072e4ad6706f5282e6600a116e4081cec6a5f566146de6b1964f7ce672a12e52"
+hash = "ee5d5d6651d6a7376d86c43356d2d51d0bbb0ba160fc4de58239801cf1866ead"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -1528,7 +1532,7 @@ metafile = true
 
 [[files]]
 file = "mods/advancement-plaques.pw.toml"
-hash = "2823f67bc12454a6941062d99254aba1e31b2b9b639a030c2d5548df9df863d1"
+hash = "9b8077d969e9bc20bbc6f03b4f50071068f84e8b96705f908ddebef4e6cb1d10"
 metafile = true
 
 [[files]]
@@ -1658,7 +1662,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+hash = "cf8c5f2a139a2571d0d4b8be2b7463255cca721ae4a5741ec71595b7ab530e71"
 metafile = true
 
 [[files]]
@@ -1743,7 +1747,7 @@ metafile = true
 
 [[files]]
 file = "mods/drippy-loading-screen.pw.toml"
-hash = "4f04ba49bfba967c335d14c9c61f92e0fb9299cc7665dc76cb87a95bad00bf7c"
+hash = "6a4ec75e87bb2937918fadf7585565cd8bed1ae61d50172fd5610f0158c5e58b"
 metafile = true
 
 [[files]]
@@ -1773,12 +1777,12 @@ metafile = true
 
 [[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
-hash = "fa0e11f73c0e47ff3ce350fcb7913890f8441c71dbe9df8ba6bfce7133fa64b3"
+hash = "853fd13549bb7bff9de789e345bb183b5ebc8326ae86d6e6a95f89bf2be2ff87"
 metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "ce5b6e5f46fe0386b0a1c6e7aa2e811d45ff9eaa36b8ede42678939ee86de8eb"
+hash = "c3f2175c2bd55cd9d799cbb9ad8097ff978c748005e6dd87298cf7dce63e9f35"
 metafile = true
 
 [[files]]
@@ -1808,7 +1812,7 @@ metafile = true
 
 [[files]]
 file = "mods/fps-reducer.pw.toml"
-hash = "74343f6931d66da29809e437bfb83d19adcf2bf5c81861071fad6f049c70ed1e"
+hash = "d3034d45f3e7b6020053a693f52f083e138d0dc7eafcc48dfcafa0207cb336fb"
 metafile = true
 
 [[files]]
@@ -1868,7 +1872,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-borders.pw.toml"
-hash = "f251f0f6baaad0a8a7e24eca2391eed7f2fea9b339d500ddebc8cabbbb1c500f"
+hash = "476af8729ebf534d134834ac797d9c5eac07b00bef3b36007d60c5f1ee7fafe4"
 metafile = true
 
 [[files]]
@@ -1878,7 +1882,7 @@ metafile = true
 
 [[files]]
 file = "mods/item-highlighter.pw.toml"
-hash = "25a898a7d5ea660c4104734fb18c33de91d465f0acf518a0f5df18b20f8385de"
+hash = "77ede7a29d0bc2c7dbccca89c48bfe2c42d595fa495bce22f31fbbf2a4e9086c"
 metafile = true
 
 [[files]]
@@ -1908,7 +1912,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom-forge.pw.toml"
-hash = "aa4265469c6113930bbf9f0165b3dcbf4e65f11a77661c0f4c2770e467eea91f"
+hash = "a1e08d9f49ef85413a6fa19844e8b1b8e726c23fa6dc35606814e11a03f18ef3"
 metafile = true
 
 [[files]]
@@ -2038,7 +2042,7 @@ metafile = true
 
 [[files]]
 file = "mods/oculus.pw.toml"
-hash = "6bb8b0848783cdf7108e499107a4991c2cee2a9240b963d427fa62b0f2a5820e"
+hash = "0663919544b1f185be64b69269f5e914d2fae910fb8ee16d4cd9549d809e71cd"
 metafile = true
 
 [[files]]
@@ -2193,7 +2197,7 @@ metafile = true
 
 [[files]]
 file = "mods/tips.pw.toml"
-hash = "c707f903fa7dbebcdae7680de6e2d923419317ab2b0a3e39f17bcd10b6dc55dd"
+hash = "8ca39743c66241b47b65f27c345212ea154ebc273610f53c838a8277c28dd831"
 metafile = true
 
 [[files]]
@@ -2230,11 +2234,3 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "e02a4197368c4925bb98658883da17aace29927eeca7773c494be6c879269268"
 metafile = true
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.1.1.zip"
-hash = "f4925044d6975225296cb9cb84b3ee9388bc00d3aacce066eee92bc427ca66cf"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
-hash = "669d29e01d52bf9d8bb9f63c4c4131e5e5a9e0ebcff397f135803acbf0b88d94"
