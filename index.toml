@@ -1762,7 +1762,7 @@ metafile = true
 
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
-hash = "4d7d45d515ea2a7f786672b8b0dd82d5f292b69237500b71216dffdc5655fcc6"
+hash = "918263be0aed824b1937924910a0c7638c32044b25d88f3876506641c161221b"
 metafile = true
 
 [[files]]
@@ -2077,7 +2077,7 @@ metafile = true
 
 [[files]]
 file = "mods/presence-footsteps-forge.pw.toml"
-hash = "a0448cd361a431dadd5a265cdba19a256d6d4fb1e1ef15b6337c43b3fad9a446"
+hash = "449e67411bb80fb931db2be075447433e21c1f97dc12acccc39ebbaf82395802"
 metafile = true
 
 [[files]]
