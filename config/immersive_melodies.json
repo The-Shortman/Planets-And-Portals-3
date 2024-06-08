@@ -2,6 +2,7 @@
   "README": "https://github.com/Luke100000/ImmersiveMelodies/wiki/Config",
   "showOtherPlayersMelodies": true,
   "getBufferDelay": 75,
+  "maxAudibleDistance": 48,
   "mobInstrumentFactors": {
     "minecraft:wither_skeleton": 0.01,
     "minecraft:skeleton": 0.01,
