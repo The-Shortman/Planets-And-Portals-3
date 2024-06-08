@@ -59,7 +59,11 @@ ServerEvents.recipes(e => {
 		{output: 'mekanism:block_steel'},
 		{output: 'mekainsm:nugget_steel'},
 		{output: 'mekanism:dust_refined_obsidian'},
+		{output: 'mekanism:alloy_infused'},
+		{output: 'mekanism:alloy_reinforced'},
+		{output: 'mekanism:alloy_atomic'},
 		{output: 'mekanism:diamond'},
+		{output: 'mekanism:refined_obsidian'},
 		{output: 'mekanism:teleportation_core'},
 
 		{output: 'mekanism:ingot_osmium', input: [
@@ -114,6 +118,14 @@ ServerEvents.recipes(e => {
 		{output: 'ad_astra:desh_plate'},
 		{output: 'ad_astra:desh_plateblock'},
 		{output: 'ad_astra:desh_engine'},
+		{output: 'ad_astra:photovoltaic_etrium_cell'},
+		{output: 'ad_astra:solar_panel'},
+		{output: 'ad_astra:gravity_normalizer'},
+		{output: 'ad_astra:desh_ingot', input: [
+			'ad_astra:raw_desh',
+			'ad_astra:moon_desh_ore',
+			'ad_astra:deepslate_desh_ore'
+		]},
 
 		// Tempad
 		{mod: 'tempad'},

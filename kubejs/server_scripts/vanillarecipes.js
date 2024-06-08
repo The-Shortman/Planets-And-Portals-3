@@ -76,6 +76,33 @@ function shapedRecipes(e) {
             },
             output: 'ad_astra:desh_engine'
         },
+        {
+            pattern: [
+                'ABA',
+                'BBB',
+                'ABA'
+            ],
+            key: {
+                A: 'planetsandportals:steel_electrode',
+                B: 'ad_astra:etrium_nugget',
+            },
+            output: 'ad_astra:etrionic_core'
+        },
+        {
+            pattern: [
+                ' A ',
+                'BCB',
+                'DED'
+            ],
+            key: {
+                A: 'ad_astra:etrionic_core',
+                B: 'ad_astra:etrium_nugget',
+                C: 'tfmg:heavy_machinery_casing',
+                D: 'tfmg:steel_block',
+                E: 'ad_astra:desh_plate',
+            },
+            output: 'ad_astra:gravity_normalizer'
+        },
     ].forEach((recipe) => {
         e.shaped(recipe.output, recipe.pattern, recipe.key)
     })
@@ -97,10 +124,6 @@ function shapedRecipes(e) {
 
 function smeltingRecipes(e) {
     [
-        {
-            input: 'planetsandportals:crushed_desh_ore',
-            output: 'ad_astra:desh_ingot'
-        },
         {
             input: 'planetsandportals:crushed_ostrum_ore',
             output: 'ad_astra:ostrum_ingot'

@@ -20,27 +20,31 @@ StartupEvents.registry('item', e => {
         {
             id: 'planetsandportals:crushed_desh_ore',
             type: 'basic',
-            name: 'Crushed Desh Ore'
+            name: 'Crushed Desh Ore',
+            stackSize: 64
         },
         {
             id: 'planetsandportals:crushed_ostrum_ore',
             type: 'basic',
-            name: 'Crushed Ostrum Ore'
+            name: 'Crushed Ostrum Ore',
+            stackSize: 64
         },
         {
             id: 'planetsandportals:crushed_calorite_ore',
             type: 'basic',
-            name: 'Crushed Calorite Ore'
+            name: 'Crushed Calorite Ore',
+            stackSize: 64
         },
 
         // Intermediate items
         {
             id: 'planetsandportals:steel_electrode',
             type: 'basic',
-            name: 'Steel Electrode'
+            name: 'Steel Electrode',
+            stackSize: 64
         }
     ].forEach((item) => {
-        e.create(item.id, item.type).displayName(item.name).maxStackSize(item.stackSize ?? 64).rarity(item.rarity ?? 'common')
+        e.create(item.id, item.type).displayName(item.name).maxStackSize(item.stackSize).rarity(item.rarity ?? 'common')
     })
 
     e.create('planetsandportals:the_badge', 'chestplate').tier('the_badge')

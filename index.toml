@@ -1558,7 +1558,7 @@ hash = "3364bc6cadaee257bd78631acdbd78c94e78782ea8ce65613039dd537c501c82"
 
 [[files]]
 file = "kubejs/server_scripts/oredeposits.js"
-hash = "8608cec76ae847a4cbd0320f52baeb226ae0b1f4e0b806283f583611a0e4948e"
+hash = "2ead0a495c001db73f1627ae9cd02b801095d13de6d9209f6cecf72e9968cf98"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"
@@ -1566,7 +1566,7 @@ hash = "14b36debff2f1772006ad1dd3e398420966faca3353031d8a90ee65d1a30ff26"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "72f7080f76101fbc9f7e26229b1b8838b498e1280d86bd62645f0570f8398de4"
+hash = "4052278ae37d3167edd454726de45317bbbbe77613a7cbb7bda8671683e8ec52"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
@@ -1578,11 +1578,11 @@ hash = "56f02f409821e583ec264a40ff38a97c84d4931e8ba62d277acb9e5e8378f947"
 
 [[files]]
 file = "kubejs/startup_scripts/itemregistry.js"
-hash = "14c337ec2aaf7e01c5b167fcc53310a67715d48350a7159431a9d1c045c1db72"
+hash = "2ee3681876b4b5033694d4b054f2e297a57aa9a3b593878d19345d45152775c8"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "1cf1bc4974cb0872a8a931ff59d124b7957fd88f48d92be4a7d4793b2b2fd1e3"
+hash = "01fac58d713283bfccd3013dddc93b0979b0c64389ffa0d809387245b4d07a28"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -1616,7 +1616,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "666e8d0d031531bc526e4c7ff6b47c8331b5c7dc050138fb2bd36f35711ee5cd"
+hash = "99e547e5d79615e639a335f349298503c366afbe92dc16b28c09f6f952369946"
 metafile = true
 
 [[files]]
@@ -2211,7 +2211,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "085cf9d7f9823cec6fb7c9369fcfc22485a0bd2d810a7e2bac0ad8ba7c8f773e"
+hash = "b1fb68db400bb8b08be0a25b5924d30d9007711469a58cfd2664a5e11e823345"
 metafile = true
 
 [[files]]

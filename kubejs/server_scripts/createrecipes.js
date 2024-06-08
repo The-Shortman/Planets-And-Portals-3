@@ -165,12 +165,28 @@ function mixingRecipes(e) {
                 fluid: 'planetsandportals:obsidian_solution',
                 amount: 1000
             }
-        }
+        },
+        {
+            outputs: [
+                'ad_astra:desh_ingot',
+            ],
+            inputs: [
+                Fluid.of('planetsandportals:molten_desh', 1000/9),
+            ]
+        },
     ].forEach((recipe) => {
         e.recipes.create.mixing(recipe.outputs, recipe.inputs)
     }),
 
     [
+        {
+            outputs: [
+                Fluid.of('planetsandportals:molten_desh', 1000/9),
+            ],
+            inputs: [
+                'ad_astra:raw_desh',
+            ]
+        },
         {
             outputs: [
                 'mekanism:ingot_osmium',
@@ -323,7 +339,7 @@ function mechanicalCraftingRecipes(e) {
                 B: 'mekanism:advanced_bin',
                 C: 'ad_astra:oxygen_loader',
                 D: 'mekanism:advanced_fluid_tank',
-                E: 'create_new_age:reactor_glass',
+                E: 'mekanism:structural_glass',
                 F: 'ad_astra:desh_plateblock',
                 G: 'create:white_seat',
                 H: 'ad_astra:rocket_fin',
@@ -419,7 +435,7 @@ function energisingRecipes(e) {
         {
             input: 'tfmg:steel_ingot',
             output: 'planetsandportals:steel_electrode',
-            energy: 1000
+            energy: 5000
         },
     ].forEach((recipe) => {
         e.custom({

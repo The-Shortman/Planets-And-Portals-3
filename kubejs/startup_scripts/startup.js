@@ -1,1 +1,1 @@
-Platform.mods.planetsandportals.name = 'Planets and Portals 3'
+Platform.mods.kubejs.name = 'Planets and Portals 3'

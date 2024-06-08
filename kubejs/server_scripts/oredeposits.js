@@ -113,7 +113,7 @@ ServerEvents.recipes(e => {
             separation: 32,
             salt: 24352355,
             id: "createoreexcavation:ore_vein_type/tp_core",
-            biomes: 'ad_astra:has_structure/lunarian_village'
+            biomes: 'ad_astra:has_structure/mars_temple'
         },
 
         // Thorium
@@ -156,6 +156,8 @@ ServerEvents.recipes(e => {
     ].forEach((vein) => {
         e.recipes.createoreexcavation.vein(vein.name, vein.resource).placement(vein.spacing, vein.separation, vein.salt).biomeWhitelist(vein.biomes).id(vein.id)
     }),
+
+    //// DRILLING RESULTS ////
 
     [
         // Ad Astra planetary metals
