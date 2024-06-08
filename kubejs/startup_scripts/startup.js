@@ -1,0 +1,1 @@
+Platform.mods.planetsandportals.name = 'Planets and Portals 3'

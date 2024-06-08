@@ -27,8 +27,13 @@ ItemEvents.tooltip(tooltip => {
             text: 'Disabled - use machines from [Create: New Age] instead.'
         },
         {
-            ids: 'mekanismgenerators:wind_generator',
-            text: "Disabled (I'm not having another 'Wind Mill' incident in my modpack)"
+            ids: [
+                'mekanismgenerators:wind_generator',
+                'mekanismgenerators:heat_generator',
+                'mekanismgenerators:gas_burning_generator',
+                'mekanismgenerators:bio_generator'
+            ],
+            text: "Disabled (Use [Create: New Age]'s generator coils or solar panels)"
         }
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkRed())

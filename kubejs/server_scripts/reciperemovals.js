@@ -40,6 +40,9 @@ ServerEvents.recipes(e => {
 
 		// Create: New Age
 		{output: 'create_new_age:thorium'},
+		{output: 'create_new_age:energiser_t1'},
+		{output: 'create_new_age:energiser_t2'},
+		{output: 'create_new_age:energiser_t3'},
 
 		// Create Ore Excavation
 		{id: 'createoreexcavation:ore_vein_type/water'},
@@ -56,6 +59,8 @@ ServerEvents.recipes(e => {
 		{output: 'mekanism:block_steel'},
 		{output: 'mekainsm:nugget_steel'},
 		{output: 'mekanism:dust_refined_obsidian'},
+		{output: 'mekanism:diamond'},
+		{output: 'mekanism:teleportation_core'},
 
 		{output: 'mekanism:ingot_osmium', input: [
 			'mekanism:raw_osmium',
@@ -89,6 +94,9 @@ ServerEvents.recipes(e => {
 
 		// Mekanism Generators
 		{output: 'mekanismgenerators:wind_generator'},
+		{output: 'mekanismgenerators:heat_generator'},
+		{output: 'mekanismgenerators:gas_burning_generator'},
+		{output: 'mekanismgenerators:bio_generator'},
 
 		// Ad Astra
 		{output: 'ad_astra:steel_ingot'},

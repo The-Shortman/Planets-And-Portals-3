@@ -142,7 +142,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "9c31f7f00ebe4025a6a11ee6257fe672b57866f7ec6206f97656b6cdf095b0b1"
+hash = "387da19c356605d01f0efb7617831dd7b48899d75d825862215a6986acaf7327"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -1421,6 +1421,10 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/models/armor/the_badge_layer_1.png"
+hash = "1678c0e0e1483d40b9d9497a4bea4d79ba1803ef2c45e6cfcf1f3400aea211f0"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/textures/item/crushed_calorite_ore.png"
 hash = "01152d99aa55bce1767ff7174ae0dbc8b5d54f57f6762e16504a9aa7912d26b4"
 
@@ -1433,8 +1437,12 @@ file = "kubejs/assets/planetsandportals/textures/item/crushed_ostrum_ore.png"
 hash = "5ef7140f92f86ebcbda7bfbdc018538448c38dc7a545e5c035651af5281dca45"
 
 [[files]]
+file = "kubejs/assets/planetsandportals/textures/item/steel_electrode.png"
+hash = "e053d03f90ad6fcfc267dc1f620912e67bc12cb84a32064eea6ac784695001a9"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/textures/item/the_badge.png"
-hash = "1e80f8023d23a10cb7a538ebe711b25d3b243f6f4838d676ba3c01de2afd7a9c"
+hash = "f3dfcf0c9519412549bdca0de11d1f3736a52d4f61e2e5bce526ffb6e7693a56"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/tips/astral.json"
@@ -1478,7 +1486,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "6a2d753719572df143936e2754be014d407e682f8d2d513eb531acdb63117b6e"
+hash = "cf2fd773f65a8b20caac657c7c5c8e725a9a2848b3186d4c5ae95430d9d552e4"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1498,11 +1506,11 @@ hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "e8a88f90e8ef6443b6edcb9f827dd79a13ad50dd42d9406d0bfde471db48a097"
+hash = "3364bc6cadaee257bd78631acdbd78c94e78782ea8ce65613039dd537c501c82"
 
 [[files]]
 file = "kubejs/server_scripts/oredeposits.js"
-hash = "5d6e17bcf6b5675602c00ab5cae011acba3534a0874d3f619d448a5cb314f058"
+hash = "1dcf6a284b14543c823a44a42b7c40beb4d4b6852b76a6ea40c1098ae77889ea"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"
@@ -1510,15 +1518,19 @@ hash = "14b36debff2f1772006ad1dd3e398420966faca3353031d8a90ee65d1a30ff26"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "e42800f8047e7edd05a6ca1f24ff28dfba6962c23dffcb01be63cc9cba43e892"
+hash = "a0f665dffbf20a0c95438d19aabc4230f11aa3bb3b79e54a5f6e19b53eff0a24"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
 hash = "9da65e84e52313de5ed36517150eb40e588128e9d01d786e70a0c0c9337329e5"
 
 [[files]]
+file = "kubejs/startup_scripts/fluidregistry.js"
+hash = "56f02f409821e583ec264a40ff38a97c84d4931e8ba62d277acb9e5e8378f947"
+
+[[files]]
 file = "kubejs/startup_scripts/itemregistry.js"
-hash = "ee5d5d6651d6a7376d86c43356d2d51d0bbb0ba160fc4de58239801cf1866ead"
+hash = "14c337ec2aaf7e01c5b167fcc53310a67715d48350a7159431a9d1c045c1db72"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -1562,7 +1574,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "1067eb79a7595900dfe6b117a8a9dae8ce2c8872cc996cf5e30da4bf1aca770b"
+hash = "9213eaaca144e07c14322982367dffdb3c75fd9eba8d8a82f55c7002e0067e44"
 metafile = true
 
 [[files]]
@@ -1676,6 +1688,11 @@ hash = "e29577d9983ad1e32e31262ed620cd41eed7074d83cd3c5d0849dd207539cc46"
 metafile = true
 
 [[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
+metafile = true
+
+[[files]]
 file = "mods/create-industry.pw.toml"
 hash = "efb9cf070be73bc4fe9458a553fd2e470009bb98d44d66c7681fe06c93aee8d7"
 metafile = true
@@ -1737,7 +1754,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-api.pw.toml"
-hash = "b76dd4e45a402aebd8d2c2de23c137d4fa835fc2081f747c2f47ab74bcef90e3"
+hash = "1739bc18a61b542713cf22788a8697e5813d98901248be584e1c8b60db3b185f"
 metafile = true
 
 [[files]]
@@ -1912,7 +1929,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-zoom-forge.pw.toml"
-hash = "a1e08d9f49ef85413a6fa19844e8b1b8e726c23fa6dc35606814e11a03f18ef3"
+hash = "87139f6e32088004ed961a10bf2206da8548edc2acf34039dbcf20a070599f53"
 metafile = true
 
 [[files]]
@@ -1922,7 +1939,7 @@ metafile = true
 
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
-hash = "826c59a1e607641acb85f1e23a2bb7183a2f0a9ccd19ea4f01bbc9d94d480acf"
+hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
 metafile = true
 
 [[files]]
@@ -1947,7 +1964,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootjs.pw.toml"
-hash = "e529665cfda65f7532a0cf52feac55eda02040f26f9ddaf2dfb4cdabe51332f4"
+hash = "43aa2c47e284692aa6182abd00929d5753c8660aea9e23b901da68aa75a68930"
 metafile = true
 
 [[files]]
@@ -1958,6 +1975,11 @@ metafile = true
 [[files]]
 file = "mods/magnum-torch-forge.pw.toml"
 hash = "342689b81a6bc7d3aa79b4610b79c88cddfdbd17e9f0dac77c6a975e51033cc1"
+metafile = true
+
+[[files]]
+file = "mods/masterful-machinery.pw.toml"
+hash = "41aaafa92f36a1784de63de66ed6a740fab570976c13e36fd45d202eed239674"
 metafile = true
 
 [[files]]
@@ -2172,7 +2194,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "23f5db98d7adda1199728bba01d575b4a85e82fd801163242ac656f0247aa4a8"
+hash = "8dbbda52470270cfe5c1c0a2de8418491f827f4167c76903138d8409b8fedcb7"
 metafile = true
 
 [[files]]

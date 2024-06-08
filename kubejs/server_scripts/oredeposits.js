@@ -105,6 +105,17 @@ ServerEvents.recipes(e => {
             biomes: 'minecraft:is_overworld'
         },
 
+        // Mekanism teleportation core
+        {
+            resource: 'mekanism:teleportation_core',
+            name: '{"text": "Possible Teleportation Core"}',
+            spacing: 256,
+            separation: 32,
+            salt: 24352355,
+            id: "createoreexcavation:ore_vein_type/tp_core",
+            biomes: 'ad_astra:has_structure/lunarian_village'
+        },
+
         // Thorium
         {
             resource: 'create_new_age:thorium',
@@ -149,7 +160,7 @@ ServerEvents.recipes(e => {
     [
         // Ad Astra planetary metals
         {
-            resources: 'ad_astra:raw_desh',
+            resources: [Item.of('ad_astra:raw_desh').withChance(0.99), Item.of('ad_astra:etrium_nugget').withChance(0.01)],
             veinId: 'createoreexcavation:ore_vein_type/desh',
             time: 600,
             drillId: 'planetsandportals:desh_drilling'
@@ -167,32 +178,6 @@ ServerEvents.recipes(e => {
             time: 9600,
             requiredDrill: 'createoreexcavation:netherite_drill',
             drillId: 'planetsandportals:calorite_drilling'
-        },
-
-        // FLuids
-        {
-            resources: Fluid.of('minecraft:lava', 1000),
-            veinId: 'createoreexcavation:ore_vein_type/lava_overworld',
-            time: 40,
-            drillId: 'planetsandportals:earth_lava_tapping'
-        },
-        {
-            resources: Fluid.of('minecraft:lava', 1000),
-            veinId: 'createoreexcavation:ore_vein_type/lava_mars',
-            time: 80,
-            drillId: 'planetsandportals:mars_lava_tapping'
-        },
-        {
-            resources: Fluid.of('minecraft:lava', 1000),
-            veinId: 'createoreexcavation:ore_vein_type/lava_venus',
-            time: 20,
-            drillId: 'planetsandportals:venus_lava_tapping'
-        },
-        {
-            resources: Fluid.of('minecraft:water', 1000),
-            veinId: 'createoreexcavation:ore_vein_type/water_mars',
-            time: 20,
-            drillId: 'planetsandportals:mars_water_tapping'
         },
 
         // Mekanism metals
@@ -248,5 +233,35 @@ ServerEvents.recipes(e => {
         },
     ].forEach((drilling) => {
         e.recipes.createoreexcavation.drilling(drilling.resources, drilling.veinId, drilling.time).id(drilling.drillId).drill(drilling.requiredDrill ?? '#createoreexcavation:drills')
+    }),
+
+    [
+        // Fluids
+        {
+            resources: Fluid.of('minecraft:lava', 1000),
+            veinId: 'createoreexcavation:ore_vein_type/lava_overworld',
+            time: 40,
+            drillId: 'planetsandportals:earth_lava_tapping'
+        },
+        {
+            resources: Fluid.of('minecraft:lava', 1000),
+            veinId: 'createoreexcavation:ore_vein_type/lava_mars',
+            time: 80,
+            drillId: 'planetsandportals:mars_lava_tapping'
+        },
+        {
+            resources: Fluid.of('minecraft:lava', 1000),
+            veinId: 'createoreexcavation:ore_vein_type/lava_venus',
+            time: 20,
+            drillId: 'planetsandportals:venus_lava_tapping'
+        },
+        {
+            resources: Fluid.of('minecraft:water', 1000),
+            veinId: 'createoreexcavation:ore_vein_type/water_mars',
+            time: 20,
+            drillId: 'planetsandportals:mars_water_tapping'
+        },
+    ].forEach((extracting) => {
+        e.recipes.createoreexcavation.extracting(extracting.resources, extracting.veinId, extracting.time).id(extracting.drillId).drill(extracting.requiredDrill ?? '#createoreexcavation:drills')
     })
 })
