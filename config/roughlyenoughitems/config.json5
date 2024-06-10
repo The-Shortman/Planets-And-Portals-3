@@ -3,7 +3,7 @@
 		"favorites": [],
 		"hiddenFavorites": [],
 		"displayHistory": [],
-		"cheating": true,
+		"cheating": false,
 		"favoritesEnabled": true,
 		"reduceMotion": false,
 		"keyBindings": {
@@ -282,7 +282,8 @@
 					"exposure:photograph_printing",
 					"exposure:photograph_stacking",
 					"brewery:brewing_station_display",
-					"brewery:silo_display"
+					"brewery:silo_display",
+					"mm:structure"
 				],
 				"hiddenCategories": [
 					"ae2:inscriber",
@@ -300,7 +301,8 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}",
+				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
 			]
 		}
 	}

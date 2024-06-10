@@ -56,7 +56,8 @@
 				"{id:\"createoreexcavation:ore_vein_type/ostrum\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
 				"{id:\"createoreexcavation:ore_vein_type/water_mars\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
 				"{id:\"createoreexcavation:ore_vein_type/lava_mars\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
-				"{id:\"createoreexcavation:ore_vein_type/mars_thorium\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}"
+				"{id:\"createoreexcavation:ore_vein_type/mars_thorium\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/tp_core\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}"
 			]
 		}
 	]
