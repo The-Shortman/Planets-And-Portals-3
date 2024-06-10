@@ -244,9 +244,56 @@
 					"chipped:alchemy_bench",
 					"chipped:tinkering_table",
 					"roughlyenoughitems:plugins/information",
-					"minecraft:plugins/tag"
+					"minecraft:plugins/tag",
+					"mekanismgenerators:fission",
+					"mekanism:chemical_crystallizer",
+					"mekanism:chemical_dissolution_chamber",
+					"mekanism:chemical_infuser",
+					"mekanism:chemical_washer",
+					"mekanism:electrolytic_separator",
+					"mekanism:metallurgic_infuser",
+					"mekanism:pressurized_reaction_chamber",
+					"mekanism:pigment_extractor",
+					"mekanism:pigment_mixer",
+					"mekanism:painting_machine",
+					"mekanism:condensentrating",
+					"mekanism:decondensentrating",
+					"mekanism:chemical_oxidizer",
+					"mekanism:nutritional_liquifier",
+					"mekanism:solar_neutron_activator",
+					"mekanism:isotopic_centrifuge",
+					"mekanism:combiner",
+					"mekanism:purification_chamber",
+					"mekanism:osmium_compressor",
+					"mekanism:chemical_injection_chamber",
+					"mekanism:antiprotonic_nucleosynthesizer",
+					"mekanism:sps_casing",
+					"mekanism:boiler_casing",
+					"mekanism:precision_sawmill",
+					"mekanism:enrichment_chamber",
+					"mekanism:crusher",
+					"mekanism:energized_smelter",
+					"mekanism:thermal_evaporation_controller",
+					"mekanism:energy_conversion",
+					"mekanism:gas_conversion",
+					"mekanism:infusion_conversion",
+					"brewery:brewing",
+					"brewery:drying",
+					"exposure:photograph_printing",
+					"exposure:photograph_stacking",
+					"brewery:brewing_station_display",
+					"brewery:silo_display",
+					"mm:structure"
 				],
-				"hiddenCategories": []
+				"hiddenCategories": [
+					"ae2:inscriber",
+					"ad_astra:compressing",
+					"ad_astra:fuel_refining",
+					"ad_astra:alloying",
+					"create_new_age:energising",
+					"ad_astra:refining",
+					"ad_astra:nasa_workbench"
+				]
 			}
 		},
 		"filtering": {
@@ -254,7 +301,8 @@
 			"shouldFilterDisplays": true,
 			"filteringRules": [
 				"{id:\"roughlyenoughitems:manual\",rule:{}}",
-				"{id:\"roughlyenoughitems:basic\",rule:{}}"
+				"{id:\"roughlyenoughitems:basic\",rule:{}}",
+				"{id:\"roughlyenoughitems:hidden_from_recipe_viewers\",rule:{}}"
 			]
 		}
 	}

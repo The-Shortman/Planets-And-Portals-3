@@ -261,7 +261,7 @@
 		}
 		{
 			dependencies: ["67E8273831E8B9D2"]
-			description: ["Currently the only portals are the vanilla portals. The portals theme is still yet TBD as to the direction I will take it."]
+			description: ["Currently the only portals are the vanilla portals. The portals theme is still yet to be implemented at a later phase in development!"]
 			icon: "tempad:he_who_remains_tempad"
 			id: "4F98F89290C89B6B"
 			rewards: [{

@@ -1,11 +1,196 @@
 {
+	autofocus_id: "5EC3A58BAE6AB269"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "going_interplanetary"
 	group: "78B4A4EF75A52C04"
-	id: "3534026A3516B769"
-	order_index: 2
+	icon: {
+		Count: 1
+		id: "ad_astra:tier_2_rocket"
+		tag: { }
+	}
+	id: "4ACE0A7D26551A57"
+	images: [{
+		height: 1.0d
+		image: "ftbquests:tasks/input_only"
+		rotation: 0.0d
+		width: 1.0d
+		x: -1.0d
+		y: 3.0d
+	}]
+	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: [
+				"166CE9752CD0D4E0"
+				"362A787CA60EEE66"
+				"61E506DB629C945A"
+				"7B29884732658FA4"
+				"0829ABE623BB1432"
+			]
+			id: "2A401EBD45A9842A"
+			rewards: [{
+				count: 4
+				id: "210C4776FBBB51A9"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Oh boy, here we go again..."
+			tasks: [{
+				id: "35528DECE0C79D6E"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_2_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"2A401EBD45A9842A"
+				"2CBB5F45A6C3C0E4"
+			]
+			description: [
+				"It's getting more and more difficult to construct rockets that can travel to more difficult areas of space. Venus and Mercury appear to be out of reach with current technology, so there needs to be a better way to build better rockets."
+				""
+				"The tier 3 rocket will ditch mechanical crafting in favour of a brand new system yet to be implemented. Stay tuned!"
+			]
+			id: "5EC3A58BAE6AB269"
+			rewards: [{
+				id: "4679D1AC57FA8375"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Interplanetary"
+			tasks: [{
+				advancement: "ad_astra:mars"
+				criterion: ""
+				icon: "ad_astra:mars_globe"
+				id: "3CD768A4EEC67269"
+				title: "Land on Mars"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "ad_astra:launch_pad"
+			id: "2CBB5F45A6C3C0E4"
+			subtitle: "There's no way to get back from Mars if you forget them!"
+			tasks: [
+				{
+					id: "75FF9B50EBCEDC77"
+					item: "ad_astra:launch_pad"
+					title: "Any #ad_astra:held_over_head"
+					type: "item"
+				}
+				{
+					id: "10695702C0E97A99"
+					title: "Got 'em packed!"
+					type: "checkmark"
+				}
+			]
+			title: "Remember your launch pads!"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["69BE15215F40C3DF"]
+			description: [
+				"Your rocket requires much more efficient usage of fuel, and spending too much time out between planets isn't good for your bones (if you had any, which you don't)."
+				""
+				"Luckily, a gravity normaliser knocks both those issues off the list, by preventing fuel floating around the tanks, and by keeping your legs on the ground! Neat!"
+			]
+			hide: true
+			id: "166CE9752CD0D4E0"
+			subtitle: "If only these were real"
+			tasks: [{
+				id: "1BAB7935B494C76A"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "362A787CA60EEE66"
+			rewards: [{
+				count: 2
+				id: "3F89734F6F4058BE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Bigger distances need bigger engines"
+			tasks: [{
+				id: "6A6B54F71F8753D6"
+				item: "ad_astra:desh_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: ["It would be so sad if someone were to change its recipe so that it's way harder to get large quantities of it for my builds."]
+			id: "61E506DB629C945A"
+			rewards: [{
+				count: 2
+				id: "6301C8E54CBF9606"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "You know these are supposed to be a decorational block?"
+			tasks: [{
+				count: 4L
+				id: "5009D0E0FEFA8AC8"
+				item: "ad_astra:desh_plateblock"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "7B29884732658FA4"
+			rewards: [{
+				count: 2
+				id: "5543723459D2D715"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Might as well get some more secure storage on board"
+			tasks: [{
+				count: 2L
+				id: "070D32521295F626"
+				item: "mekanism:basic_bin"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "0829ABE623BB1432"
+			rewards: [{
+				count: 2
+				id: "3DC976D5BD7272B6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "You'll need way better tanks than those old fuel tanks"
+			tasks: [{
+				count: 2L
+				id: "58C9F26668E6D2C1"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	subtitle: ["Can't wait to visit yet another barren waste of a world"]
 	title: "Going Interplanetary"
 }

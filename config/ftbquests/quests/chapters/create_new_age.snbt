@@ -120,8 +120,13 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["623AA0C1D3B34A7B"]
+			dependencies: [
+				"45470023A9A13F69"
+				"623AA0C1D3B34A7B"
+			]
+			description: ["Desh is remarkably good for transmitting an electric charge, too bad it's only found on the Moon."]
 			id: "4764356EC37D8E20"
+			subtitle: "Baby's first tesla coil"
 			tasks: [{
 				id: "0D614B799DB498B9"
 				item: "create_new_age:energiser_t1"
@@ -175,7 +180,7 @@
 			description: [
 				"The heating system is a bit complex:"
 				""
-				"Heat generators will generate an amount of heat eavery tick. This heat is the added to the TOTAL heat of the whole network. Heat is spread evenly across all componenets, including heat pipes."
+				"Heat generators will generate an amount of heat eavery tick. This heat is the added to the TOTAL heat of the whole network. Heat is spread evenly across all components, including heat pipes."
 				""
 				"Heat pumps can be used to concentrate heat in the network to certain areas (i.e. your heat users). Be careful though, as too much heat can cause the components to melt."
 			]
@@ -214,6 +219,7 @@
 		{
 			dependencies: ["70EA7979F0F85ACD"]
 			id: "265B563CE677C82F"
+			subtitle: "Ok this is practically a death ray now"
 			tasks: [{
 				id: "236D173CF5FDB5A1"
 				item: "create_new_age:energiser_t3"

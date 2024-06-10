@@ -1,0 +1,78 @@
+{
+	autofocus_id: "346A9FF355C3694A"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "a_new_material"
+	group: "78B4A4EF75A52C04"
+	hide_quest_until_deps_visible: true
+	icon: "ad_astra:etrium_nugget"
+	id: "1056852C42E0B4D2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"This isn't supposed to be here? It's clearly artificial... it feels like it holds the power of space itself within its atoms."
+				""
+				"It doesn't seem like these can be compressed into bricks of any form... yet..."
+			]
+			id: "346A9FF355C3694A"
+			invisible: true
+			rewards: [{
+				id: "34085E23551E05D0"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Unearth an Etrium nugget from the Lunar rock"
+			tasks: [{
+				id: "7FBC12F921985FC8"
+				item: "ad_astra:etrium_nugget"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["346A9FF355C3694A"]
+			hide: true
+			id: "464D04E08198E443"
+			rewards: [{
+				id: "7A31E5877D0EF3D6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "But I can use it as a solid electrolyte?"
+			tasks: [{
+				id: "7FEAFFD113B9E11D"
+				item: "ad_astra:etrionic_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["464D04E08198E443"]
+			description: ["Maybe with better technology it can be put to even more use?"]
+			hide: true
+			id: "69BE15215F40C3DF"
+			rewards: [{
+				count: 2
+				id: "15646554389100C2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "For now, this is the best you can make of Etrium"
+			tasks: [{
+				id: "6D5A64E45C039E9A"
+				item: "ad_astra:gravity_normalizer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Where did this come from...?"]
+	title: "A new 'material'?"
+}

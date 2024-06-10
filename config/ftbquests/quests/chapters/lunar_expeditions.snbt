@@ -1,4 +1,5 @@
 {
+	autofocus_id: "75A8BA081E0C763E"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "lunar_expeditions"
@@ -7,31 +8,309 @@
 	id: "54197E6675FEF3E9"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["0A9445567E4ED5DA"]
-		icon: "ad_astra:moon_globe"
-		id: "75A8BA081E0C763E"
-		shape: "octagon"
-		size: 3.0d
-		subtitle: "YOOOO"
-		tasks: [
-			{
-				advancement: "ad_astra:moon"
-				criterion: ""
-				id: "30A3D80609AD6E46"
-				title: "Land on the Moon"
-				type: "advancement"
-			}
-			{
-				id: "763682623BAE121B"
-				title: "Let's get started!"
-				type: "checkmark"
-			}
-		]
-		title: "Starting your interplanetary empire"
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["0A9445567E4ED5DA"]
+			description: [
+				"Welcome to your new &cdesolate, barren wasteland&r, save from &ca few natives&r scattered across the surface."
+				""
+				"Your factory needs valuable &6Desh&r to operate more complex machines due to its &cunique conductivity abilities&c."
+				""
+				"So go forth! The moon is a &bprisitine world&r, as of now untouched by the recklessness of interplanetary civilisations... &o&8or is it...?"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "75A8BA081E0C763E"
+			rewards: [
+				{
+					id: "5F4954FF7460EDDC"
+					item: "numismatics:sprocket"
+					type: "item"
+				}
+				{
+					id: "6D27D141780687BE"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Why is all the quest description text coloured now"
+			tasks: [
+				{
+					advancement: "ad_astra:moon"
+					criterion: ""
+					id: "30A3D80609AD6E46"
+					title: "Land on the Moon"
+					type: "advancement"
+				}
+				{
+					id: "763682623BAE121B"
+					title: "Let's get started!"
+					type: "checkmark"
+				}
+			]
+			title: "Starting your interplanetary empire"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75A8BA081E0C763E"]
+			description: [
+				"&6Desh&r has some remarkable &cconductivity properties&r. "
+				""
+				"It's a great charge transmitter, but absoutely useless at retaining that charge, which apparently &asolves a lot of very specific problems&r."
+			]
+			id: "29F99F71DA84692F"
+			rewards: [{
+				id: "0188C91CD01FA2C1"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "What the Moon is all about"
+			tasks: [{
+				id: "2F52BB42EDEC9630"
+				item: "ad_astra:raw_desh"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75A8BA081E0C763E"]
+			description: ["&4c&ch&6e&ee&as&2e &3:&bD"]
+			id: "62E18A85AD5A7D45"
+			rewards: [
+				{
+					count: 2
+					id: "0134E2D36D113B33"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					id: "1762F3F6A408F850"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "yeah"
+			tasks: [{
+				id: "5862CA393DC40D20"
+				item: "ad_astra:cheese"
+				type: "item"
+			}]
+			title: "cheese?"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75A8BA081E0C763E"]
+			description: [
+				"And your neighbours are closer than you thought."
+				""
+				"These friendly natives aren't any harm to you, as they still seem &crelatively primitive&r. Their arms are also bound together, much like Earth's villagers, giving them an &cincredible resistance to evolution&r."
+			]
+			id: "3BF31099CB0319AD"
+			rewards: [{
+				count: 4
+				id: "64BD3B885C6A8F86"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Turns out you're not alone in this universe"
+			tasks: [{
+				icon: "ad_astra:lunarian_spawn_egg"
+				id: "6C19CCF612956401"
+				observe_type: 5
+				timer: 0L
+				title: "Meet intelligent life"
+				to_observe: "ad_astra:lunarian"
+				type: "observation"
+			}]
+			title: "The Natives"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["75A8BA081E0C763E"]
+			description: ["Shards of an &bexotic form of ice&r are abundant on cold worlds, and the Moon can get pretty damn cold."]
+			id: "7585E1EC5B1471BE"
+			rewards: [{
+				id: "1C4D9C238404D371"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Weird water"
+			tasks: [{
+				id: "707F7BFC52CDAB8B"
+				item: "ad_astra:ice_shard"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["75A8BA081E0C763E"]
+			description: [
+				"Lunarians struggle with an &cinfection problem&r."
+				""
+				"Most survivors appear to hide underground, safe from the disease, but some remain in towers on the surface, as if in spite of the &cexistential crisis&r that has befallen their world."
+			]
+			id: "2A7D170F0940C433"
+			rewards: [{
+				count: 4
+				id: "0AEBB1BDEAE12CE7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Not just on Earth, huh..."
+			tasks: [{
+				icon: "ad_astra:corrupted_lunarian_spawn_egg"
+				id: "0569969A3844DC94"
+				observe_type: 5
+				timer: 0L
+				title: "Encounter hostiles"
+				to_observe: "ad_astra:corrupted_lunarian"
+				type: "observation"
+			}]
+			title: "The Infection Problem"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29F99F71DA84692F"]
+			description: ["&6Desh&r is found in &celemental form&r, so has to be &cmelted&r and cast into ingots."]
+			id: "7C11AB543D17500D"
+			rewards: [{
+				count: 4
+				id: "2579AB0987EC3FC2"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "406AE2362A02C60F"
+				item: "ad_astra:desh_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7C11AB543D17500D"]
+			description: ["&6Desh plates&r are heavily reinforced and more durable than &3heavy plates&r, with the added bonus of all the properties of &6Desh&r as well. Sweet!"]
+			id: "45470023A9A13F69"
+			rewards: [{
+				id: "366C9702873835C2"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Oh, yeah, these are more difficult to make as well"
+			tasks: [{
+				id: "37741AC3F3F67051"
+				item: "ad_astra:desh_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45470023A9A13F69"]
+			description: ["You'll need some form of &2permanent base&r as you'll have to frequent your &6ore excavation hotspots&r."]
+			id: "375104B3E6E3BF65"
+			rewards: [{
+				count: 4
+				id: "0488527CED62C429"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Planetary bases!"
+			tasks: [{
+				id: "715302A3DF7373A6"
+				item: "ad_astra:oxygen_distributor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["45470023A9A13F69"]
+			description: ["Bombard &dcertain things&r with &eenergy&r to make them do stuff."]
+			id: "1FF8697FC9ECB0A9"
+			rewards: [{
+				id: "69A9B2964858475D"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "Applied Energy(stics)"
+			tasks: [{
+				id: "7361A4C52E2D7CAF"
+				item: "create_new_age:energiser_t1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["45470023A9A13F69"]
+			description: ["Strange how &2Tier 1 Rover&r implies more tiers of rover, yet there aren't any higher tiers."]
+			id: "1300410884235455"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "414AE707B59B8C51"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Not required, but pretty cool"
+			tasks: [{
+				id: "46457BC52327717C"
+				item: {
+					Count: 1
+					id: "ad_astra:tier_1_rover"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1FF8697FC9ECB0A9"]
+			description: ["Yet another reason you really should have steel &cautomated&r by now."]
+			id: "331740C5F410B36D"
+			rewards: [{
+				count: 2
+				id: "3493BFCB555D52D4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Another use for steel"
+			tasks: [{
+				id: "6CE391801DF89F1D"
+				item: "planetsandportals:steel_electrode"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["331740C5F410B36D"]
+			description: ["And 2x as efficient on &5obsidian&r!"]
+			id: "687855B5935E15D2"
+			rewards: [{
+				id: "4C7D751F5C18C6E4"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "Huh, that's 9x as efficient on steel"
+			tasks: [{
+				id: "1D12BE1985693865"
+				item: "tfmg:heavy_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+	]
 	subtitle: ["A new world to destroy"]
 	title: "Lunar Expeditions"
 }

@@ -1,0 +1,1 @@
+Platform.mods.kubejs.name = 'Planets and Portals 3'

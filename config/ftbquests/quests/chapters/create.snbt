@@ -73,6 +73,11 @@
 			dependencies: ["00E07653D4637318"]
 			icon: "create:water_wheel"
 			id: "35C5D64CDBBA288B"
+			rewards: [{
+				id: "2055E6F2DD7DDBC8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "16176709923211EB"
@@ -158,6 +163,11 @@
 		{
 			dependencies: ["440ACAEBB9D96DB7"]
 			id: "1511184307BF3AF3"
+			rewards: [{
+				id: "121ABEE724649486"
+				type: "xp"
+				xp: 50
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "29F95646602065DD"
@@ -241,6 +251,11 @@
 		{
 			dependencies: ["35C5D64CDBBA288B"]
 			id: "38D9D69D8B95D9AF"
+			rewards: [{
+				id: "5C84C18EE73A3138"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3BC4A9B2AC22D439"
@@ -306,6 +321,11 @@
 		{
 			dependencies: ["1C707675E327A49A"]
 			id: "693CB7DA05A91905"
+			rewards: [{
+				id: "11C84B736B2DD80E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Metal sheets are a very common crafting ingredient"
 			tasks: [{
 				id: "7C1B4EDF0B3B0A7C"
@@ -318,6 +338,11 @@
 		{
 			dependencies: ["693CB7DA05A91905"]
 			id: "010DE0CE83CE9084"
+			rewards: [{
+				id: "4B55775F3D3C4DAE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1D7541E48774EFB6"
@@ -347,6 +372,11 @@
 		{
 			dependencies: ["693CB7DA05A91905"]
 			id: "5EFF1C0FBFD04F76"
+			rewards: [{
+				id: "52B6F59097B3AB99"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "51480B2D664F3A19"
 				item: "create:encased_fan"
@@ -439,6 +469,12 @@
 			]
 			description: ["Place this underneath your mixer's basin and give it solid fuel or lava to heat it up."]
 			id: "34849FEBAB716C1D"
+			rewards: [{
+				count: 4
+				id: "7770C226BC5DCAED"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "You need some high temperatures to mix copper and zinc"
 			tasks: [{
 				id: "4CD9D5DFD33017BB"
@@ -462,6 +498,11 @@
 		{
 			dependencies: ["693CB7DA05A91905"]
 			id: "709415E21A2F8867"
+			rewards: [{
+				id: "071E99DA7944FC85"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3827D4D75F920E67"
 				item: "create:mechanical_saw"
@@ -692,6 +733,12 @@
 			]
 			icon: "create:steam_whistle"
 			id: "735F34213F777729"
+			rewards: [{
+				count: 4
+				id: "41994276D82706C7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 9L
@@ -724,6 +771,12 @@
 		{
 			dependencies: ["294E24EA4F730A31"]
 			id: "33965327E319C662"
+			rewards: [{
+				count: 4
+				id: "3B18C8E21CFFBBD0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "20% chance random salvage jumpscare"
 			tasks: [{
 				id: "4D9728B1D3B73E38"
@@ -783,6 +836,12 @@
 				"7CFA9A1D9B9A5579"
 			]
 			id: "0A2498D4F02D7033"
+			rewards: [{
+				count: 4
+				id: "5EB3B35E8F131F82"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4639FB32623A9D79"
 				item: "create:rotation_speed_controller"
@@ -916,6 +975,12 @@
 		{
 			dependencies: ["33965327E319C662"]
 			id: "22E1F637EC14FA16"
+			rewards: [{
+				count: 4
+				id: "4CED31AFA4B8C346"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3C13D7999AC92982"
 				item: "create:mechanical_crafter"
@@ -952,6 +1017,11 @@
 				"247C80821D3B9E5C"
 			]
 			id: "2CA59BD614BF28D5"
+			rewards: [{
+				id: "7936E2B5F5566491"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6474120DA58A9843"
 				item: "create:powdered_obsidian"
@@ -998,6 +1068,12 @@
 		{
 			dependencies: ["22E1F637EC14FA16"]
 			id: "31DA21EF20F5CBED"
+			rewards: [{
+				count: 4
+				id: "3616855F472AA5EF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "247C80821D3B9E5C"
 				item: "create:crushing_wheel"
@@ -1092,6 +1168,12 @@
 		{
 			dependencies: ["3F4F6CB631C6E853"]
 			id: "4A94EB7FDD046A00"
+			rewards: [{
+				count: 2
+				id: "7579617D027D0C37"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "77B6DF58CB632607"
 				item: "create:track"
@@ -1130,6 +1212,12 @@
 		{
 			dependencies: ["128EDEA4A2B85D68"]
 			id: "3192CD050ABA16C3"
+			rewards: [{
+				count: 2
+				id: "694648F1A76E5967"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "646D4F71D4ABFF88"
 				item: "create:track_signal"
@@ -1197,6 +1285,11 @@
 				"5ED8E4A6417E3FCF"
 			]
 			id: "425A1A754363034A"
+			rewards: [{
+				id: "0E708F6CC0F8586F"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				advancement: "create:train"
@@ -1277,6 +1370,12 @@
 			dependencies: ["5D72CD80A8384357"]
 			description: ["You must wear a full netherite set for this to work! Use normal netherite leggings for the legs slot!"]
 			id: "24A3E10C86F30E42"
+			rewards: [{
+				count: 2
+				id: "7E904A7CC4EFC406"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Volcanologist's dream"
 			tasks: [{
 				id: "1D011482EF427EAC"
@@ -1296,6 +1395,12 @@
 			dependencies: ["30940371AA326E00"]
 			description: ["This is required for the diving set to work!"]
 			id: "7CE9E724A218FEDE"
+			rewards: [{
+				count: 2
+				id: "46E7CD50BE8AFE6B"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3967E8585D299DCD"
 				item: {
@@ -1314,6 +1419,12 @@
 			dependencies: ["2007A50E6AA5A7F0"]
 			description: ["You can use normal netherite boots for the netherite diving set, the diving boots are just more useful for moving through the lava."]
 			id: "75C4E67A0D04F636"
+			rewards: [{
+				count: 2
+				id: "4CFE42D97E70F1BD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Optional diving equipment"
 			tasks: [{
 				id: "25A7D64676032495"
@@ -1441,6 +1552,12 @@
 		{
 			dependencies: ["128EDEA4A2B85D68"]
 			id: "25707B73F95FC1E6"
+			rewards: [{
+				count: 2
+				id: "02FC2C082EABF952"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			tasks: [{
 				id: "690BBAE377F4E17B"
 				item: "create:schedule"
@@ -1607,6 +1724,12 @@
 			]
 			description: ["Yes, this is a Helldivers 2 reference."]
 			id: "754113CC7ADFDAA9"
+			rewards: [{
+				id: "62002FA817D9B35D"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			subtitle: "Sweet liberty"
 			tasks: [{
 				advancement: "create:diving_suit_lava"
 				criterion: ""

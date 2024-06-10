@@ -1,4 +1,64 @@
 {
 	"disabledGroups": [],
-	"customGroups": []
+	"customGroups": [
+		{
+			"id": "custom:a84d4c3f-ab82-40e5-979f-c0ba73a4a1ed",
+			"name": "Earth Ore Deposits",
+			"stacks": [
+				"{id:\"createoreexcavation:ore_vein_type/lapis\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/hardened_diamond\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/tin\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/iron\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/lead\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/redstone\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/coal\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/osmium\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/earth_thorium\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/diamond\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/lava_overworld\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/uranium\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/gold\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/copper\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/zinc\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/emerald\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}"
+			]
+		},
+		{
+			"id": "custom:e509a5df-d87d-4b1a-acd1-886589a206c9",
+			"name": "Moon Ore Deposits",
+			"stacks": [
+				"{id:\"createoreexcavation:ore_vein_type/desh\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/moon_thorium\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}"
+			]
+		},
+		{
+			"id": "custom:43a93e23-f1bb-4fc5-acb7-0919aeada6a8",
+			"name": "Venus Ore Deposits",
+			"stacks": [
+				"{id:\"createoreexcavation:ore_vein_type/lava_venus\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/calorite\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/venus_thorium\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}"
+			]
+		},
+		{
+			"id": "custom:32ea4660-4f09-4d5c-bdda-069dd97566a3",
+			"name": "Nether Ore Deposits",
+			"stacks": [
+				"{id:\"createoreexcavation:ore_vein_type/netherite\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/glowstone\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/quartz\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}"
+			]
+		},
+		{
+			"id": "custom:5ab07b89-1eff-4614-8ccf-509c163a8333",
+			"name": "Mars Ore Deposits",
+			"stacks": [
+				"{id:\"createoreexcavation:ore_vein_type/ostrum\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/water_mars\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/lava_mars\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/mars_thorium\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}",
+				"{id:\"createoreexcavation:ore_vein_type/tp_core\",type:\"createoreexcavation:jei_jei_compat_veinrecipe\"}"
+			]
+		}
+	]
 }

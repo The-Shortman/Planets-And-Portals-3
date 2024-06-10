@@ -9,6 +9,7 @@
 	order_index: 3
 	quest_links: [ ]
 	quests: [{
+		description: ["&o&8Lamp oil? Rope? Bombs?..."]
 		id: "477FAF7C288B83E0"
 		subtitle: "Check back later in development!"
 		tasks: [{
@@ -19,6 +20,6 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	subtitle: ["Buy wares from the Game Shop!"]
+	subtitle: ["Buy and sell wares from the Game Shop!"]
 	title: "The Shop"
 }

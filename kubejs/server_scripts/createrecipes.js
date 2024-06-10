@@ -7,39 +7,58 @@ ServerEvents.recipes(e => {
     mechanicalCraftingRecipes(e);
     crushingRecipes(e);
     washingRecipes(e);
+    energisingRecipes(e);
 
     ///// Sequenced Assemblies /////
 
     let placehold = 'create:incomplete_precision_mechanism'
+    let hplate = 'tfmg:unprocessed_heavy_plate'
+    let steelmech = 'tfmg:unfinished_steel_mechanism'
+    let obsheet = 'create:unprocessed_obsidian_sheet'
 
     // TFMG Heavy Plate
 
     e.recipes.create.sequenced_assembly([
         Item.of('tfmg:heavy_plate'), // Output
     ], 'tfmg:steel_block', [ // Input
-        e.recipes.create.pressing('tfmg:unprocessed_heavy_plate', 'tfmg:unprocessed_heavy_plate'),
-        e.recipes.create.deploying('tfmg:unprocessed_heavy_plate', ['tfmg:unprocessed_heavy_plate', 'create:sturdy_sheet']),
-        e.recipes.create.pressing('tfmg:unprocessed_heavy_plate', 'tfmg:unprocessed_heavy_plate'),
-        e.recipes.create.pressing('tfmg:unprocessed_heavy_plate', 'tfmg:unprocessed_heavy_plate')
-    ]).transitionalItem('tfmg:unprocessed_heavy_plate').loops(1)
+        e.recipes.create.pressing(hplate, hplate),
+        e.recipes.create.deploying(hplate, [hplate, 'create:sturdy_sheet']),
+        e.recipes.create.pressing(hplate, hplate),
+        e.recipes.create.pressing(hplate, hplate)
+    ]).transitionalItem(hplate).loops(1)
+
+    // Post-moon TFMG heavy plate
+
+    e.recipes.create.sequenced_assembly([
+        Item.of('tfmg:heavy_plate'), // Output
+    ], 'planetsandportals:steel_electrode', [ // Input
+        e.recipes.create.filling(hplate, [hplate, Fluid.of('planetsandportals:obsidian_solution', 500)]),
+        e.recipes.create.pressing(hplate, hplate)
+    ]).transitionalItem(hplate).loops(1)
+
+    // TFMG Steel Mechanism
 
     e.recipes.create.sequenced_assembly([
         Item.of('tfmg:steel_mechanism'), // Output
     ], 'tfmg:heavy_plate', [ // Input
-        e.recipes.create.pressing('tfmg:unfinished_steel_mechanism', 'tfmg:unfinished_steel_mechanism'),
-        e.recipes.create.deploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'create:cogwheel']),
-        e.recipes.create.deploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'tfmg:screw']),
-        e.recipes.create.deploying('tfmg:unfinished_steel_mechanism', ['tfmg:unfinished_steel_mechanism', 'tfmg:screwdriver']).keepHeldItem()
-    ]).transitionalItem('tfmg:unfinished_steel_mechanism').loops(4),
+        e.recipes.create.pressing(steelmech, steelmech),
+        e.recipes.create.deploying(steelmech, [steelmech, 'create:cogwheel']),
+        e.recipes.create.deploying(steelmech, [steelmech, 'tfmg:screw']),
+        e.recipes.create.deploying(steelmech, [steelmech, 'tfmg:screwdriver']).keepHeldItem()
+    ]).transitionalItem(steelmech).loops(4),
+
+    // Early game sturdy sheet (40% chance of failiure)
 
     e.recipes.create.sequenced_assembly([
         Item.of('create:sturdy_sheet').withChance(0.6),
         Item.of('minecraft:iron_nugget').withChance(0.4) // Output
     ], 'create:powdered_obsidian', [ // Input
-        e.recipes.create.deploying('create:unprocessed_obsidian_sheet', ['create:unprocessed_obsidian_sheet', 'minecraft:iron_nugget']),
-        e.recipes.create.pressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
-        e.recipes.create.pressing('create:unprocessed_obsidian_sheet', 'create:unprocessed_obsidian_sheet'),
-    ]).transitionalItem('create:unprocessed_obsidian_sheet').loops(5)
+        e.recipes.create.deploying(obsheet, [obsheet, 'minecraft:iron_nugget']),
+        e.recipes.create.pressing(obsheet, obsheet),
+        e.recipes.create.pressing(obsheet, obsheet),
+    ]).transitionalItem(obsheet).loops(5)
+
+    // Ad Astra Desh Plate
 
     e.recipes.create.sequenced_assembly([
         Item.of('ad_astra:desh_plate'), // Output
@@ -96,7 +115,7 @@ ServerEvents.recipes(e => {
 //    [
 //        {
 //            output: '',
-//            fluid: '',
+//            fluid: Fluid.of('', 1000),
 //            input: ''
 //        }
 //    ].forEach((recipe) => {
@@ -133,12 +152,53 @@ function mixingRecipes(e) {
                 fluid: 'tfmg:crude_oil_fluid',
                 amount: 1000
             }
-        }
+        },
+        {
+            inputs: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 1000
+                },
+                'create:powdered_obsidian'
+            ],
+            outputs: {
+                fluid: 'planetsandportals:obsidian_solution',
+                amount: 1000
+            }
+        },
+        {
+            outputs: [
+                'ad_astra:desh_ingot',
+            ],
+            inputs: [
+                Fluid.of('planetsandportals:molten_desh', 1000/9),
+            ]
+        },
     ].forEach((recipe) => {
         e.recipes.create.mixing(recipe.outputs, recipe.inputs)
     }),
 
     [
+        {
+            outputs: [
+                Fluid.of('planetsandportals:molten_desh', 1000/9),
+                'tfmg:ingot_mold'
+            ],
+            inputs: [
+                'ad_astra:raw_desh',
+                'tfmg:ingot_mold'
+            ]
+        },
+        {
+            outputs: [
+                Fluid.of('planetsandportals:molten_desh', 1000/9),
+                'tfmg:ingot_mold'
+            ],
+            inputs: [
+                'planetsandportals:crushed_desh_ore',
+                'tfmg:ingot_mold'
+            ]
+        },
         {
             outputs: [
                 'mekanism:ingot_osmium',
@@ -173,6 +233,15 @@ function mixingRecipes(e) {
             inputs: [
                 'mekanism:dust_uranium',
                 'ad_astra:calorite_nugget'
+            ]
+        },
+        {
+            outputs: [
+                'mekanism:alloy_infused'
+            ],
+            inputs: [
+                'create:andesite_alloy',
+                'mekanism:enriched_redstone'
             ]
         },
     ].forEach((recipe) => {
@@ -272,7 +341,7 @@ function mechanicalCraftingRecipes(e) {
                 F: 'tfmg:heavy_machinery_casing',
                 G: 'create:white_seat',
                 H: 'ad_astra:rocket_fin',
-                I: 'create_new_age:reactor_casing',
+                I: 'immersive_aircraft:steel_boiler',
                 J: 'ad_astra:steel_engine'
             },
             output: 'ad_astra:tier_1_rocket'
@@ -291,7 +360,7 @@ function mechanicalCraftingRecipes(e) {
                 B: 'mekanism:advanced_bin',
                 C: 'ad_astra:oxygen_loader',
                 D: 'mekanism:advanced_fluid_tank',
-                E: 'create_new_age:reactor_glass',
+                E: 'mekanism:structural_glass',
                 F: 'ad_astra:desh_plateblock',
                 G: 'create:white_seat',
                 H: 'ad_astra:rocket_fin',
@@ -379,5 +448,30 @@ function washingRecipes (e) {
         },
     ].forEach((recipe) => {
         e.recipes.create.splashing(recipe.outputs, recipe.input)
+    })
+}
+
+function energisingRecipes(e) {
+    [
+        {
+            input: 'tfmg:steel_ingot',
+            output: 'planetsandportals:steel_electrode',
+            energy: 5000
+        },
+    ].forEach((recipe) => {
+        e.custom({
+            "type": "create_new_age:energising",
+            "energy_needed": recipe.energy,
+            "ingredients": [
+                {
+                  "item": recipe.input
+                }
+            ],
+            "results": [
+              {
+                "item": recipe.output
+              }
+            ]
+        })
     })
 }

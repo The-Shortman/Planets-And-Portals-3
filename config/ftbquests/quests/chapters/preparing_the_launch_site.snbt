@@ -30,6 +30,11 @@
 		{
 			dependencies: ["20DF00AF53604135"]
 			id: "37820844114C6ABA"
+			rewards: [{
+				id: "0E7868915C215935"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Breathing might be beneficial to your long-term health"
 			tasks: [{
 				id: "16560EE72DA1945E"
@@ -42,6 +47,12 @@
 		{
 			dependencies: ["37820844114C6ABA"]
 			id: "09FCA7CF856F7061"
+			rewards: [{
+				count: 2
+				id: "2ADB476B88DDB3A6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "I'm up in space, maaaaannn..."
 			tasks: [
 				{
@@ -101,7 +112,17 @@
 				"1D521FC501CD386D"
 				"2AE1FA0784BFDD35"
 			]
+			description: [
+				"You're also like, sat right on top of the fuel ignition chamber..."
+				""
+				"Yeah this bucket of bolts ain't built to last."
+			]
 			id: "0A9445567E4ED5DA"
+			rewards: [{
+				id: "2C08C1D7FDCB6561"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			subtitle: "I hope you at least semi-automated steel for this"
 			tasks: [{
 				id: "143B1C0C6A13A48A"
@@ -136,6 +157,11 @@
 				"0A9445567E4ED5DA"
 			]
 			id: "744FDD3F40EC4A3D"
+			rewards: [{
+				id: "31240F3BC2B72165"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Please remember a backup launchpad and extra fuel!"
@@ -152,6 +178,12 @@
 		{
 			dependencies: ["20DF00AF53604135"]
 			id: "7DAFC038CA0C66EF"
+			rewards: [{
+				count: 2
+				id: "484BE0E0F55C722D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "You need a launch pad to return to Earth!"
 			tasks: [{
 				count: 2L
@@ -165,6 +197,12 @@
 		{
 			dependencies: ["20DF00AF53604135"]
 			id: "6149EBE3249827BE"
+			rewards: [{
+				count: 2
+				id: "2CC2FB43D40A07A7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Something to move the rocket"
 			tasks: [{
 				id: "1F1AE499FC56BC89"
@@ -177,6 +215,12 @@
 		{
 			dependencies: ["6B3AD7F1EE3A08C3"]
 			id: "4941BEA8A488150B"
+			rewards: [{
+				count: 2
+				id: "00729BC4FE5E0C2E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Something to look out of"
 			tasks: [{
 				id: "56299D9162817956"
@@ -189,6 +233,12 @@
 		{
 			dependencies: ["4D42D999C2360B89"]
 			id: "1D521FC501CD386D"
+			rewards: [{
+				count: 2
+				id: "6482CDF24A4CCC9C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "A suitable heat-resistant material"
 			tasks: [{
 				id: "07208ED5F3DFC1F0"
@@ -199,12 +249,19 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["4764356EC37D8E20"]
+			dependencies: ["5F63BC3B13248EEA"]
+			description: ["It does the trick, does it not???"]
 			id: "2AE1FA0784BFDD35"
-			subtitle: "Something to protect the rocket from the engine"
+			rewards: [{
+				count: 2
+				id: "2C5CF6F128C5A1B8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Ignition chamber"
 			tasks: [{
 				id: "30193C9E49BE92E2"
-				item: "create_new_age:reactor_casing"
+				item: "immersive_aircraft:steel_boiler"
 				type: "item"
 			}]
 			x: 0.0d
@@ -213,6 +270,12 @@
 		{
 			dependencies: ["5F63BC3B13248EEA"]
 			id: "39E60485204E117F"
+			rewards: [{
+				count: 2
+				id: "0D7FFB75B2250B56"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			subtitle: "Somewhere to store the fuel"
 			tasks: [{
 				id: "667EE3650BCE40F5"
