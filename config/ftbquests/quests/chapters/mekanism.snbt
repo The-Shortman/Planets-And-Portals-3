@@ -3,9 +3,773 @@
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "78B4A4EF75A52C04"
+	icon: "mekanism:alloy_infused"
 	id: "53ABDE8AFFD8202C"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
-	title: "Mekanism"
+	quests: [
+		{
+			dependencies: [
+				"73914569050D6B8F"
+				"4897189471F343E8"
+			]
+			description: ["Upgrade your puny andesite alloy!"]
+			id: "388538277BCC879C"
+			rewards: [{
+				count: 2
+				id: "051FC2D61D8D53AA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "The power of Redstone and Andesite"
+			tasks: [{
+				id: "490319CB14175546"
+				item: "mekanism:alloy_infused"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"650CD9E0382D1143"
+				"4675259A7B3524BE"
+			]
+			description: ["Finally I can use this stuff!"]
+			id: "1003ED32BAD36DF2"
+			rewards: [{
+				count: 2
+				id: "29994EF7F803CBA0"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Stop clogging my storage!"
+			tasks: [{
+				id: "3B3DB68A111DE94E"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C11AB543D17500D"]
+			id: "650CD9E0382D1143"
+			subtitle: "An addition to get osmium to stick into an ingot"
+			tasks: [{
+				id: "36E7E1A7FF9219D2"
+				item: "ad_astra:desh_nugget"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75A8BA081E0C763E"]
+			description: ["Powder your osmium"]
+			id: "4675259A7B3524BE"
+			subtitle: "Get that surface area up for the reaction"
+			tasks: [{
+				id: "7C6FA4577333BC01"
+				item: "mekanism:dust_osmium"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["75A8BA081E0C763E"]
+			id: "73914569050D6B8F"
+			subtitle: "This stuff needs an upgrade"
+			tasks: [{
+				id: "37AC29C13592B404"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33DC8F1F8C3AD88C"]
+			id: "4897189471F343E8"
+			subtitle: "Redstone on crack"
+			tasks: [{
+				id: "64F4A97415CB48A3"
+				item: "mekanism:enriched_redstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1003ED32BAD36DF2"]
+			id: "53FD3BAD97550C9C"
+			rewards: [{
+				count: 2
+				id: "18D241EDEA7B2EBF"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Vital for your machinery"
+			tasks: [{
+				id: "2DD66FD211375F1F"
+				item: "mekanism:steel_casing"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"53FD3BAD97550C9C"
+				"16AF7FF386FFACA7"
+			]
+			description: ["And a load of other things too!"]
+			id: "33DC8F1F8C3AD88C"
+			rewards: [{
+				count: 2
+				id: "65F84CC2C1B1DB7E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Can also be used for ore duplication!"
+			tasks: [{
+				id: "6646AC71CEB71378"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1003ED32BAD36DF2"]
+			id: "3D3CE5A7EA35F16F"
+			rewards: [{
+				count: 2
+				id: "78E239CF7C4E4E93"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Mekanism's most basic machine"
+			tasks: [{
+				id: "66FB11EB08A99C84"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D3CE5A7EA35F16F"]
+			description: ["Albeit, an incredibly crude one"]
+			id: "16AF7FF386FFACA7"
+			rewards: [{
+				count: 2
+				id: "5C48FFEF074A1FBA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "Your very first CPU"
+			tasks: [{
+				id: "74DB77FCCBD6DB94"
+				item: "mekanism:basic_control_circuit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["388538277BCC879C"]
+			id: "3401D3D494213CF2"
+			subtitle: "Portable power storage"
+			tasks: [{
+				id: "497098BAEEA612E2"
+				item: "mekanism:energy_tablet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3401D3D494213CF2"]
+			id: "573EF1ACB45D7A12"
+			rewards: [{
+				id: "66D1B337FB2E449F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "The Cube"
+			tasks: [{
+				id: "58CFCA48B1358C42"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3401D3D494213CF2"]
+			id: "31D9ABD96D5D4C30"
+			rewards: [{
+				id: "7515E031A697E7A3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Clean power"
+			tasks: [{
+				id: "3E8002E1EC7F5C7D"
+				item: "mekanismgenerators:solar_generator"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3401D3D494213CF2"]
+			description: ["Just stand on it and power it!"]
+			id: "585C1E83496DB116"
+			rewards: [{
+				id: "373597FF337BC4BC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Charges items from any mod with RF"
+			tasks: [{
+				id: "060865CDEDBB15EE"
+				item: "mekanism:chargepad"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16AF7FF386FFACA7"]
+			description: ["Feels good doesn't it?"]
+			icon: "create:belt_connector"
+			id: "54F4E0ADA60A0DFA"
+			shape: "square"
+			subtitle: "No more belt spaghetti"
+			tasks: [{
+				id: "234CBB4A48FBB4FE"
+				title: "Logistics"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["54F4E0ADA60A0DFA"]
+			id: "04582F77A7AA4D4A"
+			rewards: [{
+				id: "7BDC4CE2D2A5FF42"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Energy transfer"
+			tasks: [{
+				id: "45418CF0D4DF1B6D"
+				item: "mekanism:basic_universal_cable"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["54F4E0ADA60A0DFA"]
+			id: "3A9CF8322A2F0922"
+			rewards: [{
+				id: "04ACE1747FFEB328"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Fluid transfer"
+			tasks: [{
+				id: "39DC75B0192FC040"
+				item: "mekanism:basic_mechanical_pipe"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["54F4E0ADA60A0DFA"]
+			id: "19CFF4205761A1B0"
+			rewards: [{
+				id: "1605369EEB2E6717"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Special Mekanism fluid transfer"
+			tasks: [{
+				id: "4B5AF0E0E2408040"
+				item: "mekanism:basic_pressurized_tube"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["54F4E0ADA60A0DFA"]
+			id: "483F0E28A5DFD821"
+			rewards: [{
+				id: "0501FBA0D825634A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Item transfer"
+			tasks: [{
+				id: "7B93EA7A1EFB2F88"
+				item: "mekanism:basic_logistical_transporter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["54F4E0ADA60A0DFA"]
+			id: "45464639FE1CBEBE"
+			rewards: [{
+				id: "0C45049C43CA2F1E"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Mekanism heat transfer"
+			tasks: [{
+				id: "2841C9690F8114B3"
+				item: "mekanism:basic_thermodynamic_conductor"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16AF7FF386FFACA7"]
+			id: "311D9A424DB1064F"
+			subtitle: "Upgrade your machines to factories!"
+			tasks: [{
+				id: "22B9FBD9A600BB31"
+				item: "mekanism:basic_tier_installer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"16AF7FF386FFACA7"
+				"388538277BCC879C"
+			]
+			icon: "mekanism:painting_machine"
+			id: "4606B973C156ECC9"
+			shape: "square"
+			subtitle: "The heart and soul of any factory"
+			tasks: [{
+				id: "4D29A52353874B3B"
+				title: "Machines"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["16AF7FF386FFACA7"]
+			description: [
+				"You thought backpacks were useful? Check out these!"
+				""
+				"EVEN MORE STORAGE!!!"
+			]
+			id: "547894D6E345206A"
+			subtitle: "Big storage!"
+			tasks: [{
+				id: "6F22F3FC3D90811E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "mekanism:personal_storage"
+					}
+				}
+				title: "Either personal storage containers"
+				type: "item"
+			}]
+			title: "Personal Storage"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36585939B397BE66"]
+			id: "57FB42B78E562DD0"
+			rewards: [{
+				id: "2F586BEACEB3378D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Reprocess items and blocks"
+			tasks: [{
+				id: "0666CFCE503E42F8"
+				item: "mekanism:crusher"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["36585939B397BE66"]
+			id: "58DCF1CA35A6360D"
+			rewards: [{
+				id: "195A78B927C31123"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Just an electric furnace, really"
+			tasks: [{
+				id: "14B574C9213DE3E7"
+				item: "mekanism:energized_smelter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["01E3DB1595AC7798"]
+			id: "5CF2ADC8D240A609"
+			rewards: [{
+				id: "3F581C18C6AD7CBD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Like the mechanical pump, but electric!"
+			tasks: [{
+				id: "3BD56E51274D4AAA"
+				item: "mekanism:electric_pump"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1003ED32BAD36DF2"]
+			description: [
+				"These both have the same recipe - select the arrows in the corner of your crafting table to switch between them."
+				""
+				"The fluid tank is smaller but can be filled like a bucket."
+				""
+				"The chemical tank is bigger but must be pumped into by pipes."
+			]
+			id: "50B2F5C3FE8260F9"
+			rewards: [{
+				count: 2
+				id: "271806B64E55076D"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Better fluid storage"
+			tasks: [
+				{
+					id: "2DF28451A4B14ABC"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "5C8BA9B74282E0FB"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4606B973C156ECC9"]
+			icon: "createoreexcavation:drill"
+			id: "01E3DB1595AC7798"
+			shape: "square"
+			subtitle: "Machines that extract or generate something from raw resources"
+			tasks: [{
+				id: "1F8D568B8A1BF015"
+				title: "Extractor/generator machines"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4606B973C156ECC9"]
+			icon: "create:whisk"
+			id: "36585939B397BE66"
+			shape: "square"
+			subtitle: "Machines that use extracted materials to make other stuff"
+			tasks: [{
+				id: "2F50CF38D2486FD7"
+				title: "Processor machines"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36585939B397BE66"]
+			id: "20EE2AF6E72618BB"
+			rewards: [{
+				id: "386F301C5176DAA4"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44EB5DB0B7C9C12E"
+				item: "mekanism:precision_sawmill"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5472B8AD4AEB8DFD"]
+			description: ["Place and power the vibrator in the chunk you want to survey. Now, use the reader to see the column of blocks underneath your feet."]
+			id: "461D47AEBAB63794"
+			rewards: [{
+				id: "424BD8BAFCBD5CE6"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Allows you to see what's under your feet"
+			tasks: [
+				{
+					id: "00E84022550A2707"
+					item: "mekanism:seismic_vibrator"
+					type: "item"
+				}
+				{
+					id: "16F66BC9136542DE"
+					item: "mekanism:seismic_reader"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4606B973C156ECC9"]
+			icon: "ad_astra:wrench"
+			id: "5472B8AD4AEB8DFD"
+			shape: "square"
+			subtitle: "Machines that don't exactly make anything"
+			tasks: [{
+				id: "6284F0FABB00226D"
+				title: "Utility machines"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["36585939B397BE66"]
+			id: "5FAEFD5533732209"
+			rewards: [{
+				id: "5A159248070D5992"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Baby food maker"
+			tasks: [{
+				id: "1BC07CD2FD9E12D2"
+				item: "mekanism:nutritional_liquifier"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["36585939B397BE66"]
+			description: ["Automatically crafts stuff, and can be interacted with manually as well!"]
+			id: "384FEE2CCA7308E9"
+			rewards: [{
+				id: "656747B36EEFD5C8"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "A more advanced crafting table"
+			tasks: [{
+				id: "52B6039E67C70AA2"
+				item: "mekanism:formulaic_assemblicator"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["01E3DB1595AC7798"]
+			description: ["Pigments require the painting machine, which you don't have access to yet."]
+			id: "045A5DA456C4D8B1"
+			rewards: [{
+				id: "3B92F5BD3EC08E0A"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Extracts pigment from things"
+			tasks: [{
+				id: "31FEC31ACB838AF9"
+				item: "mekanism:pigment_extractor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01E3DB1595AC7798"]
+			id: "0616EE5C7D8D10DF"
+			rewards: [{
+				id: "4C58F363A6BE1BCC"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Generates heat from burnable fuel"
+			tasks: [{
+				id: "217A1C21B0B4B04A"
+				item: "mekanism:fuelwood_heater"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01E3DB1595AC7798"]
+			id: "2419140DFB1D9504"
+			rewards: [{
+				id: "4F8CF6B1BEFC9877"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Converts energy into heat directly"
+			tasks: [{
+				id: "3D74DF576DFDD9E9"
+				item: "mekanism:resistive_heater"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5472B8AD4AEB8DFD"]
+			description: ["Can fill large areas with any fluid."]
+			id: "0352B4A10659EBCD"
+			rewards: [{
+				id: "0EAD9D2A90897561"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Like the hose pulley, but electric!"
+			tasks: [{
+				id: "28F6D25B04AAFE0C"
+				item: "mekanism:fluidic_plenisher"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20EE2AF6E72618BB"]
+			id: "39D453124BC976D4"
+			subtitle: "Intermediate material produced by the sawmill"
+			tasks: [{
+				id: "2BCC68D15FC3E01A"
+				item: "mekanism:sawdust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["39D453124BC976D4"]
+			description: [
+				"This works for any block"
+				""
+				"Although it might be too overpowered and my be removed in the future!"
+			]
+			id: "0F0F4D4598BB0B1A"
+			subtitle: "Package your blocks and move them around!"
+			tasks: [{
+				id: "24B1E7CD56A031CC"
+				item: "mekanism:cardboard_box"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["39D453124BC976D4"]
+			id: "247AC97F56513005"
+			subtitle: "Another way to make paper"
+			tasks: [{
+				id: "48E18D2EA88947B4"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["384FEE2CCA7308E9"]
+			id: "173FDD252E08197D"
+			subtitle: "Allows the crafter to remember its recipe for automation of recipes"
+			tasks: [{
+				id: "67058DA91689AB97"
+				item: "mekanism:crafting_formula"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5FAEFD5533732209"]
+			id: "3FFCE1BD7FB9CF96"
+			subtitle: "Store your paste"
+			tasks: [{
+				id: "4137C568895E2A70"
+				item: "mekanism:canteen"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["57FB42B78E562DD0"]
+			description: ["Can also be used in the metallurgic infuser for certain things."]
+			id: "5C2E0E63488A7D53"
+			subtitle: "Burnable!"
+			tasks: [{
+				id: "24207E15E3AAF708"
+				item: "mekanism:bio_fuel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1003ED32BAD36DF2"]
+			id: "5B541A3EA0238C8C"
+			rewards: [{
+				count: 2
+				id: "1C9BFBDBBA1B109F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Like drawers, but Mekanikal"
+			tasks: [{
+				id: "34FDC70EF6B94988"
+				item: "mekanism:basic_bin"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+	]
+	subtitle: ["This mod is way too big for its own good"]
+	title: "Mekanism, Phase 1"
 }

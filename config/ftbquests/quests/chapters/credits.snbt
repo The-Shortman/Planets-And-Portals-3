@@ -140,8 +140,14 @@
 			icon: "railways:pink_conductor_cap"
 			id: "4CC107C793241A14"
 			rewards: [{
-				id: "1D9D3BAC4D2E913D"
-				item: "minecraft:pink_dye"
+				id: "6F0D2A85FF2B8372"
+				item: {
+					Count: 1
+					id: "planetsandportals:the_badge"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			subtitle: "\"PINK!!!\""

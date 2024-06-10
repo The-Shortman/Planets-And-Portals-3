@@ -102,3 +102,7 @@
 	#Allows lilypads to have any block placed ontop
 	better_lilypads = true
 
+[torch]
+	#Allows torches to set entities on fire
+	torch_fire = true
+

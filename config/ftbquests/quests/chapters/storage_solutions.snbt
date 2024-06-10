@@ -76,7 +76,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
-			subtitle: "Automatic storage efficiency"
+			subtitle: "Automatic resource block efficiency"
 			tasks: [{
 				id: "3991BC9C53806CD1"
 				item: "storagedrawers:compacting_drawers_3"
@@ -111,6 +111,7 @@
 			dependencies: ["436668D6666D9327"]
 			description: ["Allows you to add extra interface points for your drawer system. Interface points represent the whole drawer wall."]
 			id: "2E2622263311F66E"
+			optional: true
 			rewards: [{
 				id: "2C0671FD790D4FC5"
 				item: "numismatics:spur"
@@ -128,6 +129,7 @@
 		{
 			dependencies: ["52B37966DD8ECE50"]
 			id: "26E484BFD7078E02"
+			optional: true
 			rewards: [{
 				count: 4
 				id: "530FE031434F802B"
@@ -146,6 +148,7 @@
 		{
 			dependencies: ["52B37966DD8ECE50"]
 			id: "6397FC354FE5626A"
+			optional: true
 			rewards: [{
 				count: 4
 				id: "45910BEE4B038558"
@@ -206,6 +209,7 @@
 		{
 			dependencies: ["288434BE4742D809"]
 			id: "01B0AD4594B1A75C"
+			optional: true
 			rewards: [{
 				count: 4
 				id: "0632483E7722E1EB"
@@ -241,6 +245,7 @@
 		{
 			dependencies: ["288434BE4742D809"]
 			id: "3C9344740E10D709"
+			optional: true
 			rewards: [{
 				count: 4
 				id: "18C49435FE3DD3A5"

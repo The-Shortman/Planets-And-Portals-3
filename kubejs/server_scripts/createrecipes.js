@@ -182,9 +182,21 @@ function mixingRecipes(e) {
         {
             outputs: [
                 Fluid.of('planetsandportals:molten_desh', 1000/9),
+                'tfmg:ingot_mold'
             ],
             inputs: [
                 'ad_astra:raw_desh',
+                'tfmg:ingot_mold'
+            ]
+        },
+        {
+            outputs: [
+                Fluid.of('planetsandportals:molten_desh', 1000/9),
+                'tfmg:ingot_mold'
+            ],
+            inputs: [
+                'planetsandportals:crushed_desh_ore',
+                'tfmg:ingot_mold'
             ]
         },
         {
@@ -221,6 +233,15 @@ function mixingRecipes(e) {
             inputs: [
                 'mekanism:dust_uranium',
                 'ad_astra:calorite_nugget'
+            ]
+        },
+        {
+            outputs: [
+                'mekanism:alloy_infused'
+            ],
+            inputs: [
+                'create:andesite_alloy',
+                'mekanism:enriched_redstone'
             ]
         },
     ].forEach((recipe) => {
@@ -320,7 +341,7 @@ function mechanicalCraftingRecipes(e) {
                 F: 'tfmg:heavy_machinery_casing',
                 G: 'create:white_seat',
                 H: 'ad_astra:rocket_fin',
-                I: 'create_new_age:reactor_casing',
+                I: 'immersive_aircraft:steel_boiler',
                 J: 'ad_astra:steel_engine'
             },
             output: 'ad_astra:tier_1_rocket'

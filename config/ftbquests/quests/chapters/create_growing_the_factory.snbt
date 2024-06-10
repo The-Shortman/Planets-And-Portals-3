@@ -674,6 +674,12 @@
 			]
 			description: ["Unlocks the Preparing the Launch Site Chapter"]
 			id: "7719389CD71E8D88"
+			rewards: [{
+				count: 4
+				id: "50F48BF356144B88"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			shape: "gear"
 			subtitle: "A 50/50 mixture of gasoline and kerosene seems to be perfect for rocket fuel"
 			tasks: [{

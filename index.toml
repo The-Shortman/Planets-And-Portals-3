@@ -14,7 +14,7 @@ hash = "9a6ee840ee6d0f10d07d1269223a3e4176bc458ce7164d858836e98119071d02"
 
 [[files]]
 file = "config/Advancedperipherals/world.toml"
-hash = "20a77e677bebcd0e4b27c3ab15ef52a19e8ff76b7828af543abaacff98a952d3"
+hash = "688924598f94acb4493dc759f413340d541ca76ab5f654d5d02a5b00603f83f1"
 
 [[files]]
 file = "config/Mekanism/client.toml"
@@ -114,7 +114,7 @@ hash = "e825cabb7d7048a73a1f62ff5f86b47a0b5ec898bb13488602349933acb06d6e"
 
 [[files]]
 file = "config/amendments-common.toml"
-hash = "1fd6a44dbe0128daa6f8e21014ed5e3ff7068341e4827ac0b53eec099976bfd5"
+hash = "9d22301119720e998baaee583b6a124f231906c27d31c817f8b36083541ee7ca"
 
 [[files]]
 file = "config/appleskin-client.toml"
@@ -142,7 +142,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "387da19c356605d01f0efb7617831dd7b48899d75d825862215a6986acaf7327"
+hash = "1c541bcf3eef80c37b7d66288be854de108b89455bf04abfa2ffb578b51f6ed2"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -526,7 +526,7 @@ hash = "0d0e22785b8811b4010b7cf39f78fcfb25e31e70558176a52cb9e95ea9202c8f"
 
 [[files]]
 file = "config/fml.toml"
-hash = "70a49aec22117f6eaef55e2e9c4eb8ee4521136912a722444ae8c4e02e97085d"
+hash = "0bc9ae95cfe44f8bd70e47c524f35441c9bc2aa8a09340fef933cc9b98bce29e"
 
 [[files]]
 file = "config/forge-client.toml"
@@ -542,19 +542,23 @@ hash = "7e88163a0edc7f75f7b0d79bc700f262cb80d6bf522f1dc150369069e54805da"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "1e8b1bf3f0168d3264d377aa3c8c3ebeaa3e1bbffc396d151bac8839d20f070c"
+hash = "fcab5197d4a9b0c4eb3a86dd345311155b635a96ddad741a48f61c4b52490ad5"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/a_new_material.snbt"
+hash = "b19f0e9296ce39fd82d625531ebd2b73c06f82875b01036f53c4432be7094cd9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "428ccdcca8335f0cd4087afe6ccf12a19493f4a4316cdd77697790fef6ad60e1"
+hash = "d051b151bfc9e4a1b6e8f070667974913a1f3bc6d632b8205b400b051b41d94d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_growing_the_factory.snbt"
-hash = "50838c7d2bcb7d835a33028db9df9040303707d2f28f28b1f8785617160d9e87"
+hash = "9136219197bd6af2df44c3ee91ffd3e7aa4f39cdf67beb365e94f26a92da63b1"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_new_age.snbt"
-hash = "3bd501a96aae387380a1d2f80810ee2954ca1d980ccb1ae6ab0fc83ac66844f7"
+hash = "7b7d836fd92fb4f6ca14f69dfad45b8a6d8e86456ad0da89a902cd8ff5d1c390"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_numismatics.snbt"
@@ -566,15 +570,15 @@ hash = "4aacee808ca24b707e3235a2f471c3678882f16d4bd5c9ad9f11a6088ab83c98"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/credits.snbt"
-hash = "b1c66e2906b5d83dd64c30665d65928783871a171bd84598bb63d8f2ba78b472"
+hash = "9019ffcbbfc52ecf94d2e9dffae08b0f18b8ff34a96bfb4c5de986819286dd37"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/going_interplanetary.snbt"
-hash = "8e964986ac46f18508442366b842cdd28fd0bc0423ef975c36797c72096d03f0"
+hash = "c1f8b261b1f729b932c8314ce8584086c641a952b0ef2ad7dc11bafed6b832fa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lunar_expeditions.snbt"
-hash = "1261ee900ca32d9db41b613e178cac3a58301d7473f56a0bd4d33f4ba39e1728"
+hash = "27a1b53cbd7d2297b41c34a0b9908666ca485252896392d8e331bd065a39b44b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/martian_landscapes.snbt"
@@ -582,7 +586,7 @@ hash = "f78116b4e5e2a9d4f26ae50b73597e5a0b56f716d3e9bd36f509a9006d6cdf3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "9dfa389dd29f6f06faafeb8e4425643318edad4c36e098e57b70e55b971e2951"
+hash = "c88ba2853ee70a29740366608522fac22e78c7ba76a942073c7a8f19195c0953"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mercury_god_of_commerce.snbt"
@@ -590,15 +594,15 @@ hash = "27f98324c31a15904981ef5d7705a24c3b59d42ff29b7a037f79bf13ebb9ea43"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/preparing_the_launch_site.snbt"
-hash = "2aacddb26aebf6e0becb4599f5612d13d511fcaee5f0dd8bd3b25a3f9c165a7e"
+hash = "d06e1097d738745589cd3f6b24fcd4decb10dbae79c8f712be36ae263f6905d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "586022fe3af278049a58a37269cfabeb4031e88e73e27c131e853790ae3f93b4"
+hash = "23bebc7bf8e24a164e19541b2f1ad8a3ee29d42fdc33fe9b7edee9721c0ac80a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
-hash = "ab6f75b38ffef6f1cf771fac884a6c1c4793d7daf4c614cc7bb9eecaff7b82bd"
+hash = "bb1fb9adf8f335422d73dc6ca803177272131e26772b2a8131401c013f05b0af"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tetra_basics.snbt"
@@ -606,7 +610,7 @@ hash = "3257ad9ebd96357a3ed8982fcb2a3a176ed66c9359d1f007699a99de3e102f08"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_shop.snbt"
-hash = "af2089baafa8d238e9949875e7112400d89573cbd24f6d28fb1584c91a0f8043"
+hash = "f658d51cfeabbac8ec3fac50fd9382064fda7321f5240aff32e72000105ab476"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/venus_goddess_of_love.snbt"
@@ -725,14 +729,6 @@ file = "config/mm/pack/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d"
 hash = "d2c0659de3d08d8c3a00856428ffabcb692efb1472167d65a30732ecd04edfba"
 
 [[files]]
-file = "config/mm/pack/.cache/5d7c155008efc6fe4d744502cd6fc13b5ed4ee6b"
-hash = "fe98c6600b67ec950c6b79cb380c24a338fc6589d5388fb6c336d140a3b7ece0"
-
-[[files]]
-file = "config/mm/pack/.cache/a358578d4b4df6570846462a55d6efe8286ff0a1"
-hash = "3f7df311c2d8553d70fc26e9282754a803a8e71373510f5709a276c3cbe5279b"
-
-[[files]]
 file = "config/mm/pack/.cache/c4675e2bfd2a93402b231d01cde3741490187212"
 hash = "fefb40015a27c2f0597896f1cbe06a4213c2438ee003565665bcce4218d81155"
 
@@ -810,7 +806,7 @@ hash = "6cffea1c20852a079342429a0f223fcc45993a51596c4736e0fe1910c3fcba52"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "62df630610b156904254a1bf38f0eea0b5b0f1a1ef6cb44a2acbae0d6b68f079"
+hash = "41745ecdc56ccc7243b207aa3016ea0a88bceb7f36b14ab117c9d429f3d78657"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -1426,7 +1422,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "bd07bdbcf45973cd346070e7888c36d86cfe97dc2fb0cf24ffc9b4de2a4aef74"
+hash = "eba69de86d60add243d0caa85ebc709fffbb99e13b27fb6cbee19f9ce7e0e42f"
 
 [[files]]
 file = "config/zeta-common.toml"
@@ -1554,7 +1550,7 @@ hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "3364bc6cadaee257bd78631acdbd78c94e78782ea8ce65613039dd537c501c82"
+hash = "aab0ec4966399cceab4a90399297be290d50654573be7ec6df4e16d0dbbd99a8"
 
 [[files]]
 file = "kubejs/server_scripts/oredeposits.js"
@@ -1566,15 +1562,15 @@ hash = "14b36debff2f1772006ad1dd3e398420966faca3353031d8a90ee65d1a30ff26"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "4052278ae37d3167edd454726de45317bbbbe77613a7cbb7bda8671683e8ec52"
+hash = "0ef3c65351a213615faf5177fbbc2f9249a54b1fb9661aea44eeee92f9c742bb"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "9da65e84e52313de5ed36517150eb40e588128e9d01d786e70a0c0c9337329e5"
+hash = "29979165cfd1a6e8aa85dfabfaebc4ec62c4f2ec5d66df94c5b53bf4c777e958"
 
 [[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"
-hash = "56f02f409821e583ec264a40ff38a97c84d4931e8ba62d277acb9e5e8378f947"
+hash = "35640e76922c3071b9f7c51c6c438f9db9c3fd77a905899205cfa8a3b903b72d"
 
 [[files]]
 file = "kubejs/startup_scripts/itemregistry.js"
@@ -1651,7 +1647,7 @@ metafile = true
 
 [[files]]
 file = "mods/bookshelf.pw.toml"
-hash = "6299edab7c031a3f8a8fd59bc19a22213d9c4a4f745a2ae04f4ac78086f38355"
+hash = "4cc4395937fafd9fd05e54788300d1a7df6a746c900c423b73a3d0713ef2cfcf"
 metafile = true
 
 [[files]]
@@ -1826,7 +1822,7 @@ metafile = true
 
 [[files]]
 file = "mods/embeddium.pw.toml"
-hash = "a2888c614afd7ad2e06e8b6e5a1d2d8fc18e950b0c3855ae6adb459eb3778a30"
+hash = "7de0f48f0ab30917c637c1a8a4853802578942a051f5616a6848b5045960c57f"
 metafile = true
 
 [[files]]

@@ -50,7 +50,6 @@ ServerEvents.recipes(e => {
 		{id: 'createoreexcavation:ore_vein_type/nether_gold'},
 		{mod: 'createoreexcavation', output: 'minecraft:gold_nugget'},
 
-
 		// AE2
 		{output: 'ae2:inscriber'},
 
@@ -65,6 +64,27 @@ ServerEvents.recipes(e => {
 		{output: 'mekanism:diamond'},
 		{output: 'mekanism:refined_obsidian'},
 		{output: 'mekanism:teleportation_core'},
+
+		{output: 'mekanism:oredictionificator'},
+
+		{output: 'mekanism:basic_universal_cable'},
+		{output: 'mekanism:basic_mechanical_pipe'},
+		{output: 'mekanism:basic_pressurized_tube'},
+		{output: 'mekanism:basic_thermodynamic_conductor'},
+		{output: 'mekanism:diversion_transporter'},
+		{output: 'mekanism:restrictive_transporter'},
+
+		{output: 'mekanism:advanced_control_circuit'},
+		{output: 'mekanism:advanced_energy_cube'},
+		{output: 'mekanism:advanced_fluid_tank'},
+		{output: 'mekanism:advanced_chemical_tank'},
+		{output: 'mekanism:advanced_universal_cable'},
+		{output: 'mekanism:advanced_mechanical_pipe'},
+		{output: 'mekanism:advanced_pressurized_tube'},
+		{output: 'mekanism:advanced_logistical_transporter'},
+		{output: 'mekanism:advanced_thermodynamic_conductor'},
+
+		{output: 'mekanism:upgrade_anchor'},
 
 		{output: 'mekanism:ingot_osmium', input: [
 			'mekanism:raw_osmium',
@@ -101,6 +121,7 @@ ServerEvents.recipes(e => {
 		{output: 'mekanismgenerators:heat_generator'},
 		{output: 'mekanismgenerators:gas_burning_generator'},
 		{output: 'mekanismgenerators:bio_generator'},
+		{output: 'mekanismgenerators:advanced_solar_generator'},
 
 		// Ad Astra
 		{output: 'ad_astra:steel_ingot'},
@@ -121,10 +142,16 @@ ServerEvents.recipes(e => {
 		{output: 'ad_astra:photovoltaic_etrium_cell'},
 		{output: 'ad_astra:solar_panel'},
 		{output: 'ad_astra:gravity_normalizer'},
+		{output: 'ad_astra:water_pump'},
 		{output: 'ad_astra:desh_ingot', input: [
 			'ad_astra:raw_desh',
 			'ad_astra:moon_desh_ore',
 			'ad_astra:deepslate_desh_ore'
+		]},
+		{output: 'ad_astra:ostrum_ingot', input: [
+			'ad_astra:raw_ostrum',
+			'ad_astra:mars_ostrum_ore',
+			'ad_astra:deepslate_ostrum_ore'
 		]},
 
 		// Tempad
