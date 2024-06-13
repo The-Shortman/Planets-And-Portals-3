@@ -142,7 +142,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "1c541bcf3eef80c37b7d66288be854de108b89455bf04abfa2ffb578b51f6ed2"
+hash = "ebd6e42da4dd9d6c9dd465f7416ef63e2eae136ae41149674509ab2305f4955d"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -723,18 +723,6 @@ hash = "1f65f23de94c2e4054d9dd5167811693e7acba633d6c8480e6e5122a6eb76f19"
 [[files]]
 file = "config/mm-common.toml"
 hash = "9c7d85c498650b6654d809ab3ca6f904bcb8e0ab38edcf4233ea7a0aa33db4d5"
-
-[[files]]
-file = "config/mm/pack/.cache/59eb3dbb5f86130e09b3c62d89b9525ee01cf52d"
-hash = "d2c0659de3d08d8c3a00856428ffabcb692efb1472167d65a30732ecd04edfba"
-
-[[files]]
-file = "config/mm/pack/.cache/c4675e2bfd2a93402b231d01cde3741490187212"
-hash = "fefb40015a27c2f0597896f1cbe06a4213c2438ee003565665bcce4218d81155"
-
-[[files]]
-file = "config/mm/pack/.cache/c622617f6fabf890a00b9275cd5f643584a8a2c8"
-hash = "49f1e9aa489ba5995869271b4ed6b668f4cf6c0fb5582eb4d183f59147382410"
 
 [[files]]
 file = "config/mm/pack/assets/mm/lang/en_us.json"
@@ -1587,7 +1575,7 @@ metafile = true
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
-hash = "197c77a1a19d914f865403c661f786612b418dace74a453193df4b59e4374d12"
+hash = "008f4b4782a92c6a8995f26159433659d9b5bdfc5a736614a142666c4d235b3c"
 metafile = true
 
 [[files]]
@@ -1677,7 +1665,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "f51d262460e27b091a778cdeb5b54ad50c4cfdcf73ccf2a11bdcfd3f3f1f5f10"
+hash = "22d9f4b270da1bbe27848c08747b35a97391141d118edfaf518cf34fd76367c5"
 metafile = true
 
 [[files]]
@@ -1713,6 +1701,11 @@ metafile = true
 [[files]]
 file = "mods/collective.pw.toml"
 hash = "6b690f3bc815149cc5c0fd03a98ac9b19cb62a9cbdc3b9aa0f8fca3321a3a07b"
+metafile = true
+
+[[files]]
+file = "mods/comforts.pw.toml"
+hash = "6bdf5c00414be2b3bb20d040afe2e90550a300755414aaff01577eed6eaf491f"
 metafile = true
 
 [[files]]
@@ -1897,7 +1890,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "331d72941d7ab4146812d8977f4f2d5721e09318b02a70f42432620600a155f3"
+hash = "ce53103abf7f065fe965bfad755232e65add707246e53e371d8ab0fae816cba3"
 metafile = true
 
 [[files]]
@@ -2017,7 +2010,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "74b0ee0aabd6e03f06d69a5e3098b49a91e25d35c3ba6f87f0f1d5af7bc83193"
+hash = "3ce0ee2fd738c392ec888583533d0e35b808c6838ccc01a3e7c0068dffcd267b"
 metafile = true
 
 [[files]]
@@ -2162,7 +2155,7 @@ metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "c468544880d0cd8dee9095db1715f05fc105cde29586635b57fba33ba8012e3e"
+hash = "1d72ac6ec515db48cb89dae58345b514524f195bc5ab1942d1ce9fb91d30defd"
 metafile = true
 
 [[files]]
@@ -2242,7 +2235,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "8dbbda52470270cfe5c1c0a2de8418491f827f4167c76903138d8409b8fedcb7"
+hash = "27261465cc776a6ba86a4a01661adb45d6269be806829a46755a5eb95de2f1e7"
 metafile = true
 
 [[files]]
@@ -2302,5 +2295,5 @@ metafile = true
 
 [[files]]
 file = "mods/zeta.pw.toml"
-hash = "e02a4197368c4925bb98658883da17aace29927eeca7773c494be6c879269268"
+hash = "d0a8b2b9ba78bc8171e96ac4bf0ee800fff6bc326c8b5e582e9d36d19d845e1c"
 metafile = true
