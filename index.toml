@@ -725,14 +725,6 @@ file = "config/mm-common.toml"
 hash = "9c7d85c498650b6654d809ab3ca6f904bcb8e0ab38edcf4233ea7a0aa33db4d5"
 
 [[files]]
-file = "config/mm/pack/assets/mm/lang/en_us.json"
-hash = "fa918ee776e663ae5fcfd59604983c3ed8c0b14a993449854e9d62130aef615b"
-
-[[files]]
-file = "config/mm/pack/data/minecraft/tags/blocks/mineable/pickaxe.json"
-hash = "b83114c23eeec820ce7eca52011f13013fb6c64002254be7aebe1e4b36244d48"
-
-[[files]]
 file = "config/modernfix-common.toml"
 hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
@@ -2246,11 +2238,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "97175f71f202d2d47a5828568c9f53339952a1c20b09378bdf5ad34557a8b4be"
-metafile = true
-
-[[files]]
-file = "mods/tetra.pw.toml"
-hash = "7cd5ba3f6e15a5bb367a6e7e3549f2f89b86e8936fc1e3de959ce47068abd991"
 metafile = true
 
 [[files]]
