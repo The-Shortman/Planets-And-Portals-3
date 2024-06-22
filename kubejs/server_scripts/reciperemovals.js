@@ -1,31 +1,6 @@
 ServerEvents.recipes(e => {
 	[
 		// Minecraft
-		{output: 'minecraft:stone_sword'},
-		{output: 'minecraft:iron_sword'},
-		{output: 'minecraft:golden_sword'},
-		{output: 'minecraft:diamond_sword'},
-		{output: 'minecraft:netherite_sword'},
-		{output: 'minecraft:stone_pickaxe'},
-		{output: 'minecraft:iron_pickaxe'},
-		{output: 'minecraft:golden_pickaxe'},
-		{output: 'minecraft:diamond_pickaxe'},
-		{output: 'minecraft:netherite_pickaxe'},
-		{output: 'minecraft:stone_axe'},
-		{output: 'minecraft:iron_axe'},
-		{output: 'minecraft:golden_axe'},
-		{output: 'minecraft:diamond_axe'},
-		{output: 'minecraft:netherite_axe'},
-		{output: 'minecraft:stone_shovel'},
-		{output: 'minecraft:iron_shovel'},
-		{output: 'minecraft:golden_shovel'},
-		{output: 'minecraft:diamond_shovel'},
-		{output: 'minecraft:netherite_shovel'},
-		{output: 'minecraft:stone_hoe'},
-		{output: 'minecraft:iron_hoe'},
-		{output: 'minecraft:golden_hoe'},
-		{output: 'minecraft:diamond_hoe'},
-		{output: 'minecraft:netherite_hoe'},
 		{output: 'minecraft:ladder'},
 
 		// Create
@@ -94,7 +69,7 @@ ServerEvents.recipes(e => {
 			'create:crushed_raw_osmium',
 		]},
 		{output: 'mekanism:dust_osmium', input: 'mekanism:ingot_osmium'},
-		{output: 'mekanism:nugget_osmium', input: 'create:crushed_osmium'},
+		{output: 'mekanism:nugget_osmium', input: 'create:crushed_raw_osmium'},
 
 		{output: 'mekanism:ingot_lead', input: [
 			'mekanism:raw_lead',
@@ -104,7 +79,7 @@ ServerEvents.recipes(e => {
 			'create:crushed_raw_lead',
 		]},
 		{output: 'mekanism:dust_osmium', input: 'mekanism:ingot_osmium'},
-		{output: 'mekanism:nugget_lead', input: 'create:crushed_lead'},
+		{output: 'mekanism:nugget_lead', input: 'create:crushed_raw_lead'},
 
 		{output: 'mekanism:ingot_uranium', input: [
 			'mekanism:raw_uranium',
@@ -114,7 +89,7 @@ ServerEvents.recipes(e => {
 			'create:crushed_raw_uranium',
 		]},
 		{output: 'mekanism:dust_uranium', input: 'mekanism:ingot_uranium'},
-		{output: 'mekanism:nugget_uranium', input: 'create:crushed_uranium'},
+		{output: 'mekanism:nugget_uranium', input: 'create:crushed_raw_uranium'},
 
 		// Mekanism Generators
 		{output: 'mekanismgenerators:wind_generator'},
