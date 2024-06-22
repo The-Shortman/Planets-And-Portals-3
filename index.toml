@@ -897,10 +897,6 @@ file = "config/terrablender.toml"
 hash = "11ef4c2666fa094b456310710c2b5cb8babbd71982d4d187c9a80ad4011d8014"
 
 [[files]]
-file = "config/tetra.toml"
-hash = "765e7680881670367eaa38d0a1d539f00bb2a7fdc57b3b2b205a1e284a6ef0c1"
-
-[[files]]
 file = "config/tips.json"
 hash = "50937206850d3da0e99ea03101335b9cfbfefeb3accfadb6c184957abdddab7d"
 
