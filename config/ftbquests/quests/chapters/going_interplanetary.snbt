@@ -85,15 +85,14 @@
 			subtitle: "There's no way to get back from Mars if you forget them!"
 			tasks: [
 				{
-					id: "75FF9B50EBCEDC77"
-					item: "ad_astra:launch_pad"
-					title: "Any #ad_astra:held_over_head"
-					type: "item"
-				}
-				{
 					id: "10695702C0E97A99"
 					title: "Got 'em packed!"
 					type: "checkmark"
+				}
+				{
+					id: "4104E0E08DD051D5"
+					item: "ad_astra:launch_pad"
+					type: "item"
 				}
 			]
 			title: "Remember your launch pads!"
@@ -119,6 +118,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["1BF2D32FFAD61140"]
 			id: "362A787CA60EEE66"
 			rewards: [{
 				count: 2
@@ -136,6 +136,7 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["1BF2D32FFAD61140"]
 			description: ["It would be so sad if someone were to change its recipe so that it's way harder to get large quantities of it for my builds."]
 			id: "61E506DB629C945A"
 			rewards: [{
@@ -155,6 +156,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["16AF7FF386FFACA7"]
 			id: "7B29884732658FA4"
 			rewards: [{
 				count: 2
@@ -173,6 +175,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["1003ED32BAD36DF2"]
 			id: "0829ABE623BB1432"
 			rewards: [{
 				count: 2

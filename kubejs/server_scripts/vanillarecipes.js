@@ -141,6 +141,23 @@ function shapedRecipes(e) {
             output: 'create_new_age:energiser_t2'
         },
 
+        // Create Ore Excavation
+
+        {
+            pattern: [
+                'AB ',
+                'CD ',
+                '  D'
+            ],
+            key: {
+                A: 'minecraft:ender_eye',
+                B: 'minecraft:amethyst_shard',
+                C: 'minecraft:redstone_block',
+                D: 'minecraft:stick'
+            },
+            output: 'createoreexcavation:vein_finder'
+        },
+
         // Mekanism basic blocks
 
         {

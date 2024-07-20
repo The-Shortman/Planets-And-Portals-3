@@ -4,7 +4,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'ad_astra:raw_desh',
             name: '{"text": "Raw Desh"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 31659134,
             id: "createoreexcavation:ore_vein_type/desh",
@@ -13,7 +13,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'ad_astra:raw_ostrum',
             name: '{"text": "Raw Ostrum"}',
-            spacing: 1024,
+            spacing: 192,
             separation: 128,
             salt: 82457028,
             id: "createoreexcavation:ore_vein_type/ostrum",
@@ -22,7 +22,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'ad_astra:raw_calorite',
             name: '{"text": "Raw Calorite"}',
-            spacing: 2048,
+            spacing: 288,
             separation: 256,
             salt: 83520831,
             id: "createoreexcavation:ore_vein_type/calorite",
@@ -33,7 +33,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'minecraft:lava_bucket',
             name: '{"text": "Terran Lava Wells"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 38741033,
             id: "createoreexcavation:ore_vein_type/lava_overworld",
@@ -42,7 +42,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'minecraft:lava_bucket',
             name: '{"text": "Martian Lava Wells"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 18299584,
             id: "createoreexcavation:ore_vein_type/lava_mars",
@@ -51,8 +51,8 @@ ServerEvents.recipes(e => {
         {
             resource: 'minecraft:lava_bucket',
             name: '{"text": "Venusian Lava Wells"}',
-            spacing: 256,
-            separation: 32,
+            spacing: 24,
+            separation: 16,
             salt: 12959299,
             id: "createoreexcavation:ore_vein_type/lava_venus",
             biomes: 'ad_astra:has_structure/venus_bullet'
@@ -60,7 +60,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'minecraft:water_bucket',
             name: '{"text": "Martian Water Aquifers"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 38538295,
             id: "createoreexcavation:ore_vein_type/water_mars",
@@ -71,7 +71,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'mekanism:raw_tin',
             name: '{"text": "Raw Tin"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 92857383,
             id: "createoreexcavation:ore_vein_type/tin",
@@ -80,36 +80,36 @@ ServerEvents.recipes(e => {
         {
             resource: 'mekanism:raw_osmium',
             name: '{"text": "Raw Osmium"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 19284930,
             id: "createoreexcavation:ore_vein_type/osmium",
-            biomes: 'minecraft:is_overworld'
+            biomes: 'ad_astra:has_structure/lunarian_village'
         },
         {
             resource: 'mekanism:raw_uranium',
             name: '{"text": "Raw Uranium"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 48593048,
             id: "createoreexcavation:ore_vein_type/uranium",
-            biomes: 'minecraft:is_overworld'
+            biomes: ['ad_astra:has_structure/venus_bullet', 'ae2:has_meteorites']
         },
         {
             resource: 'mekanism:raw_lead',
             name: '{"text": "Raw Lead"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 39582044,
             id: "createoreexcavation:ore_vein_type/lead",
-            biomes: 'minecraft:is_overworld'
+            biomes: 'ad_astra:has_structure/mars_temple'
         },
 
         // Mekanism teleportation core
         {
             resource: 'mekanism:teleportation_core',
             name: '{"text": "Possible Teleportation Core"}',
-            spacing: 256,
+            spacing: 48,
             separation: 32,
             salt: 24352355,
             id: "createoreexcavation:ore_vein_type/tp_core",
@@ -120,7 +120,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'create_new_age:thorium',
             name: '{"text": "Terran Thorium"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 20394930,
             id: "createoreexcavation:ore_vein_type/earth_thorium",
@@ -129,7 +129,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'create_new_age:thorium',
             name: '{"text": "Lunar Thorium"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 20039483,
             id: "createoreexcavation:ore_vein_type/moon_thorium",
@@ -138,7 +138,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'create_new_age:thorium',
             name: '{"text": "Martian Thorium"}',
-            spacing: 512,
+            spacing: 96,
             separation: 64,
             salt: 77483994,
             id: "createoreexcavation:ore_vein_type/mars_thorium",
@@ -147,7 +147,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'create_new_age:thorium',
             name: '{"text": "Venusian Thorium"}',
-            spacing: 1024,
+            spacing: 192,
             separation: 128,
             salt: 88734776,
             id: "createoreexcavation:ore_vein_type/venus_thorium",

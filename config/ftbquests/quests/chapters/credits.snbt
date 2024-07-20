@@ -163,12 +163,29 @@
 			dependencies: ["131DB96278BBD76A"]
 			icon: "brewery:beer_mug"
 			id: "78E699EFB18890B9"
-			rewards: [{
-				id: "3105C6F1971627F0"
-				item: "brewery:beer_mug"
-				type: "item"
-			}]
-			subtitle: "\"Want a brew?\""
+			rewards: [
+				{
+					id: "4409CA2011FB796B"
+					item: "brewery:beer_wheat"
+					type: "item"
+				}
+				{
+					id: "4D184F38EA95EA8B"
+					item: "brewery:beer_barley"
+					type: "item"
+				}
+				{
+					id: "6C59F72CE83138F3"
+					item: "brewery:beer_hops"
+					type: "item"
+				}
+				{
+					id: "7A2CE2326E241FE8"
+					item: "brewery:beer_haley"
+					type: "item"
+				}
+			]
+			subtitle: "\"I can no longer feel my liver\""
 			tasks: [{
 				id: "4CE7C003A7FBA78E"
 				title: "MrRumblz89"
@@ -179,7 +196,14 @@
 		}
 		{
 			dependencies: ["131DB96278BBD76A"]
+			icon: "create:content_observer"
 			id: "469B08C6BC60183A"
+			rewards: [{
+				id: "79D250C3A715A3F9"
+				item: "tfmg:pipe_bomb"
+				type: "item"
+			}]
+			subtitle: "\"Mail this to a friend\""
 			tasks: [{
 				id: "7F62F15D8CD40E7A"
 				title: "Skullboy987"
@@ -190,7 +214,14 @@
 		}
 		{
 			dependencies: ["131DB96278BBD76A"]
+			icon: "ad_astra:gravity_normalizer"
 			id: "4D0A5D80EC86F9C7"
+			rewards: [{
+				id: "0BB60CAC12790931"
+				item: "quark:hollow_birch_log"
+				type: "item"
+			}]
+			subtitle: "\"Help Shortman's holding me hostage\""
 			tasks: [{
 				id: "4E2DF33B187EAC0F"
 				title: "Yoperion"
@@ -236,11 +267,19 @@
 			dependencies: ["131DB96278BBD76A"]
 			icon: "minecraft:wolf_spawn_egg"
 			id: "611FAC0E5D5BBDC3"
-			rewards: [{
-				id: "24CEB90030E2BC9C"
-				item: "minecraft:wolf_spawn_egg"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "24CEB90030E2BC9C"
+					item: "minecraft:wolf_spawn_egg"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "1F5E9F9A462595D4"
+					item: "minecraft:bone"
+					type: "item"
+				}
+			]
 			subtitle: ":wolfGif:"
 			tasks: [{
 				id: "03A2FE286C36C912"
@@ -318,7 +357,22 @@
 		}
 		{
 			dependencies: ["131DB96278BBD76A"]
+			icon: {
+				Count: 1
+				id: "immersive_melodies:triangle"
+				tag: { }
+			}
 			id: "0AE97A75634A24B0"
+			rewards: [{
+				id: "6C765FFD35170FD3"
+				item: {
+					Count: 1
+					id: "immersive_melodies:piano"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Enjoy the triangle :)"
 			tasks: [{
 				id: "204C5557E4796D30"
 				title: "Thor0510"
@@ -326,6 +380,46 @@
 			}]
 			x: 8.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["60C59D590B54221F"]
+			description: ["The Incident™ of 2024"]
+			hide_dependency_lines: true
+			icon: "minecraft:water_bucket"
+			id: "145FEF8E862E2C7A"
+			rewards: [{
+				id: "4AB1DA01D89C59BF"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "trustn't"
+			tasks: [
+				{
+					id: "7DCA122057A1276C"
+					title: "wet"
+					type: "checkmark"
+				}
+				{
+					count: 15L
+					id: "26BF41794178CD74"
+					item: { Count: 15, id: "minecraft:paper" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["60C59D590B54221F"]
+			hide_dependency_lines: true
+			id: "29862B8107DEC44B"
+			tasks: [{
+				id: "524E666B12B8F8D2"
+				title: "william the world destroyer"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Thank you!"]

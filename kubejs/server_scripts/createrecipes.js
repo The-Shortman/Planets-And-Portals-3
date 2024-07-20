@@ -149,7 +149,7 @@ function mixingRecipes(e) {
                 amount: 1000
             },
             outputs: {
-                fluid: 'tfmg:crude_oil_fluid',
+                fluid: 'tfmg:crude_oil',
                 amount: 1000
             }
         },
@@ -169,9 +169,11 @@ function mixingRecipes(e) {
         {
             outputs: [
                 'ad_astra:desh_ingot',
+                'tfmg:ingot_mold'
             ],
             inputs: [
                 Fluid.of('planetsandportals:molten_desh', 1000/9),
+                'tfmg:ingot_mold'
             ]
         },
     ].forEach((recipe) => {
@@ -182,21 +184,17 @@ function mixingRecipes(e) {
         {
             outputs: [
                 Fluid.of('planetsandportals:molten_desh', 1000/9),
-                'tfmg:ingot_mold'
             ],
             inputs: [
                 'ad_astra:raw_desh',
-                'tfmg:ingot_mold'
             ]
         },
         {
             outputs: [
                 Fluid.of('planetsandportals:molten_desh', 1000/9),
-                'tfmg:ingot_mold'
             ],
             inputs: [
                 'planetsandportals:crushed_desh_ore',
-                'tfmg:ingot_mold'
             ]
         },
         {
@@ -205,7 +203,6 @@ function mixingRecipes(e) {
             ],
             inputs: [
                 'mekanism:dust_osmium',
-                'ad_astra:desh_nugget'
             ]
         },
         {
@@ -214,7 +211,6 @@ function mixingRecipes(e) {
             ],
             inputs: [
                 'mekanism:dust_lead',
-                'ad_astra:ostrum_nugget'
             ]
         },
         {
@@ -232,7 +228,6 @@ function mixingRecipes(e) {
             ],
             inputs: [
                 'mekanism:dust_uranium',
-                'ad_astra:calorite_nugget'
             ]
         },
         {

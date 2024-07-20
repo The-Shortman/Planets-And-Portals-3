@@ -502,8 +502,8 @@
 			}]
 			subtitle: "You really should set up a pumpjack to automate this"
 			tasks: [{
-				id: "07E73382434A1380"
-				item: "tfmg:crude_oil_fluid_bucket"
+				id: "30CBD6DECA1B4939"
+				item: "tfmg:crude_oil_bucket"
 				type: "item"
 			}]
 			x: 15.0d
