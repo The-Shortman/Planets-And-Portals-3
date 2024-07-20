@@ -58,7 +58,7 @@ hash = "c9bac7a9ff512efaf495ce5d89299a5c6533cecae11d3c87c9bc2a28595db77e"
 
 [[files]]
 file = "config/Mekanism/world.toml"
-hash = "544ac46d6c31a23a028f6b871ff187fdf13aae57050c5d8b7dac3be5e10353b3"
+hash = "89ad840e1bc9c1460f3aec7542c099377936379bc80e30b7784529c9fd4df276"
 
 [[files]]
 file = "config/MouseTweaks.cfg"
