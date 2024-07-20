@@ -33,10 +33,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"650CD9E0382D1143"
-				"4675259A7B3524BE"
-			]
+			dependencies: ["4675259A7B3524BE"]
 			description: ["Finally I can use this stuff!"]
 			id: "1003ED32BAD36DF2"
 			rewards: [{
@@ -57,22 +54,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["7C11AB543D17500D"]
-			id: "650CD9E0382D1143"
-			subtitle: "An addition to get osmium to stick into an ingot"
-			tasks: [{
-				id: "36E7E1A7FF9219D2"
-				item: "ad_astra:desh_nugget"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["75A8BA081E0C763E"]
+			dependencies: ["62AFB9329BF79D95"]
 			description: ["Powder your osmium"]
 			id: "4675259A7B3524BE"
-			subtitle: "Get that surface area up for the reaction"
+			subtitle: "Get that surface area up for the melting"
 			tasks: [{
 				id: "7C6FA4577333BC01"
 				item: "mekanism:dust_osmium"

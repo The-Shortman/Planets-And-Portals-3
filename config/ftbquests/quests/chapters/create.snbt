@@ -13,7 +13,7 @@
 		x: 4.0d
 		y: -7.0d
 	}]
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1150,6 +1150,7 @@
 				"7C1B4EDF0B3B0A7C"
 				"5121489503016E16"
 			]
+			description: ["Have some free money for your troubles :)"]
 			id: "3C3D74F483D0DC76"
 			rewards: [{
 				id: "24BDB8A911843E12"

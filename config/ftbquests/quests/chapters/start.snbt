@@ -130,43 +130,6 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"This pack comes with Tetra, a modular tool builder."
-				""
-				"You may notice that you can't craft anything more than wooden tools for a while, and this is because you are encouraged to use Tetra to upgrade your tools, stemming all the way from a wooden pickaxe."
-			]
-			icon: {
-				Count: 1
-				id: "tetra:modular_double"
-				tag: {
-					Damage: 0
-					"double/basic_hammer_left_material": "basic_hammer/oak"
-					"double/basic_hammer_right_material": "basic_hammer/oak"
-					"double/basic_handle_material": "basic_handle/stick"
-					"double/handle": "double/basic_handle"
-					"double/head_left": "double/basic_hammer_left"
-					"double/head_right": "double/basic_hammer_right"
-					id: "097edfd1-d9fb-4fbf-8e67-f55d89ec427e"
-				}
-			}
-			id: "6C4EA412A208EDE0"
-			rewards: [{
-				count: 16
-				id: "68A5C9E8B3A9655F"
-				item: "minecraft:torch"
-				type: "item"
-			}]
-			subtitle: "Tinkers' Not Included™"
-			tasks: [{
-				id: "383A54365F952D6F"
-				title: "Modular tools"
-				type: "checkmark"
-			}]
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["67E8273831E8B9D2"]
-			description: [
 				"You should have recieved a quest book upon loading the world, but you can throw it out - you don't actually need it!"
 				""
 				"I would recommend setting a keybind to open the quest book. Go to your controls, and search for quests."
@@ -299,28 +262,8 @@
 				title: "Locating Lag"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: -2.0d
-		}
-		{
-			dependencies: ["6C4EA412A208EDE0"]
-			description: ["To fix the fact that Tetra tools can't be crafted from Regions Unexplored's wood types, here's a free oak tree until I fix it :3"]
-			icon: "minecraft:oak_sapling"
-			id: "4D0E70CE1E8B6DF6"
-			rewards: [{
-				id: "7CA0D9F1D133B313"
-				item: "minecraft:oak_sapling"
-				type: "item"
-			}]
-			subtitle: "Peak modpack development"
-			tasks: [{
-				id: "0EFCE4C8350E96DD"
-				title: "Free Oak Tree Please"
-				type: "checkmark"
-			}]
-			title: "Free Oak Tree [TEMPORARY]"
-			x: -4.5d
-			y: 2.0d
+			x: -3.5d
+			y: 1.5d
 		}
 	]
 	subtitle: ["Start here!"]

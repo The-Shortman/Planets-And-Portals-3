@@ -6,7 +6,7 @@
 	group: "34B8FB3F21E5817B"
 	icon: "createoreexcavation:drill"
 	id: "4F0B1F06047DAE20"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -94,7 +94,7 @@
 				item: "createoreexcavation:drill"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
@@ -110,7 +110,7 @@
 				item: "createoreexcavation:diamond_drill"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 4.0d
 		}
 		{
@@ -127,14 +127,14 @@
 				item: "createoreexcavation:netherite_drill"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 5.5d
 		}
 		{
 			description: [
 				"Trains can travel through unloaded chunks, so they're perfect for transporting items and fluids long-distance."
 				""
-				"Do note that chunks have to be loaded for trains to load/unload materials."
+				"Do note that chunks have to be loaded for trains to load/unload materials, but not chunks the train simply travels through."
 				""
 				"Check out the trains section in the ponder index [Pause menu -> Goggles -> Ponder Index]"
 			]
@@ -149,6 +149,52 @@
 			title: "Long distance transportation"
 			x: 0.0d
 			y: -2.5d
+		}
+		{
+			description: [
+				"Got you covered!"
+				""
+				"The drilling machine only needs a filled copper tank placed on top to operate. With the tank on the sample drill, right click it to drill into the earth in a chunk with a vein, and right click the drill with your atlas."
+				""
+				"Once you're done, you can pick it back up and keep searching!"
+			]
+			id: "5F34FBD51B59CC54"
+			rewards: [{
+				count: 4
+				id: "1F696A40176CD811"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "I want to find ore veins but I don't have 50 drilling machines!"
+			tasks: [{
+				id: "195D340F5B475855"
+				item: "createoreexcavation:sample_drill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"Man I sure do hate moving to a new area just to find another tin vein."
+				""
+				"Good thing the Atlas exists! right click on an active Sample Drill or Drilling Machine to record the vein type. You can then blacklist it in the Atlas' menu!"
+			]
+			id: "6110CB8F4C9CD5A6"
+			rewards: [{
+				count: 2
+				id: "3C0A53733992B9EA"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Find new veins more efficiently!"
+			tasks: [{
+				id: "2061DBBD449E2A3A"
+				item: "createoreexcavation:vein_atlas"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
 		}
 	]
 	subtitle: ["Exploit the earth of its hidden resources"]

@@ -20,6 +20,8 @@ ServerEvents.recipes(e => {
 		{output: 'create_new_age:energiser_t3'},
 
 		// Create Ore Excavation
+		{output: 'createoreexcavation:vein_finder'},
+
 		{id: 'createoreexcavation:ore_vein_type/water'},
 		{mod: 'createoreexcavation', output: Fluid.of('minecraft:water')},
 		{id: 'createoreexcavation:ore_vein_type/nether_gold'},
@@ -134,7 +136,10 @@ ServerEvents.recipes(e => {
 
 		// Brewery
 		{output: 'brewery:copper_brewingstation'},
-		{output: 'brewery:silo_copper'}
+		{output: 'brewery:silo_copper'},
+
+		// Regions Unexplored
+		{output: 'regions_unexplored:raw_redstone_block'},
 
 	].forEach((recipe => {
 		e.remove(recipe)

@@ -229,7 +229,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["45470023A9A13F69"]
@@ -240,14 +240,14 @@
 				item: "numismatics:bevel"
 				type: "item"
 			}]
-			subtitle: "Applied Energy(stics)"
+			subtitle: "Applied Energy"
 			tasks: [{
 				id: "7361A4C52E2D7CAF"
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 7.0d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["45470023A9A13F69"]
@@ -271,7 +271,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1FF8697FC9ECB0A9"]
@@ -289,8 +289,8 @@
 				item: "planetsandportals:steel_electrode"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.5d
+			x: -0.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["331740C5F410B36D"]
@@ -307,8 +307,39 @@
 				item: "tfmg:heavy_plate"
 				type: "item"
 			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["45470023A9A13F69"]
+			id: "1BF2D32FFAD61140"
+			tasks: [{
+				id: "017D6249713B2BDE"
+				item: "ad_astra:desh_plateblock"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"75A8BA081E0C763E"
+				"602915031BB8E671"
+			]
+			description: [
+				"Osmium needs you to &6drill deeper&r in order to unearth it."
+				""
+				"Un&aearth&r? Un&bmoon&r? Whatever."
+			]
+			id: "62AFB9329BF79D95"
+			subtitle: "It's not on the surface?"
+			tasks: [{
+				id: "1AD6B1B0975970BF"
+				item: "mekanism:raw_osmium"
+				type: "item"
+			}]
 			x: 0.0d
-			y: 10.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["A new world to destroy"]
