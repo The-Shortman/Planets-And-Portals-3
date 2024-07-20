@@ -18,11 +18,11 @@ hash = "688924598f94acb4493dc759f413340d541ca76ab5f654d5d02a5b00603f83f1"
 
 [[files]]
 file = "config/Mekanism/client.toml"
-hash = "31528ab3e12f1a0e080d66afa1c1a3a8ae73c704e385315295fb4e3857c2bcd4"
+hash = "9a6560b88fa3b2b7aacb128317736386feeae98af7201cf385aa4d83adc4e5bc"
 
 [[files]]
 file = "config/Mekanism/common.toml"
-hash = "dab6dbae43bb67fd6a10438c0cbf997c70560c6af3493b60330ac9248587905d"
+hash = "7420cebf3bc66d7cb1f7e8a07083972d2725fa9ed7a0e59ffe66608a2d5eddd7"
 
 [[files]]
 file = "config/Mekanism/gear.toml"
@@ -162,7 +162,7 @@ hash = "9b774f59463076c315606cbc4717778f16ef8ef48a84b9c7fc4e0ae437cccc8d"
 
 [[files]]
 file = "config/comforts-server.toml"
-hash = "24702276d0b1d6f7b5e94b4b34cbc5bd426c524a31bc005231324fc1b7976438"
+hash = "2520ce5d222288a8022f76bd54dfb605286a1c256fc7bfb3a1edf77179f76d3e"
 
 [[files]]
 file = "config/computercraft-client.toml"
@@ -174,11 +174,11 @@ hash = "aa4cba7ed9d3a156ad3a1610df75783f84a5e8c45d14ecb172d33e597a09f079"
 
 [[files]]
 file = "config/copycats-client.toml"
-hash = "cb3f0920ad43ca7c7a3d95040718c1a654f49ad4b8147ce3c3733d3f6dbf3c7c"
+hash = "3419d33b40505458748233b47c47610527a1fe247362e5fb2a7dd062f6af4e51"
 
 [[files]]
 file = "config/copycats-common.toml"
-hash = "d7b7264a340fecec1511ee1ccc4155516bf97fd216791e208ff4b09c7e14ef4d"
+hash = "88685c6d4f226d534b1c0ba62149590c2ecc46f92fc113a7031771bae8236ca8"
 
 [[files]]
 file = "config/cosmeticarmorreworked-client.toml"
@@ -214,7 +214,7 @@ hash = "d2bef136c958a76f0f394400c8084ae25167c43c08e1480ca040f412b8375185"
 
 [[files]]
 file = "config/createrailwaysnavigator-client.toml"
-hash = "936f27da42835463463478008799080fc8d041c4e390dd5c64dc5c5851281623"
+hash = "76437e5ed00fa2cdb1d183349199112241550d0bb42f0f574a149da16b6d1646"
 
 [[files]]
 file = "config/createrailwaysnavigator-common.toml"
@@ -282,7 +282,7 @@ hash = "69e1df6089b71c3c2fe2c7cf6760937094fd22434111f527229a9fcea3f90bc5"
 
 [[files]]
 file = "config/exposure-client.toml"
-hash = "c59cbf82733eed2220daa097174b332e3e5a83d6731c231cac9d7c33e7503b69"
+hash = "0b7b071f01afbae53264ece3d13253df277e89dd9a5a34e87f3edd17a74e18e8"
 
 [[files]]
 file = "config/exposure-common.toml"
@@ -530,7 +530,7 @@ hash = "0d0e22785b8811b4010b7cf39f78fcfb25e31e70558176a52cb9e95ea9202c8f"
 
 [[files]]
 file = "config/fml.toml"
-hash = "0bc9ae95cfe44f8bd70e47c524f35441c9bc2aa8a09340fef933cc9b98bce29e"
+hash = "70a49aec22117f6eaef55e2e9c4eb8ee4521136912a722444ae8c4e02e97085d"
 
 [[files]]
 file = "config/forge-client.toml"
@@ -666,11 +666,11 @@ hash = "4f11993be4c863e9e7162e2a8bcb301a2bed28b32b47bd39c595b73ad0bc90e7"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "7753a83ac865572d3b92f647e7f6d910e7045e3d5f7ef653f33e0eaa74e5dfea"
+hash = "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "4408ab5d5cd0387636e699f8cc483deac290393a416df1b2de3d279bcde39de7"
+hash = "e49e73ae52ec60d5996757bfb77ce9b1abf53f8763b7dbfb2df62db82a45caf3"
 
 [[files]]
 file = "config/jade/server-plugin-overrides.json"
@@ -678,7 +678,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "5fa78336eb69cf984312e4f82c2ee7087a5d1c27f441012ff8e3864e444fbe12"
+hash = "56561f852183ae5bb3f342a090f8c8e3530310bd5040b0fa51b2b2ded1d98031"
 
 [[files]]
 file = "config/jmi-client.toml"
@@ -762,7 +762,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "3e178c8741f7fc55b2978b8f588e60a913f2719cf56772c5a12664644a6c5d31"
+hash = "d8cc9b966c0c30c1a4b0dd7da51f8a898ca6a8842914317b40408c963b19ca65"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -786,7 +786,7 @@ hash = "6cffea1c20852a079342429a0f223fcc45993a51596c4736e0fe1910c3fcba52"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "5bb7dc44b6cd1fb3e66d9ff4795886f869b0ecc6c154d89833b3a75692df6970"
+hash = "d9071ca6408bd03850ea915ca25e2e8553318e2178fc69208f31e90734a7bf8c"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -830,11 +830,11 @@ hash = "c283f5605ea8303b4e7e91b759da046bad6588305066ce6a78b3d36abfa94ac6"
 
 [[files]]
 file = "config/roughlyenoughitems/pinyin.properties"
-hash = "f560a9f6a09b9f71b5c6220b55a68c671bfa8123b59fc8d87d9e33d6a30c4cf2"
+hash = "7887c425997e1ce0a813d34d3a31922886e023aa55172b97f122640014006a2a"
 
 [[files]]
 file = "config/roughlyenoughitems/pinyin_double.properties"
-hash = "b1da2a5e5e3655a71649ab62dee8cd31f17884ce04222334060c1725f78ce56a"
+hash = "e915c4bfb14f4ba08ea707927242a893d96ef40749cda2f00f75e0492b9f4a90"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -898,7 +898,7 @@ hash = "11ef4c2666fa094b456310710c2b5cb8babbd71982d4d187c9a80ad4011d8014"
 
 [[files]]
 file = "config/tips.json"
-hash = "50937206850d3da0e99ea03101335b9cfbfefeb3accfadb6c184957abdddab7d"
+hash = "db7d7702b2fcb6ed34d7d7b3e0122d98858217f67a2159207b16ba96fd07253d"
 
 [[files]]
 file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
@@ -1394,7 +1394,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "95ed0d2ed9de85f29eadc5e6108e42980df54935877e21c55f8cd7a7c8192b0b"
+hash = "5f1f88a9e4fb53cc2a39aec7a992469e2634794cdf272ea179e266d829de7853"
 
 [[files]]
 file = "config/zeta-common.toml"
