@@ -1630,6 +1630,11 @@ hash = "11c40209898628cc8ca75d28f539c449384b40600bfc88272306f6138f4e4428"
 metafile = true
 
 [[files]]
+file = "mods/alekiships.pw.toml"
+hash = "3e6e39ef0762d6e582ce7fa36d51646d11ac0f1c30d5f6b066f3adf733c245fb"
+metafile = true
+
+[[files]]
 file = "mods/alternate-current.pw.toml"
 hash = "2362e168d550f0a3a3bea1715a495d7c54fe6e9f159b948981eae15c53df597c"
 metafile = true
@@ -1662,6 +1667,11 @@ metafile = true
 [[files]]
 file = "mods/athena.pw.toml"
 hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
+metafile = true
+
+[[files]]
+file = "mods/badpackets.pw.toml"
+hash = "64bf8b278979f6e2aa9dc0fb5d2168212bc9337e41fb9a9f7e114fe91695194a"
 metafile = true
 
 [[files]]
@@ -1865,6 +1875,26 @@ hash = "df9fa54fc9635b60d8788138da56e972dabb350e6b55e0ce6709c29f029926d6"
 metafile = true
 
 [[files]]
+file = "mods/emi-loot.pw.toml"
+hash = "5fe0a5f2c76aa2bf6adde2c24d391970c647e088b68c7482081c1abcc30a9fcc"
+metafile = true
+
+[[files]]
+file = "mods/emi-trades-villager-trading-emi-plugin.pw.toml"
+hash = "27b1964e1583318e348f75fcb6a955c47f0d8650fcef62c6a07b7b1891bd2526"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+hash = "fde7b10fc03483fbfceb24bc4439be6920f5fa9d6c3802c48847959f2b52107f"
+metafile = true
+
+[[files]]
+file = "mods/emiffect-status-effects-emi-plugin.pw.toml"
+hash = "cf53ff3d2ea7e7aed6a8045414b2c9b80405ce1e26d1c2d43bd75a9ddaf715c9"
+metafile = true
+
+[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "918263be0aed824b1937924910a0c7638c32044b25d88f3876506641c161221b"
 metafile = true
@@ -2002,6 +2032,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "c309e7c7ee8233136eca526d44d6c6b6a2411f11eb6fe0394e81df1dc6de355f"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "c5a550ee14aa98fc02677eb574822cd11e30e01428611e25c7241c1601877adf"
 metafile = true
 
 [[files]]
@@ -2227,16 +2262,6 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-items-hacks.pw.toml"
-hash = "7a39d6d8faddf9ac5f10aa1b3c271b8dc27b1f79531bdbeefb8d268b68e9eef5"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-items.pw.toml"
-hash = "a98b07ee08d2563048783d80c1ef7d64831d12577f7a91973090a9b8d4e7c9da"
 metafile = true
 
 [[files]]
