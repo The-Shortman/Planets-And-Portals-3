@@ -129,6 +129,14 @@ file = "config/betterchunkloading.json"
 hash = "9fd4870da51bbcd7b93960ebf1e3225ec34871deb3ab1d73d8401b71d1e797ab"
 
 [[files]]
+file = "config/blockswap/block_swap.json5"
+hash = "46e68fcc40efd723c8c66f3f1bfee166b449b70eaf00634d4de9e683c1938439"
+
+[[files]]
+file = "config/blockswap/missing_block_ids.json5"
+hash = "62f528a6cbed5a846e9afb0f42b90e91a7bbbf0948412643d460ea872b8bcb51"
+
+[[files]]
 file = "config/buildinggadgets2-common.toml"
 hash = "069c794385b6ddcaa7c1753abea1eabf7b75b4151978d1baaafe19298c2f6c36"
 
@@ -470,7 +478,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "74a866b8870034ded44210cfa6211fcf059266870f3dc19477a24b8a3b78de96"
+hash = "adbec82a184dada0a06c46418642b200665f4efb347c196c9f3a143f2a489769"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -633,6 +641,10 @@ file = "config/ftbxmodcompat.snbt"
 hash = "9abe2c7f784810cac3ca71c74d02aacd5fe6861d744cb143d077a525a2b42e76"
 
 [[files]]
+file = "config/grapplemod.toml"
+hash = "0390dfc8ee58e0c47bd52b9649fcbeffc2664f104a7a42b629269a22308a3dee"
+
+[[files]]
 file = "config/highlighter-common.toml"
 hash = "22b7f87be30b7e3ce6fa3fe1cb588e8b3eae0bfc9ddc390ad346a1d1bbfebb4b"
 
@@ -762,7 +774,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "d8cc9b966c0c30c1a4b0dd7da51f8a898ca6a8842914317b40408c963b19ca65"
+hash = "ff8996947078c0ca83be5acacf559fe91ca5bb10121b06c9630058076d2487f6"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -786,7 +798,7 @@ hash = "6cffea1c20852a079342429a0f223fcc45993a51596c4736e0fe1910c3fcba52"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "d9071ca6408bd03850ea915ca25e2e8553318e2178fc69208f31e90734a7bf8c"
+hash = "5bb7dc44b6cd1fb3e66d9ff4795886f869b0ecc6c154d89833b3a75692df6970"
 
 [[files]]
 file = "config/railways-client.toml"
@@ -1517,6 +1529,26 @@ file = "kubejs/data/ae2/tags/worldgen/biome/has_meteorites.json"
 hash = "6403f3e639c85baf174779fb499b88b6341725e2ba35a4a2a84874417933ce01"
 
 [[files]]
+file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_glacio.json"
+hash = "a39b1c0fa21add4c9ec2ba07b023004e16e50a56e59cbce3491bb3d87884cab5"
+
+[[files]]
+file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_mars.json"
+hash = "8a8631c798945adcfc48ffcb4db0ff40300bfb072c53b0eb60b758650c4efae6"
+
+[[files]]
+file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_mercury.json"
+hash = "a41932eca9d668873e62d6c6cf77627f825f7c42f13203cb7881ef548d1591b7"
+
+[[files]]
+file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_moon.json"
+hash = "b4f2b834c281373e5ab3fa2d6361cca93d534b06a3cde0d26a1ae2d57b198ab1"
+
+[[files]]
+file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_venus.json"
+hash = "e1030f6271ab86caabd93f480af782d34e0579889bb7c4400f8ea5e27407e015"
+
+[[files]]
 file = "kubejs/server_scripts/README.txt"
 hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
 
@@ -1525,16 +1557,36 @@ file = "kubejs/server_scripts/createrecipes.js"
 hash = "36bff593fcdc3fd83b4ef5e916f65248a3b00f5befa8d77837be4373e91d82af"
 
 [[files]]
-file = "kubejs/server_scripts/oredeposits.js"
-hash = "afbf63c04f967f6183d6caac4942ad5f80dfd5e7c063c98f3582f6339589fab3"
+file = "kubejs/server_scripts/excavation_highgrade.js"
+hash = "81687756fda895ce78a8c7cd052521ef07b5eabb8c88507f4db38538948b8641"
+
+[[files]]
+file = "kubejs/server_scripts/excavation_lowgrade.js"
+hash = "2ff1dc0604e14688d4d011742e786a873d0a99e1059121c49cdc1f5aa165bc8a"
+
+[[files]]
+file = "kubejs/server_scripts/excavation_midgrade.js"
+hash = "a9721da7bf9307f92895413aca14bd5e112446537f46a6a3023376227a6118cd"
+
+[[files]]
+file = "kubejs/server_scripts/oreveingen_highgrade.js"
+hash = "504a7d4244bf726a062158897b5f2fce7a7e629c53dc92dbc8b10ce50b89adca"
+
+[[files]]
+file = "kubejs/server_scripts/oreveingen_lowgrade.js"
+hash = "84381cf765554547198d4048ea9a5e940b1b47c4cb4c07c37a2311969c4546e6"
+
+[[files]]
+file = "kubejs/server_scripts/oreveingen_midgrade.js"
+hash = "d2d72b4899ca274bb8e3ff5bac642e0f07e4fe1c26e2647584d775bb4984192e"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"
-hash = "14b36debff2f1772006ad1dd3e398420966faca3353031d8a90ee65d1a30ff26"
+hash = "ccee95ef3f3b0f7a744b8e0ff16c0547b5b0b66597e4a4c9a3fc7548748fd816"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "0b4080b6ec193ba38194635338cdeaccf4b43ee3f81600701d0d78514732163a"
+hash = "a79218ac247ec24455807e2bc7be528695aa28301e8e04ad957cbfc04ec2ee1e"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
@@ -1588,6 +1640,11 @@ hash = "c514f491ac1d393df5bcdbefef1d91a4e96c4e5cea74f78d1e8d9bf9e43dd966"
 metafile = true
 
 [[files]]
+file = "mods/amplified-nether.pw.toml"
+hash = "03fa352715705a0354e049b4fe0b3fab7772476134cd3393e343811c2862d13b"
+metafile = true
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "2a6d398aa111a6448b1d4072e34f61294a517d2c8545cb0aa4239ea8ad63ce45"
 metafile = true
@@ -1615,6 +1672,11 @@ metafile = true
 [[files]]
 file = "mods/better-chunk-loading-forge-fabric.pw.toml"
 hash = "79a3fb06122208f61eede6e34a4ed3ea15107cd89ebcbfd8afc2903a6fa01a8a"
+metafile = true
+
+[[files]]
+file = "mods/block-swap.pw.toml"
+hash = "1d093db0add8486b407b1323d2add62c1710469922722ec2531f78ef667ec259"
 metafile = true
 
 [[files]]
@@ -1885,6 +1947,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "1e17d92e2843cdb01a229d4987b0ef456c8a759d1e02e18f5265fd8179cbf7c2"
+metafile = true
+
+[[files]]
+file = "mods/grappling-hook-mod.pw.toml"
+hash = "e0607c5e42eb3e9e9f535e4a71392261f3a9ee4f6f84850d5490ff48f82f1ca8"
 metafile = true
 
 [[files]]
