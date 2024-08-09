@@ -12,6 +12,26 @@ ServerEvents.recipes(e => {
 		// Create: TFMG
 		{output: 'tfmg:coke_oven'},
 		{output: 'tfmg:heavy_plate'},
+		{output: 'tfmg:electric_casing'},
+		{input: 'tfmg:electric_casing'},
+		{output: 'tfmg:copper_wire'},
+		{input: 'tfmg:copper_wire'},
+		{output: 'tfmg:aluminium_wire'},
+		{output: Fluid.of('tfmg:neon')},
+		{input: 'tfmg:copper_coil'},
+		{input: 'tfmg:copper_cable'},
+		{output: 'tfmg:cable_connector'},
+		{output: 'tfmg:firebox'},
+		{output: 'tfmg:voltmeter'},
+		{output: 'tfmg:energy_meter'},
+		{output: 'tfmg:lead_ingot'},
+		{output: 'tfmg:lead_sword'},
+		{output: 'tfmg:lead_shovel'},
+		{output: 'tfmg:lead_pickaxe'},
+		{output: 'tfmg:lead_hoe'},
+		{output: 'tfmg:lead_axe'},
+		{output: 'tfmg:lead_block'},
+		{mod: 'tfmg', output: 'create:crushed_raw_lead'},
 
 		// Create: New Age
 		{output: 'create_new_age:thorium'},
@@ -26,6 +46,32 @@ ServerEvents.recipes(e => {
 		{mod: 'createoreexcavation', output: Fluid.of('minecraft:water')},
 		{id: 'createoreexcavation:ore_vein_type/nether_gold'},
 		{mod: 'createoreexcavation', output: 'minecraft:gold_nugget'},
+		{id: 'createoreexcavation:ore_vein_type/lapis'},
+		{mod: 'createoreexcavation', output: 'minecraft:lapis_lazuli'},
+		{id: 'createoreexcavation:ore_vein_type/redstone'},
+		{mod: 'createoreexcavation', output: 'createoreexcavation:raw_redstone'},
+		{id: 'createoreexcavation:ore_vein_type/glowstone'},
+		{mod: 'createoreexcavation', output: 'minecraft:glowstone_dust'},
+		{id: 'createoreexcavation:ore_vein_type/quartz'},
+		{mod: 'createoreexcavation', output: 'minecraft:quartz'},
+		{id: 'createoreexcavation:ore_vein_type/coal'},
+		{mod: 'createoreexcavation', output: 'minecraft:coal'},
+		{id: 'createoreexcavation:ore_vein_type/netherite'},
+		{mod: 'createoreexcavation', output: 'minecraft:ancient_debris'},
+		{id: 'createoreexcavation:ore_vein_type/diamond'},
+		{id: 'createoreexcavation:ore_vein_type/hardened_diamond'},
+		{mod: 'createoreexcavation', output: 'createoreexcavation:raw_diamond'},
+		{mod: 'createoreexcavation', output: 'minecraft:diamond'},
+		{id: 'createoreexcavation:ore_vein_type/gold'},
+		{mod: 'createoreexcavation', output: 'minecraft:raw_gold'},
+		{id: 'createoreexcavation:ore_vein_type/copper'},
+		{mod: 'createoreexcavation', output: 'minecraft:raw_copper'},
+		{id: 'createoreexcavation:ore_vein_type/zinc'},
+		{mod: 'createoreexcavation', output: 'create:raw_zinc'},
+		{id: 'createoreexcavation:ore_vein_type/emerald'},
+		{mod: 'createoreexcavation', output: 'createoreexcavation:raw_emerald'},
+		{id: 'createoreexcavation:ore_vein_type/iron'},
+		{mod: 'createoreexcavation', output: 'minecraft:raw_iron'},
 
 		// AE2
 		{output: 'ae2:inscriber'},
@@ -140,6 +186,9 @@ ServerEvents.recipes(e => {
 
 		// Regions Unexplored
 		{output: 'regions_unexplored:raw_redstone_block'},
+
+		// Tom's Simple Storage
+		{mod: 'toms_storage'},
 
 	].forEach((recipe => {
 		e.remove(recipe)

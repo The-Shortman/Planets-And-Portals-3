@@ -360,6 +360,51 @@ function shapedRecipes(e) {
             },
             output: 'mekanismgenerators:advanced_solar_generator'
         },
+
+        // Tom's Simple Storage
+
+        {
+            pattern: [
+                'ABA',
+                'BCB',
+                'ABA'
+            ],
+            key: {
+                A: 'minecraft:redstone',
+                B: '#forge:planks',
+                C: 'mekanism:steel_casing'
+            },
+            output: 'toms_storage:ts.inventory_connector'
+        },
+        {
+            pattern: [
+                ' A ',
+                'BCD',
+                ' A '
+            ],
+            key: {
+                A: '#forge:planks',
+                B: 'create:framed_glass',
+                C: 'mekanism:ingot_osmium',
+                D: 'minecraft:comparator'
+            },
+            output: 'toms_storage:ts.storage_terminal'
+        },
+        {
+            pattern: [
+                'ABA',
+                'CDC',
+                'AEA'
+            ],
+            key: {
+                A: 'mekanism:enriched_redstone',
+                B: 'mekanism:dust_osmium',
+                C: 'ad_astra:desh_plate',
+                D: 'toms_storage:ts.storage_terminal',
+                E: 'minecraft:crafting_table'
+            },
+            output: 'toms_storage:ts.crafting_terminal'
+        },
     ].forEach((recipe) => {
         e.shaped(recipe.output, recipe.pattern, recipe.key)
     })
