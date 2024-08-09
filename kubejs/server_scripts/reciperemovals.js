@@ -187,6 +187,9 @@ ServerEvents.recipes(e => {
 		// Regions Unexplored
 		{output: 'regions_unexplored:raw_redstone_block'},
 
+		// Tom's Simple Storage
+		{mod: 'toms_storage'},
+
 	].forEach((recipe => {
 		e.remove(recipe)
 	}))

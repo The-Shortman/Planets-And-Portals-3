@@ -1558,11 +1558,11 @@ hash = "ccee95ef3f3b0f7a744b8e0ff16c0547b5b0b66597e4a4c9a3fc7548748fd816"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "a79218ac247ec24455807e2bc7be528695aa28301e8e04ad957cbfc04ec2ee1e"
+hash = "e691feea70d40714d145dd8a7e0ac4b2b69e6d5a7e259ef5368422cf82390d75"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "bc924d404e87feb79542aa73ac186037cc0eb4ff4d535783155d474d8c41f461"
+hash = "9c5a941fe2aaa4ca3dbd163961dd199e4390c8323a0c2eed64fe71b397d97853"
 
 [[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"
