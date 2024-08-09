@@ -1562,15 +1562,15 @@ hash = "a9721da7bf9307f92895413aca14bd5e112446537f46a6a3023376227a6118cd"
 
 [[files]]
 file = "kubejs/server_scripts/oreveingen_highgrade.js"
-hash = "504a7d4244bf726a062158897b5f2fce7a7e629c53dc92dbc8b10ce50b89adca"
+hash = "c932665cc28b7504723f5726aa131b08a52b5818e56b68bcae364f08e4d7a943"
 
 [[files]]
 file = "kubejs/server_scripts/oreveingen_lowgrade.js"
-hash = "84381cf765554547198d4048ea9a5e940b1b47c4cb4c07c37a2311969c4546e6"
+hash = "616178e52ed08ce59c163e12bff1bdcfdfa60f0ddedf0481012c84b0e43a936a"
 
 [[files]]
 file = "kubejs/server_scripts/oreveingen_midgrade.js"
-hash = "d2d72b4899ca274bb8e3ff5bac642e0f07e4fe1c26e2647584d775bb4984192e"
+hash = "1ebf57d3fd0ea98d61dfc6290a1b1e7bd22780082e77c2b85204e6cc7cddfc61"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"
@@ -1859,11 +1859,6 @@ metafile = true
 [[files]]
 file = "mods/dynamic-view.pw.toml"
 hash = "9503bfd7d59bb3f50232a6c5ea90e5790e178cc96b2463eb3e9775f65d1ef4ea"
-metafile = true
-
-[[files]]
-file = "mods/dynmapforge.pw.toml"
-hash = "a9df7957db29bd5934360117797e75baa6fc0a12a9ef99c1bddb66a7ad30a7ce"
 metafile = true
 
 [[files]]
