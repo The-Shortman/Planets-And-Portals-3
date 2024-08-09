@@ -2157,6 +2157,11 @@ hash = "0663919544b1f185be64b69269f5e914d2fae910fb8ee16d4cd9549d809e71cd"
 metafile = true
 
 [[files]]
+file = "mods/ok-zoomer-forge.pw.toml"
+hash = "b4f81deb6d02a95587c3228e805145ed675fb7f9337c4bc4bca93013d6360d15"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
 metafile = true
@@ -2294,6 +2299,11 @@ metafile = true
 [[files]]
 file = "mods/tips.pw.toml"
 hash = "218b55459055d7793fbdf924853e0a944f7bd8e8bd69107ce944a9a0636fe07a"
+metafile = true
+
+[[files]]
+file = "mods/toms-storage.pw.toml"
+hash = "5a7cbd5bc7dd5ac36cdb21f225e746d67bfb76523ca570afe78a5e421839040a"
 metafile = true
 
 [[files]]
