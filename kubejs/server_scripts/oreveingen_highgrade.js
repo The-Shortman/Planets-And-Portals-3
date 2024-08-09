@@ -85,7 +85,7 @@ ServerEvents.recipes(e => {
             biomes: 'planetsandportals:is_mars'
         }
     ].forEach((vein) => {
-        e.recipes.createoreexcavation.vein(vein.name, vein.resource).placement(40, 30, vein.salt).biomeWhitelist(vein.biomes).id(vein.id)
+        e.recipes.createoreexcavation.vein(vein.name, vein.resource).placement(60, 45, vein.salt).biomeWhitelist(vein.biomes).id(vein.id)
     }),
 
     // RARE
@@ -160,7 +160,7 @@ ServerEvents.recipes(e => {
         }
 
     ].forEach((vein) => {
-        e.recipes.createoreexcavation.vein(vein.name, vein.resource).placement(90, 70, vein.salt).biomeWhitelist(vein.biomes).id(vein.id)
+        e.recipes.createoreexcavation.vein(vein.name, vein.resource).placement(135, 105, vein.salt).biomeWhitelist(vein.biomes).id(vein.id)
     }),
 
     // UNUSUAL
@@ -215,6 +215,6 @@ ServerEvents.recipes(e => {
         }
         
     ].forEach((vein) => {
-        e.recipes.createoreexcavation.vein(vein.name, vein.resource).placement(160, 150, vein.salt).biomeWhitelist(vein.biomes).id(vein.id)
+        e.recipes.createoreexcavation.vein(vein.name, vein.resource).placement(240, 225, vein.salt).biomeWhitelist(vein.biomes).id(vein.id)
     })
 })

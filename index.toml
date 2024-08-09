@@ -17,6 +17,10 @@ file = "config/Advancedperipherals/world.toml"
 hash = "688924598f94acb4493dc759f413340d541ca76ab5f654d5d02a5b00603f83f1"
 
 [[files]]
+file = "config/EmiLootConfig_v1.json"
+hash = "549a01a4183ce775ff7e3972a31372ce272a2c7d82a563d73053c258c5749eff"
+
+[[files]]
 file = "config/Mekanism/client.toml"
 hash = "9a6560b88fa3b2b7aacb128317736386feeae98af7201cf385aa4d83adc4e5bc"
 
@@ -150,7 +154,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "ebd6e42da4dd9d6c9dd465f7416ef63e2eae136ae41149674509ab2305f4955d"
+hash = "2efdf8c2f5e5433d656e3116cb66972b03ccf8e0602b43af50eb4f3cf9e1b06d"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -283,6 +287,14 @@ hash = "2d0bdca74548caee52c95faeb3ce90413938bad47a8967925fd309dd6014a22a"
 [[files]]
 file = "config/embeddium-options.json"
 hash = "529f8ec40290dc406511ccb9ac7695e024cc41f8786c6b851aeb96d3237f75cb"
+
+[[files]]
+file = "config/emi.css"
+hash = "735c378a1881e1a1ac7769c97333a700e489176c366dc8e0d80656a34d8e96e1"
+
+[[files]]
+file = "config/emitrades.json5"
+hash = "1ed0ed3da45ed6bc11cdb624218f76f8e52b63818703b25e717bbbec615e6e92"
 
 [[files]]
 file = "config/enchdesc.json"
@@ -682,7 +694,7 @@ hash = "8a9c0403b385ca106d0c0b541ea2f2128bf39e3f9b05b342b176ca11834857a4"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "e49e73ae52ec60d5996757bfb77ce9b1abf53f8763b7dbfb2df62db82a45caf3"
+hash = "ee0e808976c26a86b7e13d3ad0ce0520c58798fe49ff3f4dc8416c7c7423f119"
 
 [[files]]
 file = "config/jade/server-plugin-overrides.json"
@@ -690,7 +702,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "56561f852183ae5bb3f342a090f8c8e3530310bd5040b0fa51b2b2ded1d98031"
+hash = "2c7804581bdb23f9cce6bdf1ba8a1fd6d1bd0cda0f17f9a9af5354d3ddd83865"
 
 [[files]]
 file = "config/jmi-client.toml"
@@ -770,7 +782,11 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "config/oculus.properties"
-hash = "ff8996947078c0ca83be5acacf559fe91ca5bb10121b06c9630058076d2487f6"
+hash = "7395c71ba60bd2aafb64ee125c082ab7a272ae6e9a4911186f1676508e281736"
+
+[[files]]
+file = "config/okzoomer-client.toml"
+hash = "d0b7763e135cbba21d71c339253562b04460e4b42f599aa4a05f33cd06c9169d"
 
 [[files]]
 file = "config/patchouli-client.toml"
@@ -883,6 +899,10 @@ hash = "11ef4c2666fa094b456310710c2b5cb8babbd71982d4d187c9a80ad4011d8014"
 [[files]]
 file = "config/tips.json"
 hash = "db7d7702b2fcb6ed34d7d7b3e0122d98858217f67a2159207b16ba96fd07253d"
+
+[[files]]
+file = "config/toms_storage-common.toml"
+hash = "6105ea54cfeba1362b2b616873d5c7193840249fdcb02d10aad2019fade2265a"
 
 [[files]]
 file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
@@ -1378,7 +1398,7 @@ hash = "9757a6208de6780c7d86d61a75e997848a30a7e759f5e2f3e29d08ab7aa6383f"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "5f1f88a9e4fb53cc2a39aec7a992469e2634794cdf272ea179e266d829de7853"
+hash = "1f45b36d26fcc7987cd50a6b844fb31750fb54e0e2da14c503b1df93d38de488"
 
 [[files]]
 file = "config/zeta-common.toml"
