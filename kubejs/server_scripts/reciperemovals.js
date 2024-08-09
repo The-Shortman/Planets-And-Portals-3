@@ -31,6 +31,7 @@ ServerEvents.recipes(e => {
 		{output: 'tfmg:lead_hoe'},
 		{output: 'tfmg:lead_axe'},
 		{output: 'tfmg:lead_block'},
+		{mod: 'tfmg', output: 'create:crushed_raw_lead'},
 
 		// Create: New Age
 		{output: 'create_new_age:thorium'},
