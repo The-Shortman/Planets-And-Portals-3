@@ -1862,6 +1862,11 @@ hash = "9503bfd7d59bb3f50232a6c5ea90e5790e178cc96b2463eb3e9775f65d1ef4ea"
 metafile = true
 
 [[files]]
+file = "mods/dynamiclights-reforged.pw.toml"
+hash = "7c42037125573675148f40d1be3c2dfbbfb58065de4793828281de9cd70f0588"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "df9fa54fc9635b60d8788138da56e972dabb350e6b55e0ce6709c29f029926d6"
 metafile = true
