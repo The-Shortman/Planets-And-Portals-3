@@ -1582,7 +1582,7 @@ hash = "959e943b5be8c3df2ffbb775119d2158e68917f3f51dfb432de597de25120dcd"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "5332db425bd2a36bd00817a12bcbb551569af5777679e9a53fc86750d6cd0fea"
+hash = "d0600166b617ff6ee8eedddc585e5d03a6be4b6d9e64498b952c6acfc20300db"
 
 [[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"

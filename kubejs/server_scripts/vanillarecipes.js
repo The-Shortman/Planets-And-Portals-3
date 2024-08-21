@@ -143,17 +143,6 @@ function shapedRecipes(e) {
         },
         {
             pattern: [
-                'AAA',
-                'ABA'
-            ],
-            key: {
-                A: '#ad_astra:steel_ingots',
-                B: 'minecraft:glass_pane'
-            },
-            output: 'ad_astra:space_helmet'
-        },
-        {
-            pattern: [
                 'A A',
                 'BCB',
                 'ADA'
