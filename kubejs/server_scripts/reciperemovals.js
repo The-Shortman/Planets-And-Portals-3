@@ -147,6 +147,7 @@ ServerEvents.recipes(e => {
 		{output: 'mekanismgenerators:advanced_solar_generator'},
 
 		// Ad Astra
+		{type: 'ad_astra:nasa_workbench'},
 		{output: 'ad_astra:steel_ingot'},
 		{output: 'ad_astra:steel_block'},
 		{output: 'ad_astra:steel_nugget'},
@@ -176,6 +177,12 @@ ServerEvents.recipes(e => {
 			'ad_astra:mars_ostrum_ore',
 			'ad_astra:deepslate_ostrum_ore'
 		]},
+		{output: 'ad_astra:steel_rod'},
+		{output: 'ad_astra:oxygen_gear'},
+		{output: 'ad_astra:space_helmet'},
+		{output: 'ad_astra:space_suit'},
+		{output: 'ad_astra:space_pants'},
+		{output: 'ad_astra:space_boots'},
 
 		// Tempad
 		{mod: 'tempad'},

@@ -108,6 +108,87 @@ function shapedRecipes(e) {
             },
             output: 'ad_astra:gravity_normalizer'
         },
+        {
+            pattern: [
+                'A',
+                'A'
+            ],
+            key: {
+                A: '#ad_astra:steel_ingots'
+            },
+            output: 'ad_astra:steel_rod'
+        },
+        {
+            pattern: [
+                ' B ',
+                'ABA',
+                'ABA'
+            ],
+            key: {
+                A: '#ad_astra:steel_ingots',
+                B: 'as_astra:steel_rod'
+            },
+            output: 'ad_astra:oxygen_gear'
+        },
+        {
+            pattern: [
+                'AAA',
+                'ABA'
+            ],
+            key: {
+                A: '#ad_astra:steel_ingots',
+                B: 'minecraft:glass_pane'
+            },
+            output: 'ad_astra:space_helmet'
+        },
+        {
+            pattern: [
+                'AAA',
+                'ABA'
+            ],
+            key: {
+                A: '#ad_astra:steel_ingots',
+                B: 'minecraft:glass_pane'
+            },
+            output: 'ad_astra:space_helmet'
+        },
+        {
+            pattern: [
+                'A A',
+                'BCB',
+                'ADA'
+            ],
+            key: {
+                A: '#ad_astra:steel_ingots',
+                B: 'ad_astra:gas_tank',
+                C: 'ad_astra:oxygen_gear',
+                D: '#minecraft:wool'
+            },
+            output: 'ad_astra:space_suit'
+        },
+        {
+            pattern: [
+                'AAA',
+                'B B',
+                'A A'
+            ],
+            key: {
+                A: '#ad_astra:steel_ingots',
+                B: '#minecraft:wool'
+            },
+            output: 'ad_astra:space_pants'
+        },
+        {
+            pattern: [
+                'B B',
+                'A A'
+            ],
+            key: {
+                A: '#ad_astra:steel_ingots',
+                B: '#minecraft:wool'
+            },
+            output: 'ad_astra:space_boots'
+        },
 
         // Create New Age stuff
 
