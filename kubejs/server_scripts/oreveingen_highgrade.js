@@ -178,7 +178,7 @@ ServerEvents.recipes(e => {
         },
         {
             resource: 'createoreexcavation:raw_emerald',
-            name: '{"text": "Highgrade Raw Diamond"}',
+            name: '{"text": "Highgrade Raw Emerald"}',
             id: 'createoreexcavation:ore_vein_type/hi_emerald_ov',
             salt: 831002,
             biomes: 'minecraft:is_overworld'
