@@ -1550,11 +1550,11 @@ hash = "36bff593fcdc3fd83b4ef5e916f65248a3b00f5befa8d77837be4373e91d82af"
 
 [[files]]
 file = "kubejs/server_scripts/excavation_highgrade.js"
-hash = "1881e42f5d30a6d9d1895fb071c5e329c37a87b37add89c55c0885f2ca0809dd"
+hash = "fb678ef5402a2cb1c0d2733528ab2c15fbc3c34dbfb68edc91f41374c4abdb1d"
 
 [[files]]
 file = "kubejs/server_scripts/excavation_lowgrade.js"
-hash = "338221ad5dfa955099a736f055fb56a4229d6487c762e25325913914a59fdf69"
+hash = "74cf3a76d4f101143e3fc7588357523a3129a12cd74347163360aa36e6ec14c0"
 
 [[files]]
 file = "kubejs/server_scripts/excavation_midgrade.js"

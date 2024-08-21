@@ -63,14 +63,14 @@ ServerEvents.recipes(e => {
             nethid: 'createoreexcavation:hi_gold_ov/netherite'
         },
         {
-            out: 'create_ore_excavation:raw_diamond',
+            out: 'createoreexcavation:raw_diamond',
             vein: 'createoreexcavation:ore_vein_type/hi_diamond_ov',
             ironid: 'createoreexcavation:hi_diamond_ov/iron',
             diamid: 'createoreexcavation:hi_diamond_ov/diamond',
             nethid: 'createoreexcavation:hi_diamond_ov/netherite'
         },
         {
-            out: 'create_ore_excavation:raw_emerald',
+            out: 'createoreexcavation:raw_emerald',
             vein: 'createoreexcavation:ore_vein_type/hi_emerald_ov',
             ironid: 'createoreexcavation:hi_emerald_ov/iron',
             diamid: 'createoreexcavation:hi_emerald_ov/diamond',
