@@ -157,9 +157,9 @@ ServerEvents.recipes(e => {
         },
 
     ].forEach((drill) => {
-        e.recipes.createoreexcavation.drilling(drill.out, drill.vein, 80).drill('createoreexcavation:drill').id(drill.ironid)
-        e.recipes.createoreexcavation.drilling(drill.out, drill.vein, 48).drill('createoreexcavation:diamond_drill').id(drill.diamid)
-        e.recipes.createoreexcavation.drilling(drill.out, drill.vein, 16).drill('createoreexcavation:netherite_drill').id(drill.nethid)
+        e.recipes.createoreexcavation.drilling(drill.out, drill.vein, 240).drill('createoreexcavation:drill').id(drill.ironid)
+        e.recipes.createoreexcavation.drilling(drill.out, drill.vein, 144).drill('createoreexcavation:diamond_drill').id(drill.diamid)
+        e.recipes.createoreexcavation.drilling(drill.out, drill.vein, 48).drill('createoreexcavation:netherite_drill').id(drill.nethid)
     });
 
     /// FLUIDS ///
@@ -197,8 +197,8 @@ ServerEvents.recipes(e => {
             nethid: 'createoreexcavation:hi_water_ma/netherite'
         },
     ].forEach((pump) => {
-        e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 80).drill('createoreexcavation:drill').id(pump.ironid)
-        e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 48).drill('createoreexcavation:diamond_drill').id(pump.diamid)
-        e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 16).drill('createoreexcavation:netherite_drill').id(pump.nethid)
+        e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 240).drill('createoreexcavation:drill').id(pump.ironid)
+        e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 144).drill('createoreexcavation:diamond_drill').id(pump.diamid)
+        e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 48).drill('createoreexcavation:netherite_drill').id(pump.nethid)
     })
 })
