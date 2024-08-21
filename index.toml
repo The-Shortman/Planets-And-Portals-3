@@ -1578,7 +1578,7 @@ hash = "ccee95ef3f3b0f7a744b8e0ff16c0547b5b0b66597e4a4c9a3fc7548748fd816"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "3b1d9c69ecdbbad3d2d9756b20c7656b600570111d3be557b414e11b2a1b2892"
+hash = "8006035cf14dd07726b2cc4b34286c2b8452bdc6eccefdefbf5eddd94ce4bcb2"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"

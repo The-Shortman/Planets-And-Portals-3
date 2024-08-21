@@ -190,6 +190,10 @@ ServerEvents.recipes(e => {
 		// Tom's Simple Storage
 		{mod: 'toms_storage'},
 
+		// Grapple Mod
+		{output: 'grapplemod:repeller'},
+		{output: 'grapplemod:forcefieldupgraddeitem'},
+
 	].forEach((recipe => {
 		e.remove(recipe)
 	}))
