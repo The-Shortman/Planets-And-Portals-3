@@ -61,7 +61,7 @@ ServerEvents.recipes(e => {
 		{id: 'createoreexcavation:ore_vein_type/diamond'},
 		{id: 'createoreexcavation:ore_vein_type/hardened_diamond'},
 		{mod: 'createoreexcavation', output: 'createoreexcavation:raw_diamond'},
-		{mod: 'createoreexcavation', output: 'minecraft:diamond'},
+		{mod: 'createoreexcavation', output: 'minecraft:diamond', not: {input: 'createoreexcavation:raw_diamond'}},
 		{id: 'createoreexcavation:ore_vein_type/gold'},
 		{mod: 'createoreexcavation', output: 'minecraft:raw_gold'},
 		{id: 'createoreexcavation:ore_vein_type/copper'},
