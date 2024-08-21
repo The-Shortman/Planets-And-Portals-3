@@ -1550,15 +1550,15 @@ hash = "36bff593fcdc3fd83b4ef5e916f65248a3b00f5befa8d77837be4373e91d82af"
 
 [[files]]
 file = "kubejs/server_scripts/excavation_highgrade.js"
-hash = "81687756fda895ce78a8c7cd052521ef07b5eabb8c88507f4db38538948b8641"
+hash = "805082d56aeedde8be24be16a64c16ad4530a34717cdb7bba9b8d4c49b78fbda"
 
 [[files]]
 file = "kubejs/server_scripts/excavation_lowgrade.js"
-hash = "2ff1dc0604e14688d4d011742e786a873d0a99e1059121c49cdc1f5aa165bc8a"
+hash = "29f5989e1d87d6c7e12719f2d4a29042c06b6de233075c649824393b61efb713"
 
 [[files]]
 file = "kubejs/server_scripts/excavation_midgrade.js"
-hash = "a9721da7bf9307f92895413aca14bd5e112446537f46a6a3023376227a6118cd"
+hash = "0f0fba58c4356ae55911acc1c17faf1bd89cb5effaae2bd7285e7d9b74ae3da0"
 
 [[files]]
 file = "kubejs/server_scripts/oreveingen_highgrade.js"

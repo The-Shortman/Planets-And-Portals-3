@@ -69,6 +69,13 @@ ServerEvents.recipes(e => {
             diamid: 'createoreexcavation:hi_diamond_ov/diamond',
             nethid: 'createoreexcavation:hi_diamond_ov/netherite'
         },
+        {
+            out: 'create_ore_excavation:raw_emerald',
+            vein: 'createoreexcavation:ore_vein_type/hi_emerald_ov',
+            ironid: 'createoreexcavation:hi_emerald_ov/iron',
+            diamid: 'createoreexcavation:hi_emerald_ov/diamond',
+            nethid: 'createoreexcavation:hi_emerald_ov/netherite'
+        },
 
         // Nether
 
