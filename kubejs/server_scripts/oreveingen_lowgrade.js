@@ -137,7 +137,7 @@ ServerEvents.recipes(e => {
         {
             resource: 'ad_astra:cheese',
             name: '{"text": "Lowgrade Cheese"}',
-            id: 'createoreexcavation:ore_vein_type/lo_cheese_ne',
+            id: 'createoreexcavation:ore_vein_type/lo_cheese_mo',
             salt: 723001,
             biomes: 'planetsandportals:is_moon'
         },

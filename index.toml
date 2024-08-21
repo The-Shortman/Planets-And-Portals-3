@@ -1562,15 +1562,15 @@ hash = "0f0fba58c4356ae55911acc1c17faf1bd89cb5effaae2bd7285e7d9b74ae3da0"
 
 [[files]]
 file = "kubejs/server_scripts/oreveingen_highgrade.js"
-hash = "b5afc5955ce4278bcaf6a2ae2142d4a55f03f0f41c44883994ef62032f6c1de3"
+hash = "bfd427f1e50cc35f40c7e9c1ca67fb4db0fd106161952e2654d0a4a6c9c076f2"
 
 [[files]]
 file = "kubejs/server_scripts/oreveingen_lowgrade.js"
-hash = "86525beb5c685cb128213feb20090793d7651a425bb06027264d0405f2160561"
+hash = "671179ed57fe23fc7b05722a0cdb25678016206346d4d0239c6b906bb29726d3"
 
 [[files]]
 file = "kubejs/server_scripts/oreveingen_midgrade.js"
-hash = "fda4308c311a12a207c974b269ceb95bece0f3a63bdf5db7af53fd43d4de33f5"
+hash = "e7ef80808239d6558f1db7a0477355ed3d7dce78a11f3c146cbc0ce99c2bb485"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"
