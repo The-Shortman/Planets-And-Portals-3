@@ -126,7 +126,7 @@ function shapedRecipes(e) {
             ],
             key: {
                 A: '#ad_astra:steel_ingots',
-                B: 'as_astra:steel_rod'
+                B: 'ad_astra:steel_rod'
             },
             output: 'ad_astra:oxygen_gear'
         },
