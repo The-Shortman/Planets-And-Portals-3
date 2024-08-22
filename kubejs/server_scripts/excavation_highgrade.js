@@ -201,4 +201,21 @@ ServerEvents.recipes(e => {
         e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 144).drill('createoreexcavation:diamond_drill').id(pump.diamid)
         e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 48).drill('createoreexcavation:netherite_drill').id(pump.nethid)
     })
+
+    /// Special ore veins ///
+
+    [
+        { // Etrium nugget (Moon, Rare)
+            out: 'ad_astra:etrium_nugget',
+            vein:'createoreexcavation:ore_vein_type/sp_etrium_mo',
+            baseTime: 12000, // Base time of 10 mins with iron drill at 32 RPM
+            ironid: 'createoreexcavation:sp_etrium_mo/iron',
+            diamid: 'createoreexcavation:sp_etrium_mo/diamond',
+            nethid: 'createoreexcavation:sp_etrium_mo/netherite'
+        }
+    ].forEach((special) => {
+        e.recipes.createoreexcavation.drilling(special.out, special.vein, special.baseTime).drill('createoreexcavation:drill').id(special.ironid)
+        e.recipes.createoreexcavation.drilling(special.out, special.vein, special.baseTime/(5/3)).drill('createoreexcavation:diamond_drill').id(special.diamid)
+        e.recipes.createoreexcavation.drilling(special.out, special.vein, special.baseTime/5).drill('createoreexcavation:netherite_drill').id(special.nethid)
+    })
 })

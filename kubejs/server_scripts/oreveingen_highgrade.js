@@ -217,4 +217,12 @@ ServerEvents.recipes(e => {
     ].forEach((vein) => {
         e.recipes.createoreexcavation.vein(vein.name, vein.resource).placement(240, 225, vein.salt).biomeWhitelist(vein.biomes).id(vein.id)
     })
+
+    /// Special veins ///
+    e.recipes.createoreexcavation // Etrium nugget vein (Moon, Rare)
+        .vein('{"text: "High Underground Energy Density"}', 'ad_astra:etrium_nugget')
+        .placement(135, 105, 86558483) // Not in clusters like the others
+        .biomeWhitelist('planetsandportals:is_moon')
+        .id('createoreexcavation:ore_vein_type/sp_etrium_mo')
+
 })
