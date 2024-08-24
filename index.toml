@@ -1546,7 +1546,7 @@ hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "36bff593fcdc3fd83b4ef5e916f65248a3b00f5befa8d77837be4373e91d82af"
+hash = "5ffe0c2abc946de0a3777e0e67550110f777000f0babc4ee2aa545842ac5594d"
 
 [[files]]
 file = "kubejs/server_scripts/excavation_highgrade.js"
@@ -1578,11 +1578,11 @@ hash = "ccee95ef3f3b0f7a744b8e0ff16c0547b5b0b66597e4a4c9a3fc7548748fd816"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "959e943b5be8c3df2ffbb775119d2158e68917f3f51dfb432de597de25120dcd"
+hash = "c0b466a2224d35cab5606a5a5d3b31511dc4133291473faf8a5393f5f84140fc"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "a39fd7704d4da1772d8528a91fd1a3566fb27478344165b8f8967527b4b2c7a1"
+hash = "dab3425af516a9eed79a665067f35ce8de2c98fae9a5176f71de6baf019c8ec2"
 
 [[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"

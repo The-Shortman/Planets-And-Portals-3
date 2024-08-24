@@ -10,6 +10,8 @@ ServerEvents.recipes(e => {
 		{output: 'create:tiled_glass'},
 
 		// Create: TFMG
+		{output: 'tfmg:steel_pipe'},
+		{output: 'tfmg:steel_distillation_output'},
 		{output: 'tfmg:coke_oven'},
 		{output: 'tfmg:heavy_plate'},
 		{output: 'tfmg:electric_casing'},

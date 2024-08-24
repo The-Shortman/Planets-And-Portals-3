@@ -41,7 +41,7 @@ ServerEvents.recipes(e => {
     e.recipes.create.sequenced_assembly([
         Item.of('tfmg:steel_mechanism'), // Output
     ], 'tfmg:heavy_plate', [ // Input
-        e.recipes.create.pressing(steelmech, steelmech),
+        e.recipes.create.cutting(steelmech, steelmech),
         e.recipes.create.deploying(steelmech, [steelmech, 'create:cogwheel']),
         e.recipes.create.deploying(steelmech, [steelmech, 'tfmg:screw']),
         e.recipes.create.deploying(steelmech, [steelmech, 'tfmg:screwdriver']).keepHeldItem()
@@ -317,6 +317,19 @@ function mechanicalCraftingRecipes(e) {
                 B: 'tfmg:cast_iron_ingot'
             },
             output: 'ad_astra:launch_pad'
+        },
+        {
+            pattern: [
+                'ABA',
+                'BCB',
+                'ABA'
+            ],
+            key: {
+                A: 'tfmg:steel_ingot',
+                B: 'tfmg:steel_pipe',
+                C: 'tfmg:steel_fluid_tank'
+            },
+            output: 'tfmg:steel_distillation_output'
         },
         {
             pattern: [
