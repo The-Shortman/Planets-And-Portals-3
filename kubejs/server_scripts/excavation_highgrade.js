@@ -200,7 +200,7 @@ ServerEvents.recipes(e => {
         e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 240).drill('createoreexcavation:drill').id(pump.ironid)
         e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 144).drill('createoreexcavation:diamond_drill').id(pump.diamid)
         e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 48).drill('createoreexcavation:netherite_drill').id(pump.nethid)
-    })
+    });
 
     /// Special ore veins ///
 
