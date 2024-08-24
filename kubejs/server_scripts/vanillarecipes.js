@@ -125,7 +125,7 @@ function shapedRecipes(e) {
             key: {
                 A: '#ad_astra:steel_ingots'
             },
-            output: 'tfmg:steel_pipe'
+            output: '6x tfmg:steel_pipe'
         },
         {
             pattern: [
