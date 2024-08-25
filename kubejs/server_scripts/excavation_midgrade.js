@@ -157,7 +157,6 @@ ServerEvents.recipes(e => {
         },
 
     ].forEach((drill) => {
-        e.recipes.createoreexcavation.drilling(drill.out, drill.vein, 360).drill('createoreexcavation:drill').id(drill.ironid)
         e.recipes.createoreexcavation.drilling(drill.out, drill.vein, 216).drill('createoreexcavation:diamond_drill').id(drill.diamid)
         e.recipes.createoreexcavation.drilling(drill.out, drill.vein, 72).drill('createoreexcavation:netherite_drill').id(drill.nethid)
     });
@@ -197,7 +196,6 @@ ServerEvents.recipes(e => {
             nethid: 'createoreexcavation:mi_water_ma/netherite'
         },
     ].forEach((pump) => {
-        e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 360).drill('createoreexcavation:drill').id(pump.ironid)
         e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 216).drill('createoreexcavation:diamond_drill').id(pump.diamid)
         e.recipes.createoreexcavation.extracting(pump.out, pump.vein, 72).drill('createoreexcavation:netherite_drill').id(pump.nethid)
     })
