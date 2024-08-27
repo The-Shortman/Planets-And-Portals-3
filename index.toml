@@ -1545,12 +1545,12 @@ file = "kubejs/server_scripts/README.txt"
 hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
 
 [[files]]
-file = "kubejs/server_scripts/createrecipes.js"
-hash = "5ffe0c2abc946de0a3777e0e67550110f777000f0babc4ee2aa545842ac5594d"
+file = "kubejs/server_scripts/createoreexcavation_recipes.js"
+hash = "328a3f99caee565ddcb88cee185939114350f885c595588f5b78228007b792e1"
 
 [[files]]
-file = "kubejs/server_scripts/new_oreveingen_test.js"
-hash = "328a3f99caee565ddcb88cee185939114350f885c595588f5b78228007b792e1"
+file = "kubejs/server_scripts/createrecipes.js"
+hash = "5ffe0c2abc946de0a3777e0e67550110f777000f0babc4ee2aa545842ac5594d"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"

@@ -11,7 +11,7 @@ ServerEvents.recipes(e => {
             losalt: 407720,
             misalt: 486194,
             hisalt: 533846,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -23,7 +23,7 @@ ServerEvents.recipes(e => {
             losalt: 209828,
             misalt: 724748,
             hisalt: 370228,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -35,7 +35,7 @@ ServerEvents.recipes(e => {
             losalt: 504545,
             misalt: 655133,
             hisalt: 750387,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -47,7 +47,7 @@ ServerEvents.recipes(e => {
             losalt: 230999,
             misalt: 304411,
             hisalt: 252036,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -58,7 +58,7 @@ ServerEvents.recipes(e => {
             biomes: 'minecraft:is_overworld',
             losalt: 481244,
             hisalt: 576278,
-            rarity: 'rare',
+            rarity: 1,
             baseTime: 600,
             type: 'item'
         },
@@ -70,7 +70,7 @@ ServerEvents.recipes(e => {
             biomes: 'minecraft:is_overworld',
             losalt: 437535,
             hisalt: 444854,
-            rarity: 'rare',
+            rarity: 1,
             baseTime: 600,
             type: 'fluid'
         },
@@ -81,7 +81,7 @@ ServerEvents.recipes(e => {
             biomes: 'minecraft:is_overworld',
             losalt: 552261,
             hisalt: 276506,
-            rarity: 'rare',
+            rarity: 1,
             baseTime: 600,
             type: 'item'
         },
@@ -92,7 +92,7 @@ ServerEvents.recipes(e => {
             biomes: 'minecraft:is_overworld',
             losalt: 379394,
             hisalt: 348505,
-            rarity: 'rare',
+            rarity: 1,
             baseTime: 600,
             type: 'item'
         },
@@ -103,7 +103,7 @@ ServerEvents.recipes(e => {
             biomes: 'minecraft:is_overworld',
             losalt: 269327,
             hisalt: 893052,
-            rarity: 'rare',
+            rarity: 1,
             baseTime: 600,
             type: 'item'
         },
@@ -113,7 +113,7 @@ ServerEvents.recipes(e => {
             name: 'Raw Diamond (Earth)',
             biomes: 'minecraft:is_overworld',
             salt: 676350,
-            rarity: 'unusual',
+            rarity: 2,
             baseTime: 600,
             type: 'item'
         },
@@ -123,7 +123,7 @@ ServerEvents.recipes(e => {
             name: 'Raw Emerald (Earth)',
             biomes: 'minecraft:is_overworld',
             salt: 850406,
-            rarity: 'unusual',
+            rarity: 2,
             baseTime: 600,
             type: 'item'
         },
@@ -135,7 +135,7 @@ ServerEvents.recipes(e => {
             losalt: 526412,
             misalt: 216785,
             hisalt: 630955,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -147,7 +147,7 @@ ServerEvents.recipes(e => {
             losalt: 378142,
             misalt: 408092,
             hisalt: 379763,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -157,7 +157,7 @@ ServerEvents.recipes(e => {
             name: 'Ancient Debris (Nether)',
             biomes: 'minecraft:is_nether',
             salt: 124718,
-            rarity: 'unusual',
+            rarity: 2,
             baseTime: 600,
             type: 'item'
         },
@@ -169,7 +169,7 @@ ServerEvents.recipes(e => {
             losalt: 465271,
             misalt: 818887,
             hisalt: 254828,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -181,7 +181,7 @@ ServerEvents.recipes(e => {
             losalt: 146084,
             misalt: 611237,
             hisalt: 945009,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -192,7 +192,7 @@ ServerEvents.recipes(e => {
             biomes: 'planetsandportals:is_moon',
             losalt: 847807,
             hisalt: 105175,
-            rarity: 'rare',
+            rarity: 1,
             baseTime: 600,
             type: 'item'
         },
@@ -203,7 +203,7 @@ ServerEvents.recipes(e => {
             biomes: 'planetsandportals:is_moon',
             losalt: 261284,
             hisalt: 140315,
-            rarity: 'rare',
+            rarity: 1,
             baseTime: 600,
             type: 'item'
         },
@@ -214,9 +214,20 @@ ServerEvents.recipes(e => {
             name: 'Magma Chamber (Moon)',
             biomes: 'planetsandportals:is_moon',
             salt: 914450,
-            rarity: 'unusual',
+            rarity: 2,
             baseTime: 600,
             type: 'fluid'
+        },
+        { // MOON IRON
+            id: 'iron_mo',
+            resource: 'minecraft:raw_iron',
+            name: 'Raw Iron (Moon)',
+            biomes: 'planetsandportals:is_moon',
+            losalt: 261284,
+            hisalt: 140315,
+            rarity: 2,
+            baseTime: 600,
+            type: 'item'
         },
         { // MARS LEAD
             id: 'lead_ma',
@@ -226,7 +237,7 @@ ServerEvents.recipes(e => {
             losalt: 194580,
             misalt: 953183,
             hisalt: 798537,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -238,7 +249,7 @@ ServerEvents.recipes(e => {
             losalt: 918093,
             misalt: 758988,
             hisalt: 231409,
-            rarity: 'common',
+            rarity: 0,
             baseTime: 600,
             type: 'item'
         },
@@ -249,7 +260,7 @@ ServerEvents.recipes(e => {
             biomes: 'planetsandportals:is_mars',
             losalt: 583576,
             hisalt: 981308,
-            rarity: 'rare',
+            rarity: 1,
             baseTime: 600,
             type: 'item'
         },
@@ -260,13 +271,13 @@ ServerEvents.recipes(e => {
             name: 'Water Aquifer (Mars)',
             biomes: 'planetsandportals:is_mars',
             salt: 295362,
-            rarity: 'unusual',
+            rarity: 2,
             baseTime: 600,
             type: 'fluid'
         },
 
     ].forEach((vein) => {
-        if (vein.rarity == 'common') {
+        if (vein.rarity == 0) {
 
             //LOWGRADE//
             e.recipes.createoreexcavation.vein(`Lowgrade ${vein.name}`, vein.resource)
@@ -337,7 +348,7 @@ ServerEvents.recipes(e => {
                     .id(`createoreexcavation:hi_${vein.id}/netherite`)
             }
 
-        } else if (vein.rarity == 'rare') {
+        } else if (vein.rarity == 1) {
 
             //LOWGRADE//
             e.recipes.createoreexcavation.vein(`Lowgrade ${vein.name}`, vein.resource)
@@ -379,7 +390,7 @@ ServerEvents.recipes(e => {
                     .id(`createoreexcavation:hi_${vein.id}/netherite`)
             }
 
-        } else if (vein.rarity == 'unusual') {
+        } else if (vein.rarity == 2) {
 
             //NOGRADE//
             e.recipes.createoreexcavation.vein(vein.name, vein.resource)
