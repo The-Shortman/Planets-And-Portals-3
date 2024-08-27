@@ -1,6 +1,6 @@
 // This script took way too many braincells from me what the hell was I thinking 'oh yeah lets make it easier to add more veins in the future' WRONG!!!!
 
-ServerEvent.recipes(e => {
+ServerEvents.recipes(e => {
 
     [
         { // OVERWORLD IRON
@@ -158,6 +158,7 @@ ServerEvent.recipes(e => {
             biomes: 'minecraft:is_nether',
             salt: 124718,
             rarity: 'unusual',
+            baseTime: 600,
             type: 'item'
         },
         { // MOON OSMIUM
@@ -181,6 +182,7 @@ ServerEvent.recipes(e => {
             misalt: 611237,
             hisalt: 945009,
             rarity: 'common',
+            baseTime: 600,
             type: 'item'
         },
         { // MOON CHEESE
@@ -269,19 +271,19 @@ ServerEvent.recipes(e => {
             //LOWGRADE//
             e.recipes.createoreexcavation.vein(`Lowgrade ${vein.name}`, vein.resource)
                 .placement(30, 15, vein.losalt)
-                .biomewhitelist(vein.biomes)
+                .biomeWhitelist(vein.biomes)
                 .id(`createoreexcavation:ore_vein_type/lo_${vein.id}`)
 
             //MIDGRADE//
             e.recipes.createoreexcavation.vein(`Midgrade ${vein.name}`, vein.resource)
                 .placement(45, 30, vein.misalt)
-                .biomewhitelist(vein.biomes)
+                .biomeWhitelist(vein.biomes)
                 .id(`createoreexcavation:ore_vein_type/mi_${vein.id}`)
 
             //HIGHGRADE//
             e.recipes.createoreexcavation.vein(`Highgrade ${vein.name}`, vein.resource)
                 .placement(60, 45, vein.hisalt)
-                .biomewhitelist(vein.biomes)
+                .biomeWhitelist(vein.biomes)
                 .id(`createoreexcavation:ore_vein_type/hi_${vein.id}`)
             
             if (vein.type == 'item') {
@@ -335,18 +337,18 @@ ServerEvent.recipes(e => {
                     .id(`createoreexcavation:hi_${vein.id}/netherite`)
             }
 
-        } else if (item.rarity == 'rare') {
+        } else if (vein.rarity == 'rare') {
 
             //LOWGRADE//
             e.recipes.createoreexcavation.vein(`Lowgrade ${vein.name}`, vein.resource)
                 .placement(75, 45, vein.losalt) // Old lowgrade distribution
-                .biomewhitelist(vein.biomes)
+                .biomeWhitelist(vein.biomes)
                 .id(`createoreexcavation:ore_vein_type/lo_${vein.id}`)
 
             //HIGHGRADE//
             e.recipes.createoreexcavation.vein(`Highgrade ${vein.name}`, vein.resource)
                 .placement(105, 75, vein.hisalt) // Old midgrade distribution
-                .biomewhitelist(vein.biomes)
+                .biomeWhitelist(vein.biomes)
                 .id(`createoreexcavation:ore_vein_type/hi_${vein.id}`)
             
             if (vein.type == 'item') {
@@ -377,12 +379,12 @@ ServerEvent.recipes(e => {
                     .id(`createoreexcavation:hi_${vein.id}/netherite`)
             }
 
-        } else if (item.rarity == 'unusual') {
+        } else if (vein.rarity == 'unusual') {
 
             //NOGRADE//
             e.recipes.createoreexcavation.vein(vein.name, vein.resource)
                 .placement(135, 110, vein.salt) // Old midgrade distribution
-                .biomewhitelist(vein.biomes)
+                .biomeWhitelist(vein.biomes)
                 .id(`createoreexcavation:ore_vein_type/${vein.id}`)
             
             if (vein.type == 'item') {

@@ -1549,28 +1549,8 @@ file = "kubejs/server_scripts/createrecipes.js"
 hash = "5ffe0c2abc946de0a3777e0e67550110f777000f0babc4ee2aa545842ac5594d"
 
 [[files]]
-file = "kubejs/server_scripts/excavation_highgrade.js"
-hash = "9715dfbc03d7caae2053b0abbf6a4a68257dd65853ad361c7c9d3dbcf31781ce"
-
-[[files]]
-file = "kubejs/server_scripts/excavation_lowgrade.js"
-hash = "cd608c95bb973316e78381c528cc826384a0325a8e21e2a75249e8e93275571f"
-
-[[files]]
-file = "kubejs/server_scripts/excavation_midgrade.js"
-hash = "b72764f8977c0fe6fd42e25f408f8ed465b4c7782ade13e214a138b506817cdf"
-
-[[files]]
-file = "kubejs/server_scripts/oreveingen_highgrade.js"
-hash = "d11faeab32c2882c243f2b5df1f9c6c7526dcbede2a87ace651ca6481c4f4fb9"
-
-[[files]]
-file = "kubejs/server_scripts/oreveingen_lowgrade.js"
-hash = "671179ed57fe23fc7b05722a0cdb25678016206346d4d0239c6b906bb29726d3"
-
-[[files]]
-file = "kubejs/server_scripts/oreveingen_midgrade.js"
-hash = "e7ef80808239d6558f1db7a0477355ed3d7dce78a11f3c146cbc0ce99c2bb485"
+file = "kubejs/server_scripts/new_oreveingen_test.js"
+hash = "328a3f99caee565ddcb88cee185939114350f885c595588f5b78228007b792e1"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"
