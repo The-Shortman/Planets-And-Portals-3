@@ -232,7 +232,7 @@ ServerEvents.recipes(e => {
         { // MOON IRON
             id: 'etrium_mo',
             resource: 'ad_astra:etrium_nugget',
-            name: ' (Moon)',
+            name: 'High Unknown Energy Density (Moon)',
             biomes: 'planetsandportals:is_moon',
             salt: 549806,
             rarity: 3,

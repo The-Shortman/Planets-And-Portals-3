@@ -1546,7 +1546,7 @@ hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
 
 [[files]]
 file = "kubejs/server_scripts/createoreexcavation_recipes.js"
-hash = "744e43fee67de360bc87be7b2f906f2079323ba0f886bdd92eb5198cfa98ee80"
+hash = "806bf720fa1bf608e0bc4cf7454447935ec092f19acd44e2ed16fd9ee4280ec4"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
