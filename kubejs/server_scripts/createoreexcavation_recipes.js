@@ -229,6 +229,16 @@ ServerEvents.recipes(e => {
             baseTime: 600,
             type: 'item'
         },
+        { // MOON IRON
+            id: 'etrium_mo',
+            resource: 'ad_astra:etrium_nugget',
+            name: ' (Moon)',
+            biomes: 'planetsandportals:is_moon',
+            salt: 549806,
+            rarity: 3,
+            baseTime: 2400,
+            type: 'item'
+        },
         { // MARS LEAD
             id: 'lead_ma',
             resource: 'mekanism:raw_lead',
@@ -407,6 +417,33 @@ ServerEvents.recipes(e => {
             } else if (vein.type == 'fluid') {
                 //NOGRADE//
                 e.recipes.createoreexcavation.extracting(vein.fluidoutput, `createoreexcavation:ore_vein_type/${vein.id}`, vein.baseTime)
+                    .drill('createoreexcavation:netherite_drill')
+                    .id(`createoreexcavation:${vein.id}/netherite`)
+            }
+            
+        } else if (vein.rarity == 3) {
+
+            //NOGRADE//
+            e.recipes.createoreexcavation.vein(vein.name, vein.resource)
+                .placement(135, 110, vein.salt) // Old midgrade distribution
+                .biomeWhitelist(vein.biomes)
+                .id(`createoreexcavation:ore_vein_type/${vein.id}`)
+            
+            if (vein.type == 'item') {
+                //NOGRADE//
+                e.recipes.createoreexcavation.drilling(vein.resource, `createoreexcavation:ore_vein_type/lo_${vein.id}`, vein.baseTime)
+                    .drill('createoreexcavation:diamond_drill')
+                    .id(`createoreexcavation:lo_${vein.id}/diamond`)
+                e.recipes.createoreexcavation.drilling(vein.resource, `createoreexcavation:ore_vein_type/lo_${vein.id}`, vein.baseTime/(5/3))
+                    .drill('createoreexcavation:netherite_drill')
+                    .id(`createoreexcavation:lo_${vein.id}/netherite`)
+        
+            } else if (vein.type == 'fluid') {
+                //NOGRADE//
+                e.recipes.createoreexcavation.extracting(vein.fluidoutput, `createoreexcavation:ore_vein_type/${vein.id}`, vein.baseTime)
+                    .drill('createoreexcavation:diamond_drill')
+                    .id(`createoreexcavation:${vein.id}/diamond`)
+                e.recipes.createoreexcavation.extracting(vein.fluidoutput, `createoreexcavation:ore_vein_type/${vein.id}`, vein.baseTime/(5/3))
                     .drill('createoreexcavation:netherite_drill')
                     .id(`createoreexcavation:${vein.id}/netherite`)
             }
