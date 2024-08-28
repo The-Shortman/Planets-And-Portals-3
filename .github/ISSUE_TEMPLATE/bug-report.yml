@@ -39,7 +39,7 @@ body:
       attributes:
           label: Version
           description: What version of the modpack are you on?
-          placeholder: Pre-release v006
+          placeholder: v0.6.0-alpha
       validations:
           required: true
 
