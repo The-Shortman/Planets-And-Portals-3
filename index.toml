@@ -574,11 +574,11 @@ hash = "b19f0e9296ce39fd82d625531ebd2b73c06f82875b01036f53c4432be7094cd9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "21184ff78f5e397a832accae05d851a08ded10486022854bdfca067d69fb5b50"
+hash = "0de7da36b6658e29411d74ae267eee5e2a25ebfba9b9663061235501eafed7f9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_growing_the_factory.snbt"
-hash = "cef85efa7ed6a08be853d2b7dc4b9bcc29eddaab834de3045862789d6c0909ca"
+hash = "92a46eab9d2b1b0da9e019543596c4a000235d78870cc63241e7ccf6124190ed"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_new_age.snbt"
@@ -590,11 +590,11 @@ hash = "01275c1e0587851824d8c9b9bb1d4e43464deba77fafec8c1f2f99f4c78628e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_ore_ecavation.snbt"
-hash = "fd826a77ca9a7223fd9141e7d5186dc6ed39b5ab0bc3a544f270070f3bcbb2d9"
+hash = "85f751a11808f66a5c9a0a7f489053f88c8cc7f6d746fc200ff4d3f9ba68e2bc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/credits.snbt"
-hash = "79b285a40521fc4c84417b2e21e56a32f15757dbd53436906e408a403e96d2bc"
+hash = "b97ecc5783d03e6aa0522f692501fec6ec74b34b865192c498fe126956b33997"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/going_interplanetary.snbt"
@@ -622,7 +622,7 @@ hash = "9a9924b9fd3d6d4a48048bc47c53feab60bdc040886ad9ede85ee067ba9a2c62"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "c531bccc0f167e9d743328e5ea9c25394a1949930e443e1fdfd53724523b2fa0"
+hash = "b3a23d2ba851ab66f829342a2ca65e2c3a7bef14bfec79e6e24458b71467876e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
@@ -1546,11 +1546,11 @@ hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
 
 [[files]]
 file = "kubejs/server_scripts/createoreexcavation_recipes.js"
-hash = "806bf720fa1bf608e0bc4cf7454447935ec092f19acd44e2ed16fd9ee4280ec4"
+hash = "c5cd6b6bd8e104dc25bc01a939e6d80e7b19e3b14526606a7a1a3053e9505287"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "5ffe0c2abc946de0a3777e0e67550110f777000f0babc4ee2aa545842ac5594d"
+hash = "ed4fbf273bfce380bdb815ac39a3581cbb2d155d955dc31e0c1e787d2aa4c479"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"
@@ -1558,7 +1558,7 @@ hash = "ccee95ef3f3b0f7a744b8e0ff16c0547b5b0b66597e4a4c9a3fc7548748fd816"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "c0b466a2224d35cab5606a5a5d3b31511dc4133291473faf8a5393f5f84140fc"
+hash = "da03c86969eaeef8e79e4a9dc236ce0dbd342fe378bd8f20de61e9451a788a59"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"

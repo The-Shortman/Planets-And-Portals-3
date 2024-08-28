@@ -1,21 +1,31 @@
 {
-	autofocus_id: "67E8273831E8B9D2"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "start"
 	group: ""
 	icon: "create:content_observer"
 	id: "7C289CC7B7FC0A63"
-	images: [{
-		click: "https://github.com/The-Shortman/Planets-And-Portals-3/issues"
-		height: 1.0d
-		hover: ["Click to access the github issue tracker!"]
-		image: "ftblibrary:icons/bug"
-		rotation: 0.0d
-		width: 1.0d
-		x: 0.0d
-		y: 5.5d
-	}]
+	images: [
+		{
+			click: "https://github.com/The-Shortman/Planets-And-Portals-3/issues"
+			height: 1.0d
+			hover: ["Click to access the GitHub issue tracker!"]
+			image: "ftblibrary:icons/bug"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.01d
+			y: 5.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 1.25d
+			x: 0.0d
+			y: 5.5d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
 	quests: [
@@ -26,7 +36,7 @@
 				""
 				"Planets and Portals (the first modpack) was a very basic collection of a couple of Forge 1.12.2 mods that I liked, and was by no means an enjoyable experience, at least in my opinion. I threw it together for a couple of friends and I back in 2021 and it has since reached almost 10 thousand downloads, and I have no idea why! You can still find it on curseforge!"
 				""
-				"Considering the success of the first modpack I eventually decided to improve upon it in a more recent version of Minecraft, so I landed on Fabric 1.18.2, and I started development on Planets and Portals 2 in May 2023. I actually got pretty invested in it, but a lot of limitations that comes with a lack of mods that I really liked not being on Fabric 1.18.2, eventually caused me to suffer from burnout after a couple of weeks."
+				"Considering the success of the first modpack I eventually decided to improve upon it in a more recent version of Minecraft, so I landed on Fabric 1.18.2, and I started development on Planets and Portals 2 in May 2024. I actually got pretty invested in it, but a lot of limitations that comes with a lack of mods that I really liked not being on Fabric 1.18.2, eventually caused me to suffer from burnout after a couple of weeks."
 				""
 				"However, I finally cut my losses and abandoned Planets and Portals 2, opting to go for Forge 1.20.1 instead, which has a much wider selection of more updated mods, and I just couldn't resist it. It did mean having to completely change how the modpack is played, and losing over 2000 lines of KubeJS code that I had worked for tens of hours on, but I thought it would be worth it. So here we are, Planets and Portals 3!"
 				""
@@ -39,7 +49,7 @@
 				item: "minecraft:cookie"
 				type: "item"
 			}]
-			subtitle: "Wait- what happened to 1 and 2?"
+			subtitle: "Wait- what happened to Planets and Portals 1 and 2?"
 			tasks: [{
 				id: "1436B2A982978842"
 				title: "History Lesson"
@@ -101,9 +111,11 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"Bugs and suggestions can be made on the Github repository, the link is on the image below this quest."
+				"Bugs and suggestions can be made on the Github repository, the link is on the beetle decal below this quest."
 				""
 				"You can even open a pull request if you've implemented your own idea or bug fix! Get your name in the credits!"
+				""
+				"When contributing please make sure to read the LICENSE.md file on the repository before submitting pull requests."
 			]
 			icon: "advancedperipherals:computer_tool"
 			id: "5035B04C3A0052E8"
@@ -183,7 +195,7 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"As you progress through the modpack, you'll be rewarded with a form of currency. This currency can only be generated inside the quests, and repeatable quests for money are tedious and require manual labour. This is to avoid hyperinflation."
+				"As you progress through the modpack, you'll be rewarded with a form of currency. This currency can only be generated inside the quests, and repeatable quests for money are tedious and require manual labour. This is to (hopefully!) avoid hyperinflation."
 				""
 				"Yes, hyperinflation. Create: Numismatics allows a player-based economy with banking, trading, vending, depositing, and more! Check out the dedicated chapter!"
 			]
@@ -205,7 +217,7 @@
 		}
 		{
 			dependencies: ["67E8273831E8B9D2"]
-			description: ["Currently the only celestial bodies available are Earth and the Moon. This will change over time, ideally including ALL Ad Astra planets by the time of the full pack release."]
+			description: ["Currently the only celestial bodies available are Earth, the Moon, and Mars. This will change over time, ideally including ALL Ad Astra planets by the time of the full pack release."]
 			icon: "supplementaries:globe"
 			id: "6AF6A17A5E8F0C11"
 			rewards: [{

@@ -266,7 +266,11 @@ function hauntingRecipes(e) {
         {
             input: 'minecraft:charcoal',
             output: 'minecraft:coal'
-        }
+        },
+        {
+            input: 'minecraft:blackstone',
+            output: 'minecraft:netherrack'
+        },
     ].forEach((recipe) => {
         e.recipes.create.haunting(recipe.output, recipe.input)
     })
@@ -330,6 +334,21 @@ function mechanicalCraftingRecipes(e) {
                 C: 'tfmg:steel_fluid_tank'
             },
             output: 'tfmg:steel_distillation_output'
+        },
+        {
+            pattern: [
+                ' AB',
+                'CDA',
+                'EC'
+            ],
+            key: {
+                A: 'mekanism:ingot_osmium',
+                B: 'mekanism:block_osmium',
+                C: 'mekanism:dust_diamond',
+                D: 'createoreexcavation:drill',
+                E: 'create_new_age:overcharged_diamond'
+            },
+            output: 'createoreexcavation:diamond_drill'
         },
         {
             pattern: [

@@ -218,18 +218,7 @@ ServerEvents.recipes(e => {
             baseTime: 600,
             type: 'fluid'
         },
-        { // MOON IRON
-            id: 'iron_mo',
-            resource: 'minecraft:raw_iron',
-            name: 'Raw Iron (Moon)',
-            biomes: 'planetsandportals:is_moon',
-            losalt: 261284,
-            hisalt: 140315,
-            rarity: 2,
-            baseTime: 600,
-            type: 'item'
-        },
-        { // MOON IRON
+        { // MOON ETRIUM
             id: 'etrium_mo',
             resource: 'ad_astra:etrium_nugget',
             name: 'High Unknown Energy Density (Moon)',

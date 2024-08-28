@@ -43,7 +43,8 @@ ServerEvents.recipes(e => {
 
 		// Create Ore Excavation
 		{output: 'createoreexcavation:vein_finder'},
-
+		{output: 'createoreexcavation:diamond_drill'},
+		{output: 'createoreexcavation:netherite_drill'},
 		{id: 'createoreexcavation:ore_vein_type/water'},
 		{mod: 'createoreexcavation', output: Fluid.of('minecraft:water')},
 		{id: 'createoreexcavation:ore_vein_type/nether_gold'},
