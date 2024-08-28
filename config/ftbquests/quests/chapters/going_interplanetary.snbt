@@ -18,7 +18,7 @@
 		x: -1.0d
 		y: 3.0d
 	}]
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -80,6 +80,9 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["69BE15215F40C3DF"]
+			hide: true
+			hide_dependency_lines: true
 			icon: "ad_astra:launch_pad"
 			id: "2CBB5F45A6C3C0E4"
 			subtitle: "There's no way to get back from Mars if you forget them!"
@@ -118,7 +121,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["1BF2D32FFAD61140"]
+			dependencies: ["69BE15215F40C3DF"]
 			id: "362A787CA60EEE66"
 			rewards: [{
 				count: 2
@@ -136,7 +139,7 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["1BF2D32FFAD61140"]
+			dependencies: ["69BE15215F40C3DF"]
 			description: ["It would be so sad if someone were to change its recipe so that it's way harder to get large quantities of it for my builds."]
 			id: "61E506DB629C945A"
 			rewards: [{
@@ -156,7 +159,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["16AF7FF386FFACA7"]
+			dependencies: ["69BE15215F40C3DF"]
 			id: "7B29884732658FA4"
 			rewards: [{
 				count: 2
@@ -175,7 +178,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1003ED32BAD36DF2"]
+			dependencies: ["69BE15215F40C3DF"]
 			id: "0829ABE623BB1432"
 			rewards: [{
 				count: 2

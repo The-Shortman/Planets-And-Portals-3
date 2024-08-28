@@ -10,7 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0A9445567E4ED5DA"]
+			dependencies: ["744FDD3F40EC4A3D"]
 			description: [
 				"Welcome to your new &cdesolate, barren wasteland&r, save from &ca few natives&r scattered across the surface."
 				""
@@ -18,6 +18,7 @@
 				""
 				"So go forth! The moon is a &bprisitine world&r, as of now untouched by the recklessness of interplanetary civilisations... &o&8or is it...?"
 			]
+			hide: true
 			icon: "ad_astra:moon_globe"
 			id: "75A8BA081E0C763E"
 			rewards: [
@@ -322,10 +323,7 @@
 			y: 6.5d
 		}
 		{
-			dependencies: [
-				"75A8BA081E0C763E"
-				"602915031BB8E671"
-			]
+			dependencies: ["75A8BA081E0C763E"]
 			description: [
 				"Osmium needs you to &6drill deeper&r in order to unearth it."
 				""

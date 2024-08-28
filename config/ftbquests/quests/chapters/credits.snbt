@@ -10,10 +10,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["3BE8F73A60641538"]
 			description: [
 				"Everyone who has contributed to this modpack in any substantial way is listed here!"
 				""
 				"Huge thanks to the Create: Astral discord server for helping me out with all the issues I had while making Planets and Portals!"
+				""
+				"You will probably need more than an inventory to store all the stuff from these credits..."
 			]
 			icon: "create:clipboard"
 			id: "3BB359C6FE95C544"
@@ -221,7 +224,7 @@
 				item: "quark:hollow_birch_log"
 				type: "item"
 			}]
-			subtitle: "\"Help Shortman's holding me hostage\""
+			subtitle: "\"Help Shortman is holding me hostage\""
 			tasks: [{
 				id: "4E2DF33B187EAC0F"
 				title: "Yoperion"

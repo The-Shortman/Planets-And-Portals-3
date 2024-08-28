@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+    - name: Discord
+      url: https://discord.com/invite/QxQFrYfwkg
+      about: Join the discord if you have any questions about anything specific. Otherwise, if you found a bug or think something should be changed, select one of the issue templates to get started.

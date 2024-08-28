@@ -1,5 +1,4 @@
 {
-	autofocus_id: "602915031BB8E671"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_ore_ecavation"
@@ -165,7 +164,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
-			subtitle: "I want to find ore veins but I don't have 50 drilling machines!"
+			subtitle: "I want to document ore veins but I don't have 50 drilling machines!"
 			tasks: [{
 				id: "195D340F5B475855"
 				item: "createoreexcavation:sample_drill"
@@ -176,7 +175,7 @@
 		}
 		{
 			description: [
-				"Man I sure do hate moving to a new area just to find another tin vein."
+				"Man I sure do hate walking thousands of blocks just to find another tin vein."
 				""
 				"Good thing the Atlas exists! right click on an active Sample Drill or Drilling Machine to record the vein type. You can then blacklist it in the Atlas' menu!"
 			]

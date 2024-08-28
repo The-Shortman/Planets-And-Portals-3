@@ -10,6 +10,8 @@ ServerEvents.recipes(e => {
 		{output: 'create:tiled_glass'},
 
 		// Create: TFMG
+		{output: 'tfmg:steel_pipe'},
+		{output: 'tfmg:steel_distillation_output'},
 		{output: 'tfmg:coke_oven'},
 		{output: 'tfmg:heavy_plate'},
 		{output: 'tfmg:electric_casing'},
@@ -41,7 +43,8 @@ ServerEvents.recipes(e => {
 
 		// Create Ore Excavation
 		{output: 'createoreexcavation:vein_finder'},
-
+		{output: 'createoreexcavation:diamond_drill'},
+		{output: 'createoreexcavation:netherite_drill'},
 		{id: 'createoreexcavation:ore_vein_type/water'},
 		{mod: 'createoreexcavation', output: Fluid.of('minecraft:water')},
 		{id: 'createoreexcavation:ore_vein_type/nether_gold'},
@@ -61,7 +64,7 @@ ServerEvents.recipes(e => {
 		{id: 'createoreexcavation:ore_vein_type/diamond'},
 		{id: 'createoreexcavation:ore_vein_type/hardened_diamond'},
 		{mod: 'createoreexcavation', output: 'createoreexcavation:raw_diamond'},
-		{mod: 'createoreexcavation', output: 'minecraft:diamond'},
+		{mod: 'createoreexcavation', output: 'minecraft:diamond', not: {input: 'createoreexcavation:raw_diamond'}},
 		{id: 'createoreexcavation:ore_vein_type/gold'},
 		{mod: 'createoreexcavation', output: 'minecraft:raw_gold'},
 		{id: 'createoreexcavation:ore_vein_type/copper'},
@@ -147,6 +150,7 @@ ServerEvents.recipes(e => {
 		{output: 'mekanismgenerators:advanced_solar_generator'},
 
 		// Ad Astra
+		{type: 'ad_astra:nasa_workbench'},
 		{output: 'ad_astra:steel_ingot'},
 		{output: 'ad_astra:steel_block'},
 		{output: 'ad_astra:steel_nugget'},
@@ -176,6 +180,12 @@ ServerEvents.recipes(e => {
 			'ad_astra:mars_ostrum_ore',
 			'ad_astra:deepslate_ostrum_ore'
 		]},
+		{output: 'ad_astra:steel_rod'},
+		{output: 'ad_astra:oxygen_gear'},
+		{output: 'ad_astra:space_helmet'},
+		{output: 'ad_astra:space_suit'},
+		{output: 'ad_astra:space_pants'},
+		{output: 'ad_astra:space_boots'},
 
 		// Tempad
 		{mod: 'tempad'},
@@ -189,6 +199,10 @@ ServerEvents.recipes(e => {
 
 		// Tom's Simple Storage
 		{mod: 'toms_storage'},
+
+		// Grapple Mod
+		{output: 'grapplemod:repeller'},
+		{output: 'grapplemod:forcefieldupgraddeitem'},
 
 	].forEach((recipe => {
 		e.remove(recipe)
