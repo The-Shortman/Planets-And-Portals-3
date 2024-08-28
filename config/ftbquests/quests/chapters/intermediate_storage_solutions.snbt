@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "intermediate_storage_solutions"
+	group: "78B4A4EF75A52C04"
+	hide_quest_until_deps_visible: true
+	id: "5B388B0DD9FF0217"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "Intermediate Storage Solutions"
+}

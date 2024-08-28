@@ -19,6 +19,7 @@
 	quests: [
 		{
 			dependencies: ["46DC00B20F31E3EF"]
+			hide: true
 			id: "623AA0C1D3B34A7B"
 			shape: "octagon"
 			size: 2.0d
@@ -35,6 +36,7 @@
 		{
 			dependencies: ["4D42D999C2360B89"]
 			description: ["The ponder index is your best friend!"]
+			hide: true
 			id: "672E8CA30F5D1405"
 			shape: "octagon"
 			size: 2.0d
@@ -109,7 +111,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["623AA0C1D3B34A7B"]
+			dependencies: [
+				"623AA0C1D3B34A7B"
+				"714FBECBA54F02BE"
+			]
 			id: "4018EDC66172D030"
 			tasks: [{
 				id: "78B64E28C46B0BD2"
@@ -176,7 +181,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["1511184307BF3AF3"]
+			dependencies: ["4D42D999C2360B89"]
 			description: [
 				"The heating system is a bit complex:"
 				""
@@ -184,6 +189,7 @@
 				""
 				"Heat pumps can be used to concentrate heat in the network to certain areas (i.e. your heat users). Be careful though, as too much heat can cause the components to melt."
 			]
+			hide: true
 			id: "4818CB59380DA6E0"
 			subtitle: "Spread heat around"
 			tasks: [{
@@ -379,6 +385,19 @@
 			title: "Crude Nuclear Reactor"
 			x: 11.0d
 			y: -5.0d
+		}
+		{
+			dependencies: ["46DC00B20F31E3EF"]
+			hide: true
+			id: "714FBECBA54F02BE"
+			subtitle: "Found underground"
+			tasks: [{
+				id: "0672CB6361E09BF1"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["C O N S U M E"]

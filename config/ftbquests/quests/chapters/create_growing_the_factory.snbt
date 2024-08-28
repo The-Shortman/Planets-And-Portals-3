@@ -37,6 +37,7 @@
 		{
 			dependencies: ["2FED5D8D469697E9"]
 			description: ["Essentially voids flammable fluids. Stick it on the end of a pipe that is pumping your undesired fluid.."]
+			hide: true
 			id: "7D66E5F2CFA0887D"
 			subtitle: "Can be used to burn off excess creosote oil and other flammable liquids"
 			tasks: [{
@@ -54,6 +55,7 @@
 				""
 				"Requires a redstone signal to operate. The stronger the signal, the higher the output."
 			]
+			hide: true
 			id: "72AB5133DAE92261"
 			subtitle: "Can be used to burn off excess creosote oil in a more useful way"
 			tasks: [{
@@ -90,10 +92,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3FB950C2AAB63B7E"
-				"1CB3E51C7C3FDC28"
-			]
+			dependencies: ["3FB950C2AAB63B7E"]
 			icon: "tfmg:blast_furnace_output"
 			id: "0CAC39CC53D2824F"
 			rewards: [{
@@ -127,6 +126,7 @@
 		}
 		{
 			dependencies: ["7BD6AFA8A8A65144"]
+			hide: false
 			id: "3FB950C2AAB63B7E"
 			tasks: [{
 				id: "4A144E93396C47A6"
@@ -138,6 +138,7 @@
 		}
 		{
 			dependencies: ["727F0ACD278108BF"]
+			hide: false
 			id: "7BD6AFA8A8A65144"
 			tasks: [{
 				id: "32F6CC3CC276B006"
@@ -148,7 +149,9 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["2FED5D8D469697E9"]
 			description: ["Can be found underground and sometimes on the surface."]
+			hide: true
 			id: "727F0ACD278108BF"
 			subtitle: "Incredibly heat resistant material"
 			tasks: [{
@@ -184,6 +187,7 @@
 		}
 		{
 			dependencies: ["2FED5D8D469697E9"]
+			hide: true
 			id: "41758E06F66BD694"
 			rewards: [{
 				id: "0E86CA74B47D4A0A"
@@ -203,7 +207,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["34849FEBAB716C1D"]
+			dependencies: ["41758E06F66BD694"]
+			hide_dependency_lines: true
 			id: "3738B2352BB897C7"
 			subtitle: "Basic iron alloying"
 			tasks: [{
@@ -309,10 +314,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"19EBDB24B938BF28"
-				"20DF00AF53604135"
-			]
+			dependencies: ["20DF00AF53604135"]
+			description: ["Unlocks the second half of the Create: New Age chapter"]
 			id: "4D42D999C2360B89"
 			rewards: [{
 				id: "28311FC368D7E241"
@@ -320,6 +323,7 @@
 				type: "item"
 			}]
 			shape: "gear"
+			size: 1.5d
 			subtitle: "Start generating power!"
 			tasks: [{
 				id: "19A5E9020CB00B08"
@@ -331,7 +335,11 @@
 		}
 		{
 			dependencies: ["6B3AD7F1EE3A08C3"]
+			description: ["Unlocks the Create: New Age chapter"]
 			id: "46DC00B20F31E3EF"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Start using power!"
 			tasks: [{
 				id: "19EBDB24B938BF28"
 				item: "tfmg:steel_casing"
@@ -341,35 +349,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"46DC00B20F31E3EF"
-				"2280E22683CB66C8"
-			]
-			description: ["Unlocks the Create: New Age chapter"]
-			id: "70DE94491EC1CB3F"
-			shape: "gear"
-			subtitle: "Start using power!"
-			tasks: [{
-				id: "1C49BF443FDC3F4A"
-				item: "create_new_age:basic_motor"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			id: "2280E22683CB66C8"
-			subtitle: "Can be found underground"
-			tasks: [{
-				id: "654E70B6F3383AA7"
-				item: "create_new_age:magnetite_block"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["19A5E9020CB00B08"]
+			dependencies: ["4D42D999C2360B89"]
+			hide_dependency_lines: true
 			id: "527432B1CA70E6B9"
 			tasks: [{
 				id: "37BBEDD922A2A751"
@@ -391,7 +372,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["19A5E9020CB00B08"]
+			dependencies: ["4D42D999C2360B89"]
+			hide_dependency_lines: true
 			id: "4137992D80F7130D"
 			tasks: [{
 				id: "499F956D936FE5D9"
@@ -402,7 +384,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["19A5E9020CB00B08"]
+			dependencies: ["4D42D999C2360B89"]
+			hide_dependency_lines: true
 			id: "79E1036C7ED127A9"
 			tasks: [{
 				id: "3655E10AD8BCC888"
@@ -413,7 +396,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["19A5E9020CB00B08"]
+			dependencies: ["4D42D999C2360B89"]
+			hide_dependency_lines: true
 			id: "2A75ABCD792ED92A"
 			tasks: [{
 				id: "6AD8C6CF9207A270"
@@ -424,7 +408,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["19A5E9020CB00B08"]
+			dependencies: ["4D42D999C2360B89"]
+			hide_dependency_lines: true
 			id: "7FC725C956DDA3D7"
 			tasks: [{
 				id: "3E40CCC69CD890E3"
@@ -435,7 +420,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["19A5E9020CB00B08"]
+			dependencies: ["4D42D999C2360B89"]
+			hide_dependency_lines: true
 			id: "11A44E1920BA9A0D"
 			tasks: [{
 				id: "00FA1D01757B1769"
@@ -446,7 +432,8 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["19A5E9020CB00B08"]
+			dependencies: ["4D42D999C2360B89"]
+			hide_dependency_lines: true
 			id: "6CA4CA664C4666C1"
 			tasks: [{
 				id: "35BE3283770F876D"
@@ -458,21 +445,22 @@
 		}
 		{
 			dependencies: [
-				"35BE3283770F876D"
-				"13AC0B24C84F46EC"
-				"00FA1D01757B1769"
-				"3E40CCC69CD890E3"
-				"499F956D936FE5D9"
-				"6AD8C6CF9207A270"
-				"71A48F730F14BEC6"
-				"3655E10AD8BCC888"
-				"37BBEDD922A2A751"
+				"4137992D80F7130D"
+				"7FC725C956DDA3D7"
+				"79E1036C7ED127A9"
+				"6CA4CA664C4666C1"
+				"11A44E1920BA9A0D"
+				"1117B7B93F6EBD5B"
+				"527432B1CA70E6B9"
+				"2A75ABCD792ED92A"
+				"378F08E949C1191A"
 			]
 			description: [
 				"For instructions on building the pupjack, refer to the ponder guide."
 				""
 				"There is no functional difference between the normal and large pumpjacks. If you prefer the large one go for it!"
 			]
+			hide_dependency_lines: true
 			id: "12BB221EA057225A"
 			rewards: [{
 				id: "37A2C6B885994A0C"
@@ -494,6 +482,7 @@
 				"7358EA6E75E5D3FE"
 			]
 			dependency_requirement: "one_completed"
+			hide: false
 			id: "67056B9B4D6219CB"
 			min_required_dependencies: 1
 			rewards: [{
@@ -512,7 +501,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6D463597AC2F7C47"]
+			dependencies: ["4D42D999C2360B89"]
+			hide_dependency_lines: true
 			id: "1117B7B93F6EBD5B"
 			subtitle: "Use this to extend down to the oil deposit"
 			tasks: [{
@@ -591,6 +581,8 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["41758E06F66BD694"]
+			hide_dependency_lines: true
 			id: "7358EA6E75E5D3FE"
 			optional: true
 			subtitle: "Find oil geysers on the surface of oceans"
@@ -723,14 +715,14 @@
 		}
 		{
 			dependencies: ["5A758B88D0BF17BD"]
-			description: ["Cannot be bucketed, but can be pumped around"]
-			icon: "minecraft:bucket"
+			description: ["Can now be bucketed!"]
+			icon: "tfmg:lpg_bucket"
 			id: "4E249AF5F138AB3D"
 			subtitle: "Can be used in an LPG Engine"
 			tasks: [{
-				id: "5861EC6B3F2C159C"
-				title: "LPG"
-				type: "checkmark"
+				id: "3F148DD7606E3B9B"
+				item: "tfmg:lpg_bucket"
+				type: "item"
 			}]
 			x: 19.5d
 			y: 3.0d

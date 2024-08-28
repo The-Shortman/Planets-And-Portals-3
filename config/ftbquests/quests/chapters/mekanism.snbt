@@ -34,7 +34,7 @@
 		}
 		{
 			dependencies: ["4675259A7B3524BE"]
-			description: ["Finally I can use this stuff!"]
+			description: ["Yes I wanted to make this harder to make lol cry about it"]
 			id: "1003ED32BAD36DF2"
 			rewards: [{
 				count: 2
@@ -44,7 +44,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Stop clogging my storage!"
+			subtitle: "Deshmium"
 			tasks: [{
 				id: "3B3DB68A111DE94E"
 				item: "mekanism:ingot_osmium"
@@ -56,6 +56,7 @@
 		{
 			dependencies: ["62AFB9329BF79D95"]
 			description: ["Powder your osmium"]
+			hide: true
 			id: "4675259A7B3524BE"
 			subtitle: "Get that surface area up for the melting"
 			tasks: [{
@@ -67,7 +68,8 @@
 			y: -5.5d
 		}
 		{
-			dependencies: ["75A8BA081E0C763E"]
+			dependencies: ["62AFB9329BF79D95"]
+			hide: true
 			id: "73914569050D6B8F"
 			subtitle: "This stuff needs an upgrade"
 			tasks: [{

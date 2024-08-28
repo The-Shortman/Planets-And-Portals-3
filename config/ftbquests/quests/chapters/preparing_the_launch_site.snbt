@@ -28,7 +28,8 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["20DF00AF53604135"]
+			dependencies: ["7719389CD71E8D88"]
+			hide: true
 			id: "37820844114C6ABA"
 			rewards: [{
 				id: "0E7868915C215935"
@@ -138,6 +139,7 @@
 		}
 		{
 			dependencies: ["7719389CD71E8D88"]
+			hide: true
 			id: "2334C5115E26D992"
 			subtitle: "3 to get there, 3 to return"
 			tasks: [{
@@ -176,7 +178,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["20DF00AF53604135"]
+			dependencies: ["7719389CD71E8D88"]
+			hide: true
 			id: "7DAFC038CA0C66EF"
 			rewards: [{
 				count: 2
@@ -195,7 +198,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["20DF00AF53604135"]
+			dependencies: ["7719389CD71E8D88"]
+			hide: true
 			id: "6149EBE3249827BE"
 			rewards: [{
 				count: 2
@@ -213,7 +217,8 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["6B3AD7F1EE3A08C3"]
+			dependencies: ["7719389CD71E8D88"]
+			hide: true
 			id: "4941BEA8A488150B"
 			rewards: [{
 				count: 2
@@ -231,7 +236,8 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["4D42D999C2360B89"]
+			dependencies: ["7719389CD71E8D88"]
+			hide: true
 			id: "1D521FC501CD386D"
 			rewards: [{
 				count: 2
@@ -249,8 +255,9 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5F63BC3B13248EEA"]
+			dependencies: ["7719389CD71E8D88"]
 			description: ["It does the trick, does it not???"]
+			hide: true
 			id: "2AE1FA0784BFDD35"
 			rewards: [{
 				count: 2
@@ -268,7 +275,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5F63BC3B13248EEA"]
+			dependencies: ["7719389CD71E8D88"]
+			hide: true
 			id: "39E60485204E117F"
 			rewards: [{
 				count: 2
