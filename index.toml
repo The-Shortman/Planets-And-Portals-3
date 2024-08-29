@@ -1141,6 +1141,10 @@ file = "kubejs/startup_scripts/startup.js"
 hash = "01fac58d713283bfccd3013dddc93b0979b0c64389ffa0d809387245b4d07a28"
 
 [[files]]
+file = "libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip"
+hash = "f46d1050d8bed9046886b90a0d2fb80b4c6b5120fc35d32e5d37498dbe0a6d2a"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "bfee68aa4fe03e5240ca57da075319f4aadb6a8099bc96965a3a9fd6bb816f29"
 metafile = true
