@@ -1,0 +1,10 @@
+{
+    "id": "blast_furnace_input",
+    "controllerIds": "mm:blast_furnace",
+    "name": "Blast Furnace Input",
+    "type": "mm:item",
+    "config": {
+        "rows": 1,
+        "columns": 1
+    }
+}

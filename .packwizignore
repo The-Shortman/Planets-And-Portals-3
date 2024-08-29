@@ -5,3 +5,4 @@
 /.github
 .git/**
 /.vscode
+/config/mm/pack/.cache
