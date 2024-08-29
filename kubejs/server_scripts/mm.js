@@ -58,7 +58,7 @@ MMEvents.createProcesses(e => {
             ingredient: {
                 type: "mm:fluid",
                 fluid: "tfmg:molten_steel",
-                amount: 1000/9
+                amount: 112
             }
         })
 })
