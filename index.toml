@@ -1141,6 +1141,10 @@ file = "kubejs/startup_scripts/startup.js"
 hash = "01fac58d713283bfccd3013dddc93b0979b0c64389ffa0d809387245b4d07a28"
 
 [[files]]
+file = "libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip"
+hash = "f46d1050d8bed9046886b90a0d2fb80b4c6b5120fc35d32e5d37498dbe0a6d2a"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "bfee68aa4fe03e5240ca57da075319f4aadb6a8099bc96965a3a9fd6bb816f29"
 metafile = true
@@ -1167,7 +1171,7 @@ metafile = true
 
 [[files]]
 file = "mods/alekiships.pw.toml"
-hash = "e2089e8ee87297e33e827200cbe1df7b7747d9eaa9ae3655825a9c864e6632ec"
+hash = "ad63a8301ac03b46b4eee98991be70534bad07a64ddbb1b541fa9f28b3f2256c"
 metafile = true
 
 [[files]]
@@ -1567,12 +1571,12 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "4d07986e3d8cbf4d37330e0c3ffc46d30b1a26bb25444f3d807537ccf040ccd2"
+hash = "50d0d75c988e3dc115ba552895eb7b4dab51c900310e4b651f90341e94741940"
 metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "4a62a9e4402e2d4c27c0ae9ff403e108d220e7c36e32c8ecd37422fc4e1c54a7"
+hash = "3fcbf119bb838ad522fcbaf6f56060065d1337034b8af21e496a843207e0d707"
 metafile = true
 
 [[files]]
@@ -1636,13 +1640,18 @@ hash = "342689b81a6bc7d3aa79b4610b79c88cddfdbd17e9f0dac77c6a975e51033cc1"
 metafile = true
 
 [[files]]
+file = "mods/masterful-machinery.pw.toml"
+hash = "6dd3b86e1dd24d2013cc58e637047bf863e26460835c2c82a7dc72856d5435dd"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-generators.pw.toml"
-hash = "31bedc841cd4f28284805ce9b2c1ab53a39c2fa062816e1e520ef1b7d631f7db"
+hash = "2b8bfaabf74a2c8fb5f2753e2585f8700ed2877d640e86505110d4360b0adc32"
 metafile = true
 
 [[files]]
 file = "mods/mekanism.pw.toml"
-hash = "97abd23496116a8b3fb4b832ae5a7ef7c84063909b16dcbf1a403963893f2ea3"
+hash = "3f93e11f19698af8f5f817f8121a220bbb5cc0f3226bff8ecab4fcec78574073"
 metafile = true
 
 [[files]]
@@ -1677,7 +1686,7 @@ metafile = true
 
 [[files]]
 file = "mods/neruina.pw.toml"
-hash = "4082c2800e973ce5957a73f29af1b88aba3b63449e8fa9c189c0f6d4a1c4f374"
+hash = "4c0251ac6bb2f84ae540ddd3c5619fa1d126ca6f55679ed898a1cdf0f5932135"
 metafile = true
 
 [[files]]
@@ -1767,7 +1776,7 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "8a8e0f6db0afb5c64f8efb17c1b2e7a937fee57a8fd41f70ca6d74eaee60e822"
+hash = "5049c58e48bffd1da4c2c55eb1d81caf1b05672f268a8a768950e2a0096e1066"
 metafile = true
 
 [[files]]
@@ -1807,7 +1816,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "5bcf63bcf23dadc8246f3ccd88a234a3b0716403fd015cac6c54d1123f4357e1"
+hash = "2e3f05a6740618a0eb333956615aa47247bf12554fc6b6375946026453c264cc"
 metafile = true
 
 [[files]]
@@ -1837,7 +1846,7 @@ metafile = true
 
 [[files]]
 file = "mods/storage-drawers.pw.toml"
-hash = "696df5ffb8ae9eccbb04b024646cc9557ddef11265d28f4d5f9f1caf74f10171"
+hash = "834f243639b745a910725cfacb6b7e2282cb8b5c2ad5740c2a0e520be82a0ec1"
 metafile = true
 
 [[files]]
