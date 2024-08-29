@@ -498,7 +498,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "db751e4ec9b4849d88e10a339fac58d9da05be1c8c70058e5e5065023eb8ab3b"
+hash = "c2d9068efe1329d24d3c185eb73eca0ea7feb6e0a63a633d5b9eae53df4bc622"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -1139,10 +1139,6 @@ hash = "2ee3681876b4b5033694d4b054f2e297a57aa9a3b593878d19345d45152775c8"
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
 hash = "01fac58d713283bfccd3013dddc93b0979b0c64389ffa0d809387245b4d07a28"
-
-[[files]]
-file = "libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip"
-hash = "f46d1050d8bed9046886b90a0d2fb80b4c6b5120fc35d32e5d37498dbe0a6d2a"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
