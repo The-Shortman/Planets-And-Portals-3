@@ -1,27 +1,27 @@
-MMEvents.createStructures(e => {
-    e.create("mm:blast_furnace")
-        .controllerId("mm:blast_furnace_controller")
+MMEvents.createStructures(event => {
+    event.create("mm:blast_furnace_structure")
+        .controllerId("mm:blast_furnace")
         .name("Blast Furnace")
         .layout(a => {
             a.layer([
-                "1O1",
-                "I2I",
-                "1C1"
+                "BOB",
+                "IAI",
+                "BCB"
             ]).layer([
-                "121",
-                "2 2",
-                "121"
+                "BAB",
+                "A A",
+                "BAB"
             ]).layer([
-                "121",
-                "2 2",
-                "1O1"
+                "BAB",
+                "A A",
+                "BAB"
             ]).layer([
-                " 2 ",
-                "2 2",
-                " 2 "
-            ]).key("1", {
+                " A ",
+                "A A",
+                " A "
+            ]).key("B", {
                 block: "tfmg:fireproof_brick_reinforcement"
-            }).key("2", {
+            }).key("A", {
                 block: "tfmg:fireproof_bricks"
             }).key("I", {
                 port: "mm:blast_furnace_input",
@@ -29,13 +29,13 @@ MMEvents.createStructures(e => {
             }).key("O", {
                 port: "mm:blast_furnace_output",
                 input: false
-            })
-        })
+            });
+        });
 });
 
-MMEvents.createProcesses(e => {
-    e.create("mm:blast_furnace/steel")
-        .structureId("planetsandportals:blast_furnace")
+MMEvents.createProcesses(event => {
+    event.create("mm:blast_furnace_structure_steel")
+        .structureId("mm:blast_furnace_structure")
         .ticks(200)
         .input({
             type: "mm:input/consume",
@@ -60,5 +60,5 @@ MMEvents.createProcesses(e => {
                 fluid: "tfmg:molten_steel",
                 amount: 112
             }
-        })
-})
+        });
+});

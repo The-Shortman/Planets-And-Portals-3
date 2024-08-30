@@ -777,24 +777,12 @@ file = "config/mm-common.toml"
 hash = "9c7d85c498650b6654d809ab3ca6f904bcb8e0ab38edcf4233ea7a0aa33db4d5"
 
 [[files]]
-file = "config/mm/controllers/blast_furnace.json"
-hash = "8b82c118d29e571c04b8059af91503bf1cd8c0b7df04f4b35df500c6e4f9e617"
-
-[[files]]
 file = "config/mm/pack/assets/mm/lang/en_us.json"
 hash = "fa918ee776e663ae5fcfd59604983c3ed8c0b14a993449854e9d62130aef615b"
 
 [[files]]
 file = "config/mm/pack/data/minecraft/tags/blocks/mineable/pickaxe.json"
 hash = "b83114c23eeec820ce7eca52011f13013fb6c64002254be7aebe1e4b36244d48"
-
-[[files]]
-file = "config/mm/ports/blast_furnace_input.json"
-hash = "c421916d7c3f611fb783dd1994cd91e97b9eecefc048f18be56a363d005f62b0"
-
-[[files]]
-file = "config/mm/ports/blast_furnace_output.json"
-hash = "47dc38f9098a4ce2badca72c45fe65bfb039d7395f9d4b469dd743dab4eba245"
 
 [[files]]
 file = "config/modernfix-common.toml"
@@ -1138,7 +1126,7 @@ hash = "ed4fbf273bfce380bdb815ac39a3581cbb2d155d955dc31e0c1e787d2aa4c479"
 
 [[files]]
 file = "kubejs/server_scripts/mm.js"
-hash = "253714ca38cfeea507312986deb82ee3fbb0e45a780760a5f62adaca178aa46e"
+hash = "e814f8302c7cf9ae155999d916ed0cd730790ac9924ca8c85eefdacfd86f2ea8"
 
 [[files]]
 file = "kubejs/server_scripts/recipenotloadingfix.js"
@@ -1161,12 +1149,12 @@ file = "kubejs/startup_scripts/itemregistry.js"
 hash = "2ee3681876b4b5033694d4b054f2e297a57aa9a3b593878d19345d45152775c8"
 
 [[files]]
-file = "kubejs/startup_scripts/startup.js"
-hash = "01fac58d713283bfccd3013dddc93b0979b0c64389ffa0d809387245b4d07a28"
+file = "kubejs/startup_scripts/mm_registry.js"
+hash = "931e59d42acd4e2e2adccafe0d1a30d52acbbc6993b0c44c14dcd36a25a475d8"
 
 [[files]]
-file = "libraries/de/oceanlabs/mcp/mcp_config/1.20.1-20230612.114412/mcp_config-1.20.1-20230612.114412.zip"
-hash = "f46d1050d8bed9046886b90a0d2fb80b4c6b5120fc35d32e5d37498dbe0a6d2a"
+file = "kubejs/startup_scripts/startup.js"
+hash = "01fac58d713283bfccd3013dddc93b0979b0c64389ffa0d809387245b4d07a28"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
