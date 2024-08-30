@@ -1113,28 +1113,24 @@ file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_venus.json"
 hash = "e1030f6271ab86caabd93f480af782d34e0579889bb7c4400f8ea5e27407e015"
 
 [[files]]
-file = "kubejs/server_scripts/README.txt"
-hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
-
-[[files]]
 file = "kubejs/server_scripts/createoreexcavation_recipes.js"
 hash = "c5cd6b6bd8e104dc25bc01a939e6d80e7b19e3b14526606a7a1a3053e9505287"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "ed4fbf273bfce380bdb815ac39a3581cbb2d155d955dc31e0c1e787d2aa4c479"
+hash = "4b6bf54e11e893a285c997bb14bccc6256ef92693cf5777750e69f96dc6447af"
 
 [[files]]
 file = "kubejs/server_scripts/mm.js"
-hash = "e814f8302c7cf9ae155999d916ed0cd730790ac9924ca8c85eefdacfd86f2ea8"
-
-[[files]]
-file = "kubejs/server_scripts/recipenotloadingfix.js"
-hash = "ccee95ef3f3b0f7a744b8e0ff16c0547b5b0b66597e4a4c9a3fc7548748fd816"
+hash = "18ba6508784ce5490e2a4eda5bf8c2e5505d8e1d4e39b156266ab31e2c556e9f"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
 hash = "da03c86969eaeef8e79e4a9dc236ce0dbd342fe378bd8f20de61e9451a788a59"
+
+[[files]]
+file = "kubejs/server_scripts/tfmg_casting.js"
+hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
@@ -1142,15 +1138,15 @@ hash = "fff9f3902ba1d8ca8e3742354785cac99f5fe5fdce7ddf221251a53dbcec50c3"
 
 [[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"
-hash = "35640e76922c3071b9f7c51c6c438f9db9c3fd77a905899205cfa8a3b903b72d"
+hash = "d6869c89864fd7f9f252e8ac47d20496ed52fcc3cbdb037d636ed33ff8234eef"
 
 [[files]]
 file = "kubejs/startup_scripts/itemregistry.js"
-hash = "2ee3681876b4b5033694d4b054f2e297a57aa9a3b593878d19345d45152775c8"
+hash = "56fcbeeeb823abc356da577bf33f1047f81cbe14ee8d62b4be7f51484e7d7e93"
 
 [[files]]
 file = "kubejs/startup_scripts/mm_registry.js"
-hash = "931e59d42acd4e2e2adccafe0d1a30d52acbbc6993b0c44c14dcd36a25a475d8"
+hash = "25d898a0a7484c5415339d3fd0b41a383dda4fbae39de0beaeb064787e3d4633"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"

@@ -1,12 +1,12 @@
 name = "Planets and Portals 3"
 author = "_Shortman"
-version = "v0.6.1-alpha"
+version = "v0.7.0-alpha"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "f0fc7691dfb8294a1f485694186e0e36b3b1089b45099f5ca83587bb74027199"
+hash = "af8caf02d08cfe506dd56749a3ff2daec2eead424e9952c907af2d241a999f5a"
 
 [versions]
 forge = "47.3.7"
