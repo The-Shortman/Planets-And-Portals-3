@@ -24,6 +24,12 @@ StartupEvents.registry('item', e => {
             stackSize: 64
         },
         {
+            id: 'planetsandportals:desh_dust',
+            type: 'basic',
+            name: 'Desh Dust',
+            stackSize: 64
+        },
+        {
             id: 'planetsandportals:crushed_ostrum_ore',
             type: 'basic',
             name: 'Crushed Ostrum Ore',

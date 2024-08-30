@@ -165,46 +165,12 @@ function mixingRecipes(e) {
                 fluid: 'planetsandportals:obsidian_solution',
                 amount: 1000
             }
-        },
-        {
-            outputs: [
-                'ad_astra:desh_ingot',
-                'tfmg:ingot_mold'
-            ],
-            inputs: [
-                Fluid.of('planetsandportals:molten_desh', 1000/9),
-                'tfmg:ingot_mold'
-            ]
-        },
+        }
     ].forEach((recipe) => {
         e.recipes.create.mixing(recipe.outputs, recipe.inputs)
     }),
 
     [
-        {
-            outputs: [
-                Fluid.of('planetsandportals:molten_desh', 1000/9),
-            ],
-            inputs: [
-                'ad_astra:raw_desh',
-            ]
-        },
-        {
-            outputs: [
-                Fluid.of('planetsandportals:molten_desh', 1000/9),
-            ],
-            inputs: [
-                'planetsandportals:crushed_desh_ore',
-            ]
-        },
-        {
-            outputs: [
-                'mekanism:ingot_osmium',
-            ],
-            inputs: [
-                'mekanism:dust_osmium',
-            ]
-        },
         {
             outputs: [
                 'mekanism:ingot_lead',
