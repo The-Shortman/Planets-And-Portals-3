@@ -5,16 +5,16 @@ MMEvents.registerControllers(event => {
 });
 
 MMEvents.registerPorts(event => {
-    event.create("blast_furnace_input")
-        .name("Blast Furnace Input")
+    event.create("blast_furnace_item")
+        .name("Blast Furnace Item")
         .controllerId("mm:blast_furnace")
         .config("mm:item", c => {
             c.rows(1)
                 .columns(1)
         });
     
-    event.create("blast_furnace_output")
-        .name("Blast Furnace Output")
+    event.create("blast_furnace_fluid")
+        .name("Blast Furnace Fluid")
         .controllerId("mm:blast_furnace")
         .config("mm:fluid", c => {
             c.rows(1)
