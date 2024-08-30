@@ -498,7 +498,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "db751e4ec9b4849d88e10a339fac58d9da05be1c8c70058e5e5065023eb8ab3b"
+hash = "a5f025aefcfc65bed69f0640f75d2db2826f70b683120233a0b85d5885d9928c"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -1013,6 +1013,26 @@ file = "kubejs/assets/kubejs/textures/models/armor/the_badge_layer_1.png"
 hash = "1678c0e0e1483d40b9d9497a4bea4d79ba1803ef2c45e6cfcf1f3400aea211f0"
 
 [[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace.json"
+hash = "afcf3efb63de03b9ade2b3a10cfb8d85648f42c5cfe223e4829448b58aa272f0"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace_fluid_input.json"
+hash = "e877178adfc9ea9253419fb1aa7965b6c7c1603bc9c6eb7e3cd113ae45271af1"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace_fluid_output.json"
+hash = "b2cc0e2714229d47f02b410b75cbfbc88262aa28b58879f86dc6b650b86a548b"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace_item_input.json"
+hash = "5049f42b76a6d0f669c280a5f08b611fca6983674969ccdb5c59d177b0cac0a6"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace_item_output.json"
+hash = "4b6f33369e3d8bf43064b3c53fe43036e8d7730ee54c14867979cff8b0a38b61"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/textures/item/alloy_uninfused.png"
 hash = "d55603bc7901f507d71600ae93a1b8f5419bd3d8bf0c29b3e8f4e34989277eba"
 
@@ -1118,7 +1138,7 @@ hash = "c5cd6b6bd8e104dc25bc01a939e6d80e7b19e3b14526606a7a1a3053e9505287"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "4b6bf54e11e893a285c997bb14bccc6256ef92693cf5777750e69f96dc6447af"
+hash = "a9dca5f3fcebd47900755d04d2f1ab534f088ba0ca8f78386003dc87c33e36b2"
 
 [[files]]
 file = "kubejs/server_scripts/mm.js"

@@ -419,13 +419,6 @@ function crushingRecipes(e) {
 function washingRecipes (e) {
     [
         {
-            input: 'planetsandportals:crushed_desh_ore',
-            outputs: [
-                '9x ad_astra:desh_nugget',
-                Item.of('ad_astra:cheese').withChance(0.1)
-            ]
-        },
-        {
             input: 'planetsandportals:crushed_ostrum_ore',
             outputs: [
                 '9x ad_astra:ostrum_nugget',
