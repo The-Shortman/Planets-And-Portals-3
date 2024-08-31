@@ -1146,7 +1146,7 @@ hash = "18ba6508784ce5490e2a4eda5bf8c2e5505d8e1d4e39b156266ab31e2c556e9f"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "da03c86969eaeef8e79e4a9dc236ce0dbd342fe378bd8f20de61e9451a788a59"
+hash = "35a20e71fb357c8857970d88cb56aee73877b20b1d31003798863979012021dd"
 
 [[files]]
 file = "kubejs/server_scripts/tfmg_casting.js"
@@ -1154,7 +1154,7 @@ hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "fff9f3902ba1d8ca8e3742354785cac99f5fe5fdce7ddf221251a53dbcec50c3"
+hash = "901214f201f998df0f3794621bb00ffe0ee2f7b035f419c1f77b50984e713e54"
 
 [[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"

@@ -188,6 +188,22 @@ function shapedRecipes(e) {
             output: 'ad_astra:space_boots'
         },
 
+        // Create: TFMG
+
+        {
+            pattern: [
+                'AAA',
+                'ABA',
+                'ACA'
+            ],
+            key: {
+                A: 'tfmg:cast_iron_ingot',
+                B: 'tfmg:fireproof_bricks',
+                C: 'tfmg:cast_iron_pipe'
+            },
+            output: 'mm:blast_furnace'
+        },
+        
         // Create New Age stuff
 
         {
@@ -489,19 +505,26 @@ function shapedRecipes(e) {
     })
 }
 
-//function shapelessRecipes(e) {
-//    [
-//        {
-//            inputs: [
-//                'minecraft:lightning_rod',
-//                'tfmg:heavy_machinery_casing'
-//            ],
-//            output: 'create_new_age:energiser_t1'
-//        }
-//    ].forEach((recipe) => {
-//        e.shapeless(recipe.output, recipe.inputs)
-//    })
-//}
+function shapelessRecipes(e) {
+    [
+        {
+            inputs: [
+                'tfmg:fireproof_bricks',
+                'create:andesite_funnel'
+            ],
+            output: 'mm:blast_furnace_item_input'
+        },
+        {
+            inputs: [
+                'tfmg:fireproof_bricks',
+                'create:fluid_valve'
+            ],
+            output: 'mm:blast_furnace_fluid_output'
+        }
+    ].forEach((recipe) => {
+        e.shapeless(recipe.output, recipe.inputs)
+    })
+}
 
 function smeltingRecipes(e) {
     [
