@@ -141,7 +141,8 @@ function mixingRecipes(e) {
                     fluid: 'ad_astra:fuel',
                     amount: 1000
                 }
-            ]
+            ],
+            time: 1000
         },
         {
             inputs: {
@@ -167,7 +168,7 @@ function mixingRecipes(e) {
             }
         }
     ].forEach((recipe) => {
-        e.recipes.create.mixing(recipe.outputs, recipe.inputs)
+        e.recipes.create.mixing(recipe.outputs, recipe.inputs).processingTime(recipe.time ?? 100)
     }),
 
     [
@@ -206,7 +207,7 @@ function mixingRecipes(e) {
             ]
         },
     ].forEach((recipe) => {
-        e.recipes.create.mixing(recipe.outputs, recipe.inputs).heated()
+        e.recipes.create.mixing(recipe.outputs, recipe.inputs).heated().processingTime(recipe.time ?? 100)
     })
 //
 //    [

@@ -152,6 +152,10 @@ ServerEvents.recipes(e => {
 
 		// Ad Astra
 		{type: 'ad_astra:nasa_workbench'},
+		{type: 'ad_astra:compressing'},
+		{type: 'ad_astra:alloying'},
+		{type: 'ad_astra:cryo_freezing'},
+		{type: 'ad_astra:refining'},
 		{output: 'ad_astra:steel_ingot'},
 		{output: 'ad_astra:steel_block'},
 		{output: 'ad_astra:steel_nugget'},

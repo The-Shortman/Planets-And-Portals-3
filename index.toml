@@ -1098,7 +1098,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "cf2fd773f65a8b20caac657c7c5c8e725a9a2848b3186d4c5ae95430d9d552e4"
+hash = "60bb63b2d2038e1ef5545471bd89f1d684839f7ed8d3039b4acbc8278ce7d5eb"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1138,7 +1138,7 @@ hash = "c5cd6b6bd8e104dc25bc01a939e6d80e7b19e3b14526606a7a1a3053e9505287"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "a9dca5f3fcebd47900755d04d2f1ab534f088ba0ca8f78386003dc87c33e36b2"
+hash = "8f8378769697954b480044d16f40bab00e66ac9549e9803f8a3b5fb0e63742d9"
 
 [[files]]
 file = "kubejs/server_scripts/mm.js"
@@ -1146,7 +1146,7 @@ hash = "18ba6508784ce5490e2a4eda5bf8c2e5505d8e1d4e39b156266ab31e2c556e9f"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "35a20e71fb357c8857970d88cb56aee73877b20b1d31003798863979012021dd"
+hash = "cb18b38c812a87b2dd2a98f9c03eaf84ad6515068c0d922278b3b7f07379b534"
 
 [[files]]
 file = "kubejs/server_scripts/tfmg_casting.js"

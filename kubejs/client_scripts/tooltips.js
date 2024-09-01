@@ -3,11 +3,16 @@ ItemEvents.tooltip(tooltip => {
         {
             ids: [
                 'ad_astra:tier_1_rocket',
-                'ad_astra:tier_2_rocket',
+                'ad_astra:tier_2_rocket'
+            ],
+            text: 'NASA Workbench is disabled. Use Mechanical Crafters instead to craft this.',
+        },
+        {
+            ids: [
                 'ad_astra:tier_3_rocket',
                 'ad_astra:tier_4_rocket'
             ],
-            text: 'NASA Workbench is disabled. Use Mechanical Crafters instead to craft this.',
+            text: 'NASA Workbench is disabled.',
         },
         {
             ids: [
@@ -37,7 +42,8 @@ ItemEvents.tooltip(tooltip => {
         }
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkRed())
-    }),
+    });
+
     [
         {
             ids: [
