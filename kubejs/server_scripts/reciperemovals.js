@@ -207,7 +207,7 @@ ServerEvents.recipes(e => {
 
 		// Grapple Mod
 		{output: 'grapplemod:repeller'},
-		{output: 'grapplemod:forcefieldupgraddeitem'},
+		{output: 'grapplemod:forcefieldupgradeitem'},
 
 	].forEach((recipe => {
 		e.remove(recipe)

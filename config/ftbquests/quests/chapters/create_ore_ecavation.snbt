@@ -40,7 +40,7 @@
 			description: [
 				"This needs to be placed in a chunk containing an underground resource deposit. It requires rotational power and sometimes fluids to function."
 				""
-				"Check REI for resource deposit requirements by searching for 'infinite vein'."
+				"Check EMI for resource deposit requirements by searching for 'infinite vein'."
 			]
 			id: "49F9E3ED99A62079"
 			rewards: [{
@@ -62,7 +62,7 @@
 			description: [
 				"This needs to be placed in a chunk containing an underground fluid deposit. It requires rotational power and sometimes fluids to function."
 				""
-				"Check REI for resource deposit requirements by searching for 'infinite vein'."
+				"Check EMI for resource deposit requirements by searching for 'infinite vein'."
 			]
 			id: "2F20EF4550079875"
 			rewards: [{

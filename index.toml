@@ -598,7 +598,7 @@ hash = "01275c1e0587851824d8c9b9bb1d4e43464deba77fafec8c1f2f99f4c78628e4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_ore_ecavation.snbt"
-hash = "85f751a11808f66a5c9a0a7f489053f88c8cc7f6d746fc200ff4d3f9ba68e2bc"
+hash = "572e7852586b008520dd1cda13c1d8afddf2e4116544ef14eae7838f8276965a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/credits.snbt"
@@ -1098,7 +1098,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "60bb63b2d2038e1ef5545471bd89f1d684839f7ed8d3039b4acbc8278ce7d5eb"
+hash = "7fc75e93d9d6f13f8262cc346d35a016e86b72249a295a44901a43876a8c9ecb"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1146,7 +1146,7 @@ hash = "18ba6508784ce5490e2a4eda5bf8c2e5505d8e1d4e39b156266ab31e2c556e9f"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "cb18b38c812a87b2dd2a98f9c03eaf84ad6515068c0d922278b3b7f07379b534"
+hash = "1fa3296c6ba92f182c417e2d1749282c2721abd098a677328385299d4132d7f4"
 
 [[files]]
 file = "kubejs/server_scripts/tfmg_casting.js"
