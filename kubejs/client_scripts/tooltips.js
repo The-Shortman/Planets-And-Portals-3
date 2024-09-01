@@ -83,6 +83,10 @@ ItemEvents.tooltip(tooltip => {
         {
             ids: 'minecraft:leather',
             text: 'Can be obtained from smelting/bulk blasting rotten flesh.'
+        },
+        {
+            ids: ['createoreexcavation:drilling_machine', 'createoreexcavation:extractor'],
+            text: 'All drilling recipes have a stress impact of 256x RPM.'
         }
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkGreen())
