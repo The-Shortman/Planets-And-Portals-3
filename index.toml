@@ -1113,6 +1113,10 @@ file = "kubejs/data/ae2/tags/worldgen/biome/has_meteorites.json"
 hash = "6403f3e639c85baf174779fb499b88b6341725e2ba35a4a2a84874417933ce01"
 
 [[files]]
+file = "kubejs/data/planetsandportals/tags/items/cheeses.json"
+hash = "7048833ca21a4c1517a21e7dfcc05f6dfbb297fd996f2bcc9f1c6e99883cf761"
+
+[[files]]
 file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_glacio.json"
 hash = "a39b1c0fa21add4c9ec2ba07b023004e16e50a56e59cbce3491bb3d87884cab5"
 
@@ -1147,6 +1151,10 @@ hash = "18ba6508784ce5490e2a4eda5bf8c2e5505d8e1d4e39b156266ab31e2c556e9f"
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
 hash = "1fa3296c6ba92f182c417e2d1749282c2721abd098a677328385299d4132d7f4"
+
+[[files]]
+file = "kubejs/server_scripts/recipereplacements.js"
+hash = "7eb5fe32906080006c0b4261a1432f05c416dc7dde69227465d2aa9bb334a685"
 
 [[files]]
 file = "kubejs/server_scripts/tfmg_casting.js"
