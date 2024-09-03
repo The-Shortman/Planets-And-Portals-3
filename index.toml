@@ -1141,6 +1141,10 @@ file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_venus.json"
 hash = "e1030f6271ab86caabd93f480af782d34e0579889bb7c4400f8ea5e27407e015"
 
 [[files]]
+file = "kubejs/data/realmrpg_skeletons/tags/worldgen/biome/blacklist.json"
+hash = "22aa3f0fecb35191c60bdd2900718719328dc45e2124468ef4bb4448dabe9fa1"
+
+[[files]]
 file = "kubejs/server_scripts/createoreexcavation_recipes.js"
 hash = "179fca96cd14eb9cb3be192b9709bbc3752bc03b8166e4c17ac420cd734a8f91"
 
