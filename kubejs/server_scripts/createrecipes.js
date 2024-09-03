@@ -5,6 +5,7 @@ ServerEvents.recipes(e => {
     hauntingRecipes(e);
     deployingRecipes(e);
     mechanicalCraftingRecipes(e);
+    millingRecipes(e);
     crushingRecipes(e);
     washingRecipes(e);
     energisingRecipes(e);
@@ -166,6 +167,13 @@ function mixingRecipes(e) {
                 fluid: 'planetsandportals:obsidian_solution',
                 amount: 1000
             }
+        },
+        {
+            inputs: [
+                'planetsandportals:grout',
+                'planetsandportals:andesite_dust'
+            ],
+            outputs: 'create:andesite_alloy'
         }
     ].forEach((recipe) => {
         e.recipes.create.mixing(recipe.outputs, recipe.inputs).processingTime(recipe.time ?? 100)
@@ -206,6 +214,19 @@ function mixingRecipes(e) {
                 'mekanism:enriched_redstone'
             ]
         },
+        {
+            inputs: [
+                {
+                    fluid: 'minecraft:water',
+                    amount: 100
+                },
+                'create:crushed_raw_copper'
+            ],
+            outputs: {
+                fluid: 'planetsandportals:copper_slurry',
+                amount: 100
+            }
+        }
     ].forEach((recipe) => {
         e.recipes.create.mixing(recipe.outputs, recipe.inputs).heated().processingTime(recipe.time ?? 100)
     })
@@ -368,8 +389,32 @@ function mechanicalCraftingRecipes(e) {
     })
 }
 
+function millingRecipes (e) {
+    [
+        {
+            input: 'minecraft:raw_copper',
+            output: 'create:crushed_raw_copper'
+        }
+    ].forEach((recipe) => {
+        e.recipes.create.milling(recipe.output, recipe.input)
+    })
+}
+
 function crushingRecipes(e) {
     [
+        {
+            input: 'minecraft:raw_copper',
+            outputs: [
+                'create:crushed_raw_copper',
+                Item.of('create:crushed_raw_copper').withChance(0.5),
+                Item.of('create:crushed_raw_copper').withChance(0.05),
+                Item.of('create:experience_nugget').withChance(0.75)
+            ]
+        },
+        {
+            input: 'minecraft:andesite',
+            outputs: 'planetsandportals:andesite_dust'
+        },
         {
             input: 'ad_astra:raw_desh',
             outputs: [
@@ -419,6 +464,13 @@ function crushingRecipes(e) {
 
 function washingRecipes (e) {
     [
+        {
+            input: 'create:crushed_raw_copper',
+            outputs: [
+                '3x create:copper_nugget',
+                Item.of('minecraft:clay').withChance(0.2)
+            ]
+        },
         {
             input: 'planetsandportals:crushed_ostrum_ore',
             outputs: [

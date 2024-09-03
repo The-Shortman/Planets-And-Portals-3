@@ -10,7 +10,7 @@ ItemEvents.armorTierRegistry(e => {
         tier.toughness = 0.0
         tier.knockbackResistance = 0.0
     })
-})
+});
 
 // Item registry
 
@@ -42,11 +42,23 @@ StartupEvents.registry('item', e => {
             stackSize: 64
         },
 
-        // Intermediate items
+        // Ingredient items
         {
             id: 'planetsandportals:steel_electrode',
             type: 'basic',
             name: 'Steel Electrode',
+            stackSize: 64
+        },
+        {
+            id: 'planetsandportals:andesite_dust',
+            type: 'basic',
+            name: 'Powdered Andesite',
+            stackSize: 64
+        },
+        {
+            id: 'planetsandportals:grout',
+            type: 'basic',
+            name: 'Grout',
             stackSize: 64
         }
     ].forEach((item) => {

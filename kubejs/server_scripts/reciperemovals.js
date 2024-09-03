@@ -2,12 +2,19 @@ ServerEvents.recipes(e => {
 	[
 		// Minecraft
 		{output: 'minecraft:ladder'},
+		{output: 'minecraft:copper_ingot', input: [
+			'minecraft:raw_copper',
+			'create:crushed_raw_copper'
+		]},
+		{output: 'minecraft:copper_nugget', input: 'create:crushed_raw_copper'},
+		{input: 'minecraft:andesite', type: 'create:crushing'},
 
 		// Create
 		{output: 'create:framed_glass'},
 		{output: 'create:horizontal_framed_glass'},
 		{output: 'create:vertical_framed_glass'},
 		{output: 'create:tiled_glass'},
+		{output: 'create:andesite_alloy', not: {input: 'create:andesite_alloy_block'}},
 
 		// Create: TFMG
 		{output: 'tfmg:steel_pipe'},

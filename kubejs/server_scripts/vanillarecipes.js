@@ -188,6 +188,20 @@ function shapedRecipes(e) {
             output: 'ad_astra:space_boots'
         },
 
+        // Create
+
+        {
+            pattern: [
+                'AB',
+                'BA'
+            ],
+            key: {
+                A: 'planetsandportals:grout',
+                B: 'minecraft:andesite'
+            },
+            output: 'create:andesite_alloy'
+        },
+
         // Create: TFMG
 
         {
@@ -507,6 +521,19 @@ function shapedRecipes(e) {
 
 function shapelessRecipes(e) {
     [
+        // Create
+
+        {
+            inputs: [
+                '4x minecraft:sand',
+                '4x minecraft:gravel',
+                '1x minecraft:clay_block'
+            ],
+            output: 'planetsandportals:grout'
+        },
+        
+        // Blast Furnace
+        
         {
             inputs: [
                 'tfmg:fireproof_bricks',

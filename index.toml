@@ -1150,7 +1150,7 @@ hash = "179fca96cd14eb9cb3be192b9709bbc3752bc03b8166e4c17ac420cd734a8f91"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "8f8378769697954b480044d16f40bab00e66ac9549e9803f8a3b5fb0e63742d9"
+hash = "48f4890002ffe112090ed1f6b0f99cb1f6108ddeb8c1a18b6256126fd99f1ed1"
 
 [[files]]
 file = "kubejs/server_scripts/mm.js"
@@ -1158,7 +1158,7 @@ hash = "18ba6508784ce5490e2a4eda5bf8c2e5505d8e1d4e39b156266ab31e2c556e9f"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "1fa3296c6ba92f182c417e2d1749282c2721abd098a677328385299d4132d7f4"
+hash = "69645d21949ed4b8c0e51c9ce0e4b7ec8c338450b1bf700b46519817c6665b4a"
 
 [[files]]
 file = "kubejs/server_scripts/recipereplacements.js"
@@ -1170,15 +1170,15 @@ hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "7b662c604eacf92fb62631ddee5510f259ea6e9e08c7e93b4b29fcaf909e8957"
+hash = "cbec1d5764b7a299d005e4470f5ee75a8a21645e3d9fefa8f6fcd8aba26dec24"
 
 [[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"
-hash = "d6869c89864fd7f9f252e8ac47d20496ed52fcc3cbdb037d636ed33ff8234eef"
+hash = "beb29bb8189dbbc310cca47f2395cc11cf1159d8faa6ccdc28b71e33c142df34"
 
 [[files]]
 file = "kubejs/startup_scripts/itemregistry.js"
-hash = "56fcbeeeb823abc356da577bf33f1047f81cbe14ee8d62b4be7f51484e7d7e93"
+hash = "58ec2b541e59e8c6801b74cfd0e91c65c72abfe496a330a32cf27a62dd2c7375"
 
 [[files]]
 file = "kubejs/startup_scripts/mm_registry.js"
