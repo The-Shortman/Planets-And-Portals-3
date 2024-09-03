@@ -520,6 +520,12 @@ function shapelessRecipes(e) {
                 'create:fluid_valve'
             ],
             output: 'mm:blast_furnace_fluid_output'
+        },
+        {
+            inputs: [
+                'tfmg:blast_furnace_output'
+            ],
+            output: 'mm:blast_furnace'
         }
     ].forEach((recipe) => {
         e.shapeless(recipe.output, recipe.inputs)
