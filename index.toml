@@ -158,7 +158,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "6647dd5c3e230d12543e326a99ac357b50dbd94b4573cedb9f676406f5fa9110"
+hash = "e2a02cd8ed8e5ae66e1ecb190197b6ac8cfe0a1f381f1c13d5a552abb5f32c70"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -586,7 +586,7 @@ hash = "0de7da36b6658e29411d74ae267eee5e2a25ebfba9b9663061235501eafed7f9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_growing_the_factory.snbt"
-hash = "87c2de59bc409fc6ad4d6b08f656938a1f1a1c0f75ab753b9c566ea969955633"
+hash = "64072086a76a005054f4a678f184b3091c7f9603016ebaddc938cf667e7498d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_new_age.snbt"
@@ -610,11 +610,11 @@ hash = "33d07701c58b810d8801d54ef6bbfce04a850034a80fc0e325e09f86ca1efedd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/intermediate_storage_solutions.snbt"
-hash = "15b2a77b9ce528a322b351ca014d19abd1b65e8039d62fc1fbcd9de278cdd0f3"
+hash = "c95d74cd6fbfff8fa638a514fd2c328c8d88feb5bc8314fd677c8c07c4594ef4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lunar_expeditions.snbt"
-hash = "f55535acd5df5402f1f83ca5e5b93800406feade5a769d54e2a9729b67294605"
+hash = "9f0c45e2d82c804c543596d4343e886b58cd5da2b5d9a8ea4c401357b912f0a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/martian_landscapes.snbt"
@@ -622,7 +622,7 @@ hash = "f78116b4e5e2a9d4f26ae50b73597e5a0b56f716d3e9bd36f509a9006d6cdf3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "c5a0778d2a55b5519c3e650ec0fbf3d8d897a496657b2c9f01a2bc0ff057b8fb"
+hash = "1064e3ad3641e126f09530853329d56aa3a20119ff5fb763a17a67c5d5a05621"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mercury_god_of_commerce.snbt"
@@ -642,7 +642,7 @@ hash = "9f66c1990bbc2d026010ac76ce95cd104ceaab5f2f82f4648658707552e97d01"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_shop.snbt"
-hash = "f658d51cfeabbac8ec3fac50fd9382064fda7321f5240aff32e72000105ab476"
+hash = "78882eb7ea74f29cfa32a2753cce94059e4625eb76c5a2b69f68e2cbf74467bd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/venus_goddess_of_love.snbt"
