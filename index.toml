@@ -1049,6 +1049,10 @@ file = "kubejs/assets/planetsandportals/textures/item/crushed_ostrum_ore.png"
 hash = "5ef7140f92f86ebcbda7bfbdc018538448c38dc7a545e5c035651af5281dca45"
 
 [[files]]
+file = "kubejs/assets/planetsandportals/textures/item/desh_dust.png"
+hash = "eeb4fa71ddfc148331b960ad5bfea8f5b1cefe2a773b7c58147669e7b5548fa7"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/textures/item/steel_electrode.png"
 hash = "e053d03f90ad6fcfc267dc1f620912e67bc12cb84a32064eea6ac784695001a9"
 
@@ -1162,7 +1166,7 @@ hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "901214f201f998df0f3794621bb00ffe0ee2f7b035f419c1f77b50984e713e54"
+hash = "7b662c604eacf92fb62631ddee5510f259ea6e9e08c7e93b4b29fcaf909e8957"
 
 [[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"
