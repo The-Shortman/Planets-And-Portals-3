@@ -73,8 +73,8 @@
 				item: "ad_astra:raw_desh"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 2.5d
+			x: -1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["75A8BA081E0C763E"]
@@ -178,8 +178,15 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["29F99F71DA84692F"]
-			description: ["&6Desh&r is found in &celemental form&r, so has to be &cmelted&r and cast into ingots."]
+			dependencies: [
+				"5A3CFE5A7D3B373C"
+				"41F3AB7282B73687"
+			]
+			description: [
+				"&6Desh&r has to be &cmelted&r, mixed with &3Osmium&r and cast into ingots."
+				""
+				"Use the Blast Furnace you made for steel to make this!"
+			]
 			id: "7C11AB543D17500D"
 			rewards: [{
 				count: 4
@@ -192,8 +199,8 @@
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7C11AB543D17500D"]
@@ -210,8 +217,8 @@
 				item: "ad_astra:desh_plate"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: -3.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["45470023A9A13F69"]
@@ -229,8 +236,8 @@
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.5d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["45470023A9A13F69"]
@@ -247,8 +254,8 @@
 				item: "create_new_age:energiser_t1"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.5d
+			x: -4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["45470023A9A13F69"]
@@ -271,7 +278,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
+			x: -3.5d
 			y: 5.5d
 		}
 		{
@@ -290,12 +297,16 @@
 				item: "planetsandportals:steel_electrode"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.0d
+			x: -5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["331740C5F410B36D"]
-			description: ["And 2x as efficient on &5obsidian&r!"]
+			description: [
+				"And 2x as efficient on &5obsidian&r!"
+				""
+				"Check all the recipes!!"
+			]
 			id: "687855B5935E15D2"
 			rewards: [{
 				id: "4C7D751F5C18C6E4"
@@ -308,8 +319,8 @@
 				item: "tfmg:heavy_plate"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 9.5d
+			x: -6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["45470023A9A13F69"]
@@ -319,8 +330,8 @@
 				item: "ad_astra:desh_plateblock"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.5d
+			x: -4.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["75A8BA081E0C763E"]
@@ -336,8 +347,70 @@
 				item: "mekanism:raw_osmium"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -3.0d
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CBDAEF24B97BE4D"]
+			id: "5A3CFE5A7D3B373C"
+			tasks: [{
+				id: "26E4F85105494A65"
+				item: "mekanism:dust_osmium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["41F3AB7282B73687"]
+			id: "0A00FA4FCFFD2D3E"
+			tasks: [{
+				id: "4CBE700ABC2C3448"
+				item: "planetsandportals:desh_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["29F99F71DA84692F"]
+			id: "41F3AB7282B73687"
+			tasks: [{
+				id: "0F008974764EFA4F"
+				item: "planetsandportals:crushed_desh_ore"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["62AFB9329BF79D95"]
+			id: "6CBDAEF24B97BE4D"
+			tasks: [{
+				id: "2FBE62C3F034DD01"
+				item: "create:crushed_raw_osmium"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6CBDAEF24B97BE4D"
+				"0A00FA4FCFFD2D3E"
+			]
+			description: ["Use the Blast Furnace you made for steel to make this!"]
+			id: "4D21B058E8F6D8D7"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Unlocks the first Mekanism Chapter"
+			tasks: [{
+				id: "7907D522B1FF9F23"
+				item: "mekanism:ingot_osmium"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
 		}
 	]
 	subtitle: ["A new world to destroy"]

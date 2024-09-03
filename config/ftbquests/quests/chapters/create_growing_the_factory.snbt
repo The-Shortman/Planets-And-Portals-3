@@ -93,7 +93,7 @@
 		}
 		{
 			dependencies: ["3FB950C2AAB63B7E"]
-			icon: "tfmg:blast_furnace_output"
+			icon: "mm:blast_furnace"
 			id: "0CAC39CC53D2824F"
 			rewards: [{
 				count: 4
@@ -103,7 +103,7 @@
 			}]
 			tasks: [
 				{
-					count: 16L
+					count: 13L
 					id: "54C5DDB109AB68D5"
 					item: "tfmg:fireproof_bricks"
 					type: "item"
@@ -116,7 +116,18 @@
 				}
 				{
 					id: "52DDD9F22C5E0753"
-					item: "tfmg:blast_furnace_output"
+					item: "mm:blast_furnace"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5C27FA2936DB2B6D"
+					item: { Count: 2, id: "mm:blast_furnace_item_input" }
+					type: "item"
+				}
+				{
+					id: "003F02E29EFE20DF"
+					item: "mm:blast_furnace_fluid_output"
 					type: "item"
 				}
 			]
@@ -244,6 +255,11 @@
 					item: "tfmg:casting_basin"
 					type: "item"
 				}
+				{
+					id: "615D31F35E595922"
+					item: "tfmg:ingot_mold"
+					type: "item"
+				}
 			]
 			title: "Casting"
 			x: 4.5d
@@ -262,6 +278,7 @@
 		}
 		{
 			dependencies: ["1733F17BF59BB76C"]
+			description: ["Check all recipes!!"]
 			id: "20DF00AF53604135"
 			rewards: [{
 				count: 4
@@ -269,6 +286,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
+			subtitle: "The obsidian solution recipe isn't available to you yet!"
 			tasks: [{
 				id: "4E1F18748DBBFCD2"
 				item: "tfmg:heavy_plate"

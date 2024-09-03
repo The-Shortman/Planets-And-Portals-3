@@ -1,25 +1,367 @@
 {
 	autofocus_id: "477FAF7C288B83E0"
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "the_shop"
 	group: ""
 	icon: "numismatics:vendor"
 	id: "77AFDD19546E9881"
-	order_index: 3
-	quest_links: [ ]
-	quests: [{
-		description: ["&o&8Lamp oil? Rope? Bombs?..."]
-		id: "477FAF7C288B83E0"
-		subtitle: "Check back later in development!"
-		tasks: [{
-			id: "1D5194D77951D8B7"
-			title: "The Shop is currently WIP"
-			type: "checkmark"
-		}]
+	images: [{
+		height: 3.5d
+		image: "supplementaries:block/cannon_target"
+		rotation: 0.0d
+		width: 3.5d
 		x: 0.0d
 		y: 0.0d
 	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["In order to gain access to the store, you need to pay this small upfront expense. Then you'll be able to buy and sell all you want!"]
+			icon: "numismatics:creative_vendor"
+			id: "1308A1C519AA7853"
+			rewards: [{
+				description: ""
+				icon: "numismatics:vendor"
+				id: "385A0D7C5FFF0C30"
+				title: "Store license"
+				type: "toast"
+			}]
+			shape: "octagon"
+			size: 2.5d
+			subtitle: "Welcome to the Planets and Portals 3 store!"
+			tasks: [{
+				count: 4L
+				id: "44DB6E21E20A405C"
+				item: { Count: 4, id: "numismatics:spur" }
+				type: "item"
+			}]
+			title: "Store Licence"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "minecraft:oak_sapling"
+			id: "7EC941263108CFBF"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "A low-paying selection of contractors looking for certain goods"
+			tasks: [{
+				id: "2E2FE7856406D12D"
+				title: "Beginner contracts"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			id: "18E047BE817A4B07"
+			rewards: [{
+				id: "1969D0A13A57E424"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "A collector is after an antique hand-crafted globe."
+			tasks: [{
+				id: "66BD72ABC56789B7"
+				item: "supplementaries:globe_sepia"
+				type: "item"
+			}]
+			title: "Antique Globe"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			id: "1AE37A200428E729"
+			rewards: [{
+				count: 4
+				id: "106508D05C513E14"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "A carpenter is looking for a vast number of logs for a project."
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "7BC23F4AFF121BDC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Logs"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			id: "5651865E66553AF1"
+			rewards: [{
+				id: "19A2FB9252A1B3AF"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "A jeweller requires some expensive gemstones."
+			tasks: [
+				{
+					count: 16L
+					id: "49E12204108E482F"
+					item: { Count: 16, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5DCBBE20792C7ACE"
+					item: { Count: 16, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			title: "Rare Gemstones"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "28B6D4A25565EBCA"
+			rewards: [{
+				id: "1E4D2FAE8FEDA2D1"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "A builder is in need of construction bricks."
+			tasks: [{
+				count: 1024L
+				id: "69E616B053E4E3F5"
+				item: "quark:cobblestone_bricks"
+				type: "item"
+			}]
+			title: "Construction Material"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "40FB898987C60BEB"
+			rewards: [{
+				count: 4
+				id: "0BE736EE723B727C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Someone is willing to take large amounts of excess dirt off your hands."
+			tasks: [{
+				count: 1024L
+				id: "2A5C85262A2EA7FC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:dirt"
+					}
+				}
+				title: "Any #minecraft:dirt"
+				type: "item"
+			}]
+			title: "Excess dirt?"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			icon: "numismatics:spur"
+			id: "74FA93303DA47370"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "A selection of merchants willing to provide you with goods... for a price, of course."
+			tasks: [{
+				id: "23560E30EFCFB59A"
+				title: "Beginner Purchases"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:villager_spawn_egg"
+			id: "27B89000B83AED59"
+			rewards: [{
+				id: "151106869967C4A2"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "A jobseeker is looking for somewhere to stay and work."
+			tasks: [{
+				id: "255AEB6F21BC2EB8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			title: "Jobseeker"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "quark:seed_pouch"
+				tag: {
+					itemCount: 640
+					storedItem: {
+						Count: 1b
+						id: "minecraft:beetroot_seeds"
+					}
+				}
+			}
+			id: "45FFC79BBD3A8117"
+			rewards: [
+				{
+					id: "4434C1F1C6BD2E81"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "5CE90219670522FB"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "22C49A1238C055BB"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "4F8E12BADA19AD3C"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "774D1612B8828960"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D27058A2E587073"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "5192B2303038E222"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "A vendor is offering to sell you all of the vanilla saplings."
+			tasks: [{
+				count: 2L
+				id: "6C5CD12CA0D97D6A"
+				item: { Count: 2, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			title: "Bag of Saplings"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			icon: "croptopia:chocolate_milkshake"
+			id: "71226FBD956BD164"
+			rewards: [{
+				id: "737728F6A0552144"
+				item: "croptopia:chocolate_milkshake"
+				type: "item"
+			}]
+			subtitle: "It's just choccy milk."
+			tasks: [{
+				id: "331E0DB322A3B455"
+				item: { Count: 2, id: "numismatics:spur" }
+				type: "item"
+			}]
+			title: "Cheap drink"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			icon: "minecraft:sheep_spawn_egg"
+			id: "3CE604218B160C1A"
+			rewards: [{
+				id: "11192C044228503C"
+				item: "minecraft:sheep_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "A livestock farmer is willing to sell off a sheep."
+			tasks: [
+				{
+					id: "1576E61AE237275A"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C88DC4841D7F00A"
+					item: { Count: 2, id: "numismatics:spur" }
+					type: "item"
+				}
+			]
+			title: "Wooly livestock"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			icon: "minecraft:cow_spawn_egg"
+			id: "5FEF1C94FAF26EB9"
+			rewards: [{
+				id: "49452594600CD7D4"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "A dairy farmer is trusting you to take good care of this cow."
+			tasks: [{
+				id: "765AF951C04C09FB"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			title: "Bovine livestock"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "256BA1FD6F8F0CBF"
+			rewards: [{
+				count: 4
+				id: "1F183E9B7FFEEDE3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5CBB10BFAD960945"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "159EBD95BD74F387"
+			rewards: [{
+				count: 4
+				id: "1B1EBDB7DE55227F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "A weaponsmith wants a new forging anvil."
+			tasks: [{
+				id: "0FFD20484ED7D86D"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Forging Hardware"
+			x: -1.0d
+			y: 5.5d
+		}
+	]
 	subtitle: ["Buy and sell wares from the Game Shop!"]
 	title: "The Shop"
 }
