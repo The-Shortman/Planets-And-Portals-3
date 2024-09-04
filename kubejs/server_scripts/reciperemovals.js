@@ -14,7 +14,8 @@ ServerEvents.recipes(e => {
 		{output: 'create:horizontal_framed_glass'},
 		{output: 'create:vertical_framed_glass'},
 		{output: 'create:tiled_glass'},
-		{output: 'create:andesite_alloy', not: {input: 'create:andesite_alloy_block'}},
+		{output: 'create:andesite_alloy', input: 'minecraft:andesite'},
+		{output: 'create:zinc_ingot', input: 'create:raw_zinc'},
 
 		// Create: TFMG
 		{output: 'tfmg:steel_pipe'},

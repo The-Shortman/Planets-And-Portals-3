@@ -394,6 +394,10 @@ function millingRecipes (e) {
         {
             input: 'minecraft:raw_copper',
             output: 'create:crushed_raw_copper'
+        },
+        {
+            input: 'create:raw_zinc',
+            output: 'create:crushed_raw_zinc'
         }
     ].forEach((recipe) => {
         e.recipes.create.milling(recipe.output, recipe.input)
