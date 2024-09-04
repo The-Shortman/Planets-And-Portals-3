@@ -126,6 +126,14 @@ ServerEvents.recipes(e => {
 
 		{output: 'mekanism:upgrade_anchor'},
 
+		{output: 'mekanism:qio_drive_array'},
+		{output: 'mekanism:qio_dashboard'},
+		{output: 'mekanism:qio_exporter'},
+		{output: 'mekanism:qio_importer'},
+		{output: 'mekanism:qio_redstone_adapter'},
+
+		{output: 'mekanism:cardboard_box'},
+
 		{output: 'mekanism:ingot_osmium', input: [
 			'mekanism:raw_osmium',
 			'mekanism:osmium_ore',
