@@ -192,6 +192,19 @@ function shapedRecipes(e) {
 
         {
             pattern: [
+                'ABA',
+                'BCB',
+                'ABA'
+            ],
+            key: {
+                A: 'minecraft:sand',
+                B: 'minecraft:gravel',
+                C: 'minecraft:clay'
+            },
+            output: 'planetsandportals:grout'
+        },
+        {
+            pattern: [
                 'AB',
                 'BA'
             ],
@@ -212,7 +225,7 @@ function shapedRecipes(e) {
                 B: 'create:brass_casing',
                 C: 'minecraft:crafting_table'
             },
-            output: '5x create:machanical_crafter'
+            output: '5x create:mechanical_crafter'
         },
 
         // Create: TFMG
@@ -535,15 +548,6 @@ function shapedRecipes(e) {
 function shapelessRecipes(e) {
     [
         // Create
-
-        {
-            inputs: [
-                '4x minecraft:sand',
-                '4x minecraft:gravel',
-                'minecraft:clay'
-            ],
-            output: 'planetsandportals:grout'
-        },
         
         // Blast Furnace
         
