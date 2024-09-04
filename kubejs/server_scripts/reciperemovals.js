@@ -17,6 +17,8 @@ ServerEvents.recipes(e => {
 		{output: 'create:tiled_glass'},
 		{output: 'create:andesite_alloy', input: 'minecraft:andesite'},
 		{output: 'create:zinc_ingot', input: 'create:raw_zinc'},
+		{output: 'create:crushed_raw_copper'},
+		{output: 'create:crushed_raw_zinc'},
 
 		// Create: TFMG
 		{output: 'tfmg:steel_pipe'},

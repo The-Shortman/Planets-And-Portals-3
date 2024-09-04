@@ -420,6 +420,15 @@ function crushingRecipes(e) {
             ]
         },
         {
+            input: 'minecraft:raw_zinc',
+            outputs: [
+                'create:crushed_raw_zinc',
+                Item.of('create:crushed_raw_zinc').withChance(0.5),
+                Item.of('create:crushed_raw_zinc').withChance(0.05),
+                Item.of('create:experience_nugget').withChance(0.75)
+            ]
+        },
+        {
             input: 'minecraft:andesite',
             outputs: 'planetsandportals:andesite_dust'
         },
