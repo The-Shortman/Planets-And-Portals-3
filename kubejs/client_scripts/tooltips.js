@@ -87,6 +87,28 @@ ItemEvents.tooltip(tooltip => {
         {
             ids: ['createoreexcavation:drilling_machine', 'createoreexcavation:extractor'],
             text: 'All drilling recipes have a stress impact of 256x RPM.'
+        },
+        {
+            ids: [
+                'railways:wooden_headstock',
+                'railways:wooden_headstock_buffer',
+                'railways:wooden_headstock_link_and_pin_linkless',
+                'railways:wooden_headstock_knuckle_coupler',
+                'railways:wooden_headstock_split_knuckle_coupler',
+                'railways:wooden_headstock_screwlink_coupler'
+            ],
+            text: "Craft the [Wooden Headstock (Link 'n Pin)] item and hold [alt] while in main hand to get this item."
+        },
+        {
+            ids: [
+                'railways:copycat_headstock',
+                'railways:copycat_headstock_buffer',
+                'railways:copycat_headstock_link_and_pin_linkless',
+                'railways:copycat_headstock_knuckle_coupler',
+                'railways:copycat_headstock_split_knuckle_coupler',
+                'railways:copycat_headstock_screwlink_coupler'
+            ],
+            text: "Craft the [Copycat Headstock (Link 'n Pin)] item and hold [alt] while in main hand to get this item."
         }
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkGreen())
