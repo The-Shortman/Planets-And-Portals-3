@@ -7,6 +7,7 @@ ServerEvents.recipes(e => {
 			'create:crushed_raw_copper'
 		]},
 		{output: 'minecraft:copper_nugget', input: 'create:crushed_raw_copper'},
+		{output: 'minecraft:iron_ingot', input: 'minecraft:raw_iron'},
 		{input: 'minecraft:andesite', type: 'create:crushing'},
 
 		// Create

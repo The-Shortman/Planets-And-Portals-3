@@ -1150,7 +1150,7 @@ hash = "179fca96cd14eb9cb3be192b9709bbc3752bc03b8166e4c17ac420cd734a8f91"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "9b2a1b6dddbdf2b2d4df89539189405c29e4a909100c912f69a3ef79b7482dbc"
+hash = "73f5192a49d1f17c7ed1738b9ac057e6584ee25758d95b156bc9dc4904afe9bd"
 
 [[files]]
 file = "kubejs/server_scripts/mm.js"
@@ -1158,7 +1158,7 @@ hash = "18ba6508784ce5490e2a4eda5bf8c2e5505d8e1d4e39b156266ab31e2c556e9f"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "9d1107f3fa473f22115e934a2c5cf791d49a1da3163a641053fd0e38c5bd39ee"
+hash = "f1fb989d416b8dc7a46b6aa80ed19f1c3b5e5565729a0b9464791b9f9672a94a"
 
 [[files]]
 file = "kubejs/server_scripts/recipereplacements.js"
