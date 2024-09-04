@@ -341,7 +341,7 @@ function mechanicalCraftingRecipes(e) {
             pattern: [
                 ' AB',
                 'CDA',
-                'EC'
+                'EC '
             ],
             key: {
                 A: 'mekanism:ingot_osmium',
@@ -500,6 +500,13 @@ function washingRecipes (e) {
             outputs: [
                 '3x create:copper_nugget',
                 Item.of('minecraft:clay_ball').withChance(0.2)
+            ]
+        },
+        {
+            input: 'create:crushed_raw_copper',
+            outputs: [
+                '3x create:zinc_nugget',
+                Item.of('minecraft:gunpowder').withChance(0.2)
             ]
         },
         {

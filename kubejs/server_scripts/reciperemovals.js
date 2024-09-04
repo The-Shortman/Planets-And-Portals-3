@@ -18,6 +18,8 @@ ServerEvents.recipes(e => {
 		{output: 'create:zinc_ingot', type: 'minecraft:smelting'},
 		{output: 'create:zinc_ingot', type: 'minecraft:blasting'},
 		{output: 'create:zinc_ingot', type: 'create:fan_blasting'},
+		{output: 'create:copper_nugget', type: 'create:fan_washing'},
+		{output: 'create:zinc_nugget', type: 'create:fan_washing'},
 		{output: 'create:crushed_raw_copper'},
 		{output: 'create:crushed_raw_zinc'},
 		{output: 'create:mechanical_crafter'},

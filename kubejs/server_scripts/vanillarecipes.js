@@ -35,6 +35,16 @@ function shapedRecipes(e) {
             },
             output: '4x minecraft:ladder'
         },
+        {
+            pattern: [
+                'AA',
+                'AA'
+            ],
+            key: {
+                A: 'tfmg:fireclay_ball'
+            },
+            output: 'tfmg:fireclay'
+        },
 
         // Ad Astra stuff
         
