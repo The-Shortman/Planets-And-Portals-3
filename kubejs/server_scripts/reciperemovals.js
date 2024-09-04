@@ -54,6 +54,7 @@ ServerEvents.recipes(e => {
 		{output: 'create_new_age:energiser_t1'},
 		{output: 'create_new_age:energiser_t2'},
 		{output: 'create_new_age:energiser_t3'},
+		{output: 'create_new_age:advanced_solar_heating_plate'},
 
 		// Create Ore Excavation
 		{output: 'createoreexcavation:vein_finder'},

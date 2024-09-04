@@ -300,6 +300,20 @@ function mechanicalCraftingRecipes(e) {
     [
         {
             pattern: [
+                'AAA',
+                'BCB',
+                'BDB'
+            ],
+            key: {
+                A: 'create:framed_glass',
+                B: 'create_new_age:overcharged_iron',
+                C: 'create_new_age:basic_solar_heating_plate',
+                D: 'create_new_age:heat_pipe'
+            },
+            output: 'ad_astra:launch_pad'
+        },
+        {
+            pattern: [
                 'ABA',
                 'BAB',
                 'ABA'
