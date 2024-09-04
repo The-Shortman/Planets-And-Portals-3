@@ -372,9 +372,9 @@ function mechanicalCraftingRecipes(e) {
             ],
             key: {
                 A: 'ad_astra:rocket_nose_cone',
-                B: 'mekanism:advanced_bin',
+                B: 'mekanism:basic_bin',
                 C: 'ad_astra:oxygen_loader',
-                D: 'mekanism:advanced_fluid_tank',
+                D: 'mekanism:basic_fluid_tank',
                 E: 'mekanism:structural_glass',
                 F: 'ad_astra:desh_plateblock',
                 G: 'create:white_seat',

@@ -1150,7 +1150,7 @@ hash = "179fca96cd14eb9cb3be192b9709bbc3752bc03b8166e4c17ac420cd734a8f91"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "02f8656a31b69722098faf6ca4e939d79b3c22ead655b35bb05713e6afca7b72"
+hash = "487fdddb4d654406ae591913ad483782a9d8d805b45abd012d0d0dc3385afd2c"
 
 [[files]]
 file = "kubejs/server_scripts/mm.js"
