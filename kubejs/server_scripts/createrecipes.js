@@ -485,7 +485,7 @@ function washingRecipes (e) {
             input: 'create:crushed_raw_copper',
             outputs: [
                 '3x create:copper_nugget',
-                Item.of('minecraft:clay').withChance(0.2)
+                Item.of('minecraft:clay_ball').withChance(0.2)
             ]
         },
         {

@@ -201,6 +201,19 @@ function shapedRecipes(e) {
             },
             output: 'create:andesite_alloy'
         },
+        {
+            pattern: [
+                'A',
+                'B',
+                'C'
+            ],
+            key: {
+                A: 'create:precision_mechanism',
+                B: 'create:brass_casing',
+                C: 'minecraft:crafting_table'
+            },
+            output: '5x create:machanical_crafter'
+        },
 
         // Create: TFMG
 
@@ -527,7 +540,7 @@ function shapelessRecipes(e) {
             inputs: [
                 '4x minecraft:sand',
                 '4x minecraft:gravel',
-                '1x minecraft:clay_block'
+                'minecraft:clay'
             ],
             output: 'planetsandportals:grout'
         },
@@ -572,6 +585,10 @@ function smeltingRecipes(e) {
         {
             input: 'minecraft:rotten_flesh',
             output: 'minecraft:leather'
+        },
+        {
+            input: 'minecraft:copper_ingot',
+            output: 'mekanism:dust_copper'
         }
     ].forEach((recipe) => {
         e.smelting(recipe.output, recipe.input)
@@ -588,6 +605,10 @@ function blastingRecipes(e) {
             input: 'planetsandportals:crushed_calorite_ore',
             output: 'ad_astra:calorite_ingot'
         },
+        {
+            input: 'minecraft:copper_ingot',
+            output: 'mekanism:dust_copper'
+        }
     ].forEach((recipe) => {
         e.blasting(recipe.output, recipe.input)
     })

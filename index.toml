@@ -1158,7 +1158,7 @@ hash = "18ba6508784ce5490e2a4eda5bf8c2e5505d8e1d4e39b156266ab31e2c556e9f"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "0133037a464a42061adf4ed9a5660c17c91dd0763561e4fce092238ec9baace8"
+hash = "b8d55ddc93848f085eb39b94ed20cd565c02a52e9604d4da55092d41b21fb0fe"
 
 [[files]]
 file = "kubejs/server_scripts/recipereplacements.js"

@@ -2,10 +2,9 @@ ServerEvents.recipes(e => {
 	[
 		// Minecraft
 		{output: 'minecraft:ladder'},
-		{output: 'minecraft:copper_ingot', input: [
-			'minecraft:raw_copper',
-			'create:crushed_raw_copper'
-		]},
+		{output: 'minecraft:copper_ingot', type: 'minecraft:smelting'},
+		{output: 'minecraft:copper_ingot', type: 'minecraft:blasting'},
+		{output: 'minecraft:copper_ingot', type: 'create:fan_blasting'},
 		{output: 'minecraft:copper_nugget', input: 'create:crushed_raw_copper'},
 		{output: 'minecraft:iron_ingot', input: 'minecraft:raw_iron'},
 		{input: 'minecraft:andesite', type: 'create:crushing'},
@@ -16,9 +15,12 @@ ServerEvents.recipes(e => {
 		{output: 'create:vertical_framed_glass'},
 		{output: 'create:tiled_glass'},
 		{output: 'create:andesite_alloy', input: 'minecraft:andesite'},
-		{output: 'create:zinc_ingot', input: 'create:raw_zinc'},
+		{output: 'create:zinc_ingot', type: 'minecraft:smelting'},
+		{output: 'create:zinc_ingot', type: 'minecraft:blasting'},
+		{output: 'create:zinc_ingot', type: 'create:fan_blasting'},
 		{output: 'create:crushed_raw_copper'},
 		{output: 'create:crushed_raw_zinc'},
+		{output: 'create:mechanical_crafter'},
 
 		// Create: TFMG
 		{output: 'tfmg:steel_pipe'},
