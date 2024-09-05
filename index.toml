@@ -1033,8 +1033,16 @@ file = "kubejs/assets/mm/models/block/blast_furnace_item_output.json"
 hash = "4b6f33369e3d8bf43064b3c53fe43036e8d7730ee54c14867979cff8b0a38b61"
 
 [[files]]
+file = "kubejs/assets/planetsandportals/textures/block/grout.png"
+hash = "cfb301cf00ba3e9fde214d574556d6360e29a2b9786ef90d86b574cc4dee73df"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/textures/item/alloy_uninfused.png"
 hash = "d55603bc7901f507d71600ae93a1b8f5419bd3d8bf0c29b3e8f4e34989277eba"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/textures/item/andesite_dust.png"
+hash = "52107883c7050c6ffba60e0a0fb35f8eea393f7e262a652445a2a0045aeb1a7d"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/item/crushed_calorite_ore.png"
@@ -1173,12 +1181,16 @@ file = "kubejs/server_scripts/vanillarecipes.js"
 hash = "5abdfd7e07e053728e04e227bdc72c4dccbaf80b76393dfba2085148e49a0977"
 
 [[files]]
+file = "kubejs/startup_scripts/blockregistry.js"
+hash = "b8d76bb708927d79a2cc6b279a7ee1eb4fb4a15f77681c719691f6d6731917e5"
+
+[[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"
 hash = "beb29bb8189dbbc310cca47f2395cc11cf1159d8faa6ccdc28b71e33c142df34"
 
 [[files]]
 file = "kubejs/startup_scripts/itemregistry.js"
-hash = "58ec2b541e59e8c6801b74cfd0e91c65c72abfe496a330a32cf27a62dd2c7375"
+hash = "3377604e6b047449026566c72fe4d7850b5d49881976b1c5612f5fc11fbee68f"
 
 [[files]]
 file = "kubejs/startup_scripts/mm_registry.js"

@@ -18,7 +18,7 @@ StartupEvents.registry('item', e => {
     [
         // Crushed Ad Astra Ores
         {
-            id: 'planetsandportals:crushed_desh_ore',
+            id: 'planetsandportals:crushed_desh_ore', // Texture from Create Ad Astra Compat
             type: 'basic',
             name: 'Crushed Desh Ore',
             stackSize: 64
@@ -30,13 +30,13 @@ StartupEvents.registry('item', e => {
             stackSize: 64
         },
         {
-            id: 'planetsandportals:crushed_ostrum_ore',
+            id: 'planetsandportals:crushed_ostrum_ore', // Texture from Create Ad Astra Compat
             type: 'basic',
             name: 'Crushed Ostrum Ore',
             stackSize: 64
         },
         {
-            id: 'planetsandportals:crushed_calorite_ore',
+            id: 'planetsandportals:crushed_calorite_ore', // Texture from Create Ad Astra Compat
             type: 'basic',
             name: 'Crushed Calorite Ore',
             stackSize: 64
@@ -50,15 +50,9 @@ StartupEvents.registry('item', e => {
             stackSize: 64
         },
         {
-            id: 'planetsandportals:andesite_dust',
+            id: 'planetsandportals:andesite_dust', // Texture from Create: Astral
             type: 'basic',
             name: 'Powdered Andesite',
-            stackSize: 64
-        },
-        {
-            id: 'planetsandportals:grout',
-            type: 'basic',
-            name: 'Grout',
             stackSize: 64
         }
     ].forEach((item) => {
