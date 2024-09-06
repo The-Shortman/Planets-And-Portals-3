@@ -420,10 +420,10 @@ ServerEvents.recipes(e => {
             
             if (vein.type == 'item') {
                 //NOGRADE//
-                e.recipes.createoreexcavation.drilling(vein.resource, `createoreexcavation:ore_vein_type/lo_${vein.id}`, vein.baseTime)
+                e.recipes.createoreexcavation.drilling(vein.resource, `createoreexcavation:ore_vein_type/${vein.id}`, vein.baseTime)
                     .drill('createoreexcavation:diamond_drill')
                     .id(`createoreexcavation:lo_${vein.id}/diamond`)
-                e.recipes.createoreexcavation.drilling(vein.resource, `createoreexcavation:ore_vein_type/lo_${vein.id}`, vein.baseTime/(5/3))
+                e.recipes.createoreexcavation.drilling(vein.resource, `createoreexcavation:ore_vein_type/${vein.id}`, vein.baseTime/(5/3))
                     .drill('createoreexcavation:netherite_drill')
                     .id(`createoreexcavation:lo_${vein.id}/netherite`)
         

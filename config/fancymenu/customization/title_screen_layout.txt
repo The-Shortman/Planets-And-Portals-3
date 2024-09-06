@@ -89,7 +89,7 @@ element {
 
 element {
   interactable = true
-  source = Planets and Portals 3 [v0.6.2-alpha]
+  source = Planets and Portals 3 [v0.6.3-alpha]
   source_mode = direct
   shadow = true
   scale = 1.0
