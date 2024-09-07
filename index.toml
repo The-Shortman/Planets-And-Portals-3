@@ -262,7 +262,7 @@ hash = "5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea"
 
 [[files]]
 file = "config/doespotatotick-common.toml"
-hash = "d6083c5618852995a6db53f1897fcecbec29ce80bbaf2f2dd2e67ed4595bf775"
+hash = "a09a1961e98aa9b2b43de3daac6a0d79e3f43a59861a0dee65bc662d53f2e406"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
