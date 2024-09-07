@@ -1178,7 +1178,7 @@ hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "cb59a5378e5009b3a180da9eacc632cca2ea79cd62a99a2cb8fbeb9eb94db7ee"
+hash = "83241e70dc851a6cd86303230bb3697696b9e4b7ff49b56eed609ba53547734c"
 
 [[files]]
 file = "kubejs/startup_scripts/blockregistry.js"

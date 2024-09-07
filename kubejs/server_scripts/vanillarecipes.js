@@ -26,6 +26,17 @@ function shapedRecipes(e) {
         {
             pattern: [
                 'AAA',
+                'A A',
+                'AAA'
+            ],
+            key: {
+                A: '#forge:logs'
+            },
+            output: '4x minecraft:chest'
+        },
+        {
+            pattern: [
+                'AAA',
                 'BBB',
                 'AAA'
             ],
