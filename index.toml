@@ -1166,7 +1166,7 @@ hash = "18ba6508784ce5490e2a4eda5bf8c2e5505d8e1d4e39b156266ab31e2c556e9f"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
-hash = "e8e5bd0b26941787589b228d187e7c0b989c8848221d31628118f1210ec04fe3"
+hash = "4602c5377c4ca1091400cac9a0b2b6cc38ddcbb2b988b530099dbf9da146f343"
 
 [[files]]
 file = "kubejs/server_scripts/recipereplacements.js"
@@ -1178,7 +1178,7 @@ hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "5abdfd7e07e053728e04e227bdc72c4dccbaf80b76393dfba2085148e49a0977"
+hash = "cb59a5378e5009b3a180da9eacc632cca2ea79cd62a99a2cb8fbeb9eb94db7ee"
 
 [[files]]
 file = "kubejs/startup_scripts/blockregistry.js"

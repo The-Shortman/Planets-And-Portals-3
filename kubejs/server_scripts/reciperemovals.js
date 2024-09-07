@@ -2,6 +2,7 @@ ServerEvents.recipes(e => {
 	[
 		// Minecraft
 		{output: 'minecraft:ladder'},
+		{output: 'minecraft:bookshelf'},
 		{output: 'minecraft:copper_ingot', type: 'minecraft:smelting'},
 		{output: 'minecraft:copper_ingot', type: 'minecraft:blasting'},
 		{output: 'minecraft:copper_ingot', type: 'create:fan_blasting'},

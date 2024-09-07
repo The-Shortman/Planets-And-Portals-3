@@ -25,6 +25,17 @@ function shapedRecipes(e) {
         },
         {
             pattern: [
+                'AAA',
+                'BBB',
+                'AAA'
+            ],
+            key: {
+                A: ['#forge:planks', 'minecraft:oak_planks']
+            },
+            output: 'minecraft:bookshelf'
+        },
+        {
+            pattern: [
                 'A A',
                 'ABA',
                 'A A'
