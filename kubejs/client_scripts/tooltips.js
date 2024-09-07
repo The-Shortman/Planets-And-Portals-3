@@ -97,7 +97,7 @@ ItemEvents.tooltip(tooltip => {
                 'railways:wooden_headstock_split_knuckle_coupler',
                 'railways:wooden_headstock_screwlink_coupler'
             ],
-            text: "Craft the [Wooden Headstock (Link 'n Pin)] item and hold [alt] while in main hand to get this item."
+            text: "Craft the [Wooden Headstock (Link 'n Pin)] item and hold [ALT] while in main hand to get this item."
         },
         {
             ids: [
@@ -108,7 +108,62 @@ ItemEvents.tooltip(tooltip => {
                 'railways:copycat_headstock_split_knuckle_coupler',
                 'railways:copycat_headstock_screwlink_coupler'
             ],
-            text: "Craft the [Copycat Headstock (Link 'n Pin)] item and hold [alt] while in main hand to get this item."
+            text: "Craft the [Copycat Headstock (Link 'n Pin)] item and hold [ALT] while in main hand to get this item."
+        },
+        {
+            ids: [
+                'railways:smokestack_long_brass_cap_steel',
+                'railways:smokestack_long_copper_cap_steel',
+                'railways:smokestack_long_brass',
+                'railways:smokestack_long_copper_cap_brass',
+                'railways:smokestack_long_copper',
+                'railways:smokestack_long_brass_cap_copper'
+            ],
+            text: "Craft the [Double Smokestack] item and hold [ALT] while in main hand to get this item."
+        },
+        {
+            ids: [
+                'railways:smokestack_coalburner_brass_cap_steel',
+                'railways:smokestack_coalburner_copper_cap_steel',
+                'railways:smokestack_coalburner_brass',
+                'railways:smokestack_coalburner_copper_cap_brass',
+                'railways:smokestack_coalburner_copper',
+                'railways:smokestack_coalburner_brass_cap_copper'
+            ],
+            text: "Craft the [Coalburner Smokestack] item and hold [ALT] while in main hand to get this item."
+        },
+        {
+            ids: [
+                'railways:smokestack_oilburner_brass_cap_steel',
+                'railways:smokestack_oilburner_copper_cap_steel',
+                'railways:smokestack_oilburner_brass',
+                'railways:smokestack_oilburner_copper_cap_brass',
+                'railways:smokestack_oilburner_copper',
+                'railways:smokestack_oilburner_brass_cap_copper'
+            ],
+            text: "Craft the [Oilburner Smokestack] item and hold [ALT] while in main hand to get this item."
+        },
+        {
+            ids: [
+                'railways:smokestack_streamlined_brass_cap_steel',
+                'railways:smokestack_streamlined_copper_cap_steel',
+                'railways:smokestack_streamlined_brass',
+                'railways:smokestack_streamlined_copper_cap_brass',
+                'railways:smokestack_streamlined_copper',
+                'railways:smokestack_streamlined_brass_cap_copper'
+            ],
+            text: "Craft the [Streamlined Smokestack] item and hold [ALT] while in main hand to get this item."
+        },
+        {
+            ids: [
+                'railways:smokestack_woodburner_brass_cap_steel',
+                'railways:smokestack_woodburner_copper_cap_steel',
+                'railways:smokestack_woodburner_brass',
+                'railways:smokestack_woodburner_copper_cap_brass',
+                'railways:smokestack_woodburner_copper',
+                'railways:smokestack_woodburner_brass_cap_copper'
+            ],
+            text: "Craft the [Woodburner Smokestack] item and hold [ALT] while in main hand to get this item."
         }
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkGreen())

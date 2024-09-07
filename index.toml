@@ -1110,7 +1110,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "67fbdd6e0b661aecc9dd7429d19dc777b9536b29b48e47711145e38a616b90a2"
+hash = "bb555ad8f2c53c02ae0baea696fb8c209ef3f735ea800df4f969eaad75bc0089"
 
 [[files]]
 file = "kubejs/config/client.properties"
