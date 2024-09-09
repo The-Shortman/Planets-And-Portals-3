@@ -31,6 +31,12 @@ ItemEvents.tooltip(tooltip => {
         },
         {
             ids: [
+                'tfmg:coke_oven'
+            ],
+            text: "The coke oven multiblock's function is disabled, use the Masterful Machinery rework instead."
+        },
+        {
+            ids: [
                 'ad_astra:tier_1_rocket',
                 'ad_astra:tier_2_rocket'
             ],
@@ -66,6 +72,16 @@ ItemEvents.tooltip(tooltip => {
                 'mekanismgenerators:bio_generator'
             ],
             text: 'Disabled - use generator coils from [Create: New Age] instead, or solar panels.'
+        },
+        {
+            ids: [
+                "mm:blast_furnace_fluid_input",
+                "mm:blast_furnace_item_output",
+                "mm:coke_oven_fluid_input",
+                "mm:steel_furnace_fluid_input",
+                "mm:steel_furnace_item_output"
+            ],
+            text: "Unused machinery port - no crafting recipe."
         }
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkRed())

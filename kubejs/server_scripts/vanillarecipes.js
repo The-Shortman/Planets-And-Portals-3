@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     shapedRecipes(e);
-//    shapelessRecipes(e);
+    shapelessRecipes(e);
     smeltingRecipes(e);
     blastingRecipes(e);
     stonecuttingRecipes(e);
@@ -224,19 +224,6 @@ function shapedRecipes(e) {
 
         {
             pattern: [
-                'ABA',
-                'BCB',
-                'ABA'
-            ],
-            key: {
-                A: 'minecraft:sand',
-                B: 'minecraft:gravel',
-                C: 'minecraft:clay'
-            },
-            output: 'planetsandportals:grout'
-        },
-        {
-            pattern: [
                 'AB',
                 'BA'
             ],
@@ -273,7 +260,20 @@ function shapedRecipes(e) {
                 B: 'tfmg:fireproof_bricks',
                 C: 'tfmg:cast_iron_pipe'
             },
-            output: 'mm:blast_furnace'
+            output: 'mm:blast_furnace_controller'
+        },
+        {
+            pattern: [
+                'AAA',
+                'ABA',
+                'ACA'
+            ],
+            key: {
+                A: 'tfmg:heavy_plate',
+                B: 'tfmg:steel_casing',
+                C: 'tfmg:steel_pipe'
+            },
+            output: 'mm:steel_furnace_controller'
         },
         
         // Create New Age stuff
@@ -580,6 +580,16 @@ function shapedRecipes(e) {
 function shapelessRecipes(e) {
     [
         // Create
+
+        {
+            inputs: [
+                '4x minecraft:gravel',
+                '4x minecraft:sand',
+                'minecraft:clay'
+            ],
+            output: 'planetsandportals:grout',
+            count: 16
+        },
         
         // Blast Furnace
         
@@ -588,23 +598,80 @@ function shapelessRecipes(e) {
                 'tfmg:fireproof_bricks',
                 'create:andesite_funnel'
             ],
-            output: 'mm:blast_furnace_item_input'
+            output: 'mm:blast_furnace_item_input',
+            count: 1
         },
         {
             inputs: [
                 'tfmg:fireproof_bricks',
                 'create:fluid_valve'
             ],
-            output: 'mm:blast_furnace_fluid_output'
+            output: 'mm:blast_furnace_fluid_output',
+            count: 1
         },
         {
             inputs: [
                 'tfmg:blast_furnace_output'
             ],
-            output: 'mm:blast_furnace'
+            output: 'mm:blast_furnace_controller',
+            count: 1
+        },
+
+        // Steel Furnace
+
+        {
+            inputs: [
+                'tfmg:heavy_machinery_casing',
+                'create:andesite_funnel'
+            ],
+            output: 'mm:steel_furnace_item_input',
+            count: 1
+        },
+        {
+            inputs: [
+                'tfmg:heavy_machinery_casing',
+                'create:fluid_valve'
+            ],
+            output: 'mm:steel_furnace_fluid_output',
+            count: 1
+        },
+
+        // Coke Oven
+
+        {
+            inputs: [
+                'mm:coke_oven_filler',
+                'create:display_board'
+            ],
+            output: 'mm:coke_oven_controller',
+            count: 1
+        },
+        {
+            inputs: [
+                'mm:coke_oven_filler',
+                'create:andesite_funnel'
+            ],
+            output: 'mm:coke_oven_item_output',
+            count: 1
+        },
+        {
+            inputs: [
+                'mm:coke_oven_filler',
+                'create:brass_funnel'
+            ],
+            output: 'mm:coke_oven_item_input',
+            count: 1
+        },
+        {
+            inputs: [
+                'mm:coke_oven_filler',
+                'create:fluid_valve'
+            ],
+            output: 'mm:coke_oven_fluid_output',
+            count: 1
         }
     ].forEach((recipe) => {
-        e.shapeless(recipe.output, recipe.inputs)
+        e.shapeless(Item.of(recipe.output, recipe.count), recipe.inputs)
     })
 }
 
