@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["33965327E319C662"]
 			description: ["You can store your money in here and exchange for higher or lower currencies too!"]
 			id: "6F399F281A4AE660"
 			rewards: [{
@@ -30,7 +29,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["0541277DE16681E9"]
 			description: [
 				"When the correct amount of money is inserted, the block will pulse a redstone signal. You can power the block itself with redstone to prevent it from accepting money."
 				""
@@ -64,7 +62,6 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["5F63BC3B13248EEA"]
 			description: [
 				"Give to a Blaze Banker to gain access to the configs of your bank accounts and allow other people to access the money inside it."
 				""
@@ -87,7 +84,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["15C514564EAFAB27"]
 			description: ["You can sell and buy goods from this block. Shift+RMB to configure it!"]
 			id: "6E94FAD5F2CDBFCE"
 			rewards: [{
@@ -105,7 +101,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["33965327E319C662"]
 			description: [
 				"Bank Cards can be placed in depositors and vendors to automatically put money in your bank account."
 				""

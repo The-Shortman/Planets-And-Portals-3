@@ -18,11 +18,13 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7C289CC7B7FC0A63"]
 			description: [
 				"Create is an expansive mod that allows you to do quite basically anything you desire."
 				""
 				"Want to automate bread? Easy! Want to drill out an entire chunk at a time down to bedrock? Gotcha covered! Want to run a train several thousand blocks to transport your beloved pet crab back and forth in a perpetual, neverending loop? Sure thing!"
 			]
+			hide: true
 			id: "440ACAEBB9D96DB7"
 			rewards: [{
 				id: "2C611643B582CED5"
@@ -79,32 +81,19 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "16176709923211EB"
-					item: "create:water_wheel"
-					type: "item"
-				}
-				{
-					advancement: "create:water_wheel"
-					criterion: ""
-					icon: {
-						Count: 1
-						id: "minecraft:tipped_arrow"
-						tag: {
-							Potion: "minecraft:water_breathing"
-						}
-					}
-					id: "48B20A40C9EA65F4"
-					type: "advancement"
-				}
-			]
+			tasks: [{
+				id: "16176709923211EB"
+				item: "create:water_wheel"
+				type: "item"
+			}]
 			x: -8.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["35C5D64CDBBA288B"]
+			description: ["Bear in mind that large water wheels are actually &oless&r space-efficient than small water wheels"]
 			id: "5B86942E92787345"
+			subtitle: "These spin at half the speed but double the SU generation"
 			tasks: [{
 				id: "105BC2BC3ACDF2C7"
 				item: "create:large_water_wheel"
@@ -227,11 +216,13 @@
 			y: 3.5d
 		}
 		{
+			dependencies: ["7C289CC7B7FC0A63"]
 			description: [
 				"Hold 'w' on most Create items to get a detailed guide on most of its functions."
 				""
 				"You can even hold 'w' on items in the quest book!"
 			]
+			hide: true
 			icon: "create:goggles"
 			id: "18B46C77C6607534"
 			rewards: [{
@@ -251,12 +242,18 @@
 		}
 		{
 			dependencies: ["35C5D64CDBBA288B"]
+			description: [
+				"These do work in any dimension! I mean it! Even in orbit!"
+				""
+				"Don't ask me how!"
+			]
 			id: "38D9D69D8B95D9AF"
 			rewards: [{
 				id: "5C84C18EE73A3138"
 				item: "numismatics:spur"
 				type: "item"
 			}]
+			subtitle: "Windmills are a more versatile alternative to water wheels"
 			tasks: [
 				{
 					id: "3BC4A9B2AC22D439"
@@ -303,10 +300,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"440ACAEBB9D96DB7"
-				"74AEE8F2250D31D4"
-			]
+			dependencies: ["440ACAEBB9D96DB7"]
 			icon: "create:mechanical_press"
 			id: "1C707675E327A49A"
 			shape: "square"
@@ -464,10 +458,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"440ACAEBB9D96DB7"
-				"7C1B4EDF0B3B0A7C"
-			]
+			dependencies: ["440ACAEBB9D96DB7"]
 			description: ["Place this underneath your mixer's basin and give it solid fuel or lava to heat it up."]
 			id: "34849FEBAB716C1D"
 			rewards: [{
@@ -668,6 +659,7 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["7C289CC7B7FC0A63"]
 			description: [
 				"Shift+RMB on any Create block or vanilla redstone component to pick it back up, instantly!"
 				""
@@ -675,6 +667,7 @@
 				""
 				"It can also be used to configure certain blocks, and also rotate them. RMB on a block's face to rotate it. "
 			]
+			hide: true
 			id: "66D01FC4A38BE2E1"
 			rewards: [{
 				id: "73F82CDCB709F972"
@@ -691,11 +684,13 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["7C289CC7B7FC0A63"]
 			description: [
 				"Put this on your face to get extra info about EVERYTHING!"
 				""
 				"(Disclaimer: info about Create items only)"
 			]
+			hide: true
 			id: "5E86B8B67D6646F7"
 			rewards: [{
 				id: "17C9820D06C310B3"
@@ -712,10 +707,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"7A747F84576B724F"
-				"48483C22553615A1"
-			]
+			dependencies: ["7A747F84576B724F"]
 			id: "294E24EA4F730A31"
 			tasks: [{
 				id: "61AFDB597FAA1D95"
@@ -832,10 +824,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"4D9728B1D3B73E38"
-				"7CFA9A1D9B9A5579"
-			]
+			dependencies: ["7CFA9A1D9B9A5579"]
 			id: "0A2498D4F02D7033"
 			rewards: [{
 				count: 4
@@ -1013,10 +1002,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"7C0114C27044FF00"
-				"247C80821D3B9E5C"
-			]
+			dependencies: ["7C0114C27044FF00"]
 			id: "2CA59BD614BF28D5"
 			rewards: [{
 				id: "7936E2B5F5566491"
@@ -1084,10 +1070,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: [
-				"693CB7DA05A91905"
-				"48483C22553615A1"
-			]
+			dependencies: ["693CB7DA05A91905"]
 			id: "0F5C5C071BFEFAD4"
 			tasks: [{
 				id: "4BD40C20252A98CB"
@@ -1131,6 +1114,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["7C289CC7B7FC0A63"]
+			hide: true
 			id: "6D63618CFFC9631F"
 			rewards: [{
 				count: 4
@@ -1147,10 +1132,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"7C1B4EDF0B3B0A7C"
-				"5121489503016E16"
-			]
+			dependencies: ["5121489503016E16"]
 			description: ["Have some free money for your troubles :)"]
 			id: "3C3D74F483D0DC76"
 			rewards: [{
@@ -1689,6 +1671,8 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["7C289CC7B7FC0A63"]
+			hide: true
 			icon: "create:schematicannon"
 			id: "0625CFA53C315767"
 			rewards: [{
@@ -1731,6 +1715,7 @@
 				item: "numismatics:cog"
 				type: "item"
 			}]
+			shape: "hexagon"
 			subtitle: "Sweet liberty"
 			tasks: [{
 				advancement: "create:diving_suit_lava"

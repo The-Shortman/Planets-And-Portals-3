@@ -10,6 +10,8 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7C289CC7B7FC0A63"]
+			hide: true
 			id: "436668D6666D9327"
 			rewards: [{
 				id: "4BBE91E6D4B6F1C8"
@@ -262,8 +264,9 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["693CB7DA05A91905"]
+			dependencies: ["7C289CC7B7FC0A63"]
 			description: ["Warning: can be quite performance intensive when combined with filtered Brass Funnels/Smart Chutes!"]
+			hide: true
 			id: "3DFC5E253C3E9E59"
 			rewards: [{
 				count: 4
@@ -281,7 +284,9 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["7C289CC7B7FC0A63"]
 			description: ["Please don't"]
+			hide: true
 			id: "3BE8F73A60641538"
 			rewards: [{
 				id: "52E14845E6316FD5"

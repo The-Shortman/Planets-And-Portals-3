@@ -45,7 +45,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Deshmium"
+			subtitle: "Osmish"
 			tasks: [{
 				id: "3B3DB68A111DE94E"
 				item: "mekanism:ingot_osmium"
@@ -697,7 +697,7 @@
 		}
 		{
 			dependencies: ["57FB42B78E562DD0"]
-			description: ["Can also be used in the metallurgic infuser for certain things."]
+			description: ["Can also be used in the metallurgic infuser for greenifying certain blocks."]
 			id: "5C2E0E63488A7D53"
 			subtitle: "Burnable!"
 			tasks: [{

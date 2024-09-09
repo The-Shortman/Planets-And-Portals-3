@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["3BE8F73A60641538"]
 			description: [
 				"Everyone who has contributed to this modpack in any substantial way is listed here!"
 				""
@@ -23,11 +22,25 @@
 			shape: "heart"
 			size: 4.0d
 			subtitle: "Massive thanks to ALL OF YOU!"
-			tasks: [{
-				id: "7F3F2815C16ACFFE"
-				title: "Credits!"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "7F3F2815C16ACFFE"
+					title: "Credits!"
+					type: "checkmark"
+				}
+				{
+					id: "0F79602D4FA2EAB6"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chests"
+						}
+					}
+					title: "Any #forge:chests"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -102,6 +115,7 @@
 		}
 		{
 			dependencies: ["46D15BBDFEFAD5E3"]
+			description: ["Monocle man"]
 			hide_dependency_lines: true
 			icon: "create:goggles"
 			id: "322BA23516FDDBFD"
@@ -127,7 +141,6 @@
 				"(Discord: TheOverlyCaffeinatedTrashPanda)"
 			]
 			hide_dependency_lines: true
-			icon: "ae2:mysterious_cube"
 			id: "75B5F03F4E536869"
 			subtitle: "KubeJS stuff"
 			tasks: [{
@@ -267,7 +280,9 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["131DB96278BBD76A"]
+			dependencies: ["3E3AC0C89A2A5D98"]
+			description: ["Creator of the Create: Astral modpack - the person who got me so involved in modpack making"]
+			hide_dependency_lines: true
 			icon: "minecraft:wolf_spawn_egg"
 			id: "611FAC0E5D5BBDC3"
 			rewards: [
@@ -289,8 +304,8 @@
 				title: "Laskyyy"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: -1.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["131DB96278BBD76A"]
@@ -322,8 +337,8 @@
 				title: "ThEmeralDuke"
 				type: "checkmark"
 			}]
-			x: 8.5d
-			y: 2.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["131DB96278BBD76A"]
@@ -386,7 +401,7 @@
 		}
 		{
 			dependencies: ["60C59D590B54221F"]
-			description: ["The Incident™ of 2024"]
+			description: ["The Incident™ of Early 2024"]
 			hide_dependency_lines: true
 			icon: "minecraft:water_bucket"
 			id: "145FEF8E862E2C7A"
@@ -410,7 +425,7 @@
 				}
 			]
 			x: 9.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["60C59D590B54221F"]
@@ -421,8 +436,8 @@
 				title: "william the world destroyer"
 				type: "checkmark"
 			}]
-			x: 9.5d
-			y: 1.0d
+			x: 8.5d
+			y: 2.0d
 		}
 	]
 	subtitle: ["Thank you!"]

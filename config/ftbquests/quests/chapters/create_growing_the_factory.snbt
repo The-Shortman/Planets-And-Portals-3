@@ -70,6 +70,7 @@
 			dependencies: [
 				"0CAC39CC53D2824F"
 				"5C92A98D3E1D3722"
+				"55ABA7F86BE66CB8"
 			]
 			description: [
 				"The blast furnace also produces slag as a byproduct. This can be stored, voided, or used in manufacturing concrete."
@@ -826,6 +827,18 @@
 			}]
 			x: 9.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["2FED5D8D469697E9"]
+			hide: true
+			id: "55ABA7F86BE66CB8"
+			tasks: [{
+				id: "44C367F00E2B54F2"
+				item: "tfmg:blasting_mixture"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
 		}
 	]
 	subtitle: ["E X P A N D"]

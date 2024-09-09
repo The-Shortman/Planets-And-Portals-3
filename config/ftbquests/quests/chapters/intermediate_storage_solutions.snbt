@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "intermediate_storage_solutions"
 	group: "78B4A4EF75A52C04"
+	icon: "minecraft:ender_chest"
 	id: "5B388B0DD9FF0217"
 	order_index: 1
 	quest_links: [ ]
