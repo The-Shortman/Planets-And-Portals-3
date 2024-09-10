@@ -1,71 +1,71 @@
 MMEvents.createStructures(event => {
 
-    // Coke Oven
+	// Coke Oven
 
-    event.create("mm:coke_oven_structure")
-        .controllerId("mm:coke_oven_controller")
-        .name("Coke Oven")
-        .layout(a => {
-            a.layer([
-                "I",
-                "A",
-                "F"
-            ]).layer([
-                "A",
-                "A",
-                "C"
-            ]).layer([
-                "A",
-                "A",
-                "O"
-            ]).key("A", {
-                block: "mm:coke_oven_filler"
-            }).key("I", {
-                port: "mm:coke_oven_item",
-                input: true
-            }).key("O", {
-                port: "mm:coke_oven_item",
-                input: false
-            }).key("F", {
-                port: "mm:coke_oven_fluid",
-                input: false
-            });
-        });
+	event.create("mm:coke_oven_structure")
+		.controllerId("mm:coke_oven_controller")
+		.name("Coke Oven")
+		.layout(a => {
+			a.layer([
+				"I",
+				"A",
+				"F"
+			]).layer([
+				"A",
+				"A",
+				"C"
+			]).layer([
+				"A",
+				"A",
+				"O"
+			]).key("A", {
+				block: "mm:coke_oven_filler"
+			}).key("I", {
+				port: "mm:coke_oven_item",
+				input: true
+			}).key("O", {
+				port: "mm:coke_oven_item",
+				input: false
+			}).key("F", {
+				port: "mm:coke_oven_fluid",
+				input: false
+			});
+		});
     
-    // Blast Furnace
+	// Blast Furnace
 
-    event.create("mm:blast_furnace_structure")
-        .controllerId("mm:blast_furnace_controller")
-        .name("Blast Furnace")
-        .layout(a => {
-            a.layer([
-                " A ",
-                "A A",
-                " A "  
-            ]).layer([
-                "BAB",
-                "A A",
-                "BAB"
-            ]).layer([
-                "BAB",
-                "A A",
-                "BAB"
-            ]).layer([
-                "BOB",
-                "IAI",
-                "BCB"
-            ]).key("A", {
-                block: "tfmg:fireproof_bricks"
-            }).key("B", {
-                block: "tfmg:fireproof_brick_reinforcement"
-            }).key("I", {
-                port: "mm:blast_furnace_item",
-                input: true
-            }).key("O", {
-                port: "mm:blast_furnace_fluid",
-                input: false
-            });
-        });
+	event.create("mm:blast_furnace_structure")
+		.controllerId("mm:blast_furnace_controller")
+		.name("Blast Furnace")
+		.layout(a => {
+			a.layer([
+				" A ",
+				"A A",
+				" A "  
+			]).layer([
+				"BAB",
+				"A A",
+				"BAB"
+			]).layer([
+				"BAB",
+				"A A",
+				"BAB"
+			]).layer([
+				"BOB",
+				"IAI",
+				"BCB"
+			]).key("A", {
+				block: "tfmg:fireproof_bricks"
+			}).key("B", {
+				block: "tfmg:fireproof_brick_reinforcement"
+			}).key("I", {
+				port: "mm:blast_furnace_item",
+				input: true
+			}).key("O", {
+				port: "mm:blast_furnace_fluid",
+				input: false
+			});
+		});
 
     // Steel Furnace
 

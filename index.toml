@@ -1077,7 +1077,7 @@ file = "kubejs/assets/mm/models/block/steel_furnace_item_output.json"
 hash = "a6781bcf9da6a116285601029276fd1e5b2abbc9a249a4668e763a84800ae6a2"
 
 [[files]]
-file = "kubejs/assets/mm/textures/block/coke_oven_filler.png"
+file = "kubejs/assets/planetsandportals/textures/block/coke_oven_filler.png"
 hash = "552c5306ed061e3ca08cda39ec0caee26e2ca82380a13924708d088cd4b13c35"
 
 [[files]]
@@ -1206,11 +1206,11 @@ hash = "179fca96cd14eb9cb3be192b9709bbc3752bc03b8166e4c17ac420cd734a8f91"
 
 [[files]]
 file = "kubejs/server_scripts/createrecipes.js"
-hash = "4910eb7b97b939a47a830e0320371c586040584306003de5cb8363698613c646"
+hash = "22188a9de1c634f0afc1d28fc904af80f294694149b2e16cefc7b4d3f699d9a3"
 
 [[files]]
 file = "kubejs/server_scripts/mm.js"
-hash = "d79c91d29f18bcb6faeb7a52dff65d68a1ee24d216a0949b6cffdef57f05b474"
+hash = "c876ada24d6c9e70031bc6807ffcf1e5cb0f09075f2cec0dfab7bc7e6e880c9d"
 
 [[files]]
 file = "kubejs/server_scripts/reciperemovals.js"
@@ -1222,7 +1222,7 @@ hash = "7eb5fe32906080006c0b4261a1432f05c416dc7dde69227465d2aa9bb334a685"
 
 [[files]]
 file = "kubejs/server_scripts/tags/wrench.js"
-hash = "2f7c85318c404367e76048d752210c3be1a3fe529c2ccb1dcd4de7ef90c631ef"
+hash = "4d8d0dbcdc19bebb7de12b0d7b327ae850bedb460a9b858073117e6cb8fbe872"
 
 [[files]]
 file = "kubejs/server_scripts/tfmg_casting.js"
@@ -1230,11 +1230,11 @@ hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
 
 [[files]]
 file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "5123e26139be97ad1f48c8439ae5ce90654399317a02acd18baff2d7df9bf3ec"
+hash = "6ec5f96734c15a2a2bd3cce53223750166f436fcd779df5b4764acfbfeae57c5"
 
 [[files]]
 file = "kubejs/startup_scripts/blockregistry.js"
-hash = "21daeaffceb53ad7d6365e89005d36f437e83328085da019ddfb1ddc8858d8eb"
+hash = "d3f8c0502d6c773eb85ab1f34b205dac90f48cfcd809666def8ae197e28bb959"
 
 [[files]]
 file = "kubejs/startup_scripts/fluidregistry.js"
