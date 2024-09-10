@@ -1082,27 +1082,27 @@ hash = "552c5306ed061e3ca08cda39ec0caee26e2ca82380a13924708d088cd4b13c35"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/ponder/blast_furnace_structure.nbt"
-hash = "77d75a461ed646de5ac19204a4487a20a53a19c282d0b9a662d15805c56ba5ae"
+hash = "099ed034df1e725a48c9a6c56894507d17495f9a722c4bb991e6a24f25ee9965"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/ponder/blast_furnace_usage.nbt"
-hash = "62b88a58c6ec1b3bbc9efa511ea18b37e204d8881eeae71b33e67595f31f691e"
+hash = "38e0eabd6bd3ab2b7f5132ddac1e5d762d8368c7f13c562c4859c9721f302c78"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/ponder/coke_oven_structure.nbt"
-hash = "c2cf36f9cccc451c4227af76b5040a8d936f9e2a614d7fb1dac9ff30f07da846"
+hash = "360d24973a09e04c0f27b16d6b68fbda661911b3bb9aa3fb19d63389a761b0a5"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/ponder/coke_oven_usage.nbt"
-hash = "f0a327d12d18d57840ce85f81a75a9c6d799324834dc526f125e2b117023919a"
+hash = "84cc0f424707ebc7e28ba508986377c95b17dbb96880a450275815821dfbee82"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/ponder/steel_furnace_structure.nbt"
-hash = "ae1ccc76a34527e8b9b57a365ff7ebc055793d4bbca3a5ff3e8bb79afc2e7e00"
+hash = "7b3cdeeed53a6c9502aef8dd7d85b50d4ca3a87d4a21f42b0cb55c216da798a6"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/ponder/steel_furnace_usage.nbt"
-hash = "eceec00712a90817122dc5a99ecfc473327046c5934beac4caae5d88e49eb12a"
+hash = "bf47db89d10f4a1b55a360b9f97d50f7ff0941502dd5d1f0c1bc453d2d6853e8"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/block/grout.png"
@@ -1182,7 +1182,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/registry.js"
-hash = "1c197c5a354cef9898dd13e2ae0c88278cd0c39ff47e023896edbec9a97f2b37"
+hash = "17abb8d3281e5ed5b94809bfebffbc07bf663d661e402778df9f64c1e8b0b627"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/tags.js"
