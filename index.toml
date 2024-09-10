@@ -1077,8 +1077,32 @@ file = "kubejs/assets/mm/models/block/steel_furnace_item_output.json"
 hash = "a6781bcf9da6a116285601029276fd1e5b2abbc9a249a4668e763a84800ae6a2"
 
 [[files]]
-file = "kubejs/assets/planetsandportals/textures/block/coke_oven_filler.png"
+file = "kubejs/assets/mm/textures/block/coke_oven_filler.png"
 hash = "552c5306ed061e3ca08cda39ec0caee26e2ca82380a13924708d088cd4b13c35"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/blast_furnace_structure.nbt"
+hash = "77d75a461ed646de5ac19204a4487a20a53a19c282d0b9a662d15805c56ba5ae"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/blast_furnace_usage.nbt"
+hash = "62b88a58c6ec1b3bbc9efa511ea18b37e204d8881eeae71b33e67595f31f691e"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/coke_oven_structure.nbt"
+hash = "c2cf36f9cccc451c4227af76b5040a8d936f9e2a614d7fb1dac9ff30f07da846"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/coke_oven_usage.nbt"
+hash = "f0a327d12d18d57840ce85f81a75a9c6d799324834dc526f125e2b117023919a"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/steel_furnace_structure.nbt"
+hash = "ae1ccc76a34527e8b9b57a365ff7ebc055793d4bbca3a5ff3e8bb79afc2e7e00"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/steel_furnace_usage.nbt"
+hash = "eceec00712a90817122dc5a99ecfc473327046c5934beac4caae5d88e49eb12a"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/block/grout.png"
@@ -1157,6 +1181,14 @@ file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
+file = "kubejs/client_scripts/ponders/registry.js"
+hash = "1c197c5a354cef9898dd13e2ae0c88278cd0c39ff47e023896edbec9a97f2b37"
+
+[[files]]
+file = "kubejs/client_scripts/ponders/tags.js"
+hash = "dc427bc16460bfb839bd85d48586cf75e019f45e2c72a0ce27f2684ee501f24a"
+
+[[files]]
 file = "kubejs/client_scripts/tooltips.js"
 hash = "47e43759e8103932bda8188c6a58403828bb5317b5418f983765993bd58b387a"
 
@@ -1166,7 +1198,7 @@ hash = "57ba07d76b2e4b3dab5bd5979998735cfd98dff962a27d0bcdddbc9fcdc4afdb"
 
 [[files]]
 file = "kubejs/config/common.properties"
-hash = "2ecc388d59054b4c8def8d17d77191c951da940d8dfedb726e0d82b6a8ac6586"
+hash = "5b915efedcf08a57be0c213642229ba2a0651004ffa3903db6eb3556428c331e"
 
 [[files]]
 file = "kubejs/data/ae2/tags/worldgen/biome/has_meteorites.json"
@@ -1201,51 +1233,51 @@ file = "kubejs/data/realmrpg_skeletons/tags/worldgen/biome/blacklist.json"
 hash = "22aa3f0fecb35191c60bdd2900718719328dc45e2124468ef4bb4448dabe9fa1"
 
 [[files]]
-file = "kubejs/server_scripts/createoreexcavation_recipes.js"
+file = "kubejs/server_scripts/recipes/createoreexcavation_recipes.js"
 hash = "179fca96cd14eb9cb3be192b9709bbc3752bc03b8166e4c17ac420cd734a8f91"
 
 [[files]]
-file = "kubejs/server_scripts/createrecipes.js"
-hash = "22188a9de1c634f0afc1d28fc904af80f294694149b2e16cefc7b4d3f699d9a3"
+file = "kubejs/server_scripts/recipes/createrecipes.js"
+hash = "4910eb7b97b939a47a830e0320371c586040584306003de5cb8363698613c646"
 
 [[files]]
-file = "kubejs/server_scripts/mm.js"
-hash = "c876ada24d6c9e70031bc6807ffcf1e5cb0f09075f2cec0dfab7bc7e6e880c9d"
+file = "kubejs/server_scripts/recipes/mm.js"
+hash = "02873c8d12bb95d4f7b46d80cc1d4e2ebddfe64c34ca5fa8076a8e33655520ac"
 
 [[files]]
-file = "kubejs/server_scripts/reciperemovals.js"
+file = "kubejs/server_scripts/recipes/reciperemovals.js"
 hash = "4602c5377c4ca1091400cac9a0b2b6cc38ddcbb2b988b530099dbf9da146f343"
 
 [[files]]
-file = "kubejs/server_scripts/recipereplacements.js"
+file = "kubejs/server_scripts/recipes/recipereplacements.js"
 hash = "7eb5fe32906080006c0b4261a1432f05c416dc7dde69227465d2aa9bb334a685"
 
 [[files]]
-file = "kubejs/server_scripts/tags/wrench.js"
-hash = "4d8d0dbcdc19bebb7de12b0d7b327ae850bedb460a9b858073117e6cb8fbe872"
-
-[[files]]
-file = "kubejs/server_scripts/tfmg_casting.js"
+file = "kubejs/server_scripts/recipes/tfmg_casting.js"
 hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
 
 [[files]]
-file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "6ec5f96734c15a2a2bd3cce53223750166f436fcd779df5b4764acfbfeae57c5"
+file = "kubejs/server_scripts/recipes/vanillarecipes.js"
+hash = "5123e26139be97ad1f48c8439ae5ce90654399317a02acd18baff2d7df9bf3ec"
 
 [[files]]
-file = "kubejs/startup_scripts/blockregistry.js"
-hash = "d3f8c0502d6c773eb85ab1f34b205dac90f48cfcd809666def8ae197e28bb959"
+file = "kubejs/server_scripts/tags/wrench.js"
+hash = "2f7c85318c404367e76048d752210c3be1a3fe529c2ccb1dcd4de7ef90c631ef"
 
 [[files]]
-file = "kubejs/startup_scripts/fluidregistry.js"
+file = "kubejs/startup_scripts/registry/blockregistry.js"
+hash = "21daeaffceb53ad7d6365e89005d36f437e83328085da019ddfb1ddc8858d8eb"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/fluidregistry.js"
 hash = "beb29bb8189dbbc310cca47f2395cc11cf1159d8faa6ccdc28b71e33c142df34"
 
 [[files]]
-file = "kubejs/startup_scripts/itemregistry.js"
+file = "kubejs/startup_scripts/registry/itemregistry.js"
 hash = "3377604e6b047449026566c72fe4d7850b5d49881976b1c5612f5fc11fbee68f"
 
 [[files]]
-file = "kubejs/startup_scripts/mm_registry.js"
+file = "kubejs/startup_scripts/registry/mm_registry.js"
 hash = "a2c6a8afd882f8696175e4c029f7a7d34f67f7c54b96159f1214b47276f92de3"
 
 [[files]]

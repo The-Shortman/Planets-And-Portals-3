@@ -122,8 +122,8 @@ MMEvents.createProcesses(event => {
             type: "mm:output/simple",
             ingredient: {
                 type: "mm:item",
-                fluid: "tfmg:coal_coke",
-                amount: 112
+                item: "tfmg:coal_coke",
+                count: 112
             }
         })
         .output({
