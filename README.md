@@ -3,6 +3,7 @@ An in-development modpack for Minecraft Forge 1.20.1
 This is the official repository for the Planets and Portals 3 modpack, soon to be available on Curseforge. Reporting issues and making suggestions is to be done in the Issues tab on this repository and in the Discord server's #bug-reports forum channel. It makes it much easier to keep track of everything <3
 
 **Current main branch version: v0.6.3-alpha**
+
 **Current dev branch version: v0.7.0-alpha**
 
 ## Playtesters
