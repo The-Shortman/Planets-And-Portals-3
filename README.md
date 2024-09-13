@@ -2,7 +2,8 @@
 An in-development modpack for Minecraft Forge 1.20.1
 This is the official repository for the Planets and Portals 3 modpack, soon to be available on Curseforge. Reporting issues and making suggestions is to be done in the Issues tab on this repository and in the Discord server's #bug-reports forum channel. It makes it much easier to keep track of everything <3
 
-**Current version: v0.7.0-alpha**
+**Current main branch version: v0.6.3-alpha**
+**Current dev branch version: v0.7.0-alpha**
 
 ## Playtesters
 This repository is for the most up-to-date development build. Stable/complete releases will be found on Curseforge once the modpack releases to the public.
@@ -54,13 +55,10 @@ The pack should now automatically update every time you run the instance
 ### Other info
 As to your credit in the Credits quest chapter, it will be added in the update after you sign up for the playtesting programme :)
 
-There is currently no public server (I am actively working on this). If you wish to host a dedicated server, feel free to do so. If you have any issues setting one up let me know as I've had my pain in modifying this to make a server pack every time I update it, or you can use either e4mc or the Essential mod to host it from your client for free:
+There is currently no public server (I am actively working on this). If you wish to host a dedicated server, feel free to do so. If you have any issues setting one up let me know as I've had my pain in modifying this to make a server pack every time I update it, or I wpuld recommend e4mc to host it from your client for free - only the host needs the mod installed for anybody (with all the *other* required mods) to join:
 
 e4mc:
 https://www.curseforge.com/minecraft/mc-mods/e4mc
-
-Essential:
-https://essential.gg/en
 
 ## Contributing
 If you wish to contribute, you can make a fork of this project, do your modifications, and open a pull request for review of the changes you've made. Make sure you make changes to the dev branch, **not the main branch**.
