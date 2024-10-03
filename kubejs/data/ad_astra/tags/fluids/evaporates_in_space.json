@@ -1,0 +1,10 @@
+{
+	"replace": true,
+	"values": [
+		"minecraft:water",
+		"planetsandportals:obsidian_solution",
+		"planetsandportals:hydrocarbon_fuel",
+		"planetsandportals:helium_fuel",
+		"planetsandportals:light_helium"
+	]
+}
