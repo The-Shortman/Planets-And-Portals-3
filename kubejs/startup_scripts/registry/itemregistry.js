@@ -16,6 +16,20 @@ ItemEvents.armorTierRegistry(e => {
 
 StartupEvents.registry('item', e => {
     [
+        // Restricted Portals Keys
+        {
+            id: 'planetsandportals:hell_flower',
+            type: 'basic',
+            name: 'Hell Flower',
+            stackSize: 64
+        },
+        {
+            id: 'planetsandportals:end_prevention_placeholder',
+            type: 'basic',
+            name: 'Placeholder Item',
+            stackSize: 64
+        },
+        
         // Crushed Ad Astra Ores
         {
             id: 'planetsandportals:crushed_desh_ore', // Texture from Create Ad Astra Compat
