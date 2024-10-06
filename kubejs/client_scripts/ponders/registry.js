@@ -1,4 +1,7 @@
 Ponder.registry((e) => {
+
+	// Coke Oven Structure
+
 	e.create("mm:coke_oven_controller")
 		.scene(
 			"coke_oven_structure",
@@ -39,6 +42,8 @@ Ponder.registry((e) => {
 					.colored(PonderPalette.INPUT);
 			}
 		);
+
+	// Coke Oven Usage
 
 	e.create("mm:coke_oven_controller")
 		.scene(
@@ -97,6 +102,8 @@ Ponder.registry((e) => {
 			}
 		);
 	
+	// Blast Furnace Structure
+
 	e.create("mm:blast_furnace_controller")
 		.scene(
 			"blast_furnace_structure",
@@ -150,6 +157,8 @@ Ponder.registry((e) => {
 				}
 			}
 		);
+
+	// Blast Furnace Usage
 
 	e.create("mm:blast_furnace_controller")
 		.scene(
@@ -206,6 +215,8 @@ Ponder.registry((e) => {
 			}
 		);
 	
+	// Steel Furnace Structure
+
 	e.create("mm:steel_furnace_controller")
 		.scene(
 			"steel_furnace_structure",
@@ -266,6 +277,8 @@ Ponder.registry((e) => {
 				scene.idle(110);
 			}
 		);
+
+	// Steel Furnace Usage
 
 	e.create("mm:steel_furnace_controller")
 		.scene(
@@ -337,4 +350,63 @@ Ponder.registry((e) => {
 				scene.world.showSection([4, 2, 2, 6, 5, 4], Facing.SOUTH);
 			}
 		);
-})
+
+	// Fuel Mixer Structure
+
+	e.create("fuel_mixer_controller")
+		.scene(
+			"fuel_mixer_structure",
+			"Building the Fuel Mixer",
+			"planetsandportals:fuel_mixer_structure",
+			(scene, util) => {
+				scene.showBasePlate();
+				scene.idle(10);
+
+				for (let z = 0; z < 4; z++) {
+					for (let x = 0; x < 4; x++) {
+						scene.world.showSection([x, 1, z], Facing.DOWN);
+						scene.idle(1);
+					}
+				}
+
+				scene.idle(10);
+
+				scene.text(40, "Controller block", [2.5, 1.5, 1])
+					.colored(PonderPalette.MEDIUM);
+				scene.idle(50);
+				scene.text(40, "Fluid input", [1.5, 2, 1.5])
+					.colored(PonderPalette.INPUT);
+				scene.idle(50);
+				scene.text(40, "Fluid input", [3.5, 2, 1.5])
+					.colored(PonderPalette.INPUT);
+				scene.idle(50);
+				scene.text(40, "Fluid output", [2.5, 2, 3.5])
+					.colored(PonderPalette.OUTPUT);
+				scene.idle(50);
+
+				for (let z = 0; z < 4; z++) {
+					for (let x = 0; x < 4; x++) {
+						scene.world.showSection([x, 2, z], Facing.DOWN);
+						scene.idle(1);
+					}
+				}
+
+				scene.idle(10);
+
+				for (let z = 0; z < 4; z++) {
+					for (let x = 0; x < 4; x++) {
+						scene.world.showSection([x, 3, z], Facing.DOWN);
+						scene.idle(1);
+					}
+				}
+
+				scene.idle(10);
+
+				scene.text(40, "Energy input", [2.5, 4, 3.5])
+					.colored(PonderPalette.INPUT)
+					.attachKeyFrame();
+
+				scene.idle(50);
+			}
+		)
+});

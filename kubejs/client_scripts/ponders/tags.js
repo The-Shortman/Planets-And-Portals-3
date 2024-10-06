@@ -15,7 +15,8 @@ Ponder.tags((e) => {
 			items: [
 				"mm:coke_oven_controller",
 				"mm:blast_furnace_controller",
-				"mm:steel_furnace_controller"
+				"mm:steel_furnace_controller",
+				"mm:fuel_mixer_controller"
 			]
 		},
 	].forEach((ponder) => {
