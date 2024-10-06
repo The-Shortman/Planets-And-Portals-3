@@ -1125,6 +1125,10 @@ file = "kubejs/assets/planetsandportals/ponder/coke_oven_usage.nbt"
 hash = "84cc0f424707ebc7e28ba508986377c95b17dbb96880a450275815821dfbee82"
 
 [[files]]
+file = "kubejs/assets/planetsandportals/ponder/fuel_mixer_structure.nbt"
+hash = "cc05e57c64d88ea4085edbfd2a6ef2de70eafe89481de68776f41a70cffb79c3"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/ponder/steel_furnace_structure.nbt"
 hash = "7b3cdeeed53a6c9502aef8dd7d85b50d4ca3a87d4a21f42b0cb55c216da798a6"
 
@@ -1210,11 +1214,11 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/registry.js"
-hash = "b1f669e0a636ac2b154fbff308a2ef8956ebab096f674f93054b2ba7b21ec4df"
+hash = "bb83fe0e7fbdf540e77c8c02ab18b4bdd04884ae2854f897ae8c201b5bd25cbd"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/tags.js"
-hash = "dc427bc16460bfb839bd85d48586cf75e019f45e2c72a0ce27f2684ee501f24a"
+hash = "fb7188eb0a3d6c014c393f614fd67e5a8190bce695de26408512d41515d1abb2"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
