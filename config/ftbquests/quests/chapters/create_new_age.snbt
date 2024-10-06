@@ -356,7 +356,7 @@
 			description: [
 				"PLEASE read the ponder guide for this!"
 				""
-				"Nuclear reactors are not viable for powering stirling engines! hook them up to Boiler Heaters to heat steam engines instead!"
+				"Nuclear reactors are not viable for powering stirling engines! Hook them up to Boiler Heaters to heat steam engines instead!"
 			]
 			id: "5089EFBB47655316"
 			subtitle: "This can only be used to generate heat directly, not electricity"

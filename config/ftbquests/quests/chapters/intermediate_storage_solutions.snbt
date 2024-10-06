@@ -3,10 +3,58 @@
 	default_quest_shape: ""
 	filename: "intermediate_storage_solutions"
 	group: "78B4A4EF75A52C04"
-	hide_quest_until_deps_visible: true
+	icon: "minecraft:ender_chest"
 	id: "5B388B0DD9FF0217"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["4D21B058E8F6D8D7"]
+			description: [
+				"You can connect this to any inventory!"
+				""
+				"It's recommended that you connect this to an Inventory Connector. You can, however, also connect it to Portable Storage Interfaces to access contraption inventories directly! Super useful for chunk drills!"
+			]
+			id: "517B1E2DEC1BCCF8"
+			subtitle: "Gives an AE2-like interface to any inventory"
+			tasks: [{
+				id: "20FA814C8A8E5005"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D21B058E8F6D8D7"]
+			description: [
+				"All inventories connected to this will count as one inventory to a storage terminal."
+				""
+				"Use it to link all your chests together!"
+			]
+			id: "10D25CECA71371CC"
+			tasks: [{
+				id: "32EE7C4E41C0905A"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["517B1E2DEC1BCCF8"]
+			description: ["And it looks way too expensive!"]
+			id: "60CB1B5A6BD1A41F"
+			subtitle: "Like the storage terminal, but it has a crafting table!"
+			tasks: [{
+				id: "13D9887BB389B714"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["AE2 if it was basic or something idk"]
 	title: "Intermediate Storage Solutions"
 }

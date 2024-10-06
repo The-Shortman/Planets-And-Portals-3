@@ -5,7 +5,7 @@
 	group: "78B4A4EF75A52C04"
 	icon: "mekanism:alloy_infused"
 	id: "53ABDE8AFFD8202C"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -33,8 +33,9 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["4675259A7B3524BE"]
+			dependencies: ["4D21B058E8F6D8D7"]
 			description: ["Yes I wanted to make this harder to make lol cry about it"]
+			hide: true
 			id: "1003ED32BAD36DF2"
 			rewards: [{
 				count: 2
@@ -44,7 +45,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "Deshmium"
+			subtitle: "Osmish"
 			tasks: [{
 				id: "3B3DB68A111DE94E"
 				item: "mekanism:ingot_osmium"
@@ -54,21 +55,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["62AFB9329BF79D95"]
-			description: ["Powder your osmium"]
-			hide: true
-			id: "4675259A7B3524BE"
-			subtitle: "Get that surface area up for the melting"
-			tasks: [{
-				id: "7C6FA4577333BC01"
-				item: "mekanism:dust_osmium"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["62AFB9329BF79D95"]
+			dependencies: ["4D21B058E8F6D8D7"]
 			hide: true
 			id: "73914569050D6B8F"
 			subtitle: "This stuff needs an upgrade"
@@ -674,23 +661,6 @@
 		}
 		{
 			dependencies: ["39D453124BC976D4"]
-			description: [
-				"This works for any block"
-				""
-				"Although it might be too overpowered and my be removed in the future!"
-			]
-			id: "0F0F4D4598BB0B1A"
-			subtitle: "Package your blocks and move them around!"
-			tasks: [{
-				id: "24B1E7CD56A031CC"
-				item: "mekanism:cardboard_box"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["39D453124BC976D4"]
 			id: "247AC97F56513005"
 			subtitle: "Another way to make paper"
 			tasks: [{
@@ -698,8 +668,8 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.0d
+			x: -2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["384FEE2CCA7308E9"]
@@ -727,7 +697,7 @@
 		}
 		{
 			dependencies: ["57FB42B78E562DD0"]
-			description: ["Can also be used in the metallurgic infuser for certain things."]
+			description: ["Can also be used in the metallurgic infuser for greenifying certain blocks."]
 			id: "5C2E0E63488A7D53"
 			subtitle: "Burnable!"
 			tasks: [{

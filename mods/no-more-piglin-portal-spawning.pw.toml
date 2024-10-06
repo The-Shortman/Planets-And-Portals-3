@@ -1,0 +1,13 @@
+name = "No More Piglin Portal Spawning"
+filename = "nopiglinportals-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "efd22ddf6b41552ddc359cde3ea1b4dfdaddc393"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5328692
+project-id = 439631

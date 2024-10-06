@@ -1,0 +1,7 @@
+{
+	"replace": true,
+	"values": [
+		"planetsandportals:hydrocarbon_fuel",
+		"planetsandportals:helium_fuel"
+	]
+}

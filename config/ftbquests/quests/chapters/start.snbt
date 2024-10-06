@@ -34,11 +34,13 @@
 			description: [
 				"It's a bit of a long story..."
 				""
-				"Planets and Portals (the first modpack) was a very basic collection of a couple of Forge 1.12.2 mods that I liked, and was by no means an enjoyable experience, at least in my opinion. I threw it together for a couple of friends and I back in 2021 and it has since reached almost 10 thousand downloads, and I have no idea why! You can still find it on curseforge!"
+				"Planets and Portals (the first modpack) was a very basic collection of a couple of Forge 1.12.2 mods that I liked, and was by no means an enjoyable experience, at least in my opinion. I threw it together for a couple of friends and I back in 2021 and it has since reached over 10 thousand downloads, and I have no idea why! You can still find it on Curseforge!"
+				"{@pagebreak}"
 				""
 				"Considering the success of the first modpack I eventually decided to improve upon it in a more recent version of Minecraft, so I landed on Fabric 1.18.2, and I started development on Planets and Portals 2 in May 2024. I actually got pretty invested in it, but a lot of limitations that comes with a lack of mods that I really liked not being on Fabric 1.18.2, eventually caused me to suffer from burnout after a couple of weeks."
 				""
 				"However, I finally cut my losses and abandoned Planets and Portals 2, opting to go for Forge 1.20.1 instead, which has a much wider selection of more updated mods, and I just couldn't resist it. It did mean having to completely change how the modpack is played, and losing over 2000 lines of KubeJS code that I had worked for tens of hours on, but I thought it would be worth it. So here we are, Planets and Portals 3!"
+				"{@pagebreak}"
 				""
 				"If you read all of the above context then I really appreciate you taking the time to learn the history behind this modpack, so you've earned the free cookie. I hope you have a great time playing! <3"
 			]
@@ -59,6 +61,7 @@
 			y: 2.5d
 		}
 		{
+			description: ["Check off every quest in this chapter to see the rest of the questbook."]
 			icon: "create_questing:blueprint"
 			id: "67E8273831E8B9D2"
 			rewards: [{

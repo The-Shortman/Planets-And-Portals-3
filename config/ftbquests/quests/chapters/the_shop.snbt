@@ -1,25 +1,719 @@
 {
-	autofocus_id: "477FAF7C288B83E0"
-	default_hide_dependency_lines: false
+	autofocus_id: "1308A1C519AA7853"
+	consume_items: true
+	default_hide_dependency_lines: true
 	default_quest_shape: ""
 	filename: "the_shop"
 	group: ""
 	icon: "numismatics:vendor"
 	id: "77AFDD19546E9881"
-	order_index: 3
-	quest_links: [ ]
-	quests: [{
-		description: ["&o&8Lamp oil? Rope? Bombs?..."]
-		id: "477FAF7C288B83E0"
-		subtitle: "Check back later in development!"
-		tasks: [{
-			id: "1D5194D77951D8B7"
-			title: "The Shop is currently WIP"
-			type: "checkmark"
-		}]
-		x: 0.0d
+	images: [{
+		height: 3.5d
+		image: "supplementaries:block/cannon_target"
+		rotation: 0.0d
+		width: 3.5d
+		x: -3.75d
 		y: 0.0d
 	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"In order to gain access to the store, you need to pay this small upfront expense. Then you'll be able to buy and sell all you want!"
+				""
+				"&o&7If you're a server owner and want a manageable economy, then you may want to disable this quest chapter, and have a look at creative vendors :)"
+			]
+			icon: "numismatics:creative_vendor"
+			id: "1308A1C519AA7853"
+			rewards: [{
+				description: ""
+				icon: "numismatics:vendor"
+				id: "385A0D7C5FFF0C30"
+				title: "Store license"
+				type: "toast"
+			}]
+			shape: "octagon"
+			size: 2.5d
+			subtitle: "Welcome to the Planets and Portals 3 store!"
+			tasks: [{
+				count: 4L
+				id: "44DB6E21E20A405C"
+				item: { Count: 4, id: "numismatics:spur" }
+				type: "item"
+			}]
+			title: "Store Licence"
+			x: -3.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1308A1C519AA7853"]
+			icon: "minecraft:oak_sapling"
+			id: "7EC941263108CFBF"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "A low-paying selection of contractors looking for certain goods"
+			tasks: [{
+				id: "2E2FE7856406D12D"
+				title: "Beginner contracts"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "18E047BE817A4B07"
+			rewards: [{
+				id: "1969D0A13A57E424"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "A collector is after an antique hand-crafted globe."
+			tasks: [{
+				id: "66BD72ABC56789B7"
+				item: "supplementaries:globe_sepia"
+				type: "item"
+			}]
+			title: "Antique Globe"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "1AE37A200428E729"
+			rewards: [{
+				count: 4
+				id: "106508D05C513E14"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "A carpenter is looking for a vast number of logs for a project."
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "7BC23F4AFF121BDC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Logs"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "5651865E66553AF1"
+			rewards: [{
+				id: "19A2FB9252A1B3AF"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "A jeweller requires some expensive gemstones."
+			tasks: [
+				{
+					count: 16L
+					id: "49E12204108E482F"
+					item: { Count: 16, id: "minecraft:diamond" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5DCBBE20792C7ACE"
+					item: { Count: 16, id: "minecraft:emerald" }
+					type: "item"
+				}
+			]
+			title: "Rare Gemstones"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "28B6D4A25565EBCA"
+			rewards: [{
+				id: "1E4D2FAE8FEDA2D1"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "A builder is in need of construction bricks."
+			tasks: [{
+				count: 1024L
+				id: "69E616B053E4E3F5"
+				item: "quark:cobblestone_bricks"
+				type: "item"
+			}]
+			title: "Construction Material"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "40FB898987C60BEB"
+			rewards: [{
+				count: 4
+				id: "0BE736EE723B727C"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Someone is willing to take large amounts of excess dirt off your hands."
+			tasks: [{
+				count: 1024L
+				id: "2A5C85262A2EA7FC"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:dirt"
+					}
+				}
+				title: "Any #minecraft:dirt"
+				type: "item"
+			}]
+			title: "Excess dirt?"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1308A1C519AA7853"]
+			icon: "numismatics:spur"
+			id: "74FA93303DA47370"
+			shape: "rsquare"
+			size: 2.0d
+			subtitle: "A selection of merchants willing to provide you with goods... for a price, of course."
+			tasks: [{
+				id: "23560E30EFCFB59A"
+				title: "Beginner Purchases"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			icon: "minecraft:villager_spawn_egg"
+			id: "27B89000B83AED59"
+			rewards: [{
+				id: "151106869967C4A2"
+				item: "minecraft:villager_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "A jobseeker is looking for somewhere to stay and work."
+			tasks: [{
+				id: "255AEB6F21BC2EB8"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			title: "Jobseeker"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			icon: {
+				Count: 1
+				id: "quark:seed_pouch"
+				tag: {
+					itemCount: 640
+					storedItem: {
+						Count: 1b
+						id: "minecraft:beetroot_seeds"
+					}
+				}
+			}
+			id: "45FFC79BBD3A8117"
+			rewards: [
+				{
+					id: "4434C1F1C6BD2E81"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "5CE90219670522FB"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "22C49A1238C055BB"
+					item: "minecraft:birch_sapling"
+					type: "item"
+				}
+				{
+					id: "4F8E12BADA19AD3C"
+					item: "minecraft:jungle_sapling"
+					type: "item"
+				}
+				{
+					id: "774D1612B8828960"
+					item: "minecraft:acacia_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D27058A2E587073"
+					item: "minecraft:dark_oak_sapling"
+					type: "item"
+				}
+				{
+					id: "5192B2303038E222"
+					item: "minecraft:cherry_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "A vendor is offering to sell you all of the vanilla saplings."
+			tasks: [{
+				count: 2L
+				id: "6C5CD12CA0D97D6A"
+				item: { Count: 2, id: "numismatics:sprocket" }
+				type: "item"
+			}]
+			title: "Bag of Saplings"
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			icon: "minecraft:sheep_spawn_egg"
+			id: "3CE604218B160C1A"
+			rewards: [{
+				id: "11192C044228503C"
+				item: "minecraft:sheep_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "A livestock farmer is willing to sell off a sheep."
+			tasks: [
+				{
+					id: "1576E61AE237275A"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0C88DC4841D7F00A"
+					item: { Count: 2, id: "numismatics:spur" }
+					type: "item"
+				}
+			]
+			title: "Wooly livestock"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			icon: "minecraft:cow_spawn_egg"
+			id: "5FEF1C94FAF26EB9"
+			rewards: [{
+				id: "49452594600CD7D4"
+				item: "minecraft:cow_spawn_egg"
+				type: "item"
+			}]
+			subtitle: "A dairy farmer is trusting you to take good care of this cow."
+			tasks: [{
+				id: "765AF951C04C09FB"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			title: "Bovine livestock"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "256BA1FD6F8F0CBF"
+			rewards: [{
+				count: 4
+				id: "1F183E9B7FFEEDE3"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "5CBB10BFAD960945"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "159EBD95BD74F387"
+			rewards: [{
+				count: 4
+				id: "1B1EBDB7DE55227F"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "A weaponsmith wants a new forging anvil."
+			tasks: [{
+				id: "0FFD20484ED7D86D"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Forging Hardware"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			icon: "minecraft:kelp"
+			id: "0EE6828E8323F008"
+			rewards: [{
+				id: "601551F4216B886B"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			subtitle: "Someone found a piece of kelp - they don't have a use for it but heard you are in need."
+			tasks: [{
+				count: 2L
+				id: "3C516E3757FF94FD"
+				item: { Count: 2, id: "numismatics:spur" }
+				type: "item"
+			}]
+			title: "Kelp"
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			icon: "minecraft:sand"
+			id: "6D1FBAE4E1F322FC"
+			rewards: [{
+				count: 64
+				id: "08942D379275416E"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			subtitle: "One-time sand purchase."
+			tasks: [{
+				count: 4L
+				id: "125BDBE22149ADEA"
+				item: { Count: 4, id: "numismatics:spur" }
+				type: "item"
+			}]
+			title: "Sand truck"
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			description: [
+				"Who said - \"One cubic and green slice of cactus"
+				"  Sits in my pocket"
+				"  Please buy my cactus\""
+			]
+			icon: "minecraft:cactus"
+			id: "37DDAFF8D56450A8"
+			rewards: [{
+				id: "49F6B02AE6A2A34A"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			subtitle: "I met a traveller from an antique land,"
+			tasks: [{
+				count: 4L
+				id: "30DEBE00A8426BC5"
+				item: { Count: 4, id: "numismatics:spur" }
+				type: "item"
+			}]
+			title: "Cactus"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			icon: {
+				Count: 1
+				id: "minecraft:flint_and_steel"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "132F39A0D0BB61EA"
+			rewards: [{
+				id: "1170C8B87A1EDB4D"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A pyromaniac wants to sell this to you - hopefully this isn't a cult invitation."
+			tasks: [{
+				id: "72099CE8EAF476A4"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			title: "Flint and Steel"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "4F7CDD372C87D68B"
+			rewards: [{
+				count: 4
+				id: "3D84DAA71AC476AE"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Someone wants seeds for something idk"
+			tasks: [{
+				count: 512L
+				id: "076B5C4016860DC4"
+				item: { Count: 512, id: "minecraft:wheat_seeds" }
+				type: "item"
+			}]
+			title: "Seed excess"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			description: ["Bed bugs not included"]
+			icon: "comforts:sleeping_bag_white"
+			id: "432E603B81757ACD"
+			rewards: [{
+				id: "3348DB2C6DE73E61"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			subtitle: "Very comfy sleeping bag :]"
+			tasks: [{
+				id: "437E32D3B43B9B2B"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			title: "Quality camping gear"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "533B1B40722F3766"
+			rewards: [{
+				count: 2
+				id: "048CAB89D996A2D7"
+				item: "numismatics:sprocket"
+				type: "item"
+			}]
+			subtitle: "An engineer needs circuitry components"
+			tasks: [
+				{
+					id: "7D42C80C6FCD6ED6"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "68DEEFEC0C972EC8"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+				{
+					id: "7995A6863FF12285"
+					item: "create:powered_latch"
+					type: "item"
+				}
+				{
+					id: "148074CF085BB011"
+					item: "create:powered_toggle_latch"
+					type: "item"
+				}
+				{
+					id: "45E1D5EAF8B47F5D"
+					item: "create:analog_lever"
+					type: "item"
+				}
+				{
+					id: "148A038B35F42023"
+					item: "create:rose_quartz_lamp"
+					type: "item"
+				}
+				{
+					id: "396AD30F095B8A24"
+					item: "minecraft:redstone_torch"
+					type: "item"
+				}
+				{
+					id: "39BD5937304657E1"
+					item: "minecraft:repeater"
+					type: "item"
+				}
+				{
+					id: "39FFCF7FDD776244"
+					item: "minecraft:comparator"
+					type: "item"
+				}
+			]
+			title: "Redstone components"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["74FA93303DA47370"]
+			icon: "minecraft:jukebox"
+			id: "2CCC076E1DA3B4DC"
+			rewards: [
+				{
+					id: "6363BEFCE59FB8A8"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					id: "415188E9B8E65940"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					id: "1815F6A9F85B9EF4"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "4692485DF613F53A"
+					item: "numismatics:spur"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "77544A0110E683D1"
+					table_id: 5594425630407616416L
+					type: "choice"
+				}
+			]
+			subtitle: "Vibe"
+			tasks: [{
+				id: "5916EBE22C9FC7BA"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			title: "Hire a DJ for just 63 spurs!"
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7EC941263108CFBF"]
+			id: "27A6AA7746A5FDD1"
+			rewards: [
+				{
+					id: "72B1FA77FF5DEAED"
+					item: "numismatics:bevel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "43949AB50B24A3BF"
+					item: "numismatics:spur"
+					type: "item"
+				}
+			]
+			subtitle: "A sheep farmer wants all the colours of wool"
+			tasks: [
+				{
+					id: "12FF52A88CFE90B2"
+					item: "minecraft:white_dye"
+					type: "item"
+				}
+				{
+					id: "123F1A59F2AEF2CC"
+					item: "minecraft:light_gray_dye"
+					type: "item"
+				}
+				{
+					id: "644C12EB06CDB0CE"
+					item: "minecraft:gray_dye"
+					type: "item"
+				}
+				{
+					id: "429CF6CAE0CB70EE"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					id: "652568C50D9C681E"
+					item: "minecraft:brown_dye"
+					type: "item"
+				}
+				{
+					id: "032F51F333E6D66F"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					id: "3F4659F8C5C33865"
+					item: "minecraft:orange_dye"
+					type: "item"
+				}
+				{
+					id: "734374F57810AEFF"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					id: "253C28D23A91034E"
+					item: "minecraft:lime_dye"
+					type: "item"
+				}
+				{
+					id: "2E7E1D4803AA1ED6"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					id: "20E208A3F2F96C88"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+				{
+					id: "5B3806FBFEAFB963"
+					item: "minecraft:light_blue_dye"
+					type: "item"
+				}
+				{
+					id: "12995F2A32D592C8"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					id: "230933F3F329F15F"
+					item: "minecraft:purple_dye"
+					type: "item"
+				}
+				{
+					id: "41C4C1756A6E2D81"
+					item: "minecraft:magenta_dye"
+					type: "item"
+				}
+				{
+					id: "56D68784A41B325B"
+					item: "minecraft:pink_dye"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			id: "7CFF8EBFD4AB2069"
+			subtitle: "&lAll of this is subject to change!!"
+			tasks: [{
+				id: "5EBC51DBD87F1D64"
+				title: "&6The shop is still W.I.P.!"
+				type: "custom"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
 	subtitle: ["Buy and sell wares from the Game Shop!"]
 	title: "The Shop"
 }

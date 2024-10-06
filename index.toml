@@ -158,7 +158,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "939813c5ba0c81bad21dfb20b4a3c0d0058a548b58b7ce4c7e07ecc98d14df83"
+hash = "e2a02cd8ed8e5ae66e1ecb190197b6ac8cfe0a1f381f1c13d5a552abb5f32c70"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -262,7 +262,7 @@ hash = "5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea"
 
 [[files]]
 file = "config/doespotatotick-common.toml"
-hash = "d6083c5618852995a6db53f1897fcecbec29ce80bbaf2f2dd2e67ed4595bf775"
+hash = "a09a1961e98aa9b2b43de3daac6a0d79e3f43a59861a0dee65bc662d53f2e406"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
@@ -498,7 +498,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "d98255bcfb982eea239d40e0a06c9c56d4d6cac12c5e7248bf2d8a730c260404"
+hash = "a5f025aefcfc65bed69f0640f75d2db2826f70b683120233a0b85d5885d9928c"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -582,27 +582,27 @@ hash = "343e69d7d6578f219761cd964ced0183ebaf3f3fc3f8c6982aa85e352c6d9bd9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "0de7da36b6658e29411d74ae267eee5e2a25ebfba9b9663061235501eafed7f9"
+hash = "63207d966a61ae96369d7bcd8198cd8b8c06a24ab180b2a7214149a262971392"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_growing_the_factory.snbt"
-hash = "87c2de59bc409fc6ad4d6b08f656938a1f1a1c0f75ab753b9c566ea969955633"
+hash = "c909f1fe86d62318740be97b4a00cf42925f8f123c0593b8a6ea01824329e5ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_new_age.snbt"
-hash = "e76153219cc6a4475caa5b3f0e7d8052494dcead913d0a6d37c3d82c010dadd5"
+hash = "bb7c50d821a2c168e74bf4c3597e5c3f0b66b0571c0b89e8c430fcffcd286a50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_numismatics.snbt"
-hash = "01275c1e0587851824d8c9b9bb1d4e43464deba77fafec8c1f2f99f4c78628e4"
+hash = "0ff3ed10494ebf3209b5bbb1925e448c7d52eb85367b681830dbfe4a83b3944d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_ore_ecavation.snbt"
-hash = "85f751a11808f66a5c9a0a7f489053f88c8cc7f6d746fc200ff4d3f9ba68e2bc"
+hash = "9a9e8fde1830f08345fd3b9aeb95c34ca6af8fc64f85f1e37e798ff36457980d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/credits.snbt"
-hash = "b97ecc5783d03e6aa0522f692501fec6ec74b34b865192c498fe126956b33997"
+hash = "d6b6546e07290a79de4bac59ff98bdeba79d28fecac863155063580825310852"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/going_interplanetary.snbt"
@@ -610,11 +610,11 @@ hash = "33d07701c58b810d8801d54ef6bbfce04a850034a80fc0e325e09f86ca1efedd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/intermediate_storage_solutions.snbt"
-hash = "15b2a77b9ce528a322b351ca014d19abd1b65e8039d62fc1fbcd9de278cdd0f3"
+hash = "1912f751b93da3f9200a39ef3eee5ad78c16b7f8125f20de8c1cb665f2c01092"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lunar_expeditions.snbt"
-hash = "f55535acd5df5402f1f83ca5e5b93800406feade5a769d54e2a9729b67294605"
+hash = "9f0c45e2d82c804c543596d4343e886b58cd5da2b5d9a8ea4c401357b912f0a4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/martian_landscapes.snbt"
@@ -622,7 +622,7 @@ hash = "f78116b4e5e2a9d4f26ae50b73597e5a0b56f716d3e9bd36f509a9006d6cdf3c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mekanism.snbt"
-hash = "c5a0778d2a55b5519c3e650ec0fbf3d8d897a496657b2c9f01a2bc0ff057b8fb"
+hash = "ed69caee2e19e894fe758f312657086cd0621ee6182c61b06aa8527326dfa3ac"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mercury_god_of_commerce.snbt"
@@ -634,15 +634,15 @@ hash = "b7c865b8198bd2981805c2a7efb202178d67dde57bcebc7d3bb0b8ad08d22ebc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
-hash = "b3a23d2ba851ab66f829342a2ca65e2c3a7bef14bfec79e6e24458b71467876e"
+hash = "7aa3ea26e36a76728fa0b2553090c95891b839e93f95d8993c76a9772c4c6631"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
-hash = "9f66c1990bbc2d026010ac76ce95cd104ceaab5f2f82f4648658707552e97d01"
+hash = "d8056f724fc14621813c31a761ad4ba806f94bc77682709c6e822bf90fecea71"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_shop.snbt"
-hash = "f658d51cfeabbac8ec3fac50fd9382064fda7321f5240aff32e72000105ab476"
+hash = "f155f46c044801d2fc0d44e1ac98beb42bd2a5239129a693bbdf5ce21f6b7c52"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/venus_goddess_of_love.snbt"
@@ -655,6 +655,10 @@ hash = "384f9f835caf0a39bb051f29386b981af7b7f9e857a5d0da3964bcadbd4fa9f8"
 [[files]]
 file = "config/ftbquests/quests/reward_tables/beds.snbt"
 hash = "3b8b8dcf7f1a470edc7ef2863d2126328aa4887a6da8e523f46f53e8f1769eb6"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/disco_discs.snbt"
+hash = "65ab7ed08fedd10cf35a9c4de4afcf226f9096a1fda118cb060c2f33995a9027"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/tracks.snbt"
@@ -777,6 +781,14 @@ file = "config/mm-common.toml"
 hash = "9c7d85c498650b6654d809ab3ca6f904bcb8e0ab38edcf4233ea7a0aa33db4d5"
 
 [[files]]
+file = "config/mm/pack/assets/mm/lang/en_us.json"
+hash = "fa918ee776e663ae5fcfd59604983c3ed8c0b14a993449854e9d62130aef615b"
+
+[[files]]
+file = "config/mm/pack/data/minecraft/tags/blocks/mineable/pickaxe.json"
+hash = "b83114c23eeec820ce7eca52011f13013fb6c64002254be7aebe1e4b36244d48"
+
+[[files]]
 file = "config/modernfix-common.toml"
 hash = "fad9aea710ec3508eab562cd8f2b5f8e2dda6ee1c5fb1fe818f90ce253017f66"
 
@@ -867,6 +879,10 @@ hash = "77d4b1625ba1754bc129bc47a98186ad1869e86737867dac98cabd8621ed916f"
 [[files]]
 file = "config/resourceful-config-web.json"
 hash = "06276ef3859860fcdc724ff4637ea90fce69ef0b33505fb2cbf87fb6454b6654"
+
+[[files]]
+file = "config/restrictedportals-common.toml"
+hash = "72a39cdf31f297c965e41e80150d7c72337c1cc718eb7500ba082ce1186dbe2a"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -1005,8 +1021,132 @@ file = "kubejs/assets/kubejs/textures/models/armor/the_badge_layer_1.png"
 hash = "1678c0e0e1483d40b9d9497a4bea4d79ba1803ef2c45e6cfcf1f3400aea211f0"
 
 [[files]]
+file = "kubejs/assets/mekanism/textures/block/osmium_ore.png"
+hash = "ef7af2931b481ac81ccd49c73305e759535497eb5a1033a5d5a2eb564703d606"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace_controller.json"
+hash = "afcf3efb63de03b9ade2b3a10cfb8d85648f42c5cfe223e4829448b58aa272f0"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace_fluid_input.json"
+hash = "e877178adfc9ea9253419fb1aa7965b6c7c1603bc9c6eb7e3cd113ae45271af1"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace_fluid_output.json"
+hash = "b2cc0e2714229d47f02b410b75cbfbc88262aa28b58879f86dc6b650b86a548b"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace_item_input.json"
+hash = "5049f42b76a6d0f669c280a5f08b611fca6983674969ccdb5c59d177b0cac0a6"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/blast_furnace_item_output.json"
+hash = "4b6f33369e3d8bf43064b3c53fe43036e8d7730ee54c14867979cff8b0a38b61"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/coke_oven_controller.json"
+hash = "eba7eb841d09367f53b9d2078a0da6dbab700fac755d296b94f036ff38050062"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/coke_oven_fluid_input.json"
+hash = "7d9ad6579ffa49c9378113671c65780d8df2a38fc12e6116f0bac742da76ceea"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/coke_oven_fluid_output.json"
+hash = "d576782b4539fa3d98638f455f2db4a00c050a2dfbb20b8a2db3671c0fc80045"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/coke_oven_item_input.json"
+hash = "c6f1b8acec4322cd84065f5fc507f57addcb8c802e8a0288fecf38a34d2b380a"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/coke_oven_item_output.json"
+hash = "a8358d2157d86a99a1bf629b49303ebb40cf70b9928537a88a66dfc72f6f353e"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/fuel_mixer_controller.json"
+hash = "a8263a2d74ecde6916728c2444e2796bf282d0b897e1a1b6264cc5138a4095eb"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/fuel_mixer_energy_input.json"
+hash = "a947bdd037a2799d5f305b2e515ce9af9f56c1e05f77087d3fdbf28670022a9e"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/fuel_mixer_energy_output.json"
+hash = "52050ba2701802fd08253bdf5b210606e257982c38c6a789c2112fce58c9a99f"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/fuel_mixer_fluid_input.json"
+hash = "e47cd956fddcd1960adac916ff2d47f69946af1ce7b04bbf43098f384457a754"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/fuel_mixer_fluid_output.json"
+hash = "dd7c0245d6d1a6a3c8c9d883fabde9c2bfdc43a685788617b6858a6c59b3544f"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/steel_furnace_controller.json"
+hash = "e7035d276b9a1e8749995097f8bb5dc973609f74598c22b1f8be19c288c150a3"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/steel_furnace_fluid_input.json"
+hash = "99c0e3a916cde69f0c3cf15cb4341e6afa6d430550e054ba1faa24d29af5dff5"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/steel_furnace_fluid_output.json"
+hash = "3edab5a8a5f717844e17901d2e9ef9d9afcedcbd423b9bb2b123e299a4c13f70"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/steel_furnace_item_input.json"
+hash = "b4f529ffc56dfa00d195f3b8e0ea6e588bdae0ba20c07664cf5b7088a6376b5e"
+
+[[files]]
+file = "kubejs/assets/mm/models/block/steel_furnace_item_output.json"
+hash = "7ab8ee71e3dccbc7a8ee0a66f8750e63b9023b3235ed57e1d3b1caae2a292912"
+
+[[files]]
+file = "kubejs/assets/mm/textures/block/coke_oven_filler.png"
+hash = "552c5306ed061e3ca08cda39ec0caee26e2ca82380a13924708d088cd4b13c35"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/blast_furnace_structure.nbt"
+hash = "099ed034df1e725a48c9a6c56894507d17495f9a722c4bb991e6a24f25ee9965"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/blast_furnace_usage.nbt"
+hash = "38e0eabd6bd3ab2b7f5132ddac1e5d762d8368c7f13c562c4859c9721f302c78"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/coke_oven_structure.nbt"
+hash = "360d24973a09e04c0f27b16d6b68fbda661911b3bb9aa3fb19d63389a761b0a5"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/coke_oven_usage.nbt"
+hash = "84cc0f424707ebc7e28ba508986377c95b17dbb96880a450275815821dfbee82"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/fuel_mixer_structure.nbt"
+hash = "cc05e57c64d88ea4085edbfd2a6ef2de70eafe89481de68776f41a70cffb79c3"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/steel_furnace_structure.nbt"
+hash = "7b3cdeeed53a6c9502aef8dd7d85b50d4ca3a87d4a21f42b0cb55c216da798a6"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/ponder/steel_furnace_usage.nbt"
+hash = "bf47db89d10f4a1b55a360b9f97d50f7ff0941502dd5d1f0c1bc453d2d6853e8"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/textures/block/grout.png"
+hash = "cfb301cf00ba3e9fde214d574556d6360e29a2b9786ef90d86b574cc4dee73df"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/textures/item/alloy_uninfused.png"
 hash = "d55603bc7901f507d71600ae93a1b8f5419bd3d8bf0c29b3e8f4e34989277eba"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/textures/item/andesite_dust.png"
+hash = "52107883c7050c6ffba60e0a0fb35f8eea393f7e262a652445a2a0045aeb1a7d"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/item/crushed_calorite_ore.png"
@@ -1019,6 +1159,10 @@ hash = "7f97519f56ede365f78ad11c7afed1b05c8587f91e7247254a796adb9298f277"
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/item/crushed_ostrum_ore.png"
 hash = "5ef7140f92f86ebcbda7bfbdc018538448c38dc7a545e5c035651af5281dca45"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/textures/item/desh_dust.png"
+hash = "eeb4fa71ddfc148331b960ad5bfea8f5b1cefe2a773b7c58147669e7b5548fa7"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/item/steel_electrode.png"
@@ -1069,8 +1213,16 @@ file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
+file = "kubejs/client_scripts/ponders/registry.js"
+hash = "bb83fe0e7fbdf540e77c8c02ab18b4bdd04884ae2854f897ae8c201b5bd25cbd"
+
+[[files]]
+file = "kubejs/client_scripts/ponders/tags.js"
+hash = "fb7188eb0a3d6c014c393f614fd67e5a8190bce695de26408512d41515d1abb2"
+
+[[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "cf2fd773f65a8b20caac657c7c5c8e725a9a2848b3186d4c5ae95430d9d552e4"
+hash = "bf3ecc565006106c2902d7fb83b65c6272f3f7089072493000606bc0722c8322"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1078,11 +1230,35 @@ hash = "57ba07d76b2e4b3dab5bd5979998735cfd98dff962a27d0bcdddbc9fcdc4afdb"
 
 [[files]]
 file = "kubejs/config/common.properties"
-hash = "2ecc388d59054b4c8def8d17d77191c951da940d8dfedb726e0d82b6a8ac6586"
+hash = "5b915efedcf08a57be0c213642229ba2a0651004ffa3903db6eb3556428c331e"
+
+[[files]]
+file = "kubejs/data/ad_astra/tags/fluids/evaporates_in_space.json"
+hash = "ac7718d4d95104e7de6ce3a251d98b965d6d752c17b2f0412bba284728a92422"
+
+[[files]]
+file = "kubejs/data/ad_astra/tags/fluids/fuel.json"
+hash = "f5403e56dbbc482bef72cf3300cea51ad185defe535511f33e62b60a59e300f9"
+
+[[files]]
+file = "kubejs/data/ad_astra/tags/fluids/tier_1_rocket_fuel.json"
+hash = "c2b5eeff0c8128c743876365b73456a337ab6eb60e05c411c964722899a81796"
+
+[[files]]
+file = "kubejs/data/ad_astra/tags/fluids/tier_2_rocket_fuel.json"
+hash = "82e42c873b8a8ab70b42dbe62d45f5ed979fab2c2e0eb0f6b0f19347f653806e"
 
 [[files]]
 file = "kubejs/data/ae2/tags/worldgen/biome/has_meteorites.json"
 hash = "6403f3e639c85baf174779fb499b88b6341725e2ba35a4a2a84874417933ce01"
+
+[[files]]
+file = "kubejs/data/planetsandportals/forge/biome_modifier/moon_osmium_ore.json"
+hash = "89176a6f8377468a770515851726fb1f105192a53d0a2cc2a53193cdd77462ce"
+
+[[files]]
+file = "kubejs/data/planetsandportals/tags/items/cheeses.json"
+hash = "7048833ca21a4c1517a21e7dfcc05f6dfbb297fd996f2bcc9f1c6e99883cf761"
 
 [[files]]
 file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_glacio.json"
@@ -1105,36 +1281,116 @@ file = "kubejs/data/planetsandportals/tags/worldgen/biome/is_venus.json"
 hash = "e1030f6271ab86caabd93f480af782d34e0579889bb7c4400f8ea5e27407e015"
 
 [[files]]
-file = "kubejs/server_scripts/README.txt"
-hash = "f5374539fda12948c73d7d4b02974305fed210a856a7fc4860bfbbc2e2783c39"
+file = "kubejs/data/planetsandportals/worldgen/configured_feature/moon_osmium_ore.json"
+hash = "8f955bf092f71c45173aa6a0ffe96f3c18637ff4800828a96851c059ce8ebcb1"
 
 [[files]]
-file = "kubejs/server_scripts/createoreexcavation_recipes.js"
+file = "kubejs/data/planetsandportals/worldgen/placed_feature/moon_osmium_ore.json"
+hash = "3f1d756f435a1b87a0ddf23d1f51b35b6bdb63e3699fd70eb83d7cf26753d000"
+
+[[files]]
+file = "kubejs/data/realmrpg_skeletons/tags/worldgen/biome/blacklist.json"
+hash = "22aa3f0fecb35191c60bdd2900718719328dc45e2124468ef4bb4448dabe9fa1"
+
+[[files]]
+file = "kubejs/server_scripts/create/createoreexcavation_recipes.js"
 hash = "179fca96cd14eb9cb3be192b9709bbc3752bc03b8166e4c17ac420cd734a8f91"
 
 [[files]]
-file = "kubejs/server_scripts/createrecipes.js"
-hash = "ed4fbf273bfce380bdb815ac39a3581cbb2d155d955dc31e0c1e787d2aa4c479"
+file = "kubejs/server_scripts/create/crushing.js"
+hash = "7b804a7b260cd182559f51f4edcca14ac27f2e93bcd03c13596d294c13aeb4d2"
 
 [[files]]
-file = "kubejs/server_scripts/recipenotloadingfix.js"
-hash = "ccee95ef3f3b0f7a744b8e0ff16c0547b5b0b66597e4a4c9a3fc7548748fd816"
+file = "kubejs/server_scripts/create/deploying.js"
+hash = "0dbdf4dd888262108fe53f6872b8d934eca06366b13a80ecd6cf0e4417a1433a"
 
 [[files]]
-file = "kubejs/server_scripts/reciperemovals.js"
-hash = "da03c86969eaeef8e79e4a9dc236ce0dbd342fe378bd8f20de61e9451a788a59"
+file = "kubejs/server_scripts/create/distillation.js"
+hash = "c3f2df94a04c3ba6d0d25e8f500d3ea0929c20f275d8a5516b5154d0803908c8"
 
 [[files]]
-file = "kubejs/server_scripts/vanillarecipes.js"
-hash = "fff9f3902ba1d8ca8e3742354785cac99f5fe5fdce7ddf221251a53dbcec50c3"
+file = "kubejs/server_scripts/create/energising.js"
+hash = "519bcb7cdf3dfea0a18a189a1a8c0794f2db35516a5012b3c36ad18bea62367a"
 
 [[files]]
-file = "kubejs/startup_scripts/fluidregistry.js"
-hash = "35640e76922c3071b9f7c51c6c438f9db9c3fd77a905899205cfa8a3b903b72d"
+file = "kubejs/server_scripts/create/haunting.js"
+hash = "80a96f2b4b3003744e856ce27d07cf41a52fd03f0a4d1d149ad1ccb51fe1e4e2"
 
 [[files]]
-file = "kubejs/startup_scripts/itemregistry.js"
-hash = "2ee3681876b4b5033694d4b054f2e297a57aa9a3b593878d19345d45152775c8"
+file = "kubejs/server_scripts/create/mechanical_crafting.js"
+hash = "d1cb04ddfbbe0bea9d3ff14e8b5f06bb3fefd98b0681d18186f62c11d97c074c"
+
+[[files]]
+file = "kubejs/server_scripts/create/milling.js"
+hash = "ad358ce42dbedb295f78be36f60f106ceea2d8f87958d18b8cc5f7f8d255cbe3"
+
+[[files]]
+file = "kubejs/server_scripts/create/mixing.js"
+hash = "631cc6a5ad3492dfaf2115c220c5ef9dbf3777a0ca1b1021beab974a8196a74b"
+
+[[files]]
+file = "kubejs/server_scripts/create/sequenced_assembly.js"
+hash = "109f81bc9bb9f3df0c4b52a6e6c85b6da844bee82ae27c684d438021552deef1"
+
+[[files]]
+file = "kubejs/server_scripts/create/tfmg_casting.js"
+hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
+
+[[files]]
+file = "kubejs/server_scripts/create/washing.js"
+hash = "f6ea6eee1aac0660abf4cbb41852a261454fbbd6959abe540fd84f4a9c8ec7b1"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/crafting/removals.js"
+hash = "ab1a3ce53a40722e99b06736e34bb19aeac42da8c6bff85894ad50ce946d9e14"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/crafting/vanilla.js"
+hash = "e7ea55199a2b9bda24c40ead948795ed69d35b55e9d37901d69029c4e0af6133"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/machines/enriching.js"
+hash = "7aafd83b50b6e451ea860f0bf43d21bb45b8bbc824148cdc86837bff650c1151"
+
+[[files]]
+file = "kubejs/server_scripts/mekanism/machines/metallurgic_infusing.js"
+hash = "21875b986d4bedb11214e138187eff10924d3e85d8b1a3711dbbaa4d847bc871"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/mm.js"
+hash = "e574542c434eaaa337f2c783f6f46493c5f572c8a4b14c260ed50eb3b58f5a41"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/reciperemovals.js"
+hash = "8ff303934c99d7128254b0e01eae2dac8ab9cc456f1208bc98f7a004d7f787eb"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/recipereplacements.js"
+hash = "967cdcffe89c4f92ff82dc5b9301255a59d7d786b8d6eb0eba776cb0c10a0128"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/vanillarecipes.js"
+hash = "08ff3719e797505c040cd6ca0e0560ec013ac1fb20e3b515bb147bab14e2c3d0"
+
+[[files]]
+file = "kubejs/server_scripts/tags/wrench.js"
+hash = "2f7c85318c404367e76048d752210c3be1a3fe529c2ccb1dcd4de7ef90c631ef"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/blockregistry.js"
+hash = "21daeaffceb53ad7d6365e89005d36f437e83328085da019ddfb1ddc8858d8eb"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/fluidregistry.js"
+hash = "05b8fffa60cf54cae5e372d9c07b856de9d3e91688d1fb342a5e3395151b79ea"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/itemregistry.js"
+hash = "1fc0a1de5d73777ac4cf24663e35d04b225411406685fe674fdee9b2546fe6e0"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/mm_registry.js"
+hash = "35d7f83a811197d5d45f5085dc15d51b4096b8cfcd4f3bc1a3b392147a37abec"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
@@ -1636,6 +1892,11 @@ hash = "342689b81a6bc7d3aa79b4610b79c88cddfdbd17e9f0dac77c6a975e51033cc1"
 metafile = true
 
 [[files]]
+file = "mods/masterful-machinery.pw.toml"
+hash = "b9e25ef295b53a54aacea30749e029cbe29861f879b10e22debcb911ebbb73f0"
+metafile = true
+
+[[files]]
 file = "mods/mekanism-generators.pw.toml"
 hash = "31bedc841cd4f28284805ce9b2c1ab53a39c2fa062816e1e520ef1b7d631f7db"
 metafile = true
@@ -1693,6 +1954,11 @@ metafile = true
 [[files]]
 file = "mods/no-feather-trample.pw.toml"
 hash = "2d6094790b3e47a177f0b70caadf3a55865acc5e067886b4e409547fa396010e"
+metafile = true
+
+[[files]]
+file = "mods/no-more-piglin-portal-spawning.pw.toml"
+hash = "a3f429de0784d4d3918d80d38ae5d3e13410d1dc635c61f1a69705d80b951f71"
 metafile = true
 
 [[files]]
@@ -1793,6 +2059,11 @@ metafile = true
 [[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
+metafile = true
+
+[[files]]
+file = "mods/restricted-portals.pw.toml"
+hash = "0e0a1ea1e814e9a0620ef9e517180e0a5117d5fb1d8c1bfd9b93a52ca5f73fa5"
 metafile = true
 
 [[files]]

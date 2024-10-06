@@ -2,17 +2,34 @@ ServerEvents.recipes(e => {
 	[
 		// Minecraft
 		{output: 'minecraft:ladder'},
+		{output: 'minecraft:bookshelf'},
+		{output: 'minecraft:copper_ingot', type: 'minecraft:smelting'},
+		{output: 'minecraft:copper_ingot', type: 'minecraft:blasting'},
+		{output: 'minecraft:copper_ingot', type: 'create:fan_blasting'},
+		{output: 'minecraft:copper_nugget', input: 'create:crushed_raw_copper'},
+		{output: 'minecraft:iron_ingot', input: 'minecraft:raw_iron'},
+		{input: 'minecraft:andesite', type: 'create:crushing'},
 
 		// Create
 		{output: 'create:framed_glass'},
 		{output: 'create:horizontal_framed_glass'},
 		{output: 'create:vertical_framed_glass'},
 		{output: 'create:tiled_glass'},
+		{output: 'create:andesite_alloy', input: 'minecraft:andesite'},
+		{output: 'create:zinc_ingot', type: 'minecraft:smelting'},
+		{output: 'create:zinc_ingot', type: 'minecraft:blasting'},
+		{output: 'create:zinc_ingot', type: 'create:fan_blasting'},
+		{output: 'create:copper_nugget', type: 'create:fan_washing'},
+		{output: 'create:zinc_nugget', type: 'create:fan_washing'},
+		{output: 'create:crushed_raw_copper'},
+		{output: 'create:crushed_raw_zinc'},
+		{output: 'create:mechanical_crafter'},
 
 		// Create: TFMG
 		{output: 'tfmg:steel_pipe'},
 		{output: 'tfmg:steel_distillation_output'},
 		{output: 'tfmg:coke_oven'},
+		{output: 'tfmg:blast_furnace_output'},
 		{output: 'tfmg:heavy_plate'},
 		{output: 'tfmg:electric_casing'},
 		{input: 'tfmg:electric_casing'},
@@ -40,6 +57,7 @@ ServerEvents.recipes(e => {
 		{output: 'create_new_age:energiser_t1'},
 		{output: 'create_new_age:energiser_t2'},
 		{output: 'create_new_age:energiser_t3'},
+		{output: 'create_new_age:advanced_solar_heating_plate'},
 
 		// Create Ore Excavation
 		{output: 'createoreexcavation:vein_finder'},
@@ -79,78 +97,12 @@ ServerEvents.recipes(e => {
 		// AE2
 		{output: 'ae2:inscriber'},
 
-		//Mekanism
-		{output: 'mekanism:ingot_steel'},
-		{output: 'mekanism:block_steel'},
-		{output: 'mekainsm:nugget_steel'},
-		{output: 'mekanism:dust_refined_obsidian'},
-		{output: 'mekanism:alloy_infused'},
-		{output: 'mekanism:alloy_reinforced'},
-		{output: 'mekanism:alloy_atomic'},
-		{output: 'mekanism:diamond'},
-		{output: 'mekanism:refined_obsidian'},
-		{output: 'mekanism:teleportation_core'},
-
-		{output: 'mekanism:oredictionificator'},
-
-		{output: 'mekanism:basic_universal_cable'},
-		{output: 'mekanism:basic_mechanical_pipe'},
-		{output: 'mekanism:basic_pressurized_tube'},
-		{output: 'mekanism:basic_thermodynamic_conductor'},
-		{output: 'mekanism:diversion_transporter'},
-		{output: 'mekanism:restrictive_transporter'},
-
-		{output: 'mekanism:advanced_control_circuit'},
-		{output: 'mekanism:advanced_energy_cube'},
-		{output: 'mekanism:advanced_fluid_tank'},
-		{output: 'mekanism:advanced_chemical_tank'},
-		{output: 'mekanism:advanced_universal_cable'},
-		{output: 'mekanism:advanced_mechanical_pipe'},
-		{output: 'mekanism:advanced_pressurized_tube'},
-		{output: 'mekanism:advanced_logistical_transporter'},
-		{output: 'mekanism:advanced_thermodynamic_conductor'},
-
-		{output: 'mekanism:upgrade_anchor'},
-
-		{output: 'mekanism:ingot_osmium', input: [
-			'mekanism:raw_osmium',
-			'mekanism:osmium_ore',
-			'mekanism:dust_osmium',
-			'mekanism:deepslate_osmium_ore',
-			'create:crushed_raw_osmium',
-		]},
-		{output: 'mekanism:dust_osmium', input: 'mekanism:ingot_osmium'},
-		{output: 'mekanism:nugget_osmium', input: 'create:crushed_raw_osmium'},
-
-		{output: 'mekanism:ingot_lead', input: [
-			'mekanism:raw_lead',
-			'mekanism:lead_ore',
-			'mekanism:dust_lead',
-			'mekanism:deepslate_lead_ore',
-			'create:crushed_raw_lead',
-		]},
-		{output: 'mekanism:dust_osmium', input: 'mekanism:ingot_osmium'},
-		{output: 'mekanism:nugget_lead', input: 'create:crushed_raw_lead'},
-
-		{output: 'mekanism:ingot_uranium', input: [
-			'mekanism:raw_uranium',
-			'mekanism:uranium_ore',
-			'mekanism:dust_uranium',
-			'mekanism:deepslate_uranium_ore',
-			'create:crushed_raw_uranium',
-		]},
-		{output: 'mekanism:dust_uranium', input: 'mekanism:ingot_uranium'},
-		{output: 'mekanism:nugget_uranium', input: 'create:crushed_raw_uranium'},
-
-		// Mekanism Generators
-		{output: 'mekanismgenerators:wind_generator'},
-		{output: 'mekanismgenerators:heat_generator'},
-		{output: 'mekanismgenerators:gas_burning_generator'},
-		{output: 'mekanismgenerators:bio_generator'},
-		{output: 'mekanismgenerators:advanced_solar_generator'},
-
 		// Ad Astra
 		{type: 'ad_astra:nasa_workbench'},
+		{type: 'ad_astra:compressing'},
+		{type: 'ad_astra:alloying'},
+		{type: 'ad_astra:cryo_freezing'},
+		{type: 'ad_astra:refining'},
 		{output: 'ad_astra:steel_ingot'},
 		{output: 'ad_astra:steel_block'},
 		{output: 'ad_astra:steel_nugget'},
@@ -202,7 +154,7 @@ ServerEvents.recipes(e => {
 
 		// Grapple Mod
 		{output: 'grapplemod:repeller'},
-		{output: 'grapplemod:forcefieldupgraddeitem'},
+		{output: 'grapplemod:forcefieldupgradeitem'},
 
 	].forEach((recipe => {
 		e.remove(recipe)

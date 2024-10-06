@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
     shapedRecipes(e);
-//    shapelessRecipes(e);
+    shapelessRecipes(e);
     smeltingRecipes(e);
     blastingRecipes(e);
     stonecuttingRecipes(e);
@@ -25,6 +25,28 @@ function shapedRecipes(e) {
         },
         {
             pattern: [
+                'AAA',
+                'A A',
+                'AAA'
+            ],
+            key: {
+                A: '#forge:logs'
+            },
+            output: '4x minecraft:chest'
+        },
+        {
+            pattern: [
+                'AAA',
+                'BBB',
+                'AAA'
+            ],
+            key: {
+                A: ['#forge:planks', 'minecraft:oak_planks']
+            },
+            output: 'minecraft:bookshelf'
+        },
+        {
+            pattern: [
                 'A A',
                 'ABA',
                 'A A'
@@ -34,6 +56,16 @@ function shapedRecipes(e) {
                 B: ['#forge:planks', 'minecraft:oak_planks']
             },
             output: '4x minecraft:ladder'
+        },
+        {
+            pattern: [
+                'AA',
+                'AA'
+            ],
+            key: {
+                A: 'tfmg:fireclay_ball'
+            },
+            output: 'tfmg:fireclay'
         },
 
         // Ad Astra stuff
@@ -188,6 +220,76 @@ function shapedRecipes(e) {
             output: 'ad_astra:space_boots'
         },
 
+        // Create
+
+        {
+            pattern: [
+                'AB',
+                'BA'
+            ],
+            key: {
+                A: 'planetsandportals:grout',
+                B: 'minecraft:andesite'
+            },
+            output: 'create:andesite_alloy'
+        },
+        {
+            pattern: [
+                'A',
+                'B',
+                'C'
+            ],
+            key: {
+                A: 'create:precision_mechanism',
+                B: 'create:brass_casing',
+                C: 'minecraft:crafting_table'
+            },
+            output: '5x create:mechanical_crafter'
+        },
+
+        // Masterful Machinery
+
+        {
+            pattern: [
+                'AAA',
+                'ABA',
+                'ACA'
+            ],
+            key: {
+                A: 'tfmg:cast_iron_ingot',
+                B: 'tfmg:fireproof_bricks',
+                C: 'tfmg:cast_iron_pipe'
+            },
+            output: 'mm:blast_furnace_controller'
+        },
+        {
+            pattern: [
+                'AAA',
+                'ABA',
+                'ACA'
+            ],
+            key: {
+                A: 'tfmg:heavy_plate',
+                B: 'tfmg:steel_casing',
+                C: 'tfmg:steel_pipe'
+            },
+            output: 'mm:steel_furnace_controller'
+        },
+        {
+            pattern: [
+                'ABA',
+                'ACA',
+                'ADA'
+            ],
+            key: {
+                A: 'tfmg:steel_casing',
+                B: 'create_new_age:basic_motor',
+                C: 'create:mechanical_mixer',
+                D: 'create:basin'
+            },
+            output: 'mm:fuel_mixer_controller'
+        },
+        
         // Create New Age stuff
 
         {
@@ -235,209 +337,6 @@ function shapedRecipes(e) {
                 D: 'minecraft:stick'
             },
             output: 'createoreexcavation:vein_finder'
-        },
-
-        // Mekanism basic blocks
-
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create_new_age:copper_wire'
-            },
-            output: '4x mekanism:basic_universal_cable'
-        },
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create_new_age:overcharged_iron_wire'
-            },
-            output: '8x mekanism:basic_universal_cable'
-        },
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create_new_age:overcharged_golden_wire'
-            },
-            output: '16x mekanism:basic_universal_cable'
-        },
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create_new_age:overcharged_diamond_wire'
-            },
-            output: '64x mekanism:basic_universal_cable'
-        },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create:fluid_pipe'
-            },
-            output: '8x mekanism:basic_mechanical_pipe'
-        },
-        {
-            pattern: [
-                'BAB'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create:framed_glass'
-            },
-            output: '8x mekanism:basic_pressurized_tube'
-        },
-        {
-            pattern: [
-                'BAB'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'minecraft:copper_ingot'
-            },
-            output: '8x mekanism:basic_thermodynamic_conductor'
-        },
-        {
-            pattern: [
-                'AAA',
-                'BCB',
-                'AAA'
-            ],
-            key: {
-                A: 'minecraft:redstone',
-                B: 'tfmg:steel_ingot',
-                C: 'mekanism:basic_logistical_transporter'
-            },
-            output: '2x mekanism:diversion_transporter'
-        },
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'tfmg:steel_ingot',
-                B: 'mekanism:basic_logistical_transporter',
-            },
-            output: '2x mekanism:restrictive_transporter'
-        },
-
-        // Mekanism advanced blocks
-
-        {
-            pattern: [
-                'ABA',
-                'CDC',
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:energy_tablet',
-                C: 'mekanism:ingot_osmium',
-                D: 'mekanism:basic_energy_cube',
-            },
-            output: 'mekanism:advanced_energy_cube'
-        },
-        {
-            pattern: [
-                'ABA',
-                'BCB',
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:ingot_osmium',
-                C: 'mekanism:basic_fluid_tank',
-            },
-            output: 'mekanism:advanced_fluid_tank'
-        },
-        {
-            pattern: [
-                'ABA',
-                'BCB',
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:ingot_osmium',
-                C: 'mekanism:basic_chemical_tank',
-            },
-            output: 'mekanism:advanced_chemical_tank'
-        },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:basic_universal_cable',
-            },
-            output: 'mekanism:advanced_universal_cable'
-        },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:basic_mechanical_pipe',
-            },
-            output: 'mekanism:advanced_mechanical_pipe'
-        },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:basic_pressurized_tube',
-            },
-            output: 'mekanism:advanced_pressurized_tube'
-        },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:basic_logistical_transporter',
-            },
-            output: 'mekanism:advanced_logistical_transporter'
-        },
-        {
-            pattern: [
-                'ABA',
-                'ACA',
-                'DDD'
-            ],
-            key: {
-                A: 'mekanismgenerators:solar_generator',
-                B: 'mekanism:alloy_infused',
-                C: 'mekanism:advanced_control_circuit',
-                D: 'mekanism:ingot_osmium'
-            },
-            output: 'mekanismgenerators:advanced_solar_generator'
         },
 
         // Tom's Simple Storage
@@ -489,19 +388,135 @@ function shapedRecipes(e) {
     })
 }
 
-//function shapelessRecipes(e) {
-//    [
-//        {
-//            inputs: [
-//                'minecraft:lightning_rod',
-//                'tfmg:heavy_machinery_casing'
-//            ],
-//            output: 'create_new_age:energiser_t1'
-//        }
-//    ].forEach((recipe) => {
-//        e.shapeless(recipe.output, recipe.inputs)
-//    })
-//}
+function shapelessRecipes(e) {
+    [
+        // Create
+
+        {
+            inputs: [
+                '4x minecraft:gravel',
+                '4x minecraft:sand',
+                'minecraft:clay'
+            ],
+            output: 'planetsandportals:grout',
+            count: 16
+        },
+        
+        // Blast Furnace
+        
+        {
+            inputs: [
+                'tfmg:fireproof_bricks',
+                'create:andesite_funnel'
+            ],
+            output: 'mm:blast_furnace_item_input',
+            count: 1
+        },
+        {
+            inputs: [
+                'tfmg:fireproof_bricks',
+                'create:fluid_valve'
+            ],
+            output: 'mm:blast_furnace_fluid_output',
+            count: 1
+        },
+        {
+            inputs: [
+                'tfmg:blast_furnace_output'
+            ],
+            output: 'mm:blast_furnace_controller',
+            count: 1
+        },
+
+        // Steel Furnace
+
+        {
+            inputs: [
+                'tfmg:heavy_machinery_casing',
+                'create:andesite_funnel'
+            ],
+            output: 'mm:steel_furnace_item_input',
+            count: 1
+        },
+        {
+            inputs: [
+                'tfmg:heavy_machinery_casing',
+                'create:fluid_valve'
+            ],
+            output: 'mm:steel_furnace_fluid_output',
+            count: 1
+        },
+        {
+            inputs: [
+                'tfmg:heavy_machinery_casing',
+                'create_new_age:electrical_connector'
+            ],
+            output: 'mm:steel_furnace_energy_input',
+            count: 1
+        },
+
+        // Coke Oven
+
+        {
+            inputs: [
+                'mm:coke_oven_filler',
+                'create:display_board'
+            ],
+            output: 'mm:coke_oven_controller',
+            count: 1
+        },
+        {
+            inputs: [
+                'mm:coke_oven_filler',
+                'create:andesite_funnel'
+            ],
+            output: 'mm:coke_oven_item_output',
+            count: 1
+        },
+        {
+            inputs: [
+                'mm:coke_oven_filler',
+                'create:brass_funnel'
+            ],
+            output: 'mm:coke_oven_item_input',
+            count: 1
+        },
+        {
+            inputs: [
+                'mm:coke_oven_filler',
+                'create:fluid_valve'
+            ],
+            output: 'mm:coke_oven_fluid_output',
+            count: 1
+        },
+
+        // Fuel Mixer
+
+        {
+            inputs: [
+                'tfmg:steel_casing',
+                'create:mechanical_pump'
+            ],
+            output: 'mm:fuel_mixer_fluid_input'
+        },
+        {
+            inputs: [
+                'tfmg:steel_casing',
+                'create:fluid_valve'
+            ],
+            output: 'mm:fuel_mixer_fluid_output'
+        },
+        {
+            inputs: [
+                'tfmg:steel_casing',
+                'create_new_age:electrical_connector'
+            ],
+            output: 'mm:fuel_mixer_energy_input'
+        }
+    ].forEach((recipe) => {
+        e.shapeless(Item.of(recipe.output, recipe.count), recipe.inputs)
+    })
+}
 
 function smeltingRecipes(e) {
     [
@@ -516,6 +531,10 @@ function smeltingRecipes(e) {
         {
             input: 'minecraft:rotten_flesh',
             output: 'minecraft:leather'
+        },
+        {
+            input: 'minecraft:copper_ingot',
+            output: 'mekanism:dust_copper'
         }
     ].forEach((recipe) => {
         e.smelting(recipe.output, recipe.input)
@@ -532,6 +551,10 @@ function blastingRecipes(e) {
             input: 'planetsandportals:crushed_calorite_ore',
             output: 'ad_astra:calorite_ingot'
         },
+        {
+            input: 'minecraft:copper_ingot',
+            output: 'mekanism:dust_copper'
+        }
     ].forEach((recipe) => {
         e.blasting(recipe.output, recipe.input)
     })

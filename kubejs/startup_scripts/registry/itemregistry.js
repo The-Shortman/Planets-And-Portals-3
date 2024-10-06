@@ -10,37 +10,63 @@ ItemEvents.armorTierRegistry(e => {
         tier.toughness = 0.0
         tier.knockbackResistance = 0.0
     })
-})
+});
 
 // Item registry
 
 StartupEvents.registry('item', e => {
     [
+        // Restricted Portals Keys
+        {
+            id: 'planetsandportals:hell_flower',
+            type: 'basic',
+            name: 'Hell Flower',
+            stackSize: 1
+        },
+        {
+            id: 'planetsandportals:end_prevention_placeholder',
+            type: 'basic',
+            name: 'Placeholder Item',
+            stackSize: 1
+        },
+        
         // Crushed Ad Astra Ores
         {
-            id: 'planetsandportals:crushed_desh_ore',
+            id: 'planetsandportals:crushed_desh_ore', // Texture from Create Ad Astra Compat
             type: 'basic',
             name: 'Crushed Desh Ore',
             stackSize: 64
         },
         {
-            id: 'planetsandportals:crushed_ostrum_ore',
+            id: 'planetsandportals:desh_dust',
+            type: 'basic',
+            name: 'Desh Dust',
+            stackSize: 64
+        },
+        {
+            id: 'planetsandportals:crushed_ostrum_ore', // Texture from Create Ad Astra Compat
             type: 'basic',
             name: 'Crushed Ostrum Ore',
             stackSize: 64
         },
         {
-            id: 'planetsandportals:crushed_calorite_ore',
+            id: 'planetsandportals:crushed_calorite_ore', // Texture from Create Ad Astra Compat
             type: 'basic',
             name: 'Crushed Calorite Ore',
             stackSize: 64
         },
 
-        // Intermediate items
+        // Ingredient items
         {
             id: 'planetsandportals:steel_electrode',
             type: 'basic',
             name: 'Steel Electrode',
+            stackSize: 64
+        },
+        {
+            id: 'planetsandportals:andesite_dust', // Texture from Create: Astral
+            type: 'basic',
+            name: 'Powdered Andesite',
             stackSize: 64
         }
     ].forEach((item) => {
