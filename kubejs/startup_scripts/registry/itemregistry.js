@@ -21,13 +21,13 @@ StartupEvents.registry('item', e => {
             id: 'planetsandportals:hell_flower',
             type: 'basic',
             name: 'Hell Flower',
-            stackSize: 64
+            stackSize: 1
         },
         {
             id: 'planetsandportals:end_prevention_placeholder',
             type: 'basic',
             name: 'Placeholder Item',
-            stackSize: 64
+            stackSize: 1
         },
         
         // Crushed Ad Astra Ores

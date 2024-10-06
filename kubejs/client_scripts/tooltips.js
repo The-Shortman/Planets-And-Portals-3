@@ -33,14 +33,15 @@ ItemEvents.tooltip(tooltip => {
             ids: [
                 'tfmg:coke_oven'
             ],
-            text: "The coke oven multiblock's function is disabled, use the Masterful Machinery rework instead."
+            text: "Recipe disabled. Use the Masterful Machinery coke oven rework instead."
         },
         {
             ids: [
+                'ad_astra:nasa_workbench',
                 'ad_astra:tier_1_rocket',
                 'ad_astra:tier_2_rocket'
             ],
-            text: 'NASA Workbench is disabled. Use Mechanical Crafters instead to craft this.',
+            text: 'NASA Workbench is disabled. Use Mechanical Crafters instead to craft the tier 1 and 2 rockets.',
         },
         {
             ids: [
@@ -54,7 +55,6 @@ ItemEvents.tooltip(tooltip => {
                 'ad_astra:fuel_refinery',
                 'ad_astra:etrionic_blast_furnace',
                 'ad_astra:compressor',
-                'ad_astra:nasa_workbench',
                 'ad_astra:cryo_freezer'
             ],
             text: 'Disabled - check the recipes in EMI for alternatives.'
@@ -79,7 +79,9 @@ ItemEvents.tooltip(tooltip => {
                 "mm:blast_furnace_item_output",
                 "mm:coke_oven_fluid_input",
                 "mm:steel_furnace_fluid_input",
-                "mm:steel_furnace_item_output"
+                "mm:steel_furnace_item_output",
+                "mm:steel_furnace_energy_output",
+                "mm:fuel_mixer_energy_output"
             ],
             text: "Unused machinery port - no crafting recipe."
         }
@@ -180,6 +182,17 @@ ItemEvents.tooltip(tooltip => {
                 'railways:smokestack_woodburner_brass_cap_copper'
             ],
             text: "Craft the [Woodburner Smokestack] item and hold [ALT] while in main hand to get this item."
+        },
+        {
+            ids: [
+                'railways:slashed_locometal',
+                'railways:locometal_pillar',
+                'railways:locometal_smokebox',
+                'railways:plated_locometal',
+                'railways:flat_slashed_locometal',
+                'railways:flat_riveted_locometal'
+            ],
+            text: "Craft the [Riveted Locometal] item and hold [ALT] while in main hand, or use a stonecutter to get this item."
         }
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkGreen())
