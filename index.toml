@@ -586,7 +586,7 @@ hash = "63207d966a61ae96369d7bcd8198cd8b8c06a24ab180b2a7214149a262971392"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_growing_the_factory.snbt"
-hash = "bd51ea55d3f19ccc2276ab20a6028f8d6e609407f8477b21f2c9b56dcc17ce82"
+hash = "c909f1fe86d62318740be97b4a00cf42925f8f123c0593b8a6ea01824329e5ce"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_new_age.snbt"
@@ -1210,7 +1210,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/registry.js"
-hash = "17abb8d3281e5ed5b94809bfebffbc07bf663d661e402778df9f64c1e8b0b627"
+hash = "b1f669e0a636ac2b154fbff308a2ef8956ebab096f674f93054b2ba7b21ec4df"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/tags.js"

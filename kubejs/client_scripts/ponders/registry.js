@@ -197,7 +197,7 @@ Ponder.registry((e) => {
 
 				scene.world.showSection([5, 2, 5, 5, 6, 6], Facing.WEST);
 				scene.idle(10);
-				scene.text(800, "Fluid can be pumped out from the rear port.", [5, 2.5, 5.5])
+				scene.text(110, "Fluid can be pumped out from the rear port.", [5, 2.5, 5.5])
 					.colored(PonderPalette.OUTPUT)
 					.attachKeyFrame();
 				scene.idle(90);
@@ -212,6 +212,7 @@ Ponder.registry((e) => {
 			"Building the Steel Furnace",
 			"planetsandportals:steel_furnace_structure",
 			(scene, util) => {
+				scene.world.setBlock([5, 5, 3], "mm:steel_furnace_energy_input", false);
 				scene.showBasePlate();
 				scene.idle(10);
 
@@ -257,6 +258,12 @@ Ponder.registry((e) => {
 					}
 					scene.idle(1);
 				}
+				scene.idle(20);
+
+				scene.text(80, "Energy input", [5.5, 6, 3.5])
+					.colored(PonderPalette.INPUT)
+					.attachKeyFrame();
+				scene.idle(110);
 			}
 		);
 
@@ -266,7 +273,8 @@ Ponder.registry((e) => {
 			"Using the Steel Furnace",
 			"planetsandportals:steel_furnace_usage",
 			(scene, util) => {
-				scene.world.setBlock([5, 1, 2], "tfmg:steel_casing", false)
+				scene.world.setBlock([5, 1, 2], "tfmg:steel_casing", false);
+				scene.world.setBlock([5, 5, 3], "mm:steel_furnace_energy_input", false);
 				scene.showBasePlate();
 				scene.idle(10);
 
@@ -292,8 +300,12 @@ Ponder.registry((e) => {
 					.colored(PonderPalette.INPUT);
 				scene.idle(110);
 
+				scene.text(80, "You will also need to provide power via the top port.", [5.5, 6, 3.5])
+					.colored(PonderPalette.INPUT);
+				scene.idle(90);
+
 				scene.text(100, "The steel furnace is slightly faster than the blast furnace.", [3.5, 2.5, 3.5])
-					.colored(PonderPalette.INPUT)
+					.colored(PonderPalette.MEDIUM)
 					.attachKeyFrame();
 				scene.idle(110);
 
@@ -317,7 +329,7 @@ Ponder.registry((e) => {
 
 				scene.world.showSection([5, 2, 5, 5, 6, 6], Facing.WEST);
 				scene.idle(10);
-				scene.text(800, "Fluid can be pumped out from the rear port.", [5, 2.5, 5.5])
+				scene.text(200, "Fluid can be pumped out from the rear port.", [5, 2.5, 5.5])
 					.colored(PonderPalette.OUTPUT)
 					.attachKeyFrame();
 				scene.idle(90);
