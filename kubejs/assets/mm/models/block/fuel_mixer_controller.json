@@ -1,11 +1,11 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/block",
   "children": {
     "base": {
       "parent": "minecraft:block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "tfmg:block/heavy_machinery_casing"
+        "all": "tfmg:block/steel_casing"
       }
     },
     "overlay": {
@@ -13,22 +13,7 @@
       "elements": [
         {
           "faces": {
-            "down": {
-              "texture": "#overlay"
-            },
-            "east": {
-              "texture": "#overlay"
-            },
             "north": {
-              "texture": "#overlay"
-            },
-            "south": {
-              "texture": "#overlay"
-            },
-            "up": {
-              "texture": "#overlay"
-            },
-            "west": {
               "texture": "#overlay"
             }
           },
@@ -46,7 +31,7 @@
       ],
       "render_type": "minecraft:translucent",
       "textures": {
-        "overlay": "mm:block/base_ports/item_output_cutout"
+        "overlay": "mm:block/controller_cutout"
       }
     }
   },
@@ -92,7 +77,6 @@
   ],
   "loader": "forge:composite",
   "textures": {
-    "all": "mm:block/steel_furnace_item_output",
-    "particle": "mm:block/base_ports/item_output_cutout"
+    "particle": "mm:block/controller_cutout"
   }
 }

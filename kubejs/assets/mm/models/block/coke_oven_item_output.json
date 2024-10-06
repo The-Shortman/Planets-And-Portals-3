@@ -92,7 +92,7 @@
   ],
   "loader": "forge:composite",
   "textures": {
-    "all": "mm:block/blast_furnace_item_output",
+    "all": "mm:block/coke_oven_item_output",
     "particle": "mm:block/base_ports/item_output_cutout"
   }
 }

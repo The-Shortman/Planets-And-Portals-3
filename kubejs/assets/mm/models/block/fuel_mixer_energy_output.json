@@ -5,7 +5,7 @@
       "parent": "minecraft:block/cube_all",
       "render_type": "minecraft:solid",
       "textures": {
-        "all": "tfmg:block/heavy_machinery_casing"
+        "all": "tfmg:block/steel_casing"
       }
     },
     "overlay": {
@@ -46,7 +46,7 @@
       ],
       "render_type": "minecraft:translucent",
       "textures": {
-        "overlay": "mm:block/base_ports/item_output_cutout"
+        "overlay": "mm:block/base_ports/energy_output_cutout"
       }
     }
   },
@@ -92,7 +92,7 @@
   ],
   "loader": "forge:composite",
   "textures": {
-    "all": "mm:block/steel_furnace_item_output",
-    "particle": "mm:block/base_ports/item_output_cutout"
+    "all": "mm:block/fuel_mixer_fluid_output",
+    "particle": "mm:block/base_ports/energy_output_cutout"
   }
 }

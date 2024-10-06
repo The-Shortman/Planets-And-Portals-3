@@ -92,7 +92,7 @@
   ],
   "loader": "forge:composite",
   "textures": {
-    "all": "mm:block/blast_furnace_fluid_input",
+    "all": "mm:block/steel_furnace_fluid_input",
     "particle": "mm:block/base_ports/fluid_input_cutout"
   }
 }
