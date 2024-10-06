@@ -1,0 +1,6 @@
+{
+	"type": "forge:add_features",
+	"biomes": "#planetsandportals:is_moon",
+	"features": "planetsandportals:moon_osmium_ore",
+	"step": "underground_ores"
+}
