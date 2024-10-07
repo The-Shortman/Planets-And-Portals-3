@@ -1652,6 +1652,11 @@ hash = "6a4ec75e87bb2937918fadf7585565cd8bed1ae61d50172fd5610f0158c5e58b"
 metafile = true
 
 [[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "2517a20ed69efca449f23a448af7cd8079bf68e47f22fe95cc58cb88a2722d1d"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-view.pw.toml"
 hash = "9503bfd7d59bb3f50232a6c5ea90e5790e178cc96b2463eb3e9775f65d1ef4ea"
 metafile = true
@@ -1734,11 +1739,6 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
-metafile = true
-
-[[files]]
-file = "mods/fps-reducer.pw.toml"
-hash = "d3034d45f3e7b6020053a693f52f083e138d0dc7eafcc48dfcafa0207cb336fb"
 metafile = true
 
 [[files]]
