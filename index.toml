@@ -498,7 +498,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "74dec0e9e8b59dcff68a1056df27697b6a800c26992972c5d7dec03e5b1a9212"
+hash = "0210eb2a5e11b34f13d4d6e8f424003ad36a2dcb1c13364e121255493b90cbb4"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -558,7 +558,7 @@ hash = "0d0e22785b8811b4010b7cf39f78fcfb25e31e70558176a52cb9e95ea9202c8f"
 
 [[files]]
 file = "config/fml.toml"
-hash = "eb6e8b8eda9682889a83d55262ef96cf37153d58fe7f0fa5d5cb1da5d9f7dd9b"
+hash = "32f4453f11564009f11e6525db1cba68d413e6749e0a0787c90bb2512d76058a"
 
 [[files]]
 file = "config/forge-client.toml"

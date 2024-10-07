@@ -7,7 +7,7 @@ earlyWindowControl = true
 #Early window framebuffer scale
 earlyWindowFBScale = 1
 #Early window provider
-earlyWindowProvider = "fmlearlywindow"
+earlyWindowProvider = "minecraft"
 #Early window width
 earlyWindowWidth = 854
 #Early window starts maximized
