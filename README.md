@@ -4,6 +4,8 @@ This is the official repository for the Planets and Portals 3 modpack, soon to b
 
 **Current main branch version: v0.7.1-alpha**
 
+**Current dev branch version: v0.8.0-alpha**
+
 ## Playtesters
 This repository is for the most up-to-date development build. Stable/complete releases will be found on Curseforge once the modpack releases to the public.
 
