@@ -158,7 +158,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "e2a02cd8ed8e5ae66e1ecb190197b6ac8cfe0a1f381f1c13d5a552abb5f32c70"
+hash = "939813c5ba0c81bad21dfb20b4a3c0d0058a548b58b7ce4c7e07ecc98d14df83"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -498,7 +498,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "a5f025aefcfc65bed69f0640f75d2db2826f70b683120233a0b85d5885d9928c"
+hash = "74dec0e9e8b59dcff68a1056df27697b6a800c26992972c5d7dec03e5b1a9212"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -882,7 +882,7 @@ hash = "06276ef3859860fcdc724ff4637ea90fce69ef0b33505fb2cbf87fb6454b6654"
 
 [[files]]
 file = "config/restrictedportals-common.toml"
-hash = "72a39cdf31f297c965e41e80150d7c72337c1cc718eb7500ba082ce1186dbe2a"
+hash = "eda14559763ee6bd925d981dafbca3f08ab8034446eb44193316a620e12607ff"
 
 [[files]]
 file = "config/sidebar_buttons.json"

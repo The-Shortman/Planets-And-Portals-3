@@ -9,9 +9,9 @@
 	#Description for the Advancements
 	description = "Obtain a %item%"
 	#Comma seperated list of items that when crafted unlock the corresponding dimension
-	craftitems = "planetsandportals:hell_flower,planetsandportals:end_prevention_placeholder"
+	craftitems = "planetsandportals:end_prevention_placeholder"
 	#Comma seperated list of Dimension Resource Names
-	dimresname = "minecraft:the_nether,minecraft:the_end"
+	dimresname = "minecraft:the_end"
 	#Comma seperated list of Dimension Display Names
-	dimnames = "Nether,End"
+	dimnames = "End"
 
