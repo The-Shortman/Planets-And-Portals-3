@@ -321,14 +321,6 @@ file = "config/extremesoundmuffler-client.toml"
 hash = "7ecfa3371fcc60bf07d40954c061d3dc4ec647806a9250e9cc391c35b220107d"
 
 [[files]]
-file = "config/fancymenu/assets/accbuttonhover.png"
-hash = "4f08fe7663634ed2c3ca6aca25c66f59a0eeddee2fd023468428dc010cf54193"
-
-[[files]]
-file = "config/fancymenu/assets/accbuttonstandard.png"
-hash = "775572a35ffae865cff9964eeba718ccaac918ab4fe03691eb9ccec70cd7e9e8"
-
-[[files]]
 file = "config/fancymenu/assets/backshadow.png"
 hash = "8d7ce46d8038ef37e526605538913133dba45657144c228080d1a8ba1e55436d"
 
@@ -345,24 +337,8 @@ file = "config/fancymenu/assets/boating.png"
 hash = "553054ebd62645d576e513378145ba4d73aa9314bcbbf538aec8d17f500c796f"
 
 [[files]]
-file = "config/fancymenu/assets/buttonhover.png"
-hash = "fbd31c579d4a11541e6a2c3d07a145b2c66391ddc899e2ce4ba9451562e26380"
-
-[[files]]
-file = "config/fancymenu/assets/buttonstandard.png"
-hash = "2bf6a64c9071a55fa1670a237f31e33d8aec82bff206343fb2c7f1bb345a32d3"
-
-[[files]]
 file = "config/fancymenu/assets/gang.png"
 hash = "08e743202db964b997529719c9729b70702760b821e36ddac9c183c6f298ddcb"
-
-[[files]]
-file = "config/fancymenu/assets/langbuttonhover.png"
-hash = "2f20d8d099c47a225b44f8a24797c3713b1288ea0fb971d56f079b1cb9f90565"
-
-[[files]]
-file = "config/fancymenu/assets/langbuttonstandard.png"
-hash = "48e2b999b5f62ea17ddfd70980fd1c7d85cae8ba124c930ba161e24f3896fadd"
 
 [[files]]
 file = "config/fancymenu/assets/lavatanks.png"
@@ -371,26 +347,6 @@ hash = "0fbb74058bfb1b47db2adfd6835cb960db72ee3e14bc93be97f499fb83d23a15"
 [[files]]
 file = "config/fancymenu/assets/loadingbar.gif"
 hash = "e09e77f5ad10d01dc74fa043efde0c73114329c47da22fa79c0f8709b543f927"
-
-[[files]]
-file = "config/fancymenu/assets/longbuttonhover.png"
-hash = "94fde15fce75ff5962b0d04fbd9c8227898f3741668f3363d3612be36ae7d65e"
-
-[[files]]
-file = "config/fancymenu/assets/longbuttoninactive.png"
-hash = "3c1823f4de54f22177174a9c7f78cbbcc56c3568a693da4de4aa1fbdb3aa412a"
-
-[[files]]
-file = "config/fancymenu/assets/longbuttonstandard.png"
-hash = "54fc70ec6eaadbe82a5682082e53075180764b2a6c9f441e0764f5f8194913af"
-
-[[files]]
-file = "config/fancymenu/assets/medbuttonhover.png"
-hash = "e544d5a979763b84412556b96b2f9060e9b45c7387c55aeebf232d0e64190c7b"
-
-[[files]]
-file = "config/fancymenu/assets/medbuttonstandard.png"
-hash = "15f4f05cb390728aa26053c770a6fa77c72a0c229d91ac1877098533ae70ceb6"
 
 [[files]]
 file = "config/fancymenu/assets/moonview.png"
@@ -1023,6 +979,42 @@ hash = "1678c0e0e1483d40b9d9497a4bea4d79ba1803ef2c45e6cfcf1f3400aea211f0"
 [[files]]
 file = "kubejs/assets/mekanism/textures/block/osmium_ore.png"
 hash = "ef7af2931b481ac81ccd49c73305e759535497eb5a1033a5d5a2eb564703d606"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/accessibility.png"
+hash = "134247b8e15824f5a924013d5e702ac873ecf9bb42deb6642f468b8bbe2a54fb"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/checkbox.png"
+hash = "dd129f23f20297daf166030e6ff715a829a21efd56af1171f16d0268439cf497"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/footer_separator.png"
+hash = "7d12730b91861cdbd881552b8d1dd3f81e98e5a506e29b16d229b476ddc181b8"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/header_separator.png"
+hash = "e9a40661e2e40ef85a374dda113f2f477ee897fb735f95eb5bad93ca39aa9311"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/report_button.png"
+hash = "daadeb600845f68525ba54149e96cee0c93335a0da61931eb58fe22be046fa60"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/slider.png"
+hash = "b2986fcac9add70b644b03229cf7c8ffabcf7d71f6eae605bdf08cb75395da7d"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/social_interactions.png"
+hash = "394f4e82faa8a4809a5039fa536df4de24a32142c1ebf37d739999958cd67033"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/tab_button.png"
+hash = "75693b7f414088816d01502ee6ffa282ea48277d9cb691e48786fae892cf417a"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/widgets.png"
+hash = "ba89e5393e916b127a3687a53499baaf4c6a93e468920610e233255a3ef59e65"
 
 [[files]]
 file = "kubejs/assets/mm/models/block/blast_furnace_controller.json"
