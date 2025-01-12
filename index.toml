@@ -454,11 +454,11 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "0210eb2a5e11b34f13d4d6e8f424003ad36a2dcb1c13364e121255493b90cbb4"
+hash = "53a90a0d807f462db29d8ada2592ed1c84d90ee65f98ebe5d692410bfa97c42a"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "f4376005d963ff52e6a4e937e4413e539b4e08ef21c9f060df3696a236bcc14e"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -466,7 +466,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "8794aef598a6b2d3fb3acfb55832145a26d7fe4ad5db5ff50061f8fdfca39c9f"
+hash = "2a6ace497e693ff6e3b4815ff7c464768eb4a92b6a789d9d4639d834043d9699"
 
 [[files]]
 file = "config/fancymenu/slideshows/menu_screen/images/image_1.jpg"
@@ -1174,7 +1174,7 @@ hash = "28e423f41a088fbb2f3df2fa2305b479edc18d91631e1152a15c4648ff9405ed"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/item/steel_electrode.png"
-hash = "e053d03f90ad6fcfc267dc1f620912e67bc12cb84a32064eea6ac784695001a9"
+hash = "11b5ec4b7dee2d2cc83f73e179d7bdf7c2828307cb06ea3699727700f2f9ff36"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/item/the_badge.png"
