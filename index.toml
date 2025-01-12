@@ -158,7 +158,7 @@ hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
 [[files]]
 file = "config/carryon-common.toml"
-hash = "939813c5ba0c81bad21dfb20b4a3c0d0058a548b58b7ce4c7e07ecc98d14df83"
+hash = "b2ba69c753f3f352cd1262050be731cbb42677e1e3cccc133c4b3fe97a3c7323"
 
 [[files]]
 file = "config/chat_heads.json5"
@@ -965,6 +965,22 @@ file = "kubejs/README.txt"
 hash = "050df4dac58ebda30a898e6c65e91cc4f4e15bcd7c2a19b58ab1c05082e36556"
 
 [[files]]
+file = "kubejs/assets/createoreexcavation/models/item/vein_finder.json"
+hash = "3dd9deb1b41905bc8c90068e44bc00b78e393f457e81f484f06fc66047e3ffc3"
+
+[[files]]
+file = "kubejs/assets/createoreexcavation/textures/item/vein_finder/handle.png"
+hash = "d8e0c43fafa4d13ae2f1c6c03819471858dbb2bbefc65c32e0884fd618a13dd5"
+
+[[files]]
+file = "kubejs/assets/createoreexcavation/textures/item/vein_finder/scanner.png"
+hash = "58aa69aab89caa4f466d4a2994900ec3793d9e9d14cd5b323954b3ec77606a51"
+
+[[files]]
+file = "kubejs/assets/createoreexcavation/textures/item/vein_finder/trigger.png"
+hash = "d5b8f0ae03808b602005c9f39318f5b993d84def1821a40c5fe416dfa21ad52b"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -1014,7 +1030,7 @@ hash = "75693b7f414088816d01502ee6ffa282ea48277d9cb691e48786fae892cf417a"
 
 [[files]]
 file = "kubejs/assets/minecraft/textures/gui/widgets.png"
-hash = "4f20bcb69675d51268bb1a9d136707331def5ab3ef3e1814539a59dc658fffbe"
+hash = "34aebf14703fe1762b1adf0c275b2d591ea67e03b4132fe8aa8a67d61e877b63"
 
 [[files]]
 file = "kubejs/assets/mm/models/block/blast_furnace_controller.json"
@@ -1154,7 +1170,7 @@ hash = "5ef7140f92f86ebcbda7bfbdc018538448c38dc7a545e5c035651af5281dca45"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/item/desh_dust.png"
-hash = "eeb4fa71ddfc148331b960ad5bfea8f5b1cefe2a773b7c58147669e7b5548fa7"
+hash = "28e423f41a088fbb2f3df2fa2305b479edc18d91631e1152a15c4648ff9405ed"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/textures/item/steel_electrode.png"
@@ -2182,3 +2198,7 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
 metafile = true
+
+[[files]]
+file = "shaderpacks/ComplementaryReimagined_r5.3.zip"
+hash = "6e8234a2213c5a35238582d15dcc286584a029fbf42a993c1220188054799224"
