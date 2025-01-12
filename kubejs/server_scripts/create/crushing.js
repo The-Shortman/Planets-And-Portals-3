@@ -1,5 +1,14 @@
 ServerEvents.recipes((e) => {
 	[
+
+		{
+	    input: 'minecraft:dirt',
+	    outputs: [
+		    'minecraft:dirt',
+		    'minecraft:dirt'
+	    ]
+		},
+		
 		{
             input: 'minecraft:raw_copper',
             outputs: [
