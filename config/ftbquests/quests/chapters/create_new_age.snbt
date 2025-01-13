@@ -19,7 +19,7 @@
 	quests: [
 		{
 			dependencies: ["46DC00B20F31E3EF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "623AA0C1D3B34A7B"
 			shape: "octagon"
 			size: 2.0d
@@ -36,7 +36,7 @@
 		{
 			dependencies: ["4D42D999C2360B89"]
 			description: ["The ponder index is your best friend!"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "672E8CA30F5D1405"
 			shape: "octagon"
 			size: 2.0d
@@ -189,7 +189,7 @@
 				""
 				"Heat pumps can be used to concentrate heat in the network to certain areas (i.e. your heat users). Be careful though, as too much heat can cause the components to melt."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4818CB59380DA6E0"
 			subtitle: "Spread heat around"
 			tasks: [{
@@ -388,7 +388,7 @@
 		}
 		{
 			dependencies: ["46DC00B20F31E3EF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "714FBECBA54F02BE"
 			subtitle: "Found underground"
 			tasks: [{

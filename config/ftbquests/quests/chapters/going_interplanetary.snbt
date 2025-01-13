@@ -81,8 +81,8 @@
 		}
 		{
 			dependencies: ["69BE15215F40C3DF"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: "ad_astra:launch_pad"
 			id: "2CBB5F45A6C3C0E4"
 			subtitle: "There's no way to get back from Mars if you forget them!"
@@ -109,7 +109,7 @@
 				""
 				"Luckily, a gravity normaliser knocks both those issues off the list, by preventing fuel floating around the tanks, and by keeping your legs on the ground! Neat!"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "166CE9752CD0D4E0"
 			subtitle: "If only these were real"
 			tasks: [{

@@ -24,7 +24,7 @@
 				""
 				"Want to automate bread? Easy! Want to drill out an entire chunk at a time down to bedrock? Gotcha covered! Want to run a train several thousand blocks to transport your beloved pet crab back and forth in a perpetual, neverending loop? Sure thing!"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "440ACAEBB9D96DB7"
 			rewards: [{
 				id: "2C611643B582CED5"
@@ -222,7 +222,7 @@
 				""
 				"You can even hold 'w' on items in the quest book!"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "create:goggles"
 			id: "18B46C77C6607534"
 			rewards: [{
@@ -667,7 +667,7 @@
 				""
 				"It can also be used to configure certain blocks, and also rotate them. RMB on a block's face to rotate it. "
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "66D01FC4A38BE2E1"
 			rewards: [{
 				id: "73F82CDCB709F972"
@@ -690,7 +690,7 @@
 				""
 				"(Disclaimer: info about Create items only)"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5E86B8B67D6646F7"
 			rewards: [{
 				id: "17C9820D06C310B3"
@@ -1115,7 +1115,7 @@
 		}
 		{
 			dependencies: ["7C289CC7B7FC0A63"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6D63618CFFC9631F"
 			rewards: [{
 				count: 4
@@ -1672,7 +1672,7 @@
 		}
 		{
 			dependencies: ["7C289CC7B7FC0A63"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "create:schematicannon"
 			id: "0625CFA53C315767"
 			rewards: [{
