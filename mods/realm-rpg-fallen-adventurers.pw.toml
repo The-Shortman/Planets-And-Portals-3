@@ -1,13 +1,13 @@
 name = "Realm RPG: Fallen Adventurers"
-filename = "realmrpg_fallen_adventurers_1.0.3_forge_1.20.1.jar"
+filename = "realmrpg_skeletons-1.1.0-forge-1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "705279ac223fe431fc93984334cc27e60feddc57"
+hash = "b3e2385a5df9a24b12089b76f97a9e9337956255"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4956496
+file-id = 6058824
 project-id = 916895

@@ -1,13 +1,13 @@
 name = "Drippy Loading Screen"
-filename = "drippyloadingscreen_forge_3.0.1_MC_1.20.1.jar"
+filename = "drippyloadingscreen_forge_3.0.9_MC_1.20.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "3d19cbea53c232fdbc9ee667ecc2baf64d8e43b9"
+hash = "b3d5cf518445c0f567b3dc6de8cede6bc3c2a283"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5117077
+file-id = 5796441
 project-id = 511770

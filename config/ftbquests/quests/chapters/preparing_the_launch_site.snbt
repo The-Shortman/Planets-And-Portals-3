@@ -29,7 +29,7 @@
 	quests: [
 		{
 			dependencies: ["7719389CD71E8D88"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "37820844114C6ABA"
 			rewards: [{
 				id: "0E7868915C215935"
@@ -139,7 +139,7 @@
 		}
 		{
 			dependencies: ["7719389CD71E8D88"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2334C5115E26D992"
 			subtitle: "3 to get there, 3 to return"
 			tasks: [{
@@ -179,7 +179,7 @@
 		}
 		{
 			dependencies: ["7719389CD71E8D88"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7DAFC038CA0C66EF"
 			rewards: [{
 				count: 2
@@ -199,7 +199,7 @@
 		}
 		{
 			dependencies: ["7719389CD71E8D88"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6149EBE3249827BE"
 			rewards: [{
 				count: 2
@@ -218,7 +218,7 @@
 		}
 		{
 			dependencies: ["7719389CD71E8D88"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4941BEA8A488150B"
 			rewards: [{
 				count: 2
@@ -237,7 +237,7 @@
 		}
 		{
 			dependencies: ["7719389CD71E8D88"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1D521FC501CD386D"
 			rewards: [{
 				count: 2
@@ -257,7 +257,7 @@
 		{
 			dependencies: ["7719389CD71E8D88"]
 			description: ["It does the trick, does it not???"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2AE1FA0784BFDD35"
 			rewards: [{
 				count: 2
@@ -276,7 +276,7 @@
 		}
 		{
 			dependencies: ["7719389CD71E8D88"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "39E60485204E117F"
 			rewards: [{
 				count: 2

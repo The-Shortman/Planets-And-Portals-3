@@ -19,7 +19,7 @@
 				""
 				"That also means it will be an effort to transport. It is recommended that you invenst into a train manufacturing plant of sorts to transport your goods. Trains can travel through unloaded chunks, but their stations must be chunkloaded in order to load/unload resources."
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "602915031BB8E671"
 			rewards: [{
 				id: "170662D6E8E4B240"
@@ -40,7 +40,7 @@
 		{
 			dependencies: ["22E1F637EC14FA16"]
 			description: [
-				"This needs to be placed in a chunk containing an underground resource deposit. It requires rotational power and sometimes fluids to function."
+				"This needs to be placed in a chunk containing an underground resource deposit. It requires rotational power and sometimes fluids to function. It does not need to be placed on the natural ground, but it must have a block below it."
 				""
 				"Check EMI for resource deposit requirements by searching for 'infinite vein'."
 			]
@@ -62,7 +62,7 @@
 		{
 			dependencies: ["22E1F637EC14FA16"]
 			description: [
-				"This needs to be placed in a chunk containing an underground fluid deposit. It requires rotational power and sometimes fluids to function."
+				"This needs to be placed in a chunk containing an underground fluid deposit. It requires rotational power and sometimes fluids to function. It does not need to be placed on the natural ground, but it must have a block below it."
 				""
 				"Check EMI for resource deposit requirements by searching for 'infinite vein'."
 			]
@@ -84,7 +84,7 @@
 		{
 			dependencies: ["7C289CC7B7FC0A63"]
 			description: ["Drills need to be attached to your extractors"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "470F8B44F319713F"
 			rewards: [{
 				count: 4
@@ -92,6 +92,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
+			subtitle: "Start drilling!"
 			tasks: [{
 				id: "708EE088174CEF7E"
 				item: "createoreexcavation:drill"
@@ -108,6 +109,7 @@
 				item: "numismatics:sprocket"
 				type: "item"
 			}]
+			subtitle: "Drill deeper for higher tiers of ore vein!"
 			tasks: [{
 				id: "6AB2C7578C28C1AA"
 				item: "createoreexcavation:diamond_drill"
@@ -125,6 +127,7 @@
 				item: "numismatics:sprocket"
 				type: "item"
 			}]
+			subtitle: "Higher quality drills increase resource output on lower-tier veins"
 			tasks: [{
 				id: "5AB01488C5300F5C"
 				item: "createoreexcavation:netherite_drill"
@@ -142,7 +145,7 @@
 				""
 				"Check out the trains section in the ponder index [Pause menu -> Goggles -> Ponder Index]"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "create:controls"
 			id: "40E7DA301AB9E778"
 			subtitle: "Veins can be extremely far away from your base"
@@ -164,7 +167,7 @@
 				""
 				"Once you're done, you can pick it back up and keep searching!"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5F34FBD51B59CC54"
 			rewards: [{
 				count: 4
@@ -188,7 +191,7 @@
 				""
 				"Good thing the Atlas exists! right click on an active Sample Drill or Drilling Machine to record the vein type. You can then blacklist it in the Atlas' menu!"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6110CB8F4C9CD5A6"
 			rewards: [{
 				count: 2
