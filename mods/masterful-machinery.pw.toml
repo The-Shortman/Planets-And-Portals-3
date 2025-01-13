@@ -1,13 +1,13 @@
 name = "Masterful Machinery"
-filename = "MasterfulMachinery-3-1.20.1-0.1.14.jar"
+filename = "MasterfulMachinery-3-1.20.1-0.1.15.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7d5bab6c151c506d4f550cdff1f942bb58b8f31e"
+hash = "b181f4c0251d2168d1fba128ee85c3d31eeea0d4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5779066
+file-id = 5818581
 project-id = 423476

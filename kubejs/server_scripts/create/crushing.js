@@ -25,21 +25,21 @@ ServerEvents.recipes((e) => {
         {
             input: 'ad_astra:raw_desh',
             outputs: [
-                'planetsandportals:crushed_desh_ore',
+                'planetsandportals:crushed_raw_desh',
                 Item.of('create:experience_nugget').withChance(0.75)
             ]
         },
         {
             input: 'ad_astra:raw_ostrum',
             outputs: [
-                'planetsandportals:crushed_ostrum_ore',
+                'planetsandportals:crushed_raw_ostrum',
                 Item.of('create:experience_nugget').withChance(0.75)
             ]
         },
         {
             input: 'ad_astra:raw_calorite',
             outputs: [
-                'planetsandportals:crushed_calorite_ore',
+                'planetsandportals:crushed_raw_calorite',
                 Item.of('create:experience_nugget').withChance(0.75)
             ]
         },
@@ -65,7 +65,7 @@ ServerEvents.recipes((e) => {
             ]
         },
         {
-            input: 'planetsandportals:crushed_desh_ore',
+            input: 'planetsandportals:crushed_raw_desh',
             outputs: 'planetsandportals:desh_dust'
         }
 	].forEach((r) => {
