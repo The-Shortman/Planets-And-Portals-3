@@ -265,7 +265,7 @@ MMEvents.createProcesses(event => {
             type: "mm:input/consume",
             ingredient: {
                 type: "mm:item",
-                item: "planetsandportals:crushed_desh_ore",
+                item: "planetsandportals:crushed_raw_desh",
                 count: 3
             }
         })
