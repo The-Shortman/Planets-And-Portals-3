@@ -35,7 +35,7 @@
 		{
 			dependencies: ["4D21B058E8F6D8D7"]
 			description: ["Yes I wanted to make this harder to make lol cry about it"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1003ED32BAD36DF2"
 			rewards: [{
 				count: 2
@@ -56,7 +56,7 @@
 		}
 		{
 			dependencies: ["4D21B058E8F6D8D7"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "73914569050D6B8F"
 			subtitle: "This stuff needs an upgrade"
 			tasks: [{

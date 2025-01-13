@@ -18,7 +18,7 @@
 				""
 				"So go forth! The moon is a &bprisitine world&r, as of now untouched by the recklessness of interplanetary civilisations... &o&8or is it...?"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "ad_astra:moon_globe"
 			id: "75A8BA081E0C763E"
 			rewards: [

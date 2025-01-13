@@ -36,7 +36,7 @@
 		}
 		{
 			dependencies: ["346A9FF355C3694A"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "464D04E08198E443"
 			rewards: [{
 				id: "7A31E5877D0EF3D6"
@@ -55,7 +55,7 @@
 		{
 			dependencies: ["464D04E08198E443"]
 			description: ["Maybe with better technology it can be put to even more use?"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "69BE15215F40C3DF"
 			rewards: [{
 				count: 2
