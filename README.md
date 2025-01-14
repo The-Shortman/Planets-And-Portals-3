@@ -12,7 +12,7 @@ This repository is for the most up-to-date development build. Stable/complete re
 You **can** share this pack with your friends, just ask them to join the discord server as well, so I can credit them for playtesting, and so they can report issues and give feedback.
 
 ### Updating
-Updating the modpack is effortless once you set up packwiz to automatically update from GitHub. All you need is a launcher that can run pre-launch commands, such as MultiMC or Prism. I recommend Prism as it's much more versatile but is quite technical.
+Updating the modpack is effortless once you set up packwiz to automatically update from GitHub. All you need is a launcher that can run pre-launch commands, such as MultiMC or Prism. I recommend Prism as it's much more versatile.
 
 The download for Prism Launcher can be found here: https://prismlauncher.org/download/
 
