@@ -1,13 +1,13 @@
 name = "aleki's Nifty Ships"
-filename = "alekiNiftyShips-FORGE-1.20.1-1.0.11.jar"
+filename = "alekiNiftyShips-FORGE-1.20.1-1.0.14.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "20e648b4db128d66bd81236ed2025b18c2d5521d"
+hash = "c42aaab43cd524c45c4065996cc06b9b48c5682a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5636214
+file-id = 5963449
 project-id = 1068445

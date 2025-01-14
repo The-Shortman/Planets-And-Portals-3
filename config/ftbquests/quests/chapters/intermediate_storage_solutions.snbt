@@ -31,6 +31,8 @@
 				"All inventories connected to this will count as one inventory to a storage terminal."
 				""
 				"Use it to link all your chests together!"
+				""
+				"Chests adjacent to linked chests will also be visible to this block."
 			]
 			id: "10D25CECA71371CC"
 			tasks: [{
@@ -52,6 +54,22 @@
 				type: "item"
 			}]
 			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D21B058E8F6D8D7"]
+			description: [
+				"This mod has been heavily cut down in order to provide more incentive to use Applied Energistics 2 later in the game."
+				""
+				"That being said, it's still really powerful for organisation!"
+			]
+			id: "64FEC12E204C741F"
+			tasks: [{
+				id: "208E9E4B5B7231E2"
+				title: "Expecting more?"
+				type: "checkmark"
+			}]
+			x: 1.5d
 			y: 1.5d
 		}
 	]

@@ -521,11 +521,11 @@ function shapelessRecipes(e) {
 function smeltingRecipes(e) {
     [
         {
-            input: 'planetsandportals:crushed_ostrum_ore',
+            input: 'planetsandportals:crushed_raw_ostrum',
             output: 'ad_astra:ostrum_ingot'
         },
         {
-            input: 'planetsandportals:crushed_calorite_ore',
+            input: 'planetsandportals:crushed_raw_calorite',
             output: 'ad_astra:calorite_ingot'
         },
         {
@@ -544,11 +544,11 @@ function smeltingRecipes(e) {
 function blastingRecipes(e) {
     [
         {
-            input: 'planetsandportals:crushed_ostrum_ore',
+            input: 'planetsandportals:crushed_raw_ostrum',
             output: 'ad_astra:ostrum_ingot'
         },
         {
-            input: 'planetsandportals:crushed_calorite_ore',
+            input: 'planetsandportals:crushed_raw_calorite',
             output: 'ad_astra:calorite_ingot'
         },
         {
