@@ -454,7 +454,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "53a90a0d807f462db29d8ada2592ed1c84d90ee65f98ebe5d692410bfa97c42a"
+hash = "66105c24de1cc3c788e5035dd2d374387abddc0469dfb5644a31668452d7886f"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -1141,176 +1141,28 @@ file = "kubejs/assets/mm/textures/block/coke_oven_filler.png"
 hash = "552c5306ed061e3ca08cda39ec0caee26e2ca82380a13924708d088cd4b13c35"
 
 [[files]]
+file = "kubejs/assets/nochatreports/textures/gui/chat_status_icons_extended.png"
+hash = "ad24d6d29c1a8557e499fe7121fb81be983373b1374099c800ee2df2328c7785"
+
+[[files]]
 file = "kubejs/assets/nochatreports/textures/gui/config_reload_button.png"
-hash = "def02fad67d24134e9cba658d38b054812596e25958dec0d235db4d108a3bd38"
+hash = "ad4dc9ec79ec9c8d29f6a10c3b38afe5fb9146d6daea12518c33b99021197f0a"
 
 [[files]]
-file = "kubejs/assets/nochatreports/textures/gui/config_reload_button_disabled.png"
-hash = "e7aa7a6409d5ed4e3e5eacd88c8a87b239bc8928a1711850e9ab445d5fa5d741"
+file = "kubejs/assets/nochatreports/textures/gui/encryption_gui_icons.png"
+hash = "8fb288f2e217b28bb150ff9447a70402a6af364ddc96a7508355f0c639a703ad"
 
 [[files]]
-file = "kubejs/assets/nochatreports/textures/gui/config_reload_button_hovered.png"
-hash = "1dd8926bccfc633835485ec18db6b53d84244ba93a14f835386dcd8083ec36da"
+file = "kubejs/assets/nochatreports/textures/gui/encryption_toggle_button.png"
+hash = "8c9fe060bc7f0ab57545717ea54036babf54e8f429a15ee5ec6aa2407bbc29cf"
 
 [[files]]
-file = "kubejs/assets/nochatreports/textures/gui/ncr_active_button.png"
-hash = "4667c82168eafd1b1b8fcc24d1a9809b30a40d3e25888b8b93c3826ae38340c7"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/ncr_active_button_disabled.png"
-hash = "604e5ac3852f8431df8bc945a1ba3af606fab668af6451e4fde48c1fc2b41d27"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/ncr_active_button_hovered.png"
-hash = "4667c82168eafd1b1b8fcc24d1a9809b30a40d3e25888b8b93c3826ae38340c7"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/ncr_inactive_button.png"
-hash = "6a3cff81d1994aaa4b2f83f750e439fd7114110f010eab9aacf144a1699ee755"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/ncr_inactive_button_disabled.png"
-hash = "604e5ac3852f8431df8bc945a1ba3af606fab668af6451e4fde48c1fc2b41d27"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/ncr_inactive_button_hovered.png"
-hash = "60e62b9f9a2eae89242c9ea4812b1c150da1be4b9882ede3b74b04eb05651131"
+file = "kubejs/assets/nochatreports/textures/gui/ncr_toggle_button.png"
+hash = "580fe8a43e281ff582fc0b065d48649407046d5af46149f86ac78bb4815af6df"
 
 [[files]]
 file = "kubejs/assets/nochatreports/textures/gui/report_server_button.png"
-hash = "f3b5c8c6b0acc7c66cec294f435722f066e1007962923f77859a68950f5a8037"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/report_server_button_disabled.png"
-hash = "3fedd273daa9b34af7c8aefbcb96a8dfb82b04571b4c27c1aef90f96a5b00c4c"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/report_server_button_hovered.png"
-hash = "ad020b85942714e49a6cc19c04114440c07192f1b30742243542eac8351c1c8f"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/active_button.png"
-hash = "8ac2219fd9b01da30e9b32a81774c8b100e08a433e2b736f8b803e2b9c58555b"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/active_button_disabled.png"
-hash = "28160b2bc6a2636941b6e3b58c85f92c009b45244d8ac6d446961baa2a5a047d"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/active_button_hovered.png"
-hash = "2a11c16a173b4180ea6152d79769c1fda34915ff319b1b3325249751f78be003"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/error_button.png"
-hash = "11fd142d5d54458db751c20dd44fbddd0b92459afc54af33de335f2ed75e9753"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/error_button_disabled.png"
-hash = "29040996b05e1c5981d2171ab6064b47558fb7593ecda3c49bbb9a8b335e59ef"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/error_button_hovered.png"
-hash = "d4af12e7c0bf7258a74a36f96486ad12b6c251f894708acd732b8789d90fb40d"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/inactive_button.png"
-hash = "af0e9d205d0f9a067fc52b740314200f0b963b9137570f6d02a6cfb321080382"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/inactive_button_disabled.png"
-hash = "e31f614ed6a95c725bec8cf1d5160565f2ebe2edb1f178da51661fc2214cf811"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/inactive_button_hovered.png"
-hash = "d909c06c689dddd7aea1e940228e8f7f236f067040be79cb7f2a9f2fb3083087"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/key_button.png"
-hash = "3b4482c1f5204577b335b96bdd6f1c1082cbae009a0b1b8510bb2b540be8fb09"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/lock_button.png"
-hash = "4a0bfe1e492f0948eabf916ab1398ec10f6a8f12459f346a7fca816a253ab033"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/random_button.png"
-hash = "fbedcf1535576b133e972596b4234a3247abcff7213ed0cb3ac0ca97ea51d7a5"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/random_button_hovered.png"
-hash = "0a4be3fc86b146a767327287acfacc4c2a199de8a110a6fa00d65bb3ee616a2c"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/insecure.png"
-hash = "28172666fbb91ce6961092af6d0ae8966e78bab4095e9d3b3fbacb8c48f12296"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/insecure_disabled.png"
-hash = "470c249fb9cbf83702878a2d51978a20d5e9e2702310f538c525b62177f74a3f"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/insecure_hovered.png"
-hash = "a41852158e3739ebe3a73630a12bf4df970f37de401fb4cc288250778344f7b4"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/realms.png"
-hash = "3f8323b0eabf92da782e4d9025e998cbb69e875ca76f32169c12ea0a5fe2fa9c"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/realms_disabled.png"
-hash = "1f74f98567b7438a01707ea7e095771313b2e8974c8edeecbf077a95dc2a20d8"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/realms_hovered.png"
-hash = "704f1af6fac7653491a873bdd5914daac822c2bc06a111afc86ba945b34cc0c1"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/secure.png"
-hash = "02fa2cb3711a0794fb1fb7bbb9a6977d06cf9c93825b923277c3311dc880ec47"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/secure_disabled.png"
-hash = "9d72c8e7156544e340e3b4c1a3c8e8b7ad34e63c70bfed22a088b2c6dbb70792"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/secure_hovered.png"
-hash = "9d4b1042ff093cbefea5cb406af37bfe78ad5556b67dcfa95f409bd8930eeba8"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/undefined.png"
-hash = "69ff9462b82ae4fce35abb33ecde3d7d8e97816e7fd33b88d26daad4750b10a4"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/undefined_disabled.png"
-hash = "7a4c7797e6917a49f867580c030e59702df894eb5f9370ce4a8300831ace4656"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/undefined_hovered.png"
-hash = "770d943e353f8d4444aea754f2f57205288516cc7d52db5210b3255066792f7a"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/unintrusive.png"
-hash = "56b8607b0ac8cfcc2a5c0daf5ce64585291faf5981373cab623f0b42255bf0ca"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/unintrusive_disabled.png"
-hash = "c6e068f35dafce353de4b9ca340c7ac6eb7a4fa690cf02f5cd819a742952fc64"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/unintrusive_hovered.png"
-hash = "227109677fe875c2c5d779de934c757c80dafe859f56c607becd682ce2921df4"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/unknown.png"
-hash = "7bdafeeb18329e901619d2c177b253740d3a702ca52fc0fe9cd49480a5aa6e24"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/unknown_disabled.png"
-hash = "3629894ae8bf6b753c9ba4cb9d671bcc9d4818e31ef76b47108a37b8aa99e481"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/unknown_hovered.png"
-hash = "32b9e6389fb064407bed7c2a351966f8ec86f4278bad99425fb00924e22395a6"
+hash = "e325c163aee4fe945f760e9047de62338087b17ae4388647e9adf2055bc06d16"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/ponder/blast_furnace_structure.nbt"
