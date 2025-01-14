@@ -1141,16 +1141,52 @@ file = "kubejs/assets/mm/textures/block/coke_oven_filler.png"
 hash = "552c5306ed061e3ca08cda39ec0caee26e2ca82380a13924708d088cd4b13c35"
 
 [[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/config_reload_button.png"
+file = "kubejs/assets/nochatreports/textures/gui/config_reload_button.png"
 hash = "def02fad67d24134e9cba658d38b054812596e25958dec0d235db4d108a3bd38"
 
 [[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/config_reload_button_disabled.png"
+file = "kubejs/assets/nochatreports/textures/gui/config_reload_button_disabled.png"
 hash = "e7aa7a6409d5ed4e3e5eacd88c8a87b239bc8928a1711850e9ab445d5fa5d741"
 
 [[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/config_reload_button_hovered.png"
+file = "kubejs/assets/nochatreports/textures/gui/config_reload_button_hovered.png"
 hash = "1dd8926bccfc633835485ec18db6b53d84244ba93a14f835386dcd8083ec36da"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/ncr_active_button.png"
+hash = "4667c82168eafd1b1b8fcc24d1a9809b30a40d3e25888b8b93c3826ae38340c7"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/ncr_active_button_disabled.png"
+hash = "604e5ac3852f8431df8bc945a1ba3af606fab668af6451e4fde48c1fc2b41d27"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/ncr_active_button_hovered.png"
+hash = "4667c82168eafd1b1b8fcc24d1a9809b30a40d3e25888b8b93c3826ae38340c7"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/ncr_inactive_button.png"
+hash = "6a3cff81d1994aaa4b2f83f750e439fd7114110f010eab9aacf144a1699ee755"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/ncr_inactive_button_disabled.png"
+hash = "604e5ac3852f8431df8bc945a1ba3af606fab668af6451e4fde48c1fc2b41d27"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/ncr_inactive_button_hovered.png"
+hash = "60e62b9f9a2eae89242c9ea4812b1c150da1be4b9882ede3b74b04eb05651131"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/report_server_button.png"
+hash = "f3b5c8c6b0acc7c66cec294f435722f066e1007962923f77859a68950f5a8037"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/report_server_button_disabled.png"
+hash = "3fedd273daa9b34af7c8aefbcb96a8dfb82b04571b4c27c1aef90f96a5b00c4c"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/report_server_button_hovered.png"
+hash = "ad020b85942714e49a6cc19c04114440c07192f1b30742243542eac8351c1c8f"
 
 [[files]]
 file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/active_button.png"
@@ -1203,42 +1239,6 @@ hash = "fbedcf1535576b133e972596b4234a3247abcff7213ed0cb3ac0ca97ea51d7a5"
 [[files]]
 file = "kubejs/assets/nochatreports/textures/gui/sprites/encryption/random_button_hovered.png"
 hash = "0a4be3fc86b146a767327287acfacc4c2a199de8a110a6fa00d65bb3ee616a2c"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/ncr_active_button.png"
-hash = "4667c82168eafd1b1b8fcc24d1a9809b30a40d3e25888b8b93c3826ae38340c7"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/ncr_active_button_disabled.png"
-hash = "604e5ac3852f8431df8bc945a1ba3af606fab668af6451e4fde48c1fc2b41d27"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/ncr_active_button_hovered.png"
-hash = "4667c82168eafd1b1b8fcc24d1a9809b30a40d3e25888b8b93c3826ae38340c7"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/ncr_inactive_button.png"
-hash = "6a3cff81d1994aaa4b2f83f750e439fd7114110f010eab9aacf144a1699ee755"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/ncr_inactive_button_disabled.png"
-hash = "604e5ac3852f8431df8bc945a1ba3af606fab668af6451e4fde48c1fc2b41d27"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/ncr_inactive_button_hovered.png"
-hash = "60e62b9f9a2eae89242c9ea4812b1c150da1be4b9882ede3b74b04eb05651131"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/report_server_button.png"
-hash = "f3b5c8c6b0acc7c66cec294f435722f066e1007962923f77859a68950f5a8037"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/report_server_button_disabled.png"
-hash = "3fedd273daa9b34af7c8aefbcb96a8dfb82b04571b4c27c1aef90f96a5b00c4c"
-
-[[files]]
-file = "kubejs/assets/nochatreports/textures/gui/sprites/report_server_button_hovered.png"
-hash = "ad020b85942714e49a6cc19c04114440c07192f1b30742243542eac8351c1c8f"
 
 [[files]]
 file = "kubejs/assets/nochatreports/textures/gui/sprites/safety_state/insecure.png"
