@@ -1309,6 +1309,46 @@ file = "kubejs/data/ae2/tags/worldgen/biome/has_meteorites.json"
 hash = "6403f3e639c85baf174779fb499b88b6341725e2ba35a4a2a84874417933ce01"
 
 [[files]]
+file = "kubejs/data/minecraft/structures/village/desert/houses/desert_bank_terminal.nbt"
+hash = "ea04dc83d7090e4b3c07b0226a9866fa2681ac932f762b4e28e429c111b7ec82"
+
+[[files]]
+file = "kubejs/data/minecraft/structures/village/plains/houses/plains_bank_terminal.nbt"
+hash = "482aa6f93a9795f3b91679da01c1a3fd4268b79130366fac716db3bc6953a452"
+
+[[files]]
+file = "kubejs/data/minecraft/structures/village/savanna/houses/savanna_bank_terminal.nbt"
+hash = "0ec04b365bd9960f0eda729738fc099aa5a97448b1de72f2e80bacd41c6dba6c"
+
+[[files]]
+file = "kubejs/data/minecraft/structures/village/snowy/houses/snowy_bank_terminal.nbt"
+hash = "091e7936a600c744a0194f5f6d843bbd1d128e02dc87267ed32334dd34599cc2"
+
+[[files]]
+file = "kubejs/data/minecraft/structures/village/taiga/houses/taiga_bank_terminal.nbt"
+hash = "091e7936a600c744a0194f5f6d843bbd1d128e02dc87267ed32334dd34599cc2"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/desert/houses.json"
+hash = "d29b63eee19a834914420950e9561fa97aa5c0397176176711360f6c74adce94"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/plains/houses.json"
+hash = "6ee570308243f42e36edc879f7f5041e37641a69589eea7682429c4abe78b5e0"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/savanna/houses.json"
+hash = "5afbf71e0dd58f0d8909b66030d9f1b36befcfd5e7e795b9e44067c6de831c92"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/snowy/houses.json"
+hash = "24d4dcd7b97dfe4f12c34155e782e70bc2000d040d91dd8a7f799f2aadcb1e11"
+
+[[files]]
+file = "kubejs/data/minecraft/worldgen/template_pool/village/taiga/houses.json"
+hash = "e6ad036207d893834ed8e0d551c135e8cc076f28ff099e990a136ccc9e6e4e99"
+
+[[files]]
 file = "kubejs/data/planetsandportals/forge/biome_modifier/moon_osmium_ore.json"
 hash = "89176a6f8377468a770515851726fb1f105192a53d0a2cc2a53193cdd77462ce"
 
