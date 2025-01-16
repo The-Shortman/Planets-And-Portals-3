@@ -16,13 +16,7 @@ ItemEvents.armorTierRegistry(e => {
 
 StartupEvents.registry('item', e => {
     [
-        // Restricted Portals Keys
-        {
-            id: 'planetsandportals:hell_flower',
-            type: 'basic',
-            name: 'Hell Flower',
-            stackSize: 1
-        },
+        // Restricted Portals Key (end prevention)
         {
             id: 'planetsandportals:end_prevention_placeholder',
             type: 'basic',
@@ -68,9 +62,17 @@ StartupEvents.registry('item', e => {
             type: 'basic',
             name: 'Powdered Andesite',
             stackSize: 64
+        },
+
+        // Transitional items for sequence assembly
+        {
+            id: 'planetsandportals:unfinished_engine_frame',
+            type: 'create:sequenced_assembly',
+            name: 'Unfinished Engine Frame',
+            stackSize: 1
         }
     ].forEach((item) => {
-        e.create(item.id, item.type).displayName(item.name).maxStackSize(item.stackSize).rarity(item.rarity ?? 'common')
+        e.create(item.id, item.type).displayName(item.name).maxStackSize(item.stackSize ?? 64).rarity(item.rarity ?? 'common')
     })
 
     e.create('planetsandportals:the_badge', 'chestplate').tier('the_badge')

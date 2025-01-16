@@ -6,6 +6,7 @@ ServerEvents.recipes ((e) => {
     let hplate = 'tfmg:unprocessed_heavy_plate'
     let steelmech = 'tfmg:unfinished_steel_mechanism'
     let obsheet = 'create:unprocessed_obsidian_sheet'
+    let engframe = 'planetsandportals:unfinished_engine_frame'
 
     // TFMG Heavy Plate
 
@@ -38,7 +39,7 @@ ServerEvents.recipes ((e) => {
         e.recipes.create.deploying(steelmech, [steelmech, 'tfmg:screwdriver']).keepHeldItem()
     ]).transitionalItem(steelmech).loops(4);
 
-    // Early game sturdy sheet (40% chance of failiure)
+    // Early game sturdy sheet (40% chance of failure)
 
     e.recipes.create.sequenced_assembly([
         Item.of('create:sturdy_sheet').withChance(0.6),
@@ -65,15 +66,13 @@ ServerEvents.recipes ((e) => {
     e.recipes.create.sequenced_assembly([
         Item.of('ad_astra:engine_frame'), // Output
     ], 'tfmg:heavy_machinery_casing', [ // Input
-        e.recipes.create.filling(placehold, [placehold, {fluid: 'tfmg:cooling_fluid', amount: 1000}]),
-        e.recipes.create.deploying(placehold, [placehold, 'tfmg:screw']),
-        e.recipes.create.deploying(placehold, [placehold, 'tfmg:screwdriver']),
-        e.recipes.create.deploying(placehold, [placehold, 'tfmg:steel_truss']),
-        e.recipes.create.deploying(placehold, [placehold, 'tfmg:heavy_plate']),
-        e.recipes.create.deploying(placehold, [placehold, 'tfmg:heavy_plate']),
-        e.recipes.create.deploying(placehold, [placehold, 'tfmg:screw']),
-        e.recipes.create.deploying(placehold, [placehold, 'tfmg:screwdriver']),
-        e.recipes.create.pressing(placehold, placehold)
-    ]).transitionalItem(placehold).loops(1);
+        e.recipes.create.filling(engframe, [engframe, {fluid: 'tfmg:cooling_fluid', amount: 1000}]),
+        e.recipes.create.deploying(engframe, [engframe, 'tfmg:screw']),
+        e.recipes.create.deploying(engframe, [engframe, 'tfmg:screwdriver']),
+        e.recipes.create.deploying(engframe, [engframe, 'tfmg:heavy_plate']),
+        e.recipes.create.deploying(engframe, [engframe, 'tfmg:screw']),
+        e.recipes.create.deploying(engframe, [engframe, 'tfmg:screwdriver']),
+        e.recipes.create.pressing(engframe, engframe)
+    ]).transitionalItem(engframe).loops(1);
 
 })
