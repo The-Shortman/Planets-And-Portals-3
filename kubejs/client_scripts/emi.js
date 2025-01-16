@@ -1,5 +1,5 @@
-onEvent('jei.add.items', event => {
-    event.add(Item.of('create:crushed_raw_aluminum'))
+RecipeViewerEvents.addEntries('item', event => {
+    event.add('create:crushed_raw_aluminum')
   }
 )
 
