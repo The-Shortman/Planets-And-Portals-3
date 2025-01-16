@@ -262,7 +262,7 @@ hash = "5fe808869d46a4b80e1191fbe40f40a4d63987beda0eaeb2d89b909a990ea2ea"
 
 [[files]]
 file = "config/doespotatotick-common.toml"
-hash = "a09a1961e98aa9b2b43de3daac6a0d79e3f43a59861a0dee65bc662d53f2e406"
+hash = "4678e7a195df050f3e6d38ccca9b649e26a3475c046b1e5f0e137cc162db9816"
 
 [[files]]
 file = "config/drippyloadingscreen/options.txt"
@@ -1266,7 +1266,7 @@ hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
 
 [[files]]
 file = "kubejs/client_scripts/emi.js"
-hash = "3a757370963178a419336fc44dde5da3065eb29f9cd691e6cba8aa53eb5e439a"
+hash = "8a4492abb210047cbaa6efb1f3306030e07b5ddcdc07e619ebbe2608fa3e106c"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/registry.js"
@@ -1451,6 +1451,10 @@ hash = "7aafd83b50b6e451ea860f0bf43d21bb45b8bbc824148cdc86837bff650c1151"
 [[files]]
 file = "kubejs/server_scripts/mekanism/machines/metallurgic_infusing.js"
 hash = "21875b986d4bedb11214e138187eff10924d3e85d8b1a3711dbbaa4d847bc871"
+
+[[files]]
+file = "kubejs/server_scripts/misc/villager_capitalism.js"
+hash = "0c4cd5dc7ca14cdd6c414625b61a0ba81676d4c6e73ffb81e2a4df6758b68773"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mm.js"
