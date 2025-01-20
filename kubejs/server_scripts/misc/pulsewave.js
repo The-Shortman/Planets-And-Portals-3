@@ -3,7 +3,7 @@
 global.onLivingSwapItemsEvent = function(event) {
     const player = event.getEntity();
     const hand = player.getMainHandItem();
-}
+} // unused event to detect when a player swaps main hand item
 
 function pulse(event) {
     const {server, player, item} = event;
