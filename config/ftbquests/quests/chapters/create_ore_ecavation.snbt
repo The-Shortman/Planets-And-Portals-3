@@ -189,7 +189,7 @@
 			description: [
 				"Man I sure do hate walking thousands of blocks just to find another tin vein."
 				""
-				"Good thing the Atlas exists! right click on an active Sample Drill or Drilling Machine to record the vein type. You can then blacklist it in the Atlas' menu!"
+				"Good thing the Atlas exists! right click on an active Sample Drill or Drilling Machine to record the vein type. You can then blacklist it for your vein finder in the Atlas' menu!"
 			]
 			hide_until_deps_visible: true
 			id: "6110CB8F4C9CD5A6"

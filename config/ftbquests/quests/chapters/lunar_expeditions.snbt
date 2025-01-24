@@ -377,7 +377,7 @@
 			id: "41F3AB7282B73687"
 			tasks: [{
 				id: "0F008974764EFA4F"
-				item: "planetsandportals:crushed_desh_ore"
+				item: "planetsandportals:crushed_raw_desh"
 				type: "item"
 			}]
 			x: -1.0d

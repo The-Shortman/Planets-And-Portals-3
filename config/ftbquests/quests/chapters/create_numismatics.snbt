@@ -10,7 +10,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["You can store your money in here and exchange for higher or lower currencies too!"]
+			description: [
+				"You can store your money in here and exchange for higher or lower currencies too!"
+				""
+				"You can find a bank terminal in some villages as well!"
+			]
 			id: "6F399F281A4AE660"
 			rewards: [{
 				id: "7696E74ADADF789F"

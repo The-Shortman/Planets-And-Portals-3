@@ -458,7 +458,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["440ACAEBB9D96DB7"]
+			dependencies: [
+				"440ACAEBB9D96DB7"
+				"6EB4A32E2A9BC781"
+			]
 			description: ["Place this underneath your mixer's basin and give it solid fuel or lava to heat it up."]
 			id: "34849FEBAB716C1D"
 			rewards: [{
@@ -1663,7 +1666,7 @@
 			subtitle: "E X P A N D"
 			tasks: [{
 				id: "1302FD0D059F0037"
-				item: "tfmg:coke_oven"
+				item: "mm:coke_oven_controller"
 				type: "item"
 			}]
 			title: "The Factory Must Grow"
@@ -1744,6 +1747,19 @@
 			}]
 			x: -5.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["0C2A4CAA9E330EF1"]
+			id: "6EB4A32E2A9BC781"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "76450F493AA62B82"
+				title: "Visit Dimension: Nether"
+				type: "dimension"
+			}]
+			title: "Visit the Nether"
+			x: -5.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Industrialisation"]
