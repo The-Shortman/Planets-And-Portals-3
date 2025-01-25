@@ -357,8 +357,8 @@ file = "config/fancymenu/assets/lavatanks.png"
 hash = "0fbb74058bfb1b47db2adfd6835cb960db72ee3e14bc93be97f499fb83d23a15"
 
 [[files]]
-file = "config/fancymenu/assets/loadingbar.gif"
-hash = "e09e77f5ad10d01dc74fa043efde0c73114329c47da22fa79c0f8709b543f927"
+file = "config/fancymenu/assets/loadingscreen.png"
+hash = "e1944f9bdcdef2276d481f4405383586dc904ec37693f8c71202cd1d921c5e3d"
 
 [[files]]
 file = "config/fancymenu/assets/moonview.png"
@@ -414,7 +414,7 @@ hash = "cea002aa8ebc1f665d7652e1c9dd9abf2651002a1b76c0cab85832c6e0d8e74e"
 
 [[files]]
 file = "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
-hash = "652a6379ffbe067e08915a8449049aab0c1bd1b99baa810af680fa377df42c36"
+hash = "52ca0199fc83bc20818e02581dc1eae10434b94aca676356d1d01f619ceda7b9"
 
 [[files]]
 file = "config/fancymenu/customization/edit_server_screen_layout.txt"
