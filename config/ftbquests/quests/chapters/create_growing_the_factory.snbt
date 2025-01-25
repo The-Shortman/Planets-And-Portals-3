@@ -269,6 +269,7 @@
 		{
 			dependencies: ["35D51910C3C1DF00"]
 			id: "2D6E59F3B491915E"
+			subtitle: "It's recommended that you have at least 3 of these for automation"
 			tasks: [
 				{
 					id: "160FE9760CE6530B"
@@ -534,10 +535,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"12BB221EA057225A"
-				"7358EA6E75E5D3FE"
-			]
+			dependencies: ["12BB221EA057225A"]
 			dependency_requirement: "one_completed"
 			hide_until_deps_visible: false
 			id: "67056B9B4D6219CB"
@@ -643,20 +641,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["41758E06F66BD694"]
-			hide_dependency_lines: true
-			id: "7358EA6E75E5D3FE"
-			optional: true
-			subtitle: "Find oil geysers on the surface of oceans"
-			tasks: [{
-				id: "493B8F4A6136629C"
-				item: "ad_astra:oil_bucket"
-				type: "item"
-			}]
-			x: 15.0d
-			y: -1.5d
-		}
-		{
 			dependencies: ["67056B9B4D6219CB"]
 			description: ["You can turn on 'Comfy Reading' at the bottom right side of the ponder index to slow down the text so it's easier to read."]
 			id: "3311928D4594E56C"
@@ -710,7 +694,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["497D102882789ED2"]
@@ -721,12 +705,13 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"1ABC5FB76410824A"
 				"501F28ABF519FFA4"
+				"58048ADEDB36FF8C"
 			]
 			description: ["Unlocks the Preparing the Launch Site Chapter"]
 			id: "7719389CD71E8D88"
@@ -745,7 +730,7 @@
 				type: "item"
 			}]
 			title: "Rocket Fuel!"
-			x: 21.0d
+			x: 22.0d
 			y: 0.0d
 		}
 		{
@@ -927,6 +912,55 @@
 			}]
 			x: 7.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["497D102882789ED2"]
+			id: "58048ADEDB36FF8C"
+			subtitle: "Specialised fuel mixing equipment"
+			tasks: [
+				{
+					id: "372FCB739F330B6C"
+					item: "mm:fuel_mixer_controller"
+					type: "item"
+				}
+				{
+					count: 11L
+					id: "0D5F8C635D4854A4"
+					item: { Count: 11, id: "tfmg:steel_casing" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00A876F4BE793F4D"
+					item: { Count: 4, id: "tfmg:industrial_pipe" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "76DCD0F691B72267"
+					item: { Count: 3, id: "tfmg:steel_fluid_tank" }
+					type: "item"
+				}
+				{
+					id: "1B2D5D583FA693F4"
+					item: "mm:fuel_mixer_energy_input"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "77567E2AF8103AAD"
+					item: { Count: 2, id: "mm:fuel_mixer_fluid_input" }
+					type: "item"
+				}
+				{
+					id: "2013EF97983D04BD"
+					item: "mm:fuel_mixer_fluid_output"
+					type: "item"
+				}
+			]
+			title: "Fuel Mixer"
+			x: 19.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["E X P A N D"]

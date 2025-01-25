@@ -1670,7 +1670,7 @@
 			subtitle: "E X P A N D"
 			tasks: [{
 				id: "1302FD0D059F0037"
-				item: "mm:coke_oven_controller"
+				item: "mm:coke_oven_filler"
 				type: "item"
 			}]
 			title: "The Factory Must Grow"

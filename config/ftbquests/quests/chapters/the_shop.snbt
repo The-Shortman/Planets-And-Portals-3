@@ -506,7 +506,7 @@
 			rewards: [{
 				count: 2
 				id: "048CAB89D996A2D7"
-				item: "numismatics:sprocket"
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			subtitle: "An engineer needs circuitry components"

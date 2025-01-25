@@ -176,7 +176,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["131DB96278BBD76A"]
+			dependencies: ["709E7AD62BF05EE4"]
+			description: ["Contibuted the model for the Ore Vein Atlas and texture for Desh Dust"]
 			icon: "brewery:beer_mug"
 			id: "78E699EFB18890B9"
 			rewards: [
@@ -207,8 +208,8 @@
 				title: "MrRumblz89"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["131DB96278BBD76A"]
@@ -337,8 +338,8 @@
 				title: "ThEmeralDuke"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 6.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["131DB96278BBD76A"]
@@ -424,7 +425,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 7.5d
 			y: 0.0d
 		}
 		{
@@ -438,6 +439,18 @@
 			}]
 			x: 8.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["709E7AD62BF05EE4"]
+			description: ["Contributed the texture for the Steel Electrode"]
+			id: "4B70EAEEBAC7E5B0"
+			tasks: [{
+				id: "16A23BDC27D1F5F2"
+				title: "JohnDoeKnownJury"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.0d
 		}
 	]
 	subtitle: ["Thank you!"]
