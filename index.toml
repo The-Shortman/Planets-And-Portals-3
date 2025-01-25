@@ -554,11 +554,11 @@ hash = "0b5eb6a389fa70896b1aa1da455cfc4535cf98aa9a084cb8015a0b408bd7de7d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "078e208523451e7aa88a5b385419b30bbbbc76c758940d9f4dbba216347dcda2"
+hash = "e2d8e5e79dec6701685b75829a015406a6cb4a6eff4255bc9d4479177d1672bb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_growing_the_factory.snbt"
-hash = "809427fbfa1b18339ecbea3f4b8b2341febd93cdb8d0376dc10fe2b119976283"
+hash = "9cc3c90abd3e150f3109c74e8765aab1812492c6cef575d857823af686165607"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create_new_age.snbt"
@@ -574,7 +574,7 @@ hash = "4aff9593bcf10a2e266a4357fff6b353838f5774b5cf36c258ef4609fc9ab594"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/credits.snbt"
-hash = "d6b6546e07290a79de4bac59ff98bdeba79d28fecac863155063580825310852"
+hash = "ef5898dcd0fc00f4ec4e3e0da7b5a3edba1845ccfa4ab81dc61c0d6f3c857015"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/going_interplanetary.snbt"
@@ -614,7 +614,7 @@ hash = "4a642773273b7c32f32d779f987fddefbf883d60f067193f16dcd71e29f37fc2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_shop.snbt"
-hash = "3ca95b5f74ec8bf5792af4676159fd0da3e8f8500aa313624843a48dc4ccb8c9"
+hash = "c3ef266733c03c98b28aa66a149cf8b2493a987eb119d06548aa66e38035e1c0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/venus_goddess_of_love.snbt"
@@ -1467,6 +1467,10 @@ hash = "1fb8ab8067154005cdfb933483aad3eae310cb2fa46a9cae4d15da7b5dd3f242"
 [[files]]
 file = "kubejs/server_scripts/misc/stages.js"
 hash = "aa3808934ccde45ce25cf8340ee71c532c04c6c98c758a9449435fab38b8aeeb"
+
+[[files]]
+file = "kubejs/server_scripts/misc/starter_questbook.js"
+hash = "b2f70eba92891f518a26fcb2c216f064b942cdc9ccb4520700c3da9617331960"
 
 [[files]]
 file = "kubejs/server_scripts/misc/villager_capitalism.js"
