@@ -1,0 +1,21 @@
+{
+	id: "16B8479EC0F1B335"
+	loot_crate: {
+		color: 11842740
+		drops: {
+			boss: 0
+			monster: 5
+			passive: 0
+		}
+		string_id: "m_cash"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ item: "numismatics:bevel", weight: 60.0f }
+		{ item: "numismatics:sprocket", weight: 30.0f }
+		{ count: 2, item: "numismatics:sprocket", random_bonus: 1, weight: 9.0f }
+		{ item: "numismatics:cog" }
+	]
+	title: "Medium cashbox"
+}

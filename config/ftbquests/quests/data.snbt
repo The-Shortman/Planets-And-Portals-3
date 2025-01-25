@@ -6,7 +6,7 @@
 	default_reward_team: false
 	detection_delay: 20
 	disable_gui: false
-	drop_loot_crates: false
+	drop_loot_crates: true
 	emergency_items: [{ Count: 1, id: "planetsandportals:cosmic_resonator_alpha" }]
 	emergency_items_cooldown: 300
 	grid_scale: 0.5d
@@ -18,8 +18,8 @@
 	lock_message: ""
 	loot_crate_no_drop: {
 		boss: 0
-		monster: 600
-		passive: 4000
+		monster: 1000
+		passive: 1000
 	}
 	pause_game: true
 	progression_mode: "linear"
