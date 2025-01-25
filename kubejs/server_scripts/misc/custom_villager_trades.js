@@ -40,20 +40,6 @@ const addTrades = [
 		sellItem: TradeItem.of("minecraft:cactus", 1, 1),
 		maxUses: 2
 	},
-	{
-		villagerType: "minecraft:farmer",
-		villagerLevel: 3,
-		buyItem: [TradeItem.of("numismatics:bevel", 2, 2)],
-		sellItem: TradeItem.of("minecraft:cow_spawn_egg", 1, 1),
-		maxUses: 1
-	},
-	{
-		villagerType: "minecraft:farmer",
-		villagerLevel: 3,
-		buyItem: [TradeItem.of("numismatics:bevel", 2, 2)],
-		sellItem: TradeItem.of("minecraft:sheep_spawn_egg", 1, 1),
-		maxUses: 1
-	},
 
 	// Fisherman
 
@@ -80,6 +66,27 @@ const addTrades = [
 		villagerLevel: 2,
 		buyItem: [TradeItem.of("numismatics:bevel", 1, 1)],
 		sellItem: TradeItem.of("comforts:sleeping_bag_white", 1, 1),
+		maxUses: 1
+	},
+	{
+		villagerType: "minecraft:shepherd",
+		villagerLevel: 3,
+		buyItem: [TradeItem.of("numismatics:bevel", 2, 2)],
+		sellItem: TradeItem.of("minecraft:cow_spawn_egg", 1, 1),
+		maxUses: 1
+	},
+	{
+		villagerType: "minecraft:shepherd",
+		villagerLevel: 3,
+		buyItem: [TradeItem.of("numismatics:sprocket", 1, 1)],
+		sellItem: TradeItem.of("minecraft:sheep_spawn_egg", 1, 1),
+		maxUses: 1
+	},
+	{
+		villagerType: "minecraft:shepherd",
+		villagerLevel: 3,
+		buyItem: [TradeItem.of("numismatics:bevel", 2, 2)],
+		sellItem: TradeItem.of("minecraft:pig_spawn_egg", 1, 1),
 		maxUses: 1
 	},
 
