@@ -127,7 +127,7 @@
 				item: "numismatics:sprocket"
 				type: "item"
 			}]
-			subtitle: "Higher quality drills increase resource output on lower-tier veins"
+			subtitle: "Higher-quality drills increase resource output on lower-tier veins"
 			tasks: [{
 				id: "5AB01488C5300F5C"
 				item: "createoreexcavation:netherite_drill"
@@ -137,7 +137,8 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["7C289CC7B7FC0A63"]
+			dependencies: ["5D1C22F64BF373A4"]
+			dependency_requirement: "one_started"
 			description: [
 				"Trains can travel through unloaded chunks, so they're perfect for transporting items and fluids long-distance."
 				""
@@ -149,11 +150,18 @@
 			icon: "create:controls"
 			id: "40E7DA301AB9E778"
 			subtitle: "Veins can be extremely far away from your base"
-			tasks: [{
-				id: "50FD322BA5F6D82C"
-				item: "create:railway_casing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "50FD322BA5F6D82C"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "7981260CAF51E3F5"
+					title: "Understood"
+					type: "checkmark"
+				}
+			]
 			title: "Long distance transportation"
 			x: 0.0d
 			y: -2.5d
