@@ -365,14 +365,6 @@ file = "config/fancymenu/assets/moonview.png"
 hash = "022399105f80bd4ec2629c342980f2ccbc965bdf1627eda29985ef011ee2e35e"
 
 [[files]]
-file = "config/fancymenu/assets/newsbody.png"
-hash = "e78b607242a95b8b02dcdd3df27fd53650f3a656b395f254bb39b03b8f799747"
-
-[[files]]
-file = "config/fancymenu/assets/newsheader.png"
-hash = "437e376ba80afa4a92fcd3d8e27e520dcee3acf9b75d4c18484fced44096501a"
-
-[[files]]
 file = "config/fancymenu/assets/pap2_full_logo.png"
 hash = "071a3778d75e4667b624e5fd2a3169a68b428b38ad9c4d0ffbc2cd0794e9060d"
 
@@ -531,10 +523,6 @@ hash = "32f4453f11564009f11e6525db1cba68d413e6749e0a0787c90bb2512d76058a"
 [[files]]
 file = "config/forge-client.toml"
 hash = "7bc724152ad613fc492e7439074edeed178bc3405fc80a741add5ab562626684"
-
-[[files]]
-file = "config/fpsreducer/fpsreducer-client.toml"
-hash = "1c3ade413ad1f0c5cf1c477d145bf7e3b733b18fad24c695267faa4ac37fdd31"
 
 [[files]]
 file = "config/ftbbackups2.json"
@@ -1257,6 +1245,10 @@ file = "kubejs/assets/planetsandportals/textures/item/cosmic_resonator/tier_1/ga
 hash = "c2702d3a53f0b1f664088bb04cfa4a1d102a3039cee953d498dc9639473156ab"
 
 [[files]]
+file = "kubejs/assets/planetsandportals/textures/item/cosmic_resonator/tier_2/zeta.png"
+hash = "66d1c72e5ad96571c14b797a2043c0b6f41c608f175132360d75fc637f4e672c"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/textures/item/crushed_raw_calorite.png"
 hash = "01152d99aa55bce1767ff7174ae0dbc8b5d54f57f6762e16504a9aa7912d26b4"
 
@@ -1369,7 +1361,7 @@ file = "kubejs/data/ad_astra/tags/fluids/tier_2_rocket_fuel.json"
 hash = "82e42c873b8a8ab70b42dbe62d45f5ed979fab2c2e0eb0f6b0f19347f653806e"
 
 [[files]]
-file = "kubejs/data/ad_astra/tags/worldgen/has_structure/oil_well.json"
+file = "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
 hash = "fbf9700c62b92e9ed705fc73129383f458966e02f52c8b5816b7cb41cb86395f"
 
 [[files]]
