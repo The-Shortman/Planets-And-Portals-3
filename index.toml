@@ -1189,6 +1189,30 @@ file = "kubejs/assets/nochatreports/textures/gui/report_server_button.png"
 hash = "e325c163aee4fe945f760e9047de62338087b17ae4388647e9adf2055bc06d16"
 
 [[files]]
+file = "kubejs/assets/nochatreports/textures/gui/chat_status_icons_extended.png"
+hash = "ad24d6d29c1a8557e499fe7121fb81be983373b1374099c800ee2df2328c7785"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/config_reload_button.png"
+hash = "ad4dc9ec79ec9c8d29f6a10c3b38afe5fb9146d6daea12518c33b99021197f0a"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/encryption_gui_icons.png"
+hash = "8fb288f2e217b28bb150ff9447a70402a6af364ddc96a7508355f0c639a703ad"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/encryption_toggle_button.png"
+hash = "8c9fe060bc7f0ab57545717ea54036babf54e8f429a15ee5ec6aa2407bbc29cf"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/ncr_toggle_button.png"
+hash = "580fe8a43e281ff582fc0b065d48649407046d5af46149f86ac78bb4815af6df"
+
+[[files]]
+file = "kubejs/assets/nochatreports/textures/gui/report_server_button.png"
+hash = "e325c163aee4fe945f760e9047de62338087b17ae4388647e9adf2055bc06d16"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/ponder/blast_furnace_structure.nbt"
 hash = "099ed034df1e725a48c9a6c56894507d17495f9a722c4bb991e6a24f25ee9965"
 
