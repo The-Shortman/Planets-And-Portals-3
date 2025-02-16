@@ -1461,10 +1461,6 @@ file = "kubejs/server_scripts/misc/pulsewave.js"
 hash = "1fb8ab8067154005cdfb933483aad3eae310cb2fa46a9cae4d15da7b5dd3f242"
 
 [[files]]
-file = "kubejs/server_scripts/misc/stages.js"
-hash = "aa3808934ccde45ce25cf8340ee71c532c04c6c98c758a9449435fab38b8aeeb"
-
-[[files]]
 file = "kubejs/server_scripts/misc/starter_questbook.js"
 hash = "b2f70eba92891f518a26fcb2c216f064b942cdc9ccb4520700c3da9617331960"
 
@@ -1662,11 +1658,6 @@ hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
 
 [[files]]
-file = "mods/astrocraft-mod.pw.toml"
-hash = "b9285d7886ccc5d3514a7baf1026dc3e2e913e93ab37755f2e1537acacf2ca49"
-metafile = true
-
-[[files]]
 file = "mods/athena.pw.toml"
 hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
@@ -1769,11 +1760,6 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "9a236307deb2c8e352f465a5883e10bd2b068f8579993c0a7da562e453055e45"
-metafile = true
-
-[[files]]
-file = "mods/connector-extras.pw.toml"
-hash = "ccc22ae710d22b2c8e8851c5968f85d32bac9f40ee7ded717df78cbe0cc8dae3"
 metafile = true
 
 [[files]]
@@ -1954,11 +1940,6 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "5bd0506bc0be25116b234f2b5af9447f60d82ae1cb6c5be4e12d8841f6c2501c"
-metafile = true
-
-[[files]]
-file = "mods/forgified-fabric-api.pw.toml"
-hash = "b4d64555fb1bcf9e3b4bf3554a5e77b04ed1db5ca8f11f647f5a458c6439d4c3"
 metafile = true
 
 [[files]]
@@ -2319,11 +2300,6 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "0bcbce26618836400069f0f80acc73b4a709a1f5fb70ed65697cbaa00254a576"
-metafile = true
-
-[[files]]
-file = "mods/sinytra-connector.pw.toml"
-hash = "0eab5a7036d1f06d6a7d4679685eaec5723a5c21469f519de1cd1e0ff416ade3"
 metafile = true
 
 [[files]]
