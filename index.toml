@@ -129,10 +129,6 @@ file = "config/appleskin-client.toml"
 hash = "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
 
 [[files]]
-file = "config/astrocraft.json"
-hash = "35d4577ebd3f12c60a08d2318a97083920e065c3b7496153ac3668b4ac5dcab5"
-
-[[files]]
 file = "config/balm-common.toml"
 hash = "2e83e8a8f8e120214aeb50f55eb08f26c53b90e841c1949a9b7ca400f6c34088"
 
@@ -191,14 +187,6 @@ hash = "74a4490a9e22547861cccba0a9cf729be26b2a482ca3fd2c694ea0f4d08e77f2"
 [[files]]
 file = "config/connectivity.json"
 hash = "aa4cba7ed9d3a156ad3a1610df75783f84a5e8c45d14ecb172d33e597a09f079"
-
-[[files]]
-file = "config/connector.json"
-hash = "060e296a5fddce603e50034e3cdb6059c3a0e122d0aae3d85a0523341c82ea22"
-
-[[files]]
-file = "config/connectorextras_energy_bridge-common.toml"
-hash = "4075f057d848f2a33f0bff9f44cce49f8d8340001d7b2afe3431ba1d999c4400"
 
 [[files]]
 file = "config/copycats-client.toml"
@@ -458,7 +446,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "c896f4240f694f9d716789f29f51f1bea81cc2a01ab80094c14b1f61e87df414"
+hash = "8c032797bd8e5341e2a6275f912647d618b3ba7442f39ec51b5631c5e2baccee"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
