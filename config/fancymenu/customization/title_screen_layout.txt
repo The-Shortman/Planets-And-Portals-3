@@ -352,6 +352,7 @@ element {
   source_mode = direct
   shadow = true
   scale = 1.25
+  scale = 1.25
   base_color = #FFFFFFFF
   text_border = 2
   line_spacing = 2
