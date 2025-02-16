@@ -458,7 +458,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "60d3c914672b7412a11571fa5d57d45e472415aead7b396a7a86d40e4af093dd"
+hash = "7e329e3e4fd705f33567bd2d1ed33e9e8d51763e859da3f5ec6ed8fd8740fe9a"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -1293,8 +1293,16 @@ file = "kubejs/assets/planetsandportals/tips/depressurisation.json"
 hash = "84d196e22a90a6f560d2df45f58b991c61ec11f8637fb8906e5cff9d766c7578"
 
 [[files]]
+file = "kubejs/assets/planetsandportals/tips/fireproof_resonator.json"
+hash = "368acf5d42bfc76c275601a42cc380d8015ceccc6c0ec7648f9d38f7c66f810a"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/tips/locatinglag.json"
 hash = "75d03cac94d48e0a9b5e64ba8461f641e4cd9842e6bf09d1046043e084d0a14d"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/tips/lost_resonator.json"
+hash = "321d277952b6efe698ede1565093838e6a6abf60fb7d40ace6a7cd926571aee9"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/tips/pp1.json"
@@ -1310,15 +1318,11 @@ hash = "3cb6aad61b0dda0fd3f921ce8120ddb9d29566713d0e4faa6d9c71a4ad57bb6a"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/tips/thanks.json"
-hash = "f1ee6bed3212dc87367bfa532e9560aea75f044d7cdd75ed69648ad7bba97955"
+hash = "49254d5ff08f566d239c8124a17912b6b659344b0abfd19c80e99f10911771c9"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
 hash = "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
-
-[[files]]
-file = "kubejs/client_scripts/emi.js"
-hash = "86b1663531963d4638ad028c4342b69bd4d4382885f2ba849b367e7efc5f8342"
 
 [[files]]
 file = "kubejs/client_scripts/ponders/registry.js"
@@ -1330,7 +1334,7 @@ hash = "fb7188eb0a3d6c014c393f614fd67e5a8190bce695de26408512d41515d1abb2"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "bf3ecc565006106c2902d7fb83b65c6272f3f7089072493000606bc0722c8322"
+hash = "0bdfcd785464b548dfd336f5eea0ad2c62e5abeb1413d7914449280ae24db0b8"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -1343,6 +1347,10 @@ hash = "5b915efedcf08a57be0c213642229ba2a0651004ffa3903db6eb3556428c331e"
 [[files]]
 file = "kubejs/config/defaultoptions.txt"
 hash = "8ae976775b40bd0bb2e97c028d4c70b5002c96f01a279504fa9547b71625851f"
+
+[[files]]
+file = "kubejs/data/ad_astra/structures/oil.nbt"
+hash = "fc26ce0cb838ecc5dd83a60827a87bfd993f57e4d56cc3ac892921ec9b8f4a6a"
 
 [[files]]
 file = "kubejs/data/ad_astra/tags/fluids/evaporates_in_space.json"
@@ -1359,10 +1367,6 @@ hash = "c2b5eeff0c8128c743876365b73456a337ab6eb60e05c411c964722899a81796"
 [[files]]
 file = "kubejs/data/ad_astra/tags/fluids/tier_2_rocket_fuel.json"
 hash = "82e42c873b8a8ab70b42dbe62d45f5ed979fab2c2e0eb0f6b0f19347f653806e"
-
-[[files]]
-file = "kubejs/data/ad_astra/tags/worldgen/biome/has_structure/oil_well.json"
-hash = "fbf9700c62b92e9ed705fc73129383f458966e02f52c8b5816b7cb41cb86395f"
 
 [[files]]
 file = "kubejs/data/ae2/tags/worldgen/biome/has_meteorites.json"
