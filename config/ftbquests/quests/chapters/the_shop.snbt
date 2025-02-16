@@ -22,6 +22,8 @@
 			description: [
 				"In order to gain access to the store, you need to pay this small upfront expense. Then you'll be able to buy and sell all you want!"
 				""
+				"Handy tip: you can &nbuy and sell a lot of these trades at villagers&r for a better deal!"
+				""
 				"&o&7If you're a server owner and want a manageable economy, then you may want to disable this quest chapter, and have a look at creative vendors :)"
 			]
 			icon: "numismatics:creative_vendor"
@@ -332,6 +334,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
+			subtitle: "Iron't you glad I didn't make a pun here?"
 			tasks: [{
 				count: 64L
 				id: "5CBB10BFAD960945"
@@ -466,7 +469,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
-			subtitle: "Someone wants seeds for something idk"
+			subtitle: "Someone wants seeds for something idk I'm not gonna question it"
 			tasks: [{
 				count: 512L
 				id: "076B5C4016860DC4"
@@ -503,7 +506,7 @@
 			rewards: [{
 				count: 2
 				id: "048CAB89D996A2D7"
-				item: "numismatics:sprocket"
+				item: "numismatics:cog"
 				type: "item"
 			}]
 			subtitle: "An engineer needs circuitry components"
@@ -603,19 +606,12 @@
 		{
 			dependencies: ["7EC941263108CFBF"]
 			id: "27A6AA7746A5FDD1"
-			rewards: [
-				{
-					id: "72B1FA77FF5DEAED"
-					item: "numismatics:bevel"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "43949AB50B24A3BF"
-					item: "numismatics:spur"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "7C4FCC30915D34D6"
+				item: "numismatics:cog"
+				type: "item"
+			}]
 			subtitle: "A sheep farmer wants all the colours of wool"
 			tasks: [
 				{
@@ -703,6 +699,11 @@
 			y: 5.5d
 		}
 		{
+			description: [
+				"A lot of these trades are one-time only."
+				""
+				"A few of them are repeatable if you find villagers!"
+			]
 			id: "7CFF8EBFD4AB2069"
 			subtitle: "&lAll of this is subject to change!!"
 			tasks: [{

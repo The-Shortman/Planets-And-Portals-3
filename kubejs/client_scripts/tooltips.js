@@ -84,7 +84,11 @@ ItemEvents.tooltip(tooltip => {
                 "mm:fuel_mixer_energy_output"
             ],
             text: "Unused machinery port - no crafting recipe."
-        }
+        },
+        {
+            ids: ['ad_astra:oil', 'ad_astra:oil_bucket'],
+            text: 'Use the crude oil from [Create: TFMG] instead.'
+        },
     ].forEach((field) => {
         tooltip.add(field.ids, Text.of(field.text).darkRed())
     });

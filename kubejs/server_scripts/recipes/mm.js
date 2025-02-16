@@ -162,7 +162,7 @@ MMEvents.createProcesses(event => {
             ingredient: {
                 type: "mm:item",
                 item: "tfmg:coal_coke",
-                count: 112
+                count: 1
             }
         })
         .output({

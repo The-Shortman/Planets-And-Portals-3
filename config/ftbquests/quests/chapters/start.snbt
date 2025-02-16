@@ -150,16 +150,9 @@
 				"I would recommend setting a keybind to open the quest book. Go to your controls, and search for quests."
 				""
 				"Or, you can access it from your inventory in the top left!"
-				""
-				"The Blueprint (reward for this quest) is just a retextured Quest Book."
 			]
 			icon: "ftbquests:book"
 			id: "4EE7592E664C47BD"
-			rewards: [{
-				id: "6811B372ECBC654C"
-				item: "create_questing:blueprint"
-				type: "item"
-			}]
 			subtitle: "Your best friend"
 			tasks: [{
 				id: "382803D2B80CFC44"
@@ -176,7 +169,7 @@
 				""
 				"Basic Mekanism machines are gated behind the moon. More advanced Mekanism recipes are locked behind later planets"
 				""
-				"This pack uses a biome mod called Regions Unexplored. I likely won't add any more vanilla biome overhaul mods."
+				"This pack uses a biome mod called Regions Unexplored, and Tectonic to generate the stunning geological features. I likely won't add any more biome overhaul mods."
 			]
 			icon: "ad_astra:earth_globe"
 			id: "519C3A8987AC3CF9"
@@ -198,9 +191,9 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"As you progress through the modpack, you'll be rewarded with a form of currency. This currency can only be generated inside the quests, and repeatable quests for money are tedious and require manual labour. This is to (hopefully!) avoid hyperinflation."
+				"As you progress through the modpack, you'll be rewarded with a form of currency. This currency can only be traded with villagers in place of emeralds, as emeralds to begin with aren't all to abundant, and I wanted to make villagers a more integral part of the modpack experience."
 				""
-				"Yes, hyperinflation. Create: Numismatics allows a player-based economy with banking, trading, vending, depositing, and more! Check out the dedicated chapter!"
+				"Create: Numismatics also allows a player-based economy with banking, trading, vending, depositing, and more! Check out the dedicated chapter!"
 			]
 			icon: "numismatics:cog"
 			id: "723A9A15D6A4F51A"
@@ -239,7 +232,11 @@
 		}
 		{
 			dependencies: ["67E8273831E8B9D2"]
-			description: ["Currently the only portals are the vanilla portals. The portals theme is still yet to be implemented at a later phase in development!"]
+			description: [
+				"Currently the only portals are the vanilla portals. "
+				""
+				"The portals theme is semi-present in the form of the Cosmic Resonator preventing access to the Nether, however there are plans to expand upon the portals theme at some point before release."
+			]
 			icon: "tempad:he_who_remains_tempad"
 			id: "4F98F89290C89B6B"
 			rewards: [{

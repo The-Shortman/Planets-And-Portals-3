@@ -5,7 +5,7 @@
       "color": "green"
     },
     "tip": {
-      "text": "Complimentary Unbound and Reimagined shaders are included in the pack by default. Enable them in video settings!",
+      "text": "Complimentary Unbound and Reimagined shaders are included in the pack by default, and you can enable them in video settings! Warning, as they aren't compatible with the night sky (remove the Astrocraft mod on your client to fix this).",
       "bold": false,
       "color": "white"
     }

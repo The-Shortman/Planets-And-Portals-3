@@ -458,7 +458,10 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["440ACAEBB9D96DB7"]
+			dependencies: [
+				"440ACAEBB9D96DB7"
+				"6EB4A32E2A9BC781"
+			]
 			description: ["Place this underneath your mixer's basin and give it solid fuel or lava to heat it up."]
 			id: "34849FEBAB716C1D"
 			rewards: [{
@@ -971,6 +974,7 @@
 				item: "numismatics:spur"
 				type: "item"
 			}]
+			subtitle: "It's recommended to have 25 of these for crafting drills"
 			tasks: [{
 				id: "3C13D7999AC92982"
 				item: "create:mechanical_crafter"
@@ -1655,7 +1659,10 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["5F63BC3B13248EEA"]
+			dependencies: [
+				"5F63BC3B13248EEA"
+				"48C077C19376E290"
+			]
 			description: ["Unlocks the \"Create: The Factory Must Grow\" Chapter."]
 			id: "2FED5D8D469697E9"
 			shape: "gear"
@@ -1663,11 +1670,11 @@
 			subtitle: "E X P A N D"
 			tasks: [{
 				id: "1302FD0D059F0037"
-				item: "tfmg:coke_oven"
+				item: "mm:coke_oven_filler"
 				type: "item"
 			}]
 			title: "The Factory Must Grow"
-			x: 10.5d
+			x: 11.5d
 			y: -2.0d
 		}
 		{
@@ -1744,6 +1751,32 @@
 			}]
 			x: -5.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["0C2A4CAA9E330EF1"]
+			description: ["&7&oHint: upgrade your Cosmic Resonator to go through Nether Portals!"]
+			id: "6EB4A32E2A9BC781"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "76450F493AA62B82"
+				title: "Visit Dimension: Nether"
+				type: "dimension"
+			}]
+			title: "Visit the Nether"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5F63BC3B13248EEA"]
+			hide_dependency_lines: true
+			id: "48C077C19376E290"
+			tasks: [{
+				id: "44AC680D25D1CC37"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.5d
 		}
 	]
 	subtitle: ["Industrialisation"]

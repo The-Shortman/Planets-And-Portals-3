@@ -113,6 +113,7 @@ ServerEvents.recipes(e => {
 		{output: 'ad_astra:tier_1_rocket'},
 		{output: 'ad_astra:steel_plate'},
 		{output: 'ad_astra:steel_engine'},
+		{output: 'ad_astra:engine_frame'},
 		{output: 'ad_astra:launch_pad'},
 		{output: 'ad_astra:coal_generator'},
 		{output: 'ad_astra:desh_plate'},

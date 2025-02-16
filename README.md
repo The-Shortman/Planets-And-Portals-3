@@ -2,7 +2,7 @@
 An in-development modpack for Minecraft Forge 1.20.1
 This is the official repository for the Planets and Portals 3 modpack, soon to be available on Curseforge. Reporting issues and making suggestions is to be done in the Issues tab on this repository and in the Discord server's #bug-reports forum channel. It makes it much easier to keep track of everything <3
 
-**Current main branch version: v0.7.2a-alpha**
+**Current main branch version: v0.8-alpha**
 
 ## Playtesters
 This repository is for the most up-to-date development build. Stable/complete releases will be found on Curseforge once the modpack releases to the public.
@@ -10,7 +10,7 @@ This repository is for the most up-to-date development build. Stable/complete re
 You **can** share this pack with your friends, just ask them to join the discord server as well, so I can credit them for playtesting, and so they can report issues and give feedback.
 
 ### Updating
-Updating the modpack is effortless once you set up packwiz to automatically update from GitHub. All you need is a launcher that can run pre-launch commands, such as MultiMC or Prism. I recommend Prism as it's much more versatile but is quite technical.
+Updating the modpack is effortless once you set up packwiz to automatically update from GitHub. All you need is a launcher that can run pre-launch commands, such as MultiMC or Prism. I recommend Prism as it's much more versatile.
 
 The download for Prism Launcher can be found here: https://prismlauncher.org/download/
 
@@ -54,7 +54,7 @@ The pack should now automatically update every time you run the instance
 ### Other info
 As to your credit in the Credits quest chapter, it will be added in the update after you sign up for the playtesting programme :)
 
-There is currently no public server (I am actively working on this). If you wish to host a dedicated server, feel free to do so. If you have any issues setting one up let me know as I've had my pain in modifying this to make a server pack every time I update it, or I wpuld recommend e4mc to host it from your client for free - only the host needs the mod installed for anybody (with all the *other* required mods) to join:
+There is currently no public server (I am actively working on this). If you wish to host a dedicated server, feel free to do so. If you have any issues setting one up let me know as I've had my pain in modifying this to make a server pack every time I update it, or I would recommend e4mc to host it from your client for free - only the host needs the mod installed for anybody (with all the *other* required mods) to join:
 
 e4mc:
 https://www.curseforge.com/minecraft/mc-mods/e4mc

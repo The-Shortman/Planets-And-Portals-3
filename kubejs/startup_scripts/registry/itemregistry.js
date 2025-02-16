@@ -16,13 +16,7 @@ ItemEvents.armorTierRegistry(e => {
 
 StartupEvents.registry('item', e => {
     [
-        // Restricted Portals Keys
-        {
-            id: 'planetsandportals:hell_flower',
-            type: 'basic',
-            name: 'Hell Flower',
-            stackSize: 1
-        },
+        // Restricted Portals Key (end prevention)
         {
             id: 'planetsandportals:end_prevention_placeholder',
             type: 'basic',
@@ -68,10 +62,35 @@ StartupEvents.registry('item', e => {
             type: 'basic',
             name: 'Powdered Andesite',
             stackSize: 64
+        },
+
+        // Transitional items for sequence assembly
+        {
+            id: 'planetsandportals:unfinished_engine_frame',
+            type: 'create:sequenced_assembly',
+            name: 'Unfinished Engine Frame',
+            stackSize: 1
         }
     ].forEach((item) => {
-        e.create(item.id, item.type).displayName(item.name).maxStackSize(item.stackSize).rarity(item.rarity ?? 'common')
-    })
+        e.create(item.id, item.type).displayName(item.name).maxStackSize(item.stackSize ?? 64).rarity(item.rarity ?? 'common')
+    });
 
-    e.create('planetsandportals:the_badge', 'chestplate').tier('the_badge')
+    e.create('planetsandportals:the_badge', 'chestplate').tier('the_badge');
+
+    // Cosmic Resonator (basically the ""research"" system)
+
+    [
+        {id: 'alpha', stage: '1', name: 'Alpha'},
+        {id: 'beta', stage: '1', name: 'Beta'},
+        {id: 'gamma', stage: '1', name: 'Gamma'},
+        {id: 'delta', stage: '1', name: 'Delta'},
+        {id: 'epsilon', stage: '1', name: 'Epsilon'}
+    ].forEach((item) => {
+        e.create(`planetsandportals:cosmic_resonator_${item.id}`, 'basic')
+            .displayName(`Cosmic Resonator ${item.name}`)
+            .maxStackSize(1)
+            .rarity('epic')
+            .texture(`planetsandportals:item/cosmic_resonator/tier_${item.stage}/${item.id}`)
+            .fireResistant(true)
+    });
 })
