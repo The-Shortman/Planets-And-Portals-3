@@ -1,0 +1,12 @@
+{
+    "title": {
+        "text": "Cosmic Resonator",
+        "bold": true,
+        "color": "green"
+    },
+    "tip": {
+        "text": "If you lose your Cosmic Resonator, click on the broken heart in the top right hand side of your questbook. Wait 5 minutes in that screen and you'll recieve a new Alpha resonator.",
+        "bold": false,
+        "color": "white"
+    }
+}

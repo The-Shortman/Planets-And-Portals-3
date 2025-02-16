@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Cosmic Resonator",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "Your Cosmic Resonator is fireproof and floats on lava - it isn't immune to other methods of item destruction though!",
+      "bold": false,
+      "color": "white"
+    }
+  }
