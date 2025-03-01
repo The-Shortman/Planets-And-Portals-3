@@ -1,0 +1,111 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progression_book_1"
+	group: "532EC9E85F995F06"
+	id: "42DD95ECCCCD2C4A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome! This is where your progression begins, same as a typical Minecraft playthrough. Punch a tree and get some logs."
+				""
+				"Do yourself a favour and craft that wood into some planks and sticks, get some wooden tools, and build a nice little starter house for yourself if you want."
+			]
+			icon: "minecraft:oak_log"
+			id: "2BC7202742BC1535"
+			subtitle: "I refuse to do a TerraFirmaCraft style early game"
+			tasks: [{
+				id: "7063A8C16B28CD0C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Any logs"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: [
+				"Don't worry! You aren't crazy!"
+				""
+				"Raw iron cannot be smelted as-is. You need to grind it up first before you can pack it into a furnace to get turned into a nicely baked iron ingot."
+				""
+				"Follow the questline to learn how to make a millstone."
+			]
+			id: "2D2CF91CDD25D91B"
+			subtitle: "Help! I can't smelt this!"
+			tasks: [{
+				id: "4A1D7950BB674F48"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: ["Andesite alloy doesn't require iron in this modpack. Instead, get yourself some grout. This can be crafted with sand, gravel, and clay, so I'd recommend setting up by a river."]
+			id: "49F88BFF272C28E9"
+			subtitle: "Now without iron!"
+			tasks: [{
+				id: "3264B094B25F6548"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49F88BFF272C28E9"]
+			description: [
+				"Put those muscles to work!"
+				""
+				"The millstone has a shaft attachment on its bottom face that allows you to directly power it without a cogwheel. Neat!"
+				""
+				"Using the handcrank depletes your hunger, and continuing to use it while starving can kill you!"
+			]
+			id: "7B098E8B56711166"
+			subtitle: "Hand-grindin'"
+			tasks: [
+				{
+					id: "0B3F860DCC815CFA"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "14F22F743BCE07EE"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7B098E8B56711166"
+				"2D2CF91CDD25D91B"
+			]
+			description: ["Iron is, as always, probably the most useful metal you have at your disposal. In the future, you'll have infrastructure to produce a LOT of it."]
+			id: "3E37A26B2D01AF21"
+			subtitle: "Finally, usable metals!"
+			tasks: [{
+				id: "3E85C08125381D87"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	title: "Progression Book 1"
+}

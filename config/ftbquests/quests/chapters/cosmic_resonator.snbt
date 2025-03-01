@@ -35,18 +35,25 @@
 			}]
 			shape: "hexagon"
 			subtitle: "An odd artifact"
-			tasks: [{
-				id: "748896CF459BE334"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:logs"
+			tasks: [
+				{
+					id: "748896CF459BE334"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs"
+						}
 					}
+					title: "Any #minecraft:logs"
+					type: "item"
 				}
-				title: "Any #minecraft:logs"
-				type: "item"
-			}]
+				{
+					id: "0440CCC68395FAE0"
+					title: "Checkmark"
+					type: "checkmark"
+				}
+			]
 			title: "Cosmic Resonator Alpha"
 			x: -0.5d
 			y: 0.0d

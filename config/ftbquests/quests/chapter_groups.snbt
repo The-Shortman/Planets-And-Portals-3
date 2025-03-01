@@ -3,8 +3,8 @@
 		{ id: "34B8FB3F21E5817B", title: "Book 1 - Terragenesis" }
 		{ id: "00686336DBB6F3DF", title: "Book 2 - The Industrial Revolution" }
 		{ id: "78B4A4EF75A52C04", title: "Book 3 - Artemis" }
-		{ id: "674187E378257ECA", title: "Book 4 - The Red Planet" }
-		{ id: "17732307FB749052", title: "Book 5 - The Inner Twins" }
 		{ id: "69C6C562BC012F34", title: "Appendix" }
+		{ id: "224D04C56FB33303", title: "---------------------" }
+		{ id: "532EC9E85F995F06", title: "Book 1" }
 	]
 }
