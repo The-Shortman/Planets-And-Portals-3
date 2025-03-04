@@ -1,17 +1,6 @@
 ServerEvents.recipes((e) => {
 	[
         {
-            inputs: {
-                fluid: 'ad_astra:oil',
-                amount: 1000
-            },
-            outputs: {
-                fluid: 'tfmg:crude_oil',
-                amount: 1000
-            },
-			heat: 0
-        },
-        {
             inputs: [
                 {
                     fluid: 'minecraft:water',
@@ -30,7 +19,15 @@ ServerEvents.recipes((e) => {
                 'planetsandportals:grout',
                 'planetsandportals:andesite_dust'
             ],
-            outputs: 'create:andesite_alloy',
+            outputs: '2x create:andesite_alloy',
+			heat: 0
+        },
+        {
+            inputs: [
+                'create:zinc_ingot',
+                '2x minecraft:copper_ingot'
+            ],
+            outputs: 'planetsandportals:brass_mixture',
 			heat: 0
         },
 		{
