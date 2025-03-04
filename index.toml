@@ -1273,6 +1273,10 @@ file = "kubejs/assets/planetsandportals/tips/depressurisation.json"
 hash = "84d196e22a90a6f560d2df45f58b991c61ec11f8637fb8906e5cff9d766c7578"
 
 [[files]]
+file = "kubejs/assets/planetsandportals/tips/e4mc.json"
+hash = "3ee670bfd59af40570acdaaeaad0e2d275dd2965ec4379e487cb168a98efcade"
+
+[[files]]
 file = "kubejs/assets/planetsandportals/tips/fireproof_resonator.json"
 hash = "368acf5d42bfc76c275601a42cc380d8015ceccc6c0ec7648f9d38f7c66f810a"
 
@@ -1351,6 +1355,10 @@ hash = "82e42c873b8a8ab70b42dbe62d45f5ed979fab2c2e0eb0f6b0f19347f653806e"
 [[files]]
 file = "kubejs/data/ae2/tags/worldgen/biome/has_meteorites.json"
 hash = "6403f3e639c85baf174779fb499b88b6341725e2ba35a4a2a84874417933ce01"
+
+[[files]]
+file = "kubejs/data/minecraft/loot_tables/blocks/diamond_ore.json"
+hash = "d476ec2203a4c184d83ea1b5ec8e820ffbb1e8e32f9445682e7df16de1d72e63"
 
 [[files]]
 file = "kubejs/data/minecraft/structures/village/desert/houses/desert_bank_terminal.nbt"
@@ -1457,6 +1465,10 @@ file = "kubejs/server_scripts/recipes/create/crushing.js"
 hash = "fa7b07c7ac2b37526549199b111c60f38c4f6e49f891ce5d3864d95a3ff147a5"
 
 [[files]]
+file = "kubejs/server_scripts/recipes/create/cutting.js"
+hash = "8f9e2bf16d2ddccba332deff7612e1f03d36fb671b9a1f50670ad83b0961e101"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/create/deploying.js"
 hash = "0dbdf4dd888262108fe53f6872b8d934eca06366b13a80ecd6cf0e4417a1433a"
 
@@ -1482,11 +1494,15 @@ hash = "d1cb04ddfbbe0bea9d3ff14e8b5f06bb3fefd98b0681d18186f62c11d97c074c"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/milling.js"
-hash = "ad358ce42dbedb295f78be36f60f106ceea2d8f87958d18b8cc5f7f8d255cbe3"
+hash = "beb471db9b65244e968b58267aedfa2cfad4b801f4337e6f5812e3035f897cfe"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/mixing.js"
-hash = "631cc6a5ad3492dfaf2115c220c5ef9dbf3777a0ca1b1021beab974a8196a74b"
+hash = "5ed210a5520d7fb56ad697fecec0ad01a1b62acae26c63bf9b5233925b99fc72"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/create/sandpaper_polishing.js"
+hash = "1bdd6e1f204029f3c0bb475e521be069eabdf21925ef52194005d563bc224584"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/sequenced_assembly.js"
@@ -1498,7 +1514,7 @@ hash = "b1799e83779056348c1faa79973ab58eedac9fad73df0b73bc5359f596d569d9"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/create/washing.js"
-hash = "891155693c7d801a7d467663e37cd0dd89266fbdb45d1a2fc29a159efac3ae5c"
+hash = "dd3a490bf3c39b48ab0f3992935764443e57a7fd25fdcf66768d169cc29ed0dd"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/crafting/removals.js"
@@ -1522,7 +1538,7 @@ hash = "361a50089e1dcd3045bc2517ec326e9ea5d1f686292cc438a5b50a14b064d492"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/reciperemovals.js"
-hash = "1dca7ee43e81153fe2460d037eeeb60ee6358e60f9814e51af7e81b45cb1a890"
+hash = "48f226a8ea405678aee7e092284fba5d33559c6dbc1b3d01f3426bba4bab3d1f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/recipereplacements.js"
@@ -1530,15 +1546,15 @@ hash = "9722ae7908678054c2528f1542ab0e6ca12995dba037d6ae1c5f212955aaf98f"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/blasting.js"
-hash = "0a44d5997250e672f278b4d50a89c1f1de98b5ba9cc214fc429aa4c19806bb9c"
+hash = "c07b732829cd0dd22e35321ca9f073e029927ce4079f8ff2e814e28441162244"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/shaped.js"
-hash = "70496209e5d31639cb0c5bd888ece48f4d364dd044b25cecae03b363b1af33d0"
+hash = "ef389d582babfe8c99c41b43ac31e01eba0a449db9f72ae863a2d90ec4c89f63"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/shapeless.js"
-hash = "3ca137af0db277c6b4f6de9c6c84aa9d0d341a889a0265ee6bf86cf4de4ff060"
+hash = "565a1629d5d87e638e324c70c23a7e39c63e19ca30b54f14aed0b429715f5d58"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/smelting.js"
@@ -1562,7 +1578,7 @@ hash = "05b8fffa60cf54cae5e372d9c07b856de9d3e91688d1fb342a5e3395151b79ea"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/itemregistry.js"
-hash = "62ab3bc7811c14d69986b3509f1f6e7e67f0171e78cb40a06f01fd91c9eaaf60"
+hash = "94a6e3a5dc2ae0adcdbd0b85006ef38e4c468fdbebd411ca4c0355656763ce26"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/mm_registry.js"
@@ -1845,6 +1861,11 @@ metafile = true
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "8f2270a50a633db681826cbfb691e6efdb25e1e0c4702125c13d525b52fe229f"
+metafile = true
+
+[[files]]
+file = "mods/e4mc.pw.toml"
+hash = "cb82f6beaf7c373991dc72bcbc1dd2551c475e8f6cc8db6bba4c26a8bb3050d6"
 metafile = true
 
 [[files]]

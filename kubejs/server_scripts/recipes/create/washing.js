@@ -8,13 +8,6 @@ ServerEvents.recipes((e) => {
             ]
         },
         {
-            input: 'create:crushed_raw_zinc',
-            outputs: [
-                '9x create:zinc_nugget',
-                Item.of('minecraft:gunpowder').withChance(0.2)
-            ]
-        },
-        {
             input: 'planetsandportals:crushed_raw_ostrum',
             outputs: [
                 '9x ad_astra:ostrum_nugget',
