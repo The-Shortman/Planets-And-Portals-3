@@ -11,6 +11,14 @@ ServerEvents.recipes(e => {
             output: 'planetsandportals:grout',
             count: 16
         },
+        {
+            inputs: [
+                '4x create:shaft',
+                'create:zinc_ingot'
+            ],
+            output: 'copycats:copycat_shaft',
+            count: 16
+        },
         
         // Blast Furnace
         
