@@ -59,6 +59,8 @@ ServerEvents.recipes(e => {
             output: 'tfmg:fireclay'
         },
 
+        // Vanilla
+
         // Ad Astra stuff
         
         {
@@ -222,7 +224,7 @@ ServerEvents.recipes(e => {
                 A: 'planetsandportals:grout',
                 B: 'minecraft:andesite'
             },
-            output: 'create:andesite_alloy'
+            output: '2x create:andesite_alloy'
         },
         {
             pattern: [

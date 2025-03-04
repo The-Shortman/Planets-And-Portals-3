@@ -6,9 +6,10 @@ ServerEvents.recipes(e => {
 		{output: 'minecraft:copper_ingot', type: 'minecraft:smelting'},
 		{output: 'minecraft:copper_ingot', type: 'minecraft:blasting'},
 		{output: 'minecraft:copper_ingot', type: 'create:fan_blasting'},
-		{output: 'minecraft:copper_nugget', input: 'create:crushed_raw_copper'},
+		{output: 'create:copper_nugget', input: 'create:crushed_raw_copper'},
 		{output: 'minecraft:iron_ingot', input: 'minecraft:raw_iron'},
 		{input: 'minecraft:andesite', type: 'create:crushing'},
+		{output: 'minecraft:blast_furnace'},
 
 		// Create
 		{output: 'create:framed_glass'},
@@ -18,12 +19,12 @@ ServerEvents.recipes(e => {
 		{output: 'create:andesite_alloy', input: 'minecraft:andesite'},
 		{output: 'create:zinc_ingot', type: 'minecraft:smelting'},
 		{output: 'create:zinc_ingot', type: 'minecraft:blasting'},
-		{output: 'create:zinc_ingot', type: 'create:fan_blasting'},
 		{output: 'create:copper_nugget', type: 'create:fan_washing'},
 		{output: 'create:zinc_nugget', type: 'create:fan_washing'},
 		{output: 'create:crushed_raw_copper'},
 		{output: 'create:crushed_raw_zinc'},
 		{output: 'create:mechanical_crafter'},
+		{output: 'create:shaft'},
 
 		// Create: TFMG
 		{output: 'tfmg:steel_pipe'},
@@ -63,6 +64,7 @@ ServerEvents.recipes(e => {
 		{output: 'createoreexcavation:vein_finder'},
 		{output: 'createoreexcavation:diamond_drill'},
 		{output: 'createoreexcavation:netherite_drill'},
+		{output: 'minecraft:diamond', input: 'createoreexcavation:raw_diamond'},
 		{id: 'createoreexcavation:ore_vein_type/water'},
 		{mod: 'createoreexcavation', output: Fluid.of('minecraft:water')},
 		{id: 'createoreexcavation:ore_vein_type/nether_gold'},
@@ -93,6 +95,9 @@ ServerEvents.recipes(e => {
 		{mod: 'createoreexcavation', output: 'createoreexcavation:raw_emerald'},
 		{id: 'createoreexcavation:ore_vein_type/iron'},
 		{mod: 'createoreexcavation', output: 'minecraft:raw_iron'},
+
+		// Create: Copycats+
+		{input: 'create:zinc_ingot', output: 'copycats:copycat_shaft'},
 
 		// AE2
 		{output: 'ae2:inscriber'},
