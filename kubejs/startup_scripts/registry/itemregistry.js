@@ -63,6 +63,18 @@ StartupEvents.registry('item', e => {
             name: 'Powdered Andesite',
             stackSize: 64
         },
+        {
+            id: 'planetsandportals:brass_mixture',
+            type: 'basic',
+            name: 'Brass Mixture',
+            stackSize: 64
+        },
+        {
+            id: 'planetsandportals:rough_diamond',
+            type: 'basic',
+            name: 'Rough Diamond',
+            stackSize: 64
+        },
 
         // Transitional items for sequence assembly
         {
