@@ -12,7 +12,11 @@ ServerEvents.recipes((e) => {
             input: 'create:raw_zinc',
             output: 'create:crushed_raw_zinc'
         },
-	].forEach((r) => {
-		e.recipes.create.milling(r.output, r.input);
+        {
+            input: 'minecraft:andesite',
+            output: 'planetsandportals:andesite_dust'
+        },
+	].forEach((recipe) => {
+		e.recipes.create.milling(recipe.output, recipe.input);
 	});
 });
