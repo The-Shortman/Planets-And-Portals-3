@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Host your own worlds without a dedicated server!",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "This pack contains e4mc which allows you to directly host a singleplayer game from your machine. Simply click 'Open to LAN' in the singleplayer pause menu, and you'll be provided with an IP in the game chat. Share it with your friends so they can join!",
+      "bold": false,
+      "color": "white"
+    }
+}
