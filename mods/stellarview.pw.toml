@@ -1,0 +1,13 @@
+name = "Stellar View"
+filename = "Stellar View-1.20.1-0.4.3.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "2c83822ca3ab576ba991e1fe15fc24c79c6321ca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6114640
+project-id = 865273

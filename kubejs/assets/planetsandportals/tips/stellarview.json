@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Stellar View and Shader compatibility",
+      "bold": true,
+      "color": "green"
+    },
+    "tip": {
+      "text": "If using Complimentary shaders (included with P&P3), do not enable '[Shader compat] Static Sky' in the Stellar View mod options!",
+      "bold": false,
+      "color": "white"
+    }
+}

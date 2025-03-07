@@ -446,7 +446,7 @@ hash = "68eb657f9af3465e20bed8f39fa389503fdaa8060c78cf7e66ce883edbef44da"
 
 [[files]]
 file = "config/fancymenu/customization/title_screen_layout.txt"
-hash = "b53897652fbc6d24742d146b4da5cb75026ef84bb28fa42354e5c371b6b4d528"
+hash = "2a11bc013c8dd8bc6b06f45f1dd3e10a3169ed61f7875d0fd9e17ccce21bc769"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -458,7 +458,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "2a6ace497e693ff6e3b4815ff7c464768eb4a92b6a789d9d4639d834043d9699"
+hash = "d2445c3d2bff7883a2468c7443f238d0fbb64109f88e5c27ce3b46cfedae1c6d"
 
 [[files]]
 file = "config/fancymenu/slideshows/menu_screen/images/image_1.jpg"
@@ -867,6 +867,10 @@ hash = "8c6a131b0c028f0b5d6c1a253670e8c93ab715d8b1a160830c1103ef51b9ddce"
 [[files]]
 file = "config/spark/config.json"
 hash = "b071042d4a9730310e33e26d1d9a28f2012c52aa512b7c5110b496dcd8fd17aa"
+
+[[files]]
+file = "config/stellarview-client.toml"
+hash = "6a265fbcd37b114c9eb2dc6e922956202c3ff09cd2f7fadb63590f53b2c6750a"
 
 [[files]]
 file = "config/storagedrawers-client.toml"
@@ -1298,11 +1302,19 @@ hash = "a35c7213ff96aa880dd4ccfbcb54e2bd9b2e45ee0b0f564cd3b8163d5b3d3226"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/tips/shaders.json"
-hash = "3cb6aad61b0dda0fd3f921ce8120ddb9d29566713d0e4faa6d9c71a4ad57bb6a"
+hash = "24e299c16b6ea11f0bf2ee8023f52499d28439987e5e7f62bac953b95a7d633d"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/tips/stellarview.json"
+hash = "bf5c9ba16673c2cbeeba1759898f24bd4d8c9fade326671ea90246cdec1e2f3b"
 
 [[files]]
 file = "kubejs/assets/planetsandportals/tips/thanks.json"
 hash = "49254d5ff08f566d239c8124a17912b6b659344b0abfd19c80e99f10911771c9"
+
+[[files]]
+file = "kubejs/assets/planetsandportals/tips/typewryttr.json"
+hash = "04389215e294e4916f90895cbfb42ed522ecddaa51c07bf0031836dd3c1da1bd"
 
 [[files]]
 file = "kubejs/assets/ponderjs_generated/lang/en_us.json"
@@ -2326,6 +2338,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "d0e1a79dbcda8499e0f12f4adaa5503f9bbc84a6274ce07b3a3839476622e8e5"
+metafile = true
+
+[[files]]
+file = "mods/stellarview.pw.toml"
+hash = "3d5a6bddaeb7a158b8466e97a4350843b7227acbe434a5164cfe979d7ae0fe84"
 metafile = true
 
 [[files]]

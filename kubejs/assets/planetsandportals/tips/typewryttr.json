@@ -1,0 +1,12 @@
+{
+    "title": {
+      "text": "Did you know?",
+      "bold": true,
+      "color": "yellow"
+    },
+    "tip": {
+      "text": "The original name of Planets and Portals 2 was 'Typewryttr'. The name didn't stick around though, and it was rebranded to be a sequel to my oldkitchen-sink I made back in 2021.",
+      "bold": false,
+      "color": "white"
+    }
+}
