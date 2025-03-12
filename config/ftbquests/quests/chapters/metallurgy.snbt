@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "metallurgy"
+	group: "69C6C562BC012F34"
+	icon: "minecraft:anvil"
+	id: "12721B0EF87C8F46"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Metallurgy"
+}

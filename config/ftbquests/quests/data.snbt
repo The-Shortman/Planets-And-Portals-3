@@ -23,6 +23,6 @@
 	}
 	pause_game: true
 	progression_mode: "linear"
-	title: "Planets and Portals 3"
+	title: "&6&lPlanets and Portals 3"
 	version: 13
 }

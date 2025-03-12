@@ -569,12 +569,16 @@ file = "config/ftbquests/quests/chapters/mekanism.snbt"
 hash = "843e7b2aae30801d901c41302018a956bc9b2b2400d1259aa0db8482be2b39e3"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/metallurgy.snbt"
+hash = "8d417e021f4ea95e4bb59931e3a5868e87acbe499aa68ed318646a2f9629bc0f"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/preparing_the_launch_site.snbt"
 hash = "21c088da5e2d870264227d76446ab98a892271e39fbb0146b6f6341f43252ad3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/progression_book_1.snbt"
-hash = "1ee905b6ea7d9806acb8e81cd4032195b5c3670a0cd9a0f2ef5e79843c93ea87"
+hash = "f96422d051316c0694012c7dd31311cb9ca63fb8a9aa869d34647be554e73734"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/start.snbt"
@@ -585,12 +589,16 @@ file = "config/ftbquests/quests/chapters/storage_solutions.snbt"
 hash = "4a642773273b7c32f32d779f987fddefbf883d60f067193f16dcd71e29f37fc2"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/the_logistical_age.snbt"
+hash = "542330dd182525a32f1f08ab4fae8f00f4408635f1bf3dfe4bc90228496c2e36"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/the_shop.snbt"
 hash = "c3ef266733c03c98b28aa66a149cf8b2493a987eb119d06548aa66e38035e1c0"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "4ea79ec243ea6776286f4f7bc71841aee263e3865cfd6d0de25f71eea1b47e3c"
+hash = "2b4dc5c98b5b08192b32b16b6be9514b0d9066252be8c3b71a8db3eccb13904e"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/beds.snbt"

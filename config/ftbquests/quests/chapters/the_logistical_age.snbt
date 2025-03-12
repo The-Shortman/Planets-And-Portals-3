@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_logistical_age"
+	group: "532EC9E85F995F06"
+	icon: "create:brass_ingot"
+	id: "6C21098434FA506F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		id: "73145F7A60B570D9"
+		shape: "rsquare"
+		size: 1.5d
+		tasks: [{
+			id: "66010DEEC09F5415"
+			item: "create:brass_ingot"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Logistical Age"
+}

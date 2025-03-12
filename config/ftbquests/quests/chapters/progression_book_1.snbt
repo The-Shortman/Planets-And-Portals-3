@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "progression_book_1"
 	group: "532EC9E85F995F06"
+	icon: "create:andesite_alloy"
 	id: "42DD95ECCCCD2C4A"
 	order_index: 0
 	quest_links: [ ]
@@ -15,6 +16,8 @@
 			]
 			icon: "minecraft:oak_log"
 			id: "2BC7202742BC1535"
+			shape: "rsquare"
+			size: 1.5d
 			subtitle: "I refuse to do a TerraFirmaCraft style early game"
 			tasks: [{
 				id: "7063A8C16B28CD0C"
@@ -28,8 +31,8 @@
 				title: "Any #minecraft:logs"
 				type: "item"
 			}]
-			title: "Any logs"
-			x: 0.0d
+			title: "Punch any tree"
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -48,7 +51,7 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 1.0d
 			y: 0.0d
 		}
 		{
@@ -61,11 +64,11 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["49F88BFF272C28E9"]
+			dependencies: ["04239375E665E70E"]
 			description: [
 				"Put those muscles to work!"
 				""
@@ -87,15 +90,15 @@
 					type: "item"
 				}
 			]
-			x: 3.5d
-			y: 1.5d
+			x: 2.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
 				"7B098E8B56711166"
 				"2D2CF91CDD25D91B"
 			]
-			description: ["Iron is, as always, probably the most useful metal you have at your disposal. In the future, you'll have infrastructure to produce a LOT of it."]
+			description: ["Slam it in a furnace and watch the magic happen."]
 			id: "3E37A26B2D01AF21"
 			subtitle: "Finally, usable metals!"
 			tasks: [{
@@ -103,9 +106,721 @@
 				item: "create:crushed_raw_iron"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 2.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: ["Copper is vital for transporting fluids and some more advanced logistics later on. Gather a bunch of this stuff, you'll need it."]
+			id: "6468315FCDCBC306"
+			subtitle: "Copper? Useful? In my Minecraft???"
+			tasks: [{
+				id: "6B736F92938B146C"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7B098E8B56711166"
+				"6468315FCDCBC306"
+			]
+			description: ["That's right! You need to wash copper as it cannot be smelted down in a furnace."]
+			id: "6829C762D39BEBFB"
+			subtitle: "I can't even smelt this stuff?"
+			tasks: [{
+				id: "35061A4940EF5A51"
+				item: "create:crushed_raw_copper"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: [
+				"Furnaces become obsolete like, really quickly. "
+				""
+				"I wouldn't recommend building a giant furnace wall as there are much better ways to smelt ores that you get access to really soon."
+			]
+			id: "5CBA7E7559125123"
+			subtitle: "The unloved child of P\\&P3"
+			tasks: [{
+				id: "771A7C049C5C0996"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3E37A26B2D01AF21"
+				"5CBA7E7559125123"
+			]
+			description: ["Iron is, as always, probably the most useful metal you have at your disposal. In the future, you'll have (and need) the infrastructure to produce a LOT of it."]
+			id: "6B084540ABAFE35D"
+			subtitle: "Iron my beloved"
+			tasks: [{
+				id: "67F113F7AF632698"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B084540ABAFE35D"]
+			id: "5EEE72EE808F1AE3"
+			tasks: [{
+				id: "360E2BB4DC3F8CE8"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EEE72EE808F1AE3"]
+			id: "50EAF870216F4134"
+			tasks: [{
+				id: "2A56632D162CE851"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50EAF870216F4134"]
+			id: "25FD0FEBC7DD0A0E"
+			tasks: [{
+				id: "6DD5BF69330DCEAE"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B084540ABAFE35D"]
+			id: "4267B9D5D3A89026"
+			subtitle: "Get your liquids in order"
+			tasks: [{
+				id: "7A9E07C707227B57"
+				item: "minecraft:bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"25FD0FEBC7DD0A0E"
+				"6829C762D39BEBFB"
+				"6E6C309EB78F123D"
+			]
+			id: "324115BB27591445"
+			tasks: [{
+				id: "0BE72B4DCA282CF1"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4267B9D5D3A89026"]
+			description: ["Did you set up by that river I told you to?"]
+			id: "6E6C309EB78F123D"
+			subtitle: "Get ready to wash"
+			tasks: [{
+				id: "3469081A1AD0A63C"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50EAF870216F4134"]
+			id: "7DADFDDC9E69AC20"
+			tasks: [{
+				id: "451B379B3D8F3A47"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DADFDDC9E69AC20"]
+			description: ["Yeah andesite alloy isn't that malleable, hate to break it to you. It has to be cut into shafts, don't expect to mould it with your bare hands."]
+			id: "55F39E3B00DAE2EF"
+			subtitle: "This late?"
+			tasks: [{
+				id: "2B8FEB226FE26BDA"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B084540ABAFE35D"]
+			description: ["Lootbugs sold separately."]
+			id: "4FFDF77885D875EB"
+			subtitle: "We're rich! We're rich!"
+			tasks: [{
+				id: "2A1E90F80EE54107"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			title: "Raw Gold"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4FFDF77885D875EB"
+				"7B098E8B56711166"
+			]
+			description: ["Just like copper, gold also needs to be crushed and washed before being able to be turned into a usable form."]
+			id: "0AC0F1B01251534D"
+			subtitle: "You get the gist now"
+			tasks: [{
+				id: "25042B617A2B5EFE"
+				item: "create:crushed_raw_gold"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6E6C309EB78F123D"
+				"25FD0FEBC7DD0A0E"
+				"0AC0F1B01251534D"
+			]
+			id: "1EAD03DBB188010F"
+			tasks: [{
+				id: "7C2D98B6E1DD6713"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["324115BB27591445"]
+			id: "53106D8F4F3FA380"
+			tasks: [{
+				id: "7F747E1C71A9E510"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EAD03DBB188010F"]
+			id: "582B2553E215BFDB"
+			tasks: [{
+				id: "2BF6FB0013DB1E6B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"53106D8F4F3FA380"
+				"5EEE72EE808F1AE3"
+			]
+			id: "14DD14A15D92EB5F"
+			subtitle: "Aww sheet, here we go again"
+			tasks: [{
+				id: "1FF68C2DED8D8273"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"582B2553E215BFDB"
+				"5EEE72EE808F1AE3"
+			]
+			id: "65786A5303A5A30C"
+			tasks: [{
+				id: "7824F6958C3E7262"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65786A5303A5A30C"]
+			id: "42728596E4B68ADB"
+			optional: true
+			subtitle: "This is marked as optional but please invest in these it's so worth it"
+			tasks: [
+				{
+					id: "4139E90025F732AE"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "51999C908DF7B48A"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "47B6B485A5795623"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:toolboxes"
+						}
+					}
+					title: "Any #create:toolboxes"
+					type: "item"
+				}
+			]
+			title: "Engineer's Gear"
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B084540ABAFE35D"]
+			description: ["Zinc isn't useful now, but it'll become a lot more useful soon, as its main usage is in alloying with copper to make brass."]
+			id: "38A2A7643B6C4F5C"
+			subtitle: "First modded metal"
+			tasks: [{
+				id: "67D003132A5C7411"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7B098E8B56711166"
+				"38A2A7643B6C4F5C"
+			]
+			id: "1679A823F116353A"
+			subtitle: "Crush this, crush that, how about you crush some zinc instead?"
+			tasks: [{
+				id: "37443171A75C6BDA"
+				item: "create:crushed_raw_zinc"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4267B9D5D3A89026"]
+			description: ["Vast chasms can be found deep underground with gargantuan lava lakes spanning hundreds of blocks across the world. Use these to your advantage, wink wink."]
+			id: "1C40557D5A052BC5"
+			subtitle: "Lava's more common than you might expect"
+			tasks: [{
+				id: "15129C9B48462DC4"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1679A823F116353A"
+				"1C40557D5A052BC5"
+			]
+			description: [
+				"Zinc can't be washed nor can it be smelted in a furnace, it requires some slightly more intense conditions. Use a mechanical fan with some lava to blast it!"
+				""
+				"This method can also be used on iron."
+			]
+			id: "6FC6C410BFED34AE"
+			subtitle: "No furnace recipe?"
+			tasks: [{
+				id: "6398779A30674836"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55F39E3B00DAE2EF"]
+			description: ["Chaining small and large cogwheels allows you to double or halve the speed of your system. Check the ponder index for a more detailed guide."]
+			id: "69D46D16B36DF0D4"
+			subtitle: "Faster machines!"
+			tasks: [
+				{
+					id: "23B5462648F2727F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "0F650BD8403C98D6"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55F39E3B00DAE2EF"]
+			description: ["Finally, you can stop chowing down on those raw potatoes when you're pressing your iron sheets."]
+			id: "6E44B94C9FE63CAF"
+			subtitle: "I hope you set up a farm before all that hand cranking"
+			tasks: [{
+				id: "5B0670190506E1F9"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6E44B94C9FE63CAF"]
+			description: ["This one spins slower but outputs more stress units."]
+			id: "60DF469D20EB995C"
+			subtitle: "Beeg boi"
+			tasks: [{
+				id: "349FFD1C6680EAF1"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["14DD14A15D92EB5F"]
+			description: ["Pipes allow you to move fluids around, although they're pretty useless without pumps."]
+			id: "395D4B6B2AAE10CA"
+			subtitle: "Beware the pipeline"
+			tasks: [{
+				id: "1FDDF21402F58C22"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["395D4B6B2AAE10CA"]
+			id: "3958D8D6C842EAB7"
+			tasks: [{
+				id: "627D6336D09716CD"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69D46D16B36DF0D4"]
+			description: [
+				"I cannot tell you how often I've seen 'mixing things up' used as a title and/or subtitle for the mixer quest in modpacks it's so overused."
+				""
+				"This machine needs to be spinning with at least 32 RPM."
+			]
+			id: "4BEDA9BDB2B8BE8E"
+			subtitle: "Let's mix things up"
+			tasks: [
+				{
+					id: "4E356BEA683D4A0A"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "06975E9C94004ACA"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BEDA9BDB2B8BE8E"]
+			id: "300C9B39C4303BC6"
+			subtitle: "Using a mixer, you can double your andesite alloy yields!"
+			tasks: [
+				{
+					id: "624031BA63738A6A"
+					item: "planetsandportals:andesite_dust"
+					type: "item"
+				}
+				{
+					id: "28C5C1142A5DB664"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["65786A5303A5A30C"]
+			id: "7443159872A04A77"
+			tasks: [{
+				id: "612A740125FFFB1C"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["395D4B6B2AAE10CA"]
+			id: "2BDBCEABA69AFF46"
+			tasks: [{
+				id: "6A955855AC788AFD"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			hide_dependency_lines: true
+			id: "37589F851BFCC880"
+			optional: true
+			tasks: [{
+				id: "4453AA8FA86238E1"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"37589F851BFCC880"
+				"3958D8D6C842EAB7"
+				"7443159872A04A77"
+				"2BDBCEABA69AFF46"
+			]
+			description: [
+				"Passive steam engines can be made with 4 fluid tanks, one campfire, one steam engine, and a steady supply of water. "
+				""
+				"Each one outputs 2,048 stress units, perfect for multiplying the output of a set of water wheels by using them to power the pump."
+			]
+			id: "1A690C398B53BCD3"
+			optional: true
+			subtitle: "You *could* make a windmill but these are just objectively better"
+			tasks: [{
+				id: "1E0EA269169F0359"
+				title: "Passive steam engine"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49F88BFF272C28E9"]
+			description: [
+				"No but seriously this block looks kinda cool."
+				""
+				"It's also a vital crafting ingredient."
+			]
+			id: "04239375E665E70E"
+			subtitle: "Overpriced building block"
+			tasks: [{
+				id: "006851B88632E181"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50EAF870216F4134"]
+			id: "7F8252B36E67D31F"
+			subtitle: "Automate everything!"
+			tasks: [
+				{
+					id: "4497F6FC8056B512"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "1874117B82E551D5"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					id: "10D0E3DDF6D069A2"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "40682F4A4E3D2406"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Other useful machines"
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6FC6C410BFED34AE"
+				"4BEDA9BDB2B8BE8E"
+			]
+			description: ["Mix zinc and copper to make a brass mixture. Blast it with lava and..."]
+			id: "067A30C4375F22A6"
+			subtitle: "We're going where no modpack has gone before (don't quote me on that)"
+			tasks: [{
+				id: "4B91F5D4D71F6DA1"
+				item: "planetsandportals:brass_mixture"
+				type: "item"
+			}]
+			title: "Brass Mixture"
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["067A30C4375F22A6"]
+			description: [
+				"Feel the power flow through your veins, pre-nether brass at your disposal."
+				""
+				"Of course, this is a terrible yield, but you'll get better ways to do this process later."
+				""
+				"Completing this quest unlocks the next main progression chapter."
+			]
+			id: "45449EC3BFE135C4"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "EARLY GAME BRASS!!"
+			tasks: [{
+				id: "1D03AD13D77EB974"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4BEDA9BDB2B8BE8E"]
+			description: [
+				"As you progress you'll get better access to things like ore duplication to increase the yields of your metal refining."
+				""
+				"This quest unlocks a chapter dedicated to guiding you through how to achieve this."
+			]
+			icon: "minecraft:anvil"
+			id: "046E536A9CD1A991"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "How do I get better yields?"
+			tasks: [{
+				id: "45F9B536608FB833"
+				title: "Metallurgy"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6B084540ABAFE35D"]
+			description: ["Diamond ore no longer drops perfectly cut diamonds. Go cut them yourself, I sure ain't doing it for you."]
+			id: "4FE565C63036DCAD"
+			subtitle: "Huh that's... not normal"
+			tasks: [{
+				id: "63D556581D9EAB8D"
+				item: "createoreexcavation:raw_diamond"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7DADFDDC9E69AC20"
+				"4FE565C63036DCAD"
+			]
+			id: "32B37E184AA13315"
+			tasks: [{
+				id: "354617B127A3145B"
+				item: "planetsandportals:rough_diamond"
+				type: "item"
+			}]
+			title: "Rough Diamond"
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"32B37E184AA13315"
+				"47DC122FA520A79E"
+			]
+			id: "5F549648F72B09C1"
+			tasks: [{
+				id: "3B112C228C3BD3C6"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			description: ["Sand Paper can be used with deployers to automate the sanding process."]
+			id: "47DC122FA520A79E"
+			subtitle: "Sand + Paper = Sand Paper, I mean what did you expect"
+			tasks: [{
+				id: "12A402AC319520B4"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:sandpaper"
+					}
+				}
+				title: "Any #create:sandpaper"
+				type: "item"
+			}]
+			title: "Sand Paper"
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5F549648F72B09C1"]
+			description: [
+				"Tired of lighting up every corner of your base? Are you constantly missing tiny caves underneath your house when spawnproofing for your mob farm? Do you hate hard work?"
+				""
+				"Well have I got a product for you! The Brand New Magnum Torch! Now with extra torch! Only 499.99 cogs!"
+				""
+				"O-or you can... you can make it yourself. That's fine."
+			]
+			id: "54308CB9806FBB74"
+			subtitle: "Stop mob spawns"
+			tasks: [{
+				id: "38C2C301DBD90CCF"
+				item: "magnumtorch:diamond_magnum_torch"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 3.0d
+		}
 	]
-	title: "Progression Book 1"
+	title: "The Mechanical Age"
 }
