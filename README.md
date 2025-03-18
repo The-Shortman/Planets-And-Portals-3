@@ -60,11 +60,3 @@ There is currently no public server (I am actively working on this). If you wish
 
 e4mc:
 https://www.curseforge.com/minecraft/mc-mods/e4mc
-
-## Contributing
-If you wish to contribute, you can make a fork of this project, do your modifications, and open a pull request for review of the changes you've made. Make sure you make changes to the dev branch, **not the main branch**.
-
-### packwiz
-This pack uses packwiz, a modpack development tool. Instructions on how to install packwiz can be found on the website: https://packwiz.infra.link/installation/
-
-Usage of packwiz can be found on the tutorials page: https://packwiz.infra.link/tutorials/creating/getting-started/
