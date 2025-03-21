@@ -1589,16 +1589,28 @@ file = "kubejs/server_scripts/tags/wrench.js"
 hash = "2f7c85318c404367e76048d752210c3be1a3fe529c2ccb1dcd4de7ef90c631ef"
 
 [[files]]
-file = "kubejs/startup_scripts/registry/blockregistry.js"
+file = "kubejs/startup_scripts/registry/block/blockregistry.js"
 hash = "21daeaffceb53ad7d6365e89005d36f437e83328085da019ddfb1ddc8858d8eb"
 
 [[files]]
-file = "kubejs/startup_scripts/registry/fluidregistry.js"
+file = "kubejs/startup_scripts/registry/fluid/fluidregistry.js"
 hash = "05b8fffa60cf54cae5e372d9c07b856de9d3e91688d1fb342a5e3395151b79ea"
 
 [[files]]
-file = "kubejs/startup_scripts/registry/itemregistry.js"
-hash = "94a6e3a5dc2ae0adcdbd0b85006ef38e4c468fdbebd411ca4c0355656763ce26"
+file = "kubejs/startup_scripts/registry/item/armor.js"
+hash = "8e6ba57fc22277ba8b6a3d89c9c24f599d678f076be42245e9cdb7ec24c85529"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/item/basic.js"
+hash = "f0c8b7a6aeb4f9d7757d03da1bda0b4a61646da02ef1ea4bd2f59bf4fd31c8a6"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/item/cosmicresonator.js"
+hash = "0bd753a61d82489842f87929a99bd319196e76c2db8fe489065e3c8b7852a170"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/item/transitional.js"
+hash = "091c850f6947374b7556c34f89209e017cc4cc282b442f70f50228d0162a3c5e"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/mm_registry.js"
