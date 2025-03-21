@@ -29,6 +29,16 @@ ServerEvents.recipes(e => {
             filter: {mod: 'mekanism'},
             remove: 'minecraft:iron_ingot',
             replace: 'mekanism:ingot_osmium'
+        },
+        {
+            filter: {mod: 'minecraft'},
+            remove: 'minecraft:diamond',
+            replace: 'planetsandportals:rough_diamond'
+        },
+        {
+            filter: {input: 'mekanism:sawdust'},
+            remove: 'mekanism:sawdust',
+            replace: 'create:cardboard'
         }
     ].forEach((replace) => {
         e.replaceInput(replace.filter, replace.remove, replace.replace)
