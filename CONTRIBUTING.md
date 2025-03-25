@@ -8,6 +8,7 @@ In this article:
 		- What won't be considered for a valid pull request
 		- Fixing a bug for an upcoming patch
 		- Adding content or fixing a bug for an upcoming release
+- [How the branches work](https://github.com/The-Shortman/Planets-And-Portals-3/blob/dev/CONTRIBUTING.md#how-the-branches-work)
 - [Packwiz and how it makes life easier](https://github.com/The-Shortman/Planets-And-Portals-3/blob/dev/CONTRIBUTING.md#packwiz-and-how-it-makes-life-easier)
 
 ## How do I contribute?
@@ -45,6 +46,29 @@ Always check if an issue has been solved by another contributor before opening a
 #### Adding content or fixing a bug for an upcoming release
 
 If you are adding content intended for a future version, make a fork of the [`dev`](https://github.com/The-Shortman/Planets-And-Portals-3/tree/dev) branch. This branch is always the most up-to-date development build intended for working on major releases.
+
+## How the branches work
+
+There are three branches you may be interested in at any one time:
+- [`dev`](https://github.com/The-Shortman/Planets-And-Portals-3/tree/dev)
+- [`main`](https://github.com/The-Shortman/Planets-And-Portals-3/tree/main)
+- Archived version branches
+
+### `dev`
+
+The `dev` branch is essentially where the active devlopment for major updates is happening. Pull requests and commits for major features go to this branch.
+
+### `main`
+
+The `main` branch is the current playtesting deployment. What that means is that it publishes to the repository's GitHub Pages site where packwiz can access it for automatic pack updating, for playtesters to play the update before the general public sees it.
+
+For the most part however, this branch will reflect the current version and is intended for minor patches or similar, separate from the next main release.
+
+If the main branch does not reflect the current version and you wish to open a pull request to patch a bug, please still go ahead. This just means that the next update is in the testing phase and it doesn't make sense to release a minor patch at that time.
+
+### Archived version branches
+
+These branches (named after a released version, e.g. `v0.8a-alpha`) exist purely for archival reasons and are not intended to be directly updated.
 
 ## Packwiz and how it makes life easier
 
