@@ -9,6 +9,14 @@ StartupEvents.registry('block', e => {
             tool: 'shovel'
         },
         {
+            id: 'planetsandportals:rough_diamond_block',
+            name: 'Block of Rough Diamond',
+            mat: 'stone',
+            hardness: 0.5,
+            res: 1.0,
+            tool: 'pickaxe'
+        },
+        {
             id: 'mm:coke_oven_filler', // Texture from TFMG
             name: 'Coke Oven',
             mat: 'metal',
