@@ -9,14 +9,6 @@ ServerEvents.recipes(e => {
             output: 'ad_astra:calorite_ingot'
         },
         {
-            input: 'minecraft:copper_ingot',
-            output: 'mekanism:dust_copper'
-        },
-        {
-            input: 'create:crushed_raw_zinc',
-            output: 'create:zinc_ingot'
-        },
-        {
             input: 'planetsandportals:brass_mixture',
             output: 'create:brass_ingot'
         }
