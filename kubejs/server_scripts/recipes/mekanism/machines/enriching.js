@@ -1,8 +1,8 @@
 ServerEvents.recipes((e) => {
 	[
 		{
-			input: 'minecraft:redstone_block',
-			inputVol: 4,
+			input: 'minecraft:redstone',
+			inputVol: 8,
 			output: 'mekanism:enriched_redstone',
 			outputVol: 1
 		}
