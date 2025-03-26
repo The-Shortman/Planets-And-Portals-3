@@ -1,5 +1,18 @@
 ServerEvents.recipes(e => {
     [
+        // Vanilla
+
+        {
+            inputs: '9x planetsandportals:rough_diamond',
+            output: 'planetsandportals:rough_diamond_block',
+            count: 1
+        },
+        {
+            inputs: 'planetsandportals:rough_diamond_block',
+            output: 'planetsandportals:rough_diamond',
+            count: 9
+        },
+
         // Create
 
         {
