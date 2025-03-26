@@ -1477,6 +1477,54 @@ file = "kubejs/server_scripts/misc/villager_capitalism.js"
 hash = "dc2a77ed75501624e7a34fbaa709455faa154a2c853a1285406f07471ab51f10"
 
 [[files]]
+file = "kubejs/server_scripts/mm/recipes/blast_furnace/blast_furnace_steel.js"
+hash = "581d9996d4cca78c4675b13b0b76671e4d4f1e35eb3e3b821ac5b08b546a6197"
+
+[[files]]
+file = "kubejs/server_scripts/mm/recipes/coke_oven/coke_oven_coke.js"
+hash = "5eeb715ae14070927a8b918e4873211281fbd1abe5e50313e9bafa7197323b24"
+
+[[files]]
+file = "kubejs/server_scripts/mm/recipes/fuel_mixer/fuel_mixer_hcfuel.js"
+hash = "3981d2e84f4fa607ff1e34b9c6f9ec2e9d68b5180ed836228274b257e9fca44d"
+
+[[files]]
+file = "kubejs/server_scripts/mm/recipes/steel_furnace/steel_furnace_desh.js"
+hash = "1c190b8e3829824f28ef02084f7589d1c8f4cc128d9ea38cc669ae35d987d036"
+
+[[files]]
+file = "kubejs/server_scripts/mm/recipes/steel_furnace/steel_furnace_osmium.js"
+hash = "fcaa3273d86a9c210669482ab6239fab8d04492ad998787435a06ea2bf25cf4c"
+
+[[files]]
+file = "kubejs/server_scripts/mm/recipes/steel_furnace/steel_furnace_steel.js"
+hash = "632b9b2dc9f2320cc2c429eab4eaba24e1011bec4d239e0ff9780c9e64c1e768"
+
+[[files]]
+file = "kubejs/server_scripts/mm/structures/blast_furnace.js"
+hash = "ebae62e124e96f5d565243c7f6cb4d34e676481aaa896079ce7b50a69eb90ca4"
+
+[[files]]
+file = "kubejs/server_scripts/mm/structures/coke_oven.js"
+hash = "f56614a3847949a8e74777fc8d36aa5733a3d83b87fee9500facdf0f5a196bc1"
+
+[[files]]
+file = "kubejs/server_scripts/mm/structures/fuel_mixer.js"
+hash = "d4fddba297cc9c44435cc9a33f8374a57945acd25751b2d88c6b3cfdf3904525"
+
+[[files]]
+file = "kubejs/server_scripts/mm/structures/steel_furnace.js"
+hash = "b4c0b9f7ab834ad0c2eed685c8df594438e512f1fab61f13878f468d1d56b9e6"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/bulk_replacements/inputreplacements.js"
+hash = "ed1c41b5d96479b27ecd6970cb1068da1cae7cbdaa6ac96bac6ff058a5abfe87"
+
+[[files]]
+file = "kubejs/server_scripts/recipes/bulk_replacements/outputreplacements.js"
+hash = "3321e2d98de6b36533cb1a1b66733b0fcf8ba8282247635d1e840add6098be5a"
+
+[[files]]
 file = "kubejs/server_scripts/recipes/create/createoreexcavation_recipes.js"
 hash = "179fca96cd14eb9cb3be192b9709bbc3752bc03b8166e4c17ac420cd734a8f91"
 
@@ -1546,27 +1594,19 @@ hash = "e7ea55199a2b9bda24c40ead948795ed69d35b55e9d37901d69029c4e0af6133"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/machines/enriching.js"
-hash = "7aafd83b50b6e451ea860f0bf43d21bb45b8bbc824148cdc86837bff650c1151"
+hash = "e2e83de07f1924965334de8c6cf0bfdacfab437c546157fbd49f57eaff3179b7"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/mekanism/machines/metallurgic_infusing.js"
-hash = "21875b986d4bedb11214e138187eff10924d3e85d8b1a3711dbbaa4d847bc871"
-
-[[files]]
-file = "kubejs/server_scripts/recipes/mm.js"
-hash = "361a50089e1dcd3045bc2517ec326e9ea5d1f686292cc438a5b50a14b064d492"
+hash = "e79e386d35da70c0a783f600d06e517238c8c068f27cc5db4595f7e349b1ea60"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/reciperemovals.js"
-hash = "48f226a8ea405678aee7e092284fba5d33559c6dbc1b3d01f3426bba4bab3d1f"
-
-[[files]]
-file = "kubejs/server_scripts/recipes/recipereplacements.js"
-hash = "9722ae7908678054c2528f1542ab0e6ca12995dba037d6ae1c5f212955aaf98f"
+hash = "453f2c8e16fefccab69d3c5a41b54a1d41976a0864f8e6eab3b3f807efc32b75"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/blasting.js"
-hash = "c07b732829cd0dd22e35321ca9f073e029927ce4079f8ff2e814e28441162244"
+hash = "0ad02ccfd010ef77caf87762219c0cf5512c8538327696db474e7058ace302f8"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/shaped.js"
@@ -1574,7 +1614,7 @@ hash = "ef389d582babfe8c99c41b43ac31e01eba0a449db9f72ae863a2d90ec4c89f63"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/shapeless.js"
-hash = "565a1629d5d87e638e324c70c23a7e39c63e19ca30b54f14aed0b429715f5d58"
+hash = "0e1f81740dcf5ac34a815289ca800c830f082bd6a80beec4b596e94b1a53a1cc"
 
 [[files]]
 file = "kubejs/server_scripts/recipes/vanilla/smelting.js"
@@ -1590,7 +1630,7 @@ hash = "2f7c85318c404367e76048d752210c3be1a3fe529c2ccb1dcd4de7ef90c631ef"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/block/blockregistry.js"
-hash = "21daeaffceb53ad7d6365e89005d36f437e83328085da019ddfb1ddc8858d8eb"
+hash = "926db244f7fb2c95b1d8ae88114bdfd67c8939cd3871c36a50b4159f803d8700"
 
 [[files]]
 file = "kubejs/startup_scripts/registry/fluid/fluidregistry.js"
@@ -1613,8 +1653,36 @@ file = "kubejs/startup_scripts/registry/item/transitional.js"
 hash = "091c850f6947374b7556c34f89209e017cc4cc282b442f70f50228d0162a3c5e"
 
 [[files]]
-file = "kubejs/startup_scripts/registry/mm_registry.js"
-hash = "35d7f83a811197d5d45f5085dc15d51b4096b8cfcd4f3bc1a3b392147a37abec"
+file = "kubejs/startup_scripts/registry/mm/blast_furnace/controller.js"
+hash = "b04c4f5c2eb8863ba81bdd91a37eaf3476cbad3f860eedb9d01a92a725aa4e68"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/mm/blast_furnace/ports.js"
+hash = "07a10a0a56d2ed357d1f5ada48ae5adf930dd9f881932d9ade19cf939ebfced7"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/mm/coke_oven/controller.js"
+hash = "37238dc35c30126863657bcaa6ae596d7b256be63fdd5a90e82634ea2811104b"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/mm/coke_oven/ports.js"
+hash = "1f222935357165a25d4f69efbdf7a0b5479f31b7c54e2ce2e04729324e6e0fa2"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/mm/fuel_mixer/controller.js"
+hash = "48177c5b5b13c5837ff13e4469b83255de192a53f4cef2047e9e08f2076c17e2"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/mm/fuel_mixer/ports.js"
+hash = "cfc86ba8a63cbc14e0413b1cc11f2f612c2ee6fe4214602266cf453f37fd5d3b"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/mm/steel_furnace/controller.js"
+hash = "d0c953985930558861e3e6f8cc41c123090383762e6d7d116f4cb56fa8e2ae29"
+
+[[files]]
+file = "kubejs/startup_scripts/registry/mm/steel_furnace/ports.js"
+hash = "98867326c22e70e54d5cd3bea5885f0ec47d7073126c6553816d7b81767c6f89"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
@@ -1697,7 +1765,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "1611542f5f481a64e11b4a32789bd71f43e16a07e5c548ccc668c4b5de05e2bd"
+hash = "98499eeefa63be9a0be97f641a895e0820a5194780623daabbdc7a99f5c60c24"
 metafile = true
 
 [[files]]
@@ -1777,7 +1845,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "4701717d9153e470a0306e06b8435fcd2cb00902ca3843da41286359c3367f48"
+hash = "82c51a711d6193f827c20806a08635564aa43252309e3e037776800499ad860f"
 metafile = true
 
 [[files]]
@@ -1882,7 +1950,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "73aee0046de9922fbcf3d6dd3c1bb56cbcc259a584c1e28971973edd547e1236"
+hash = "9d4d61f5610880a85cc2b15bf7033985274e6ece131f3e426dd11531dffb26b5"
 metafile = true
 
 [[files]]
@@ -1937,12 +2005,12 @@ metafile = true
 
 [[files]]
 file = "mods/exposure.pw.toml"
-hash = "cbfa4c41dfa6983c02eec13087e0e0feb8ec7024ee5e6468fce2fbab20a2302c"
+hash = "4835b66cd4c26a027d52b4d15916f010c326537bebaa81350ddd40b9df61cf27"
 metafile = true
 
 [[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
-hash = "e42c5d0fe2c09dcd37aa7222752499014b4a95ee2d78ca310d0a70664562896b"
+hash = "28ec25b40a96c1ac5cf708abaa4db346d88269a8a34c0085e76173973b3ec2b8"
 metafile = true
 
 [[files]]
@@ -1957,7 +2025,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-async-world-save-forge-fabric.pw.toml"
-hash = "e792854d50dca30109a7ac86e2b3a8353818abf11d102ad3c29f6003a05cf6dc"
+hash = "23a04210d34ea538f7a1db8a2b8abcb929e683632a1bb0c9ed838af9cd93d0dd"
 metafile = true
 
 [[files]]
@@ -1992,7 +2060,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "843071fda8ea52f60308947a8145a05cd1763726bd226ef2c71cc09395de823b"
+hash = "3cac9f3d4dc792068b030c9f260eee8cef70f307d98daa7e6814e0e4375de6e8"
 metafile = true
 
 [[files]]
@@ -2007,7 +2075,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "fd0df6f14400f69678d3c06bc87df2e7edb2c6c424dca07a452d39180d18ea04"
+hash = "44d0d42f597e0490b9158777068fd1faa77018ce524138e5937d7415763a3e95"
 metafile = true
 
 [[files]]
@@ -2027,12 +2095,12 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
-hash = "49152ddab9b7ef9a807e9086ae80bc3479d6fc0ec208228b5dcb8c32c9c3ae04"
+hash = "9406e74a2166c58db37c0ba2a29da94723d0c158b05cc6bf22355f7855a27709"
 metafile = true
 
 [[files]]
 file = "mods/immersive-melodies.pw.toml"
-hash = "369f3013a596475087c7d0cef15b43e040eeb9360efe8e3db4a870a714d21705"
+hash = "bc9473893ddc49ae4d8f3d0198ee540d226e153401a0724a8e9e51e5065b3eb4"
 metafile = true
 
 [[files]]
@@ -2062,7 +2130,7 @@ metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
-hash = "ce3945c1b4a49b32fa17e91396a019e00efd773e7ae76df7c078397f9ac74fc3"
+hash = "aba5a3408880f30daf3442ff6d0a640e9a78e578d9f0c3a3be175ca12dbc3167"
 metafile = true
 
 [[files]]
@@ -2107,7 +2175,7 @@ metafile = true
 
 [[files]]
 file = "mods/let-me-despawn.pw.toml"
-hash = "f1aa1a1b3746f0bad932aa0e3a95ee987b96efadf1107431c735923f3ae00890"
+hash = "644607a28024fbb4115884962a09cb4621217f652aacd363f7a2df52ddb69862"
 metafile = true
 
 [[files]]
@@ -2122,7 +2190,7 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
-hash = "cd4fe8b667d14c946028050cf9e4c3367868f79d9f429ec18eb47cce34e021a3"
+hash = "a3fc2800be76f3406961d01ab4ab6805b4ca5e269f53d3cb2d58ea39d6afa9f2"
 metafile = true
 
 [[files]]
@@ -2137,12 +2205,12 @@ metafile = true
 
 [[files]]
 file = "mods/mekanism-generators.pw.toml"
-hash = "40848fe2af86cadb8763523cc997a84e469c123600f5b994fec3dfa929ae3fef"
+hash = "30b016d6a30bc7122b355a8f4e626b5c6f1415045d88e56d79c0cdda3650c809"
 metafile = true
 
 [[files]]
 file = "mods/mekanism.pw.toml"
-hash = "2ea58157f8d47adc8ed1e46da9d213e106df8aa27be2ac49ceef67823f3dd63b"
+hash = "c2242c43a5eda039f62b6afca6db01d38f598e63563eb7477f79e53a542550c4"
 metafile = true
 
 [[files]]
@@ -2227,7 +2295,7 @@ metafile = true
 
 [[files]]
 file = "mods/octo-lib.pw.toml"
-hash = "299d07d605497fd0f4cc5f32a76cf657fda8a84813816fa24c4a05d9f846c3cb"
+hash = "320c4d3a50b1f2f45d64d2f88c8c16473bc85b95d67e54ff93205ac9d2ead3cf"
 metafile = true
 
 [[files]]
@@ -2287,12 +2355,12 @@ metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "d99946cb99e0d71fc13f2ff0e87108618b1f42486ff0ab3c3b99fa40c66efc9a"
+hash = "be00342cb8a221251aabbd291da2b6be9fc327b750b9e5818313a9da39349180"
 metafile = true
 
 [[files]]
 file = "mods/quark.pw.toml"
-hash = "d92b242de1f5ba59226bbe69a6567493434874ecb63413fec62d82b43f081f4e"
+hash = "2f3081029fe8b579d4a60d2191613ed17cb4bff3390280c56817cb8149422aef"
 metafile = true
 
 [[files]]
@@ -2332,12 +2400,12 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "11200bd0dd2d6ad0399b466d1fac4f82166f8637f820789a940e6e3a04a076c4"
+hash = "bbed5792ab8d818d5cf5f25387427e6fd1999376d330f7cd0a6ff55554073adb"
 metafile = true
 
 [[files]]
 file = "mods/smooth-chunk-save.pw.toml"
-hash = "646c0ecfbe42b7d4ce7e64deb9dcf5022cbf85f47c05529538858e477f23de21"
+hash = "a061b4f98461fc38b4ff6495b5e3a9b8708e9d87333c2cbb29e6b265053a5abe"
 metafile = true
 
 [[files]]
@@ -2347,12 +2415,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "07e090937f99c604753cc6e5db5d0213163ceec10d4ee4ecc2875a5547cd0a53"
+hash = "f774a1eca63915333543b245112bedbf0629d2faa024a96e43767f62e11216df"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "95f6a16e39ff671b74681e0ba1c180c86b3562fab4581f1ce17632b704aa3f49"
+hash = "9c11c06685a9b4ac9d7b8d923ad423a45aa9ac683d09a9161c6450c7b3f6279c"
 metafile = true
 
 [[files]]
@@ -2362,7 +2430,7 @@ metafile = true
 
 [[files]]
 file = "mods/stellarview.pw.toml"
-hash = "3d5a6bddaeb7a158b8466e97a4350843b7227acbe434a5164cfe979d7ae0fe84"
+hash = "5b08fc9d7d8f47b4b74d8878be37192971fa5770b6bb1abb59d60da0f8780d0b"
 metafile = true
 
 [[files]]
@@ -2387,7 +2455,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "97175f71f202d2d47a5828568c9f53339952a1c20b09378bdf5ad34557a8b4be"
+hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
 metafile = true
 
 [[files]]
@@ -2412,7 +2480,7 @@ metafile = true
 
 [[files]]
 file = "mods/trashslot.pw.toml"
-hash = "11c2aacd769fd1729652bafde4e04ce6f8a3e67524f9254e8ddee2eac392f40d"
+hash = "7d82589ef537c4a134ec1c5901019052c3fd3fd1a6051500ff3f732339e801e0"
 metafile = true
 
 [[files]]
@@ -2432,7 +2500,7 @@ metafile = true
 
 [[files]]
 file = "mods/zeta.pw.toml"
-hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
+hash = "586fcd360558e92a194059b46509420f57f1baa3ef1a1bee073a862a38b3bde7"
 metafile = true
 
 [[files]]
