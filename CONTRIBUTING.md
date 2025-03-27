@@ -72,6 +72,8 @@ These branches (named after a released version, e.g. `v0.8a-alpha`) exist purely
 
 ## Packwiz and how it makes life easier
 
+![GitHub repo size](https://img.shields.io/github/repo-size/the-shortman/planets-and-portals-3?style=for-the-badge)
+
 This pack uses packwiz, a modpack development tool. Instructions on how to install packwiz can be found on their website: https://packwiz.infra.link/installation/
 
 This tool is included with the pack as an `.exe` file. It essentially allows you to quickly update your live instance from your code workspace (assuming you're using a launcher such as [Prism](https://prismlauncher.org/)) simply by relaunching the game. This tool is required to compile this repository as a modpack due to the `.pw.toml` file format that packwiz uses for storing mod data, significantly decreasing the file size of the repository, and allowing insane ease and speed of updating, adding, and removing mods.
