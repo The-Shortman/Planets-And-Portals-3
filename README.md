@@ -9,7 +9,11 @@ This is the official repository for the Planets and Portals 3 modpack, soon to b
 
 ![Static Badge](https://img.shields.io/badge/dev_branch_version-v0.9--alpha-orange?style=for-the-badge)
 
-## Other pages you may want to read:
+## Other links:
+
+![Discord](https://img.shields.io/discord/1242966094004879380?style=for-the-badge&label=DISCORD&color=5865F2)
+
+## Other important pages on this repo:
 - [CONTRIBUTING.md](https://github.com/The-Shortman/Planets-And-Portals-3/blob/dev/CONTRIBUTING.md)
 - [PLAYTESTING.md](https://github.com/The-Shortman/Planets-And-Portals-3/blob/dev/PLAYTESTING.md)
 - [LICENSE.md](https://github.com/The-Shortman/Planets-And-Portals-3/blob/dev/LICENSE.md)
