@@ -16,14 +16,6 @@ StartupEvents.registry('block', e => {
             res: 1.0,
             tool: 'pickaxe'
         },
-        {
-            id: 'mm:coke_oven_filler', // Texture from TFMG
-            name: 'Coke Oven',
-            mat: 'metal',
-            hardness: 0.5,
-            res: 1.0,
-            tool: 'pickaxe'
-        },
     ].forEach((block) => {
         if (block.tool != 0) {
             e.create(block.id)

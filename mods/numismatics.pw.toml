@@ -1,13 +1,13 @@
 name = "Create: Numismatics"
-filename = "CreateNumismatics-1.0.11+forge-mc1.20.1.jar"
+filename = "CreateNumismatics-1.0.15+forge-mc1.20.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "38ab52b75bbf6d112bc7f8f8993093b2aac666fc"
+hash = "f49daf6ea32cd7b15816dafff5cf8fe291c89218"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6192458
+file-id = 6264591
 project-id = 889722
