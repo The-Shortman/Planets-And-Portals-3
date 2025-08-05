@@ -1,3 +1,19 @@
-/.zip
-/.mrpack
-/.vscode
+packwiz.exe
+packwiz
+packwiz-installer-bootstrap.jar
+packwiz-installer.jar
+
+*.code-workspace
+*.vscode
+kubejs/assets/kubejs/probe
+kubejs/probe
+kubejs/exported
+
+# Exclude exported CurseForge zip files
+*.zip
+
+# Exclude exported Modrinth modpacks
+*.mrpack
+
+# IntelliJ project files
+.idea

@@ -1,10 +1,14 @@
 /README.md
-/LICENSE.md
-/PLAYTESTING.md
-/CONTRIBUTING.md
-/.gitignore
-/.gitattributes
-/.github
+LICENSE*.md
+PLAYTESTING.md
+CONTRIBUTING.md
+.gitignore
+.gitattributes
+.github
 .git/**
-/.vscode
-/config/mm/pack/.cache
+.vscode
+packwiz
+packwiz.exe
+
+# This file directory bricks packwiz for some reason
+config/mm/pack/.cache

@@ -49,26 +49,7 @@ If you are adding content intended for a future version, make a fork of the [`de
 
 ## How the branches work
 
-There are three branches you may be interested in at any one time:
-- [`dev`](https://github.com/The-Shortman/Planets-And-Portals-3/tree/dev)
-- [`main`](https://github.com/The-Shortman/Planets-And-Portals-3/tree/main)
-- Archived version branches
-
-### `dev`
-
-The `dev` branch is essentially where the active devlopment for major updates is happening. Pull requests and commits for major features go to this branch.
-
-### `main`
-
-The `main` branch is the current playtesting deployment. What that means is that it publishes to the repository's GitHub Pages site where packwiz can access it for automatic pack updating, for playtesters to play the update before the general public sees it.
-
-For the most part however, this branch will reflect the current version and is intended for minor patches or similar, separate from the next main release.
-
-If the main branch does not reflect the current version and you wish to open a pull request to patch a bug, please still go ahead. This just means that the next update is in the testing phase and it doesn't make sense to release a minor patch at that time.
-
-### Archived version branches
-
-These branches (named after a released version, e.g. `v0.8a-alpha`) exist purely for archival reasons and are not intended to be directly updated.
+This project uses the GitFlow branch strategy to allow management of hotfixes, features, and releases.
 
 ## Packwiz and how it makes life easier
 
@@ -76,6 +57,6 @@ These branches (named after a released version, e.g. `v0.8a-alpha`) exist purely
 
 This pack uses packwiz, a modpack development tool. Instructions on how to install packwiz can be found on their website: https://packwiz.infra.link/installation/
 
-This tool is included with the pack as an `.exe` file. It essentially allows you to quickly update your live instance from your code workspace (assuming you're using a launcher such as [Prism](https://prismlauncher.org/)) simply by relaunching the game. This tool is required to compile this repository as a modpack due to the `.pw.toml` file format that packwiz uses for storing mod data, significantly decreasing the file size of the repository, and allowing insane ease and speed of updating, adding, and removing mods.
+This tool is not included with the pack, you will have to get the binaries yourself from the packwiz GitHub repository. It essentially allows you to quickly update your live instance from your code workspace (assuming you're using a launcher such as [Prism](https://prismlauncher.org/)) simply by relaunching the game. This tool is required to compile this repository as a modpack due to the `.pw.toml` file format that packwiz uses for storing mod data, significantly decreasing the file size of the repository, and allowing insane ease and speed of updating, adding, and removing mods.
 
 A fully detailed guide to the usage of packwiz can be found on their tutorials page: https://packwiz.infra.link/tutorials/creating/getting-started/
