@@ -8,7 +8,7 @@ The format is a slight modification of the [Keep a Changelog](https://keepachang
 
 Release dates attached to version numbers are in the format `YYYY/MM/DD` as per the standards of [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html), recommended by [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9a-alpha` will not be logged here.
+This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-alpha` will not be logged here.
 
 ## v0.9-alpha [UNRELEASED]
 
