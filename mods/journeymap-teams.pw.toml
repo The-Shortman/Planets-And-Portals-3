@@ -1,13 +1,13 @@
 name = "JourneyMap Teams"
-filename = "JourneyMap-Teams-forge-1.20.1-1.1.0.jar"
+filename = "JourneyMap-Teams-forge-1.20.1-1.1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "54428f6a4fba0fd2127767d3237ef34e1a4bc92b"
+hash = "58006c82027f259579453d2ee294d4b85450db3c"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4805076
+file-id = 6833646
 project-id = 923833

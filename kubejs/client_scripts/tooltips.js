@@ -74,18 +74,6 @@ ItemEvents.tooltip(tooltip => {
             text: 'Disabled - use generator coils from [Create: New Age] instead, or solar panels.'
         },
         {
-            ids: [
-                "mm:blast_furnace_fluid_input",
-                "mm:blast_furnace_item_output",
-                "mm:coke_oven_fluid_input",
-                "mm:steel_furnace_fluid_input",
-                "mm:steel_furnace_item_output",
-                "mm:steel_furnace_energy_output",
-                "mm:fuel_mixer_energy_output"
-            ],
-            text: "Unused machinery port - no crafting recipe."
-        },
-        {
             ids: ['ad_astra:oil', 'ad_astra:oil_bucket'],
             text: 'Use the crude oil from [Create: TFMG] instead.'
         },
