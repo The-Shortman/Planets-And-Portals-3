@@ -240,6 +240,49 @@ ServerEvents.recipes(e => {
             output: '5x create:mechanical_crafter'
         },
         
+        // Masterful Machinery
+
+        {
+            pattern: [
+                'AAA',
+                'ABA',
+                'ACA'
+            ],
+            key: {
+                A: 'tfmg:cast_iron_ingot',
+                B: 'tfmg:fireproof_bricks',
+                C: 'tfmg:cast_iron_pipe'
+            },
+            output: 'mm:blast_furnace_controller'
+        },
+        {
+            pattern: [
+                'AAA',
+                'ABA',
+                'ACA'
+            ],
+            key: {
+                A: 'tfmg:heavy_plate',
+                B: 'tfmg:steel_casing',
+                C: 'tfmg:steel_pipe'
+            },
+            output: 'mm:steel_furnace_controller'
+        },
+        {
+            pattern: [
+                'ABA',
+                'ACA',
+                'ADA'
+            ],
+            key: {
+                A: 'tfmg:steel_casing',
+                B: 'create_new_age:basic_motor',
+                C: 'create:mechanical_mixer',
+                D: 'create:basin'
+            },
+            output: 'mm:fuel_mixer_controller'
+        },
+
         // Create New Age stuff
 
         {
