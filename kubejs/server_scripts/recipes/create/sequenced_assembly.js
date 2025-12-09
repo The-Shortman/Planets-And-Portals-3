@@ -1,78 +1,78 @@
-ServerEvents.recipes ((e) => {
+(function createSequencedAssemblyRecipes() {
+    const { BUCKET, BLOCK, INGOT, NUGGET } = global.fluids;
+    const { createSequencedAssembly } = global.server;
 
-	/// This one is basically 'can't be asked to make helper functions lmao' ///
+    const placehold = "create:incomplete_precision_mechanism"
 
-	let placehold = 'create:incomplete_precision_mechanism'
-    let hplate = 'tfmg:unprocessed_heavy_plate'
-    let steelmech = 'tfmg:unfinished_steel_mechanism'
-    let obsheet = 'create:unprocessed_obsidian_sheet'
-    let engframe = 'planetsandportals:unfinished_engine_frame'
+    ServerEvents.recipes ((event) => {
+        createSequencedAssembly(event, {
+            input: "tfmg:steel_block",
+            transitional: "tfmg:unprocessed_heavy_plate",
+            outputs: ["tfmg:heavy_plate"],
+        })
+            .addPressingStep()
+            .addDeployingStep("create:sturdy_sheet")
+            .addPressingStep()
+            .addPressingStep()
+            .build();
+        
+        createSequencedAssembly(event, {
+            input: "planetsandportals:steel_electrode",
+            transitional: "tfmg:unprocessed_heavy_plate",
+            outputs: ["tfmg:heavy_plate"],
+        })
+            .addFillingStep({ fluid: "planetsandportals:obsidian_solution", amount: BUCKET / 2 })
+            .addPressingStep()
+            .build();
 
-    // TFMG Heavy Plate
+        createSequencedAssembly(event, {
+            input: "tfmg:heavy_plate",
+            transitional: "tfmg:unfinished_steel_mechanism",
+            outputs: ["tfmg:steel_mechanism"],
+        })
+            .addCuttingStep()
+            .addDeployingStep("create:cogwheel")
+            .addDeployingStep("tfmg:screw")
+            .addToolDeployingStep("tfmg:screwdriver")
+            .loops(4)
+            .build();
 
-    e.recipes.create.sequenced_assembly([
-        Item.of('tfmg:heavy_plate'), // Output
-    ], 'tfmg:steel_block', [ // Input
-        e.recipes.create.pressing(hplate, hplate),
-        e.recipes.create.deploying(hplate, [hplate, 'create:sturdy_sheet']),
-        e.recipes.create.pressing(hplate, hplate),
-        e.recipes.create.pressing(hplate, hplate)
-    ]).transitionalItem(hplate).loops(1);
+        createSequencedAssembly(event, {
+            input: "create:powdered_obsidian",
+            transitional: "create:unprocessed_obsidian_sheet",
+            outputs: [
+                Item.of("create:sturdy_sheet").withChance(6),
+                Item.of("minecraft:iron_nugget").withChance(4),
+            ],
+        })
+            .addDeployingStep("minecraft:iron_nugget")
+            .addPressingStep()
+            .addPressingStep()
+            .loops(5)
+            .build();
 
-    // Post-moon TFMG heavy plate
+        createSequencedAssembly(event, {
+            input: "ad_astra:desh_block",
+            transitional: placehold,
+            outputs: ["ad_astra:desh_plate"],
+        })
+            .addPressingStep()
+            .addDeployingStep("tfmg:heavy_plate")
+            .addPressingStep()
+            .addPressingStep()
+            .build();
 
-    e.recipes.create.sequenced_assembly([
-        Item.of('tfmg:heavy_plate'), // Output
-    ], 'planetsandportals:steel_electrode', [ // Input
-        e.recipes.create.filling(hplate, [hplate, Fluid.of('planetsandportals:obsidian_solution', 500)]),
-        e.recipes.create.pressing(hplate, hplate)
-    ]).transitionalItem(hplate).loops(1);
-
-    // TFMG Steel Mechanism
-
-    e.recipes.create.sequenced_assembly([
-        Item.of('tfmg:steel_mechanism'), // Output
-    ], 'tfmg:heavy_plate', [ // Input
-        e.recipes.create.cutting(steelmech, steelmech),
-        e.recipes.create.deploying(steelmech, [steelmech, 'create:cogwheel']),
-        e.recipes.create.deploying(steelmech, [steelmech, 'tfmg:screw']),
-        e.recipes.create.deploying(steelmech, [steelmech, 'tfmg:screwdriver']).keepHeldItem()
-    ]).transitionalItem(steelmech).loops(4);
-
-    // Early game sturdy sheet (40% chance of failure)
-
-    e.recipes.create.sequenced_assembly([
-        Item.of('create:sturdy_sheet').withChance(0.6),
-        Item.of('minecraft:iron_nugget').withChance(0.4) // Output
-    ], 'create:powdered_obsidian', [ // Input
-        e.recipes.create.deploying(obsheet, [obsheet, 'minecraft:iron_nugget']),
-        e.recipes.create.pressing(obsheet, obsheet),
-        e.recipes.create.pressing(obsheet, obsheet),
-    ]).transitionalItem(obsheet).loops(5);
-
-    // Ad Astra Desh Plate
-
-    e.recipes.create.sequenced_assembly([
-        Item.of('ad_astra:desh_plate'), // Output
-    ], 'ad_astra:desh_block', [ // Input
-        e.recipes.create.pressing(placehold, placehold),
-        e.recipes.create.deploying(placehold, [placehold, 'tfmg:heavy_plate']),
-        e.recipes.create.pressing(placehold, placehold),
-        e.recipes.create.pressing(placehold, placehold)
-    ]).transitionalItem(placehold).loops(1);
-
-    // Ad Astra Engine Frame
-
-    e.recipes.create.sequenced_assembly([
-        Item.of('ad_astra:engine_frame'), // Output
-    ], 'tfmg:heavy_machinery_casing', [ // Input
-        e.recipes.create.filling(engframe, [engframe, {fluid: 'tfmg:cooling_fluid', amount: 1000}]),
-        e.recipes.create.deploying(engframe, [engframe, 'tfmg:screw']),
-        e.recipes.create.deploying(engframe, [engframe, 'tfmg:screwdriver']),
-        e.recipes.create.deploying(engframe, [engframe, 'tfmg:heavy_plate']),
-        e.recipes.create.deploying(engframe, [engframe, 'tfmg:screw']),
-        e.recipes.create.deploying(engframe, [engframe, 'tfmg:screwdriver']),
-        e.recipes.create.pressing(engframe, engframe)
-    ]).transitionalItem(engframe).loops(1);
-
-})
+        createSequencedAssembly(event, {
+            input: "tfmg:heavy_machinery_casing",
+            transitional: "planetsandportals:unfinished_engine_frame",
+            outputs: ["ad_astra:engine_frame"],
+        })
+            .addFillingStep({ fluid: "tfmg:cooling_fluid", amount: BUCKET })
+            .addDeployingStep("tfmg:screw")
+            .addToolDeployingStep("tfmg:screwdriver")
+            .addDeployingStep("tfmg:heavy_plate")
+            .addDeployingStep("tfmg:screw")
+            .addToolDeployingStep("tfmg:screwdriver")
+            .build();
+    });
+})();
