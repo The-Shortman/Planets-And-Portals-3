@@ -1,150 +1,102 @@
-ServerEvents.recipes(e => {
-    [
-        // Vanilla
+(function vanillaShapelessRecipes() {
+  ServerEvents.recipes((event) => {
+    const shapelessRecipes = [
+      // Vanilla
 
-        {
-            inputs: '9x planetsandportals:rough_diamond',
-            output: 'planetsandportals:rough_diamond_block',
-            count: 1
-        },
-        {
-            inputs: 'planetsandportals:rough_diamond_block',
-            output: 'planetsandportals:rough_diamond',
-            count: 9
-        },
+      {
+        inputs: Item.of("planetsandportals:rough_diamond", 9),
+        output: "planetsandportals:rough_diamond_block",
+      },
+      {
+        inputs: "planetsandportals:rough_diamond_block",
+        output: Item.of("planetsandportals:rough_diamond", 9),
+      },
 
-        // Create
+      // Create
 
-        {
-            inputs: [
-                '4x minecraft:gravel',
-                '4x minecraft:sand',
-                'minecraft:clay'
-            ],
-            output: 'planetsandportals:grout',
-            count: 16
-        },
-        {
-            inputs: [
-                '4x create:shaft',
-                'create:zinc_ingot'
-            ],
-            output: 'copycats:copycat_shaft',
-            count: 16
-        },
+      {
+        inputs: [
+          Item.of("minecraft:gravel", 4),
+          Item.of("minecraft:sand", 4),
+          "minecraft:clay",
+        ],
+        output: Item.of("planetsandportals:grout", 16),
+      },
+      {
+        inputs: [Item.of("create:shaft", 4), "create:zinc_ingot"],
+        output: Item.of("copycats:copycat_shaft", 16),
+      },
 
-        // Blast Furnace
-        
-        {
-            inputs: [
-                'tfmg:fireproof_bricks',
-                'create:andesite_funnel'
-            ],
-            output: 'mm:blast_furnace_item_input',
-            count: 1
-        },
-        {
-            inputs: [
-                'tfmg:fireproof_bricks',
-                'create:fluid_valve'
-            ],
-            output: 'mm:blast_furnace_fluid_output',
-            count: 1
-        },
-        {
-            inputs: [
-                'tfmg:blast_furnace_output'
-            ],
-            output: 'mm:blast_furnace_controller',
-            count: 1
-        },
+      // Blast Furnace
 
-        // Steel Furnace
+      {
+        inputs: ["tfmg:fireproof_bricks", "create:andesite_funnel"],
+        output: "mm:blast_furnace_item_input",
+      },
+      {
+        inputs: ["tfmg:fireproof_bricks", "create:fluid_valve"],
+        output: "mm:blast_furnace_fluid_output",
+      },
+      {
+        inputs: ["tfmg:blast_furnace_output"],
+        output: "mm:blast_furnace_controller",
+      },
 
-        {
-            inputs: [
-                'tfmg:heavy_machinery_casing',
-                'create:andesite_funnel'
-            ],
-            output: 'mm:steel_furnace_item_input',
-            count: 1
-        },
-        {
-            inputs: [
-                'tfmg:heavy_machinery_casing',
-                'create:fluid_valve'
-            ],
-            output: 'mm:steel_furnace_fluid_output',
-            count: 1
-        },
-        {
-            inputs: [
-                'tfmg:heavy_machinery_casing',
-                'create_new_age:electrical_connector'
-            ],
-            output: 'mm:steel_furnace_energy_input',
-            count: 1
-        },
+      // Steel Furnace
 
-        // Coke Oven
+      {
+        inputs: ["tfmg:heavy_machinery_casing", "create:andesite_funnel"],
+        output: "mm:steel_furnace_item_input",
+      },
+      {
+        inputs: ["tfmg:heavy_machinery_casing", "create:fluid_valve"],
+        output: "mm:steel_furnace_fluid_output",
+      },
+      {
+        inputs: [
+          "tfmg:heavy_machinery_casing",
+          "create_new_age:electrical_connector",
+        ],
+        output: "mm:steel_furnace_energy_input",
+      },
 
-        {
-            inputs: [
-                'mm:coke_oven_filler',
-                'create:display_board'
-            ],
-            output: 'mm:coke_oven_controller',
-            count: 1
-        },
-        {
-            inputs: [
-                'mm:coke_oven_filler',
-                'create:andesite_funnel'
-            ],
-            output: 'mm:coke_oven_item_output',
-            count: 1
-        },
-        {
-            inputs: [
-                'mm:coke_oven_filler',
-                'create:brass_funnel'
-            ],
-            output: 'mm:coke_oven_item_input',
-            count: 1
-        },
-        {
-            inputs: [
-                'mm:coke_oven_filler',
-                'create:fluid_valve'
-            ],
-            output: 'mm:coke_oven_fluid_output',
-            count: 1
-        },
+      // Coke Oven
 
-        // Fuel Mixer
+      {
+        inputs: ["mm:coke_oven_filler", "create:display_board"],
+        output: "mm:coke_oven_controller",
+      },
+      {
+        inputs: ["mm:coke_oven_filler", "create:andesite_funnel"],
+        output: "mm:coke_oven_item_output",
+      },
+      {
+        inputs: ["mm:coke_oven_filler", "create:brass_funnel"],
+        output: "mm:coke_oven_item_input",
+      },
+      {
+        inputs: ["mm:coke_oven_filler", "create:fluid_valve"],
+        output: "mm:coke_oven_fluid_output",
+      },
 
-        {
-            inputs: [
-                'tfmg:steel_casing',
-                'create:mechanical_pump'
-            ],
-            output: 'mm:fuel_mixer_fluid_input'
-        },
-        {
-            inputs: [
-                'tfmg:steel_casing',
-                'create:fluid_valve'
-            ],
-            output: 'mm:fuel_mixer_fluid_output'
-        },
-        {
-            inputs: [
-                'tfmg:steel_casing',
-                'create_new_age:electrical_connector'
-            ],
-            output: 'mm:fuel_mixer_energy_input'
-        }
-    ].forEach((recipe) => {
-        e.shapeless(Item.of(recipe.output, recipe.count), recipe.inputs)
+      // Fuel Mixer
+
+      {
+        inputs: ["tfmg:steel_casing", "create:mechanical_pump"],
+        output: "mm:fuel_mixer_fluid_input",
+      },
+      {
+        inputs: ["tfmg:steel_casing", "create:fluid_valve"],
+        output: "mm:fuel_mixer_fluid_output",
+      },
+      {
+        inputs: ["tfmg:steel_casing", "create_new_age:electrical_connector"],
+        output: "mm:fuel_mixer_energy_input",
+      },
+    ];
+
+    shapelessRecipes.forEach((recipe) => {
+      event.shapeless(recipe.output, recipe.inputs);
     });
-})
+  });
+})();

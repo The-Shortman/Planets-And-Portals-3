@@ -1,24 +1,20 @@
-ServerEvents.recipes((e) => {
-	[
-		{
-            input: 'tfmg:steel_ingot',
-            output: 'planetsandportals:steel_electrode',
-            energy: 5000
-        },
-	].forEach((r) => {
-		e.custom({
-            type: "create_new_age:energising",
-            energy_needed: r.energy,
-            ingredients: [
-                {
-                  item: r.input
-                }
-            ],
-            results: [
-              {
-                item: r.output
-              }
-            ]
-        });
-	});
-})
+(function createNewAgeEnergisingRecipes() {
+  ServerEvents.recipes((event) => {
+    const energisingRecipes = [
+      {
+        input: "tfmg:steel_ingot",
+        output: "planetsandportals:steel_electrode",
+        energy: 5000,
+      },
+    ];
+
+    energisingRecipes.forEach((recipe) => {
+      event.custom({
+        type: "create_new_age:energising",
+        energy_needed: recipe.energy,
+        ingredients: [{ item: recipe.input }],
+        results: [{ item: recipe.output }],
+      });
+    });
+  });
+})();

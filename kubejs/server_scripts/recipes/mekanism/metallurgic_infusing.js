@@ -1,23 +1,19 @@
-ServerEvents.recipes((e) => {
-	[
-		
-	].forEach((r) => {
-		e.custom({
-			type: "mekanism:metallurgic_infusing",
-			chemicalInput: {
-				amount: r.chemicalVol,
-				tag: r.chemical
-			},
-			itemInput: {
-				amount: r.inputVol,
-				ingredient: {
-					item: r.input
-				}
-			},
-			output: {
-				count: r.outputVol,
-				item: r.output
-			}
-		})
-	})
-})
+(function mekanismMetallurgicInfusingRecipes() {
+  ServerEvents.recipes((event) => {
+    const metallurgicInfusingRecipes = [
+      //TODO: add metallurgic infusing recipes
+    ];
+
+    metallurgicInfusingRecipes.forEach((recipe) => {
+      event.custom({
+        type: "mekanism:metallurgic_infusing",
+        chemicalInput: { amount: recipe.chemicalVol, tag: recipe.chemical },
+        itemInput: {
+          amount: recipe.inputVol,
+          ingredient: { item: recipe.input },
+        },
+        output: { count: recipe.outputVol, item: recipe.output },
+      });
+    });
+  });
+})();

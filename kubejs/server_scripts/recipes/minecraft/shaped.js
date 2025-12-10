@@ -1,596 +1,449 @@
-ServerEvents.recipes(e => {
-    [
-        
-        // Minor recipe fixes
-        
-        {
-            pattern: [
-                'AAA',
-                'A A',
-                'AAA'
-            ],
-            key: {
-                A: '#forge:planks'
-            },
-            output: 'minecraft:chest'
-        },
-        {
-            pattern: [
-                'AAA',
-                'A A',
-                'AAA'
-            ],
-            key: {
-                A: '#forge:logs'
-            },
-            output: '4x minecraft:chest'
-        },
-        {
-            pattern: [
-                'AAA',
-                'BBB',
-                'AAA'
-            ],
-            key: {
-                A: ['#forge:planks', 'minecraft:oak_planks']
-            },
-            output: 'minecraft:bookshelf'
-        },
-        {
-            pattern: [
-                'A A',
-                'ABA',
-                'A A'
-            ],
-            key: {
-                A: 'minecraft:stick',
-                B: ['#forge:planks', 'minecraft:oak_planks']
-            },
-            output: '4x minecraft:ladder'
-        },
-        {
-            pattern: [
-                'AA',
-                'AA'
-            ],
-            key: {
-                A: 'tfmg:fireclay_ball'
-            },
-            output: 'tfmg:fireclay'
-        },
+(function minecraftShapedRecipes() {
+  ServerEvents.recipes((event) => {
+    const shapedRecipes = [
+      // Minor recipe fixes
 
-        // Vanilla
+      {
+        pattern: ["AAA", "A A", "AAA"],
+        key: {
+          A: "#forge:planks",
+        },
+        output: "minecraft:chest",
+      },
+      {
+        pattern: ["AAA", "A A", "AAA"],
+        key: {
+          A: "#forge:logs",
+        },
+        output: "4x minecraft:chest",
+      },
+      {
+        pattern: ["AAA", "BBB", "AAA"],
+        key: {
+          A: ["#forge:planks", "minecraft:oak_planks"],
+        },
+        output: "minecraft:bookshelf",
+      },
+      {
+        pattern: ["A A", "ABA", "A A"],
+        key: {
+          A: "minecraft:stick",
+          B: ["#forge:planks", "minecraft:oak_planks"],
+        },
+        output: "4x minecraft:ladder",
+      },
+      {
+        pattern: ["AA", "AA"],
+        key: {
+          A: "tfmg:fireclay_ball",
+        },
+        output: "tfmg:fireclay",
+      },
 
-        // Ad Astra stuff
-        
-        {
-            pattern: [
-                'ABA',
-                'CDC',
-                'EFE'
-            ],
-            key: {
-                A: 'create:sturdy_sheet',
-                B: 'create:precision_mechanism',
-                C: 'tfmg:steel_mechanism',
-                D: 'ad_astra:engine_frame',
-                E: 'tfmg:heavy_plate',
-                F: 'ad_astra:fan'
-            },
-            output: 'ad_astra:steel_engine'
-        },
-        {
-            pattern: [
-                'ABA',
-                'BBB',
-                'ABA'
-            ],
-            key: {
-                A: 'ad_astra:desh_plate',
-                B: 'ad_astra:desh_ingot',
-            },
-            output: 'ad_astra:desh_plateblock'
-        },
-        {
-            pattern: [
-                'ABA',
-                'CDC',
-                ' E '
-            ],
-            key: {
-                A: 'mekanism:block_osmium',
-                B: 'create_new_age:reactor_heat_vent',
-                C: 'ad_astra:desh_plate',
-                D: 'ad_astra:desh_plateblock',
-                E: 'ad_astra:steel_engine',
-            },
-            output: 'ad_astra:desh_engine'
-        },
-        {
-            pattern: [
-                'ABA',
-                'BBB',
-                'ABA'
-            ],
-            key: {
-                A: 'planetsandportals:steel_electrode',
-                B: 'ad_astra:etrium_nugget',
-            },
-            output: 'ad_astra:etrionic_core'
-        },
-        {
-            pattern: [
-                ' A ',
-                'BCB',
-                'DED'
-            ],
-            key: {
-                A: 'ad_astra:etrionic_core',
-                B: 'ad_astra:etrium_nugget',
-                C: 'tfmg:heavy_machinery_casing',
-                D: 'tfmg:steel_block',
-                E: 'ad_astra:desh_plate',
-            },
-            output: 'ad_astra:gravity_normalizer'
-        },
-        {
-            pattern: [
-                'A',
-                'A'
-            ],
-            key: {
-                A: '#ad_astra:steel_ingots'
-            },
-            output: '4x ad_astra:steel_rod'
-        },
-        {
-            pattern: [
-                'AA'
-            ],
-            key: {
-                A: '#ad_astra:steel_ingots'
-            },
-            output: '6x tfmg:steel_pipe'
-        },
-        {
-            pattern: [
-                ' B ',
-                'ABA',
-                'ABA'
-            ],
-            key: {
-                A: '#ad_astra:steel_ingots',
-                B: 'ad_astra:steel_rod'
-            },
-            output: 'ad_astra:oxygen_gear'
-        },
-        {
-            pattern: [
-                'AAA',
-                'ABA'
-            ],
-            key: {
-                A: '#ad_astra:steel_ingots',
-                B: 'minecraft:glass_pane'
-            },
-            output: 'ad_astra:space_helmet'
-        },
-        {
-            pattern: [
-                'A A',
-                'BCB',
-                'ADA'
-            ],
-            key: {
-                A: '#ad_astra:steel_ingots',
-                B: 'ad_astra:gas_tank',
-                C: 'ad_astra:oxygen_gear',
-                D: '#minecraft:wool'
-            },
-            output: 'ad_astra:space_suit'
-        },
-        {
-            pattern: [
-                'AAA',
-                'B B',
-                'A A'
-            ],
-            key: {
-                A: '#ad_astra:steel_ingots',
-                B: '#minecraft:wool'
-            },
-            output: 'ad_astra:space_pants'
-        },
-        {
-            pattern: [
-                'B B',
-                'A A'
-            ],
-            key: {
-                A: '#ad_astra:steel_ingots',
-                B: '#minecraft:wool'
-            },
-            output: 'ad_astra:space_boots'
-        },
+      // Vanilla
 
-        // Create
+      // Ad Astra stuff
 
-        {
-            pattern: [
-                'AB',
-                'BA'
-            ],
-            key: {
-                A: 'planetsandportals:grout',
-                B: 'minecraft:andesite'
-            },
-            output: '2x create:andesite_alloy'
+      {
+        pattern: ["ABA", "CDC", "EFE"],
+        key: {
+          A: "create:sturdy_sheet",
+          B: "create:precision_mechanism",
+          C: "tfmg:steel_mechanism",
+          D: "ad_astra:engine_frame",
+          E: "tfmg:heavy_plate",
+          F: "ad_astra:fan",
         },
-        {
-            pattern: [
-                'A',
-                'B',
-                'C'
-            ],
-            key: {
-                A: 'create:precision_mechanism',
-                B: 'create:brass_casing',
-                C: 'minecraft:crafting_table'
-            },
-            output: '5x create:mechanical_crafter'
+        output: "ad_astra:steel_engine",
+      },
+      {
+        pattern: ["ABA", "BBB", "ABA"],
+        key: {
+          A: "ad_astra:desh_plate",
+          B: "ad_astra:desh_ingot",
         },
-        
-        // Masterful Machinery
+        output: "ad_astra:desh_plateblock",
+      },
+      {
+        pattern: ["ABA", "CDC", " E "],
+        key: {
+          A: "mekanism:block_osmium",
+          B: "create_new_age:reactor_heat_vent",
+          C: "ad_astra:desh_plate",
+          D: "ad_astra:desh_plateblock",
+          E: "ad_astra:steel_engine",
+        },
+        output: "ad_astra:desh_engine",
+      },
+      {
+        pattern: ["ABA", "BBB", "ABA"],
+        key: {
+          A: "planetsandportals:steel_electrode",
+          B: "ad_astra:etrium_nugget",
+        },
+        output: "ad_astra:etrionic_core",
+      },
+      {
+        pattern: [" A ", "BCB", "DED"],
+        key: {
+          A: "ad_astra:etrionic_core",
+          B: "ad_astra:etrium_nugget",
+          C: "tfmg:heavy_machinery_casing",
+          D: "tfmg:steel_block",
+          E: "ad_astra:desh_plate",
+        },
+        output: "ad_astra:gravity_normalizer",
+      },
+      {
+        pattern: ["A", "A"],
+        key: {
+          A: "#ad_astra:steel_ingots",
+        },
+        output: "4x ad_astra:steel_rod",
+      },
+      {
+        pattern: ["AA"],
+        key: {
+          A: "#ad_astra:steel_ingots",
+        },
+        output: "6x tfmg:steel_pipe",
+      },
+      {
+        pattern: [" B ", "ABA", "ABA"],
+        key: {
+          A: "#ad_astra:steel_ingots",
+          B: "ad_astra:steel_rod",
+        },
+        output: "ad_astra:oxygen_gear",
+      },
+      {
+        pattern: ["AAA", "ABA"],
+        key: {
+          A: "#ad_astra:steel_ingots",
+          B: "minecraft:glass_pane",
+        },
+        output: "ad_astra:space_helmet",
+      },
+      {
+        pattern: ["A A", "BCB", "ADA"],
+        key: {
+          A: "#ad_astra:steel_ingots",
+          B: "ad_astra:gas_tank",
+          C: "ad_astra:oxygen_gear",
+          D: "#minecraft:wool",
+        },
+        output: "ad_astra:space_suit",
+      },
+      {
+        pattern: ["AAA", "B B", "A A"],
+        key: {
+          A: "#ad_astra:steel_ingots",
+          B: "#minecraft:wool",
+        },
+        output: "ad_astra:space_pants",
+      },
+      {
+        pattern: ["B B", "A A"],
+        key: {
+          A: "#ad_astra:steel_ingots",
+          B: "#minecraft:wool",
+        },
+        output: "ad_astra:space_boots",
+      },
 
-        {
-            pattern: [
-                'AAA',
-                'ABA',
-                'ACA'
-            ],
-            key: {
-                A: 'tfmg:cast_iron_ingot',
-                B: 'tfmg:fireproof_bricks',
-                C: 'tfmg:cast_iron_pipe'
-            },
-            output: 'mm:blast_furnace_controller'
-        },
-        {
-            pattern: [
-                'AAA',
-                'ABA',
-                'ACA'
-            ],
-            key: {
-                A: 'tfmg:heavy_plate',
-                B: 'tfmg:steel_casing',
-                C: 'tfmg:steel_pipe'
-            },
-            output: 'mm:steel_furnace_controller'
-        },
-        {
-            pattern: [
-                'ABA',
-                'ACA',
-                'ADA'
-            ],
-            key: {
-                A: 'tfmg:steel_casing',
-                B: 'create_new_age:basic_motor',
-                C: 'create:mechanical_mixer',
-                D: 'create:basin'
-            },
-            output: 'mm:fuel_mixer_controller'
-        },
+      // Create
 
-        // Create New Age stuff
+      {
+        pattern: ["AB", "BA"],
+        key: {
+          A: "planetsandportals:grout",
+          B: "minecraft:andesite",
+        },
+        output: "2x create:andesite_alloy",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:precision_mechanism",
+          B: "create:brass_casing",
+          C: "minecraft:crafting_table",
+        },
+        output: "5x create:mechanical_crafter",
+      },
 
-        {
-            pattern: [
-                'ABA',
-                ' C ',
-                ' D '
-            ],
-            key: {
-                A: 'ad_astra:desh_cable',
-                B: 'ad_astra:desh_plate',
-                C: 'tfmg:steel_casing',
-                D: 'minecraft:lightning_rod'
-            },
-            output: 'create_new_age:energiser_t1'
-        },
-        {
-            pattern: [
-                'ABA',
-                'ECE',
-                ' D '
-            ],
-            key: {
-                A: 'create_new_age:overcharged_golden_sheet',
-                B: 'ad_astra:ostrum_plate',
-                C: 'create_new_age:energiser_t1',
-                D: 'ad_astra:desh_cable',
-                E: 'ad_astra:desh_nugget'
-            },
-            output: 'create_new_age:energiser_t2'
-        },
+      // Masterful Machinery
 
-        // Create Ore Excavation
+      {
+        pattern: ["AAA", "ABA", "ACA"],
+        key: {
+          A: "tfmg:cast_iron_ingot",
+          B: "tfmg:fireproof_bricks",
+          C: "tfmg:cast_iron_pipe",
+        },
+        output: "mm:blast_furnace_controller",
+      },
+      {
+        pattern: ["AAA", "ABA", "ACA"],
+        key: {
+          A: "tfmg:heavy_plate",
+          B: "tfmg:steel_casing",
+          C: "tfmg:steel_pipe",
+        },
+        output: "mm:steel_furnace_controller",
+      },
+      {
+        pattern: ["ABA", "ACA", "ADA"],
+        key: {
+          A: "tfmg:steel_casing",
+          B: "create_new_age:basic_motor",
+          C: "create:mechanical_mixer",
+          D: "create:basin",
+        },
+        output: "mm:fuel_mixer_controller",
+      },
 
-        {
-            pattern: [
-                'AB ',
-                'CD ',
-                '  D'
-            ],
-            key: {
-                A: 'minecraft:ender_eye',
-                B: 'minecraft:amethyst_shard',
-                C: 'minecraft:redstone_block',
-                D: 'minecraft:stick'
-            },
-            output: 'createoreexcavation:vein_finder'
-        },
+      // Create New Age stuff
 
-        // Mekanism basic blocks
+      {
+        pattern: ["ABA", " C ", " D "],
+        key: {
+          A: "ad_astra:desh_cable",
+          B: "ad_astra:desh_plate",
+          C: "tfmg:steel_casing",
+          D: "minecraft:lightning_rod",
+        },
+        output: "create_new_age:energiser_t1",
+      },
+      {
+        pattern: ["ABA", "ECE", " D "],
+        key: {
+          A: "create_new_age:overcharged_golden_sheet",
+          B: "ad_astra:ostrum_plate",
+          C: "create_new_age:energiser_t1",
+          D: "ad_astra:desh_cable",
+          E: "ad_astra:desh_nugget",
+        },
+        output: "create_new_age:energiser_t2",
+      },
 
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create_new_age:copper_wire'
-            },
-            output: '4x mekanism:basic_universal_cable'
-        },
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create_new_age:overcharged_iron_wire'
-            },
-            output: '8x mekanism:basic_universal_cable'
-        },
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create_new_age:overcharged_golden_wire'
-            },
-            output: '16x mekanism:basic_universal_cable'
-        },
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create_new_age:overcharged_diamond_wire'
-            },
-            output: '64x mekanism:basic_universal_cable'
-        },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create:fluid_pipe'
-            },
-            output: '8x mekanism:basic_mechanical_pipe'
-        },
-        {
-            pattern: [
-                'BAB'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'create:framed_glass'
-            },
-            output: '8x mekanism:basic_pressurized_tube'
-        },
-        {
-            pattern: [
-                'BAB'
-            ],
-            key: {
-                A: 'mekanism:basic_control_circuit',
-                B: 'minecraft:copper_ingot'
-            },
-            output: '8x mekanism:basic_thermodynamic_conductor'
-        },
-        {
-            pattern: [
-                'AAA',
-                'BCB',
-                'AAA'
-            ],
-            key: {
-                A: 'minecraft:redstone',
-                B: 'tfmg:steel_ingot',
-                C: 'mekanism:basic_logistical_transporter'
-            },
-            output: '2x mekanism:diversion_transporter'
-        },
-        {
-            pattern: [
-                'ABA'
-            ],
-            key: {
-                A: 'tfmg:steel_ingot',
-                B: 'mekanism:basic_logistical_transporter',
-            },
-            output: '2x mekanism:restrictive_transporter'
-        },
+      // Create Ore Excavation
 
-        // Mekanism advanced blocks
+      {
+        pattern: ["AB ", "CD ", "  D"],
+        key: {
+          A: "minecraft:ender_eye",
+          B: "minecraft:amethyst_shard",
+          C: "minecraft:redstone_block",
+          D: "minecraft:stick",
+        },
+        output: "createoreexcavation:vein_finder",
+      },
 
-        {
-            pattern: [
-                'ABA',
-                'CDC',
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:energy_tablet',
-                C: 'mekanism:ingot_osmium',
-                D: 'mekanism:basic_energy_cube',
-            },
-            output: 'mekanism:advanced_energy_cube'
+      // Mekanism basic blocks
+
+      {
+        pattern: ["ABA"],
+        key: {
+          A: "mekanism:basic_control_circuit",
+          B: "create_new_age:copper_wire",
         },
-        {
-            pattern: [
-                'ABA',
-                'BCB',
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:ingot_osmium',
-                C: 'mekanism:basic_fluid_tank',
-            },
-            output: 'mekanism:advanced_fluid_tank'
+        output: "4x mekanism:basic_universal_cable",
+      },
+      {
+        pattern: ["ABA"],
+        key: {
+          A: "mekanism:basic_control_circuit",
+          B: "create_new_age:overcharged_iron_wire",
         },
-        {
-            pattern: [
-                'ABA',
-                'BCB',
-                'ABA'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:ingot_osmium',
-                C: 'mekanism:basic_chemical_tank',
-            },
-            output: 'mekanism:advanced_chemical_tank'
+        output: "8x mekanism:basic_universal_cable",
+      },
+      {
+        pattern: ["ABA"],
+        key: {
+          A: "mekanism:basic_control_circuit",
+          B: "create_new_age:overcharged_golden_wire",
         },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:basic_universal_cable',
-            },
-            output: 'mekanism:advanced_universal_cable'
+        output: "16x mekanism:basic_universal_cable",
+      },
+      {
+        pattern: ["ABA"],
+        key: {
+          A: "mekanism:basic_control_circuit",
+          B: "create_new_age:overcharged_diamond_wire",
         },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:basic_mechanical_pipe',
-            },
-            output: 'mekanism:advanced_mechanical_pipe'
+        output: "64x mekanism:basic_universal_cable",
+      },
+      {
+        pattern: ["BBB", "BAB", "BBB"],
+        key: {
+          A: "mekanism:basic_control_circuit",
+          B: "create:fluid_pipe",
         },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:basic_pressurized_tube',
-            },
-            output: 'mekanism:advanced_pressurized_tube'
+        output: "8x mekanism:basic_mechanical_pipe",
+      },
+      {
+        pattern: ["BAB"],
+        key: {
+          A: "mekanism:basic_control_circuit",
+          B: "create:framed_glass",
         },
-        {
-            pattern: [
-                'BBB',
-                'BAB',
-                'BBB'
-            ],
-            key: {
-                A: 'mekanism:advanced_control_circuit',
-                B: 'mekanism:basic_logistical_transporter',
-            },
-            output: 'mekanism:advanced_logistical_transporter'
+        output: "8x mekanism:basic_pressurized_tube",
+      },
+      {
+        pattern: ["BAB"],
+        key: {
+          A: "mekanism:basic_control_circuit",
+          B: "minecraft:copper_ingot",
         },
-        {
-            pattern: [
-                'ABA',
-                'ACA',
-                'DDD'
-            ],
-            key: {
-                A: 'mekanismgenerators:solar_generator',
-                B: 'mekanism:alloy_infused',
-                C: 'mekanism:advanced_control_circuit',
-                D: 'mekanism:ingot_osmium'
-            },
-            output: 'mekanismgenerators:advanced_solar_generator'
+        output: "8x mekanism:basic_thermodynamic_conductor",
+      },
+      {
+        pattern: ["AAA", "BCB", "AAA"],
+        key: {
+          A: "minecraft:redstone",
+          B: "tfmg:steel_ingot",
+          C: "mekanism:basic_logistical_transporter",
         },
-    ].forEach((recipe) => {
-        e.shaped(recipe.output, recipe.pattern, recipe.key)
+        output: "2x mekanism:diversion_transporter",
+      },
+      {
+        pattern: ["ABA"],
+        key: {
+          A: "tfmg:steel_ingot",
+          B: "mekanism:basic_logistical_transporter",
+        },
+        output: "2x mekanism:restrictive_transporter",
+      },
+
+      // Mekanism advanced blocks
+
+      {
+        pattern: ["ABA", "CDC", "ABA"],
+        key: {
+          A: "mekanism:advanced_control_circuit",
+          B: "mekanism:energy_tablet",
+          C: "mekanism:ingot_osmium",
+          D: "mekanism:basic_energy_cube",
+        },
+        output: "mekanism:advanced_energy_cube",
+      },
+      {
+        pattern: ["ABA", "BCB", "ABA"],
+        key: {
+          A: "mekanism:advanced_control_circuit",
+          B: "mekanism:ingot_osmium",
+          C: "mekanism:basic_fluid_tank",
+        },
+        output: "mekanism:advanced_fluid_tank",
+      },
+      {
+        pattern: ["ABA", "BCB", "ABA"],
+        key: {
+          A: "mekanism:advanced_control_circuit",
+          B: "mekanism:ingot_osmium",
+          C: "mekanism:basic_chemical_tank",
+        },
+        output: "mekanism:advanced_chemical_tank",
+      },
+      {
+        pattern: ["BBB", "BAB", "BBB"],
+        key: {
+          A: "mekanism:advanced_control_circuit",
+          B: "mekanism:basic_universal_cable",
+        },
+        output: "mekanism:advanced_universal_cable",
+      },
+      {
+        pattern: ["BBB", "BAB", "BBB"],
+        key: {
+          A: "mekanism:advanced_control_circuit",
+          B: "mekanism:basic_mechanical_pipe",
+        },
+        output: "mekanism:advanced_mechanical_pipe",
+      },
+      {
+        pattern: ["BBB", "BAB", "BBB"],
+        key: {
+          A: "mekanism:advanced_control_circuit",
+          B: "mekanism:basic_pressurized_tube",
+        },
+        output: "mekanism:advanced_pressurized_tube",
+      },
+      {
+        pattern: ["BBB", "BAB", "BBB"],
+        key: {
+          A: "mekanism:advanced_control_circuit",
+          B: "mekanism:basic_logistical_transporter",
+        },
+        output: "mekanism:advanced_logistical_transporter",
+      },
+      {
+        pattern: ["ABA", "ACA", "DDD"],
+        key: {
+          A: "mekanismgenerators:solar_generator",
+          B: "mekanism:alloy_infused",
+          C: "mekanism:advanced_control_circuit",
+          D: "mekanism:ingot_osmium",
+        },
+        output: "mekanismgenerators:advanced_solar_generator",
+      },
+    ];
+
+    shapedRecipes.forEach((recipe) => {
+      event.shaped(recipe.output, recipe.pattern, recipe.key);
     });
 
     // Cosmic Resonator
 
-    [
-        {
-            tier: 'beta',
-            pattern: [
-                'AAA',
-                'ABA',
-                'AAA'
-            ],
-            key: {
-                A: "minecraft:iron_block",
-                B: "planetsandportals:cosmic_resonator_alpha"
-            }
+    const cosmicResonator = [
+      {
+        tier: "beta",
+        pattern: ["AAA", "ABA", "AAA"],
+        key: {
+          A: "minecraft:iron_block",
+          B: "planetsandportals:cosmic_resonator_alpha",
         },
-        {
-            tier: 'gamma',
-            pattern: [
-                'ACA',
-                'DBD',
-                'ACA'
-            ],
-            key: {
-                A: "create:iron_sheet",
-                B: "planetsandportals:cosmic_resonator_beta",
-                C: "create:cogwheel",
-                D: "create:large_cogwheel"
-            }
+      },
+      {
+        tier: "gamma",
+        pattern: ["ACA", "DBD", "ACA"],
+        key: {
+          A: "create:iron_sheet",
+          B: "planetsandportals:cosmic_resonator_beta",
+          C: "create:cogwheel",
+          D: "create:large_cogwheel",
         },
-        {
-            tier: 'delta',
-            pattern: [
-                ' A ',
-                'ABA',
-                ' A '
-            ],
-            key: {
-                A: "create_new_age:copper_wire",
-                B: "planetsandportals:cosmic_resonator_gamma"
-            }
+      },
+      {
+        tier: "delta",
+        pattern: [" A ", "ABA", " A "],
+        key: {
+          A: "create_new_age:copper_wire",
+          B: "planetsandportals:cosmic_resonator_gamma",
         },
-        {
-            tier: 'epsilon',
-            pattern: [
-                'A',
-                'B'
-            ],
-            key: {
-                A: "regions_unexplored:dorcel",
-                B: "planetsandportals:cosmic_resonator_delta"
-            }
+      },
+      {
+        tier: "epsilon",
+        pattern: ["A", "B"],
+        key: {
+          A: "regions_unexplored:dorcel",
+          B: "planetsandportals:cosmic_resonator_delta",
         },
-    ].forEach((recipe) => {
-        e.shaped(`planetsandportals:cosmic_resonator_${recipe.tier}`, recipe.pattern, recipe.key).id(`planetsandportals:cosmic_resonator_shaped_${recipe.tier}_manual_only`)
+      },
+    ];
+
+    //TODO: Scrap Cosmic Resonator
+
+    cosmicResonator.forEach((recipe) => {
+      event
+        .shaped(
+          `planetsandportals:cosmic_resonator_${recipe.tier}`,
+          recipe.pattern,
+          recipe.key
+        )
+        .id(
+          `planetsandportals:cosmic_resonator_shaped_${recipe.tier}_manual_only`
+        );
     });
-})
+  });
+})();

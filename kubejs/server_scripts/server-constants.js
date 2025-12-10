@@ -16,20 +16,36 @@ global.server = Object.freeze({
 
     // Adds a new filling step
     SequencedAssemblyBuilder.prototype.addFillingStep = function (fluid) {
-      this._steps.push(this._event.recipes.createFilling(this._transitional, [this._transitional, fluid]));
+      this._steps.push(
+        this._event.recipes.createFilling(this._transitional, [
+          this._transitional,
+          fluid,
+        ])
+      );
       return this;
     };
 
     // Adds a new pressing step
     SequencedAssemblyBuilder.prototype.addPressingStep = function () {
-      this._steps.push(this._event.recipes.createPressing(this._transitional, this._transitional));
+      this._steps.push(
+        this._event.recipes.createPressing(
+          this._transitional,
+          this._transitional
+        )
+      );
       return this;
     };
 
     // Adds a new cutting step
-    SequencedAssemblyBuilder.prototype.addCuttingStep = function (processingTime) {
-      let cuttingRecipe = this._event.recipes.createCutting(this._transitional, this._transitional);
-      if (typeof processingTime !== "undefined") cuttingRecipe = cuttingRecipe.processingTime(processingTime);
+    SequencedAssemblyBuilder.prototype.addCuttingStep = function (
+      processingTime
+    ) {
+      let cuttingRecipe = this._event.recipes.createCutting(
+        this._transitional,
+        this._transitional
+      );
+      if (typeof processingTime !== "undefined")
+        cuttingRecipe = cuttingRecipe.processingTime(processingTime);
       this._steps.push(cuttingRecipe);
       return this;
     };
@@ -37,18 +53,24 @@ global.server = Object.freeze({
     // Adds a new deploying step
     SequencedAssemblyBuilder.prototype.addDeployingStep = function (item) {
       // Inputs extracted into its own variable to work around the "union type too complex to represent" error
-      const inputs = [this._transitional, item]
-      this._steps.push(this._event.recipes.createDeploying(this._transitional, inputs));
+      const inputs = [this._transitional, item];
+      this._steps.push(
+        this._event.recipes.createDeploying(this._transitional, inputs)
+      );
       return this;
     };
 
     // Adds a new deploying step that doesn't use the item
     SequencedAssemblyBuilder.prototype.addToolDeployingStep = function (item) {
       // Inputs extracted into its own variable to work around the "union type too complex to represent" error
-      const inputs = [this._transitional, item]
-      this._steps.push(this._event.recipes.createDeploying(this._transitional, inputs).keepHeldItem());
+      const inputs = [this._transitional, item];
+      this._steps.push(
+        this._event.recipes
+          .createDeploying(this._transitional, inputs)
+          .keepHeldItem()
+      );
       return this;
-    }
+    };
 
     // Sets the amount of loops needed to finish the recipe
     SequencedAssemblyBuilder.prototype.loops = function (loopAmount) {
