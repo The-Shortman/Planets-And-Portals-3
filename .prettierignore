@@ -1,0 +1,6 @@
+config/**
+defaultconfigs/**
+kubejs/config/**
+*.pw.toml
+index.toml
+pack.toml
