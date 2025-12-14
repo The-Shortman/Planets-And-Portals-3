@@ -18,8 +18,6 @@ This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-
 
 - Added GuideME `20.1.11`
 - Added Lithostitched `1.4.11`
-- Added LDLib `1.0.42`
-- Added Multiblocked2 `1.0.35`
 
 #### Gameplay-changing
 
@@ -31,7 +29,11 @@ This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-
 
 #### Behind-the-scenes
 
-- Introduced the changelog.
+- Introduced the changelog
+- Added global fluid constants to startup scripts
+- Added .editorconfig and .prettierignore for file formatting
+- Added workflows to the repository for automating packaging of server and client pack
+- Added a directory for serverpack-specific files that is raised to root during the serverpack build workflow job
 
 ### CHANGES
 
@@ -72,7 +74,8 @@ This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-
 
 #### Bug patches
 
-> _Nothing to see here yet..._
+- Fixed an error Mekanism throws in chat regarding a missing Venus Sandstone tag
+- Disabled EMI cheat mode being on by default
 
 #### Minor mod updates
 
@@ -116,16 +119,18 @@ This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-
 
 #### Behind-the-scenes
 
-> _Nothing to see here yet..._
+- Refactored most of the code to a standard
+- Modified LICENSE.md to remove mentions of this project being a mod, not a modpack
 
 ### REMOVALS
 
 #### Mod removals
 
-- Removed Tom's Simple Storage Mod `1.7.0` - the early/midgame logistics and storage solution has been replaced by Create `6.0.6` (Post-Processing).
-- Removed Masterful Machinery `0.1.15` as it is incompatible with Create `6.0+`, and has been replaced with Multiblocked2 `1.0.35`.
-- Removed CC: Tweaked `1.113.1` as it is no longer updated on CurseForge and the version on CF is not compatible with Create `6.0+`.
-- Removed Advanced Peripherals `0.7.41r` as it is dependent on CC: Tweaked.
+- Removed Tom's Simple Storage Mod `1.7.0` - the early/midgame logistics and storage solution has been replaced by Create `6.0.6` (Post-Processing)
+- Removed Masterful Machinery `0.1.15` as it is incompatible with Create `6.0+`, and has been replaced with Multiblocked2 `1.0.35`
+- Removed CC: Tweaked `1.113.1` as it is no longer updated on CurseForge and the version on CF is not compatible with Create `6.0+`
+- Removed Advanced Peripherals `0.7.41r` as it is dependent on CC: Tweaked
+- Removed Not Enough Recipe Book `0.4.1` as KubeJS can fulfil its function
 
 #### Gameplay changing
 
@@ -133,4 +138,4 @@ This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-
 
 #### Behind-the-scenes
 
-- Removed the packwiz binary from the repo because you can get it yourself.
+- Removed the packwiz binary from the repo because you can get it yourself

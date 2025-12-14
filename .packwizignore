@@ -13,3 +13,6 @@ packwiz.exe
 
 # This file directory bricks packwiz for some reason
 config/mm/pack/.cache
+
+# Serverpack gets lifted to root on build
+serverpack
