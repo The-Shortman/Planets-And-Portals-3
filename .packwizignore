@@ -3,6 +3,8 @@ LICENSE*.md
 PLAYTESTING.md
 CONTRIBUTING.md
 CHANGELOG.md
+.editorconfig
+.prettierignore
 .gitignore
 .gitattributes
 .github
