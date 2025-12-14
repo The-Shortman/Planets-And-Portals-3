@@ -57,10 +57,22 @@ jobs:
           echo "PP3_CF_NAME=Planets-And-Portals-3-CurseForge-${{needs.info.outputs.project_version}}-${{github.run_number}}"
           echo "PP3_SERVER_NAME=Planets-And-Portals-3-Server-${{needs.info.outputs.project_version}}-${{github.run_number}}"
 
+      - name: Prepare for CurseForge client zip creation
+        run: |
+          mkdir temp-jar
+          mv mods/realmrpg* ./temp-jar
+          ./packwiz cf add realm-rpg-fallen-adventurers
+
       - name: Create CurseForge client zip
         run: |
           ./packwiz curseforge export -o "${{steps.construct-base-name.outputs.PP3_CF_NAME}}.zip"
           ./packwiz refresh
+      
+      - name: Clean up after CurseForge client zip creation
+        run: |
+          ./packwiz remove realm-rpg-fallen-adventurers
+          mv temp-jar/realmrpg* ./mods
+          rm -r ./temp-jar
 
       - name: Prepare for server pack creation
         run: |
