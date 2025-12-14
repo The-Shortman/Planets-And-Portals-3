@@ -2,6 +2,7 @@
 LICENSE*.md
 PLAYTESTING.md
 CONTRIBUTING.md
+CHANGELOG.md
 .gitignore
 .gitattributes
 .github
