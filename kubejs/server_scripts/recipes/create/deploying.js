@@ -27,7 +27,7 @@
           .deploying(recipe.output, [recipe.input, recipe.heldItem])
           .keepHeldItem();
       } else {
-        e.recipes.create.deploying(recipe.output, [
+        event.recipes.create.deploying(recipe.output, [
           recipe.input,
           recipe.heldItem,
         ]);
