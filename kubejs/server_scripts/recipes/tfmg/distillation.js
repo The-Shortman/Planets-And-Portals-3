@@ -42,8 +42,8 @@
     distillationRecipes.forEach((recipe) => {
       event.custom({
         type: "tfmg:distillation",
-        ingredients: [r.input],
-        results: r.output,
+        ingredients: [recipe.input],
+        results: recipe.output,
       });
     });
   });

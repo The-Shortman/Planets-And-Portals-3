@@ -45,10 +45,17 @@
     ];
 
     mixingRecipes.forEach((recipe) => {
-      event.recipes.create
-        .mixing(recipe.outputs, recipe.inputs)
-        .heatRequirement(recipe.heat ?? "")
-        .processingTime(recipe.time ?? 100);
+      // kube throws a fit if you give heatRequirement an empty value unlike in 1.18.2
+      if (recipe.heat != null) {
+        event.recipes.create
+          .mixing(recipe.outputs, recipe.inputs)
+          .heatRequirement(recipe.heat)
+          .processingTime(recipe.time ?? 100);
+      } else {
+        event.recipes.create
+          .mixing(recipe.outputs, recipe.inputs)
+          .processingTime(recipe.time ?? 100);
+      }
     });
   });
 })();
