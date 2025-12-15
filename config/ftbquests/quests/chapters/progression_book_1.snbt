@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			title: "Punch any tree"
-			x: -0.5d
+			x: -3.75d
 			y: 0.0d
 		}
 		{
@@ -51,8 +51,8 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
@@ -64,8 +64,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["04239375E665E70E"]
@@ -91,7 +91,7 @@
 				}
 			]
 			x: 2.5d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -107,7 +107,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
@@ -120,7 +120,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -136,30 +136,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["2BC7202742BC1535"]
-			description: [
-				"Furnaces become obsolete like, really quickly. "
-				""
-				"I wouldn't recommend building a giant furnace wall as there are much better ways to smelt ores that you get access to really soon."
-			]
-			id: "5CBA7E7559125123"
-			subtitle: "The unloved child of P\\&P3"
-			tasks: [{
-				id: "771A7C049C5C0996"
-				item: "minecraft:furnace"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"3E37A26B2D01AF21"
-				"5CBA7E7559125123"
-			]
+			dependencies: ["3E37A26B2D01AF21"]
 			description: ["Iron is, as always, probably the most useful metal you have at your disposal. In the future, you'll have (and need) the infrastructure to produce a LOT of it."]
 			id: "6B084540ABAFE35D"
 			subtitle: "Iron my beloved"
@@ -168,8 +148,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6B084540ABAFE35D"]
@@ -179,8 +159,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5EEE72EE808F1AE3"]
@@ -190,59 +170,8 @@
 				item: "create:iron_sheet"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["50EAF870216F4134"]
-			id: "25FD0FEBC7DD0A0E"
-			tasks: [{
-				id: "6DD5BF69330DCEAE"
-				item: "create:encased_fan"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6B084540ABAFE35D"]
-			id: "4267B9D5D3A89026"
-			subtitle: "Get your liquids in order"
-			tasks: [{
-				id: "7A9E07C707227B57"
-				item: "minecraft:bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"25FD0FEBC7DD0A0E"
-				"6829C762D39BEBFB"
-				"6E6C309EB78F123D"
-			]
-			id: "324115BB27591445"
-			tasks: [{
-				id: "0BE72B4DCA282CF1"
-				item: "create:copper_nugget"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["4267B9D5D3A89026"]
-			description: ["Did you set up by that river I told you to?"]
-			id: "6E6C309EB78F123D"
-			subtitle: "Get ready to wash"
-			tasks: [{
-				id: "3469081A1AD0A63C"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.0d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["50EAF870216F4134"]
@@ -252,12 +181,11 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -1.5d
+			x: 8.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7DADFDDC9E69AC20"]
-			description: ["Yeah andesite alloy isn't that malleable, hate to break it to you. It has to be cut into shafts, don't expect to mould it with your bare hands."]
 			id: "55F39E3B00DAE2EF"
 			subtitle: "This late?"
 			tasks: [{
@@ -265,11 +193,11 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 8.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["6B084540ABAFE35D"]
+			dependencies: ["2BC7202742BC1535"]
 			description: ["Lootbugs sold separately."]
 			id: "4FFDF77885D875EB"
 			subtitle: "We're rich! We're rich!"
@@ -279,8 +207,8 @@
 				type: "item"
 			}]
 			title: "Raw Gold"
-			x: 5.5d
-			y: 3.0d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -295,45 +223,30 @@
 				item: "create:crushed_raw_gold"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 4.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"6E6C309EB78F123D"
-				"25FD0FEBC7DD0A0E"
-				"0AC0F1B01251534D"
-			]
-			id: "1EAD03DBB188010F"
-			tasks: [{
-				id: "7C2D98B6E1DD6713"
-				item: "minecraft:gold_nugget"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["324115BB27591445"]
+			dependencies: ["6829C762D39BEBFB"]
 			id: "53106D8F4F3FA380"
 			tasks: [{
 				id: "7F747E1C71A9E510"
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 4.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["1EAD03DBB188010F"]
+			dependencies: ["0AC0F1B01251534D"]
 			id: "582B2553E215BFDB"
 			tasks: [{
 				id: "2BF6FB0013DB1E6B"
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 3.0d
+			x: 8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -347,8 +260,8 @@
 				item: "create:copper_sheet"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.5d
+			x: 11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -361,8 +274,8 @@
 				item: "create:golden_sheet"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: 10.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["65786A5303A5A30C"]
@@ -395,10 +308,10 @@
 			]
 			title: "Engineer's Gear"
 			x: 10.0d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6B084540ABAFE35D"]
+			dependencies: ["2BC7202742BC1535"]
 			description: ["Zinc isn't useful now, but it'll become a lot more useful soon, as its main usage is in alloying with copper to make brass."]
 			id: "38A2A7643B6C4F5C"
 			subtitle: "First modded metal"
@@ -407,7 +320,7 @@
 				item: "create:raw_zinc"
 				type: "item"
 			}]
-			x: 5.5d
+			x: -0.5d
 			y: -1.5d
 		}
 		{
@@ -422,27 +335,11 @@
 				item: "create:crushed_raw_zinc"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
-			dependencies: ["4267B9D5D3A89026"]
-			description: ["Vast chasms can be found deep underground with gargantuan lava lakes spanning hundreds of blocks across the world. Use these to your advantage, wink wink."]
-			id: "1C40557D5A052BC5"
-			subtitle: "Lava's more common than you might expect"
-			tasks: [{
-				id: "15129C9B48462DC4"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"1679A823F116353A"
-				"1C40557D5A052BC5"
-			]
+			dependencies: ["1679A823F116353A"]
 			description: [
 				"Zinc can't be washed nor can it be smelted in a furnace, it requires some slightly more intense conditions. Use a mechanical fan with some lava to blast it!"
 				""
@@ -455,8 +352,8 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -4.5d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
@@ -475,8 +372,8 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: -4.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
@@ -488,7 +385,7 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 13.0d
 			y: -3.0d
 		}
 		{
@@ -501,7 +398,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 13.0d
 			y: -4.5d
 		}
 		{
@@ -514,8 +411,8 @@
 				item: "create:fluid_pipe"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 13.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["395D4B6B2AAE10CA"]
@@ -525,8 +422,8 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -3.0d
+			x: 13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["69D46D16B36DF0D4"]
@@ -549,8 +446,8 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: -6.0d
+			x: 7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4BEDA9BDB2B8BE8E"]
@@ -568,8 +465,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: -4.5d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["65786A5303A5A30C"]
@@ -579,8 +476,8 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.0d
+			x: 13.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["395D4B6B2AAE10CA"]
@@ -590,8 +487,8 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.5d
+			x: 14.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
@@ -603,8 +500,8 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -3.0d
+			x: 14.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -626,8 +523,8 @@
 				title: "Passive steam engine"
 				type: "checkmark"
 			}]
-			x: 11.5d
-			y: -4.5d
+			x: 14.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["49F88BFF272C28E9"]
@@ -644,7 +541,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50EAF870216F4134"]
@@ -679,13 +576,14 @@
 				}
 			]
 			title: "Other useful machines"
-			x: 13.0d
-			y: -1.5d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"6FC6C410BFED34AE"
 				"4BEDA9BDB2B8BE8E"
+				"53106D8F4F3FA380"
 			]
 			description: ["Mix zinc and copper to make a brass mixture. Blast it with lava and..."]
 			id: "067A30C4375F22A6"
@@ -696,8 +594,8 @@
 				type: "item"
 			}]
 			title: "Brass Mixture"
-			x: 7.0d
-			y: -6.0d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["067A30C4375F22A6"]
@@ -718,7 +616,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -6.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4BEDA9BDB2B8BE8E"]
@@ -737,8 +635,8 @@
 				title: "Metallurgy"
 				type: "checkmark"
 			}]
-			x: 16.0d
-			y: -6.0d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6B084540ABAFE35D"]
@@ -751,7 +649,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -765,8 +663,8 @@
 				type: "item"
 			}]
 			title: "Rough Diamond"
-			x: 14.5d
-			y: 1.5d
+			x: 5.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -779,11 +677,13 @@
 				item: "minecraft:diamond"
 				type: "item"
 			}]
-			x: 16.0d
-			y: 1.5d
+			x: 5.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["2BC7202742BC1535"]
 			description: ["Sand Paper can be used with deployers to automate the sanding process."]
+			hide_dependency_lines: true
 			id: "47DC122FA520A79E"
 			subtitle: "Sand + Paper = Sand Paper, I mean what did you expect"
 			tasks: [{
@@ -799,8 +699,8 @@
 				type: "item"
 			}]
 			title: "Sand Paper"
-			x: 16.0d
-			y: 0.0d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5F549648F72B09C1"]
@@ -818,8 +718,8 @@
 				item: "magnumtorch:diamond_magnum_torch"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 3.0d
+			x: 7.0d
+			y: -6.0d
 		}
 	]
 	title: "The Mechanical Age"
