@@ -26,6 +26,10 @@
         inputs: [Item.of("create:shaft", 4), "create:zinc_ingot"],
         output: Item.of("copycats:copycat_shaft", 16),
       },
+      {
+        inputs: ["create:andesite_alloy", "#forge:planks"],
+        output: "create:cogwheel",
+      },
 
       // Blast Furnace
 
