@@ -11,6 +11,15 @@
       { output: "minecraft:iron_ingot", input: "minecraft:raw_iron" },
       { input: "minecraft:andesite", type: "create:crushing" },
       { output: "minecraft:blast_furnace" },
+      { output: "minecraft:smoker" },
+      { output: "minecraft:furnace" },
+      { output: "minecraft:blast_furnace" },
+      { output: "minecraft:furnace_minecart", input: "minecraft:minecart" },
+      { output: "minecraft:furnace_minecart", input: "minecraft:iron_ingot" },
+
+      // Quark
+      { output: "quark:blackstone_furnace" },
+      { output: "quark:deepslate_furnace" },
 
       // Mekanism
       { output: "mekanism:ingot_steel" },
@@ -262,9 +271,6 @@
 
       // Regions Unexplored
       { output: "regions_unexplored:raw_redstone_block" },
-
-      // Tom's Simple Storage
-      { mod: "toms_storage" },
 
       // Grapple Mod
       { output: "grapplemod:repeller" },

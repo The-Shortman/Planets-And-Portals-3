@@ -42,6 +42,23 @@
 
       // Vanilla
 
+      {
+        pattern: ["ABA", "B B", "ABA"],
+        key: {
+          A: "#forge:cobblestone",
+          B: "#forge:planks",
+        },
+        output: "minecraft:smoker",
+      },
+      {
+        pattern: ["AAA", "A A", "BBB"],
+        key: {
+          A: "#forge:cobblestone",
+          B: "#forge:raw_materials",
+        },
+        output: "minecraft:blast_furnace",
+      },
+
       // Ad Astra stuff
 
       {
