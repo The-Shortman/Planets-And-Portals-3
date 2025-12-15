@@ -1,6 +1,20 @@
 // priority: 100
 
 global.server = Object.freeze({
+  /**
+   * Global ore excavation multiplier values
+   * Vein multipliers increase yield per operation
+   * Drill multipliers increase extraction rate
+   */
+  POOR_VEIN_MULTIPLIER: 1,
+  NORMAL_VEIN_MULTIPLIER: 2,
+  RICH_VEIN_MULTIPLIER: 4,
+
+  T1_DRILL_MULTIPLIER: 1,
+  T2_DRILL_MULTIPLIER: 2,
+  T3_DRILL_MULTIPLIER: 4,
+
+  // Sequenced assembly builder
   createSequencedAssembly: (() => {
     //? Create Sequenced Assembly Builder by KonSola5
     //? Modified by _Shortman to include addToolDeployingStep
