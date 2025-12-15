@@ -11,7 +11,7 @@
         ],
       },
       {
-        input: "minecraft:raw_zinc",
+        input: "create:raw_zinc",
         outputs: [
           "create:crushed_raw_zinc",
           Item.of("create:crushed_raw_zinc").withChance(0.5),
