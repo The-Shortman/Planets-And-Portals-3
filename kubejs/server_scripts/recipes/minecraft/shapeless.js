@@ -3,15 +3,6 @@
     const shapelessRecipes = [
       // Vanilla
 
-      {
-        inputs: Item.of("planetsandportals:rough_diamond", 9),
-        output: "planetsandportals:rough_diamond_block",
-      },
-      {
-        inputs: "planetsandportals:rough_diamond_block",
-        output: Item.of("planetsandportals:rough_diamond", 9),
-      },
-
       // Create
 
       {

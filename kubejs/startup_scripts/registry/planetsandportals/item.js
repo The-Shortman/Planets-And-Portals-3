@@ -50,11 +50,6 @@
         name: "Brass Mixture",
         stackSize: 64,
       },
-      {
-        id: "planetsandportals:rough_diamond",
-        name: "Rough Diamond",
-        stackSize: 64,
-      },
     ];
 
     basicItems.forEach((item) => {

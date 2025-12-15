@@ -5,10 +5,6 @@
         input: "create:andesite_alloy",
         output: "8x create:shaft",
       },
-      {
-        input: "createoreexcavation:raw_diamond",
-        output: "planetsandportals:rough_diamond",
-      },
     ];
 
     cuttingRecipes.forEach((recipe) => {

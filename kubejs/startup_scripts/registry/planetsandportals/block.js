@@ -9,14 +9,6 @@
         res: 1.0,
         tool: "shovel",
       },
-      {
-        id: "planetsandportals:rough_diamond_block",
-        name: "Block of Rough Diamond",
-        mat: "stone",
-        hardness: 0.5,
-        res: 1.0,
-        tool: "pickaxe",
-      },
     ];
 
     blockRegistry.forEach((block) => {
