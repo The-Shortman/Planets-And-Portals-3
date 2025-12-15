@@ -20,7 +20,8 @@
       {
         pattern: ["AAA", "BBB", "AAA"],
         key: {
-          A: ["#forge:planks", "minecraft:oak_planks"],
+          A: ["#forge:planks"],
+          B: "minecraft:book",
         },
         output: "minecraft:bookshelf",
       },
