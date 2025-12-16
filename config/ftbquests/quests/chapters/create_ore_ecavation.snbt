@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create_ore_ecavation"
@@ -217,6 +218,6 @@
 			y: 2.5d
 		}
 	]
-	subtitle: ["Exploit the earth of its hidden resources"]
-	title: "Create: Ore Excavation"
+	subtitle: ["&5This chapter is not up to date and only currently exists for reference purposes!"]
+	title: "Create: Ore Excavation &4[OUTDATED]"
 }

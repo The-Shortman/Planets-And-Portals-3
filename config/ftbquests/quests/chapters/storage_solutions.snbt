@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	autofocus_id: "436668D6666D9327"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -311,6 +312,6 @@
 			y: -4.0d
 		}
 	]
-	subtitle: ["You will have a storage problem"]
-	title: "Crude Storage Solutions"
+	subtitle: ["&5This chapter is not up to date and only currently exists for reference purposes!"]
+	title: "Crude Storage Solutions &4[OUTDATED]"
 }

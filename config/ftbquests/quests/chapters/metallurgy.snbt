@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "metallurgy"
 	group: "69C6C562BC012F34"
+	hide_quest_until_deps_complete: true
 	icon: "minecraft:anvil"
 	id: "12721B0EF87C8F46"
 	images: [
@@ -146,6 +147,8 @@
 			y: 1.5d
 		}
 		{
+			dependencies: ["6630D0DB1BC654FF"]
+			hide_dependency_lines: true
 			icon: "create:brass_ingot"
 			id: "3EEC77BAE1DEA2B0"
 			shape: "hexagon"
@@ -214,6 +217,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["3EEC77BAE1DEA2B0"]
+			hide_dependency_lines: true
 			icon: "tfmg:cast_iron_ingot"
 			id: "14F1147ADDE4ACC3"
 			shape: "hexagon"
@@ -228,6 +233,7 @@
 			y: 6.5d
 		}
 		{
+			dependencies: ["14F1147ADDE4ACC3"]
 			id: "7B90E01D53CA377B"
 			tasks: [{
 				id: "6B8203E423F3F56C"

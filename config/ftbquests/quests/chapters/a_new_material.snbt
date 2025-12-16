@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	autofocus_id: "346A9FF355C3694A"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -7,7 +8,7 @@
 	hide_quest_until_deps_visible: true
 	icon: "ad_astra:etrium_nugget"
 	id: "1056852C42E0B4D2"
-	order_index: 3
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -73,6 +74,6 @@
 			y: 0.0d
 		}
 	]
-	subtitle: ["Where did this come from...?"]
-	title: "A new 'material'?"
+	subtitle: ["&5This chapter is not up to date and only currently exists for reference purposes!"]
+	title: "A new 'material'? &4[OUTDATED]"
 }

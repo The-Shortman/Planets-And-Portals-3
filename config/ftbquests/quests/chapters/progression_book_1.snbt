@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			title: "Punch any tree"
-			x: -3.75d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -652,25 +652,7 @@
 			y: -4.5d
 		}
 		{
-			dependencies: [
-				"7DADFDDC9E69AC20"
-				"4FE565C63036DCAD"
-			]
-			id: "32B37E184AA13315"
-			tasks: [{
-				id: "354617B127A3145B"
-				item: "planetsandportals:rough_diamond"
-				type: "item"
-			}]
-			title: "Rough Diamond"
-			x: 5.5d
-			y: -4.5d
-		}
-		{
-			dependencies: [
-				"32B37E184AA13315"
-				"47DC122FA520A79E"
-			]
+			dependencies: ["4FE565C63036DCAD"]
 			id: "5F549648F72B09C1"
 			tasks: [{
 				id: "3B112C228C3BD3C6"
@@ -678,28 +660,6 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["2BC7202742BC1535"]
-			description: ["Sand Paper can be used with deployers to automate the sanding process."]
-			hide_dependency_lines: true
-			id: "47DC122FA520A79E"
-			subtitle: "Sand + Paper = Sand Paper, I mean what did you expect"
-			tasks: [{
-				id: "12A402AC319520B4"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "create:sandpaper"
-					}
-				}
-				title: "Any #create:sandpaper"
-				type: "item"
-			}]
-			title: "Sand Paper"
-			x: 4.0d
 			y: -6.0d
 		}
 		{
@@ -720,6 +680,49 @@
 			}]
 			x: 7.0d
 			y: -6.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: [
+				"The Furnace has had a makeover (it definitely hasn't been removed and replaced with a rebranded Blast Furnace). "
+				""
+				"It smelts everything much quicker now, but can't do food. You need the Smoker for that."
+			]
+			id: "079D5A61E952C38C"
+			subtitle: "Where's the OG?"
+			tasks: [
+				{
+					id: "371F0E10FBF1D3C7"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "163BEA40882EA8A2"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+			]
+			title: "Furnaces"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: [
+				"You may find large rocks around the surface with different types of ore embedded in them. Make a note of these because they're important later!"
+				""
+				"Underneath these rocks are deep, hidden deposits of ore which can only be extracted once you enter the Logistical Age."
+			]
+			id: "5FA3EF6CDA9E4087"
+			subtitle: "This isn't Greg"
+			tasks: [{
+				id: "2FA0EC48A19395FC"
+				title: "I understand"
+				type: "checkmark"
+			}]
+			title: "Ore vein generation"
+			x: -3.5d
+			y: 3.0d
 		}
 	]
 	title: "The Mechanical Age"

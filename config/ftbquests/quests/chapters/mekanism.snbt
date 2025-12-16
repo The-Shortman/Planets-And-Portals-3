@@ -1,11 +1,12 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "mekanism"
 	group: "78B4A4EF75A52C04"
 	icon: "mekanism:alloy_infused"
 	id: "53ABDE8AFFD8202C"
-	order_index: 2
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -727,6 +728,6 @@
 			y: -3.5d
 		}
 	]
-	subtitle: ["This mod is way too big for its own good"]
-	title: "Mekanism, Phase 1"
+	subtitle: ["&5This chapter is not up to date and only currently exists for reference purposes!"]
+	title: "Mekanism, Phase 1 &4[OUTDATED]"
 }
