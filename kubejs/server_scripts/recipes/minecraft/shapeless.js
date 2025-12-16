@@ -14,6 +14,10 @@
         output: Item.of("planetsandportals:grout", 16),
       },
       {
+        inputs: ["minecraft:gravel", "minecraft:sand", "minecraft:clay_ball"],
+        output: Item.of("planetsandportals:grout", 4),
+      },
+      {
         inputs: [Item.of("create:shaft", 4), "create:zinc_ingot"],
         output: Item.of("copycats:copycat_shaft", 16),
       },
