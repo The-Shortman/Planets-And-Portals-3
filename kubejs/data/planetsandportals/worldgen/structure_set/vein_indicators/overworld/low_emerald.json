@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsandportals:vein_indicators/overworld/low_emerald",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 135,
+    "separation": 110,
+    "salt": 850406
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#planetsandportals:is_overworld_land",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "planetsandportals:vein_indicators/overworld/low_tin",
+  "size": 1,
+  "start_height": {
+    "absolute": 0
+  },
+  "max_distance_from_center": 1,
+  "use_expansion_hack": false
+}

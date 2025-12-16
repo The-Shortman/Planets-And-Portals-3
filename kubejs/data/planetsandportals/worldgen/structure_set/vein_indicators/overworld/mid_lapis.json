@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsandportals:vein_indicators/overworld/mid_lapis",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 45,
+    "separation": 30,
+    "salt": 373753
+  }
+}

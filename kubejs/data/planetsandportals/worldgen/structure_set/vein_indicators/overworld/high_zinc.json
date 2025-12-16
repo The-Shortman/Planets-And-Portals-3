@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsandportals:vein_indicators/overworld/high_zinc",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 45,
+    "salt": 504544
+  }
+}

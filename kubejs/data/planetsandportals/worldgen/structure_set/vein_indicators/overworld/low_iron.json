@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsandportals:vein_indicators/overworld/low_iron",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 15,
+    "salt": 407720
+  }
+}
