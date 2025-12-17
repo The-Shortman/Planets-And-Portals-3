@@ -19,7 +19,7 @@
       },
       {
         inputs: [Item.of("create:shaft", 4), "create:zinc_ingot"],
-        output: Item.of("copycats:copycat_shaft", 16),
+        output: Item.of("copycats:copycat_shaft", 4),
       },
       {
         inputs: ["create:andesite_alloy", "#forge:planks"],
