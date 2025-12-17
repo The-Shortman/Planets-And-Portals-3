@@ -26,6 +26,11 @@
         output: "planetsandportals:andesite_dust",
         id: "andesite",
       },
+      {
+        input: "regions_unexplored:redstone_bulb",
+        output: Item.of("minecraft:redstone_dust", 4),
+        id: "redstone_bulb",
+      },
     ];
 
     millingRecipes.forEach((recipe) => {

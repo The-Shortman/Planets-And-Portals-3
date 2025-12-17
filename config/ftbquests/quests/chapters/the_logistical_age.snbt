@@ -8,8 +8,9 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [{
+		dependencies: ["45449EC3BFE135C4"]
 		id: "73145F7A60B570D9"
-		shape: "rsquare"
+		shape: "octagon"
 		size: 1.5d
 		tasks: [{
 			id: "66010DEEC09F5415"

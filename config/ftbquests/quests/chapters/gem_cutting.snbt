@@ -1,0 +1,133 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gem_cutting"
+	group: "69C6C562BC012F34"
+	hide_quest_until_deps_complete: true
+	icon: "minecraft:diamond"
+	id: "75E1D6D0B87444DC"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5D1D731EE5F5FA7E"]
+			id: "2100DC12D25F579C"
+			size: 2.0d
+			subtitle: "Processes are subject to change!"
+			tasks: [{
+				id: "549B3121FA98B7B5"
+				title: "Gemstones"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2100DC12D25F579C"]
+			id: "6F0DD7BF28386C65"
+			tasks: [{
+				id: "17A7AE0F9C9BBA60"
+				item: "createoreexcavation:raw_diamond"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2100DC12D25F579C"]
+			id: "22D863B0C6795D5D"
+			tasks: [{
+				id: "7B6EBB88937D27A9"
+				item: "createoreexcavation:raw_emerald"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2100DC12D25F579C"]
+			id: "5721CBBE185B0736"
+			tasks: [{
+				id: "16C2DAC9B9AFD10B"
+				item: "createoreexcavation:raw_redstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["76E82CADDB4511FF"]
+			id: "214121075F50A961"
+			tasks: [{
+				id: "64E5BA491E06CC48"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["37DF831D26CDDBAE"]
+			id: "022B2D473161C417"
+			tasks: [{
+				id: "4FE0126005BD244A"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58265CA4E64103C2"]
+			id: "60301546454535E9"
+			tasks: [{
+				id: "0FAD5258DDE7D4A8"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5721CBBE185B0736"]
+			id: "76E82CADDB4511FF"
+			tasks: [{
+				id: "78263BAC4FA49151"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["22D863B0C6795D5D"]
+			id: "58265CA4E64103C2"
+			tasks: [{
+				id: "09541C6D3708470C"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F0DD7BF28386C65"]
+			id: "37DF831D26CDDBAE"
+			tasks: [{
+				id: "4B3B938A55762D05"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:sandpaper"
+					}
+				}
+				title: "Any #create:sandpaper"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "Gem Cutting"
+}

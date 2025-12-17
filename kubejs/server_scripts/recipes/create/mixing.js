@@ -19,7 +19,10 @@
         id: "andesite_alloy_efficient",
       },
       {
-        inputs: ["create:zinc_ingot", Item.of("minecraft:copper_ingot", 2)],
+        inputs: [
+          "create:crushed_raw_zinc",
+          Item.of("create:crushed_raw_copper", 2),
+        ],
         outputs: Item.of("planetsandportals:brass_mixture", 3),
         id: "brass_mixture",
       },

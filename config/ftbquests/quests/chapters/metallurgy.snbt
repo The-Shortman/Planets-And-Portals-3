@@ -136,7 +136,7 @@
 			dependencies: ["046E536A9CD1A991"]
 			icon: "create:andesite_alloy"
 			id: "6630D0DB1BC654FF"
-			shape: "hexagon"
+			shape: "octagon"
 			size: 2.0d
 			tasks: [{
 				id: "2BF43E84602048DB"
@@ -151,7 +151,7 @@
 			hide_dependency_lines: true
 			icon: "create:brass_ingot"
 			id: "3EEC77BAE1DEA2B0"
-			shape: "hexagon"
+			shape: "octagon"
 			size: 2.0d
 			tasks: [{
 				id: "49AB62733059B65A"
@@ -162,7 +162,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["3EEC77BAE1DEA2B0"]
+			dependencies: ["14F1147ADDE4ACC3"]
 			id: "36278553504B861D"
 			tasks: [{
 				id: "67294C97F99C49C2"
@@ -170,10 +170,10 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["3EEC77BAE1DEA2B0"]
+			dependencies: ["14F1147ADDE4ACC3"]
 			id: "14595BDF3C6C15D8"
 			tasks: [{
 				id: "1052F009F1C803D3"
@@ -181,7 +181,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["3EEC77BAE1DEA2B0"]
@@ -191,7 +191,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.0d
 			y: 4.0d
 		}
 		{
@@ -208,11 +208,19 @@
 		{
 			dependencies: ["3EEC77BAE1DEA2B0"]
 			id: "243DACC055C59769"
-			tasks: [{
-				id: "5E49B3754C2B6889"
-				item: "create:encased_fan"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5E49B3754C2B6889"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "595772BF586D2A67"
+					item: "minecraft:lava_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 12.0d
 			y: 4.0d
 		}
@@ -221,7 +229,7 @@
 			hide_dependency_lines: true
 			icon: "tfmg:cast_iron_ingot"
 			id: "14F1147ADDE4ACC3"
-			shape: "hexagon"
+			shape: "octagon"
 			size: 2.0d
 			tasks: [{
 				id: "3BFF63DD536DE8B7"
@@ -235,12 +243,98 @@
 		{
 			dependencies: ["14F1147ADDE4ACC3"]
 			id: "7B90E01D53CA377B"
+			tasks: [
+				{
+					id: "6B8203E423F3F56C"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "45687F276F16665A"
+					item: "minecraft:lava_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3EEC77BAE1DEA2B0"]
+			id: "0EA38C9B6845DDE3"
+			tasks: [
+				{
+					id: "2C45C71D13F2BE3B"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "02D42583EE5EB2D9"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EEC77BAE1DEA2B0"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "780C740A8F842802"
 			tasks: [{
-				id: "6B8203E423F3F56C"
-				item: "create:encased_fan"
+				id: "66D1FFA05488FC14"
+				title: "Manual Extraction"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14F1147ADDE4ACC3"]
+			id: "44C69AC88EDC6EC9"
+			tasks: [{
+				id: "74A78109196E553D"
+				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14F1147ADDE4ACC3"]
+			id: "42808AF2EDBE945C"
+			tasks: [
+				{
+					id: "5C30E95AD6F50681"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "5CE7EB866AE0B995"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14F1147ADDE4ACC3"]
+			id: "5CC5CB100C78CF00"
+			tasks: [{
+				id: "6A1629A1F5019DA9"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 0.0d
 			y: 6.5d
 		}
 	]

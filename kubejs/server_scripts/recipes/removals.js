@@ -2,9 +2,10 @@
   ServerEvents.recipes((event) => {
     const recipeRemovals = [
       //! Metal Progression
-      // Allow creation of early machines without shafts
+      // Early game machine balancing
       { id: "create:crafting/kinetics/millstone" },
       { id: "create:crafting/kinetics/mechanical_press" },
+      { id: "create:crafting/kinetics/encased_fan" },
       // Iron progression tweaks
       { id: "create:splashing/crushed_raw_iron" },
       { id: "minecraft:iron_ingot_from_smelting_iron_ore" },
@@ -89,6 +90,38 @@
       { id: "create:crushing/raw_copper_block" },
       { id: "create:crushing/veridium" },
       { id: "create:crushing/veridium_recycling" },
+
+      //! Gemstone progression
+      // Diamond
+      { id: "createoreexcavation:cutting/diamond_cutting" },
+      { id: "minecraft:diamond_from_smelting_diamond_ore" },
+      { id: "minecraft:diamond_from_blasting_diamond_ore" },
+      { id: "minecraft:diamond_from_smelting_deepslate_diamond_ore" },
+      { id: "minecraft:diamond_from_blasting_deepslate_diamond_ore" },
+      { id: "ad_astra:smelting/diamond_from_smelting_mars_diamond_ore" },
+      { id: "ad_astra:blasting/diamond_from_blasting_mars_diamond_ore" },
+      { id: "ad_astra:smelting/diamond_from_smelting_venus_diamond_ore" },
+      { id: "ad_astra:blasting/diamond_from_blasting_venus_diamond_ore" },
+      // Redstone
+      { id: "minecraft:redstone_from_smelting_redstone_ore" },
+      { id: "minecraft:redstone_from_blasting_redstone_ore" },
+      { id: "minecraft:redstone_from_smelting_deepslate_redstone_ore" },
+      { id: "minecraft:redstone_from_blasting_deepslate_redstone_ore" },
+      { id: "regions_unexplored:redstone_from_smelting_redstone_bulb" },
+      { id: "regions_unexplored:redstone_from_blasting_redstone_bulb" },
+      { id: "regions_unexplored:redstone_from_smelting_raw_redstone_block" },
+      { id: "regions_unexplored:redstone_from_blasting_raw_redstone_block" },
+      { id: "create:crushing/redstone_ore" },
+      { id: "create:crushing/deepslate_redstone_ore" },
+      { id: "createoreexcavation:crushing/redstone_crushing" },
+      { id: "create:filling/redstone" },
+      // Emerald
+      { id: "minecraft:emerald_from_smelting_emerald_ore" },
+      { id: "minecraft:emerald_from_blasting_emerald_ore" },
+      { id: "minecraft:emerald_from_smelting_deepslate_emerald_ore" },
+      { id: "minecraft:emerald_from_blasting_deepslate_emerald_ore" },
+      { id: "create:crushing/emerald_ore" },
+      { id: "create:crushing/deepslate_emerald_ore" },
 
       // Minecraft
       { output: "minecraft:ladder" },
@@ -246,7 +279,6 @@
       { output: "createoreexcavation:vein_finder" },
       { output: "createoreexcavation:diamond_drill" },
       { output: "createoreexcavation:netherite_drill" },
-      { output: "minecraft:diamond", input: "createoreexcavation:raw_diamond" },
       { id: "createoreexcavation:ore_vein_type/water" },
       { mod: "createoreexcavation", output: Fluid.of("minecraft:water") },
       { id: "createoreexcavation:ore_vein_type/nether_gold" },
@@ -254,10 +286,6 @@
       { id: "createoreexcavation:ore_vein_type/lapis" },
       { mod: "createoreexcavation", output: "minecraft:lapis_lazuli" },
       { id: "createoreexcavation:ore_vein_type/redstone" },
-      {
-        mod: "createoreexcavation",
-        output: "createoreexcavation:raw_redstone",
-      },
       { id: "createoreexcavation:ore_vein_type/glowstone" },
       { mod: "createoreexcavation", output: "minecraft:glowstone_dust" },
       { id: "createoreexcavation:ore_vein_type/quartz" },
@@ -269,11 +297,6 @@
       { id: "createoreexcavation:ore_vein_type/diamond" },
       { id: "createoreexcavation:ore_vein_type/hardened_diamond" },
       { mod: "createoreexcavation", output: "createoreexcavation:raw_diamond" },
-      {
-        mod: "createoreexcavation",
-        output: "minecraft:diamond",
-        not: { input: "createoreexcavation:raw_diamond" },
-      },
       { id: "createoreexcavation:ore_vein_type/gold" },
       { mod: "createoreexcavation", output: "minecraft:raw_gold" },
       { id: "createoreexcavation:ore_vein_type/copper" },

@@ -1,7 +1,18 @@
 (function vanillaShapelessRecipes() {
   ServerEvents.recipes((event) => {
     const shapelessRecipes = [
-      // Vanilla
+      // Misc
+
+      {
+        inputs: Item.of("createoreexcavation:raw_redstone", 9),
+        output: "regions_unexplored:raw_redstone_block",
+        id: "raw_redstone_block",
+      },
+      {
+        inputs: "regions_unexplored:raw_redstone_block",
+        output: Item.of("createoreexcavation:raw_redstone", 9),
+        id: "raw_redstone_from_block",
+      },
 
       // Create
 

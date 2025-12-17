@@ -16,7 +16,7 @@
 			]
 			icon: "minecraft:oak_log"
 			id: "2BC7202742BC1535"
-			shape: "rsquare"
+			shape: "octagon"
 			size: 1.5d
 			subtitle: "I refuse to do a TerraFirmaCraft style early game"
 			tasks: [{
@@ -159,8 +159,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -1.5d
+			x: 10.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5EEE72EE808F1AE3"]
@@ -171,7 +171,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["50EAF870216F4134"]
@@ -181,8 +181,8 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -4.5d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7DADFDDC9E69AC20"]
@@ -260,7 +260,7 @@
 				item: "create:copper_sheet"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -274,7 +274,7 @@
 				item: "create:golden_sheet"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 11.5d
 			y: 1.5d
 		}
 		{
@@ -307,7 +307,7 @@
 				}
 			]
 			title: "Engineer's Gear"
-			x: 10.0d
+			x: 11.5d
 			y: 0.0d
 		}
 		{
@@ -385,8 +385,8 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: 13.0d
-			y: -3.0d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6E44B94C9FE63CAF"]
@@ -398,7 +398,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: -4.5d
 		}
 		{
@@ -411,7 +411,7 @@
 				item: "create:fluid_pipe"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: 3.0d
 		}
 		{
@@ -487,7 +487,7 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 13.0d
 			y: 3.0d
 		}
 		{
@@ -517,6 +517,7 @@
 			]
 			id: "1A690C398B53BCD3"
 			optional: true
+			shape: "heart"
 			subtitle: "You *could* make a windmill but these are just objectively better"
 			tasks: [{
 				id: "1E0EA269169F0359"
@@ -546,6 +547,7 @@
 		{
 			dependencies: ["50EAF870216F4134"]
 			id: "7F8252B36E67D31F"
+			shape: "hexagon"
 			subtitle: "Automate everything!"
 			tasks: [
 				{
@@ -576,8 +578,8 @@
 				}
 			]
 			title: "Other useful machines"
-			x: 10.0d
-			y: -4.5d
+			x: 11.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -608,14 +610,14 @@
 			]
 			id: "45449EC3BFE135C4"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "EARLY GAME BRASS!!"
 			tasks: [{
 				id: "1D03AD13D77EB974"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: 6.0d
 		}
 		{
@@ -627,7 +629,7 @@
 			]
 			icon: "minecraft:anvil"
 			id: "046E536A9CD1A991"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.5d
 			subtitle: "How do I get better yields?"
 			tasks: [{
@@ -635,51 +637,8 @@
 				title: "Metallurgy"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: 6.0d
-		}
-		{
-			dependencies: ["6B084540ABAFE35D"]
-			description: ["Diamond ore no longer drops perfectly cut diamonds. Go cut them yourself, I sure ain't doing it for you."]
-			id: "4FE565C63036DCAD"
-			subtitle: "Huh that's... not normal"
-			tasks: [{
-				id: "63D556581D9EAB8D"
-				item: "createoreexcavation:raw_diamond"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.5d
-		}
-		{
-			dependencies: ["4FE565C63036DCAD"]
-			id: "5F549648F72B09C1"
-			tasks: [{
-				id: "3B112C228C3BD3C6"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["5F549648F72B09C1"]
-			description: [
-				"Tired of lighting up every corner of your base? Are you constantly missing tiny caves underneath your house when spawnproofing for your mob farm? Do you hate hard work?"
-				""
-				"Well have I got a product for you! The Brand New Magnum Torch! Now with extra torch! Only 499.99 cogs!"
-				""
-				"O-or you can... you can make it yourself. That's fine."
-			]
-			id: "54308CB9806FBB74"
-			subtitle: "Stop mob spawns"
-			tasks: [{
-				id: "38C2C301DBD90CCF"
-				item: "magnumtorch:diamond_magnum_torch"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -6.0d
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
@@ -723,6 +682,156 @@
 			title: "Ore vein generation"
 			x: -3.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["55F39E3B00DAE2EF"]
+			icon: "create:windmill_bearing"
+			id: "6134817F368E6444"
+			tasks: [
+				{
+					id: "4B095F88E95F5D93"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "01CAC7B26FA1B313"
+					item: { Count: 8, id: "create:white_sail" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "22B334619E294CE7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:wool"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55F39E3B00DAE2EF"]
+			id: "0BBE79A422F392AE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2692061E56AE95FE"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "38D659F80890F729"
+			tasks: [
+				{
+					id: "668B6F21B0462EE0"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "3EAD508EDCF6A42E"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "780F51BE9543E3ED"
+			tasks: [{
+				id: "23C10646C8704AC4"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "38634076D9A3EA17"
+			tasks: [{
+				id: "31DD2910D2EED22D"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "17F5BFC15E83B80A"
+			tasks: [
+				{
+					id: "3BDB3331C014DDD1"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "4C343520962C01EA"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "67D1FFF19BEBF154"
+			tasks: [{
+				id: "736A255A7E90C72A"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "19877E099B6D4239"
+			tasks: [
+				{
+					id: "739A53C7EA3851EB"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					id: "21CFFCA24AFC6A70"
+					item: "create:adjustable_chain_gearshift"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6B084540ABAFE35D"]
+			icon: "minecraft:diamond"
+			id: "5D1D731EE5F5FA7E"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "44E18C8F3258BC69"
+				title: "Gemstones"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -4.5d
 		}
 	]
 	title: "The Mechanical Age"

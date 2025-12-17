@@ -1,6 +1,12 @@
 (function createSandpaperPolishingRecipes() {
   ServerEvents.recipes((event) => {
-    const sandpaperPolishingRecipes = [];
+    const sandpaperPolishingRecipes = [
+      {
+        input: "createoreexcavation:raw_diamond",
+        output: "minecraft:diamond",
+        id: "raw_diamond",
+      },
+    ];
 
     sandpaperPolishingRecipes.forEach((recipe) => {
       event.recipes.create
