@@ -36,15 +36,18 @@
             amount: 50,
           },
         ],
+        id: "xeolum",
       },
     ];
 
     distillationRecipes.forEach((recipe) => {
-      event.custom({
-        type: "tfmg:distillation",
-        ingredients: [recipe.input],
-        results: recipe.output,
-      });
+      event
+        .custom({
+          type: "tfmg:distillation",
+          ingredients: [recipe.input],
+          results: recipe.output,
+        })
+        .id(`kubejs:tfmg/distillation/${recipe.id}`);
     });
   });
 })();
