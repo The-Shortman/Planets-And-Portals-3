@@ -2,19 +2,8 @@
   ServerEvents.recipes((event) => {
     const recipeRemovals = [
       //! Metal Progression
-      // Zinc progression tweaks
-      { id: "create:splashing/crushed_raw_zinc" },
-      { id: "create:blasting/zinc_ingot_from_ore" },
-      { id: "create:smelting/zinc_ingot_from_ore" },
-      { id: "create:blasting/zinc_ingot_from_raw_ore" },
-      { id: "create:smelting/zinc_ingot_from_raw_ore" },
-      { id: "create:smelting/zinc_ingot_from_crushed" },
-      { id: "create:crushing/zinc_ore" },
-      { id: "create:crushing/deepslate_zinc_ore" },
-      { id: "create:crushing/raw_zinc" },
-      { id: "create:crushing/raw_zinc_block" },
-      { id: "create:crushing/asurine" },
-      { id: "create:crushing/asurine_recycling" },
+      // Millstone
+      { id: "create:crafting/kinetics/millstone" },
       // Iron progression tweaks
       { id: "create:splashing/crushed_raw_iron" },
       { id: "minecraft:iron_ingot_from_smelting_iron_ore" },
@@ -44,6 +33,19 @@
       { id: "create:crushing/raw_iron_block" },
       { id: "create:crushing/crimsite" },
       { id: "create:crushing/crimsite_recycling" },
+      // Zinc progression tweaks
+      { id: "create:splashing/crushed_raw_zinc" },
+      { id: "create:blasting/zinc_ingot_from_ore" },
+      { id: "create:smelting/zinc_ingot_from_ore" },
+      { id: "create:blasting/zinc_ingot_from_raw_ore" },
+      { id: "create:smelting/zinc_ingot_from_raw_ore" },
+      { id: "create:smelting/zinc_ingot_from_crushed" },
+      { id: "create:crushing/zinc_ore" },
+      { id: "create:crushing/deepslate_zinc_ore" },
+      { id: "create:crushing/raw_zinc" },
+      { id: "create:crushing/raw_zinc_block" },
+      { id: "create:crushing/asurine" },
+      { id: "create:crushing/asurine_recycling" },
 
       // Minecraft
       { output: "minecraft:ladder" },

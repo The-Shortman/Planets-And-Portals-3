@@ -209,6 +209,14 @@
         output: Item.of("create:mechanical_crafter", 5),
         id: "mechanical_crafter",
       },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:andesite_alloy",
+          B: "create:andesite_casing",
+          C: "#forge:stone",
+        },
+      },
 
       // Masterful Machinery
 

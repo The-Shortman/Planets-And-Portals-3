@@ -24,11 +24,6 @@
         output: Item.of("copycats:copycat_shaft", 4),
         id: "copycat_shaft",
       },
-      {
-        inputs: ["create:andesite_alloy", "#forge:planks"],
-        output: "create:cogwheel",
-        id: "cogwheel",
-      },
 
       // Blast Furnace
 
