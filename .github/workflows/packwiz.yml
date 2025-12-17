@@ -106,7 +106,7 @@ jobs:
           key: cached-mods-${{ hashfiles('/home/runner/.cache/packwiz/cache/**/*') }}-${{ hashfiles('./server/mods') }}
 
       - name: Unpack client pack for nicer artifact
-        if: ${{github.events.inputs.client_artifacts}}
+        if: ${{github.event.inputs.client_artifacts}}
         run: |
           unzip "${{steps.construct-base-name.outputs.PP3_CF_NAME}}.zip" -d ./client
 
