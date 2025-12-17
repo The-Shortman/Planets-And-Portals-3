@@ -11,11 +11,11 @@
           Item.of("minecraft:sand", 4),
           "minecraft:clay",
         ],
-        output: Item.of("planetsandportals:grout", 16),
+        output: Item.of("planetsandportals:grout", 8),
       },
       {
         inputs: ["minecraft:gravel", "minecraft:sand", "minecraft:clay_ball"],
-        output: Item.of("planetsandportals:grout", 4),
+        output: Item.of("planetsandportals:grout", 2),
       },
       {
         inputs: [Item.of("create:shaft", 4), "create:zinc_ingot"],
