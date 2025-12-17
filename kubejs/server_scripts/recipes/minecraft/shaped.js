@@ -216,6 +216,18 @@
           B: "create:andesite_casing",
           C: "#forge:stone",
         },
+        output: "create:millstone",
+        id: "millstone",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:andesite_alloy",
+          B: "create:andesite_casing",
+          C: "minecraft:iron_block",
+        },
+        output: "create:mechanical_press",
+        id: "mechanical_press",
       },
 
       // Masterful Machinery

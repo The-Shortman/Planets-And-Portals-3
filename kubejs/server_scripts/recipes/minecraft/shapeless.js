@@ -92,7 +92,7 @@
       {
         inputs: ["tfmg:steel_casing", "create:mechanical_pump"],
         output: "mm:fuel_mixer_fluid_input",
-        id: "fuel_mixer_fluid_output",
+        id: "fuel_mixer_fluid_input",
       },
       {
         inputs: ["tfmg:steel_casing", "create:fluid_valve"],
