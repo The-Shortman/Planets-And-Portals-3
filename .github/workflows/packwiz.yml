@@ -111,14 +111,14 @@ jobs:
           unzip "${{steps.construct-base-name.outputs.PP3_CF_NAME}}.zip" -d ./client
 
       - name: Upload client pack to GitHub
-        if: ${{github.events.inputs.client_artifacts}}
+        if: ${{github.event.inputs.client_artifacts}}
         uses: actions/upload-artifact@v4
         with:
           name: ${{steps.construct-base-name.outputs.PP3_CF_NAME}}
           path: ./client
 
       - name: Upload server pack to GitHub
-        if: ${{github.events.inputs.server_artifact}}
+        if: ${{github.event.inputs.server_artifact}}
         uses: actions/upload-artifact@v4
         with:
           name: ${{steps.construct-base-name.outputs.PP3_SERVER_NAME}}
