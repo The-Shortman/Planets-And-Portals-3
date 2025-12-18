@@ -63,10 +63,39 @@
       },
     ];
 
+    const manualStonecuttingRecipes = [
+      {
+        input: "create:andesite_alloy",
+        output: "create:andesite_table_cloth",
+        id: Item.of("andesite_table_cloth", 2),
+      },
+      {
+        input: "create:andesite_alloy",
+        output: "create:andesite_ladder",
+        id: Item.of("andesite_ladder", 2),
+      },
+      {
+        input: "create:andesite_alloy",
+        output: "create:andesite_bars",
+        id: Item.of("andesite_bars", 4),
+      },
+      {
+        input: "create:andesite_alloy",
+        output: "create:andesite_scaffolding",
+        id: Item.of("andesite_scaffolding", 2),
+      },
+    ];
+
     stonecuttingRecipes.forEach((recipe) => {
       event
         .stonecutting(recipe.output, recipe.input)
         .id(`kubejs:minecraft/stonecutting/${recipe.id}`);
+    });
+
+    manualStonecuttingRecipes.forEach((recipe) => {
+      event
+        .stonecutting(recipe.output, recipe.input)
+        .id(`kubejs:minecraft/stonecutting/${recipe.id}_manual_only`);
     });
   });
 })();

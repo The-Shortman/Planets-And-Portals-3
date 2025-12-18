@@ -412,6 +412,10 @@
       { output: "create:andesite_alloy", input: "minecraft:andesite" },
       { output: "create:mechanical_crafter" },
       { output: "create:shaft" },
+      { id: "create:andesite_table_cloth_from_andesite_alloy_stonecutting" },
+      { id: "create:andesite_ladder_from_andesite_alloy_stonecutting" },
+      { id: "create:andesite_bars_from_andesite_alloy_stonecutting" },
+      { id: "create:andesite_scaffolding_from_andesite_alloy_stonecutting" },
 
       // Create: TFMG
       { output: "tfmg:steel_pipe" },
