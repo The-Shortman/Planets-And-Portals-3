@@ -698,7 +698,7 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
+			x: 16.0d
 			y: -4.5d
 		}
 		{
@@ -826,6 +826,20 @@
 			}]
 			x: 5.5d
 			y: 1.5d
+		}
+		{
+			dependencies: ["7F8252B36E67D31F"]
+			icon: "create:schematic_and_quill"
+			id: "1C28B4D46339503B"
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3D927AFCD7B3CABD"
+				title: "Useful Automations"
+				type: "checkmark"
+			}]
+			x: 11.5d
+			y: -6.0d
 		}
 	]
 	title: "The Mechanical Age"
