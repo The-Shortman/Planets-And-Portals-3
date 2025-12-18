@@ -9,20 +9,24 @@
           A: "#forge:planks",
         },
         output: "minecraft:chest",
+        id: "chest_mod_compat",
       },
       {
         pattern: ["AAA", "A A", "AAA"],
         key: {
           A: "#forge:logs",
         },
-        output: "4x minecraft:chest",
+        output: Item.of("minecraft:chest", 4),
+        id: "chests_from_logs",
       },
       {
         pattern: ["AAA", "BBB", "AAA"],
         key: {
-          A: ["#forge:planks", "minecraft:oak_planks"],
+          A: ["#forge:planks"],
+          B: "minecraft:book",
         },
         output: "minecraft:bookshelf",
+        id: "bookshelf_mod_compat",
       },
       {
         pattern: ["A A", "ABA", "A A"],
@@ -30,7 +34,8 @@
           A: "minecraft:stick",
           B: ["#forge:planks", "minecraft:oak_planks"],
         },
-        output: "4x minecraft:ladder",
+        output: Item.of("minecraft:ladder", 4),
+        id: "ladder_mod_compat",
       },
       {
         pattern: ["AA", "AA"],
@@ -38,9 +43,29 @@
           A: "tfmg:fireclay_ball",
         },
         output: "tfmg:fireclay",
+        id: "fireclay_from_fireclay_ball",
       },
 
       // Vanilla
+
+      {
+        pattern: ["ABA", "B B", "ABA"],
+        key: {
+          A: "#forge:cobblestone",
+          B: "#forge:planks",
+        },
+        output: "minecraft:smoker",
+        id: "smoker",
+      },
+      {
+        pattern: ["ABA", "B B", "ABA"],
+        key: {
+          A: "#forge:cobblestone",
+          B: "#forge:raw_materials",
+        },
+        output: "minecraft:blast_furnace",
+        id: "blast_furnace",
+      },
 
       // Ad Astra stuff
 
@@ -55,6 +80,7 @@
           F: "ad_astra:fan",
         },
         output: "ad_astra:steel_engine",
+        id: "steel_engine",
       },
       {
         pattern: ["ABA", "BBB", "ABA"],
@@ -63,6 +89,7 @@
           B: "ad_astra:desh_ingot",
         },
         output: "ad_astra:desh_plateblock",
+        id: "desh_plateblock",
       },
       {
         pattern: ["ABA", "CDC", " E "],
@@ -74,6 +101,7 @@
           E: "ad_astra:steel_engine",
         },
         output: "ad_astra:desh_engine",
+        id: "desh_engine",
       },
       {
         pattern: ["ABA", "BBB", "ABA"],
@@ -82,6 +110,7 @@
           B: "ad_astra:etrium_nugget",
         },
         output: "ad_astra:etrionic_core",
+        id: "etrionic_core",
       },
       {
         pattern: [" A ", "BCB", "DED"],
@@ -93,20 +122,23 @@
           E: "ad_astra:desh_plate",
         },
         output: "ad_astra:gravity_normalizer",
+        id: "gravity_normalizer",
       },
       {
         pattern: ["A", "A"],
         key: {
           A: "#ad_astra:steel_ingots",
         },
-        output: "4x ad_astra:steel_rod",
+        output: Item.of("ad_astra:steel_rod", 4),
+        id: "steel_rod",
       },
       {
         pattern: ["AA"],
         key: {
           A: "#ad_astra:steel_ingots",
         },
-        output: "6x tfmg:steel_pipe",
+        output: Item.of("tfmg:steel_pipe", 6),
+        id: "steel_pipe",
       },
       {
         pattern: [" B ", "ABA", "ABA"],
@@ -115,6 +147,7 @@
           B: "ad_astra:steel_rod",
         },
         output: "ad_astra:oxygen_gear",
+        id: "oxygen_gear",
       },
       {
         pattern: ["AAA", "ABA"],
@@ -123,6 +156,7 @@
           B: "minecraft:glass_pane",
         },
         output: "ad_astra:space_helmet",
+        id: "space_helmet",
       },
       {
         pattern: ["A A", "BCB", "ADA"],
@@ -133,6 +167,7 @@
           D: "#minecraft:wool",
         },
         output: "ad_astra:space_suit",
+        id: "space_suit",
       },
       {
         pattern: ["AAA", "B B", "A A"],
@@ -141,6 +176,7 @@
           B: "#minecraft:wool",
         },
         output: "ad_astra:space_pants",
+        id: "space_pants",
       },
       {
         pattern: ["B B", "A A"],
@@ -149,6 +185,7 @@
           B: "#minecraft:wool",
         },
         output: "ad_astra:space_boots",
+        id: "space_boots",
       },
 
       // Create
@@ -159,7 +196,8 @@
           A: "planetsandportals:grout",
           B: "minecraft:andesite",
         },
-        output: "2x create:andesite_alloy",
+        output: Item.of("create:andesite_alloy", 2),
+        id: "andesite_alloy_inefficient",
       },
       {
         pattern: ["A", "B", "C"],
@@ -168,7 +206,28 @@
           B: "create:brass_casing",
           C: "minecraft:crafting_table",
         },
-        output: "5x create:mechanical_crafter",
+        output: Item.of("create:mechanical_crafter", 5),
+        id: "mechanical_crafter",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:andesite_alloy",
+          B: "create:andesite_casing",
+          C: "#forge:stone",
+        },
+        output: "create:millstone",
+        id: "millstone",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:andesite_alloy",
+          B: "create:andesite_casing",
+          C: "minecraft:iron_block",
+        },
+        output: "create:mechanical_press",
+        id: "mechanical_press",
       },
 
       // Masterful Machinery
@@ -181,6 +240,7 @@
           C: "tfmg:cast_iron_pipe",
         },
         output: "mm:blast_furnace_controller",
+        id: "blast_furnace_controller",
       },
       {
         pattern: ["AAA", "ABA", "ACA"],
@@ -190,6 +250,7 @@
           C: "tfmg:steel_pipe",
         },
         output: "mm:steel_furnace_controller",
+        id: "steel_furnace_controller",
       },
       {
         pattern: ["ABA", "ACA", "ADA"],
@@ -200,6 +261,7 @@
           D: "create:basin",
         },
         output: "mm:fuel_mixer_controller",
+        id: "fuel_mixer_controller",
       },
 
       // Create New Age stuff
@@ -213,6 +275,7 @@
           D: "minecraft:lightning_rod",
         },
         output: "create_new_age:energiser_t1",
+        id: "energiser_t1",
       },
       {
         pattern: ["ABA", "ECE", " D "],
@@ -224,6 +287,7 @@
           E: "ad_astra:desh_nugget",
         },
         output: "create_new_age:energiser_t2",
+        id: "energiser_t2",
       },
 
       // Create Ore Excavation
@@ -237,6 +301,7 @@
           D: "minecraft:stick",
         },
         output: "createoreexcavation:vein_finder",
+        id: "vein_finder",
       },
 
       // Mekanism basic blocks
@@ -247,7 +312,8 @@
           A: "mekanism:basic_control_circuit",
           B: "create_new_age:copper_wire",
         },
-        output: "4x mekanism:basic_universal_cable",
+        output: Item.of("mekanism:basic_universal_cable", 4),
+        id: "basic_universal_cable_from_copper_wire",
       },
       {
         pattern: ["ABA"],
@@ -255,7 +321,8 @@
           A: "mekanism:basic_control_circuit",
           B: "create_new_age:overcharged_iron_wire",
         },
-        output: "8x mekanism:basic_universal_cable",
+        output: Item.of("mekanism:basic_universal_cable", 8),
+        id: "basic_universal_cable_from_iron_wire",
       },
       {
         pattern: ["ABA"],
@@ -263,7 +330,8 @@
           A: "mekanism:basic_control_circuit",
           B: "create_new_age:overcharged_golden_wire",
         },
-        output: "16x mekanism:basic_universal_cable",
+        output: Item.of("mekanism:basic_universal_cable", 16),
+        id: "basic_universal_cable_from_golden_wire",
       },
       {
         pattern: ["ABA"],
@@ -271,7 +339,8 @@
           A: "mekanism:basic_control_circuit",
           B: "create_new_age:overcharged_diamond_wire",
         },
-        output: "64x mekanism:basic_universal_cable",
+        output: Item.of("mekanism:basic_universal_cable", 64),
+        id: "basic_universal_cable_from_diamond_wire",
       },
       {
         pattern: ["BBB", "BAB", "BBB"],
@@ -279,7 +348,8 @@
           A: "mekanism:basic_control_circuit",
           B: "create:fluid_pipe",
         },
-        output: "8x mekanism:basic_mechanical_pipe",
+        output: Item.of("mekanism:basic_mechanical_pipe", 8),
+        id: "basic_mechanical_pipe",
       },
       {
         pattern: ["BAB"],
@@ -287,7 +357,8 @@
           A: "mekanism:basic_control_circuit",
           B: "create:framed_glass",
         },
-        output: "8x mekanism:basic_pressurized_tube",
+        output: Item.of("mekanism:basic_pressurized_tube", 8),
+        id: "basic_pressurized_tube",
       },
       {
         pattern: ["BAB"],
@@ -295,7 +366,8 @@
           A: "mekanism:basic_control_circuit",
           B: "minecraft:copper_ingot",
         },
-        output: "8x mekanism:basic_thermodynamic_conductor",
+        output: Item.of("mekanism:basic_thermodynamic_conductor", 8),
+        id: "basic_thermodynamic_conductor",
       },
       {
         pattern: ["AAA", "BCB", "AAA"],
@@ -304,7 +376,8 @@
           B: "tfmg:steel_ingot",
           C: "mekanism:basic_logistical_transporter",
         },
-        output: "2x mekanism:diversion_transporter",
+        output: Item.of("mekanism:diversion_transporter", 2),
+        id: "diversion_transporter",
       },
       {
         pattern: ["ABA"],
@@ -312,7 +385,8 @@
           A: "tfmg:steel_ingot",
           B: "mekanism:basic_logistical_transporter",
         },
-        output: "2x mekanism:restrictive_transporter",
+        output: Item.of("mekanism:restrictive_transporter", 2),
+        id: "restrictive_transporter",
       },
 
       // Mekanism advanced blocks
@@ -326,6 +400,7 @@
           D: "mekanism:basic_energy_cube",
         },
         output: "mekanism:advanced_energy_cube",
+        id: "advanced_energy_cube",
       },
       {
         pattern: ["ABA", "BCB", "ABA"],
@@ -335,6 +410,7 @@
           C: "mekanism:basic_fluid_tank",
         },
         output: "mekanism:advanced_fluid_tank",
+        id: "advanced_fluid_tank",
       },
       {
         pattern: ["ABA", "BCB", "ABA"],
@@ -344,6 +420,7 @@
           C: "mekanism:basic_chemical_tank",
         },
         output: "mekanism:advanced_chemical_tank",
+        id: "advanced_chemical_tank",
       },
       {
         pattern: ["BBB", "BAB", "BBB"],
@@ -352,6 +429,7 @@
           B: "mekanism:basic_universal_cable",
         },
         output: "mekanism:advanced_universal_cable",
+        id: "advanced_universal_cable",
       },
       {
         pattern: ["BBB", "BAB", "BBB"],
@@ -360,6 +438,7 @@
           B: "mekanism:basic_mechanical_pipe",
         },
         output: "mekanism:advanced_mechanical_pipe",
+        id: "advanced_mechanical_pipe",
       },
       {
         pattern: ["BBB", "BAB", "BBB"],
@@ -368,6 +447,7 @@
           B: "mekanism:basic_pressurized_tube",
         },
         output: "mekanism:advanced_pressurized_tube",
+        id: "advanced_pressurized_tube",
       },
       {
         pattern: ["BBB", "BAB", "BBB"],
@@ -376,6 +456,7 @@
           B: "mekanism:basic_logistical_transporter",
         },
         output: "mekanism:advanced_logistical_transporter",
+        id: "advanced_logistical_transporter",
       },
       {
         pattern: ["ABA", "ACA", "DDD"],
@@ -386,11 +467,14 @@
           D: "mekanism:ingot_osmium",
         },
         output: "mekanismgenerators:advanced_solar_generator",
+        id: "advanced_solar_generator",
       },
     ];
 
     shapedRecipes.forEach((recipe) => {
-      event.shaped(recipe.output, recipe.pattern, recipe.key);
+      event
+        .shaped(recipe.output, recipe.pattern, recipe.key)
+        .id(`kubejs:minecraft/shaped/${recipe.id}`);
     });
 
     // Cosmic Resonator

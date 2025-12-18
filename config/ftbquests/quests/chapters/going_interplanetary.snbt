@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	autofocus_id: "5EC3A58BAE6AB269"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -18,7 +19,7 @@
 		x: -1.0d
 		y: 3.0d
 	}]
-	order_index: 4
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -197,6 +198,6 @@
 			y: 2.0d
 		}
 	]
-	subtitle: ["Can't wait to visit yet another barren waste of a world"]
-	title: "Going Interplanetary"
+	subtitle: ["&5This chapter is not up to date and only currently exists for reference purposes!"]
+	title: "Going Interplanetary &4[OUTDATED]"
 }

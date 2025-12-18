@@ -32,23 +32,6 @@
         replace: "mekanism:ingot_osmium",
       },
       {
-        filter: {
-          output: [
-            "minecraft:diamond_shovel",
-            "minecraft:diamond_pickaxe",
-            "minecraft:diamond_axe",
-            "minecraft:diamond_hoe",
-            "minecraft:diamond_sword",
-            "minecraft:diamond_helmet",
-            "minecraft:diamond_chestplate",
-            "minecraft:diamond_leggings",
-            "minecraft:diamond_boots",
-          ],
-        },
-        remove: "minecraft:diamond",
-        replace: "planetsandportals:rough_diamond",
-      },
-      {
         filter: { input: "mekanism:sawdust" },
         remove: "mekanism:sawdust",
         replace: "create:cardboard",

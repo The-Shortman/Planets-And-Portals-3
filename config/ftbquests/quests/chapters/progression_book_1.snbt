@@ -16,7 +16,7 @@
 			]
 			icon: "minecraft:oak_log"
 			id: "2BC7202742BC1535"
-			shape: "rsquare"
+			shape: "octagon"
 			size: 1.5d
 			subtitle: "I refuse to do a TerraFirmaCraft style early game"
 			tasks: [{
@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			title: "Punch any tree"
-			x: -0.5d
+			x: -3.5d
 			y: 0.0d
 		}
 		{
@@ -51,8 +51,8 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: -0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
@@ -64,8 +64,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 1.5d
+			x: -0.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["04239375E665E70E"]
@@ -91,7 +91,7 @@
 				}
 			]
 			x: 2.5d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -107,7 +107,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
@@ -120,7 +120,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -136,30 +136,10 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["2BC7202742BC1535"]
-			description: [
-				"Furnaces become obsolete like, really quickly. "
-				""
-				"I wouldn't recommend building a giant furnace wall as there are much better ways to smelt ores that you get access to really soon."
-			]
-			id: "5CBA7E7559125123"
-			subtitle: "The unloved child of P\\&P3"
-			tasks: [{
-				id: "771A7C049C5C0996"
-				item: "minecraft:furnace"
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"3E37A26B2D01AF21"
-				"5CBA7E7559125123"
-			]
+			dependencies: ["3E37A26B2D01AF21"]
 			description: ["Iron is, as always, probably the most useful metal you have at your disposal. In the future, you'll have (and need) the infrastructure to produce a LOT of it."]
 			id: "6B084540ABAFE35D"
 			subtitle: "Iron my beloved"
@@ -168,8 +148,8 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6B084540ABAFE35D"]
@@ -179,8 +159,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5EEE72EE808F1AE3"]
@@ -190,59 +170,8 @@
 				item: "create:iron_sheet"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["50EAF870216F4134"]
-			id: "25FD0FEBC7DD0A0E"
-			tasks: [{
-				id: "6DD5BF69330DCEAE"
-				item: "create:encased_fan"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["6B084540ABAFE35D"]
-			id: "4267B9D5D3A89026"
-			subtitle: "Get your liquids in order"
-			tasks: [{
-				id: "7A9E07C707227B57"
-				item: "minecraft:bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -1.5d
-		}
-		{
-			dependencies: [
-				"25FD0FEBC7DD0A0E"
-				"6829C762D39BEBFB"
-				"6E6C309EB78F123D"
-			]
-			id: "324115BB27591445"
-			tasks: [{
-				id: "0BE72B4DCA282CF1"
-				item: "create:copper_nugget"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["4267B9D5D3A89026"]
-			description: ["Did you set up by that river I told you to?"]
-			id: "6E6C309EB78F123D"
-			subtitle: "Get ready to wash"
-			tasks: [{
-				id: "3469081A1AD0A63C"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 3.0d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["50EAF870216F4134"]
@@ -252,12 +181,11 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 14.5d
-			y: -1.5d
+			x: 13.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["7DADFDDC9E69AC20"]
-			description: ["Yeah andesite alloy isn't that malleable, hate to break it to you. It has to be cut into shafts, don't expect to mould it with your bare hands."]
 			id: "55F39E3B00DAE2EF"
 			subtitle: "This late?"
 			tasks: [{
@@ -269,7 +197,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["6B084540ABAFE35D"]
+			dependencies: ["2BC7202742BC1535"]
 			description: ["Lootbugs sold separately."]
 			id: "4FFDF77885D875EB"
 			subtitle: "We're rich! We're rich!"
@@ -279,8 +207,8 @@
 				type: "item"
 			}]
 			title: "Raw Gold"
-			x: 5.5d
-			y: 3.0d
+			x: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -295,45 +223,30 @@
 				item: "create:crushed_raw_gold"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 4.5d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
-			dependencies: [
-				"6E6C309EB78F123D"
-				"25FD0FEBC7DD0A0E"
-				"0AC0F1B01251534D"
-			]
-			id: "1EAD03DBB188010F"
-			tasks: [{
-				id: "7C2D98B6E1DD6713"
-				item: "minecraft:gold_nugget"
-				type: "item"
-			}]
-			x: 11.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["324115BB27591445"]
+			dependencies: ["6829C762D39BEBFB"]
 			id: "53106D8F4F3FA380"
 			tasks: [{
 				id: "7F747E1C71A9E510"
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["1EAD03DBB188010F"]
+			dependencies: ["0AC0F1B01251534D"]
 			id: "582B2553E215BFDB"
 			tasks: [{
 				id: "2BF6FB0013DB1E6B"
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 3.0d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -348,7 +261,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -361,7 +274,7 @@
 				item: "create:golden_sheet"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 7.0d
 			y: -1.5d
 		}
 		{
@@ -394,11 +307,11 @@
 				}
 			]
 			title: "Engineer's Gear"
-			x: 10.0d
-			y: -1.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["6B084540ABAFE35D"]
+			dependencies: ["2BC7202742BC1535"]
 			description: ["Zinc isn't useful now, but it'll become a lot more useful soon, as its main usage is in alloying with copper to make brass."]
 			id: "38A2A7643B6C4F5C"
 			subtitle: "First modded metal"
@@ -407,8 +320,8 @@
 				item: "create:raw_zinc"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: -0.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -422,41 +335,8 @@
 				item: "create:crushed_raw_zinc"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["4267B9D5D3A89026"]
-			description: ["Vast chasms can be found deep underground with gargantuan lava lakes spanning hundreds of blocks across the world. Use these to your advantage, wink wink."]
-			id: "1C40557D5A052BC5"
-			subtitle: "Lava's more common than you might expect"
-			tasks: [{
-				id: "15129C9B48462DC4"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -3.0d
-		}
-		{
-			dependencies: [
-				"1679A823F116353A"
-				"1C40557D5A052BC5"
-			]
-			description: [
-				"Zinc can't be washed nor can it be smelted in a furnace, it requires some slightly more intense conditions. Use a mechanical fan with some lava to blast it!"
-				""
-				"This method can also be used on iron."
-			]
-			id: "6FC6C410BFED34AE"
-			subtitle: "No furnace recipe?"
-			tasks: [{
-				id: "6398779A30674836"
-				item: "create:zinc_ingot"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -4.5d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
@@ -476,7 +356,7 @@
 				}
 			]
 			x: 14.5d
-			y: -4.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
@@ -489,7 +369,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6E44B94C9FE63CAF"]
@@ -502,7 +382,7 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["14DD14A15D92EB5F"]
@@ -514,8 +394,8 @@
 				item: "create:fluid_pipe"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 10.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["395D4B6B2AAE10CA"]
@@ -525,8 +405,8 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -3.0d
+			x: 11.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["69D46D16B36DF0D4"]
@@ -549,8 +429,8 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
-			y: -6.0d
+			x: 8.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4BEDA9BDB2B8BE8E"]
@@ -568,8 +448,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: -4.5d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["65786A5303A5A30C"]
@@ -579,8 +459,8 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.0d
+			x: 10.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["395D4B6B2AAE10CA"]
@@ -590,8 +470,8 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.5d
+			x: 11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
@@ -604,7 +484,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -620,14 +500,15 @@
 			]
 			id: "1A690C398B53BCD3"
 			optional: true
+			shape: "heart"
 			subtitle: "You *could* make a windmill but these are just objectively better"
 			tasks: [{
 				id: "1E0EA269169F0359"
 				title: "Passive steam engine"
 				type: "checkmark"
 			}]
-			x: 11.5d
-			y: -4.5d
+			x: 13.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["49F88BFF272C28E9"]
@@ -644,11 +525,12 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["50EAF870216F4134"]
 			id: "7F8252B36E67D31F"
+			shape: "hexagon"
 			subtitle: "Automate everything!"
 			tasks: [
 				{
@@ -679,13 +561,14 @@
 				}
 			]
 			title: "Other useful machines"
-			x: 13.0d
-			y: -1.5d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
-				"6FC6C410BFED34AE"
 				"4BEDA9BDB2B8BE8E"
+				"1679A823F116353A"
+				"6829C762D39BEBFB"
 			]
 			description: ["Mix zinc and copper to make a brass mixture. Blast it with lava and..."]
 			id: "067A30C4375F22A6"
@@ -696,8 +579,8 @@
 				type: "item"
 			}]
 			title: "Brass Mixture"
-			x: 7.0d
-			y: -6.0d
+			x: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["067A30C4375F22A6"]
@@ -710,15 +593,15 @@
 			]
 			id: "45449EC3BFE135C4"
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "EARLY GAME BRASS!!"
 			tasks: [{
 				id: "1D03AD13D77EB974"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -6.0d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4BEDA9BDB2B8BE8E"]
@@ -729,7 +612,7 @@
 			]
 			icon: "minecraft:anvil"
 			id: "046E536A9CD1A991"
-			shape: "gear"
+			shape: "rsquare"
 			size: 1.5d
 			subtitle: "How do I get better yields?"
 			tasks: [{
@@ -737,89 +620,226 @@
 				title: "Metallurgy"
 				type: "checkmark"
 			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: [
+				"The Furnace has had a makeover (it definitely hasn't been removed and replaced with a rebranded Blast Furnace). "
+				""
+				"It smelts everything much quicker now, but can't do food. You need the Smoker for that."
+			]
+			id: "079D5A61E952C38C"
+			subtitle: "Where's the OG?"
+			tasks: [
+				{
+					id: "371F0E10FBF1D3C7"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "163BEA40882EA8A2"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+			]
+			title: "Furnaces"
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: [
+				"You may find large rocks around the surface with different types of ore embedded in them. Make a note of these because they're important later!"
+				""
+				"Underneath these rocks are deep, hidden deposits of ore which can only be extracted once you enter the Logistical Age."
+			]
+			id: "5FA3EF6CDA9E4087"
+			subtitle: "This isn't Greg"
+			tasks: [{
+				id: "2FA0EC48A19395FC"
+				title: "I understand"
+				type: "checkmark"
+			}]
+			title: "Ore vein generation"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["55F39E3B00DAE2EF"]
+			icon: "create:windmill_bearing"
+			id: "6134817F368E6444"
+			tasks: [
+				{
+					id: "4B095F88E95F5D93"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "01CAC7B26FA1B313"
+					item: { Count: 8, id: "create:white_sail" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "22B334619E294CE7"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:wool"
+						}
+					}
+					optional_task: true
+					title: "Any #minecraft:wool"
+					type: "item"
+				}
+			]
 			x: 16.0d
-			y: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55F39E3B00DAE2EF"]
+			id: "0BBE79A422F392AE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2692061E56AE95FE"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "38D659F80890F729"
+			tasks: [
+				{
+					id: "668B6F21B0462EE0"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "3EAD508EDCF6A42E"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "780F51BE9543E3ED"
+			tasks: [{
+				id: "23C10646C8704AC4"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "38634076D9A3EA17"
+			tasks: [{
+				id: "31DD2910D2EED22D"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "17F5BFC15E83B80A"
+			tasks: [
+				{
+					id: "3BDB3331C014DDD1"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "4C343520962C01EA"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "67D1FFF19BEBF154"
+			tasks: [{
+				id: "736A255A7E90C72A"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "19877E099B6D4239"
+			tasks: [
+				{
+					id: "739A53C7EA3851EB"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					id: "21CFFCA24AFC6A70"
+					item: "create:adjustable_chain_gearshift"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6B084540ABAFE35D"]
-			description: ["Diamond ore no longer drops perfectly cut diamonds. Go cut them yourself, I sure ain't doing it for you."]
-			id: "4FE565C63036DCAD"
-			subtitle: "Huh that's... not normal"
+			icon: "minecraft:diamond"
+			id: "5D1D731EE5F5FA7E"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
-				id: "63D556581D9EAB8D"
-				item: "createoreexcavation:raw_diamond"
-				type: "item"
+				id: "44E18C8F3258BC69"
+				title: "Gemstones"
+				type: "checkmark"
 			}]
 			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1679A823F116353A"]
+			id: "1FE990B3B7A450F0"
+			tasks: [{
+				id: "3821E15E327CA260"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 5.5d
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"7DADFDDC9E69AC20"
-				"4FE565C63036DCAD"
-			]
-			id: "32B37E184AA13315"
+			dependencies: ["7F8252B36E67D31F"]
+			icon: "create:schematic_and_quill"
+			id: "1C28B4D46339503B"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
-				id: "354617B127A3145B"
-				item: "planetsandportals:rough_diamond"
-				type: "item"
+				id: "3D927AFCD7B3CABD"
+				title: "Useful Automations"
+				type: "checkmark"
 			}]
-			title: "Rough Diamond"
-			x: 14.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"32B37E184AA13315"
-				"47DC122FA520A79E"
-			]
-			id: "5F549648F72B09C1"
-			tasks: [{
-				id: "3B112C228C3BD3C6"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 1.5d
-		}
-		{
-			description: ["Sand Paper can be used with deployers to automate the sanding process."]
-			id: "47DC122FA520A79E"
-			subtitle: "Sand + Paper = Sand Paper, I mean what did you expect"
-			tasks: [{
-				id: "12A402AC319520B4"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "create:sandpaper"
-					}
-				}
-				title: "Any #create:sandpaper"
-				type: "item"
-			}]
-			title: "Sand Paper"
-			x: 16.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["5F549648F72B09C1"]
-			description: [
-				"Tired of lighting up every corner of your base? Are you constantly missing tiny caves underneath your house when spawnproofing for your mob farm? Do you hate hard work?"
-				""
-				"Well have I got a product for you! The Brand New Magnum Torch! Now with extra torch! Only 499.99 cogs!"
-				""
-				"O-or you can... you can make it yourself. That's fine."
-			]
-			id: "54308CB9806FBB74"
-			subtitle: "Stop mob spawns"
-			tasks: [{
-				id: "38C2C301DBD90CCF"
-				item: "magnumtorch:diamond_magnum_torch"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 3.0d
+			x: 11.5d
+			y: -6.0d
 		}
 	]
 	title: "The Mechanical Age"

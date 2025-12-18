@@ -1,0 +1,113 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "useful_automations"
+	group: "69C6C562BC012F34"
+	icon: "create:schematic_and_quill"
+	id: "7F45279F563D48D2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C28B4D46339503B"]
+			icon: "create:andesite_alloy"
+			id: "49036BE9818DF8DA"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "12BA0FFC1E598C92"
+				title: "Mechanical Age"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49036BE9818DF8DA"]
+			id: "1583CCF3F26E4908"
+			tasks: [
+				{
+					id: "1C9F331D32B71FA8"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:saplings"
+						}
+					}
+					title: "Any #minecraft:saplings"
+					type: "item"
+				}
+				{
+					id: "471A0A5E0235B8FC"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "7A8A8449126228F6"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "Tree Farm"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49036BE9818DF8DA"]
+			id: "47CBE2FD120FD6B9"
+			tasks: [
+				{
+					id: "0FD99E948B5DDCB1"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:crops"
+						}
+					}
+					title: "Any #forge:crops"
+					type: "item"
+				}
+				{
+					id: "701A88753DE83A02"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "5C3DA90C8D7B8E38"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "Food Farm"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49036BE9818DF8DA"]
+			id: "6F3CBCCDF3F75F6B"
+			tasks: [
+				{
+					id: "177B984D60AC070E"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					id: "5FC3EFFD5B197E0F"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "58B5F904811EBAA6"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			title: "Kelp Farm"
+			x: 0.0d
+			y: -3.0d
+		}
+	]
+	title: "Useful Automations"
+}

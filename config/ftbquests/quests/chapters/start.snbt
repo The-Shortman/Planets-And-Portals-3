@@ -44,7 +44,7 @@
 				""
 				"If you read all of the above context then I really appreciate you taking the time to learn the history behind this modpack, so you've earned the free cookie. I hope you have a great time playing! <3"
 			]
-			icon: "computercraft:printed_book"
+			icon: "chipped:mixed_oak_large_bookshelf"
 			id: "47509DC6F7C9D88F"
 			rewards: [{
 				id: "7FA8D0F3189754AC"
@@ -120,7 +120,7 @@
 				""
 				"When contributing please make sure to read the LICENSE.md file on the repository before submitting pull requests."
 			]
-			icon: "advancedperipherals:computer_tool"
+			icon: "mm:debug_tool"
 			id: "5035B04C3A0052E8"
 			rewards: [{
 				id: "07BD08F7ED834954"
@@ -213,7 +213,7 @@
 		}
 		{
 			dependencies: ["67E8273831E8B9D2"]
-			description: ["Currently the only celestial bodies available are Earth, the Moon, and Mars. This will change over time, ideally including ALL Ad Astra planets by the time of the full pack release."]
+			description: ["Currently the only celestial bodies available are Earth. Others are reachable but I am currently focusing on completing Earth progression. This will change over time, ideally including ALL Ad Astra planets by the time of the full pack release."]
 			icon: "supplementaries:globe"
 			id: "6AF6A17A5E8F0C11"
 			rewards: [{

@@ -66,7 +66,7 @@ This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-
 
 #### Gameplay-changing
 
-> _Nothing to see here yet..._
+- Overhauled chapter 1 progression
 
 #### Quality of life
 

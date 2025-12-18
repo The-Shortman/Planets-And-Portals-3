@@ -6,9 +6,9 @@
 	default_reward_team: false
 	detection_delay: 20
 	disable_gui: false
+	drop_book_on_death: false
 	drop_loot_crates: true
-	emergency_items: [{ Count: 1, id: "planetsandportals:cosmic_resonator_alpha" }]
-	emergency_items_cooldown: 300
+	emergency_items_cooldown: 0
 	grid_scale: 0.5d
 	icon: {
 		Count: 1
@@ -23,6 +23,7 @@
 	}
 	pause_game: true
 	progression_mode: "linear"
+	show_lock_icons: true
 	title: "&6&lPlanets and Portals 3"
 	version: 13
 }

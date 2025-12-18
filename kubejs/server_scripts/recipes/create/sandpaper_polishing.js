@@ -2,13 +2,16 @@
   ServerEvents.recipes((event) => {
     const sandpaperPolishingRecipes = [
       {
-        input: "planetsandportals:rough_diamond",
+        input: "createoreexcavation:raw_diamond",
         output: "minecraft:diamond",
+        id: "raw_diamond",
       },
     ];
 
     sandpaperPolishingRecipes.forEach((recipe) => {
-      event.recipes.create.sandpaper_polishing(recipe.output, recipe.input);
+      event.recipes.create
+        .sandpaper_polishing(recipe.output, recipe.input)
+        .id(`kubejs:create/sandpaper_polishing/${recipe.id}`);
     });
   });
 })();

@@ -63,7 +63,7 @@
 		{
 			dependencies: ["3BB359C6FE95C544"]
 			description: ["People that have directly contributed assets or code to the modpack"]
-			icon: "computercraft:computer_advanced"
+			icon: "create:wrench"
 			id: "46D15BBDFEFAD5E3"
 			shape: "octagon"
 			size: 2.0d
@@ -115,7 +115,7 @@
 		}
 		{
 			dependencies: ["46D15BBDFEFAD5E3"]
-			description: ["Monocle man"]
+			description: ["Monocle man."]
 			hide_dependency_lines: true
 			icon: "create:goggles"
 			id: "322BA23516FDDBFD"
@@ -134,7 +134,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["3E3AC0C89A2A5D98"]
+			dependencies: ["0D838E7E60D9C2D5"]
 			description: [
 				"Helped me out way too much with a bunch of KubeJS code, thanks a tonne!"
 				""
@@ -177,7 +177,7 @@
 		}
 		{
 			dependencies: ["709E7AD62BF05EE4"]
-			description: ["Contibuted the model for the Ore Vein Atlas and texture for Desh Dust"]
+			description: ["Contibutor of various assets."]
 			icon: "brewery:beer_mug"
 			id: "78E699EFB18890B9"
 			rewards: [
@@ -281,7 +281,7 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["3E3AC0C89A2A5D98"]
+			dependencies: ["0D838E7E60D9C2D5"]
 			description: ["Creator of the Create: Astral modpack - the person who got me so involved in modpack making"]
 			hide_dependency_lines: true
 			icon: "minecraft:wolf_spawn_egg"
@@ -401,7 +401,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["60C59D590B54221F"]
+			dependencies: ["131DB96278BBD76A"]
 			description: ["The Incident™ of Early 2024"]
 			hide_dependency_lines: true
 			icon: "minecraft:water_bucket"
@@ -429,7 +429,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["60C59D590B54221F"]
+			dependencies: ["131DB96278BBD76A"]
 			hide_dependency_lines: true
 			id: "29862B8107DEC44B"
 			tasks: [{
@@ -439,18 +439,6 @@
 			}]
 			x: 8.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["709E7AD62BF05EE4"]
-			description: ["Contributed the texture for the Steel Electrode"]
-			id: "4B70EAEEBAC7E5B0"
-			tasks: [{
-				id: "16A23BDC27D1F5F2"
-				title: "JohnDoeKnownJury"
-				type: "checkmark"
-			}]
-			x: -6.5d
-			y: -1.0d
 		}
 	]
 	subtitle: ["Thank you!"]

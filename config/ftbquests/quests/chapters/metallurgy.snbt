@@ -3,10 +3,341 @@
 	default_quest_shape: ""
 	filename: "metallurgy"
 	group: "69C6C562BC012F34"
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:anvil"
 	id: "12721B0EF87C8F46"
+	images: [
+		{
+			height: 1.5d
+			image: "minecraft:item/raw_iron"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "create:item/crushed_raw_iron"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "mekanism:slurry/dirty"
+			rotation: 0.0d
+			width: 1.5d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "mekanism:slurry/clean"
+			rotation: 0.0d
+			width: 1.5d
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "mekanism:item/crystal_iron"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "mekanism:item/shard_iron"
+			rotation: 0.0d
+			width: 1.5d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "mekanism:item/clump_iron"
+			rotation: 0.0d
+			width: 1.5d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "mekanism:item/dirty_dust_iron"
+			rotation: 0.0d
+			width: 1.5d
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "mekanism:item/dust_iron"
+			rotation: 0.0d
+			width: 1.5d
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "minecraft:item/iron_ingot"
+			rotation: 0.0d
+			width: 1.5d
+			x: 12.0d
+			y: 0.0d
+		}
+	]
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			dependencies: ["6630D0DB1BC654FF"]
+			id: "02BD57DD4B6F8B45"
+			tasks: [{
+				id: "4EBE0FE6F8603E61"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6630D0DB1BC654FF"]
+			id: "1554EC13271E23C2"
+			tasks: [{
+				id: "363AA79A718EF6FB"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6630D0DB1BC654FF"]
+			icon: {
+				Count: 1
+				id: "minecraft:stone_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3FE28E1FCB040E07"
+			tasks: [{
+				id: "19658459716D500F"
+				title: "I understand"
+				type: "checkmark"
+			}]
+			title: "Manual Extraction"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["046E536A9CD1A991"]
+			hide_until_deps_complete: true
+			icon: "create:andesite_alloy"
+			id: "6630D0DB1BC654FF"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "2BF43E84602048DB"
+				title: "Mechanical Age"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6630D0DB1BC654FF"]
+			hide_dependency_lines: true
+			icon: "create:brass_ingot"
+			id: "3EEC77BAE1DEA2B0"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "49AB62733059B65A"
+				title: "Logistical Age"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14F1147ADDE4ACC3"]
+			id: "36278553504B861D"
+			tasks: [{
+				id: "67294C97F99C49C2"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["14F1147ADDE4ACC3"]
+			id: "14595BDF3C6C15D8"
+			tasks: [{
+				id: "1052F009F1C803D3"
+				item: "createoreexcavation:sample_drill"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3EEC77BAE1DEA2B0"]
+			id: "1B7471D5E828E16D"
+			tasks: [{
+				id: "12A9CB7B8DE06885"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EEC77BAE1DEA2B0"]
+			id: "052C7C6BF0F142FC"
+			tasks: [{
+				id: "6FB608AE6D81CFB9"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EEC77BAE1DEA2B0"]
+			id: "243DACC055C59769"
+			tasks: [
+				{
+					id: "5E49B3754C2B6889"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "595772BF586D2A67"
+					item: "minecraft:lava_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EEC77BAE1DEA2B0"]
+			hide_dependency_lines: true
+			icon: "tfmg:cast_iron_ingot"
+			id: "14F1147ADDE4ACC3"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "3BFF63DD536DE8B7"
+				title: "Industrial Age"
+				type: "checkmark"
+			}]
+			title: "Industrial Age"
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14F1147ADDE4ACC3"]
+			id: "7B90E01D53CA377B"
+			tasks: [
+				{
+					id: "6B8203E423F3F56C"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "45687F276F16665A"
+					item: "minecraft:lava_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3EEC77BAE1DEA2B0"]
+			id: "0EA38C9B6845DDE3"
+			tasks: [
+				{
+					id: "2C45C71D13F2BE3B"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "02D42583EE5EB2D9"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EEC77BAE1DEA2B0"]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "780C740A8F842802"
+			tasks: [{
+				id: "66D1FFA05488FC14"
+				title: "Manual Extraction"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["14F1147ADDE4ACC3"]
+			id: "44C69AC88EDC6EC9"
+			tasks: [{
+				id: "74A78109196E553D"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14F1147ADDE4ACC3"]
+			id: "42808AF2EDBE945C"
+			tasks: [
+				{
+					id: "5C30E95AD6F50681"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					id: "5CE7EB866AE0B995"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14F1147ADDE4ACC3"]
+			id: "5CC5CB100C78CF00"
+			tasks: [{
+				id: "6A1629A1F5019DA9"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+	]
 	title: "Metallurgy"
 }

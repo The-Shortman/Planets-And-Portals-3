@@ -10,6 +10,7 @@
           D: "create_new_age:heat_pipe",
         },
         output: "ad_astra:launch_pad",
+        id: "launch_pad_maybe",
       },
       {
         pattern: ["ABA", "BAB", "ABA"],
@@ -18,6 +19,7 @@
           B: "tfmg:cast_iron_ingot",
         },
         output: "ad_astra:launch_pad",
+        id: "launch_pad",
       },
       {
         pattern: ["ABA", "BCB", "ABA"],
@@ -27,6 +29,7 @@
           C: "tfmg:steel_fluid_tank",
         },
         output: "tfmg:steel_distillation_output",
+        id: "steel_distillation_output",
       },
       {
         pattern: [" AB", "CDA", "EC "],
@@ -38,6 +41,7 @@
           E: "create_new_age:overcharged_diamond",
         },
         output: "createoreexcavation:diamond_drill",
+        id: "diamond_drill",
       },
       {
         pattern: ["  A  ", " BCB ", " DED ", " FGF ", "HFIFH", "H J H"],
@@ -54,6 +58,7 @@
           J: "ad_astra:steel_engine",
         },
         output: "ad_astra:tier_1_rocket",
+        id: "t1_rocket",
       },
       {
         pattern: ["  A  ", " BCB ", " DED ", " FGF ", "HFIFH", "H J H"],
@@ -70,15 +75,14 @@
           J: "ad_astra:desh_engine",
         },
         output: "ad_astra:tier_2_rocket",
+        id: "t2_rocket",
       },
     ];
 
     mechanicalCraftingRecipes.forEach((recipe) => {
-      event.recipes.create.mechanical_crafting(
-        recipe.output,
-        recipe.pattern,
-        recipe.key
-      );
+      event.recipes.create
+        .mechanical_crafting(recipe.output, recipe.pattern, recipe.key)
+        .id(`kubejs:create/mechanical_crafting/${recipe.id}`);
     });
   });
 })();
