@@ -58,7 +58,7 @@
         id: "smoker",
       },
       {
-        pattern: ["AAA", "A A", "BBB"],
+        pattern: ["ABA", "B B", "ABA"],
         key: {
           A: "#forge:cobblestone",
           B: "#forge:raw_materials",
