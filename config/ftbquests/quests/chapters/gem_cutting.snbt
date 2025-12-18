@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "gem_cutting"
 	group: "69C6C562BC012F34"
-	hide_quest_until_deps_complete: true
 	icon: "minecraft:diamond"
 	id: "75E1D6D0B87444DC"
 	order_index: 1
@@ -11,6 +10,7 @@
 	quests: [
 		{
 			dependencies: ["5D1D731EE5F5FA7E"]
+			hide_until_deps_complete: true
 			id: "2100DC12D25F579C"
 			size: 2.0d
 			subtitle: "Processes are subject to change!"

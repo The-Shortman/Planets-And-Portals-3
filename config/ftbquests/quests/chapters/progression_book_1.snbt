@@ -159,8 +159,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 8.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["5EEE72EE808F1AE3"]
@@ -171,7 +171,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: -1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["50EAF870216F4134"]
@@ -181,7 +181,7 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.0d
 			y: -3.0d
 		}
 		{
@@ -193,7 +193,7 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 14.5d
 			y: -3.0d
 		}
 		{
@@ -208,7 +208,7 @@
 			}]
 			title: "Raw Gold"
 			x: -0.5d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -224,7 +224,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6829C762D39BEBFB"]
@@ -234,7 +234,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.0d
 			y: 3.0d
 		}
 		{
@@ -245,8 +245,8 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.5d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -260,7 +260,7 @@
 				item: "create:copper_sheet"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 8.5d
 			y: 3.0d
 		}
 		{
@@ -274,8 +274,8 @@
 				item: "create:golden_sheet"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 1.5d
+			x: 7.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["65786A5303A5A30C"]
@@ -307,7 +307,7 @@
 				}
 			]
 			title: "Engineer's Gear"
-			x: 11.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -321,7 +321,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -336,24 +336,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["1679A823F116353A"]
-			description: [
-				"Zinc can't be washed nor can it be smelted in a furnace, it requires some slightly more intense conditions. Use a mechanical fan with some lava to blast it!"
-				""
-				"This method can also be used on iron."
-			]
-			id: "6FC6C410BFED34AE"
-			subtitle: "No furnace recipe?"
-			tasks: [{
-				id: "6398779A30674836"
-				item: "create:zinc_ingot"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
@@ -372,8 +355,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -3.0d
+			x: 14.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
@@ -385,8 +368,8 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -4.5d
+			x: 16.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6E44B94C9FE63CAF"]
@@ -398,8 +381,8 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -4.5d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["14DD14A15D92EB5F"]
@@ -411,7 +394,7 @@
 				item: "create:fluid_pipe"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.0d
 			y: 3.0d
 		}
 		{
@@ -422,7 +405,7 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: 1.5d
 		}
 		{
@@ -446,7 +429,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 8.5d
 			y: 4.5d
 		}
 		{
@@ -465,8 +448,8 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
-			y: 4.5d
+			x: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["65786A5303A5A30C"]
@@ -476,8 +459,8 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: 13.0d
-			y: 0.0d
+			x: 10.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["395D4B6B2AAE10CA"]
@@ -487,7 +470,7 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 11.5d
 			y: 3.0d
 		}
 		{
@@ -500,7 +483,7 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 13.0d
 			y: 0.0d
 		}
 		{
@@ -524,7 +507,7 @@
 				title: "Passive steam engine"
 				type: "checkmark"
 			}]
-			x: 14.5d
+			x: 13.0d
 			y: 1.5d
 		}
 		{
@@ -578,14 +561,14 @@
 				}
 			]
 			title: "Other useful machines"
-			x: 11.5d
-			y: -1.5d
+			x: 10.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
-				"6FC6C410BFED34AE"
 				"4BEDA9BDB2B8BE8E"
-				"53106D8F4F3FA380"
+				"1679A823F116353A"
+				"6829C762D39BEBFB"
 			]
 			description: ["Mix zinc and copper to make a brass mixture. Blast it with lava and..."]
 			id: "067A30C4375F22A6"
@@ -596,7 +579,7 @@
 				type: "item"
 			}]
 			title: "Brass Mixture"
-			x: 5.5d
+			x: 4.0d
 			y: 4.5d
 		}
 		{
@@ -637,7 +620,7 @@
 				title: "Metallurgy"
 				type: "checkmark"
 			}]
-			x: 8.5d
+			x: 10.0d
 			y: 6.0d
 		}
 		{
@@ -715,7 +698,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 13.0d
 			y: -4.5d
 		}
 		{
@@ -728,8 +711,8 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -7.5d
+			x: 19.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["0BBE79A422F392AE"]
@@ -746,8 +729,8 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
-			y: -6.0d
+			x: 20.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0BBE79A422F392AE"]
@@ -757,8 +740,8 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -7.5d
+			x: 20.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0BBE79A422F392AE"]
@@ -768,8 +751,8 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -9.0d
+			x: 19.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0BBE79A422F392AE"]
@@ -786,8 +769,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -6.0d
+			x: 17.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["0BBE79A422F392AE"]
@@ -797,8 +780,8 @@
 				item: "create:clutch"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.5d
+			x: 17.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0BBE79A422F392AE"]
@@ -816,8 +799,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: -9.0d
+			x: 19.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6B084540ABAFE35D"]
@@ -832,6 +815,17 @@
 			}]
 			x: 4.0d
 			y: -4.5d
+		}
+		{
+			dependencies: ["1679A823F116353A"]
+			id: "1FE990B3B7A450F0"
+			tasks: [{
+				id: "3821E15E327CA260"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
 		}
 	]
 	title: "The Mechanical Age"

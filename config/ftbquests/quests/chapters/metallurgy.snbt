@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "metallurgy"
 	group: "69C6C562BC012F34"
-	hide_quest_until_deps_complete: true
+	hide_quest_until_deps_visible: true
 	icon: "minecraft:anvil"
 	id: "12721B0EF87C8F46"
 	images: [
@@ -134,6 +134,7 @@
 		}
 		{
 			dependencies: ["046E536A9CD1A991"]
+			hide_until_deps_complete: true
 			icon: "create:andesite_alloy"
 			id: "6630D0DB1BC654FF"
 			shape: "octagon"
