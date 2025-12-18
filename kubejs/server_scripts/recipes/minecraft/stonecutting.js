@@ -66,23 +66,23 @@
     const manualStonecuttingRecipes = [
       {
         input: "create:andesite_alloy",
-        output: Item.of("andesite_table_cloth", 2),
-        id: "create:andesite_table_cloth",
+        output: Item.of("create:andesite_table_cloth", 2),
+        id: "andesite_table_cloth",
       },
       {
         input: "create:andesite_alloy",
-        output: Item.of("andesite_ladder", 2),
-        id: "create:andesite_ladder",
+        output: Item.of("create:andesite_ladder", 2),
+        id: "andesite_ladder",
       },
       {
         input: "create:andesite_alloy",
-        output: Item.of("andesite_bars", 4),
-        id: "create:andesite_bars",
+        output: Item.of("create:andesite_bars", 4),
+        id: "andesite_bars",
       },
       {
         input: "create:andesite_alloy",
-        output: Item.of("andesite_scaffolding", 2),
-        id: "create:andesite_scaffolding",
+        output: Item.of("create:andesite_scaffolding", 2),
+        id: "andesite_scaffolding",
       },
     ];
 
