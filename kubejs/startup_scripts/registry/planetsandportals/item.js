@@ -3,6 +3,38 @@
     //! Armour
     event.create("planetsandportals:the_badge", "chestplate").tier("the_badge");
 
+    //! Portaberries
+    event.create("planetsandportals:infernal_portaberries").food((food) => {
+      food
+        .hunger(0)
+        .saturation(0)
+        .effect("minecraft:fire_resistance", 600, 0, 1)
+        .effect("minecraft:slow_falling", 600, 0, 1)
+        .alwaysEdible()
+        .eaten((ctx) => {
+          const { player } = ctx;
+          let dim = player.getLevel().getDimension();
+
+          if (dim == "minecraft:overworld") {
+            let x = Math.floor(player.x / 8.0) + 0.5;
+            let y = 248.0;
+            let z = Math.floor(player.z / 8.0) + 0.5;
+            //prettier-ignore
+            Utils.server.runCommandSilent(
+              `execute in minecraft:the_nether run tp ${player.uuid} ${x} ${y} ${z}`
+            );
+          } else if (dim == "minecraft:the_nether") {
+            let x = Math.floor(player.x * 8.0) + 0.5;
+            let y = 248.0;
+            let z = Math.floor(player.z * 8.0) + 0.5;
+            //prettier-ignore
+            Utils.server.runCommandSilent(
+              `execute in minecraft:overworld run tp ${player.uuid} ${x} ${y} ${z}`
+            );
+          }
+        });
+    });
+
     //! Basic
     const basicItems = [
       // Crushed Ad Astra Ores
@@ -41,6 +73,21 @@
       {
         id: "planetsandportals:brass_mixture",
         name: "Brass Mixture",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:lavaberries",
+        name: "Lavaberries",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:soaked_lavaberries",
+        name: "Soaked Lavaberries",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:sand_encased_egg",
+        name: "Sand-Encased Egg",
         stackSize: 64,
       },
     ];

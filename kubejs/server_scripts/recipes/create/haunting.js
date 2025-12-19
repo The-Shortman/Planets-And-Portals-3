@@ -4,17 +4,22 @@
       {
         input: "minecraft:glass",
         output: "create:framed_glass",
-        id: "glass",
+        id: "framed_glass",
       },
       {
         input: "minecraft:charcoal",
         output: "minecraft:coal",
-        id: "charcoal",
+        id: "coal",
       },
       {
         input: "minecraft:blackstone",
         output: "minecraft:netherrack",
-        id: "blackstone",
+        id: "netherrack",
+      },
+      {
+        input: "planetsandportals:soaked_lavaberries",
+        output: "planetsandportals:infernal_portaberries",
+        id: "infernal_portaberries",
       },
     ];
 
