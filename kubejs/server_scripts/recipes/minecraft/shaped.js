@@ -229,6 +229,33 @@
         output: "create:mechanical_press",
         id: "mechanical_press",
       },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:copper_casing",
+          B: "minecraft:dried_kelp",
+          C: "create:brass_sheet",
+        },
+        output: "create:spout",
+        id: "spout",
+      },
+      {
+        pattern: [],
+        key: {
+          A: "create:shaft",
+          B: "create:brass_casing",
+          C: "create:propeller",
+        },
+      },
+      {
+        pattern: [" A ", "ABA", " A "],
+        key: {
+          A: "create:brass_sheet",
+          B: "create:andesite_alloy",
+        },
+        output: "create:propeller",
+        id: "fan_propeller",
+      },
 
       // Masterful Machinery
 
