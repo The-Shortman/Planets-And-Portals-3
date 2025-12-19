@@ -17,7 +17,7 @@
 			icon: "minecraft:oak_log"
 			id: "2BC7202742BC1535"
 			shape: "octagon"
-			size: 1.5d
+			size: 3.0d
 			subtitle: "I refuse to do a TerraFirmaCraft style early game"
 			tasks: [{
 				id: "7063A8C16B28CD0C"
@@ -32,7 +32,7 @@
 				type: "item"
 			}]
 			title: "Punch any tree"
-			x: -3.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -51,7 +51,7 @@
 				item: "minecraft:raw_iron"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 3.0d
 			y: -3.0d
 		}
 		{
@@ -64,7 +64,7 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -90,7 +90,7 @@
 					type: "item"
 				}
 			]
-			x: 2.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -106,7 +106,7 @@
 				item: "create:crushed_raw_iron"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 6.0d
 			y: -3.0d
 		}
 		{
@@ -119,7 +119,7 @@
 				item: "minecraft:raw_copper"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -135,7 +135,7 @@
 				item: "create:crushed_raw_copper"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -148,7 +148,7 @@
 				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: -3.0d
 		}
 		{
@@ -159,7 +159,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 12.0d
 			y: -3.0d
 		}
 		{
@@ -170,7 +170,7 @@
 				item: "create:iron_sheet"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.5d
 			y: -3.0d
 		}
 		{
@@ -181,7 +181,7 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 16.5d
 			y: -3.0d
 		}
 		{
@@ -193,7 +193,7 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 18.0d
 			y: -3.0d
 		}
 		{
@@ -207,7 +207,7 @@
 				type: "item"
 			}]
 			title: "Raw Gold"
-			x: -0.5d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -223,7 +223,7 @@
 				item: "create:crushed_raw_gold"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: -1.5d
 		}
 		{
@@ -234,7 +234,7 @@
 				item: "minecraft:copper_ingot"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 10.5d
 			y: 3.0d
 		}
 		{
@@ -245,7 +245,7 @@
 				item: "minecraft:gold_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
@@ -260,7 +260,7 @@
 				item: "create:copper_sheet"
 				type: "item"
 			}]
-			x: 8.5d
+			x: 12.0d
 			y: 3.0d
 		}
 		{
@@ -274,7 +274,7 @@
 				item: "create:golden_sheet"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
@@ -307,7 +307,7 @@
 				}
 			]
 			title: "Engineer's Gear"
-			x: 7.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -320,7 +320,7 @@
 				item: "create:raw_zinc"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 3.0d
 			y: 1.5d
 		}
 		{
@@ -335,7 +335,7 @@
 				item: "create:crushed_raw_zinc"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -355,7 +355,7 @@
 					type: "item"
 				}
 			]
-			x: 14.5d
+			x: 18.0d
 			y: 4.5d
 		}
 		{
@@ -368,7 +368,7 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 19.5d
 			y: -1.5d
 		}
 		{
@@ -381,7 +381,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 19.5d
 			y: 0.0d
 		}
 		{
@@ -394,7 +394,7 @@
 				item: "create:fluid_pipe"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.5d
 			y: 3.0d
 		}
 		{
@@ -405,7 +405,7 @@
 				item: "create:mechanical_pump"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
@@ -429,7 +429,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 12.0d
 			y: 4.5d
 		}
 		{
@@ -448,7 +448,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 10.5d
 			y: 6.0d
 		}
 		{
@@ -459,7 +459,7 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 13.5d
 			y: -1.5d
 		}
 		{
@@ -470,7 +470,7 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 15.0d
 			y: 3.0d
 		}
 		{
@@ -483,7 +483,7 @@
 				item: "minecraft:campfire"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 16.5d
 			y: 0.0d
 		}
 		{
@@ -507,7 +507,7 @@
 				title: "Passive steam engine"
 				type: "checkmark"
 			}]
-			x: 13.0d
+			x: 16.5d
 			y: 1.5d
 		}
 		{
@@ -524,7 +524,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
@@ -561,7 +561,7 @@
 				}
 			]
 			title: "Other useful machines"
-			x: 10.0d
+			x: 13.5d
 			y: -4.5d
 		}
 		{
@@ -579,7 +579,7 @@
 				type: "item"
 			}]
 			title: "Brass Mixture"
-			x: 4.0d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -593,15 +593,15 @@
 			]
 			id: "45449EC3BFE135C4"
 			shape: "gear"
-			size: 2.0d
+			size: 3.0d
 			subtitle: "EARLY GAME BRASS!!"
 			tasks: [{
 				id: "1D03AD13D77EB974"
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 6.0d
+			x: 7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4BEDA9BDB2B8BE8E"]
@@ -620,7 +620,7 @@
 				title: "Metallurgy"
 				type: "checkmark"
 			}]
-			x: 10.0d
+			x: 13.5d
 			y: 6.0d
 		}
 		{
@@ -645,7 +645,7 @@
 				}
 			]
 			title: "Furnaces"
-			x: -3.5d
+			x: 1.5d
 			y: -3.0d
 		}
 		{
@@ -663,8 +663,8 @@
 				type: "checkmark"
 			}]
 			title: "Ore vein generation"
-			x: -3.5d
-			y: 3.0d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
@@ -698,7 +698,7 @@
 					type: "item"
 				}
 			]
-			x: 16.0d
+			x: 19.5d
 			y: -4.5d
 		}
 		{
@@ -711,7 +711,7 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 22.5d
 			y: -3.0d
 		}
 		{
@@ -729,7 +729,7 @@
 					type: "item"
 				}
 			]
-			x: 20.5d
+			x: 24.0d
 			y: -1.5d
 		}
 		{
@@ -740,7 +740,7 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 24.0d
 			y: -4.5d
 		}
 		{
@@ -751,7 +751,7 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 22.5d
 			y: -1.5d
 		}
 		{
@@ -769,7 +769,7 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
+			x: 21.0d
 			y: -1.5d
 		}
 		{
@@ -780,7 +780,7 @@
 				item: "create:clutch"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 21.0d
 			y: -4.5d
 		}
 		{
@@ -799,7 +799,7 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
+			x: 22.5d
 			y: -4.5d
 		}
 		{
@@ -813,7 +813,7 @@
 				title: "Gemstones"
 				type: "checkmark"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: -4.5d
 		}
 		{
@@ -824,7 +824,7 @@
 				item: "create:zinc_ingot"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -838,8 +838,20 @@
 				title: "Useful Automations"
 				type: "checkmark"
 			}]
-			x: 11.5d
+			x: 15.0d
 			y: -6.0d
+		}
+		{
+			id: "0C8686D9FC31E527"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "754C54DC7591B2E4"
+				title: "Storage Solutions"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 0.0d
 		}
 	]
 	title: "The Mechanical Age"

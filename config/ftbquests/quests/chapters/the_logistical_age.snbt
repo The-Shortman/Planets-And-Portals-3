@@ -7,18 +7,194 @@
 	id: "6C21098434FA506F"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["45449EC3BFE135C4"]
-		id: "73145F7A60B570D9"
-		shape: "octagon"
-		size: 1.5d
-		tasks: [{
-			id: "66010DEEC09F5415"
-			item: "create:brass_ingot"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["45449EC3BFE135C4"]
+			id: "73145F7A60B570D9"
+			shape: "octagon"
+			size: 3.0d
+			tasks: [{
+				id: "66010DEEC09F5415"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73145F7A60B570D9"]
+			id: "36C9E3BEFD478E3E"
+			tasks: [{
+				id: "25EC9494EE6F2A91"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73145F7A60B570D9"]
+			id: "288254BD051F9334"
+			tasks: [{
+				id: "0721547008853717"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"36C9E3BEFD478E3E"
+				"01D4EFCAC0E7F886"
+			]
+			id: "157DF2DCD27553F2"
+			tasks: [{
+				id: "3D36C152ABBCD73D"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"36C9E3BEFD478E3E"
+				"288254BD051F9334"
+			]
+			id: "72692432503FCF85"
+			tasks: [{
+				id: "23F38005703C154E"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1FF68C2DED8D8273"
+				"66010DEEC09F5415"
+			]
+			id: "01D4EFCAC0E7F886"
+			tasks: [{
+				id: "153D92CA48863671"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"33D3B6ADEDF7DC83"
+				"72692432503FCF85"
+				"465529C79295FFFF"
+			]
+			id: "23C3E8FBF1DF4615"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "0B4A8FCE0D877B2D"
+				item: "planetsandportals:infernal_portaberries"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"15C4A5D524FBC55B"
+				"72692432503FCF85"
+			]
+			id: "33D3B6ADEDF7DC83"
+			tasks: [{
+				id: "60D1CBE96D809A22"
+				item: "planetsandportals:soaked_lavaberries"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"157DF2DCD27553F2"
+				"673235A3CD3F1FEB"
+			]
+			id: "15C4A5D524FBC55B"
+			tasks: [{
+				id: "7AE181F8CB5C13C5"
+				item: "planetsandportals:lavaberries"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66010DEEC09F5415"]
+			id: "673235A3CD3F1FEB"
+			tasks: [{
+				id: "3A198830A2D9A04C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "planetsandportals:berries"
+					}
+				}
+				title: "Any #planetsandportals:berries"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["414501968148DB60"]
+			id: "465529C79295FFFF"
+			tasks: [{
+				id: "76EA24648F78236B"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66010DEEC09F5415"]
+			id: "2FF14140EED4078F"
+			tasks: [{
+				id: "54F84B272A297EFB"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66010DEEC09F5415"]
+			id: "138FAC6AB8CA0017"
+			tasks: [{
+				id: "395103F550A4CEB7"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"138FAC6AB8CA0017"
+				"2FF14140EED4078F"
+			]
+			id: "414501968148DB60"
+			tasks: [{
+				id: "08878DC728C9F0DC"
+				item: "planetsandportals:sand_encased_egg"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
 	title: "The Logistical Age"
 }
