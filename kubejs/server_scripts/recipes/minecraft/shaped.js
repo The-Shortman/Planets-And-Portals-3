@@ -52,7 +52,7 @@
         pattern: ["ABA", "B B", "ABA"],
         key: {
           A: "#forge:cobblestone",
-          B: "#forge:planks",
+          B: "#minecraft:logs",
         },
         output: "minecraft:smoker",
         id: "smoker",
