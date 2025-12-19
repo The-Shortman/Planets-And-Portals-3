@@ -5,13 +5,6 @@
 
     //! Basic
     const basicItems = [
-      // Restricted Portals Key (end prevention)
-      {
-        id: "planetsandportals:end_prevention_placeholder",
-        name: "Placeholder Item",
-        stackSize: 1,
-      },
-
       // Crushed Ad Astra Ores
       {
         id: "planetsandportals:crushed_raw_desh", // Texture from Create Ad Astra Compat
@@ -58,28 +51,6 @@
         .displayName(item.name)
         .maxStackSize(item.stackSize ?? 64)
         .rarity(item.rarity ?? "common");
-    });
-
-    //! Cosmic Resonator
-
-    const cosmicResonatorItems = [
-      { id: "alpha", stage: "1", name: "Alpha" },
-      { id: "beta", stage: "1", name: "Beta" },
-      { id: "gamma", stage: "1", name: "Gamma" },
-      { id: "delta", stage: "1", name: "Delta" },
-      { id: "epsilon", stage: "1", name: "Epsilon" },
-    ];
-
-    cosmicResonatorItems.forEach((item) => {
-      event
-        .create(`planetsandportals:cosmic_resonator_${item.id}`, "basic")
-        .displayName(`Cosmic Resonator ${item.name}`)
-        .maxStackSize(1)
-        .rarity("epic")
-        .texture(
-          `planetsandportals:item/cosmic_resonator/tier_${item.stage}/${item.id}`
-        )
-        .fireResistant(true);
     });
 
     //! Create Sequenced Assembly transitional items

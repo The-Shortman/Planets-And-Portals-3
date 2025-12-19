@@ -476,58 +476,5 @@
         .shaped(recipe.output, recipe.pattern, recipe.key)
         .id(`kubejs:minecraft/shaped/${recipe.id}`);
     });
-
-    // Cosmic Resonator
-
-    const cosmicResonator = [
-      {
-        tier: "beta",
-        pattern: ["AAA", "ABA", "AAA"],
-        key: {
-          A: "minecraft:iron_block",
-          B: "planetsandportals:cosmic_resonator_alpha",
-        },
-      },
-      {
-        tier: "gamma",
-        pattern: ["ACA", "DBD", "ACA"],
-        key: {
-          A: "create:iron_sheet",
-          B: "planetsandportals:cosmic_resonator_beta",
-          C: "create:cogwheel",
-          D: "create:large_cogwheel",
-        },
-      },
-      {
-        tier: "delta",
-        pattern: [" A ", "ABA", " A "],
-        key: {
-          A: "create_new_age:copper_wire",
-          B: "planetsandportals:cosmic_resonator_gamma",
-        },
-      },
-      {
-        tier: "epsilon",
-        pattern: ["A", "B"],
-        key: {
-          A: "regions_unexplored:dorcel",
-          B: "planetsandportals:cosmic_resonator_delta",
-        },
-      },
-    ];
-
-    //TODO: Scrap Cosmic Resonator
-
-    cosmicResonator.forEach((recipe) => {
-      event
-        .shaped(
-          `planetsandportals:cosmic_resonator_${recipe.tier}`,
-          recipe.pattern,
-          recipe.key
-        )
-        .id(
-          `planetsandportals:cosmic_resonator_shaped_${recipe.tier}_manual_only`
-        );
-    });
   });
 })();
