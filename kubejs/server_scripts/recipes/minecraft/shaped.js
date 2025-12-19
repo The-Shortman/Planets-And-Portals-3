@@ -240,12 +240,14 @@
         id: "spout",
       },
       {
-        pattern: [],
+        pattern: ["A", "B", "C"],
         key: {
           A: "create:shaft",
           B: "create:brass_casing",
           C: "create:propeller",
         },
+        output: "create:encased_fan",
+        id: "encased_fan",
       },
       {
         pattern: [" A ", "ABA", " A "],

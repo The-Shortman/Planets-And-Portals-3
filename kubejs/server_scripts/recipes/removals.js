@@ -6,6 +6,7 @@
       { id: "create:crafting/kinetics/millstone" },
       { id: "create:crafting/kinetics/mechanical_press" },
       { id: "create:crafting/kinetics/encased_fan" },
+      { id: "create:crafting/kinetics/propeller" },
       // Iron progression tweaks
       { id: "create:splashing/crushed_raw_iron" },
       { id: "minecraft:iron_ingot_from_smelting_iron_ore" },
@@ -298,6 +299,10 @@
       { id: "tfmg:smelting/nickel_ingot_blasting" },
       { id: "tfmg:smelting/nickel_ingot_from_crushed_blasting" },
       { id: "tfmg:smelting/unfinished_insulator" },
+
+      //! Chapter 2 stuff
+      //Create
+      { id: "create:crafting/kinetics/spout" },
 
       // Minecraft
       { output: "minecraft:ladder" },
