@@ -4,32 +4,37 @@
       {
         input: "minecraft:raw_copper",
         output: "create:crushed_raw_copper",
-        id: "raw_copper",
+        id: "crushed_raw_copper",
       },
       {
         input: "minecraft:raw_iron",
         output: "create:crushed_raw_iron",
-        id: "raw_iron",
+        id: "crushed_raw_iron",
       },
       {
         input: "create:raw_zinc",
         output: "create:crushed_raw_zinc",
-        id: "raw_zinc",
+        id: "crushed_raw_zinc",
       },
       {
         input: "minecraft:raw_gold",
         output: "create:crushed_raw_gold",
-        id: "raw_gold",
+        id: "crushed_raw_gold",
       },
       {
         input: "minecraft:andesite",
         output: "planetsandportals:andesite_dust",
-        id: "andesite",
+        id: "andesite_dust",
       },
       {
         input: "regions_unexplored:redstone_bulb",
         output: Item.of("minecraft:redstone_dust", 4),
-        id: "redstone_bulb",
+        id: "redstone_dust_from_redstone_bulb",
+      },
+      {
+        input: "minecraft:quartz",
+        output: "mekanism:dust_quartz",
+        id: "quartz_dust",
       },
     ];
 

@@ -303,6 +303,8 @@
       //! Chapter 2 stuff
       //Create
       { id: "create:crafting/kinetics/spout" },
+      { id: "create:crafting/materials/rose_quartz" },
+      { id: "create:sandpaper_polishing/rose_quartz" },
 
       // Minecraft
       { output: "minecraft:ladder" },

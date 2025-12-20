@@ -3,8 +3,13 @@
     const splashingRecipes = [
       {
         input: "planetsandportals:lavaberries",
-        output: "planetsandportals:soaked_lavaberries",
+        outputs: "planetsandportals:soaked_lavaberries",
         id: "soaked_lavaberries",
+      },
+      {
+        input: "planetsandportals:rose_quartz_dust",
+        outputs: "create:rose_quartz",
+        id: "rose_quartz",
       },
     ];
 

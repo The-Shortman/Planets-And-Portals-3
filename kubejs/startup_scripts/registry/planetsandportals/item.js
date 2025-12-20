@@ -90,6 +90,11 @@
         name: "Sand-Encased Egg",
         stackSize: 64,
       },
+      {
+        id: "planetsandportals:rose_quartz_dust",
+        name: "Rose Quartz Dust",
+        stackSize: 64,
+      },
     ];
 
     basicItems.forEach((item) => {
@@ -106,6 +111,11 @@
       {
         id: "planetsandportals:unfinished_engine_frame",
         name: "Unfinished Engine Frame",
+        stackSize: 1,
+      },
+      {
+        id: "planetsandportals:unfinished_soul_sand",
+        name: "Unfinished Soul Sand",
         stackSize: 1,
       },
     ];

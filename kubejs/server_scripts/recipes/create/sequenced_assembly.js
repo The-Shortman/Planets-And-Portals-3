@@ -80,7 +80,7 @@
 
     createSequencedAssembly(event, {
       input: "planetsandportals:sand_encased_egg",
-      transitional: placehold,
+      transitional: "planetsandportals:unfinished_soul_sand",
       outputs: ["minecraft:soul_sand"],
     })
       .addPressingStep()
