@@ -28,7 +28,7 @@
       },
       {
         input: "regions_unexplored:redstone_bulb",
-        output: Item.of("minecraft:redstone_dust", 4),
+        output: Item.of("minecraft:redstone", 4),
         id: "redstone_dust_from_redstone_bulb",
       },
       {
