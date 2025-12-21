@@ -1,5 +1,11 @@
 (function planetsAndPortalsFluidRegistry() {
   StartupEvents.registry("fluid", (event) => {
+    event
+      .create("planetsandportals:wart_juice")
+      .displayName("Wart Juice")
+      .thinTexture(0xbc3e49)
+      .bucketColor(0xbc3e49);
+
     // Molten Materials
     event
       .create("planetsandportals:obsidian_solution")
