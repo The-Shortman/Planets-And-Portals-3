@@ -258,6 +258,47 @@
         output: "create:propeller",
         id: "fan_propeller",
       },
+      {
+        pattern: ["ABA", "BCB", "ABA"],
+        key: {
+          A: "create:brass_nugget",
+          B: "#minecraft:planks",
+          C: "create:water_wheel",
+        },
+        output: "create:large_water_wheel",
+        id: "large_water_wheel",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:polished_rose_quartz",
+          B: "tfmg:rubber_sheet",
+          C: "create:iron_sheet",
+        },
+        output: "create:electron_tube",
+        id: "electron_tube",
+      },
+      {
+        pattern: [" A ", "BCB", " D "],
+        key: {
+          A: "create:brass_casing",
+          B: "minecraft:dried_kelp_block",
+          C: "create:precision_mechanism",
+          D: "create:iron_sheet",
+        },
+        output: "create:elevator_pulley",
+        id: "elevator_pulley",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "#minecraft:wooden_slabs",
+          B: "create:brass_casing",
+          C: "create:precision_mechanism",
+        },
+        output: "create:clockwork_bearing",
+        id: "clockwork_bearing",
+      },
 
       // Masterful Machinery
 
@@ -303,20 +344,20 @@
           C: "tfmg:steel_casing",
           D: "minecraft:lightning_rod",
         },
-        output: "create_new_age:energiser_t1",
-        id: "energiser_t1",
+        output: "create_new_age:basic_energiser",
+        id: "basic_energiser",
       },
       {
         pattern: ["ABA", "ECE", " D "],
         key: {
           A: "create_new_age:overcharged_golden_sheet",
           B: "ad_astra:ostrum_plate",
-          C: "create_new_age:energiser_t1",
+          C: "create_new_age:basic_energiser",
           D: "ad_astra:desh_cable",
           E: "ad_astra:desh_nugget",
         },
-        output: "create_new_age:energiser_t2",
-        id: "energiser_t2",
+        output: "create_new_age:advanced_energiser",
+        id: "advanced_energiser",
       },
 
       // Create Ore Excavation
