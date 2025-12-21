@@ -37,7 +37,17 @@
 
     //! Basic
     const basicItems = [
-      // Crushed Ad Astra Ores
+      // Ore processing compat
+      {
+        id: "planetsandportals:dirty_zinc_dust",
+        name: "Dirty Zinc Dust",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:zinc_dust",
+        name: "Zinc Dust",
+        stackSize: 64,
+      },
       {
         id: "planetsandportals:crushed_raw_desh", // Texture from Create Ad Astra Compat
         name: "Crushed Desh Ore",
@@ -93,6 +103,16 @@
       {
         id: "planetsandportals:rose_quartz_dust",
         name: "Rose Quartz Dust",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:sticky_wart",
+        name: "Sticky Wart",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:stony_wart",
+        name: "Stony Wart",
         stackSize: 64,
       },
     ];
