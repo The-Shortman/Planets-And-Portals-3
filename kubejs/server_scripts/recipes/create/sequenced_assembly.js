@@ -81,10 +81,51 @@
     createSequencedAssembly(event, {
       input: "planetsandportals:sand_encased_egg",
       transitional: "planetsandportals:unfinished_soul_sand",
-      outputs: ["minecraft:soul_sand"],
+      outputs: [
+        Item.of("minecraft:soul_sand").withChance(1),
+        Item.of("minecraft:sand").withChance(7),
+      ],
     })
       .addPressingStep()
       .loops(20)
+      .build();
+
+    createSequencedAssembly(event, {
+      input: "create:rose_quartz",
+      transitional: placehold,
+      outputs: ["create:polished_rose_quartz"],
+    })
+      .addCuttingStep()
+      .addCuttingStep()
+      .addPressingStep()
+      .build();
+
+    createSequencedAssembly(event, {
+      input: "create:iron_sheet",
+      transitional: placehold,
+      outputs: ["create:electron_tube"],
+    })
+      .addDeployingStep("tfmg:rubber_sheet")
+      .addDeployingStep("create:polished_rose_quartz")
+      .build();
+
+    createSequencedAssembly(event, {
+      input: "create:brass_sheet",
+      transitional: "create:incomplete_precision_mechanism",
+      outputs: ["create:precision_mechanism"],
+    })
+      .addDeployingStep("create:shaft")
+      .addDeployingStep("create:electron_tube")
+      .addDeployingStep("create:crafter_slot_cover")
+      .build();
+
+    createSequencedAssembly(event, {
+      input: "create:brass_sheet",
+      transitional: placehold,
+      outputs: [Item.of("create:crafter_slot_cover", 3)],
+    })
+      .addCuttingStep()
+      .addCuttingStep()
       .build();
   });
 })();
