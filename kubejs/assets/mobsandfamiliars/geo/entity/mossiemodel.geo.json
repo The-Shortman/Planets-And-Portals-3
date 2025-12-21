@@ -16,33 +16,33 @@
 					"pivot": [0, 0, -4]
 				},
 				{
-					"name": "Body",
+					"name": "body",
 					"parent": "mossie",
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "Torso",
-					"parent": "Body",
+					"name": "torso",
+					"parent": "body",
 					"pivot": [0, 0, 0],
 					"cubes": [
 						{"origin": [-3, 0, -3], "size": [6, 4, 6], "uv": [0, 0]}
 					]
 				},
 				{
-					"name": "Head",
-					"parent": "Body",
-					"pivot": [0, 0, 0],
-					"cubes": [
-						{"origin": [-2, 0, -5], "size": [4, 3, 2], "uv": [0, 10]}
-					]
-				},
-				{
-					"name": "Tail",
-					"parent": "Body",
+					"name": "tail",
+					"parent": "body",
 					"pivot": [0, 0, -4],
 					"cubes": [
 						{"origin": [-2, 0, 3], "size": [4, 3, 2], "uv": [12, 10]},
 						{"origin": [-1, 0, 4], "size": [2, 2, 2], "uv": [0, 15]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "mossie",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-2, 0, -5], "size": [4, 3, 2], "uv": [0, 10]}
 					]
 				}
 			]
