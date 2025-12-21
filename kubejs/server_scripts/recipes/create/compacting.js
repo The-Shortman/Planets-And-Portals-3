@@ -5,16 +5,16 @@
     const compactingRecipes = [
       {
         input: "minecraft:nether_wart",
-        output: { fluid: "planetsandportals:wart_juice", amount: BUCKET / 10 },
+        output: { fluid: "planetsandportals:wart_juice", amount: 100 },
         heat: "heated",
         id: "wart_juice",
       },
       {
         input: [
           { fluid: "planetsandportals:wart_juice", amount: BUCKET / 2 },
-          { fluid: "create:honey", amount: BUCKET / 2 },
+          { fluid: "create:honey", amount: 50 },
         ],
-        output: "planetsandportals:sticky_wart",
+        output: Item.of("planetsandportals:sticky_wart", 5),
         id: "sticky_wart",
       },
       {
