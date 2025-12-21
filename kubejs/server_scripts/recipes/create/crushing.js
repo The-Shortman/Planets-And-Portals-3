@@ -13,7 +13,7 @@
       },
       {
         input: "create:crushed_raw_iron",
-        output: ["mekanism:dirty_dust_iron"],
+        output: [Item.of("mekanism:dirty_dust_iron", 2)],
         id: "dirty_iron_dust_from_crushed",
       },
       {
@@ -23,7 +23,7 @@
       },
       {
         input: "create:crushed_raw_gold",
-        output: ["mekanism:dirty_dust_gold"],
+        output: [Item.of("mekanism:dirty_dust_gold", 2)],
         id: "dirty_gold_dust_from_crushed",
       },
       {
@@ -33,7 +33,7 @@
       },
       {
         input: "create:crushed_raw_copper",
-        output: ["mekanism:dirty_dust_copper"],
+        output: [Item.of("mekanism:dirty_dust_copper", 2)],
         id: "dirty_copper_dust_from_crushed",
       },
       {
@@ -43,7 +43,7 @@
       },
       {
         input: "create:crushed_raw_zinc",
-        output: ["planetsandportals:dirty_zinc_dust"],
+        output: [Item.of("planetsandportals:dirty_zinc_dust", 2)],
         id: "dirty_zinc_dust_from_crushed",
       },
     ];
