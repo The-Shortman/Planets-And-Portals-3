@@ -127,5 +127,14 @@
       .addCuttingStep()
       .addCuttingStep()
       .build();
+
+    createSequencedAssembly(event, {
+      input: "mobsandfamiliars:mossie",
+      transitional: "mobsandfamiliars:watery_mossie",
+      outputs: ["mobsandfamiliars:plump_mossie"],
+    })
+      .addFillingStep({ fluid: "minecraft:water", amount: BUCKET })
+      .loops(5)
+      .build();
   });
 })();

@@ -32,6 +32,15 @@
         heat: "heated",
         id: "stony_wart",
       },
+      {
+        input: "create:blaze_burner",
+        output: [
+          { fluid: "planetsandportals:blaze_blood", amount: BUCKET / 2 },
+          "create:empty_blaze_burner",
+        ],
+        heat: "heated",
+        id: "blaze_blood",
+      },
     ];
 
     mixingRecipes.forEach((recipe) => {

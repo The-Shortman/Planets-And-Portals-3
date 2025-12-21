@@ -28,6 +28,12 @@
         output: "minecraft:andesite",
         id: "andesite_from_lava",
       },
+      {
+        input: ["create:empty_blaze_burner", "mobsandfamiliars:mossie"],
+        output: "create:blaze_burner",
+        heat: "heated",
+        id: "blaze_burner_from_mossie",
+      },
     ];
 
     compactingRecipes.forEach((recipe) => {
