@@ -9,6 +9,7 @@
       { id: "create:crafting/kinetics/propeller" },
       // Iron progression tweaks
       { id: "create:splashing/crushed_raw_iron" },
+      { id: "create:splashing/gravel" },
       { id: "minecraft:iron_ingot_from_smelting_iron_ore" },
       { id: "minecraft:iron_ingot_from_blasting_iron_ore" },
       { id: "minecraft:iron_ingot_from_smelting_deepslate_iron_ore" },
@@ -55,6 +56,8 @@
       { id: "create:crushing/asurine_recycling" },
       // Gold progression tweaks
       { id: "create:splashing/crushed_raw_gold" },
+      { id: "create:crushing/nether_gold_ore" },
+      { id: "create:crushing/gilded_blackstone" },
       { id: "minecraft:gold_ingot_from_smelting_gold_ore" },
       { id: "minecraft:gold_ingot_from_blasting_gold_ore" },
       { id: "minecraft:gold_ingot_from_smelting_deepslate_gold_ore" },
@@ -302,10 +305,20 @@
 
       //! Chapter 2 stuff
       //Create
+      { id: "create:compacting/andesite_from_flint" },
+      { id: "create:crafting/kinetics/clockwork_bearing" },
+      { id: "create:crafting/kinetics/elevator_pulley" },
+      { id: "create:crafting/kinetics/large_water_wheel" },
       { id: "create:crafting/kinetics/spout" },
+      { id: "create:crafting/materials/electron_tube" },
       { id: "create:crafting/materials/rose_quartz" },
       { id: "create:sandpaper_polishing/rose_quartz" },
+      { id: "create:splashing/soul_sand" },
+      // TFMG
+      { id: "tfmg:compacting/cast_iron" },
+      { id: "tfmg:vat_machine_recipe/rubber" },
 
+      //! Random
       // Minecraft
       { output: "minecraft:ladder" },
       { output: "minecraft:bookshelf" },
@@ -453,9 +466,9 @@
 
       // Create: New Age
       { output: "create_new_age:thorium" },
-      { output: "create_new_age:energiser_t1" },
-      { output: "create_new_age:energiser_t2" },
-      { output: "create_new_age:energiser_t3" },
+      { output: "create_new_age:basic_energiser" },
+      { output: "create_new_age:advanced_energiser" },
+      { output: "create_new_age:reinforced_energiser" },
       { output: "create_new_age:advanced_solar_heating_plate" },
 
       // Create Ore Excavation
