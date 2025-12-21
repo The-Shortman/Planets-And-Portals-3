@@ -321,6 +321,31 @@
         output: "tfmg:fireproof_brick",
         id: "fireproof_brick",
       },
+      {
+        input: "planetsandportals:sticky_wart",
+        output: "tfmg:rubber_sheet",
+        id: "rubber_sheet",
+      },
+      {
+        input: "mekanism:dust_iron",
+        output: "minecraft:iron_ingot",
+        id: "iron_ingot_from_dust",
+      },
+      {
+        input: "mekanism:dust_gold",
+        output: "minecraft:gold_ingot",
+        id: "gold_ingot_from_dust",
+      },
+      {
+        input: "mekanism:dust_copper",
+        output: "minecraft:copper_ingot",
+        id: "copper_ingot_from_dust",
+      },
+      {
+        input: "planetsandportals:zinc_dust",
+        output: "create:zinc_ingot",
+        id: "zinc_ingot_from_dust",
+      },
     ];
 
     blastingRecipes.forEach((recipe) => {
