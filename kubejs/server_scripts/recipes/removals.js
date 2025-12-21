@@ -310,6 +310,7 @@
       { id: "create:crafting/kinetics/elevator_pulley" },
       { id: "create:crafting/kinetics/large_water_wheel" },
       { id: "create:crafting/kinetics/spout" },
+      { id: "create:crafting/kinetics/windmill_bearing" },
       { id: "create:crafting/materials/electron_tube" },
       { id: "create:crafting/materials/rose_quartz" },
       { id: "create:sandpaper_polishing/rose_quartz" },

@@ -299,6 +299,16 @@
         output: "create:clockwork_bearing",
         id: "clockwork_bearing",
       },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "tfmg:rubber_sheet",
+          B: "#forge:stone",
+          C: "create:shaft",
+        },
+        output: "create:windmill_bearing",
+        id: "windmill_bearing",
+      },
 
       // Masterful Machinery
 
