@@ -1,7 +1,7 @@
 (function mobsandfamiliarsItemRegistry() {
   StartupEvents.registry("item", (event) => {
     event
-      .create("mobsandfamiliars:mossie", "basic")
+      .create("mobsandfamiliars:static_mossie", "basic")
       .displayName("Mossie")
       .maxStackSize(64);
 
