@@ -1,6 +1,7 @@
 {
 	chapter_groups: [
 		{ id: "532EC9E85F995F06", title: "Pre-Industry" }
+		{ id: "30A216F1693DCE58", title: "Industrial Expansion" }
 		{ id: "69C6C562BC012F34", title: "Index" }
 		{ id: "224D04C56FB33303", title: "---------------------" }
 		{ id: "34B8FB3F21E5817B", title: "Book 1 - Terragenesis &4[OUTDATED]" }

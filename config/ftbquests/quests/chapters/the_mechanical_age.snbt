@@ -1,0 +1,1420 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_mechanical_age"
+	group: "532EC9E85F995F06"
+	icon: "create:andesite_alloy"
+	id: "42DD95ECCCCD2C4A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome! This is where your progression begins, same as a typical Minecraft playthrough. Punch a tree and get some logs."]
+			icon: "minecraft:oak_log"
+			id: "2BC7202742BC1535"
+			rewards: [{
+				count: 2
+				id: "67AA408A5579B8D7"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "I refuse to do a TerraFirmaCraft style early game"
+			tasks: [{
+				id: "7063A8C16B28CD0C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Punch any tree"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: [
+				"Don't worry! You aren't crazy!"
+				""
+				"Raw metals can't be smelted as-is. You need to grind it up first before you can pack it into a furnace to get turned into a nicely baked ingot."
+				""
+				"Follow the questline to learn how to make a millstone."
+			]
+			id: "2D2CF91CDD25D91B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E7191CA463D7F6D"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Help! I can't smelt this!"
+			tasks: [{
+				id: "4A1D7950BB674F48"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: ["Andesite alloy doesn't require iron in this modpack. Instead, get yourself some grout. This can be crafted with sand, gravel, and clay, so I'd recommend setting up by a river."]
+			id: "49F88BFF272C28E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "065626B321658937"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Now without iron!"
+			tasks: [{
+				id: "3264B094B25F6548"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04239375E665E70E"]
+			description: [
+				"Put those muscles to work!"
+				""
+				"The millstone has a shaft attachment on its bottom face that allows you to directly power it without a cogwheel. Neat!"
+				""
+				"Using the handcrank depletes your hunger, and continuing to use it while starving can kill you depending on your difficulty setting!"
+			]
+			id: "7B098E8B56711166"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48917093652AEFD4"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Hand-grindin'"
+			tasks: [
+				{
+					id: "0B3F860DCC815CFA"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "14F22F743BCE07EE"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7B098E8B56711166"
+				"2D2CF91CDD25D91B"
+			]
+			description: ["Slam it in a furnace and watch the magic happen."]
+			id: "3E37A26B2D01AF21"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34D8750B148A22F6"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Finally, usable metals!"
+			tasks: [{
+				id: "3E85C08125381D87"
+				item: "create:crushed_raw_iron"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: ["Copper is vital for transporting fluids and some more advanced logistics later on. Gather a bunch of this stuff, you'll need it."]
+			id: "6468315FCDCBC306"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "567C8F9B963F3BDD"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Copper? Useful? In my Minecraft???"
+			tasks: [{
+				id: "6B736F92938B146C"
+				item: "minecraft:raw_copper"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7B098E8B56711166"
+				"6468315FCDCBC306"
+			]
+			description: ["Don't smelt all of this! You'll need some extra for making Brass in a minute."]
+			id: "6829C762D39BEBFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AECF33EA549E2FD"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Cuprum Bokum"
+			tasks: [{
+				id: "35061A4940EF5A51"
+				item: "create:crushed_raw_copper"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E37A26B2D01AF21"]
+			description: ["Iron is, as always, probably the most useful metal you have at your disposal. In the future, you'll have (and need) the infrastructure to produce a LOT of it."]
+			id: "6B084540ABAFE35D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "123B9E1D714E8EC2"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Iron my beloved"
+			tasks: [{
+				id: "67F113F7AF632698"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B084540ABAFE35D"]
+			description: [
+				"The Press is one of your most useful kinetic machines. "
+				""
+				"It allows you to press metals into sheets, smush things into other things, and compact items and fluids into blocks."
+			]
+			id: "5EEE72EE808F1AE3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28FA61F67893AC75"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Big slammer"
+			tasks: [{
+				id: "360E2BB4DC3F8CE8"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EEE72EE808F1AE3"]
+			description: ["Iron sheets are a vital product of iron, used in the majority of machines in one form or another. Keep well stocked on these!"]
+			id: "50EAF870216F4134"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6BB290CDA1EF333C"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "You can tell this gets used in half of the mod's recipes"
+			tasks: [{
+				id: "2A56632D162CE851"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["50EAF870216F4134"]
+			description: [
+				"The Saw can cut logs faster than the Drill. It also removes whole trees in one go. Give it a try in a forest with a Hand Crank!"
+				""
+				"Alternatively you can use it for automating (most) Stonecutter recipes - it has a filter slot on the side so you can choose which recipe you want. Use the List Filter item to pick the recipe if you don't already have the item you want!"
+				""
+				"It also has its own recipes unique to itself, such as Shafts, which are required to progress further."
+			]
+			id: "7DADFDDC9E69AC20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E88DAB43313702A"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Chop chop"
+			tasks: [{
+				id: "451B379B3D8F3A47"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7DADFDDC9E69AC20"]
+			description: ["Shafts can now be cut from Andesite Alloy, allowing you to make Cogwheels and move kinetic energy around much more easily."]
+			id: "55F39E3B00DAE2EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "578194240D6D5057"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "This late?"
+			tasks: [{
+				id: "2B8FEB226FE26BDA"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: ["Lootbugs sold separately."]
+			id: "4FFDF77885D875EB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A136DE28DF86126"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "We're rich! We're rich!"
+			tasks: [{
+				id: "2A1E90F80EE54107"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			title: "Raw Gold"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4FFDF77885D875EB"
+				"7B098E8B56711166"
+			]
+			description: ["Gold allows you to craft some quite useful items down the line, such as steam engines and Create's suite of tools and equipment!"]
+			id: "0AC0F1B01251534D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CDF2493EFCFA430"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "You get the gist now"
+			tasks: [{
+				id: "25042B617A2B5EFE"
+				item: "create:crushed_raw_gold"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6829C762D39BEBFB"]
+			id: "53106D8F4F3FA380"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DA5B8B51A65F9FA"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7F747E1C71A9E510"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0AC0F1B01251534D"]
+			id: "582B2553E215BFDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0739965C96133CD0"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Shiny!"
+			tasks: [{
+				id: "2BF6FB0013DB1E6B"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"53106D8F4F3FA380"
+				"5EEE72EE808F1AE3"
+			]
+			description: ["The Copper Sheet is another vital ingredient used almost everywhere."]
+			id: "14DD14A15D92EB5F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "738FEDD488B8BAB3"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Unwaxed Unweathered Pressed Copper Sheet"
+			tasks: [{
+				id: "1FF68C2DED8D8273"
+				item: "create:copper_sheet"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"582B2553E215BFDB"
+				"5EEE72EE808F1AE3"
+			]
+			id: "65786A5303A5A30C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33396BC6F1CF962C"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7824F6958C3E7262"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65786A5303A5A30C"]
+			id: "42728596E4B68ADB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "619D756D0A168F02"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "This is marked as optional but please invest in these it's so worth it"
+			tasks: [
+				{
+					id: "4139E90025F732AE"
+					item: "create:goggles"
+					type: "item"
+				}
+				{
+					id: "51999C908DF7B48A"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "47B6B485A5795623"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:toolboxes"
+						}
+					}
+					title: "Any #create:toolboxes"
+					type: "item"
+				}
+			]
+			title: "Engineer's Gear"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: ["Zinc isn't useful now, but it'll become a lot more useful soon, as its main usage is in alloying with copper to make brass."]
+			id: "38A2A7643B6C4F5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "543F1F6433D74F3F"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "First modded metal"
+			tasks: [{
+				id: "67D003132A5C7411"
+				item: "create:raw_zinc"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7B098E8B56711166"
+				"38A2A7643B6C4F5C"
+			]
+			description: [
+				"Zinc is currently only useful for alloying with Copper to make Brass."
+				""
+				"Don't worry, you'll find more uses for this stuff later on."
+			]
+			id: "1679A823F116353A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5324625A694E12E4"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Wow! This is worthless!"
+			tasks: [{
+				id: "37443171A75C6BDA"
+				item: "create:crushed_raw_zinc"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55F39E3B00DAE2EF"]
+			description: ["Chaining small and large cogwheels allows you to double or halve the speed of your system. Check the ponder index for a more detailed guide."]
+			id: "69D46D16B36DF0D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "450B36E2EB23299C"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Faster machines!"
+			tasks: [
+				{
+					id: "23B5462648F2727F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "0F650BD8403C98D6"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55F39E3B00DAE2EF"]
+			description: ["Finally, you can stop chowing down on those raw potatoes when you're pressing your iron sheets."]
+			id: "6E44B94C9FE63CAF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24C13C3279E00808"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "I hope you set up a food farm before all that hand cranking"
+			tasks: [{
+				id: "5B0670190506E1F9"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["14DD14A15D92EB5F"]
+			description: ["Pipes allow you to move fluids around, although they're pretty useless without pumps."]
+			id: "395D4B6B2AAE10CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "028BE7EA7104A418"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Beware the pipeline"
+			tasks: [{
+				id: "1FDDF21402F58C22"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"395D4B6B2AAE10CA"
+				"69D46D16B36DF0D4"
+			]
+			id: "3958D8D6C842EAB7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20171A0E60F1A349"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Now we're moving fluids!"
+			tasks: [{
+				id: "627D6336D09716CD"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["69D46D16B36DF0D4"]
+			description: [
+				"I honestly cannot tell you how often I've seen 'Mixing things up' used as a title and/or subtitle for the Mixer quest in modpacks, it is so overused."
+				""
+				"This machine needs to be spinning with at least 32 RPM, or it won't do anything. Better learn how to shift gears!"
+			]
+			id: "4BEDA9BDB2B8BE8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6EC8B2425D2B402D"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Let's mix things up"
+			tasks: [
+				{
+					id: "4E356BEA683D4A0A"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "06975E9C94004ACA"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4BEDA9BDB2B8BE8E"]
+			id: "300C9B39C4303BC6"
+			subtitle: "Using a Mixer and a Millstone, you can double your Andesite Alloy yields!"
+			tasks: [
+				{
+					id: "624031BA63738A6A"
+					item: "planetsandportals:andesite_dust"
+					type: "item"
+				}
+				{
+					id: "28C5C1142A5DB664"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["14DD14A15D92EB5F"]
+			description: ["These don't retain liquid when you break them, but they can be mounted to contraptions and moved around that way!"]
+			id: "2BDBCEABA69AFF46"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0822CA0B2A1913B8"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Big fluid storage"
+			tasks: [{
+				id: "6A955855AC788AFD"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49F88BFF272C28E9"]
+			description: [
+				"No but seriously this block looks kinda cool."
+				""
+				"It's also a vital crafting ingredient."
+			]
+			id: "04239375E665E70E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04D73DE16FE99E4A"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Overpriced building block"
+			tasks: [{
+				id: "006851B88632E181"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50EAF870216F4134"]
+			description: [
+				"The Harvester automatically harvests and replants crops such as Wheat or Carrots."
+				""
+				"The Plough can break blocks that don't have collision, such as Mushrooms, Grass, or Flowers. It can also convert Dirt into Farmland."
+				""
+				"The Drill breaks blocks in front of it."
+				""
+				"Super Glue sticks things together."
+				""
+				"Ponder them all for more information!"
+			]
+			id: "7F8252B36E67D31F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44E1526CA2BBCB89"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Automate everything!"
+			tasks: [
+				{
+					id: "4497F6FC8056B512"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "1874117B82E551D5"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					id: "10D0E3DDF6D069A2"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "40682F4A4E3D2406"
+					item: {
+						Count: 1
+						id: "create:super_glue"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Other useful machines"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4BEDA9BDB2B8BE8E"
+				"1679A823F116353A"
+				"6829C762D39BEBFB"
+			]
+			description: ["Mix Zinc and Copper to make a Brass Mixture. Smelt it in a furnace and..."]
+			id: "067A30C4375F22A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2548D47BF8D65088"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "We're going where no modpack has gone before (don't quote me on that)"
+			tasks: [{
+				id: "4B91F5D4D71F6DA1"
+				item: "planetsandportals:brass_mixture"
+				type: "item"
+			}]
+			title: "Brass Mixture"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["067A30C4375F22A6"]
+			description: [
+				"Feel the power flow through your veins, pre-Nether brass at your disposal."
+				""
+				"You can't do much with this now, as you probably don't have Electron Tubes yet, which unfortunately you need to go to the Nether for. We can fix that though."
+				""
+				"Completing this quest unlocks the next main progression chapter."
+			]
+			id: "45449EC3BFE135C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64954C1A76039AA2"
+				table_id: 5594425630407616416L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "EARLY GAME BRASS!!"
+			tasks: [{
+				id: "1D03AD13D77EB974"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4BEDA9BDB2B8BE8E"]
+			description: [
+				"As you progress you'll get better access to things like ore duplication to increase the yields of your metal refining."
+				""
+				"This quest unlocks a chapter dedicated to guiding you through how to achieve this."
+			]
+			icon: "minecraft:anvil"
+			id: "046E536A9CD1A991"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "How do I get better yields?"
+			tasks: [{
+				id: "45F9B536608FB833"
+				title: "Metallurgy"
+				type: "checkmark"
+			}]
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: [
+				"The Furnace has had a makeover (it definitely hasn't been removed and replaced with a rebranded Blast Furnace). "
+				""
+				"It smelts everything much quicker now, but can't do food. You need the Smoker for that."
+			]
+			id: "079D5A61E952C38C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7239335D4F3061B5"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Where's the OG?"
+			tasks: [
+				{
+					id: "371F0E10FBF1D3C7"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "163BEA40882EA8A2"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+			]
+			title: "Furnaces"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: [
+				"You may find large rocks around the surface with different types of ore embedded in them. Make a note of these because they're important later!"
+				""
+				"Underneath these rocks are deep, hidden deposits of ore which can only be extracted once you enter the Logistical Age."
+			]
+			icon: "minecraft:iron_ore"
+			id: "5FA3EF6CDA9E4087"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "291E94624656E1AC"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "This isn't Greg"
+			tasks: [{
+				id: "2FA0EC48A19395FC"
+				title: "I understand"
+				type: "checkmark"
+			}]
+			title: "Ore vein generation"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55F39E3B00DAE2EF"]
+			description: [
+				"Now we're going places! You can start moving items automatically between machines now."
+				""
+				"This quest opens up a few related items. Ponder them to see what they can do..."
+			]
+			id: "0BBE79A422F392AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52322CC86D19B689"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Moving items"
+			tasks: [{
+				id: "2692061E56AE95FE"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "38D659F80890F729"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "24AA307283EC9942"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Input/Output capabilities!"
+			tasks: [
+				{
+					id: "668B6F21B0462EE0"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "3EAD508EDCF6A42E"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "780F51BE9543E3ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EF5DF532099BFDC"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Keep things still"
+			tasks: [{
+				id: "23C10646C8704AC4"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "38634076D9A3EA17"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E429C659D8DF5F0"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Vertical logistics"
+			tasks: [{
+				id: "31DD2910D2EED22D"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "17F5BFC15E83B80A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0494D8DF090A8DB1"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Change direction"
+			tasks: [
+				{
+					id: "3BDB3331C014DDD1"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "4C343520962C01EA"
+					item: "create:gearshift"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			id: "67D1FFF19BEBF154"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09FFC23FE53E53B6"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Stop your factory with a single switch"
+			tasks: [{
+				id: "736A255A7E90C72A"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BBE79A422F392AE"]
+			description: ["These have some neat extra capabilites that set them apart. Give them a ponder!"]
+			id: "19877E099B6D4239"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F3CDB2DB2B08523"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "A cross between cogwheels and belts"
+			tasks: [
+				{
+					id: "739A53C7EA3851EB"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+				{
+					id: "21CFFCA24AFC6A70"
+					item: "create:adjustable_chain_gearshift"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B084540ABAFE35D"]
+			description: [
+				"Gemstones have some extra processes that they need to go through to be processed into useful materials."
+				""
+				"This quest unlocks a chapter in the Index dedicated to guiding you through the processes."
+			]
+			icon: "minecraft:diamond"
+			id: "5D1D731EE5F5FA7E"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Extra assembly required"
+			tasks: [{
+				id: "44E18C8F3258BC69"
+				title: "Gemstones"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1679A823F116353A"]
+			id: "1FE990B3B7A450F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "387A8730E9335ABB"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3821E15E327CA260"
+				item: "create:zinc_ingot"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7F8252B36E67D31F"]
+			description: [
+				"Starting off with a few basic contraptions, you should set up some automations now so you don't have to do it later."
+				""
+				"This quest unlocks a chapter dedicated to guiding you with what automations you should set up, and when."
+			]
+			icon: "create:schematic_and_quill"
+			id: "1C28B4D46339503B"
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Let's get that factory going"
+			tasks: [{
+				id: "3D927AFCD7B3CABD"
+				title: "Useful Automations"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2BC7202742BC1535"]
+			description: ["This section offers some useful solutions to your worst storage nightmares."]
+			id: "0C8686D9FC31E527"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Tired of chest monsters?"
+			tasks: [{
+				id: "754C54DC7591B2E4"
+				title: "Storage Solutions"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C8686D9FC31E527"]
+			description: [
+				"Need to store a lot of one, two, or four item types in a single block? "
+				""
+				"Want a huge wall of storage that looks tidy and has some cool features, like auto-sorting items for you?"
+				""
+				"*Slaps storage drawer*"
+				"These bad boys can fit so many items."
+				""
+				"Place these in a huge wall with a Drawer Controller to link their inventories!"
+			]
+			id: "18021C923043504C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12EA5EA276C46CEE"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Warehouse incoming"
+			tasks: [{
+				id: "79C8731253B55AD7"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				title: "Any #storagedrawers:drawers"
+				type: "item"
+			}]
+			title: "Storage Drawers"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0C8686D9FC31E527"]
+			description: [
+				"If you don't like the look of the chest types, you can still craft vanilla chests by placing any chest type into your crafting grid. You can even mix and match planks!"
+				""
+				"There's also a recipe for bulk-crafting chests using 8 logs to turn into 4 chests. Neat!"
+			]
+			id: "36132C35B99DE184"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05FF9DA04F873D2C"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Maybe you do want a chest monster after all"
+			tasks: [{
+				id: "170CCB4DA6F35929"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests"
+					}
+				}
+				title: "Any #forge:chests"
+				type: "item"
+			}]
+			title: "Chests"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0C8686D9FC31E527"]
+			id: "1573500ACD0C4B68"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "167AA94AB6A724F3"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "Portable bonus inventory space"
+			tasks: [{
+				id: "60B4C3550B288B51"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["18021C923043504C"]
+			description: [
+				"The Drawer Controller allows you to manually insert items into your drawer wall. It'll sort your items for you!"
+				""
+				"The Drawer Controller IO is an access point for automation options for drawer walls."
+			]
+			id: "68ED8FD8A485D23D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11395632EF6A440B"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Automatic sorting and IO!"
+			tasks: [
+				{
+					id: "6AD217AB5632AF85"
+					item: "storagedrawers:controller"
+					type: "item"
+				}
+				{
+					id: "62F5738A6812E90E"
+					item: "storagedrawers:controller_slave"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["18021C923043504C"]
+			id: "00313C00CE6FD4C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52C5B90D50942A3E"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Configure your drawers' behaviour"
+			tasks: [
+				{
+					id: "10DEF2BCC0659DB9"
+					item: "storagedrawers:drawer_key"
+					type: "item"
+				}
+				{
+					id: "1CE55315CB1FB613"
+					item: "storagedrawers:quantify_key"
+					type: "item"
+				}
+				{
+					id: "03190EC777DDA443"
+					item: "storagedrawers:shroud_key"
+					type: "item"
+				}
+				{
+					id: "7DA78E6D1D3BB210"
+					item: "storagedrawers:personal_key"
+					type: "item"
+				}
+				{
+					id: "2F66473BD27F8429"
+					item: "storagedrawers:priority_key"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["00313C00CE6FD4C1"]
+			dependency_requirement: "one_started"
+			id: "5B117A5E36EFC02D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D5E06058C2CF8F6"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Store all your keys!"
+			tasks: [{
+				id: "68180B4B1635B42E"
+				item: "storagedrawers:keyring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["18021C923043504C"]
+			description: [
+				"Don't want to extract every item from indicidual drawers when you're rearranging your drawer wall? "
+				""
+				"The Drawer Puller has you sorted. Use it to take drawers out of their slots and rearrange them!"
+			]
+			id: "1C8DB8680F03BB20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F778B6227A132C7"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Move your drawers"
+			tasks: [
+				{
+					id: "33455B9303B619C6"
+					item: "storagedrawers:drawer_puller"
+					type: "item"
+				}
+				{
+					id: "2FE4C5B228D137CC"
+					item: {
+						Count: 1
+						id: "storagedrawers:detached_drawer"
+						tag: {
+							StorageMult: 32
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["18021C923043504C"]
+			description: ["These nifty drawers automatically compact your compactable resources into their block, ingot, or nugget form."]
+			id: "62B649DD84DA2AB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66808B8DFEBA6D2A"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Compactorinators"
+			tasks: [
+				{
+					id: "46B9A2E931852982"
+					item: "storagedrawers:compacting_drawers_3"
+					type: "item"
+				}
+				{
+					id: "4291823FAD8573B4"
+					item: "storagedrawers:compacting_drawers_2"
+					type: "item"
+				}
+				{
+					id: "520D4FDB120D5E65"
+					item: "storagedrawers:compacting_half_drawers_3"
+					type: "item"
+				}
+				{
+					id: "2BD4020A6B37B8E4"
+					item: "storagedrawers:compacting_half_drawers_2"
+					type: "item"
+				}
+			]
+			title: "Compacting Drawers"
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["18021C923043504C"]
+			id: "68B6EF50E73C1900"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "42F12C5B2AFB9B27"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Collect them all!"
+			tasks: [
+				{
+					id: "4109A9CC6EFA215B"
+					item: "storagedrawers:obsidian_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "60575218DC8520A9"
+					item: "storagedrawers:iron_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "3441B9261BBB8217"
+					item: "storagedrawers:gold_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "2917127E4750C1B0"
+					item: "storagedrawers:diamond_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "2AC7D9579D789182"
+					item: "storagedrawers:emerald_storage_upgrade"
+					type: "item"
+				}
+				{
+					id: "7A2917470DA0053D"
+					item: "storagedrawers:one_stack_upgrade"
+					type: "item"
+				}
+				{
+					id: "530204E2690DD254"
+					item: "storagedrawers:void_upgrade"
+					type: "item"
+				}
+				{
+					id: "2C5482BD71033FB8"
+					item: "storagedrawers:redstone_upgrade"
+					type: "item"
+				}
+				{
+					id: "2FA38D3FA0F82072"
+					item: "storagedrawers:min_redstone_upgrade"
+					type: "item"
+				}
+				{
+					id: "788D35C81124CB2E"
+					item: "storagedrawers:max_redstone_upgrade"
+					type: "item"
+				}
+				{
+					id: "6686B91FE1068440"
+					item: "storagedrawers:illumination_upgrade"
+					type: "item"
+				}
+				{
+					id: "1DF10D685F792D10"
+					item: "storagedrawers:fill_level_upgrade"
+					type: "item"
+				}
+				{
+					id: "6489E2D6FBE400B9"
+					item: "storagedrawers:balance_fill_upgrade"
+					type: "item"
+				}
+			]
+			title: "Drawer Upgrades"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1573500ACD0C4B68"]
+			description: ["Currently all backpack upgrades are unmodified. This will change in later builds as backpacks get integrated into progression!"]
+			id: "0E266D92CD92F83B"
+			subtitle: "Integration Soontm"
+			tasks: [{
+				id: "6B7FA55250A98C34"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+	]
+	title: "The Mechanical Age"
+}

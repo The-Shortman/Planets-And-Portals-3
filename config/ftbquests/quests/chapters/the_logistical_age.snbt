@@ -10,9 +10,15 @@
 	quests: [
 		{
 			dependencies: ["45449EC3BFE135C4"]
+			description: [
+				"Welcome to the Logistical Age!"
+				""
+				"Get your Brass together, because it's going to be useful for a bunch of powerful machines in a minute."
+			]
 			id: "73145F7A60B570D9"
 			shape: "octagon"
 			size: 3.0d
+			subtitle: "Let's get Brassy"
 			tasks: [{
 				id: "66010DEEC09F5415"
 				item: "create:brass_ingot"
@@ -24,17 +30,32 @@
 		{
 			dependencies: ["73145F7A60B570D9"]
 			id: "36C9E3BEFD478E3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "675E17433FA63B31"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Aw sheet, here we go again"
 			tasks: [{
 				id: "25EC9494EE6F2A91"
 				item: "create:brass_sheet"
 				type: "item"
 			}]
 			x: 3.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["73145F7A60B570D9"]
+			description: ["Used in many of the less basic kinetic machines."]
 			id: "288254BD051F9334"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "505215E0793EF946"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Casing #2"
 			tasks: [{
 				id: "0721547008853717"
 				item: "create:brass_casing"
@@ -48,21 +69,37 @@
 				"36C9E3BEFD478E3E"
 				"01D4EFCAC0E7F886"
 			]
+			description: ["Spouts haven't changed at all! They just look dapper now."]
 			id: "157DF2DCD27553F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21F4436B3DB29CC4"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Does my spout look big in this?"
 			tasks: [{
 				id: "3D36C152ABBCD73D"
 				item: "create:spout"
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
 				"36C9E3BEFD478E3E"
 				"288254BD051F9334"
 			]
+			description: ["The encased fan hasn't had any buffs, it just looks really fancy now."]
 			id: "72692432503FCF85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09711286BFF8F7DE"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Brassified!"
 			tasks: [{
 				id: "23F38005703C154E"
 				item: "create:encased_fan"
@@ -77,13 +114,20 @@
 				"66010DEEC09F5415"
 			]
 			id: "01D4EFCAC0E7F886"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DD5E7F42916398B"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Not just for Spouts"
 			tasks: [{
 				id: "153D92CA48863671"
 				item: "create:copper_casing"
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -91,9 +135,27 @@
 				"72692432503FCF85"
 				"465529C79295FFFF"
 			]
+			description: [
+				"You may or may not have noticed that the Nether Portal you're used to making doesn't work."
+				""
+				"Instead, you must craft Portaberries to move between dimensions easily. Eating an Infernal Portaberry will teleport you to the top of the world, where you will either get stuck in a wall in the Nether, or fall from the sky in the Overworld."
+				""
+				"Bring a Pickaxe so you don't suffocate, and spare berries so you can get back!"
+				""
+				"Upon entering the dimension, however, you get Feather Falling and Fire Resistance for 30 seconds, so don't worry about falling into Lava or anything. It's enough to save you from a fall down to sea level, but not much further."
+				""
+				"This also means you can immediately return to the Overworld or Nether at any point. The 8:1 Overworld to Nether travel ratio still applies, so make sure you know where your base is."
+			]
 			id: "23C3E8FBF1DF4615"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3227DC977EC82D8A"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "Portaberries?"
 			tasks: [{
 				id: "0B4A8FCE0D877B2D"
 				item: "planetsandportals:infernal_portaberries"
@@ -108,13 +170,20 @@
 				"72692432503FCF85"
 			]
 			id: "33D3B6ADEDF7DC83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EECA0CB50CA4EF9"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Yeah see they're fine"
 			tasks: [{
 				id: "60D1CBE96D809A22"
 				item: "planetsandportals:soaked_lavaberries"
 				type: "item"
 			}]
 			x: 7.5d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -122,17 +191,32 @@
 				"673235A3CD3F1FEB"
 			]
 			id: "15C4A5D524FBC55B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05D8A568CB8429B4"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "I'm sure the berries are fine"
 			tasks: [{
 				id: "7AE181F8CB5C13C5"
 				item: "planetsandportals:lavaberries"
 				type: "item"
 			}]
 			x: 6.0d
-			y: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["66010DEEC09F5415"]
+			description: ["You can find berries in many places, and some are easier to farm than others. Sweet berries are the best!"]
 			id: "673235A3CD3F1FEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72AEA54E5EA94FB9"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Berry nice to meet you"
 			tasks: [{
 				id: "3A198830A2D9A04C"
 				item: {
@@ -145,55 +229,958 @@
 				title: "Any #planetsandportals:berries"
 				type: "item"
 			}]
+			title: "Berries"
 			x: 6.0d
-			y: -3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["414501968148DB60"]
+			description: ["Now you can set this on fire to use it in Bulk Haunting!"]
 			id: "465529C79295FFFF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "594B0F3BC77A5894"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Wow that's convenient"
 			tasks: [{
 				id: "76EA24648F78236B"
 				item: "minecraft:soul_sand"
 				type: "item"
 			}]
 			x: 7.5d
-			y: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["66010DEEC09F5415"]
 			id: "2FF14140EED4078F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "36B0372DE7A3D293"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Sand under the table"
 			tasks: [{
 				id: "54F84B272A297EFB"
 				item: "minecraft:sand"
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["66010DEEC09F5415"]
 			id: "138FAC6AB8CA0017"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "11D2D1892D9D315B"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "What came first? The Chicken or the Egg?"
 			tasks: [{
 				id: "395103F550A4CEB7"
 				item: "minecraft:egg"
 				type: "item"
 			}]
 			x: 4.5d
-			y: 3.0d
+			y: -4.5d
 		}
 		{
 			dependencies: [
 				"138FAC6AB8CA0017"
 				"2FF14140EED4078F"
 			]
+			description: ["I hope nothing evil happens to that egg"]
 			id: "414501968148DB60"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57E74407F12712E3"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "There is a 1/8 chance a thrown Egg spawns a baby Chicken"
 			tasks: [{
 				id: "08878DC728C9F0DC"
 				item: "planetsandportals:sand_encased_egg"
 				type: "item"
 			}]
 			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23C3E8FBF1DF4615"]
+			description: [
+				"Quartz isn't automatable now, but it will be in the near future!"
+				""
+				"Stock up on a lot of this because it's required for some nifty machines."
+			]
+			id: "5E6CF1F9BDB99273"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E3E6FBDE6804F5F"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Silicon"
+			tasks: [{
+				id: "1D751C75CC17AA42"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["23C3E8FBF1DF4615"]
+			description: ["Nether wart is vital for some important recipes, so you'll definitely want to pick some up as you pass by the local Nether Fortress."]
+			id: "2EC58E2A27D1526D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3ECFD64476936895"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Warty recipes ahead"
+			tasks: [{
+				id: "78CAE421711C2DDD"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23C3E8FBF1DF4615"
+				"1E14ACC57054C992"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Mossies can be mashed into a Blaze Burner while being heated in a Basin, which turns them into... Blazes?"]
+			id: "7CF4295D8038FEE4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04CD11190DA89428"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "That has... implications"
+			tasks: [{
+				id: "4DC59B8BBFACA21D"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B4A8FCE0D877B2D"]
+			id: "3F1CE71F7678EA04"
+			subtitle: "Make sure you know your gemstone cutting"
+			tasks: [{
+				id: "76C2A0FC69C3A36C"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E6CF1F9BDB99273"]
+			id: "4B927500F9CA2E9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18E91DE85BB542EF"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Back on the grind"
+			tasks: [{
+				id: "4597CE31D86D38FF"
+				item: "mekanism:dust_quartz"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4B927500F9CA2E9C"
+				"3F1CE71F7678EA04"
+			]
+			id: "3F7010963621DBA8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D3241E0D7F2771B"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "PINK!"
+			tasks: [{
+				id: "20C132F80756FCA4"
+				item: "planetsandportals:rose_quartz_dust"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3F7010963621DBA8"]
+			description: ["Washing the dust crystallises Rose Quartz into a solid shape."]
+			id: "7CEFAF2048987857"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D3D607466B37F11"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Crystallisation"
+			tasks: [{
+				id: "28EB85BE19B8B0E3"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7CEFAF2048987857"]
+			description: ["Rose Quartz can now be shaped into a useful cube."]
+			id: "506149AA98E9EB1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34809A77C691DF0C"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "PINK CUBE!"
+			tasks: [{
+				id: "738989EB7876D3EE"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2EC58E2A27D1526D"]
+			id: "131F7670C024579C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C5FB292B5FA5C8F"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Is this too gross?"
+			tasks: [{
+				id: "005F6F9409A96D30"
+				item: "planetsandportals:wart_juice_bucket"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"131F7670C024579C"
+				"357756DBE5F04B90"
+			]
+			id: "2F74AFE394C6B24D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0916E27247E0AAB9"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "I can't tell if this is too far"
+			tasks: [{
+				id: "518E35EF1AE2DF60"
+				item: "planetsandportals:stony_wart"
+				type: "item"
+			}]
+			x: 15.0d
 			y: 1.5d
+		}
+		{
+			dependencies: ["2F74AFE394C6B24D"]
+			description: ["You can turn Stony Wart into Lava using a Press over a Basin!"]
+			id: "37035A845CF8B46F"
+			tasks: [{
+				id: "6EA285F08C96EA61"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0B4A8FCE0D877B2D"
+				"7A33F0543A7D0B1E"
+			]
+			id: "7E3DFBFA20D90FFE"
+			subtitle: "Sticky situation"
+			tasks: [{
+				id: "1526BA544FE388EE"
+				item: "create:honey_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7E3DFBFA20D90FFE"
+				"131F7670C024579C"
+			]
+			description: ["This should be automated as Rubber is a very versatile material."]
+			id: "1CB73BF7CD4A38C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CEF19ADE23139A2"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Yeah this is a bit gross"
+			tasks: [{
+				id: "5A2EBEDAB627BBD3"
+				item: "planetsandportals:sticky_wart"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CB73BF7CD4A38C1"]
+			description: [
+				"Rubber is a great heat-resistant material, useful for sealing mechanisms and devices."
+				""
+				"It can also be used in certain synthetic products."
+			]
+			id: "032AB0D2004D4672"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "47E892619D652943"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Seal things up"
+			tasks: [{
+				id: "58355A7E91F90FCA"
+				item: "tfmg:rubber_sheet"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["73145F7A60B570D9"]
+			description: ["The Large Water Wheel is heavily buffed from what you might be used to. It now generates 512 SU per Wheel!"]
+			id: "7977A0FA52E32D29"
+			subtitle: "Enhanced with Brass!"
+			tasks: [{
+				id: "69CCC1755C78C798"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"032AB0D2004D4672"
+				"506149AA98E9EB1B"
+			]
+			description: [
+				"Electron Tubes now don't need to shred through all your Sand Paper!"
+				""
+				"These are used in many logistical recipes, and for all of your new Brassy machines!"
+			]
+			id: "163DBB6FA7235F16"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20C86C3FBFCF5E43"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Not As Annoying"
+			tasks: [{
+				id: "46058208F4DF36E1"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["37035A845CF8B46F"]
+			description: ["It's almost possible to automate Andesite Alloy now."]
+			id: "0E433A3830F7ABD0"
+			subtitle: "Automatic Andesite!"
+			tasks: [{
+				id: "678BCBC56615C2A2"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["163DBB6FA7235F16"]
+			description: [
+				"Deployers can do a lot of things, such as placing blocks, using items, breaking blocks, and attacking entities."
+				""
+				"They're also used as a machine for making things!"
+			]
+			id: "49BE35DAD3C11504"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "352C75F19E51FA05"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Better than you at a lot of things, actually"
+			tasks: [{
+				id: "1E96119876861A18"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"163DBB6FA7235F16"
+				"41C5541D6740088A"
+				"49BE35DAD3C11504"
+			]
+			description: [
+				"The Precision Mechanism is your first Mechanism required for almost every machine at this stage of the game. As you progress, you will craft better mechanisms for better machines."
+				""
+				"Let's get automating!"
+			]
+			id: "44EFA3F284FA7E14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CB6950E05EAEF67"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "No more 20% random salvage"
+			tasks: [{
+				id: "56ACED7618BEB7E1"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46058208F4DF36E1"]
+			description: ["Saw a Brass Sheet twice to split it into three Slot covers."]
+			id: "41C5541D6740088A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14B23BB0AA8BB9D6"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "There is an easy recipe for these"
+			tasks: [{
+				id: "6A72DC468500DEA6"
+				item: "create:crafter_slot_cover"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["163DBB6FA7235F16"]
+			id: "7FAD97A8FEB006D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F14C08FDC941377"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Better Input/Output capabilities!"
+			tasks: [
+				{
+					id: "7CFF9A3D81ACA762"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "09659C8F442CA486"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+			]
+			x: 22.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["163DBB6FA7235F16"]
+			id: "53603BD026F2F625"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "573C879466B4384B"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Better vertical logistics"
+			tasks: [{
+				id: "68817690F7283595"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["163DBB6FA7235F16"]
+			id: "1CBF46CA08A47392"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F0BFCF0D67B9471"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Monitor different types of items and blocks"
+			tasks: [{
+				id: "71E2E5AF9BE568E4"
+				item: "create:content_observer"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["163DBB6FA7235F16"]
+			id: "73D99A094E2DFEF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E4F329922B938D9"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "Pair with a clutch to set a stock quota!"
+			tasks: [{
+				id: "7D0B63317AAC08E2"
+				item: "create:stockpile_switch"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49BE35DAD3C11504"]
+			description: ["There is a sequenced assembly recipe that allows you to assemble Electron Tubes automatically, without the need for Mechanical Crafters!"]
+			icon: "create:electron_tube"
+			id: "02F795A1F6E75441"
+			shape: "pentagon"
+			subtitle: "No Mechanical Crafters Required"
+			tasks: [{
+				id: "07AF44AE567032EC"
+				title: "Better Electron Tube Assembly"
+				type: "checkmark"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["49BE35DAD3C11504"]
+			description: [
+				"If you have access to a Blaze Spawner and some Deployers, you can automatically fill Blaze Burners with Blazes without the need for your constant presence, or a \"questionably humane\" moss creature farm."
+				""
+				"Simply set the deployer to use Empty Blaze Burners on a Blaze Spawner and it'll fill them right up!"
+			]
+			icon: "create:blaze_burner"
+			id: "65DE21153F761BD2"
+			shape: "pentagon"
+			subtitle: "An alternate Blaze Burner automation method"
+			tasks: [{
+				id: "11BDA779413C0F6D"
+				title: "Blaze Extraction"
+				type: "checkmark"
+			}]
+			x: 21.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44EFA3F284FA7E14"]
+			description: ["(Almost) Any crafting recipe can be done with these. Some crafting recipes &oneed&r to be done with these!"]
+			id: "2066350831397D08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "222BC44777FE1566"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Automate Automation"
+			tasks: [{
+				id: "357EB0179525E047"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2066350831397D08"]
+			id: "02E8407FD3A80665"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C18D2A5E6B5BCA9"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6C03FC6DF02C16E3"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["44EFA3F284FA7E14"]
+			id: "34C83D99897BE3AB"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57B135F5F092BD17"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "You've gotta love elevators, surely"
+			tasks: [{
+				id: "26ACAA79391FCF2C"
+				item: "create:elevator_pulley"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["44EFA3F284FA7E14"]
+			id: "424C4DBC25B955E1"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B23729BE4D7A093"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Anybody a fan of huge clocks?"
+			tasks: [{
+				id: "56C43B08363B2353"
+				item: "create:clockwork_bearing"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44EFA3F284FA7E14"]
+			description: ["Mechanical Arms are super useful for fueling Blaze Burners and moving items to places that are otherwise difficult to reach with Belts."]
+			id: "2373B10E661909D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "000200CED2D9612D"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Automatic insertion"
+			tasks: [{
+				id: "4B668C5D14AC9AA2"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44EFA3F284FA7E14"]
+			description: ["Tired of gearing up all your rotational sources? Slap a Large Cogwheel on top of this, and let it rip!"]
+			id: "5A3F70284E8FB0AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7ACE17297F523253"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Engineers hate him!"
+			tasks: [{
+				id: "362308BA7F0CD385"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02E8407FD3A80665"]
+			description: [
+				"Crushed ores can be put through Crushing Wheels to procude Dirty Dusts. These need to be washed with an Encased Fan before blasting."
+				""
+				"You &ocan&r crush Raw Ores directly, but you'll get much worse yields than if you use a Millstone to do the initial grind."
+			]
+			icon: "minecraft:iron_ore"
+			id: "5459B0FAC98F839C"
+			shape: "pentagon"
+			subtitle: "Dirty dusts"
+			tasks: [{
+				id: "29072FC1BCD910C1"
+				title: "Better Ore Processing"
+				type: "checkmark"
+			}]
+			x: 30.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72692432503FCF85"]
+			description: ["You can use Encased Fans to bulk blast Crushed Ores for you without the need for fuel. No need to keep that Furnace around anymore."]
+			icon: "minecraft:iron_ore"
+			id: "1F8206070DD0EED7"
+			shape: "pentagon"
+			subtitle: "...ish"
+			tasks: [{
+				id: "397491999F4DCBC7"
+				title: "Better Ore Processing"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02E8407FD3A80665"]
+			description: ["Wait wrong game"]
+			id: "715DF090D1C45326"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "736B42930FC9CE13"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "THY END IS NOW!"
+			tasks: [{
+				id: "358F8B7A92995D71"
+				item: "mekanism:dust_coal"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["715DF090D1C45326"]
+			description: [
+				"Congratulations! You've (hopefully) set up some of your first automation lines!"
+				""
+				"In the next chapter you'll automate ores and start managing fluids in a more involved capacity. Good luck!"
+			]
+			id: "3D777F02FBAA30E6"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Don't think about it too hard"
+			tasks: [{
+				id: "7995BD44A079B7CD"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B4A8FCE0D877B2D"]
+			id: "357756DBE5F04B90"
+			subtitle: "Have you automated this yet?"
+			tasks: [{
+				id: "4B5FDE37E67A8593"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B4A8FCE0D877B2D"]
+			description: ["Hook up some Pipes and a Pump to a Beehive and watch the Honey flow!"]
+			id: "7A33F0543A7D0B1E"
+			subtitle: "You can pump honey straight out of Beehives!"
+			tasks: [{
+				icon: "minecraft:beehive"
+				id: "68F9A6AD93BD096D"
+				observe_type: 0
+				timer: 0L
+				title: "Look at a Beehive"
+				to_observe: "minecraft:beehive"
+				type: "observation"
+			}]
+			title: "Beehive"
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["032AB0D2004D4672"]
+			description: ["The Windmill has been HEAVILY buffed compared to what you're used to. A Windmill with 128 Sails can generate over 32k SU!"]
+			id: "3D67FB25F31C76B4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78FF0C041ADCEA42"
+				table_id: 1637137211716645685L
+				type: "loot"
+			}]
+			subtitle: "Now we're getting power!"
+			tasks: [{
+				id: "1418D7AF48FCF01D"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["032AB0D2004D4672"]
+			description: [
+				"Rubber can be used to make substitutes for String and Leather. "
+				""
+				"If you automate Rubber, you can quite easily make the sails required for a Windmill!"
+			]
+			id: "241DF361086653CE"
+			subtitle: "Rubbery substitutes"
+			tasks: [
+				{
+					id: "1538F5A9CFD3DD9B"
+					item: "tfmg:synthetic_string"
+					type: "item"
+				}
+				{
+					id: "5387161FF799C4FF"
+					item: "tfmg:synthetic_leather"
+					type: "item"
+				}
+			]
+			title: "Synthetic Products"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02E8407FD3A80665"]
+			description: [
+				"Gravel can be crushed into Sand using Crushing Wheels. With that, Sand can be washed into Clay."
+				""
+				"Combine Gravel, Sand, and Clay in a Mixer to get Grout!"
+				""
+				"You can also make Powdered Andesite with Crushing Wheels to get the better yield."
+			]
+			id: "0877B13C3FCFEDA7"
+			shape: "pentagon"
+			subtitle: "CRUSH!"
+			tasks: [{
+				id: "726C39804F6815EB"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Automatic Andesite Alloy"
+			x: 28.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7CF4295D8038FEE4"]
+			description: ["Blaze Blood isn't used right now, but is very useful down the line. Might as well get a stockpile of it now if you have the resources."]
+			id: "705CEAE2DCBA7F78"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "051ADDCD498DAE82"
+				table_id: 2472966632232065416L
+				type: "loot"
+			}]
+			subtitle: "I'll take it"
+			tasks: [{
+				id: "7E22A071B8D27C35"
+				item: "planetsandportals:blaze_blood_bucket"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C899C0BE98ACD24"]
+			description: ["Punch them a few times to pick them up. Don't worry! They're supposed to do that!"]
+			id: "6A5C62062A07FDF3"
+			subtitle: "Portamossie"
+			tasks: [{
+				id: "375196CAA06F951B"
+				item: "mobsandfamiliars:static_mossie"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6A5C62062A07FDF3"
+				"157DF2DCD27553F2"
+			]
+			id: "117FA5C405294C8D"
+			subtitle: "Fill it with water"
+			tasks: [{
+				id: "306785910C2A0F47"
+				item: "mobsandfamiliars:plump_mossie"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["117FA5C405294C8D"]
+			id: "32EEDF0494FFD69F"
+			subtitle: "Smush it under a Press"
+			tasks: [{
+				id: "740B0822765499DF"
+				item: "mobsandfamiliars:flattened_mossie"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66010DEEC09F5415"]
+			description: ["Mossies can be found in Lush Caves underground."]
+			icon: "mobsandfamiliars:static_mossie"
+			id: "1C899C0BE98ACD24"
+			subtitle: "LOOK AT HIM GOOOOOO!!!"
+			tasks: [{
+				id: "1C87FC71B3FA1075"
+				observe_type: 5
+				timer: 0L
+				title: "Look at a Mossie"
+				to_observe: "mobsandfamiliars:mossie"
+				type: "observation"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["32EEDF0494FFD69F"]
+			id: "1E14ACC57054C992"
+			optional: true
+			progression_mode: "flexible"
+			subtitle: "Tada!"
+			tasks: [{
+				id: "5D907F9EDB947B38"
+				item: "mobsandfamiliars:static_mossie"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 4.5d
 		}
 	]
 	title: "The Logistical Age"
