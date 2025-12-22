@@ -18,14 +18,9 @@ Planets and Portals 3 has been completely rewritten from the ground up with a si
 
 Version v0.9 aims to begin the clean slate with a complete framework for the core progression, leading up to before the player embarks for the Moon. Content for Earth and the Nether should be ready to build upon and be fleshed out in patches after v0.9, this update simply serves for the main backbone of progression.
 
-Future releases (v0.10) will continue the
+Future releases (v0.10 and onwards) will continue the main progression beyond Earth.
 
 ### ADDITIONS
-
-#### Mod additions
-
-- Added GuideME `20.1.11`
-- Added Lithostitched `1.4.11`
 
 #### Gameplay-changing
 
@@ -33,6 +28,7 @@ Future releases (v0.10) will continue the
 - Added a standard metal processing system that is followed by all metals
 - Added a new chapter for gemcutting processes, separate to the metal lines
 - Added a new chapter for recommended automations at different stages of the game, which also includes the major progression automation lines as an overall guide
+- Added the Mossie @MrRumblz89
 
 #### Quality of life
 
@@ -57,6 +53,7 @@ Future releases (v0.10) will continue the
 
 - Fixed an error Mekanism throws in chat regarding a missing Venus Sandstone tag
 - Disabled EMI cheat mode being on by default
+- Fixed app icons on Linux and Windows being blurry
 
 #### Behind-the-scenes
 
