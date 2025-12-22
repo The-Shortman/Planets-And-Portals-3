@@ -36,6 +36,11 @@
         remove: "mekanism:sawdust",
         replace: "create:cardboard",
       },
+      {
+        filter: { input: "#forge:plates/iron" },
+        remove: "#forge:plates/iron",
+        replace: "create:iron_sheet",
+      },
     ];
 
     const outputReplacements = [
@@ -43,6 +48,11 @@
         filter: { output: "mekanism:sawdust" },
         remove: "mekanism:sawdust",
         replace: "create:cardboard",
+      },
+      {
+        filter: { input: "#forge:plates/iron" },
+        remove: "#forge:plates/iron",
+        replace: "create:iron_sheet",
       },
     ];
 

@@ -3,16 +3,51 @@
     //! Armour
     event.create("planetsandportals:the_badge", "chestplate").tier("the_badge");
 
+    //! Portaberries
+    event.create("planetsandportals:infernal_portaberries").food((food) => {
+      food
+        .hunger(0)
+        .saturation(0)
+        .effect("minecraft:fire_resistance", 600, 0, 1)
+        .effect("minecraft:slow_falling", 600, 0, 1)
+        .alwaysEdible()
+        .eaten((ctx) => {
+          const { player } = ctx;
+          let dim = player.getLevel().getDimension();
+
+          if (dim == "minecraft:overworld") {
+            let x = Math.floor(player.x / 8.0) + 0.5;
+            let y = 248.0;
+            let z = Math.floor(player.z / 8.0) + 0.5;
+            //prettier-ignore
+            Utils.server.runCommandSilent(
+              `execute in minecraft:the_nether run tp ${player.uuid} ${x} ${y} ${z}`
+            );
+          } else if (dim == "minecraft:the_nether") {
+            let x = Math.floor(player.x * 8.0) + 0.5;
+            let y = 248.0;
+            let z = Math.floor(player.z * 8.0) + 0.5;
+            //prettier-ignore
+            Utils.server.runCommandSilent(
+              `execute in minecraft:overworld run tp ${player.uuid} ${x} ${y} ${z}`
+            );
+          }
+        });
+    });
+
     //! Basic
     const basicItems = [
-      // Restricted Portals Key (end prevention)
+      // Ore processing compat
       {
-        id: "planetsandportals:end_prevention_placeholder",
-        name: "Placeholder Item",
-        stackSize: 1,
+        id: "planetsandportals:dirty_zinc_dust",
+        name: "Dirty Zinc Dust",
+        stackSize: 64,
       },
-
-      // Crushed Ad Astra Ores
+      {
+        id: "planetsandportals:zinc_dust",
+        name: "Zinc Dust",
+        stackSize: 64,
+      },
       {
         id: "planetsandportals:crushed_raw_desh", // Texture from Create Ad Astra Compat
         name: "Crushed Desh Ore",
@@ -50,6 +85,36 @@
         name: "Brass Mixture",
         stackSize: 64,
       },
+      {
+        id: "planetsandportals:lavaberries",
+        name: "Lavaberries",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:soaked_lavaberries",
+        name: "Soaked Lavaberries",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:sand_encased_egg",
+        name: "Sand-Encased Egg",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:rose_quartz_dust",
+        name: "Rose Quartz Dust",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:sticky_wart",
+        name: "Sticky Wart",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:stony_wart",
+        name: "Stony Wart",
+        stackSize: 64,
+      },
     ];
 
     basicItems.forEach((item) => {
@@ -60,34 +125,17 @@
         .rarity(item.rarity ?? "common");
     });
 
-    //! Cosmic Resonator
-
-    const cosmicResonatorItems = [
-      { id: "alpha", stage: "1", name: "Alpha" },
-      { id: "beta", stage: "1", name: "Beta" },
-      { id: "gamma", stage: "1", name: "Gamma" },
-      { id: "delta", stage: "1", name: "Delta" },
-      { id: "epsilon", stage: "1", name: "Epsilon" },
-    ];
-
-    cosmicResonatorItems.forEach((item) => {
-      event
-        .create(`planetsandportals:cosmic_resonator_${item.id}`, "basic")
-        .displayName(`Cosmic Resonator ${item.name}`)
-        .maxStackSize(1)
-        .rarity("epic")
-        .texture(
-          `planetsandportals:item/cosmic_resonator/tier_${item.stage}/${item.id}`
-        )
-        .fireResistant(true);
-    });
-
     //! Create Sequenced Assembly transitional items
 
     const transitionalItems = [
       {
         id: "planetsandportals:unfinished_engine_frame",
         name: "Unfinished Engine Frame",
+        stackSize: 1,
+      },
+      {
+        id: "planetsandportals:unfinished_soul_sand",
+        name: "Unfinished Soul Sand",
         stackSize: 1,
       },
     ];

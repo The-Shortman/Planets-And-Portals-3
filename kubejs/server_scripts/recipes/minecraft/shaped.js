@@ -52,7 +52,7 @@
         pattern: ["ABA", "B B", "ABA"],
         key: {
           A: "#forge:cobblestone",
-          B: "#forge:planks",
+          B: "#minecraft:logs",
         },
         output: "minecraft:smoker",
         id: "smoker",
@@ -229,6 +229,86 @@
         output: "create:mechanical_press",
         id: "mechanical_press",
       },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:copper_casing",
+          B: "minecraft:dried_kelp",
+          C: "create:brass_sheet",
+        },
+        output: "create:spout",
+        id: "spout",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:shaft",
+          B: "create:brass_casing",
+          C: "create:propeller",
+        },
+        output: "create:encased_fan",
+        id: "encased_fan",
+      },
+      {
+        pattern: [" A ", "ABA", " A "],
+        key: {
+          A: "create:brass_sheet",
+          B: "create:andesite_alloy",
+        },
+        output: "create:propeller",
+        id: "fan_propeller",
+      },
+      {
+        pattern: ["ABA", "BCB", "ABA"],
+        key: {
+          A: "create:brass_nugget",
+          B: "#minecraft:planks",
+          C: "create:water_wheel",
+        },
+        output: "create:large_water_wheel",
+        id: "large_water_wheel",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:polished_rose_quartz",
+          B: "tfmg:rubber_sheet",
+          C: "create:iron_sheet",
+        },
+        output: "create:electron_tube",
+        id: "electron_tube",
+      },
+      {
+        pattern: [" A ", "BCB", " D "],
+        key: {
+          A: "create:brass_casing",
+          B: "minecraft:dried_kelp_block",
+          C: "create:precision_mechanism",
+          D: "create:iron_sheet",
+        },
+        output: "create:elevator_pulley",
+        id: "elevator_pulley",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "#minecraft:wooden_slabs",
+          B: "create:brass_casing",
+          C: "create:precision_mechanism",
+        },
+        output: "create:clockwork_bearing",
+        id: "clockwork_bearing",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "tfmg:rubber_sheet",
+          B: "#forge:stone",
+          C: "create:shaft",
+        },
+        output: "create:windmill_bearing",
+        id: "windmill_bearing",
+      },
 
       // Masterful Machinery
 
@@ -274,20 +354,20 @@
           C: "tfmg:steel_casing",
           D: "minecraft:lightning_rod",
         },
-        output: "create_new_age:energiser_t1",
-        id: "energiser_t1",
+        output: "create_new_age:basic_energiser",
+        id: "basic_energiser",
       },
       {
         pattern: ["ABA", "ECE", " D "],
         key: {
           A: "create_new_age:overcharged_golden_sheet",
           B: "ad_astra:ostrum_plate",
-          C: "create_new_age:energiser_t1",
+          C: "create_new_age:basic_energiser",
           D: "ad_astra:desh_cable",
           E: "ad_astra:desh_nugget",
         },
-        output: "create_new_age:energiser_t2",
-        id: "energiser_t2",
+        output: "create_new_age:advanced_energiser",
+        id: "advanced_energiser",
       },
 
       // Create Ore Excavation
@@ -475,59 +555,6 @@
       event
         .shaped(recipe.output, recipe.pattern, recipe.key)
         .id(`kubejs:minecraft/shaped/${recipe.id}`);
-    });
-
-    // Cosmic Resonator
-
-    const cosmicResonator = [
-      {
-        tier: "beta",
-        pattern: ["AAA", "ABA", "AAA"],
-        key: {
-          A: "minecraft:iron_block",
-          B: "planetsandportals:cosmic_resonator_alpha",
-        },
-      },
-      {
-        tier: "gamma",
-        pattern: ["ACA", "DBD", "ACA"],
-        key: {
-          A: "create:iron_sheet",
-          B: "planetsandportals:cosmic_resonator_beta",
-          C: "create:cogwheel",
-          D: "create:large_cogwheel",
-        },
-      },
-      {
-        tier: "delta",
-        pattern: [" A ", "ABA", " A "],
-        key: {
-          A: "create_new_age:copper_wire",
-          B: "planetsandportals:cosmic_resonator_gamma",
-        },
-      },
-      {
-        tier: "epsilon",
-        pattern: ["A", "B"],
-        key: {
-          A: "regions_unexplored:dorcel",
-          B: "planetsandportals:cosmic_resonator_delta",
-        },
-      },
-    ];
-
-    //TODO: Scrap Cosmic Resonator
-
-    cosmicResonator.forEach((recipe) => {
-      event
-        .shaped(
-          `planetsandportals:cosmic_resonator_${recipe.tier}`,
-          recipe.pattern,
-          recipe.key
-        )
-        .id(
-          `planetsandportals:cosmic_resonator_shaped_${recipe.tier}_manual_only`
-        );
     });
   });
 })();

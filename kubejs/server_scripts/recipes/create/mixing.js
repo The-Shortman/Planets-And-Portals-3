@@ -3,52 +3,43 @@
   ServerEvents.recipes((event) => {
     const mixingRecipes = [
       {
-        inputs: [
-          { fluid: "minecraft:water", amount: BUCKET },
-          "create:powdered_obsidian",
-        ],
-        outputs: {
-          fluid: "planetsandportals:obsidian_solution",
-          amount: BUCKET,
-        },
-        id: "obsidian_solution",
-      },
-      {
-        inputs: ["planetsandportals:grout", "planetsandportals:andesite_dust"],
-        outputs: "2x create:andesite_alloy",
+        input: ["planetsandportals:grout", "planetsandportals:andesite_dust"],
+        output: "2x create:andesite_alloy",
         id: "andesite_alloy_efficient",
       },
       {
-        inputs: [
+        input: [
           "create:crushed_raw_zinc",
           Item.of("create:crushed_raw_copper", 2),
         ],
-        outputs: Item.of("planetsandportals:brass_mixture", 3),
+        output: Item.of("planetsandportals:brass_mixture", 3),
         id: "brass_mixture",
       },
       {
-        outputs: ["mekanism:ingot_lead"],
-        inputs: ["mekanism:dust_lead"],
-        heat: "heated",
-        id: "lead_ingot_from_dust",
+        input: [
+          Item.of("mekanism:dust_quartz", 1),
+          Item.of("minecraft:redstone", 3),
+        ],
+        output: Item.of("planetsandportals:rose_quartz_dust", 4),
+        id: "rose_quartz_dust",
       },
       {
-        outputs: ["mekanism:dust_refined_obsidian"],
-        inputs: ["mekanism:dust_obsidian", "ad_astra:ostrum_nugget"],
+        input: [
+          { fluid: "planetsandportals:wart_juice", amount: BUCKET / 2 },
+          Item.of("minecraft:cobblestone", 8),
+        ],
+        output: "planetsandportals:stony_wart",
         heat: "heated",
-        id: "refined_obsidian_dust",
+        id: "stony_wart",
       },
       {
-        outputs: ["mekanism:ingot_uranium"],
-        inputs: ["mekanism:dust_uranium"],
+        input: "create:blaze_burner",
+        output: [
+          { fluid: "planetsandportals:blaze_blood", amount: BUCKET / 2 },
+          "create:empty_blaze_burner",
+        ],
         heat: "heated",
-        id: "uranium_ingot_from_dust",
-      },
-      {
-        outputs: ["mekanism:alloy_infused"],
-        inputs: ["create:andesite_alloy", "mekanism:enriched_redstone"],
-        heat: "heated",
-        id: "infused_alloy",
+        id: "blaze_blood",
       },
     ];
 
@@ -56,13 +47,13 @@
       // kube throws a fit if you give heatRequirement an empty value unlike in 1.18.2
       if (recipe.heat != null) {
         event.recipes.create
-          .mixing(recipe.outputs, recipe.inputs)
+          .mixing(recipe.output, recipe.input)
           .heatRequirement(recipe.heat)
           .processingTime(recipe.time ?? 100)
           .id(`kubejs:create/mixing/${recipe.id}`);
       } else {
         event.recipes.create
-          .mixing(recipe.outputs, recipe.inputs)
+          .mixing(recipe.output, recipe.input)
           .processingTime(recipe.time ?? 100)
           .id(`kubejs:create/mixing/${recipe.id}`);
       }

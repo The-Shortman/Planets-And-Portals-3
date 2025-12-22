@@ -12,16 +12,23 @@ This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-
 
 ## v0.9-alpha [UNRELEASED]
 
+This release is being treated as a 'clean slate' so only the most significant reworks will be on this changelog.
+
+Planets and Portals 3 has been completely rewritten from the ground up with a similar modlist as versions v0.1 (Pre-release v001) through v0.8 - this time with a clear progression goal in mind.
+
+Version v0.9 aims to begin the clean slate with a complete framework for the core progression, leading up to before the player embarks for the Moon. Content for Earth and the Nether should be ready to build upon and be fleshed out in patches after v0.9, this update simply serves for the main backbone of progression.
+
+Future releases (v0.10 and onwards) will continue the main progression beyond Earth.
+
 ### ADDITIONS
-
-#### Mod additions
-
-- Added GuideME `20.1.11`
-- Added Lithostitched `1.4.11`
 
 #### Gameplay-changing
 
-> _Nothing to see here yet..._
+- Overhauled all progression to have a linear questline with multiple core automations
+- Added a standard metal processing system that is followed by all metals
+- Added a new chapter for gemcutting processes, separate to the metal lines
+- Added a new chapter for recommended automations at different stages of the game, which also includes the major progression automation lines as an overall guide
+- Added the Mossie @MrRumblz89
 
 #### Quality of life
 
@@ -37,100 +44,31 @@ This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-
 
 ### CHANGES
 
-#### Major mod updates
+#### Mod updates
 
-- Updated Forge `47.3.7 -> 47.4.6`
-- Updated Amendments `1.2.18 -> 2.0.3`
-- Updated Applied Energistics 2 `15.3.3 -> 15.4.7`
-- Updated Collective `7.94 -> 8.3`
-- Updated Create: Copycats+ `2.2.0 -> 3.0.2`
-- Updated Create: The Factory Must Grow `0.9.3 -> 1.0.2c`
-- Updated Create Ore Excavation `1.5.3 -> 1.6.4`
-- Updated Create Railways Navigator `0.7.2 -> 0.8.4-C6`
-- Updated Create `0.5.1j -> 6.0.6`
-- Updated Curios `5.12.1 -> 5.14.1`
-- Updated e4mc `5.3.0 -> 5.4.1`
-- Updated FancyMenu `3.4.6 -> 3.6.4`
-- Updated Fzzy Config `0.6.7 -> 0.7.2`
-- Updated Immersive Aircraft `1.2.2 -> 1.3.3`
-- Updated Immersive Melodies `0.4.0 -> 0.6.0`
-- Updated Jade Addons `5.3.1 -> 5.5.0`
-- Updated KubeJS Create `2001.2.5-build.2 -> 2001.3.0-build.8`
-- Updated LootJS `2.12.0 -> 2.13.0`
-- Updated Modernfix `5.20.2 -> 5.24.4`
-- Updated mutil `6.1.1 -> 6.2.0`
-- Updated Ponder for KubeJS `1.4.0 -> 2.0.6`
-- Updated Moonlight Lib `2.13.79 -> 2.15.6`
-- Updated Storage Drawers `12.9.13 -> 12.11.3`
-- Updated Tectonic `2.4.1 -> 3.0.6`
-
-#### Gameplay-changing
-
-- Overhauled chapter 1 progression
-
-#### Quality of life
-
-> _Nothing to see here yet..._
+- Updated Forge to `47.4.6`
+- Updated all mods to their most recent version as of `2025/12/21`
 
 #### Bug patches
 
 - Fixed an error Mekanism throws in chat regarding a missing Venus Sandstone tag
 - Disabled EMI cheat mode being on by default
-
-#### Minor mod updates
-
-- Updated Ad Astra `1.15.19 -> 1.15.20`
-- Updated Amplified Nether `1.2.5 -> 1.2.11`
-- Updated Balm `7.3.25 -> 7.3.34`
-- Updated Building Gadgets `1.0.7 -> 1.0.8`
-- Updated Chat Heads `0.13.13 -> 0.13.18`
-- Updated Corpse `1.0.20 -> 1.0.21`
-- Updated Create: New Age `1.1.2 -> 1.1.4`
-- Updated Create: Steam 'n' Rails `1.6.7 -> 1.6.11-alpha`
-- Updated Drippy Loading Screen `3.0.11 -> 3.0.12`
-- Updated Dynamic FPS `3.9.2 -> 3.9.5`
-- Updated EMI Loot `0.7.5+fix1 -> 0.7.6`
-- Updated EMI `1.1.20 -> 1.1.22`
-- Updated Exposure `1.7.10 -> 1.7.16`
-- Updated Extreme sound muffler `3.49 -> 3.49.1`
-- Updated FTB Chunks `2001.3.5 -> 2001.3.6`
-- Updated FTB Library `2001.2.9 -> 2001.2.10`
-- Updated FTB Quests `2001.4.12 -> 2001.4.14`
-- Updated FTB XMod Compat `2.1.2 -> 2.1.3`
-- Updated Just Enough Items `15.20.0.106 -> 15.20.0.112`
-- Updated JourneyMap Teams `1.1.0 -> 1.1.3`
-- Updated Mekanism Generators `10.4.15.75 -> 10.4.16.80`
-- Updated Mekanism `10.4.15.75 -> 10.4.16.80`
-- Updated MmmMmmMmmMmm `2.0.6 -> 2.0.8`
-- Updated MoreJS `0.10.0 -> 0.10.1`
-- Updated Not Enough Crashes `4.4.7 -> 4.4.9`
-- Updated Create: Numismatics `1.0.11 -> 1.0.15`
-- Updated Ping Wheel `1.10.1 -> 1.10.3`
-- Updated Polymorph `0.49.8 -> 0.49.10`
-- Updated Puzzles Lib `8.1.29 -> 8.1.32`
-- Updated Quark `4.0-461 -> 4.0-462`
-- Updated Snow Under Trees `1.4.9 -> 1.4.12`
-- Updated Sophisticated Backpacks `3.23.6.1211 -> 3.23.23.1289`
-- Updated Sophisticated Core `1.2.23.902 -> 1.2.79.1066`
-- Updated Stellar View `0.4.5 -> 0.4.6`
-- Updated Supplementaries `3.1.18 -> 3.1.36`
-- Updated Visual Workbench `8.0.0 -> 8.0.1`
-- Updated Zeta `1.0-28 -> 1.0-30`
+- Fixed app icons on Linux and Windows being blurry
 
 #### Behind-the-scenes
 
-- Refactored most of the code to a standard
-- Modified LICENSE.md to remove mentions of this project being a mod, not a modpack
+- Refactored most of the code to a standard consistent across the codebase - inspired by the Create: Astral refactor of 2.1.4
+- Modified LICENSE.md to remove mentions of this project being a mod, instead of what it is - a modpack
 
 ### REMOVALS
 
 #### Mod removals
 
 - Removed Tom's Simple Storage Mod `1.7.0` - the early/midgame logistics and storage solution has been replaced by Create `6.0.6` (Post-Processing)
-- Removed Masterful Machinery `0.1.15` as it is incompatible with Create `6.0+`, and has been replaced with Multiblocked2 `1.0.35`
 - Removed CC: Tweaked `1.113.1` as it is no longer updated on CurseForge and the version on CF is not compatible with Create `6.0+`
+  > Update: Create `6.0.8` actually fixes CC incompatibility, I will consider re-adding it at a later time
 - Removed Advanced Peripherals `0.7.41r` as it is dependent on CC: Tweaked
-- Removed Not Enough Recipe Book `0.4.1` as KubeJS can fulfil its function
+- Removed e4mc ` 5.4.1` because you can get it yourself and some people might not want their LAN worlds proxied halfway across the continent
 
 #### Gameplay changing
 

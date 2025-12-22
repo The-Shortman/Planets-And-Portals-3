@@ -3,8 +3,13 @@
     const cuttingRecipes = [
       {
         input: "create:andesite_alloy",
-        output: "8x create:shaft",
+        output: Item.of("create:shaft", 8),
         id: "shaft_from_andesite_alloy",
+      },
+      {
+        input: "mobsandfamiliars:flattened_mossie",
+        output: Item.of("mobsandfamiliars:mossie", 2),
+        id: "mossie_from_flat_mossie",
       },
     ];
 
