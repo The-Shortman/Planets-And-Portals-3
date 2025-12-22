@@ -1113,7 +1113,7 @@
 		}
 		{
 			dependencies: ["1C899C0BE98ACD24"]
-			description: ["Punch them a few times to pick them up. Don't worry! They're supposed to do that!"]
+			description: ["Punch them a few times to pick them up. Don't worry! They're supposed to do that - you can place them back down again."]
 			id: "6A5C62062A07FDF3"
 			subtitle: "Portamossie"
 			tasks: [{
@@ -1153,11 +1153,12 @@
 		}
 		{
 			dependencies: ["66010DEEC09F5415"]
-			description: ["Mossies can be found in Lush Caves underground."]
+			description: ["Mossies can be found in Lush Caves or Ancient Deltas underground, or in Jungle biomes above ground."]
 			icon: "mobsandfamiliars:mossie"
 			id: "1C899C0BE98ACD24"
 			subtitle: "LOOK AT HIM GOOOOOO!!!"
 			tasks: [{
+				icon: "mobsandfamiliars:mossie"
 				id: "1C87FC71B3FA1075"
 				observe_type: 5
 				timer: 0L
