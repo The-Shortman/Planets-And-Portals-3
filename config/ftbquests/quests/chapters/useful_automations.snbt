@@ -343,7 +343,7 @@
 			id: "2ECECA4353060DDF"
 			tasks: [{
 				id: "239AB089F38699FB"
-				item: "mobsandfamiliars:static_mossie"
+				item: "mobsandfamiliars:mossie"
 				type: "item"
 			}]
 			x: -10.5d

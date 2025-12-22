@@ -1,11 +1,6 @@
 (function mobsandfamiliarsItemRegistry() {
   StartupEvents.registry("item", (event) => {
     event
-      .create("mobsandfamiliars:static_mossie", "basic")
-      .displayName("Mossie")
-      .maxStackSize(64);
-
-    event
       .create("mobsandfamiliars:watery_mossie", "create:sequenced_assembly")
       .displayName("Watery Mossie")
       .maxStackSize(1);

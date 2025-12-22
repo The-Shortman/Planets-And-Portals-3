@@ -8,7 +8,7 @@
       },
       {
         input: "mobsandfamiliars:flattened_mossie",
-        output: Item.of("mobsandfamiliars:static_mossie", 2),
+        output: Item.of("mobsandfamiliars:mossie", 2),
         id: "mossie_from_flat_mossie",
       },
     ];

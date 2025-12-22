@@ -1118,7 +1118,7 @@
 			subtitle: "Portamossie"
 			tasks: [{
 				id: "375196CAA06F951B"
-				item: "mobsandfamiliars:static_mossie"
+				item: "mobsandfamiliars:mossie"
 				type: "item"
 			}]
 			x: 3.0d
@@ -1154,7 +1154,7 @@
 		{
 			dependencies: ["66010DEEC09F5415"]
 			description: ["Mossies can be found in Lush Caves underground."]
-			icon: "mobsandfamiliars:static_mossie"
+			icon: "mobsandfamiliars:mossie"
 			id: "1C899C0BE98ACD24"
 			subtitle: "LOOK AT HIM GOOOOOO!!!"
 			tasks: [{
@@ -1176,7 +1176,7 @@
 			subtitle: "Tada!"
 			tasks: [{
 				id: "5D907F9EDB947B38"
-				item: "mobsandfamiliars:static_mossie"
+				item: "mobsandfamiliars:mossie"
 				type: "item"
 			}]
 			x: 10.5d

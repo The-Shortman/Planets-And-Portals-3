@@ -29,7 +29,6 @@
     builder.canJump(true);
     builder.setWaterSlowDown(0.6);
     builder.followLeashSpeed(1.5);
-
     builder.isFood([
       "minecraft:moss_block",
       Ingredient.of("minecraft:moss_block"),

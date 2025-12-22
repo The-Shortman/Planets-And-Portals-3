@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "mobsandfamiliars:static_mossie",
+          "name": "mobsandfamiliars:mossie",
           "weight": 1,
           "conditions": [],
           "functions": [

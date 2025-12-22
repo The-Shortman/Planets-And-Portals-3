@@ -129,7 +129,7 @@
       .build();
 
     createSequencedAssembly(event, {
-      input: "mobsandfamiliars:static_mossie",
+      input: "mobsandfamiliars:mossie",
       transitional: "mobsandfamiliars:watery_mossie",
       outputs: ["mobsandfamiliars:plump_mossie"],
     })
