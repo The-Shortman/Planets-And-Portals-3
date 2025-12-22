@@ -1,7 +1,7 @@
 (function mobsandfamiliarsEntityRegistry() {
   StartupEvents.registry("entity_type", (event) => {
     const builder = event
-      .create("mobsandfamiliars:mossie", "entityjs:tamable")
+      .create("mobsandfamiliars:mossie", "entityjs:animal")
       .modelResource((entity) => {
         return "mobsandfamiliars:geo/entity/mossiemodel.geo.json";
       })
@@ -24,15 +24,12 @@
     builder.isPushable(true);
     builder.sized(0.5, 0.3);
     builder.modelSize(1, 1);
-    builder.mobCategory("creature");
+    builder.mobCategory("ambient");
     builder.setDeathSound("minecraft:entity.generic.death");
     builder.canJump(true);
     builder.setWaterSlowDown(0.6);
     builder.followLeashSpeed(1.5);
-    builder.tamableFood([
-      "minecraft:moss_block",
-      Ingredient.of("minecraft:moss_block"),
-    ]);
+
     builder.isFood([
       "minecraft:moss_block",
       Ingredient.of("minecraft:moss_block"),
@@ -48,6 +45,20 @@
       console.log(
         `${context.entity} mated with ${context.mate}! OwO what this? *blush*`
       );
+    });
+    builder.eggItem((item) => {
+      return "mobsandfamiliars:static_mossie";
+    });
+    builder.canBreed((entity) => {
+      // For example, check if the entity has reached maturity.
+      const baby = entity.isBaby();
+      // Assuming we want the entity to be able to breed only if it's an adult
+      return baby;
+    });
+    builder.setBreedOffspring((context) => {
+      const { entity, mate, level } = context;
+      // Use the context to return a ResourceLocation of an entity to spawn when the entity mates
+      return "mobsandfamiliars:mossie"; //Some Resourcelocation representing the entity to spawn.
     });
   });
   //Attributes for the mossies stats.
