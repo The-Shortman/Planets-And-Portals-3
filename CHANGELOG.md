@@ -14,6 +14,12 @@ This changelog was introduced for version `v0.9-alpha`. Versions prior to `v0.9-
 
 This release is being treated as a 'clean slate' so only the most significant reworks will be on this changelog.
 
+Planets and Portals 3 has been completely rewritten from the ground up with a similar modlist as versions v0.1 (Pre-release v001) through v0.8 - this time with a clear progression goal in mind.
+
+Version v0.9 aims to begin the clean slate with a complete framework for the core progression, leading up to before the player embarks for the Moon. Content for Earth and the Nether should be ready to build upon and be fleshed out in patches after v0.9, this update simply serves for the main backbone of progression.
+
+Future releases (v0.10) will continue the
+
 ### ADDITIONS
 
 #### Mod additions
@@ -45,7 +51,7 @@ This release is being treated as a 'clean slate' so only the most significant re
 #### Mod updates
 
 - Updated Forge to `47.4.6`
-- Updated all mods to their most recent version as much as possible without breaking anything as of `2025/12/21`
+- Updated all mods to their most recent version as of `2025/12/21`
 
 #### Bug patches
 
