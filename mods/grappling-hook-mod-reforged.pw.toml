@@ -1,0 +1,13 @@
+name = "Grappling Hook - Reforged"
+filename = "grapplingHookMod-Reforged-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa53625ab5e145c6aa196645335b062b37ae82da"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7087090
+project-id = 1166811
