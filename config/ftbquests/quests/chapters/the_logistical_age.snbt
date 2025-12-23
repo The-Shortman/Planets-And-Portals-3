@@ -524,7 +524,7 @@
 			subtitle: "Sticky situation"
 			tasks: [{
 				id: "1526BA544FE388EE"
-				item: "create:honey_bucket"
+				item: "minecraft:honey_bottle"
 				type: "item"
 			}]
 			x: 15.0d
