@@ -323,6 +323,12 @@
       // Minecraft
       { output: "minecraft:ladder" },
       { output: "minecraft:bookshelf" },
+      { output: "storagedrawers:oak_full_drawers_1" },
+      { output: "storagedrawers:oak_full_drawers_2" },
+      { output: "storagedrawers:oak_full_drawers_4" },
+      { output: "storagedrawers:oak_half_drawers_1" },
+      { output: "storagedrawers:oak_half_drawers_2" },
+      { output: "storagedrawers:oak_half_drawers_4" },
       { input: "minecraft:andesite", type: "create:crushing" },
       { output: "minecraft:furnace_minecart", input: "minecraft:minecart" },
       { output: "minecraft:furnace_minecart", input: "minecraft:iron_ingot" },

@@ -12,6 +12,60 @@
         id: "chest_mod_compat",
       },
       {
+        pattern: ["AAA", " B ", "AAA"],
+        key: {
+          A: ["#forge:planks", "minecraft:oak_planks"],
+          B: "#forge:chests/wooden",
+        },
+        output: "storagedrawers:oak_full_drawers_1",
+        id: "full_drawers_1_mod_compat",
+      },
+      {
+        pattern: ["ABA", "AAA", "ABA"],
+        key: {
+          A: ["#forge:planks", "minecraft:oak_planks"],
+          B: "#forge:chests/wooden",
+        },
+        output: Item.of("storagedrawers:oak_full_drawers_2", 2),
+        id: "full_drawers_2_mod_compat",
+      },
+      {
+        pattern: ["BAB", "AAA", "BAB"],
+        key: {
+          A: ["#forge:planks", "minecraft:oak_planks"],
+          B: "#forge:chests/wooden",
+        },
+        output: Item.of("storagedrawers:oak_full_drawers_4", 4),
+        id: "full_drawers_4_mod_compat",
+      },
+      {
+        pattern: ["AAA", " B ", "AAA"],
+        key: {
+          A: ["#forge:slabs/wooden", "minecraft:slab"],
+          B: "#forge:chests/wooden",
+        },
+        output: "storagedrawers:oak_half_drawers_1",
+        id: "half_drawers_1_mod_compat",
+      },
+      {
+        pattern: ["ABA", "AAA", "ABA"],
+        key: {
+          A: ["#forge:slabs/wooden", "minecraft:oak_slab"],
+          B: "#forge:chests/wooden",
+        },
+        output: Item.of("storagedrawers:oak_half_drawers_2", 2),
+        id: "half_drawers_2_mod_compat",
+      },
+      {
+        pattern: ["BAB", "AAA", "BAB"],
+        key: {
+          A: ["#forge:slabs/wooden", "minecraft:oak_slab"],
+          B: "#forge:chests/wooden",
+        },
+        output: Item.of("storagedrawers:oak_half_drawers_4", 4),
+        id: "half_drawers_4_mod_compat",
+      },
+      {
         pattern: ["AAA", "A A", "AAA"],
         key: {
           A: "#forge:logs",
