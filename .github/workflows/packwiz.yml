@@ -111,6 +111,8 @@ jobs:
           cd server
           java -jar ../packwiz-installer-bootstrap.jar -g -s server ../pack.toml
           rm -f packwiz-installer.jar
+          rm -f server.packwizignore
+          rm -f packwiz.json
           ls -l
           cd ../
 
