@@ -91,11 +91,12 @@ jobs:
         run: |
           cat server.packwizignore >> .packwizignore
           mv serverpack/* ./
-          ./packwiz refresh
-          mkdir server
 
           sed -i -e "s/MINECRAFT_VERSION/${{steps.get-game-versions.outputs.MINECRAFT_VERSION}}/g" forge-auto-install.txt
           sed -i -e "s/FORGE_VERSION/${{steps.get-game-versions.outputs.FORGE_VERSION}}/g" forge-auto-install.txt
+
+          ./packwiz refresh
+          mkdir server
 
       - name: 📥 Download packwiz installer bootstrap
         uses: robinraju/release-downloader@v1.10
