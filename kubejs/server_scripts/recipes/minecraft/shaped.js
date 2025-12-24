@@ -99,6 +99,14 @@
         output: "tfmg:fireclay",
         id: "fireclay_from_fireclay_ball",
       },
+      {
+        pattern: ["AA", "AA"],
+        key: {
+          A: "tfmg:synthetic_sting",
+        },
+        output: "minecraft:white_wool",
+        id: "wool_from_synthetic_string",
+      },
 
       // Vanilla
 
