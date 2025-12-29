@@ -6,41 +6,6 @@
 
   ServerEvents.recipes((event) => {
     createSequencedAssembly(event, {
-      input: "tfmg:steel_block",
-      transitional: "tfmg:unprocessed_heavy_plate",
-      outputs: ["tfmg:heavy_plate"],
-    })
-      .addPressingStep()
-      .addDeployingStep("create:sturdy_sheet")
-      .addPressingStep()
-      .addPressingStep()
-      .build();
-
-    createSequencedAssembly(event, {
-      input: "planetsandportals:steel_electrode",
-      transitional: "tfmg:unprocessed_heavy_plate",
-      outputs: ["tfmg:heavy_plate"],
-    })
-      .addFillingStep({
-        fluid: "planetsandportals:obsidian_solution",
-        amount: BUCKET / 2,
-      })
-      .addPressingStep()
-      .build();
-
-    createSequencedAssembly(event, {
-      input: "tfmg:heavy_plate",
-      transitional: "tfmg:unfinished_steel_mechanism",
-      outputs: ["tfmg:steel_mechanism"],
-    })
-      .addCuttingStep()
-      .addDeployingStep("create:cogwheel")
-      .addDeployingStep("tfmg:screw")
-      .addToolDeployingStep("tfmg:screwdriver")
-      .loops(4)
-      .build();
-
-    createSequencedAssembly(event, {
       input: "create:powdered_obsidian",
       transitional: "create:unprocessed_obsidian_sheet",
       outputs: [
@@ -52,30 +17,6 @@
       .addPressingStep()
       .addPressingStep()
       .loops(5)
-      .build();
-
-    createSequencedAssembly(event, {
-      input: "ad_astra:desh_block",
-      transitional: placehold,
-      outputs: ["ad_astra:desh_plate"],
-    })
-      .addPressingStep()
-      .addDeployingStep("tfmg:heavy_plate")
-      .addPressingStep()
-      .addPressingStep()
-      .build();
-
-    createSequencedAssembly(event, {
-      input: "tfmg:heavy_machinery_casing",
-      transitional: "planetsandportals:unfinished_engine_frame",
-      outputs: ["ad_astra:engine_frame"],
-    })
-      .addFillingStep({ fluid: "tfmg:cooling_fluid", amount: BUCKET })
-      .addDeployingStep("tfmg:screw")
-      .addToolDeployingStep("tfmg:screwdriver")
-      .addDeployingStep("tfmg:heavy_plate")
-      .addDeployingStep("tfmg:screw")
-      .addToolDeployingStep("tfmg:screwdriver")
       .build();
 
     createSequencedAssembly(event, {
@@ -92,7 +33,7 @@
 
     createSequencedAssembly(event, {
       input: "create:rose_quartz",
-      transitional: placehold,
+      transitional: "planetsandportals:unfinished_rose_quartz",
       outputs: ["create:polished_rose_quartz"],
     })
       .addCuttingStep()
@@ -102,7 +43,7 @@
 
     createSequencedAssembly(event, {
       input: "create:iron_sheet",
-      transitional: placehold,
+      transitional: "planetsandportals:incomplete_electron_tube",
       outputs: ["create:electron_tube"],
     })
       .addDeployingStep("tfmg:rubber_sheet")
@@ -121,7 +62,7 @@
 
     createSequencedAssembly(event, {
       input: "create:brass_sheet",
-      transitional: placehold,
+      transitional: "planetsandportals:incomplete_crafter_slot_cover",
       outputs: [Item.of("create:crafter_slot_cover", 3)],
     })
       .addCuttingStep()

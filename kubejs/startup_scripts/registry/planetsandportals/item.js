@@ -129,13 +129,23 @@
 
     const transitionalItems = [
       {
-        id: "planetsandportals:unfinished_engine_frame",
-        name: "Unfinished Engine Frame",
+        id: "planetsandportals:unfinished_soul_sand",
+        name: "Unfinished Soul Sand",
         stackSize: 1,
       },
       {
-        id: "planetsandportals:unfinished_soul_sand",
-        name: "Unfinished Soul Sand",
+        id: "planetsandportals:incomplete_crafter_slot_cover",
+        name: "Unfinished Crafter Slot Cover",
+        stackSize: 1,
+      },
+      {
+        id: "planetsandportals:unfinished_rose_quartz",
+        name: "Unfinished Rose Quartz",
+        stackSize: 1,
+      },
+      {
+        id: "planetsandportals:incomplete_electron_tube",
+        name: "Incomplete Electron Tube",
         stackSize: 1,
       },
     ];
