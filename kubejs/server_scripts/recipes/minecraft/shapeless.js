@@ -75,29 +75,6 @@
         id: "steel_furnace_energy_input",
       },
 
-      // Coke Oven
-
-      {
-        inputs: ["mm:coke_oven_filler", "create:display_board"],
-        output: "mm:coke_oven_controller",
-        id: "coke_oven_controller",
-      },
-      {
-        inputs: ["mm:coke_oven_filler", "create:andesite_funnel"],
-        output: "mm:coke_oven_item_output",
-        id: "coke_oven_item_output",
-      },
-      {
-        inputs: ["mm:coke_oven_filler", "create:brass_funnel"],
-        output: "mm:coke_oven_item_input",
-        id: "coke_oven_item_input",
-      },
-      {
-        inputs: ["mm:coke_oven_filler", "create:fluid_valve"],
-        output: "mm:coke_oven_fluid_output",
-        id: "coke_oven_fluid_output",
-      },
-
       // Fuel Mixer
 
       {

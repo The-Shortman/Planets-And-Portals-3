@@ -235,7 +235,7 @@
 				{
 					count: 5L
 					id: "635EE5F9D6F26464"
-					item: { Count: 5, id: "mm:coke_oven_filler" }
+					item: { Count: 5, id: "mbd2:coke_oven_filler" }
 					type: "item"
 				}
 			]

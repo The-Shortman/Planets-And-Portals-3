@@ -3,11 +3,6 @@
 
   MMEvents.registerControllers((event) => {
     event
-      .create("coke_oven_controller")
-      .name("Coke Oven Controller")
-      .type("mm:machine");
-
-    event
       .create("blast_furnace_controller")
       .name("Blast Furnace Controller")
       .type("mm:machine");
@@ -26,24 +21,6 @@
   //! Ports
 
   MMEvents.registerPorts((event) => {
-    // Coke oven
-
-    event
-      .create("coke_oven_item")
-      .name("Coke Oven Item")
-      .controllerId("mm:coke_oven_controller")
-      .config("mm:item", (c) => {
-        c.rows(1).columns(1);
-      });
-
-    event
-      .create("coke_oven_fluid")
-      .name("Coke Oven Byproduct")
-      .controllerId("mm:coke_oven_controller")
-      .config("mm:fluid", (c) => {
-        c.rows(1).columns(2).slotCapacity(2000);
-      });
-
     // Blast furnace
 
     event
@@ -105,39 +82,5 @@
       .config("mm:energy", (c) => {
         c.capacity(10000).maxReceive(1000).maxExtract(1000);
       });
-  });
-
-  //! Other
-
-  StartupEvents.registry("block", (event) => {
-    const blockRegistry = [
-      {
-        id: "mm:coke_oven_filler", // Texture from TFMG
-        name: "Coke Oven",
-        mat: "metal",
-        hardness: 0.5,
-        res: 1.0,
-        tool: "pickaxe",
-      },
-    ];
-
-    blockRegistry.forEach((block) => {
-      if (block.tool != 0) {
-        event
-          .create(block.id)
-          .displayName(block.name)
-          .soundType(block.mat)
-          .hardness(block.hardness)
-          .resistance(block.res)
-          .tagBlock(`mineable/${block.tool}`);
-      } else {
-        event
-          .create(block.id)
-          .displayName(block.name)
-          .soundType(block.mat)
-          .hardness(block.hardness)
-          .resistance(block.res);
-      }
-    });
   });
 })();

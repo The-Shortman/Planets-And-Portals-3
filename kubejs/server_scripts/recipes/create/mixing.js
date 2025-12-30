@@ -41,6 +41,12 @@
         heat: "heated",
         id: "blaze_blood",
       },
+      {
+        input: ["minecraft:iron_ingot", Item.of("mekanism:dust_coal", 2)],
+        output: "tfmg:cast_iron_ingot",
+        heat: "heated",
+        id: "cast_iron_ingot",
+      },
     ];
 
     mixingRecipes.forEach((recipe) => {

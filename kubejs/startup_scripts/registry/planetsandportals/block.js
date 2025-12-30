@@ -4,10 +4,34 @@
       {
         id: "planetsandportals:grout", // Texture from Tinkers Construct
         name: "Grout",
-        mat: "wet_grass",
+        material: "wet_grass",
         hardness: 0.5,
-        res: 1.0,
+        resistance: 1.0,
         tool: "shovel",
+      },
+      {
+        id: "planetsandportals:incomplete_coke_oven_t1",
+        name: "Incomplete Coke Oven T1",
+        material: "stone",
+        hardness: 0.5,
+        resistance: 1.0,
+        tool: "pickaxe",
+      },
+      {
+        id: "planetsandportals:incomplete_coke_oven_t2",
+        name: "Incomplete Coke Oven T2",
+        material: "stone",
+        hardness: 0.5,
+        resistance: 1.0,
+        tool: "pickaxe",
+      },
+      {
+        id: "planetsandportals:incomplete_coke_oven_t3",
+        name: "Incomplete Coke Oven T3",
+        material: "stone",
+        hardness: 0.5,
+        resistance: 1.0,
+        tool: "pickaxe",
       },
     ];
 
@@ -16,9 +40,9 @@
         event
           .create(block.id)
           .displayName(block.name)
-          .soundType(block.mat)
+          .soundType(block.material)
           .hardness(block.hardness)
-          .resistance(block.res)
+          .resistance(block.resistance)
           .tagBlock(`mineable/${block.tool}`);
       } else {
         event

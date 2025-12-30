@@ -372,6 +372,46 @@
         id: "windmill_bearing",
       },
 
+      // MBD2
+
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:precision_mechanism",
+          B: "create:display_board",
+          C: "mbd2:coke_oven_filler",
+        },
+        output: "mbd2:coke_oven_controller",
+        id: "coke_oven_controller",
+      },
+      {
+        pattern: ["A", "B"],
+        key: {
+          A: "create:chute",
+          B: "mbd2:coke_oven_filler",
+        },
+        output: "mbd2:coke_oven_item_input",
+        id: "coke_oven_item_input",
+      },
+      {
+        pattern: ["A", "B"],
+        key: {
+          A: "create:andesite_funnel",
+          B: "mbd2:coke_oven_filler",
+        },
+        output: "mbd2:coke_oven_item_output",
+        id: "coke_oven_item_output",
+      },
+      {
+        pattern: ["A", "B"],
+        key: {
+          A: "create:fluid_valve",
+          B: "mbd2:coke_oven_filler",
+        },
+        output: "mbd2:coke_oven_fluid_output",
+        id: "coke_oven_fluid_output",
+      },
+
       // Masterful Machinery
 
       {
