@@ -41,6 +41,11 @@
         remove: "#forge:plates/iron",
         replace: "create:iron_sheet",
       },
+      {
+        filter: { input: "#forge:ingots/steel" },
+        remove: "#forge:ingots/steel",
+        replace: "tfmg:steel_ingot",
+      },
     ];
 
     const outputReplacements = [
