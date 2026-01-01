@@ -46,6 +46,11 @@
         remove: "#forge:ingots/steel",
         replace: "tfmg:steel_ingot",
       },
+      {
+        filter: { input: "#forge:plates/steel" },
+        remove: "#forge:plates/steel",
+        replace: "tfmg:heavy_plate",
+      },
     ];
 
     const outputReplacements = [
