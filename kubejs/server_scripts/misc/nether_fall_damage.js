@@ -1,13 +1,14 @@
 // Remove player fall damage in the nether
 (function negateNetherFallDamage() {
-  EntityEvents.hurt((event) => {
+  EntityEvents.hurt("minecraft:player", (event) => {
     const { player, source } = event;
-    let dim = player.getLevel().getDimension();
 
     if (!event.entity.isPlayer()) return;
 
-    if (dim == "minecraft:the_nether") {
-      if (source.type == "minecraft:fall") {
+    if (player.level.dimension == "minecraft:the_nether") {
+      console.log(`Player took ${source.type().msgId()} damage in Nether`);
+      if (source.type().msgId() == "fall") {
+        console.log("Player fell in Nether");
         event.cancel();
       }
     }
