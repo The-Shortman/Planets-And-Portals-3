@@ -23,6 +23,7 @@
             Utils.server.runCommandSilent(
               `execute in minecraft:the_nether run tp ${player.uuid} ${x} ${y} ${z}`
             );
+            player.stages.add("nether_teleport");
           } else if (dim == "minecraft:the_nether") {
             let x = Math.floor(player.x * 8.0) + 0.5;
             let y = 248.0;
