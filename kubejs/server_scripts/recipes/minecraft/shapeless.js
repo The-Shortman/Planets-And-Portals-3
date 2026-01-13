@@ -36,6 +36,18 @@
         id: "copycat_shaft",
       },
 
+      // Create Ore Excavation
+
+      {
+        inputs: [
+          "minecraft:writable_book",
+          "minecraft:map",
+          "tfmg:cast_iron_sheet",
+        ],
+        output: "createoreexcavation:vein_atlas",
+        id: "ore_vein_atlas",
+      },
+
       // Blast Furnace
 
       {

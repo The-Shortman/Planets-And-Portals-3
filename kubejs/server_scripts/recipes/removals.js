@@ -445,6 +445,8 @@
       { id: "create:andesite_scaffolding_from_andesite_alloy_stonecutting" },
 
       // Create: TFMG
+      { type: "tfmg:coking" },
+      { id: "tfmg:sequenced_assembly/steel_mechanism" },
       { output: "tfmg:steel_pipe" },
       { output: "tfmg:steel_distillation_output" },
       { output: "tfmg:coke_oven" },
@@ -479,6 +481,10 @@
       { output: "create_new_age:advanced_solar_heating_plate" },
 
       // Create Ore Excavation
+      { id: "createoreexcavation:drilling_machine" },
+      { id: "createoreexcavation:extractor" },
+      { id: "createoreexcavation:sample_drill" },
+      { id: "createoreexcavation:vein_atlas" },
       { output: "createoreexcavation:vein_finder" },
       { output: "createoreexcavation:diamond_drill" },
       { output: "createoreexcavation:netherite_drill" },
@@ -513,6 +519,29 @@
 
       // Create: Copycats+
       { input: "create:zinc_ingot", output: "copycats:copycat_shaft" },
+
+      // Create Vintage Improvements
+      { type: "vintageimprovements:polishing" },
+      { type: "vintageimprovements:coiling" },
+      { type: "vintageimprovements:pressurizing" },
+      { type: "vintageimprovements:vacuumizing" },
+      { type: "vintageimprovements:vibrating" },
+      { type: "vintageimprovements:curving" },
+      { type: "vintageimprovements:hammering" },
+      { type: "vintageimprovements:turning" },
+      { id: "vintageimprovements:craft/belt_grinder" },
+      { id: "vintageimprovements:craft/centrifuge" },
+      { id: "vintageimprovements:craft/curving_press" },
+      { id: "vintageimprovements:craft/grinder_belt" },
+      { id: "vintageimprovements:craft/spring_coiling_machine" },
+      { id: "vintageimprovements:craft/spring_coiling_machine_wheel" },
+      { id: "vintageimprovements:craft/vacuum_chamber" },
+      { id: "vintageimprovements:craft/vibrating_table" },
+      { id: "vintageimprovements:mechanical_crafting/helve_hammer" },
+      { id: "vintageimprovements:mechanical_crafting/lathe" },
+      { mod: "vintageimprovements", type: "create:pressing" },
+
+      { id: "vintageimprovements:craft/steel_rod" },
 
       // AE2
       { output: "ae2:inscriber" },

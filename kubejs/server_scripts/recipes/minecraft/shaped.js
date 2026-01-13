@@ -486,6 +486,89 @@
         id: "vein_finder",
       },
 
+      // Create Vintage Improvements
+
+      {
+        pattern: [" A ", "ABA", " A "],
+        key: {
+          A: "create:andesite_alloy",
+          B: "tfmg:steel_block",
+        },
+        output: "vintageimprovements:spring_coiling_machine_wheel",
+        id: "spring_coiling_machine_wheel",
+      },
+      {
+        pattern: ["AB ", "CDE", "AB "],
+        key: {
+          A: "tfmg:cast_iron_ingot",
+          B: "create:shaft",
+          C: "vintageimprovements:spring_coiling_machine_wheel",
+          D: "create:precision_mechanism",
+          E: "tfmg:steel_casing",
+        },
+        output: "vintageimprovements:spring_coiling_machine",
+        id: "spring_coiling_machine",
+      },
+      {
+        pattern: ["ABA", "CDC", " E "],
+        key: {
+          A: "vintageimprovements:steel_spring",
+          B: "tfmg:heavy_machinery_casing",
+          C: "tfmg:cast_iron_ingot",
+          D: "create:mechanical_pump",
+          E: "create:precision_mechanism",
+        },
+        output: "vintageimprovements:vacuum_chamber",
+        id: "vacuum_chamber",
+      },
+      {
+        pattern: [" A ", "BCB"],
+        key: {
+          A: "tfmg:steel_casing",
+          B: "vintageimprovements:cast_iron_spring",
+          C: "create:precision_mechanism",
+        },
+        output: "vintageimprovements:curving_press",
+        id: "curving_press",
+      },
+      {
+        pattern: ["AAA", "ABA", "AAA"],
+        key: {
+          A: "create:sandpaper",
+          B: "mekanism:dust_diamond",
+        },
+        output: "vintageimprovements:grinder_belt",
+        id: "grinder_belt",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "vintageimprovements:grinder_belt",
+          B: "tfmg:steel_casing",
+          C: "create:precision_mechanism",
+        },
+        output: "vintageimprovements:belt_grinder",
+        id: "belt_grinder",
+      },
+      {
+        pattern: ["ABA", "ACA"],
+        key: {
+          A: "vintageimprovements:steel_spring",
+          B: "tfmg:hardened_planks_slab",
+          C: "tfmg:steel_casing",
+        },
+        output: "vintageimprovements:vibrating_table",
+        id: "vibrating_table",
+      },
+
+      {
+        pattern: ["A", "A"],
+        key: {
+          A: "tfmg:heavy_plate",
+        },
+        output: Item.of("vintageimprovements:steel_rod", 24),
+      },
+
       // Mekanism basic blocks
 
       {

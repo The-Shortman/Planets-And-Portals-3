@@ -47,6 +47,15 @@
         heat: "heated",
         id: "cast_iron_ingot",
       },
+      {
+        input: [
+          { fluid: "planetsandportals:blaze_blood", amount: BUCKET },
+          Item.of("tfmg:limesand", 4),
+        ],
+        output: "tfmg:fireclay",
+        heat: "heated",
+        id: "fireclay_from_blaze_blood",
+      },
     ];
 
     mixingRecipes.forEach((recipe) => {

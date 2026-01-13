@@ -116,13 +116,23 @@
         name: "Stony Wart",
         stackSize: 64,
       },
+      {
+        id: "planetsandportals:concave_heavy_plate",
+        name: "Concave Heavy Plate",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:unevacuated_steel_mechanism",
+        name: "Unevacuated Steel Mecchanism",
+        stackSize: 64,
+      },
     ];
 
     basicItems.forEach((item) => {
       event
         .create(item.id, "basic")
         .displayName(item.name)
-        .maxStackSize(item.stackSize ?? 64)
+        .maxStackSize(item.stackSize)
         .rarity(item.rarity ?? "common");
     });
 
@@ -132,22 +142,18 @@
       {
         id: "planetsandportals:unfinished_soul_sand",
         name: "Unfinished Soul Sand",
-        stackSize: 1,
       },
       {
         id: "planetsandportals:incomplete_crafter_slot_cover",
         name: "Unfinished Crafter Slot Cover",
-        stackSize: 1,
       },
       {
         id: "planetsandportals:unfinished_rose_quartz",
         name: "Unfinished Rose Quartz",
-        stackSize: 1,
       },
       {
         id: "planetsandportals:incomplete_electron_tube",
         name: "Incomplete Electron Tube",
-        stackSize: 1,
       },
     ];
 
@@ -155,7 +161,7 @@
       event
         .create(item.id, "create:sequenced_assembly")
         .displayName(item.name)
-        .maxStackSize(item.stackSize ?? 64)
+        .maxStackSize(1)
         .rarity(item.rarity ?? "common");
     });
   });

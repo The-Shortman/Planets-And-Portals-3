@@ -77,5 +77,16 @@
       .addFillingStep({ fluid: "minecraft:water", amount: BUCKET })
       .loops(5)
       .build();
+
+    createSequencedAssembly(event, {
+      input: "planetsandportals:concave_heavy_plate",
+      transitional: "tfmg:unfinished_steel_mechanism",
+      outputs: ["planetsandportals:unevacuated_steel_mechanism"],
+    })
+      .addDeployingStep("create:precision_mechanism")
+      .addDeployingStep("vintageimprovements:steel_spring")
+      .addDeployingStep("tfmg:rubber_sheet")
+      .addPressingStep()
+      .build();
   });
 })();
