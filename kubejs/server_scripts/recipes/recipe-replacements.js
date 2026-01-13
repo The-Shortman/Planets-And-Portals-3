@@ -51,6 +51,11 @@
         remove: "#forge:plates/steel",
         replace: "tfmg:heavy_plate",
       },
+      {
+        filter: { input: "#forge:plates/cast_iron" },
+        remove: "#forge:plates/cast_iron",
+        replace: "tfmg:cast_iron_sheet",
+      },
     ];
 
     const outputReplacements = [
