@@ -123,7 +123,22 @@
       },
       {
         id: "planetsandportals:unevacuated_steel_mechanism",
-        name: "Unevacuated Steel Mecchanism",
+        name: "Unevacuated Steel Mechanism",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:dried_pulp",
+        name: "Dried Pulp",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:cardboard_mechanism",
+        name: "Cardboard Mechanism",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:salt_bucket",
+        name: "Salt Bucket",
         stackSize: 64,
       },
     ];
@@ -144,7 +159,7 @@
         name: "Unfinished Soul Sand",
       },
       {
-        id: "planetsandportals:incomplete_crafter_slot_cover",
+        id: "planetsandportals:unfinished_crafter_slot_cover",
         name: "Unfinished Crafter Slot Cover",
       },
       {
@@ -154,6 +169,10 @@
       {
         id: "planetsandportals:incomplete_electron_tube",
         name: "Incomplete Electron Tube",
+      },
+      {
+        id: "planetsandportals:incomplete_cardboard_mechanism",
+        name: "Incomplete Cardboard Mechanism",
       },
     ];
 
