@@ -21,5 +21,16 @@
     //TODO: Make this less painful to build recipes for
 
     const vintageRecipe = event.recipes.vintageimprovements;
+
+    vintageRecipe
+      .pressurizing("create:sturdy_sheet", [
+        Fluid.of("tfmg:carbon_dioxide", 100),
+        "create:powdered_obsidian",
+        "tfmg:cast_iron_sheet",
+      ])
+      .secondaryFluidInput(0)
+      .heated()
+      .processingTime(20)
+      .id("kubejs:vintageimprovements/pressurizing/sturdy_sheet");
   });
 })();

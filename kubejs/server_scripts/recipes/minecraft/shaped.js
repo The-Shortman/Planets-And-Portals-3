@@ -128,6 +128,24 @@
         output: "minecraft:blast_furnace",
         id: "blast_furnace",
       },
+      {
+        pattern: ["A", "B", "A"],
+        key: {
+          A: "minecraft:iron_nugget",
+          B: "minecraft:iron_ingot",
+        },
+        output: Item.of("minecraft:chain", 8),
+        id: "chain_from_iron",
+      },
+      {
+        pattern: ["A", "B", "A"],
+        key: {
+          A: "create:zinc_nugget",
+          B: "create:zinc_ingot",
+        },
+        output: Item.of("minecraft:chain", 8),
+        id: "chain_from_zinc",
+      },
 
       // Ad Astra stuff
 
@@ -371,6 +389,112 @@
         output: "create:windmill_bearing",
         id: "windmill_bearing",
       },
+      {
+        pattern: ["ABA", "CDC", " C "],
+        key: {
+          A: "create:andesite_alloy",
+          B: "create:shaft",
+          C: "create:copper_sheet",
+          D: "minecraft:copper_block",
+        },
+        output: "create:copper_backtank",
+        id: "copper_backtank",
+      },
+      {
+        pattern: ["AAA", "ABA"],
+        key: {
+          A: "create:cardboard",
+          B: "planetsandportals:cardboard_mechanism",
+        },
+        output: "create:cardboard_helmet",
+        id: "cardboard_helmet",
+      },
+      {
+        pattern: ["ABA", "AAA", "AAA"],
+        key: {
+          A: "create:cardboard",
+          B: "planetsandportals:cardboard_mechanism",
+        },
+        output: "create:cardboard_chestplate",
+        id: "cardboard_chestplate",
+      },
+      {
+        pattern: ["AAA", "ABA", "A A"],
+        key: {
+          A: "create:cardboard",
+          B: "planetsandportals:cardboard_mechanism",
+        },
+        output: "create:cardboard_leggings",
+        id: "cardboard_leggings",
+      },
+      {
+        pattern: ["A A", "ABA"],
+        key: {
+          A: "create:cardboard",
+          B: "planetsandportals:cardboard_mechanism",
+        },
+        output: "create:cardboard_boots",
+        id: "cardboard_boots",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:cardboard",
+          B: "planetsandportals:cardboard_mechanism",
+          C: "minecraft:stick",
+        },
+        output: "create:cardboard_sword",
+        id: "cardboard_sword",
+      },
+      {
+        pattern: [" A ", "ABA", "CAC"],
+        key: {
+          A: "create:andesite_alloy",
+          B: "planetsandportals:cardboard_mechanism",
+          C: "minecraft:redstone",
+        },
+        output: "create:packager",
+        id: "packager",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:golden_sheet",
+          B: "create:sturdy_sheet",
+          C: "minecraft:copper_block",
+        },
+        output: "create:steam_engine",
+        id: "steam_engine",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "create:transmitter",
+          B: "create:item_vault",
+          C: "planetsandportals:cardboard_mechanism",
+        },
+        output: "create:stock_link",
+        id: "stock_link",
+      },
+      {
+        pattern: [" A ", "ABA", " A "],
+        key: {
+          A: "create:andesite_casing",
+          B: "planetsandportals:cardboard_mechanism",
+        },
+        output: Item.of("create:chain_conveyor", 4),
+        id: "chain_conveyor",
+      },
+      {
+        pattern: ["A", "B", "C"],
+        key: {
+          A: "planetsandportals:cardboard_mechanism",
+          B: "create:item_vault",
+          C: "create:andesite_alloy",
+        },
+        output: "create:package_frogport",
+        id: "package_frogport",
+      },
 
       // MBD2
 
@@ -484,6 +608,18 @@
         },
         output: "createoreexcavation:vein_finder",
         id: "vein_finder",
+      },
+      {
+        pattern: [" A ", "BCB", "DED"],
+        key: {
+          A: "create:precision_mechanism",
+          B: "tfmg:cast_iron_sheet",
+          C: "create:brass_casing",
+          D: "tfmg:rubber_sheet",
+          E: "create:mechanical_drill",
+        },
+        output: "createoreexcavation:sample_drill",
+        id: "sample_drill",
       },
 
       // Create Vintage Improvements
@@ -740,6 +876,36 @@
       event
         .shaped(recipe.output, recipe.pattern, recipe.key)
         .id(`kubejs:minecraft/shaped/${recipe.id}`);
+    });
+
+    const shapedColourRecipes = [
+      "white",
+      "orange",
+      "magenta",
+      "light_blue",
+      "yellow",
+      "lime",
+      "pink",
+      "gray",
+      "light_gray",
+      "cyan",
+      "purple",
+      "blue",
+      "brown",
+      "green",
+      "red",
+      "black",
+    ];
+
+    shapedColourRecipes.forEach((recipe) => {
+      // Create postboxes
+      event
+        .shaped(`create:${recipe}_postbox`, ["A", "B", "C"], {
+          A: "create:package_frogport",
+          B: "minecraft:barrel",
+          C: `minecraft:${recipe}_dye`,
+        })
+        .id(`kubejs:minecraft/shaped/${recipe}_postbox`);
     });
   });
 })();

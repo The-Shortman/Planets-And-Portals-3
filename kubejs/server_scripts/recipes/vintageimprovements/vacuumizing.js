@@ -28,6 +28,7 @@
         "planetsandportals:unevacuated_steel_mechanism"
       )
       .heated()
-      .processingTime(200);
+      .processingTime(200)
+      .id("kubejs:vintageimprovements/vacuumizing/steel_mechanism");
   });
 })();

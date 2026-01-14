@@ -56,6 +56,11 @@
         heat: "heated",
         id: "fireclay_from_blaze_blood",
       },
+      {
+        input: ["mekanism:salt", "minecraft:cobblestone"],
+        output: "minecraft:diorite",
+        id: "diorite_from_salt",
+      },
     ];
 
     mixingRecipes.forEach((recipe) => {

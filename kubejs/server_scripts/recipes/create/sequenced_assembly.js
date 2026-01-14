@@ -6,20 +6,6 @@
 
   ServerEvents.recipes((event) => {
     createSequencedAssembly(event, {
-      input: "create:powdered_obsidian",
-      transitional: "create:unprocessed_obsidian_sheet",
-      outputs: [
-        Item.of("create:sturdy_sheet").withChance(6),
-        Item.of("minecraft:iron_nugget").withChance(4),
-      ],
-    })
-      .addDeployingStep("minecraft:iron_nugget")
-      .addPressingStep()
-      .addPressingStep()
-      .loops(5)
-      .build();
-
-    createSequencedAssembly(event, {
       input: "planetsandportals:sand_encased_egg",
       transitional: "planetsandportals:unfinished_soul_sand",
       outputs: [
@@ -62,7 +48,7 @@
 
     createSequencedAssembly(event, {
       input: "create:brass_sheet",
-      transitional: "planetsandportals:incomplete_crafter_slot_cover",
+      transitional: "planetsandportals:unfinished_crafter_slot_cover",
       outputs: [Item.of("create:crafter_slot_cover", 3)],
     })
       .addCuttingStep()
@@ -86,6 +72,17 @@
       .addDeployingStep("create:precision_mechanism")
       .addDeployingStep("vintageimprovements:steel_spring")
       .addDeployingStep("tfmg:rubber_sheet")
+      .addPressingStep()
+      .build();
+
+    createSequencedAssembly(event, {
+      input: "create:cardboard",
+      transitional: "planetsandportals:incomplete_cardboard_mechanism",
+      outputs: ["planetsandportals:cardboard_mechanism"],
+    })
+      .addDeployingStep("create:electron_tube")
+      .addDeployingStep("create:electron_tube")
+      .addDeployingStep("create:cardboard")
       .addPressingStep()
       .build();
   });

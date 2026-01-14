@@ -51,6 +51,20 @@
         output: "createoreexcavation:drilling_machine",
         id: "drilling_machine",
       },
+      {
+        pattern: [" ABA ", "AACAA", "BDEDB", "AAFAA", " AGA "],
+        key: {
+          A: "tfmg:cast_iron_sheet",
+          B: "create:copper_casing",
+          C: "create:brass_casing",
+          D: "tfmg:steel_mechanism",
+          E: "create:mechanical_bearing",
+          F: "create:hose_pulley",
+          G: "create:fluid_pipe",
+        },
+        output: "createoreexcavation:extractor",
+        id: "well_extractor",
+      },
     ];
 
     mechanicalCraftingRecipes.forEach((recipe) => {

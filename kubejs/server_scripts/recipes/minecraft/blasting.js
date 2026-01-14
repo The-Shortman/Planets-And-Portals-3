@@ -346,6 +346,11 @@
         output: "create:zinc_ingot",
         id: "zinc_ingot_from_dust",
       },
+      {
+        input: "minecraft:water_bucket",
+        output: "planetsandportals:salt_bucket",
+        id: "salt_bucket",
+      },
     ];
 
     blastingRecipes.forEach((recipe) => {
