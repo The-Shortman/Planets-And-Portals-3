@@ -9,6 +9,8 @@
       {
         input: "tfmg:heavy_plate",
         output: "planetsandportals:concave_heavy_plate",
+        head: convex,
+        id: "concave_heavy_plate",
       },
     ];
 

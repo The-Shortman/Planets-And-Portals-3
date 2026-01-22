@@ -5,7 +5,10 @@
     const emptyingRecipes = [
       {
         input: "create:pulp",
-        output: "planetsandportals:dried_pulp",
+        output: [
+          "planetsandportals:dried_pulp",
+          { fluid: "minecraft:water", amount: 100 },
+        ],
         id: "dried_pulp",
       },
     ];

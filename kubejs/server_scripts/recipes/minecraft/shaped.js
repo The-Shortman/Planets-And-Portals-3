@@ -102,7 +102,7 @@
       {
         pattern: ["AA", "AA"],
         key: {
-          A: "tfmg:synthetic_sting",
+          A: "tfmg:synthetic_string",
         },
         output: "minecraft:white_wool",
         id: "wool_from_synthetic_string",
@@ -670,8 +670,8 @@
       {
         pattern: ["AAA", "ABA", "AAA"],
         key: {
-          A: "create:sandpaper",
-          B: "mekanism:dust_diamond",
+          A: "create:sand_paper",
+          B: "mekanism:dust_quartz",
         },
         output: "vintageimprovements:grinder_belt",
         id: "grinder_belt",
