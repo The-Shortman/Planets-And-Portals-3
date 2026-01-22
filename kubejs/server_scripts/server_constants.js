@@ -17,7 +17,7 @@ global.server = Object.freeze({
   // Sequenced assembly builder
   createSequencedAssembly: (() => {
     //? Create Sequenced Assembly Builder by KonSola5
-    //? Modified by _Shortman to include addToolDeployingStep
+    //? Modified by _Shortman to include addToolDeployingStep and vintage improvements recipes
 
     function SequencedAssemblyBuilder(event, io) {
       this._event = event;
@@ -83,6 +83,103 @@ global.server = Object.freeze({
           .createDeploying(this._transitional, inputs)
           .keepHeldItem()
       );
+      return this;
+    };
+
+    // Adds a new vintage improvements spring coiling step
+    SequencedAssemblyBuilder.prototype.addCoilingStep = function (
+      springColor,
+      processingTime
+    ) {
+      let coilingRecipe = this._event.recipes.vintageimprovements
+        .coiling(this._transitional, this._transitional)
+        .springColor(springColor);
+      if (typeof processingTime !== "undefined")
+        coilingRecipe = coilingRecipe.processingTime(processingTime);
+      this._steps.push(coilingRecipe);
+      return this;
+    };
+    
+    // Adds a new vintage improvements curving step
+    // Items used as the head must be tagged with vintageimprovements:curving_heads
+    SequencedAssemblyBuilder.prototype.addCurvingStep = function (head) {
+      this._steps.push(
+        this._event.recipes.vintageimprovements
+          .curving(this._transitional, this._transitional)
+          .head(head),
+      );
+      return this;
+    };
+
+    // Adds a new vintage improvements hammering step
+    // Items used as the anvil must be tagged with vintageimprovements:custom_hammering_blocks
+    // If anvilBlock isn't specified, it defaults to the vanilla anvil
+    SequencedAssemblyBuilder.prototype.addHammeringStep = function (
+      anvilBlock
+    ) {
+      let hammeringRecipe = this._event.recipes.vintageimprovements.hammering(
+        this._transitional,
+        this._transitional,
+      );
+      if (typeof anvilBlock !== "undefined")
+        hammeringRecipe = hammeringRecipe.anvilBlock(anvilBlock);
+      this._steps.push(hammeringRecipe);
+      return this;
+    };
+
+    // Adds a new vintage improvements laser cutting step
+    SequencedAssemblyBuilder.prototype.addLaserCuttingStep = function (
+      energyCost,
+      maxChargeRate
+    ) {
+      this._steps.push(
+        this._event.recipes.vintageimprovements
+          .laser_cutting(this._transitional, this._transitional)
+          .energyCost(energyCost)
+          .maxChargeRate(maxChargeRate),
+      );
+      return this;
+    };
+
+    // Adds a new vintage improvements lathe turning step
+    SequencedAssemblyBuilder.prototype.addTurningStep = function (
+      processingTime
+    ) {
+      let turningRecipe = this._event.recipes.vintageimprovements.turning(
+        this._transitional,
+        this._transitional,
+      );
+      if (typeof processingTime !== "undefined")
+        turningRecipe = turningRecipe.processingTime(processingTime);
+      this._steps.push(turningRecipe);
+      return this;
+    };
+
+    // Adds a new vintage improvements belt grinder polishing step
+    SequencedAssemblyBuilder.prototype.addBeltPolishingStep = function (
+      processingTime
+    ) {
+      let polishingRecipe = this._event.recipes.vintageimprovements.polishing(
+        this._transitional,
+        this._transitional,
+      );
+      if (typeof processingTime !== "undefined")
+        polishingRecipe = polishingRecipe.processingTime(processingTime);
+      this._steps.push(polishingRecipe);
+      return this;
+    };
+
+    // Adds a new vintage improvements vibrating step
+    SequencedAssemblyBuilder.prototype.addVibratingStep = function (
+      processingTime
+    ) {
+      let vibratingRecipe = this._event.recipes.vintageimprovements.vibrating(
+        this._transitional,
+        this._transitional,
+      );
+      if (typeof processingTime !== "undefined")
+        vibratingRecipe = vibratingRecipe.processingTime(processingTime);
+      this._steps.push(vibratingRecipe);
       return this;
     };
 
