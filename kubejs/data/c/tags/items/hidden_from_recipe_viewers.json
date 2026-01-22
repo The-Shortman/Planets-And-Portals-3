@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "grapplemod:repeller",
+    "grapplemod:forcefieldupgradeitem",
+
+    "tfmg:copper_wire",
+    "tfmg:lead_ingot",
+    "tfmg:lead_sword",
+    "tfmg:lead_pickaxe",
+    "tfmg:lead_shovel",
+    "tfmg:lead_hoe"
+  ]
+}
