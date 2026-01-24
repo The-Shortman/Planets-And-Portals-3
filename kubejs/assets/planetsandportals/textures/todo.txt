@@ -1,6 +1,4 @@
 Undone item textures:
-planetsandportals:dirty_zinc_dust
-planetsandportals:zinc_dust
 planetsandportals:sticky_wart
 planetsandportals:stony_wart
 planetsandportals:concave_heavy_plate
@@ -16,7 +14,5 @@ planetsandportals:incomplete_generator_coil
 
 Current "dev" item textures (roughly done, can do with better):
 planetsandportals:infernal_portaberries
-planetsandportals:desh_dust
 planetsandportals:lavaberries
 planetsandportals:soaked_lavaberries
-planetsandportals:rose_quartz_dust
