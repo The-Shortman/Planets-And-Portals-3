@@ -1,1 +1,1 @@
-console.info("Planets and Portals Modpack version = v0.9-alpha");
+console.info("Planets and Portals Modpack version = v0.9.0-alpha");
