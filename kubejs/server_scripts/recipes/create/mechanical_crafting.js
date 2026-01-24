@@ -57,7 +57,7 @@
           A: "tfmg:cast_iron_sheet",
           B: "create:copper_casing",
           C: "create:brass_casing",
-          D: "tfmg:steel_mechanism",
+          D: "create:precision_mechanism",
           E: "create:mechanical_bearing",
           F: "create:hose_pulley",
           G: "create:fluid_pipe",

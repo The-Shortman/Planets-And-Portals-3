@@ -174,6 +174,10 @@
         id: "planetsandportals:incomplete_cardboard_mechanism",
         name: "Incomplete Cardboard Mechanism",
       },
+      {
+        id: "planetsandportals:incomplete_generator_coil",
+        name: "Incomplete Generator Coil",
+      },
     ];
 
     transitionalItems.forEach((item) => {

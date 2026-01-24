@@ -474,7 +474,16 @@
 
       // Create: TFMG
       { type: "tfmg:coking" },
+      { id: "tfmg:casting/slag_block" },
+      { id: "tfmg:crafting/kinetics/steel_distillation_controller" },
+      { id: "tfmg:crushing/slag_block" },
+      { id: "tfmg:distillation/heavy_oil" },
+      { id: "tfmg:distillation/heavy_oil_no_naphtha" },
+      { id: "tfmg:distillation/heavy_oil_light_distillation" },
+      { id: "tfmg:distillation/crude_oil_no_naphtha" },
+      { id: "tfmg:distillation/crude_oil_light_distillation" },
       { id: "tfmg:sequenced_assembly/steel_mechanism" },
+
       { output: "tfmg:steel_pipe" },
       { output: "tfmg:steel_distillation_output" },
       { output: "tfmg:coke_oven" },
@@ -502,6 +511,15 @@
       { mod: "tfmg", output: "create:crushed_raw_lead" },
 
       // Create: New Age
+      { id: "create_new_age:shaped/basic_motor" },
+      { id: "create_new_age:shaped/generator_coil" },
+      { id: "create_new_age:shaped/redstone_magnet" },
+      { id: "create_new_age:shaped/layered_magnet" },
+      { id: "create_new_age:shaped/fluxuated_magnetite" },
+      { id: "create_new_age:shaped/netherite_magnet" },
+      { id: "create_new_age:shaped/electrical_connector" },
+      { id: "create_new_age:shaped/electrical_connector_mirrored" },
+
       { output: "create_new_age:thorium" },
       { output: "create_new_age:basic_energiser" },
       { output: "create_new_age:advanced_energiser" },
@@ -567,6 +585,7 @@
       { id: "vintageimprovements:craft/vibrating_table" },
       { id: "vintageimprovements:mechanical_crafting/helve_hammer" },
       { id: "vintageimprovements:mechanical_crafting/lathe" },
+      { id: "vintageimprovements:sequenced_assembly/recipe_card" },
       { mod: "vintageimprovements", type: "create:pressing" },
 
       { id: "vintageimprovements:craft/steel_rod" },

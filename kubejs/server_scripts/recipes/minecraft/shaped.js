@@ -570,30 +570,43 @@
         id: "fuel_mixer_controller",
       },
 
+      // Create: TFMG
+
+      {
+        pattern: ["ABA", "CDC", "EFE"],
+        key: {
+          A: "vintageimprovements:zinc_sheet",
+          B: "tfmg:industrial_pipe",
+          C: "create:electron_tube",
+          D: "create:display_board",
+          E: "tfmg:steel_mechanism",
+          F: "tfmg:heavy_machinery_casing",
+        },
+        output: "tfmg:steel_distillation_controller",
+        id: "steel_distillation_controller",
+      },
+
       // Create New Age stuff
 
       {
-        pattern: ["ABA", " C ", " D "],
+        pattern: ["A", "B"],
         key: {
-          A: "ad_astra:desh_cable",
-          B: "ad_astra:desh_plate",
-          C: "tfmg:steel_casing",
-          D: "minecraft:lightning_rod",
+          A: "create:copper_nugget",
+          B: "tfmg:slag",
         },
-        output: "create_new_age:basic_energiser",
-        id: "basic_energiser",
+        output: "create_new_age:electrical_connector",
+        id: "electrical_connector",
       },
       {
-        pattern: ["ABA", "ECE", " D "],
+        pattern: ["A  ", "BCD", "A  "],
         key: {
-          A: "create_new_age:overcharged_golden_sheet",
-          B: "ad_astra:ostrum_plate",
-          C: "create_new_age:basic_energiser",
-          D: "ad_astra:desh_cable",
-          E: "ad_astra:desh_nugget",
+          A: "create:andesite_alloy",
+          B: "create_new_age:copper_wire_block",
+          C: "create_new_age:magnetite_block",
+          D: "create:shaft",
         },
-        output: "create_new_age:advanced_energiser",
-        id: "advanced_energiser",
+        output: "create_new_age:basic_motor",
+        id: "basic_motor",
       },
 
       // Create Ore Excavation

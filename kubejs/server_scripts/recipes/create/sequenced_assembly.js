@@ -85,5 +85,23 @@
       .addDeployingStep("create:cardboard")
       .addPressingStep()
       .build();
+
+    createSequencedAssembly(event, {
+      input: "tfmg:heavy_machinery_casing",
+      transitional: "planetsandportals:incomplete_generator_coil",
+      outputs: ["create_new_age:generator_coil"],
+    })
+      .addDeployingStep("create_new_age:copper_wire_block")
+      .addFillingStep({ fluid: "tfmg:lubrication_oil", amount: BUCKET })
+      .build();
+
+    createSequencedAssembly(event, {
+      input: "create:brass_sheet",
+      transitional: "vintageimprovements:incomplete_recipe_card",
+      outputs: ["vintageimprovements:recipe_card"],
+    })
+      .addDeployingStep("create:paper")
+      .addPressingStep()
+      .build();
   });
 })();

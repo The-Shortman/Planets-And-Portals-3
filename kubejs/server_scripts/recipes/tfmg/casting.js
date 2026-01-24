@@ -4,7 +4,10 @@
   ServerEvents.recipes((event) => {
     const castingRecipes = [
       {
-        input: { fluid: "tfmg:molten_slag", amount: BOTTLE },
+        input: { fluid: "tfmg:molten_slag", amount: INGOT },
+        output: "tfmg:slag_block",
+        time: 80,
+        id: "slag_block",
       },
     ];
 
