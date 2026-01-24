@@ -21,6 +21,15 @@
         salt: 867557,
         baseTime: 600,
       },
+      {
+        // OIL
+        id: "oil_ov",
+        display: "tfmg:crude_oil_bucket",
+        resource: "tfmg:crude_oil",
+        name: "Oil Well (Earth)",
+        salt: 245626,
+        baseTime: 600,
+      },
     ];
 
     earthUncommonVeins.forEach((vein) => {
@@ -35,7 +44,7 @@
         .extracting(
           Fluid.of(vein.resource, BUCKET * POOR_VEIN_MULTIPLIER),
           `createoreexcavation:ore_vein_type/lo_${vein.id}`,
-          vein.baseTime / T1_DRILL_MULTIPLIER
+          vein.baseTime / T1_DRILL_MULTIPLIER,
         )
         .drill("#createoreexcavation:tier_1_drill")
         .id(`createoreexcavation:lo_${vein.id}/t1`);
@@ -44,7 +53,7 @@
         .drilling(
           Fluid.of(vein.resource, BUCKET * POOR_VEIN_MULTIPLIER),
           `createoreexcavation:ore_vein_type/lo_${vein.id}`,
-          vein.baseTime / T2_DRILL_MULTIPLIER
+          vein.baseTime / T2_DRILL_MULTIPLIER,
         )
         .drill("#createoreexcavation:tier_2_drill")
         .id(`createoreexcavation:lo_${vein.id}/t2`);
@@ -53,7 +62,7 @@
         .drilling(
           Fluid.of(vein.resource, BUCKET * POOR_VEIN_MULTIPLIER),
           `createoreexcavation:ore_vein_type/lo_${vein.id}`,
-          vein.baseTime / T3_DRILL_MULTIPLIER
+          vein.baseTime / T3_DRILL_MULTIPLIER,
         )
         .drill("#createoreexcavation:tier_3_drill")
         .id(`createoreexcavation:lo_${vein.id}/t3`);
@@ -69,7 +78,7 @@
         .drilling(
           Fluid.of(vein.resource, BUCKET * RICH_VEIN_MULTIPLIER),
           `createoreexcavation:ore_vein_type/hi_${vein.id}`,
-          vein.baseTime / T1_DRILL_MULTIPLIER
+          vein.baseTime / T1_DRILL_MULTIPLIER,
         )
         .drill("#createoreexcavation:tier_1_drill")
         .id(`createoreexcavation:hi_${vein.id}/t1`);
@@ -78,7 +87,7 @@
         .drilling(
           Fluid.of(vein.resource, BUCKET * RICH_VEIN_MULTIPLIER),
           `createoreexcavation:ore_vein_type/hi_${vein.id}`,
-          vein.baseTime / T2_DRILL_MULTIPLIER
+          vein.baseTime / T2_DRILL_MULTIPLIER,
         )
         .drill("#createoreexcavation:tier_2_drill")
         .id(`createoreexcavation:hi_${vein.id}/t2`);
@@ -87,7 +96,7 @@
         .drilling(
           Fluid.of(vein.resource, BUCKET * RICH_VEIN_MULTIPLIER),
           `createoreexcavation:ore_vein_type/hi_${vein.id}`,
-          vein.baseTime / T3_DRILL_MULTIPLIER
+          vein.baseTime / T3_DRILL_MULTIPLIER,
         )
         .drill("#createoreexcavation:tier_3_drill")
         .id(`createoreexcavation:hi_${vein.id}/t3`);

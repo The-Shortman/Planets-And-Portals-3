@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "planetsandportals:vein_indicators/overworld/low_oil",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 75,
+    "separation": 45,
+    "salt": 245626
+  }
+}
