@@ -17,4 +17,4 @@ Configuration:
 - server_starter.conf
   - This file allows you to configure some more technical settings.
   - If you wish to set your server's timezone you may do so in this file.
-  - If you have a custom directory for your Java installation, you can define it here.
+  - If you have a custom directory for your Java installation, you can define it here. Otherwise, it uses the Java executable defined in your machine's PATH by default.
