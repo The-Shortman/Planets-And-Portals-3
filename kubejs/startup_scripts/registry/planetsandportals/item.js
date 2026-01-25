@@ -55,6 +55,11 @@
         stackSize: 64,
       },
       {
+        id: "planetsandportals:dirty_desh_dust",
+        name: "Dirty Desh Dust",
+        stackSize: 64,
+      },
+      {
         id: "planetsandportals:desh_dust",
         name: "Desh Dust",
         stackSize: 64,
@@ -139,6 +144,11 @@
       {
         id: "planetsandportals:salt_bucket",
         name: "Salt Bucket",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:blasting_mixture",
+        name: "Blasting Mixture",
         stackSize: 64,
       },
     ];

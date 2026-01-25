@@ -61,6 +61,11 @@
         output: "minecraft:diorite",
         id: "diorite_from_salt",
       },
+      {
+        input: ["create:crushed_raw_iron", "tfmg:limesand"],
+        output: "planetsandportals:blasting_mixture",
+        id: "blasting_mixture",
+      },
     ];
 
     mixingRecipes.forEach((recipe) => {

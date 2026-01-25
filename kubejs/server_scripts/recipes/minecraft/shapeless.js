@@ -52,18 +52,13 @@
 
       {
         inputs: ["tfmg:fireproof_bricks", "create:andesite_funnel"],
-        output: "mm:blast_furnace_item_input",
+        output: "mbd2:blast_furnace_item_input",
         id: "blast_furnace_item_input",
       },
       {
         inputs: ["tfmg:fireproof_bricks", "create:fluid_valve"],
-        output: "mm:blast_furnace_fluid_output",
+        output: "mbd2:blast_furnace_fluid_output",
         id: "blast_furnace_fluid_output",
-      },
-      {
-        inputs: ["tfmg:blast_furnace_output"],
-        output: "mm:blast_furnace_controller",
-        id: "blast_furnace_controller",
       },
 
       // Steel Furnace

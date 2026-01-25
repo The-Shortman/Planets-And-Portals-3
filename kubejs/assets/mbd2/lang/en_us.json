@@ -11,5 +11,11 @@
   "block.mbd2.pulp_churner_controller": "Pulp Churner Controller",
   "block.mbd2.pulp_churner_fluid_input": "Pulp Churner Fluid Input",
   "block.mbd2.pulp_churner_item_input": "Pulp Churner Item Input",
-  "block.mbd2.pulp_churner_item_output": "Pulp Churner Item Output"
+  "block.mbd2.pulp_churner_item_output": "Pulp Churner Item Output",
+
+  "mbd2.blast_furnace": "Blast Furnace",
+  "mbd2.steel_blasting": "Steel Blasting",
+  "block.mbd2.blast_furnace_controller": "Blast Furnace Controller",
+  "block.mbd2.blast_furnace_fluid_output": "Blast Furnace Fluid Output",
+  "block.mbd2.blast_furnace_item_input": "Blast Furnace Item Input"
 }

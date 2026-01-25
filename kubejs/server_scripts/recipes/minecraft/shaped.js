@@ -545,7 +545,7 @@
           B: "tfmg:fireproof_bricks",
           C: "tfmg:cast_iron_pipe",
         },
-        output: "mm:blast_furnace_controller",
+        output: "mbd2:blast_furnace_controller",
         id: "blast_furnace_controller",
       },
       {

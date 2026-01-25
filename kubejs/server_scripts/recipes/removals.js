@@ -474,6 +474,7 @@
 
       // Create: TFMG
       { type: "tfmg:coking" },
+      { type: "tfmg:industrial_blasting" },
       { id: "tfmg:casting/slag_block" },
       { id: "tfmg:crafting/kinetics/steel_distillation_controller" },
       { id: "tfmg:crushing/slag_block" },

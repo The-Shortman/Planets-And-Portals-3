@@ -69,9 +69,6 @@
       },
       {
         ids: [
-          "mm:blast_furnace_fluid_input",
-          "mm:blast_furnace_item_output",
-          "mm:coke_oven_fluid_input",
           "mm:steel_furnace_fluid_input",
           "mm:steel_furnace_item_output",
           "mm:steel_furnace_energy_output",
