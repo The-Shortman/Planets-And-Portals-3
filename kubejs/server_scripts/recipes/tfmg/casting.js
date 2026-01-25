@@ -17,7 +17,7 @@
           type: "tfmg:casting",
           ingredients: [recipe.input],
           processingTime: recipe.time,
-          results: [recipe.output],
+          results: [{ item: recipe.output }],
         })
         .id(`kubejs:tfmg/casting/${recipe.id}`);
     });
