@@ -12,6 +12,7 @@
         Item.of("minecraft:soul_sand").withChance(1),
         Item.of("minecraft:sand").withChance(7),
       ],
+      id: "soul_sand_from_encased_egg",
     })
       .addPressingStep()
       .loops(20)
@@ -21,6 +22,7 @@
       input: "create:rose_quartz",
       transitional: "planetsandportals:unfinished_rose_quartz",
       outputs: ["create:polished_rose_quartz"],
+      id: "polished_rose_quartz",
     })
       .addCuttingStep()
       .addCuttingStep()
@@ -31,6 +33,7 @@
       input: "create:iron_sheet",
       transitional: "planetsandportals:incomplete_electron_tube",
       outputs: ["create:electron_tube"],
+      id: "electron_tube",
     })
       .addDeployingStep("tfmg:rubber_sheet")
       .addDeployingStep("create:polished_rose_quartz")
@@ -40,6 +43,7 @@
       input: "create:brass_sheet",
       transitional: "create:incomplete_precision_mechanism",
       outputs: ["create:precision_mechanism"],
+      id: "precision_mechanism",
     })
       .addDeployingStep("create:shaft")
       .addDeployingStep("create:electron_tube")
@@ -50,6 +54,7 @@
       input: "create:brass_sheet",
       transitional: "planetsandportals:unfinished_crafter_slot_cover",
       outputs: [Item.of("create:crafter_slot_cover", 3)],
+      id: "crafter_slot_cover",
     })
       .addCuttingStep()
       .addCuttingStep()
@@ -59,6 +64,7 @@
       input: "mobsandfamiliars:mossie",
       transitional: "mobsandfamiliars:watery_mossie",
       outputs: ["mobsandfamiliars:plump_mossie"],
+      id: "plump_mossie",
     })
       .addFillingStep({ fluid: "minecraft:water", amount: BUCKET })
       .loops(5)
@@ -68,6 +74,7 @@
       input: "planetsandportals:concave_heavy_plate",
       transitional: "tfmg:unfinished_steel_mechanism",
       outputs: ["planetsandportals:unevacuated_steel_mechanism"],
+      id: "unevacuated_steel_mechanism",
     })
       .addDeployingStep("create:precision_mechanism")
       .addDeployingStep("vintageimprovements:steel_spring")
@@ -79,6 +86,7 @@
       input: "create:cardboard",
       transitional: "planetsandportals:incomplete_cardboard_mechanism",
       outputs: ["planetsandportals:cardboard_mechanism"],
+      id: "cardboard_mechanism",
     })
       .addDeployingStep("create:electron_tube")
       .addDeployingStep("create:electron_tube")
@@ -90,6 +98,7 @@
       input: "tfmg:heavy_machinery_casing",
       transitional: "planetsandportals:incomplete_generator_coil",
       outputs: ["create_new_age:generator_coil"],
+      id: "generator_coil",
     })
       .addDeployingStep("create_new_age:copper_wire_block")
       .addFillingStep({ fluid: "tfmg:lubrication_oil", amount: BUCKET })
@@ -99,8 +108,9 @@
       input: "create:brass_sheet",
       transitional: "vintageimprovements:incomplete_recipe_card",
       outputs: ["vintageimprovements:recipe_card"],
+      id: "recipe_card",
     })
-      .addDeployingStep("create:paper")
+      .addDeployingStep("minecraft:paper")
       .addPressingStep()
       .build();
   });

@@ -24,6 +24,7 @@ global.server = Object.freeze({
       this._input = io.input;
       this._transitional = io.transitional;
       this._outputs = io.outputs;
+      this._id = io.id;
       this._steps = [];
       this._loopAmount = 1;
     }
@@ -194,7 +195,8 @@ global.server = Object.freeze({
       this._event.recipes.create
         .sequenced_assembly(this._outputs, this._input, this._steps)
         .transitionalItem(this._transitional)
-        .loops(this._loopAmount);
+        .loops(this._loopAmount)
+        .id(`kubejs:create/sequenced_assembly/${this._id}`);
     };
 
     // Builds a new sequenced assembly recipe
