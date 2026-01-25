@@ -585,6 +585,16 @@
         output: "tfmg:steel_distillation_controller",
         id: "steel_distillation_controller",
       },
+      {
+        pattern: ["ABA", "CCC"],
+        key: {
+          A: "create_new_age:copper_wire",
+          B: "create:framed_glass",
+          C: "tfmg:steel_nugget",
+        },
+        output: Item.of("tfmg:light_bulb", 4),
+        id: "light_bulb",
+      },
 
       // Create New Age stuff
 

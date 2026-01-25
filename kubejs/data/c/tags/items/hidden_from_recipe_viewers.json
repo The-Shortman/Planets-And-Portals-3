@@ -1,14 +1,41 @@
 {
   "replace": false,
   "values": [
-    "grapplemod:repeller",
-    "grapplemod:forcefieldupgradeitem",
+    "ad_astra:oil_bucket",
+    "ad_astra:steel_ingot",
 
+    "grapplemod:forcefieldupgradeitem",
+    "grapplemod:repeller",
+
+    "mekanism:ingot_steel",
+
+    "tfmg:black_multimeter",
+    "tfmg:blue_multimeter",
+    "tfmg:brown_multimeter",
     "tfmg:copper_wire",
+    "tfmg:cyan_multimeter",
+    "tfmg:gray_multimeter",
+    "tfmg:green_multimeter",
+    "tfmg:lead_hoe",
     "tfmg:lead_ingot",
-    "tfmg:lead_sword",
     "tfmg:lead_pickaxe",
     "tfmg:lead_shovel",
-    "tfmg:lead_hoe"
+    "tfmg:lead_sword",
+    "tfmg:light_blue_multimeter",
+    "tfmg:light_gray_multimeter",
+    "tfmg:lime_multimeter",
+    "tfmg:magenta_multimeter",
+    "tfmg:multimeter",
+    "tfmg:orange_multimeter",
+    "tfmg:pink_multimeter",
+    "tfmg:purple_multimeter",
+    "tfmg:red_multimeter",
+    "tfmg:resistor",
+    "tfmg:unfinished_electric_motor",
+    "tfmg:unfinished_generator",
+    "tfmg:unfinished_potentiometer",
+    "tfmg:unprocessed_heavy_plate",
+    "tfmg:white_multimeter",
+    "tfmg:yellow_multimeter"
   ]
 }
