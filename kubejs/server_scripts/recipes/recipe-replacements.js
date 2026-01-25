@@ -42,7 +42,17 @@
         replace: "create:iron_sheet",
       },
       {
+        filter: { input: "#forge:storage_blocks/steel" },
+        remove: "#forge:storage_blocks/steel",
+        replace: "tfmg:steel_block",
+      },
+      {
         filter: { input: "#forge:ingots/steel" },
+        remove: "#forge:ingots/steel",
+        replace: "tfmg:steel_ingot",
+      },
+      {
+        filter: { input: "#forge:nuggets/steel" },
         remove: "#forge:ingots/steel",
         replace: "tfmg:steel_ingot",
       },
