@@ -9,11 +9,15 @@
 
     "mekanism:ingot_steel",
 
+    "tfmg:aluminum_spool",
     "tfmg:black_multimeter",
     "tfmg:blue_multimeter",
     "tfmg:brown_multimeter",
+    "tfmg:contantan_spool",
     "tfmg:copper_wire",
     "tfmg:cyan_multimeter",
+    "tfmg:electromagnetic_coil",
+    "tfmg:empty_spool",
     "tfmg:gray_multimeter",
     "tfmg:green_multimeter",
     "tfmg:lead_hoe",
