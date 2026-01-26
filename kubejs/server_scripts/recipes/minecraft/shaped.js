@@ -205,17 +205,9 @@
         id: "gravity_normalizer",
       },
       {
-        pattern: ["A", "A"],
-        key: {
-          A: "#ad_astra:steel_ingots",
-        },
-        output: Item.of("ad_astra:steel_rod", 4),
-        id: "steel_rod",
-      },
-      {
         pattern: ["AA"],
         key: {
-          A: "#ad_astra:steel_ingots",
+          A: "tfmg:steel_ingot",
         },
         output: Item.of("tfmg:steel_pipe", 6),
         id: "steel_pipe",
@@ -223,28 +215,27 @@
       {
         pattern: [" B ", "ABA", "ABA"],
         key: {
-          A: "#ad_astra:steel_ingots",
-          B: "ad_astra:steel_rod",
+          A: "tfmg:steel_ingot",
+          B: "vintageimprovements:steel_rod",
         },
         output: "ad_astra:oxygen_gear",
         id: "oxygen_gear",
       },
       {
-        pattern: ["AAA", "ABA"],
+        pattern: ["AAA", "ACA"],
         key: {
-          A: "#ad_astra:steel_ingots",
-          B: "minecraft:glass_pane",
+          A: "planetsandportals:ballistic_polymer",
+          C: "minecraft:glass_pane",
         },
         output: "ad_astra:space_helmet",
         id: "space_helmet",
       },
       {
-        pattern: ["A A", "BCB", "ADA"],
+        pattern: ["A A", "BCB", "AAA"],
         key: {
-          A: "#ad_astra:steel_ingots",
+          A: "planetsandportals:ballistic_polymer",
           B: "ad_astra:gas_tank",
           C: "ad_astra:oxygen_gear",
-          D: "#minecraft:wool",
         },
         output: "ad_astra:space_suit",
         id: "space_suit",
@@ -252,17 +243,17 @@
       {
         pattern: ["AAA", "B B", "A A"],
         key: {
-          A: "#ad_astra:steel_ingots",
-          B: "#minecraft:wool",
+          A: "planetsandportals:ballistic_polymer",
+          B: "tfmg:steel_ingot",
         },
         output: "ad_astra:space_pants",
         id: "space_pants",
       },
       {
-        pattern: ["B B", "A A"],
+        pattern: ["A A", "B B"],
         key: {
-          A: "#ad_astra:steel_ingots",
-          B: "#minecraft:wool",
+          A: "planetsandportals:ballistic_polymer",
+          B: "tfmg:steel_ingot",
         },
         output: "ad_astra:space_boots",
         id: "space_boots",
@@ -545,6 +536,55 @@
         output: "mbd2:blast_furnace_controller",
         id: "blast_furnace_controller",
       },
+      {
+        pattern: ["AAA", "BCB", "AAA"],
+        key: {
+          A: "create:sturdy_sheet",
+          B: "tfmg:steel_casing",
+          C: "create:display_board",
+        },
+        output: "mbd2:pulp_churner_controller",
+        id: "pulp_churner_controller",
+      },
+      {
+        pattern: [" A ", "BCB"],
+        key: {
+          A: "create:smart_pipe",
+          B: "create:sturdy_sheet",
+          C: "tfmg:steel_casing",
+        },
+        output: "mbd2:pulp_churner_fluid_input",
+        id: "pulp_churner_fluid_input",
+      },
+      {
+        pattern: [" A ", "BCB"],
+        key: {
+          A: "create:chute",
+          B: "create:sturdy_sheet",
+          C: "tfmg:steel_casing",
+        },
+        output: "mbd2:pulp_churner_item_input",
+        id: "pulp_churner_item_input",
+      },
+      {
+        pattern: ["BCB", " A "],
+        key: {
+          A: "create:chute",
+          B: "create:sturdy_sheet",
+          C: "tfmg:steel_casing",
+        },
+        output: "mbd2:pulp_churner_item_output",
+        id: "pulp_churner_item_output",
+      },
+      {
+        pattern: ["AAA", "ABA", "AAA"],
+        key: {
+          A: "#minecraft:planks",
+          B: "tfmg:heavy_machinery_casing",
+        },
+        output: "mbd2:pulp_churner_stirrer",
+        id: "pulp_churner_stirrer",
+      },
 
       // Masterful Machinery
 
@@ -622,12 +662,11 @@
       // Create Ore Excavation
 
       {
-        pattern: ["AB ", "CD ", "  D"],
+        pattern: ["AB ", "BC ", "  C"],
         key: {
-          A: "minecraft:ender_eye",
-          B: "minecraft:amethyst_shard",
-          C: "minecraft:redstone_block",
-          D: "minecraft:stick",
+          A: "tfmg:steel_mechanism",
+          B: "tfmg:cast_iron_sheet",
+          C: "tfmg:steel_ingot",
         },
         output: "createoreexcavation:vein_finder",
         id: "vein_finder",
@@ -751,6 +790,7 @@
           A: "tfmg:heavy_plate",
         },
         output: Item.of("vintageimprovements:steel_rod", 24),
+        id: "steel_rod",
       },
 
       // Mekanism basic blocks
