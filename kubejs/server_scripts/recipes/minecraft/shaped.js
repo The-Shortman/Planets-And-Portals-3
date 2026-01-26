@@ -535,9 +535,6 @@
         output: "mbd2:coke_oven_fluid_output",
         id: "coke_oven_fluid_output",
       },
-
-      // Masterful Machinery
-
       {
         pattern: ["AAA", "ABA", "ACA"],
         key: {
@@ -548,6 +545,9 @@
         output: "mbd2:blast_furnace_controller",
         id: "blast_furnace_controller",
       },
+
+      // Masterful Machinery
+
       {
         pattern: ["AAA", "ABA", "ACA"],
         key: {
@@ -718,6 +718,31 @@
         },
         output: "vintageimprovements:vibrating_table",
         id: "vibrating_table",
+      },
+      {
+        pattern: ["EBE", "ACA", "EDE"],
+        key: {
+          A: "create:copper_sheet",
+          B: "minecraft:redstone",
+          C: "create:electron_tube",
+          D: "minecraft:red_stained_glass",
+          E: "tfmg:rubber_sheet",
+        },
+        output: "vintageimprovements:laser_item",
+        id: "laser_item",
+      },
+      {
+        pattern: ["ABA", "CDC", "EFE"],
+        key: {
+          A: "create:cogwheel",
+          B: "minecraft:redstone_block",
+          C: "tfmg:steel_mechanism",
+          D: "tfmg:heavy_machinery_casing",
+          E: "vintageimprovements:steel_spring",
+          F: "vintageimprovements:laser_item",
+        },
+        output: "vintageimprovements:laser",
+        id: "laser_cutter",
       },
 
       {
