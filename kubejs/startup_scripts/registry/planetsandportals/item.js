@@ -132,11 +132,6 @@
         stackSize: 64,
       },
       {
-        id: "planetsandportals:dried_pulp",
-        name: "Dried Pulp",
-        stackSize: 64,
-      },
-      {
         id: "planetsandportals:cardboard_mechanism",
         name: "Cardboard Mechanism",
         stackSize: 64,

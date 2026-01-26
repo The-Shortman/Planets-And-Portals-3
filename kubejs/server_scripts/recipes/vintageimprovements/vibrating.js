@@ -1,12 +1,6 @@
 (function vintageimprovementsVibratingRecipes() {
   ServerEvents.recipes((event) => {
-    const vibratingRecipes = [
-      {
-        input: "planetsandportals:dried_pulp",
-        output: "create:cardboard",
-        time: 10,
-      },
-    ];
+    const vibratingRecipes = [];
 
     vibratingRecipes.forEach((recipe) => {
       event.recipes.vintageimprovements
@@ -15,4 +9,4 @@
         .id(`kubejs:vintageimprovements/vibrating/${recipe.id}`);
     });
   });
-})();
+}); //! Uninvoked IIFE
