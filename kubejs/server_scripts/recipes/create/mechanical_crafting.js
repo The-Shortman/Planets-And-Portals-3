@@ -65,6 +65,15 @@
         output: "createoreexcavation:extractor",
         id: "well_extractor",
       },
+      {
+        pattern: [" AAA ", "AABAA", "ABBBA", "AABAA", " AAA "],
+        key: {
+          A: "tfmg:bitumen",
+          B: "tfmg:heavy_plate",
+        },
+        output: "ad_astra:launch_pad",
+        id: "launch_pad",
+      },
     ];
 
     mechanicalCraftingRecipes.forEach((recipe) => {

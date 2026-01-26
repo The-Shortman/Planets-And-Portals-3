@@ -639,6 +639,10 @@
       { type: "ad_astra:alloying" },
       { type: "ad_astra:cryo_freezing" },
       { type: "ad_astra:refining" },
+
+      { id: "ad_astra:rocket_nose_cone" },
+      { id: "ad_astra:rocket_fin" },
+
       { output: "ad_astra:steel_ingot" },
       { output: "ad_astra:steel_block" },
       { output: "ad_astra:steel_nugget" },
