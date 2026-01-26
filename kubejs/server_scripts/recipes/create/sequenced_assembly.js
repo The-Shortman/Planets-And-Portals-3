@@ -2,6 +2,13 @@
   const { BUCKET, BLOCK, INGOT, NUGGET } = global.fluids;
   const { createSequencedAssembly } = global.server;
 
+  // Curving heads
+  const convex = "vintageimprovements:convex_curving_head";
+  const concave = "vintageimprovements:concave_curving_head";
+  const wShaped = "vintageimprovements:w_shaped_curving_head";
+  const vShaped = "vintageimprovements:v_shaped_curving_head";
+
+  // Placeholder
   const placehold = "create:incomplete_precision_mechanism";
 
   ServerEvents.recipes((event) => {
@@ -112,6 +119,16 @@
     })
       .addDeployingStep("minecraft:paper")
       .addPressingStep()
+      .build();
+
+    createSequencedAssembly(event, {
+      input: "tfmg:heavy_plate",
+      transitional: "planetsandportals:incomplete_nose_cone",
+      outputs: ["ad_astra:rocket_nose_cone"],
+      id: "nose_cone",
+    })
+      .addCurvingStep(concave)
+      .addDeployingStep("minecraft:lightning_rod")
       .build();
   });
 })();

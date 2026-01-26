@@ -188,6 +188,10 @@
         id: "planetsandportals:incomplete_generator_coil",
         name: "Incomplete Generator Coil",
       },
+      {
+        id: "planetsandportals:incomplete_nose_cone",
+        name: "Incomplete Nose Cone",
+      },
     ];
 
     transitionalItems.forEach((item) => {
