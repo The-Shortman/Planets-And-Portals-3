@@ -151,6 +151,11 @@
         name: "Blasting Mixture",
         stackSize: 64,
       },
+      {
+        id: "planetsandportals:ballistic_polymer",
+        name: "Ballistic Polymer",
+        stackSize: 16,
+      },
     ];
 
     basicItems.forEach((item) => {

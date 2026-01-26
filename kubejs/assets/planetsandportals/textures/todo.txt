@@ -12,6 +12,7 @@ planetsandportals:unfinshed_rose_quartz
 planetsandportals:incomplete_electron_tube
 planetsandportals:incomplete_cardboard_mechanism
 planetsandportals:incomplete_generator_coil
+planetsandportals:ballistic_polymer
 
 Current "dev" item textures (roughly done, can do with better):
 planetsandportals:infernal_portaberries
