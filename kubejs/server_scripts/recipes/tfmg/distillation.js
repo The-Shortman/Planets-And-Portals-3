@@ -9,6 +9,7 @@
           { fluid: "tfmg:gasoline", amount: 40 },
           { fluid: "tfmg:lpg", amount: 40 },
         ],
+        id: "crude_oil",
       },
       {
         input: { fluid: "tfmg:heavy_oil", amount: 100 },
