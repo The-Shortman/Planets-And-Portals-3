@@ -1,12 +1,14 @@
 {
   "replace": false,
   "values": [
+    "ad_astra:cable_duct",
     "ad_astra:coal_generator",
     "ad_astra:compressor",
     "ad_astra:cryo_freezer",
     "ad_astra:etrionic_blast_furnace",
     "ad_astra:fuel_refinery",
     "ad_astra:nasa_workbench",
+    "ad_astra:steel_cable",
 
     "ae2:inscriber",
 

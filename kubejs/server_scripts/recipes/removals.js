@@ -643,6 +643,9 @@
       { id: "ad_astra:rocket_nose_cone" },
       { id: "ad_astra:rocket_fin" },
 
+      { id: "ad_astra:cable_duct" },
+      { id: "ad_astra:steel_cable" },
+
       { output: "ad_astra:steel_ingot" },
       { output: "ad_astra:steel_block" },
       { output: "ad_astra:steel_nugget" },
