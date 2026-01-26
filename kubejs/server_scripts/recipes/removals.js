@@ -470,6 +470,7 @@
       { id: "create:crafting/logistics/red_postbox" },
       { id: "create:crafting/logistics/black_postbox" },
       { id: "create:crafting/logistics/stock_link" },
+      { id: "create:pressing/cardboard" },
       { id: "create:sequenced_assembly/sturdy_sheet" },
 
       // Create: TFMG
