@@ -765,7 +765,7 @@
       {
         pattern: ["ABA", "CDC", "EFE"],
         key: {
-          A: "create:cogwheel",
+          A: "create_new_age:copper_wire_block",
           B: "minecraft:redstone_block",
           C: "tfmg:steel_mechanism",
           D: "tfmg:heavy_machinery_casing",
