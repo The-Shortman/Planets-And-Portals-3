@@ -94,14 +94,6 @@
       {
         pattern: ["AA", "AA"],
         key: {
-          A: "tfmg:fireclay_ball",
-        },
-        output: "tfmg:fireclay",
-        id: "fireclay_from_fireclay_ball",
-      },
-      {
-        pattern: ["AA", "AA"],
-        key: {
           A: "tfmg:synthetic_string",
         },
         output: "minecraft:white_wool",

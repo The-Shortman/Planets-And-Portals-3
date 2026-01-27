@@ -13,6 +13,11 @@
         output: Item.of("createoreexcavation:raw_redstone", 9),
         id: "raw_redstone_from_block",
       },
+      {
+        inputs: "tfmg:fireclay",
+        output: Item.of("tfmg:fireclay_ball", 4),
+        id: "fireclay_ball",
+      },
 
       // Create
 
