@@ -6,7 +6,6 @@ planetsandportals:concave_heavy_plate
 planetsandportals:unevacuated_steel_mechanism
 planetsandportals:dried_pulp
 planetsandportals:cardboard_mechanism
-planetsandportals:salt_bucket
 planetsandportals:unfinished_crafter_slot_cover
 planetsandportals:unfinshed_rose_quartz
 planetsandportals:incomplete_electron_tube
