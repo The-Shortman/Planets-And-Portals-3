@@ -108,6 +108,9 @@
       id: "generator_coil",
     })
       .addDeployingStep("create_new_age:copper_wire_block")
+      .addDeployingStep("create_new_age:copper_wire_block")
+      .addDeployingStep("create_new_age:copper_wire_block")
+      .addDeployingStep("create_new_age:copper_wire_block")
       .addFillingStep({ fluid: "tfmg:lubrication_oil", amount: BUCKET })
       .build();
 
