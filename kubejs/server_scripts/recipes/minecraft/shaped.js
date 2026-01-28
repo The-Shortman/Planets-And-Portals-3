@@ -578,30 +578,6 @@
         id: "pulp_churner_stirrer",
       },
 
-      // Masterful Machinery
-
-      {
-        pattern: ["AAA", "ABA", "ACA"],
-        key: {
-          A: "tfmg:heavy_plate",
-          B: "tfmg:steel_casing",
-          C: "tfmg:steel_pipe",
-        },
-        output: "mm:steel_furnace_controller",
-        id: "steel_furnace_controller",
-      },
-      {
-        pattern: ["ABA", "ACA", "ADA"],
-        key: {
-          A: "tfmg:steel_casing",
-          B: "create_new_age:basic_motor",
-          C: "create:mechanical_mixer",
-          D: "create:basin",
-        },
-        output: "mm:fuel_mixer_controller",
-        id: "fuel_mixer_controller",
-      },
-
       // Create: TFMG
 
       {

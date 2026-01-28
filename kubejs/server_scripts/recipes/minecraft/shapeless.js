@@ -65,45 +65,6 @@
         output: "mbd2:blast_furnace_fluid_output",
         id: "blast_furnace_fluid_output",
       },
-
-      // Steel Furnace
-
-      {
-        inputs: ["tfmg:heavy_machinery_casing", "create:andesite_funnel"],
-        output: "mm:steel_furnace_item_input",
-        id: "steel_furnace_item_input",
-      },
-      {
-        inputs: ["tfmg:heavy_machinery_casing", "create:fluid_valve"],
-        output: "mm:steel_furnace_fluid_output",
-        id: "steel_furnace_fluid_output",
-      },
-      {
-        inputs: [
-          "tfmg:heavy_machinery_casing",
-          "create_new_age:electrical_connector",
-        ],
-        output: "mm:steel_furnace_energy_input",
-        id: "steel_furnace_energy_input",
-      },
-
-      // Fuel Mixer
-
-      {
-        inputs: ["tfmg:steel_casing", "create:mechanical_pump"],
-        output: "mm:fuel_mixer_fluid_input",
-        id: "fuel_mixer_fluid_input",
-      },
-      {
-        inputs: ["tfmg:steel_casing", "create:fluid_valve"],
-        output: "mm:fuel_mixer_fluid_output",
-        id: "fuel_mixer_fluid_output",
-      },
-      {
-        inputs: ["tfmg:steel_casing", "create_new_age:electrical_connector"],
-        output: "mm:fuel_mixer_energy_input",
-        id: "fuel_mixer_energy_input",
-      },
     ];
 
     shapelessRecipes.forEach((recipe) => {
