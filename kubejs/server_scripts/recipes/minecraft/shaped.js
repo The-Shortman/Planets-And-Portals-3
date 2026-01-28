@@ -541,7 +541,7 @@
       {
         pattern: [" A ", "BCB"],
         key: {
-          A: "create:smart_pipe",
+          A: "create:smart_fluid_pipe",
           B: "create:sturdy_sheet",
           C: "tfmg:steel_casing",
         },
