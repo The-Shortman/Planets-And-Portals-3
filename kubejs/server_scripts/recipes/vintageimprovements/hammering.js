@@ -4,7 +4,7 @@
       {
         input: "tfmg:steel_block",
         output: "tfmg:heavy_plate",
-        loops: 4,
+        loops: 1,
       },
     ];
 
