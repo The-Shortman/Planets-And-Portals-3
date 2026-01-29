@@ -71,7 +71,7 @@
           A: "tfmg:bitumen",
           B: "tfmg:heavy_plate",
         },
-        output: "ad_astra:launch_pad",
+        output: Item.of("ad_astra:launch_pad", 2),
         id: "launch_pad",
       },
     ];
