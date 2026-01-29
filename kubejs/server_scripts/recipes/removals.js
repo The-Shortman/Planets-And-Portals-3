@@ -644,6 +644,7 @@
       { type: "ad_astra:cryo_freezing" },
       { type: "ad_astra:refining" },
 
+      { id: "ad_astra:fan" },
       { id: "ad_astra:rocket_nose_cone" },
       { id: "ad_astra:rocket_fin" },
 

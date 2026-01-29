@@ -151,6 +151,14 @@
         name: "Ballistic Polymer",
         stackSize: 16,
       },
+
+      // Curving Press Heads
+
+      {
+        id: "planetsandportals:fan_curving_head",
+        name: "Fan Curving Head",
+        stackSize: 1,
+      },
     ];
 
     basicItems.forEach((item) => {
