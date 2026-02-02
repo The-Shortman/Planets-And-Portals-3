@@ -3,7 +3,6 @@ planetsandportals:sticky_wart
 planetsandportals:stony_wart
 planetsandportals:concave_heavy_plate
 planetsandportals:unevacuated_steel_mechanism
-planetsandportals:dried_pulp
 planetsandportals:cardboard_mechanism
 planetsandportals:unfinished_crafter_slot_cover
 planetsandportals:unfinshed_rose_quartz
