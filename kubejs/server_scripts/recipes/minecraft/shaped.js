@@ -214,6 +214,16 @@
         id: "oxygen_gear",
       },
       {
+        pattern: ["AB", "CC", "CC"],
+        key: {
+          A: "planetsandportals:complex_iron_parts",
+          B: "tfmg:rubber_sheet",
+          C: "create:iron_sheet",
+        },
+        output: "ad_astra:gas_tank",
+        id: "gas_tank",
+      },
+      {
         pattern: ["AAA", "ACA", " B "],
         key: {
           A: "planetsandportals:ballistic_polymer",
