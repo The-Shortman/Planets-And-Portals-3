@@ -1,10 +1,11 @@
 Undone item textures:
 planetsandportals:concave_heavy_plate
+planetsandportals:ballistic_polymer
+planetsandportals:complex_iron_parts
+planetsandportals:fan_curving_head
 planetsandportals:unfinished_crafter_slot_cover
 planetsandportals:unfinshed_rose_quartz
 planetsandportals:incomplete_generator_coil
-planetsandportals:ballistic_polymer
-planetsandportals:complex_iron_parts
 
 Current "dev" item textures (roughly done, can do with better):
 planetsandportals:infernal_portaberries
