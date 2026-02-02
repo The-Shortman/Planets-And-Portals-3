@@ -151,6 +151,11 @@
         name: "Ballistic Polymer",
         stackSize: 16,
       },
+      {
+        id: "planetsandportals:complex_iron_parts",
+        name: "Complex Iron Parts",
+        stackSize: 64,
+      },
 
       // Curving Press Heads
 

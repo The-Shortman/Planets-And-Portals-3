@@ -8,6 +8,13 @@
         chargeRate: 50,
         id: "rocket_fin",
       },
+      {
+        input: "create:iron_sheet",
+        output: "planetsandportals:complex_iron_parts",
+        energy: 2000,
+        chargeRate: 50,
+        id: "complex_iron_parts",
+      },
     ];
 
     laserCuttingRecipes.forEach((recipe) => {
