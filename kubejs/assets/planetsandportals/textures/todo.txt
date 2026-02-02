@@ -1,7 +1,6 @@
 Undone item textures:
 planetsandportals:ballistic_polymer
 planetsandportals:complex_iron_parts
-planetsandportals:fan_curving_head
 planetsandportals:unfinished_crafter_slot_cover
 planetsandportals:unfinshed_rose_quartz
 planetsandportals:incomplete_generator_coil
@@ -11,3 +10,4 @@ planetsandportals:infernal_portaberries
 planetsandportals:lavaberries
 planetsandportals:soaked_lavaberries
 planetsandportals:cardboard_mechanism
+planetsandportals:fan_curving_head
