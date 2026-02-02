@@ -21,6 +21,11 @@
         output: "vintageimprovements:w_shaped_curving_head",
         id: "w_shaped_curving_head",
       },
+      {
+        input: "tfmg:steel_block",
+        output: "planetsandportals:fan_curving_head",
+        id: "fan_curving_head",
+      },
     ];
 
     turningRecipes.forEach((recipe) => {
