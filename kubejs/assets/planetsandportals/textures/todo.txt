@@ -1,5 +1,4 @@
 Undone item textures:
-planetsandportals:concave_heavy_plate
 planetsandportals:ballistic_polymer
 planetsandportals:complex_iron_parts
 planetsandportals:fan_curving_head
