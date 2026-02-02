@@ -1,5 +1,4 @@
 Undone item textures:
-planetsandportals:blasting_mixture
 planetsandportals:sticky_wart
 planetsandportals:stony_wart
 planetsandportals:concave_heavy_plate
