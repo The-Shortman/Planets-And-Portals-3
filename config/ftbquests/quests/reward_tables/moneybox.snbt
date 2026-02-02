@@ -1,14 +1,5 @@
 {
 	id: "2251BE0CB7961988"
-	loot_crate: {
-		color: 6961157
-		drops: {
-			boss: 0
-			monster: 50
-			passive: 1
-		}
-		string_id: "s_cash"
-	}
 	loot_size: 1
 	order_index: 3
 	rewards: [
