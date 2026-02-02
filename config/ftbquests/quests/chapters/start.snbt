@@ -32,17 +32,17 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
+				"&7This section was last updated for version &6v0.9.0&7.&r"
+				""
 				"It's a bit of a long story..."
 				""
-				"Planets and Portals (the first modpack) was a very basic collection of a couple of Forge 1.12.2 mods that I liked, and was by no means an enjoyable experience, at least in my opinion. I threw it together for a couple of friends and I back in 2021 and it has since reached over 10 thousand downloads, and I have no idea why! You can still find it on Curseforge!"
+				"Planets and Portals &7(the first modpack)&r was a very &cbasic&r collection of a couple of Forge 1.12.2 mods that I liked, and was by &cno means&r an enjoyable experience, &7at least in my opinion&r. I threw it together for a couple of friends and I back in 2021, and it has since reached over &a11 thousand downloads&r, and I have no idea why! &6You can still find it on Curseforge!&r"
 				"{@pagebreak}"
+				"Considering the success of the first modpack I eventually decided to improve upon it in a more recent version of Minecraft, so I landed on Fabric 1.18.2, and I started development on &6Planets and Portals 2&r in May 2024. I actually got pretty invested in it, but there were a lot of &climitations&r that came with the lack of mods that I really liked not being on Fabric 1.18.2, eventually causing me to suffer from burnout after a couple of weeks."
 				""
-				"Considering the success of the first modpack I eventually decided to improve upon it in a more recent version of Minecraft, so I landed on Fabric 1.18.2, and I started development on Planets and Portals 2 in May 2024. I actually got pretty invested in it, but a lot of limitations that comes with a lack of mods that I really liked not being on Fabric 1.18.2, eventually caused me to suffer from burnout after a couple of weeks."
-				""
-				"However, I finally cut my losses and abandoned Planets and Portals 2, opting to go for Forge 1.20.1 instead, which has a much wider selection of more updated mods, and I just couldn't resist it. It did mean having to completely change how the modpack is played, and losing over 2000 lines of KubeJS code that I had worked for tens of hours on, but I thought it would be worth it. So here we are, Planets and Portals 3!"
+				"However, I finally cut my losses and &6abandoned Planets and Portals 2&r, opting to go for &6Forge 1.20.1&r instead, which has a much wider selection of more updated mods, and I just couldn't resist it. It did mean having to &6completely change how the modpack is played&r, and losing over 2000 lines of KubeJS code that I had worked for tens of hours on, but I thought it would be &aworth it&r. So here we are, &6Planets and Portals 3&r!"
 				"{@pagebreak}"
-				""
-				"If you read all of the above context then I really appreciate you taking the time to learn the history behind this modpack, so you've earned the free cookie. I hope you have a great time playing! <3"
+				"If you read all of the above context then I really &aappreciate&r you taking the time to learn the history behind this modpack, so you've earned the &afree cookie&r. I hope you have a great time playing! <3"
 			]
 			icon: "chipped:mixed_oak_large_bookshelf"
 			id: "47509DC6F7C9D88F"
@@ -61,7 +61,7 @@
 			y: 2.5d
 		}
 		{
-			description: ["Check off every quest in this chapter to see the rest of the questbook."]
+			description: ["Check off &6every quest&r in this chapter to see the rest of the questbook."]
 			icon: "create_questing:blueprint"
 			id: "67E8273831E8B9D2"
 			rewards: [{
@@ -84,11 +84,13 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"This modpack aims to stretch you out. In order to generate large, reliable quantities of resources you'll need to travel out a fair distance to find hidden underground resource deposits, which also means you'll need some sort of reliable long-distance transport infrastructure..."
+				"&7This section was last updated for version &6v0.9.0&7.&r"
 				""
-				"Beyond that, the processes for leaving the planet are far more tedious than the base Ad Astra mod, involving a much more tedious process for manufacturing steel and fuel, a new way to generate power for your machines, and the requirement of much more advanced rocket technology to reach the Moon than usual."
+				"This modpack aims to &6stretch you out&r."
 				""
-				"At each planet more powerful resources are unlocked, allowing you to gain greater control over how your factory runs, improve your resource yields, and do loads of useless and stupid things along the way!"
+				"In order to generate large, reliable quantities of resources you'll need to &6travel out a fair distance&r to find hidden underground &6resource deposits&r, which also means you'll need some sort of reliable long-distance &6transport infrastructure&r..."
+				""
+				"At each planet more powerful resources are unlocked, allowing you to gain greater control over how your factory runs, improve your resource yields, and maybe even do loads of useless, stupid, and fun things along the way!"
 			]
 			icon: {
 				Count: 1
@@ -114,13 +116,15 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"Bugs and suggestions can be made on the Github repository, the link is on the beetle decal below this quest."
+				"&7This section was last updated for version &6v0.9.0&7.&r"
+				""
+				"&6Bugs&r and &6suggestions&r can be made on the &6Github repository&r, the link is on the &9beetle decal&r below this quest."
 				""
 				"You can even open a pull request if you've implemented your own idea or bug fix! Get your name in the credits!"
 				""
-				"When contributing please make sure to read the LICENSE.md file on the repository before submitting pull requests."
+				"When contributing please make sure to read the &6LICENSE.md&r and &6CONTRIBUTING.md&r files on the repository before submitting pull requests."
 			]
-			icon: "mm:debug_tool"
+			icon: "ae2:debug_card"
 			id: "5035B04C3A0052E8"
 			rewards: [{
 				id: "07BD08F7ED834954"
@@ -145,9 +149,11 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"You should have recieved a quest book upon loading the world, but you can throw it out - you don't actually need it!"
+				"&7This section was last updated for version &6v0.9.0&7.&r"
 				""
-				"I would recommend setting a keybind to open the quest book. Go to your controls, and search for quests."
+				"You should have recieved a Blueprint &7(your Quest Book)&r upon loading the world, but you can throw it out - &6you don't actually need it&r!"
+				""
+				"I would recommend setting a &6keybind&r to open the quest book. Go to your controls, and search for &9quests&r. By default, it's set to &6J&r."
 				""
 				"Or, you can access it from your inventory in the top left!"
 			]
@@ -165,11 +171,13 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"Certus quartz cannot be found in the overworld, and all of AE2 will eventually be gated behind Mercury."
+				"&7This section was last updated for version &6v0.9.0&7.&r"
 				""
-				"Basic Mekanism machines are gated behind the moon. More advanced Mekanism recipes are locked behind later planets"
+				"&6Certus Quartz&r cannot be found in the Overworld, and all of AE2 will eventually be gated behind Mercury."
 				""
-				"This pack uses a biome mod called Regions Unexplored, and Tectonic to generate the stunning geological features. I likely won't add any more biome overhaul mods."
+				"Basic &6Mekanism&r machines will be gated behind The Moon. More advanced Mekanism recipes are locked behind later planets"
+				""
+				"This pack uses a &6biome mod&r called Regions Unexplored, and Tectonic to generate the stunning &6geological features&r. I likely &cwon't&r add any more biome overhaul mods."
 			]
 			icon: "ad_astra:earth_globe"
 			id: "519C3A8987AC3CF9"
@@ -191,9 +199,11 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"As you progress through the modpack, you'll be rewarded with a form of currency. This currency can only be traded with villagers in place of emeralds, as emeralds to begin with aren't all to abundant, and I wanted to make villagers a more integral part of the modpack experience."
+				"&7This section was last updated for version &6v0.9.0&7.&r"
 				""
-				"Create: Numismatics also allows a player-based economy with banking, trading, vending, depositing, and more! Check out the dedicated chapter!"
+				"As you progress through the modpack, you'll be rewarded with a form of currency. This currency can only be traded with villagers in place of emeralds, as emeralds to begin with aren't all too abundant, and I wanted to make villagers a slightly more useful part of the gameplay experience."
+				""
+				"Create: Numismatics also allows a &6player-based economy&r with banking, trading, vending, depositing, and more! Check out the &6dedicated chapter&r!"
 			]
 			icon: "numismatics:cog"
 			id: "723A9A15D6A4F51A"
@@ -213,7 +223,13 @@
 		}
 		{
 			dependencies: ["67E8273831E8B9D2"]
-			description: ["Currently the only celestial bodies available are Earth. Others are reachable but I am currently focusing on completing Earth progression. This will change over time, ideally including ALL Ad Astra planets by the time of the full pack release."]
+			description: [
+				"&7This section was last updated for version &6v0.9.0&7.&r"
+				""
+				"Currently the only celestial body available is &6Earth&r. "
+				""
+				"Others are currently not reachable due to being in development. This will change in the future."
+			]
 			icon: "supplementaries:globe"
 			id: "6AF6A17A5E8F0C11"
 			rewards: [{
@@ -233,9 +249,13 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"Currently the only portals are the vanilla portals. "
+				"&7This section was last updated for version &6v0.9.0&7.&r"
 				""
-				"The portals theme is semi-present in the form of the Cosmic Resonator preventing access to the Nether, however there are plans to expand upon the portals theme at some point before release."
+				"The Vanilla portals' functionalities have been &cremoved&r."
+				""
+				"Instead, you must craft, and even automate, single-use &6Portaberries&r in order to travel to dimensions like the Nether. "
+				""
+				"In later progression, you will be able to craft a Portaberry for every planet as well!"
 			]
 			icon: "tempad:he_who_remains_tempad"
 			id: "4F98F89290C89B6B"
@@ -256,10 +276,13 @@
 		{
 			dependencies: ["67E8273831E8B9D2"]
 			description: [
-				"Observable and spark can be used to find sources of lag in your game."
+				"&7This section was last updated for version &6v0.9.0&7.&r"
 				""
-				"Observable can be acccessed with 0 on the numbers at the top of the keyboard."
-				"spark can be accessed by running /spark [subcommand] in chat/console."
+				"&6Observable&r and &6Spark&r can be used to find sources of lag in your game."
+				""
+				"Observable can be acccessed by pressing &70&r on the numbers at the top of the keyboard."
+				""
+				"Spark can be accessed by running &7/spark [subcommand]&r in chat or the server console."
 			]
 			icon: "minecraft:ender_eye"
 			id: "37ECD1B859DD6F38"
@@ -268,7 +291,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			subtitle: "Observable and spark my beloved"
+			subtitle: "Observable and Spark my beloved"
 			tasks: [{
 				id: "308854C5C82B6AF2"
 				title: "Locating Lag"

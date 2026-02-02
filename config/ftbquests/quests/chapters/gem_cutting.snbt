@@ -113,6 +113,7 @@
 		{
 			dependencies: ["6F0DD7BF28386C65"]
 			id: "37DF831D26CDDBAE"
+			subtitle: "Can also be automated in the Industrial Age with Belt Grinders!"
 			tasks: [{
 				id: "4B3B938A55762D05"
 				item: {

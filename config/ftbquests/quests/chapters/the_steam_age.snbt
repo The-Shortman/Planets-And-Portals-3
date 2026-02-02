@@ -1,0 +1,875 @@
+{
+	autofocus_id: "248FA393E5FE7978"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_steam_age"
+	group: "30A216F1693DCE58"
+	hide_quest_until_deps_visible: true
+	icon: "create:sturdy_sheet"
+	id: "123AF28E467BA32E"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B4C5E3399DD5C61"]
+			description: [
+				"This chapter has two paths. Both are technically optional, but they are highly recommended."
+				""
+				"The path on the left leads you down Create's &6High Logistics&r line, which gives you the tools to expand your factory's logistics in extremely powerful ways. &6Smart storage&r systems, \"ziplines\" (&6zipchains&r?), &6delivery networks&r, &6automatic crafting&r, and &6so much more&r."
+				""
+				"The path on the right leads you down Create's &6Train&r line, which opens up the best long-range transportation option in the game (and the coolest). Trains can &6move through unloaded chunks&r, making your resource drill setups much more worth it and much more viable long-term. Just make sure your &6stations either end are always loaded&r! FTB Chunks comes with a chunkloading feature, so make good use of it."
+			]
+			id: "248FA393E5FE7978"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Let's flesh out that factory"
+			tasks: [{
+				id: "3B44CCA642BDFFCC"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["248FA393E5FE7978"]
+			id: "035C582F384EE9DE"
+			tasks: [{
+				id: "3DEB2F745105ACB1"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["248FA393E5FE7978"]
+			description: [
+				"The Pulp Churner can turn most &6plant matter&r into &6Pulp&r. It's a heavy Steel investment, but it's worth it, and you probably have enough Steel production by now anyway."
+				""
+				"Check &6EMI&r to see what plant matter can be pulpified."
+			]
+			icon: "mbd2:pulp_churner_controller"
+			id: "68A7DC836C354457"
+			subtitle: "Plant Pulpification"
+			tasks: [
+				{
+					id: "66956D0E4B29BCB1"
+					item: "mbd2:pulp_churner_controller"
+					type: "item"
+				}
+				{
+					id: "1F39C8D1FBFBAB5F"
+					item: "mbd2:pulp_churner_item_input"
+					type: "item"
+				}
+				{
+					id: "0588F94629FC2CB4"
+					item: "mbd2:pulp_churner_fluid_input"
+					type: "item"
+				}
+				{
+					id: "35A87B3344DBD3DC"
+					item: "mbd2:pulp_churner_item_output"
+					type: "item"
+				}
+				{
+					id: "597273C45A4394CB"
+					item: "mbd2:pulp_churner_stirrer"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3F08EA2CB086641A"
+					item: { Count: 2, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "704A62384AAC4A30"
+					item: { Count: 4, id: "tfmg:heavy_machinery_casing" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "0C5432C40F9533E6"
+					item: { Count: 44, id: "tfmg:steel_casing" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "176AEDF36D62B315"
+					item: "create:framed_glass"
+					type: "item"
+				}
+			]
+			title: "Pulp Churner"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68A7DC836C354457"]
+			id: "19B7299592536BFB"
+			tasks: [{
+				id: "3F29F17A86D6944D"
+				item: "create:pulp"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19B7299592536BFB"]
+			id: "2E1CB57838BDC3AA"
+			tasks: [{
+				id: "08EADB98DB28CB96"
+				item: "create:cardboard"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["035C582F384EE9DE"]
+			description: [
+				"You can manually control a Train using Train Controls!"
+				""
+				"Use &6W&r/&6S&r to accelerate/decelerate, and &6A&r/&6D&r to turn at a Track junction."
+				""
+				"Hold &6SPACE&r to perfectly pull into a Station you are approaching."
+			]
+			id: "703E42882FDCB537"
+			subtitle: "Move that Train!"
+			tasks: [{
+				id: "550592711148F971"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3B44CCA642BDFFCC"
+				"2BC7202742BC1535"
+			]
+			description: [""]
+			id: "219A87099A7149BA"
+			subtitle: "AUTOMATE THESE!!!"
+			tasks: [{
+				id: "092950B7CC1B1E62"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:tracks"
+					}
+				}
+				title: "Any #create:tracks"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"3B44CCA642BDFFCC"
+				"2BC7202742BC1535"
+			]
+			description: [
+				"The entire Train does not need to be glued to make a single contraption."
+				""
+				"You can glue a carriage to up to &6two Bogeys&r, but the limit of Bogeys is only limited by the maximum Train length. Bogeys which aren't connected via Glue will act as &6separate carriages&r, and be connected via a chain-like link."
+			]
+			id: "124643728A03CA1C"
+			subtitle: "How to make carriages"
+			tasks: [{
+				id: "144A4694CF0A2689"
+				item: {
+					Count: 1
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["035C582F384EE9DE"]
+			description: [
+				"Train Stations act as &6waypoints&r for your Train network, as well as &6assembly points&r."
+				""
+				"Open the interface to create a new Train, and it will enter &6Assembly Mode&r. You can place Train Casing on the &9blue&r-highlighted track to start building your Train."
+				""
+				"Once you're done, go back to the station and click \"Assemble\". Bam! You've got a train ready to go."
+				""
+				"If you made any errors, the station will tell you what is missing from the Train."
+			]
+			id: "3C45FDC661342939"
+			tasks: [{
+				id: "518B9CE7EA6388F5"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"035C582F384EE9DE"
+				"219A87099A7149BA"
+				"124643728A03CA1C"
+				"703E42882FDCB537"
+				"3C45FDC661342939"
+			]
+			id: "7C20DE4E6AE83F86"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Build a working Train"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "389C6B8545364A9A"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E1CB57838BDC3AA"]
+			description: [
+				"Another mechanism?"
+				""
+				"Yep. This one should be super easy to make if you have &6Electron Tubes&r automated, though."
+				""
+				"The following few quests have a &6lot of explanation&r on them. If you don't like to read, remember there are &6ponders&r for all of this!"
+			]
+			id: "72EDAE096642A36E"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Don't get it wet"
+			tasks: [{
+				id: "4D90181D53C11581"
+				item: "planetsandportals:cardboard_mechanism"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3680A6A45790908C"]
+			description: [
+				"Portable Storage Interfaces &cdon't automatically output or input&r. You need to extract or insert items to them using &6Belts&r or &6Chutes&r."
+				""
+				"Each train carriage has its &6own inventory&r, allowing you to separate goods without the need for loads of filters."
+			]
+			id: "37E25D7EF7640DD3"
+			subtitle: "Move items in and out!"
+			tasks: [{
+				id: "3F1606441166C612"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3680A6A45790908C"]
+			description: [
+				"Portable Fluid Interfaces &cdon't automatically output or input&r. You need to extract or insert items to them using &6Mechanical Pumps&r."
+				""
+				"Each train carriage has its &6own inventory&r, allowing you to separate goods without the need for loads of filters."
+			]
+			id: "2EDDEC9BE20FF1D5"
+			subtitle: "Move fluids in and out!"
+			tasks: [{
+				id: "2E9CF099097F180B"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7C20DE4E6AE83F86"]
+			icon: "create:item_vault"
+			id: "3680A6A45790908C"
+			shape: "rsquare"
+			subtitle: "Efficient long-distance transport!"
+			tasks: [{
+				id: "5054E8E16B469804"
+				title: "Cargo Trains"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7C20DE4E6AE83F86"]
+			icon: "create:red_seat"
+			id: "0DD8156E8610F5C8"
+			shape: "rsquare"
+			subtitle: "Get around in style!"
+			tasks: [{
+				id: "72A7EC3ADB392E22"
+				title: "Passenger Trains"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C20DE4E6AE83F86"]
+			description: ["Just want to get on the rails and go? This is for you!"]
+			id: "0D1ACF0AB474F776"
+			subtitle: "...and whatever this thing is"
+			tasks: [{
+				id: "79A2E6035C09E7D7"
+				item: "railways:handcar"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C20DE4E6AE83F86"]
+			description: [
+				"Place a Blaze Burner in front of the Train Controls, give it a Schedule, and let it go!"
+				""
+				"Give the Schedule a &6ponder&r to see how it works."
+				""
+				"You can also use &6any mob in a seat&r in front of Train Controls, but Blaze Burners &6can't randomly die&r."
+			]
+			id: "1C46F1DDBC14DC64"
+			subtitle: "Driving trains? That can be automated too!"
+			tasks: [
+				{
+					id: "6510C1F02678A338"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "39691AD402C1EDEE"
+					item: "create:schedule"
+					type: "item"
+				}
+			]
+			title: "Schedules"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3680A6A45790908C"]
+			description: [
+				"Trains can use &6burnables&r in their inventories, like Coal, as &6fuel&r to make them go faster. "
+				""
+				"Vaults &6protect items from being used as fuel&r."
+			]
+			id: "176CCFD220082107"
+			subtitle: "Prevent your Coal from being used as fuel!"
+			tasks: [{
+				id: "5A76F853D0DF9601"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0DD8156E8610F5C8"]
+			description: [
+				"Display Links and Display Boards can show you a bunch of information about a bunch of different things, not just Trains!"
+				""
+				"Give them a &6ponder&r to see more."
+			]
+			id: "445087FCEE954F2D"
+			subtitle: "Not just for Trains"
+			tasks: [
+				{
+					id: "776095D51BABF4E3"
+					item: "create:display_link"
+					type: "item"
+				}
+				{
+					id: "6BEA70DECDFB2B56"
+					item: "create:display_board"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DD8156E8610F5C8"]
+			description: [
+				"Using a passenger train network to move between bases? This thing might come in handy if you have a lot of routes!"
+				""
+				"The Navigator can find the &6best routes&r to get from point A to B, as well as giving you &6time estimates&r (in-game time)."
+				""
+				"It even does &6transfers&r if there's no direct route!"
+			]
+			id: "7331670F724BBAA2"
+			subtitle: "For the commuters out there"
+			tasks: [{
+				id: "556E57733CE0AF1D"
+				item: "createrailwaysnavigator:navigator"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["445087FCEE954F2D"]
+			description: [
+				"Advanced Displays can give you LOADS of &6information&r about your Trains."
+				""
+				"Give them a ponder if you want to expand your public transport infrastructure, because these things are SO worth it if you want to make an intercontinental passenger route."
+				""
+				"They're also potentially useful for general labelling, as they make excellent signs!"
+			]
+			id: "56467B58981C140F"
+			optional: true
+			subtitle: "ALL THE DATA!"
+			tasks: [{
+				id: "5E925FB6E4D5CA5B"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "createrailwaysnavigator:advanced_displays"
+					}
+				}
+				title: "Any Advanced Display"
+				type: "item"
+			}]
+			title: "Any Advanced Display"
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0DD8156E8610F5C8"]
+			description: [
+				"Place this down to get a nice, compact, informative clock for your platforms!"
+				""
+				"Displays in-game time."
+			]
+			id: "24040E71518FC565"
+			subtitle: "Looks nice on a platform"
+			tasks: [{
+				id: "02AB544DD90BFF62"
+				item: "createrailwaysnavigator:train_station_clock"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7C20DE4E6AE83F86"]
+			description: [
+				"Signals divide your track network into blocks. Only &6one train&r can occupy a block at a time."
+				""
+				"Give Signals a &6ponder&r to see how they work!"
+			]
+			id: "01CAC9B3CB213CA0"
+			subtitle: "More than one train on your network? You'll want these to avoid crashes"
+			tasks: [{
+				id: "4DF6719A57834AD3"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01CAC9B3CB213CA0"]
+			description: [
+				"Place these on top of a Signal and they'll &6light up&r depending on the Signal's state!"
+				""
+				"Nixie Tubes can also be used as glorified signs!"
+			]
+			id: "64DFA2E5C6662A9C"
+			subtitle: "Make signals more visible!"
+			tasks: [{
+				id: "69F672A15E4A2DC6"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01CAC9B3CB213CA0"]
+			description: ["These are like the Nixie Tubes, but &6only&r have functionality on top of Signals, and potentially look cooler too."]
+			id: "339050E6879294E0"
+			subtitle: "The Nixie Tube's cooler sibling"
+			tasks: [{
+				id: "23F49E4D89334B26"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72EDAE096642A36E"]
+			description: [
+				"\"Put the bonker as a quest\""
+				"\"Funny bonker\""
+				""
+				"\"what\""
+			]
+			id: "0FB034EA3717F5D9"
+			subtitle: "BONK!"
+			tasks: [{
+				id: "102C14CC142ECC6F"
+				item: "create:cardboard_sword"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72EDAE096642A36E"]
+			description: ["They'll never know"]
+			id: "62ED73008980C6FA"
+			tasks: [
+				{
+					id: "47CC1E169D4ECEB9"
+					item: {
+						Count: 1
+						id: "create:cardboard_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0432914DA4457ED5"
+					item: {
+						Count: 1
+						id: "create:cardboard_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FB84DD044371BF6"
+					item: {
+						Count: 1
+						id: "create:cardboard_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B8B9716B325924E"
+					item: {
+						Count: 1
+						id: "create:cardboard_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Cardboard Outfit"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72EDAE096642A36E"]
+			description: [
+				"Packagers are quite simple on the surface - when they're given a &6redstone signal&r, they'll extract &6all items&r from an attached inventory and put it into a Package."
+				""
+				"Packages are primarily used to transport &6bulk amounts&r of &6assorted goods&r."
+				""
+				"Inserting a Package &6into&r a Packager will cause the Packager to &6unload the Package's contents&r into its connected inventory, no redstone required."
+				""
+				"Place a &6Sign&r on a Packager to &6automatically address a package&r to a destination. See the next quests for more information about this."
+				""
+				"This isn't all Packagers can do! Later in this questline, you'll learn more about them."
+			]
+			id: "19EC27132C679F55"
+			subtitle: "Where it all begins"
+			tasks: [{
+				id: "4922746110DE060A"
+				item: "create:packager"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["248FA393E5FE7978"]
+			description: ["Level 9 Steam Boilers can produce a &6ludicrous&r amount of SU. Ponder the Steam Engine for more info!"]
+			id: "0FCB92B8B3F03231"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Wouldn't be the Steam Age without this, would it?"
+			tasks: [{
+				id: "01A435F0F9C92E04"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2B199CD18907B701"]
+			description: [
+				"Stock Tickers allow you to &6order items&r from a storage network. Right-click on a Stock Link &6before placing the Ticker&r to link it to the network."
+				""
+				"Place a Blaze Burner or a seated mob next to the Ticker to turn it into a &6Stock Keeper&r. "
+				""
+				"Interacting with the Stock Keeper will allow you to &6withdraw items&r of your choice from the network into Packages using Packagers."
+				""
+				"You can assign a destination name so that your Packages can pathfind to where you want them to go!"
+			]
+			id: "70AB84714715D20F"
+			subtitle: "Order up!"
+			tasks: [{
+				id: "7854DDEAA82A7102"
+				item: "create:stock_ticker"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19EC27132C679F55"]
+			description: [
+				"Stock Links allow you to &6create a new storage network&r. Place one down on top, or on the side, of a Packager to create a new network."
+				""
+				"Expand your networks by right-clicking the Stock Link in your hand on an already-placed Stock Link that is part of an existing network. Placing that Stock Link will immediately link it to the network you bound it to."
+				""
+				"&6Fully powering&r a Stock Link with redstone will &cdisable it&r. &6Partially powering&r it will &6decrease its priority&r."
+				""
+				"Stock Links do nothing by themselves, but they allow you to integrate many other components to mesh into a &6complex storage network&r!"
+			]
+			id: "2B199CD18907B701"
+			subtitle: "Link all of your storage!"
+			tasks: [{
+				id: "2A47A9E2DAA438C5"
+				item: "create:stock_link"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"49B131741B11ABE0"
+				"19EC27132C679F55"
+			]
+			description: [
+				"Belts are so yesterday."
+				""
+				"Link a Frogport to a &6nearby Chain Conveyor&r by right-clicking on the chain with the Frogport in your hand &6before placing it&r."
+				""
+				"A quick method to move Packages around is with Frogports and Chain Conveyors. Packages &6automatically pathfind&r a Chain Conveyor network to their destination Frogport."
+				""
+				"Packages with an address can be inserted into a Frogport via conventional means, such as with Funnels, or you can place Frogports &6directly on top of Packagers&r."
+				""
+				"Frogports can &6put Packages on Chain Conveyors&r if the address &cdoesn't&r match the Frogport. They'll &6remove Packages from Chain Conveyors&r if the address &adoes&r match the name of the Frogport."
+			]
+			id: "06EB543820514CF3"
+			subtitle: "Ribbit"
+			tasks: [{
+				id: "72C9E2CB521B1456"
+				item: "create:package_frogport"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72EDAE096642A36E"]
+			description: [
+				"Right this one's a doozy."
+				""
+				"Chain Conveyors can be linked together with &6Chains&r. This allows them to &6share rotation&r similarly to a Belt. You can attach shafts above and below them to power the Conveyor, or take power away from them."
+				""
+				"&6Packages&r can be placed directly on a Conveyor. This will cause them to move around the chain, not really doing much else. That gets fixed in the next quest though, so don't worry."
+				""
+				"You can also &6attach yourself&r to the chain! Simply right click on a segment of chain with a &6Wrench&r, and off you go! Ziplines in Minecraft!"
+			]
+			id: "49B131741B11ABE0"
+			subtitle: "How is this the coolest feature I've ever seen"
+			tasks: [
+				{
+					id: "62F8289F0DE335DD"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+				{
+					id: "58EFEC4FFD43E38B"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["70AB84714715D20F"]
+			description: [
+				"Table Cloths can be used to &6display items&r, or they can interface with a Storage Network to set up &6shops&r!"
+				""
+				"Shops are a complex system, and aren't really required, especially if you're in singleplayer, so give it a &6ponder&r if you're interested."
+			]
+			id: "7054F89532532358"
+			optional: true
+			subtitle: "Shops!"
+			tasks: [{
+				id: "20F801CEE6575E65"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:table_cloths"
+					}
+				}
+				title: "Any #create:table_cloths"
+				type: "item"
+			}]
+			title: "Any Table Cloth"
+			x: -15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"70AB84714715D20F"
+				"06EB543820514CF3"
+			]
+			description: [
+				"You thought everything before was feature-rich? Think again! &6Factory Gauges&r allow your entire factory to run &6practically independently&r of you, automatically restocking items when they're low, as well as a few other neat things."
+				""
+				"As always, right click with them in your hand on a Stock Link to bind them to a network &6before placing them&r."
+				""
+				"Factory Gauges do so many things, it's best to just watch their &6ponder&r to see what they can do. "
+			]
+			id: "77ED8773DA95E277"
+			subtitle: "We have AE2 at home"
+			tasks: [{
+				id: "0BA857B10C821E04"
+				item: "create:factory_gauge"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["19EC27132C679F55"]
+			description: [
+				"Configure the address and put it on a &6filter slot&r of something like a Brass Funnel or Tunnel. "
+				""
+				"It will only allow Packages &6with that address&r to pass through."
+			]
+			id: "6776568DCDC565B0"
+			subtitle: "Tell your Packages where to go!"
+			tasks: [{
+				id: "77D45A7903FA8BC6"
+				item: "create:package_filter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["06EB543820514CF3"]
+			description: [
+				"Postboxes allow you to &6interface Packages with Trains&r in the same way a Frogport can interface with Chain Conveyors."
+				""
+				"Postboxes &6still work in unloaded chunks&r, but you &ccan't&r extract Packages from, or insert Packages to Postboxes using blocks like Funnels in unloaded chunks. They can &conly&r be interacted with via Trains."
+			]
+			id: "0F2705138D9843A1"
+			subtitle: "We can include trains in this!"
+			tasks: [{
+				id: "5BAD76F1D6E97A29"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:postboxes"
+					}
+				}
+				title: "Any #create:postboxes"
+				type: "item"
+			}]
+			title: "Any Postbox"
+			x: -15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2B199CD18907B701"]
+			description: ["Configure this to &6automatically&r call a &6specific order&r every time it is pulsed with redstone."]
+			id: "43A2B7FF776485BD"
+			optional: true
+			subtitle: "Like the Stock Ticker, but Redstone!"
+			tasks: [{
+				id: "21F2D39196A919FC"
+				item: "create:redstone_requester"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["219A87099A7149BA"]
+			description: [
+				"You must be the person who placed the Press for the advancement to register!"
+				""
+				"If this was placed with a Schematicannon, it &cwon't&r count!"
+			]
+			id: "1ACC08B57967E959"
+			shape: "pentagon"
+			subtitle: "Make 1000 tracks with a single Mechanical Press"
+			tasks: [{
+				advancement: "create:track_crafting_factory"
+				criterion: ""
+				id: "37BE1BAD53545759"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"3DEB2F745105ACB1"
+				"2BC7202742BC1535"
+			]
+			description: [
+				"I'm a &6huge&r fan of trains, that's why I've included so many train addons in this modpack."
+				""
+				"An unfortunate thing I find about Create's trains is that, unlike in games like Factorio or Satisfactory, they're &cdifficult to approach for a new or casual player&r, as by design they can be &acompletely customised&r, but by default they come &cunfit for any purpose&r."
+				""
+				"This is a problem as trains are an &6integral part to moving resources&r in this modpack, and I don't want it to be a &chard barrier&r to entry for the average player."
+				""
+				"At some point I want to include some &6example schematics&r for trains and stations that follow some form of &6standard design&r, each example designed for a basic purpose."
+				""
+				"The obvious ones are a &6locomotive&r, a &6fluid carriage&r, and a &6cargo carriage&r, but &6passenger designs&r would also be nice, especially to give the mods that enhance the passenger experience some more spotlight."
+			]
+			id: "1450681E4476E1F7"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Dev notes about the Train section of this chapter"
+			tasks: [{
+				id: "7588EC789ECAA6AE"
+				title: "Roadmap"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+	]
+	title: "The Steam Age"
+}

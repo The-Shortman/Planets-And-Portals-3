@@ -3,21 +3,1449 @@
 	default_quest_shape: ""
 	filename: "the_industrial_age"
 	group: "30A216F1693DCE58"
+	hide_quest_until_deps_visible: true
 	icon: "tfmg:cast_iron_ingot"
 	id: "37D5D017B31404D7"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "5391869C3BF99BCB"
-		shape: "octagon"
-		size: 3.0d
-		tasks: [{
-			id: "7EB3B92693EFE0A7"
-			item: "tfmg:cast_iron_ingot"
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.0d
-	}]
+	quests: [
+		{
+			dependencies: ["3D777F02FBAA30E6"]
+			description: [
+				"If you don't have any automations set up yet, it's &6heavily&r recommended you do so!"
+				""
+				"This chapter forces production of a &6HUGE amount of Iron&r, which can be done by exploiting &6deep veins&r, only accessible via Drilling Machines, which you have access to RIGHT NOW!"
+			]
+			id: "5391869C3BF99BCB"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Welcome to Industry!"
+			tasks: [{
+				id: "7EB3B92693EFE0A7"
+				item: "tfmg:cast_iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62111A9A7DB9C32C"]
+			description: [
+				"Coal Coke is more efficient at smelting than Coal, but that probably doesn't matter to you if you have &6bulk blasting&r setups."
+				""
+				"This multiblock can be pretty &6easily scaled&r due to its simple shape and small footprint."
+			]
+			id: "6F9650E170405859"
+			subtitle: "Refined Coal"
+			tasks: [
+				{
+					id: "7E6DCD6A108FE282"
+					item: "mbd2:coke_oven_controller"
+					type: "item"
+				}
+				{
+					id: "4EFA3C52AD3F6D5E"
+					item: "mbd2:coke_oven_item_input"
+					type: "item"
+				}
+				{
+					id: "7952769331783908"
+					item: "mbd2:coke_oven_item_output"
+					type: "item"
+				}
+				{
+					id: "2139A2111EE730EB"
+					item: "mbd2:coke_oven_fluid_output"
+					type: "item"
+				}
+			]
+			title: "Coke Oven Multiblock"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5391869C3BF99BCB"]
+			id: "62111A9A7DB9C32C"
+			tasks: [{
+				id: "63E7D45DFC3A77B8"
+				item: "mbd2:coke_oven_filler"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6BF1CC11EB4DAAB9"
+				"6F9650E170405859"
+			]
+			id: "39419E86892F9481"
+			tasks: [{
+				id: "2E64507488D81F11"
+				item: "tfmg:coal_coke"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D777F02FBAA30E6"]
+			description: [
+				"Coal can be automated with a &6tree farm&r!"
+				""
+				"&6Bulk blast&r the logs, then &6bulk haunt&r them to get Coal."
+			]
+			id: "6BF1CC11EB4DAAB9"
+			tasks: [{
+				id: "7F4D9792F78906D2"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39419E86892F9481"]
+			id: "29C9E6F5ABEF32E9"
+			tasks: [{
+				id: "5D9113B1FB886F3F"
+				item: "tfmg:coal_coke_dust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"576EBC5021E9EF44"
+				"0731479BEAE62B69"
+			]
+			dependency_requirement: "one_completed"
+			id: "5AF3046EECEA0652"
+			tasks: [{
+				id: "033AA9C1FBF7DBFF"
+				item: "tfmg:fireclay_ball"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5AF3046EECEA0652"]
+			id: "3C80453E0C468FF7"
+			tasks: [{
+				id: "172AE3E860E50788"
+				item: "tfmg:fireproof_brick"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3C80453E0C468FF7"]
+			id: "01100A3D4FA60C4E"
+			tasks: [{
+				id: "4D3DD6DD81FD31B0"
+				item: "tfmg:fireproof_bricks"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D777F02FBAA30E6"]
+			description: ["You can make fireclay artificially by mixing &6Limesand&r with &6Blaze Blood&r."]
+			id: "576EBC5021E9EF44"
+			shape: "rsquare"
+			subtitle: "Fireclay source #2"
+			tasks: [
+				{
+					id: "00C43690A72868F1"
+					item: "tfmg:limesand"
+					type: "item"
+				}
+				{
+					id: "393EED1C92163BF8"
+					item: "planetsandportals:blaze_blood_bucket"
+					type: "item"
+				}
+			]
+			title: "Fireclay Mixture"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D777F02FBAA30E6"]
+			description: ["Building a Cobblestone generator with &6Honey&r instead of Water will generate Limestone."]
+			id: "01BA3981D6F18EA6"
+			shape: "rsquare"
+			subtitle: "Limestone source #2"
+			tasks: [
+				{
+					id: "611D0C6B2B5279E7"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "185FCF07BC797D30"
+					item: "create:honey_bucket"
+					type: "item"
+				}
+			]
+			title: "Limestone Generator"
+			x: 16.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["01100A3D4FA60C4E"]
+			description: [
+				"Steel requires high temperatures and specific environments to be manufactured. "
+				""
+				"This Blast Furnace is a good start for your Steel adventures, but you may want to ramp up production at some point."
+			]
+			icon: "mbd2:blast_furnace_controller"
+			id: "49CA9132BF82101B"
+			subtitle: "Advanced Iron Alloying"
+			tasks: [
+				{
+					id: "4D5BA6E2798082BD"
+					item: "mbd2:blast_furnace_controller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "236788A195FFCCB0"
+					item: { Count: 2, id: "mbd2:blast_furnace_item_input" }
+					type: "item"
+				}
+				{
+					id: "4C7C27F85DFD70F6"
+					item: "mbd2:blast_furnace_fluid_output"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "118EB1EA547B6226"
+					item: { Count: 13, id: "tfmg:fireproof_bricks" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "5ADDB6C19C14F49B"
+					item: { Count: 12, id: "tfmg:fireproof_brick_reinforcement" }
+					type: "item"
+				}
+			]
+			title: "Blast Furnace"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"112D6463E43828B6"
+				"49CA9132BF82101B"
+				"01100A3D4FA60C4E"
+				"29C9E6F5ABEF32E9"
+				"53E8A774D1CF4D91"
+			]
+			description: [
+				"Steel is used in almost every upcoming recipe in some capacity, and some of that capacity is going to be &6quite large&r."
+				""
+				"&6Heavy Plates&r are used frequently, which &6each cost 9 Steel Ingots&r!"
+				""
+				"If you haven't already, you need to get some Drills going!"
+			]
+			id: "7C1E451674D6B656"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "DEFINTELY automate this"
+			tasks: [{
+				id: "3269C711CC5523E0"
+				item: "tfmg:steel_ingot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5391869C3BF99BCB"
+				"3C80453E0C468FF7"
+			]
+			description: ["Casting Basins have a tendency to be pretty slow, but you can just &6add more&r!"]
+			id: "112D6463E43828B6"
+			subtitle: "Might need a few of these"
+			tasks: [
+				{
+					id: "112E1601DA085890"
+					item: "tfmg:casting_basin"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "51208E7CE2C11936"
+					item: { Count: 2, id: "tfmg:casting_basin" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"575C3F1FA0EBC5E1"
+				"01BA3981D6F18EA6"
+			]
+			dependency_requirement: "one_completed"
+			id: "3BB2FD96B285AF43"
+			subtitle: "Craft with Iron"
+			tasks: [{
+				id: "69D786320875E1EE"
+				item: "tfmg:limesand"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D777F02FBAA30E6"]
+			description: ["Limestone can be found &6rarely underground&r in large deposits."]
+			id: "575C3F1FA0EBC5E1"
+			shape: "rsquare"
+			subtitle: "Limestone source #1"
+			tasks: [{
+				id: "39257C7C4699DE20"
+				item: "create:limestone"
+				type: "item"
+			}]
+			title: "Worldgen"
+			x: 16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D777F02FBAA30E6"]
+			description: ["Fireclay can be found rarely in &6large deposits underground&r or on the &6surface&r."]
+			id: "0731479BEAE62B69"
+			shape: "rsquare"
+			subtitle: "Fireclay source #1"
+			tasks: [{
+				id: "306ADD6406C34A57"
+				item: "tfmg:fireclay"
+				type: "item"
+			}]
+			title: "Worldgen"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["49CA9132BF82101B"]
+			description: ["Slag is the thin layer of &6waste material&r skimmed off the top of Molten Steel during the Blast Furnace process."]
+			icon: "tfmg:molten_slag_bucket"
+			id: "3DEF745C0FBDC637"
+			subtitle: "Blast Furnace byproduct"
+			tasks: [
+				{
+					id: "74A4F33519471752"
+					item: "tfmg:molten_slag_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7A37D0C1424B8204"
+					title: "Got it!"
+					type: "checkmark"
+				}
+			]
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3DEF745C0FBDC637"]
+			description: ["Slag can be casted directly into blocks."]
+			id: "1505AC0988F942AC"
+			tasks: [{
+				id: "4F2398698F3E9881"
+				item: "tfmg:slag_block"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1505AC0988F942AC"]
+			id: "19F1C768A7EEEE2A"
+			tasks: [{
+				id: "502CCD3EC29C8C9D"
+				item: "tfmg:slag"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"568A154111043F7E"
+				"7C9A78DE6E56C1E6"
+				"5516519F0A4B5D2C"
+			]
+			description: [
+				"The Steel Mechanism is your new best friend, so make sure you make &6a lot&r of them."
+				""
+				"Just like the Precision Mechanism, this will be used in the recipe of every machine moving forward."
+			]
+			id: "317EA96B3A2FE169"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Mechanism number 2"
+			tasks: [{
+				id: "66DE5B20E3BD4B8C"
+				item: "tfmg:steel_mechanism"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"08A7873691D3287C"
+				"285AD21C27F7B4E3"
+			]
+			id: "7C9A78DE6E56C1E6"
+			tasks: [{
+				id: "1CF5AC3D325A426F"
+				item: "tfmg:heavy_plate"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7B34B4384FED3CC3"]
+			description: [
+				"This Hammer is powerful enough to crush entire Steel Blocks into &6Heavy Plates&r."
+				""
+				"It can also &6automate smithing&r recipes!"
+			]
+			id: "285AD21C27F7B4E3"
+			subtitle: "Beeg hammer"
+			tasks: [{
+				id: "60830DE4F9631611"
+				item: "vintageimprovements:helve_hammer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7C1E451674D6B656"]
+			id: "08A7873691D3287C"
+			tasks: [{
+				id: "1B33C2DB79D7A678"
+				item: "tfmg:steel_block"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"08A7873691D3287C"
+				"72489AA9C47A8765"
+			]
+			id: "1246DEF323B8B5CD"
+			tasks: [{
+				id: "424BC09F73A145D7"
+				item: "vintageimprovements:spring_coiling_machine"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1246DEF323B8B5CD"]
+			id: "7B34B4384FED3CC3"
+			tasks: [{
+				id: "2D20536E8C5E73A0"
+				item: "vintageimprovements:cast_iron_spring"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7C1E451674D6B656"
+				"5AA5DCCC96395707"
+			]
+			id: "72489AA9C47A8765"
+			tasks: [{
+				id: "0F5D9A45D8AF15DA"
+				item: "tfmg:steel_casing"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F9650E170405859"]
+			description: [
+				"Carbon Dioxide can be &6useful later on&r, so consider storing it in Fluid Tanks!"
+				""
+				"You don't need to fill a Bucket to complete this quest, just &6tick the checkmark&r."
+			]
+			icon: "tfmg:carbon_dioxide_bucket"
+			id: "5F4A83BC52F1F162"
+			subtitle: "Useful byproduct, or waste?"
+			tasks: [
+				{
+					id: "0AC7CF316D07DBFF"
+					item: "tfmg:carbon_dioxide_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BC004C7CBE3CAB4"
+					title: "Got it!"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6F9650E170405859"]
+			id: "4D9FD53239BE3D03"
+			tasks: [{
+				id: "7B33F87C52457657"
+				item: "tfmg:creosote_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D9FD53239BE3D03"]
+			id: "5AA5DCCC96395707"
+			tasks: [{
+				id: "010E89BCDAFAECE1"
+				item: "tfmg:hardened_planks"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7C9A78DE6E56C1E6"]
+			id: "4E8DC586CC481A0E"
+			tasks: [{
+				id: "37A731097E569565"
+				item: "tfmg:heavy_machinery_casing"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4E8DC586CC481A0E"]
+			description: [
+				"The Lathe can shape blocks of material into simple structures, such as &6Curving Heads&r."
+				""
+				"It requires two rotational inputs, and &ccan't be automated off the bat&r, you'd need a &6Recipe Card&r for that."
+				""
+				"It has two ends: the \"plate\" side, and the \"hook\" side."
+				""
+				"The item &6input and output&r is done on the \"plate\" side."
+				""
+				"The &6recipe management&r is done by right clicking on the \"hook\" side."
+			]
+			id: "1D5A1EA06E762E4D"
+			subtitle: "A complex beast"
+			tasks: [{
+				id: "122310A7C441FD15"
+				item: "vintageimprovements:lathe"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1D5A1EA06E762E4D"]
+			description: ["The Curving Press can shape metal into different forms depending on the &6head&r it's provided with."]
+			id: "568A154111043F7E"
+			subtitle: "More metal shaping"
+			tasks: [
+				{
+					id: "628B07BA513809B4"
+					item: "vintageimprovements:curving_press"
+					type: "item"
+				}
+				{
+					id: "32983AA17543B8C9"
+					item: {
+						Count: 1
+						id: "vintageimprovements:convex_curving_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4E8DC586CC481A0E"]
+			description: [
+				"This machine has two modes - &6Pressurizing&r, and &6Vacuumizing&r."
+				""
+				"This depends on what direction the &6arrow on its side&r is pointing, similar to a Mechanical Pump. Point &6down to Pressurize&r, and point &6up to Vacuumize&r."
+				""
+				"Pressurizing recipes &6may require a fluid&r to be inputted from the top of the machine."
+				""
+				"Vacuumizing recipes may &6output an additional&r fluid from the top of the machine."
+			]
+			id: "5516519F0A4B5D2C"
+			subtitle: "Also known as the Vacuumizer"
+			tasks: [{
+				id: "20E0AF7692FC45CA"
+				item: "vintageimprovements:vacuum_chamber"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5BF605EEB8BBB717"]
+			description: [
+				"The Drilling Machine is a powerful tool. Once you've found a deep vein with your Sample Drill, place this down in the deep vein chunk and power it."
+				""
+				"These drills are quite &6power hungry&r, so it's recommended you use a decently sized &6Wind Mill&r if you want some meaningful ore production."
+				""
+				"Make sure to &6chunk load&r these, and for now you'll probably need an on-site stockpile. Later, once you make your first Sturdy Sheets, you'll be able to transport things over extreme distances..."
+			]
+			id: "0A1DB42231D10A45"
+			subtitle: "Automatic Ores!"
+			tasks: [{
+				id: "23020A5132C6D60D"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5391869C3BF99BCB"]
+			description: [
+				"I hope you left waypoints at any &6large rocks&r you've found on the surface that contain all those &6precious resources&r, because you'll be needing them right about now."
+				""
+				"This chapter asks for a LOT of &6Raw Iron&r, and I mean it. This is your best source of that Iron unless you want to build a world eater."
+				""
+				"Those indicator rocks tell you that there's a &6deep vein&r of that resource in one of its neighbouring chunks. These veins can only be exploited by a Drilling Machine."
+			]
+			id: "5BF605EEB8BBB717"
+			subtitle: "Keep track of them!"
+			tasks: [{
+				id: "033753D7CA522F87"
+				title: "Deep Vein Indicators"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BF605EEB8BBB717"]
+			description: [
+				"Right click on an &6active Drilling Machine&r or &6Sample Drill&r to grab the data for the deep vein it's extracting from."
+				""
+				"This vein is now stored in your Atlas so you can easily see which veins you've found and where they are."
+				""
+				"This will have another function near to the end of this chapter, so keep it around!"
+			]
+			id: "3D5465B8614EB932"
+			subtitle: "Keep track of discovered veins"
+			tasks: [{
+				id: "38A58FF51CA22969"
+				item: "createoreexcavation:vein_atlas"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5BF605EEB8BBB717"]
+			description: [
+				"Don't have a big fancy drill on hand to check where your veins are?"
+				""
+				"Worry not! Drop this down where you think a deep vein is, slap a &6Backtank&r on it, right click it, and it'll tell you if you're right!"
+				""
+				"This is especially useful, as while the &6surface indicators&r show roughly where the deep vein is, they &caren't precise&r!"
+				""
+				"Deep veins can be any of the &6adjacent chunks&r to the surface indicator, most commonly in the &6South&r, &6East&r, or &6Southeast&r chunk relative to the indicator."
+				""
+				"Press &7(Fn+)&6F3+G&r at the same time to show chunk borders!"
+			]
+			icon: "createoreexcavation:sample_drill"
+			id: "247A5765798B738B"
+			subtitle: "Portable Vein Identifier"
+			tasks: [
+				{
+					id: "2FE15400E4637B88"
+					item: "createoreexcavation:sample_drill"
+					type: "item"
+				}
+				{
+					id: "51DEA4494A2E6A02"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:pressurized_air_sources"
+						}
+					}
+					title: "Any #create:pressurized_air_sources"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"033753D7CA522F87"
+				"2BC7202742BC1535"
+			]
+			description: [
+				"The Fluid Extractor can do what the Drilling Machine can't - &6outputting fluids&r from a deep well."
+				""
+				"This is required for deep Oil wells."
+			]
+			id: "1D1AC54F87BE4150"
+			shape: "rsquare"
+			subtitle: "Deep wells?"
+			tasks: [{
+				id: "567121EEBE9B1FFA"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D1AC54F87BE4150"]
+			description: [
+				"Deep Oil wells are uncommon. This means you're &cunlikely to just see an indicator&r sitting on the surface, but congratulations if you have found one!"
+				""
+				"After obtaining a &6Steel Mechanism&r, you're able to apply a &6more precise method&r to locating deep veins and wells."
+			]
+			id: "00510892769444FE"
+			subtitle: "Kinda rare"
+			tasks: [{
+				id: "6E3F9A242B1BB7F8"
+				item: "tfmg:crude_oil_bucket"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["317EA96B3A2FE169"]
+			description: [
+				"The materials required for this quest are the &6bare minimum&r to build the smallest useful Steel Distillation Tower."
+				""
+				"You can &6make a larger one&r if you want, in fact, it's recommended!"
+			]
+			id: "30C6611B0F30B70F"
+			subtitle: "Liquiding it"
+			tasks: [
+				{
+					id: "7A457F4E012086E1"
+					item: "tfmg:steel_distillation_controller"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6BE4B1D25E3CAB8E"
+					item: "tfmg:steel_distillation_output"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "192C3DAC125CC519"
+					item: "tfmg:industrial_pipe"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "730D31CE9FDC7B82"
+					item: "tfmg:steel_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "3A0F278A60F22280"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3D9E82B11BC4EC4C"]
+			id: "5408F6BC75AABFF2"
+			tasks: [{
+				id: "5DBFC650EA57D83F"
+				item: "tfmg:lubrication_oil_bucket"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5516519F0A4B5D2C"]
+			description: [
+				"Getting &6Sturdy Sheets&r will unlock your first side chapter - &6The Steam Age&r."
+				""
+				"This chapter branches to the two most &6advanced logistical features&r of Create:"
+				"- Trains"
+				"- High Logistics (Post-Processing)"
+				""
+				"It also unlocks &6Steam Engines&r, the most powerful and compact method of generating SU!"
+			]
+			id: "4B4C5E3399DD5C61"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "TRAINS!!! POST PROCESSING!!!"
+			tasks: [{
+				id: "2624413CD1618A9E"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5408F6BC75AABFF2"
+				"028BEDE25EA2ED72"
+			]
+			description: [
+				"If you've found any of those &6Magnetite Blocks&r underground, they're finally useful!"
+				""
+				"These are your first type of &6magnet&r, which is placed around a Generator Coil to convert rotational SU power into &6electrical power&r!"
+				""
+				"Wire up your electrical system to &6Carbon Brushes&r on the end of your Generator Coils. If you're confused, remember to &6give things a ponder&r!"
+			]
+			icon: "create_new_age:generator_coil"
+			id: "1AFDA7994D66A6D4"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Electromagnetic"
+			tasks: [
+				{
+					id: "30724BAF6486E59C"
+					item: "create_new_age:generator_coil"
+					type: "item"
+				}
+				{
+					id: "2A94501506F40564"
+					item: "create_new_age:magnetite_block"
+					type: "item"
+				}
+				{
+					id: "37A4E12476AC45BC"
+					item: "create_new_age:carbon_brushes"
+					type: "item"
+				}
+			]
+			x: 25.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D5A1EA06E762E4D"]
+			description: ["Use a Recipe Card to &6automatically&r choose which recipe the Lathe will perform."]
+			id: "4F78CF0DB1F6C00B"
+			subtitle: "Automate the Lathe"
+			tasks: [{
+				id: "2CF7EE4160A19D2F"
+				item: {
+					Count: 1
+					id: "vintageimprovements:recipe_card"
+					tag: {
+						Items: { }
+						Recipe: { }
+						Results: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 19.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2749C304C111ED07"]
+			description: ["Heavy Oil can be &6distilled again&r into liquids that you can't get from the first step of distillation."]
+			id: "3D9E82B11BC4EC4C"
+			tasks: [{
+				id: "2E773B8946674924"
+				item: "tfmg:heavy_oil_bucket"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7EB3B92693EFE0A7"
+				"2BC7202742BC1535"
+			]
+			description: [
+				"Use these to wire up all your machines. "
+				""
+				"Works in tandem with the &6Electrical Connectors&r."
+			]
+			id: "78702F5883304DC8"
+			shape: "rsquare"
+			tasks: [{
+				id: "00B67CB67EAE8E89"
+				item: "create_new_age:copper_wire"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["78702F5883304DC8"]
+			id: "028BEDE25EA2ED72"
+			tasks: [{
+				id: "42D1677F56CB5CC9"
+				item: "create_new_age:copper_wire_block"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"78702F5883304DC8"
+				"19F1C768A7EEEE2A"
+			]
+			description: [
+				"Connectors are what let Wires &6interface with machines&r that your electrical network is attached to."
+				""
+				"They don't need to be attached to machines, and can be used as &6simple nodes for wires&r by themselves."
+			]
+			id: "3C3CE9A35BA6BF5C"
+			subtitle: "Wire nodes"
+			tasks: [{
+				id: "360416E931991D16"
+				item: "create_new_age:electrical_connector"
+				type: "item"
+			}]
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1AFDA7994D66A6D4"]
+			description: ["Using Motors and Generator Coils, you can move &6rotational energy&r using &6wires&r!"]
+			id: "6266DD5E0D982405"
+			subtitle: "Hate shafts?"
+			tasks: [{
+				id: "6F783A72F88330EC"
+				item: "create_new_age:basic_motor"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AFDA7994D66A6D4"]
+			description: ["The Laser Cutter is a tool used in manufacturing complex shapes out of sheets of material."]
+			id: "5AC709B2EAF4183E"
+			subtitle: "High powered laser cutting!"
+			tasks: [
+				{
+					id: "33061E62D4368549"
+					item: "vintageimprovements:laser_item"
+					type: "item"
+				}
+				{
+					id: "150DE16B311EE991"
+					item: "vintageimprovements:laser"
+					type: "item"
+				}
+			]
+			x: 28.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2749C304C111ED07"]
+			description: ["Naphtha is the preliminary form of &6Plastic&r. This needs to be processed further to be useful."]
+			id: "065A88435EA8F790"
+			subtitle: "Plastic in a Bucket if it was useless"
+			tasks: [{
+				id: "3B6BB883F0A7A942"
+				item: "tfmg:naphtha_bucket"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2749C304C111ED07"]
+			id: "246A820BC39BC635"
+			tasks: [{
+				id: "1689EDE9E386FC29"
+				item: "tfmg:gasoline_bucket"
+				type: "item"
+			}]
+			x: 22.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2749C304C111ED07"]
+			id: "4A85C2538DC450A4"
+			subtitle: "&6[WIP]&r"
+			tasks: [{
+				id: "5989A633197A00B7"
+				item: "tfmg:lpg_bucket"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"30C6611B0F30B70F"
+				"00510892769444FE"
+			]
+			description: [
+				"Crude Oil can be broken down into its component fluids by evaporating it, then condensing it at different temperatures. This is known as Fractional Distillation."
+				""
+				"&6Pump Crude Oil into the Distillation Controller&r as part of a complete Distillation Tower multiblock, &6fuel a Blaze Burner&r underneath the tank, and &6extract the fluids&r from the output hatches."
+			]
+			id: "2749C304C111ED07"
+			subtitle: "Chemistry!"
+			tasks: [{
+				id: "36A9C6B88C2D1557"
+				title: "Distillation"
+				type: "checkmark"
+			}]
+			x: 19.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D9E82B11BC4EC4C"]
+			id: "55ADF70CD2E77F0F"
+			subtitle: "&6[WIP]&r"
+			tasks: [{
+				id: "738AC994A231ECE4"
+				item: "tfmg:diesel_bucket"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D9E82B11BC4EC4C"]
+			id: "0C01A2A85ED53FF8"
+			tasks: [{
+				id: "727AF50BE90272E2"
+				item: "tfmg:kerosene_bucket"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D9E82B11BC4EC4C"]
+			id: "26E358962925354D"
+			tasks: [{
+				id: "51BFE4C4C002F9B4"
+				item: "tfmg:bitumen"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0C01A2A85ED53FF8"
+				"246A820BC39BC635"
+			]
+			description: ["You may as well automate this, as it will be used in large amounts down the line."]
+			id: "3D7A12D5890015E2"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Make at least 6 buckets!"
+			tasks: [{
+				id: "3B4950B4956164A3"
+				item: "planetsandportals:hydrocarbon_fuel_bucket"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5AC709B2EAF4183E"]
+			id: "5AD048E39D8608BE"
+			tasks: [{
+				id: "66EE30DAF3113C38"
+				item: "ad_astra:rocket_fin"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"568A154111043F7E"
+				"0A073E3D5266A4F3"
+			]
+			id: "728C8F6FF3C684AA"
+			tasks: [{
+				id: "6E2BCB992EEFD0D8"
+				item: "ad_astra:rocket_nose_cone"
+				type: "item"
+			}]
+			x: 30.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"065A88435EA8F790"
+				"6F4033CD17DC1B1D"
+			]
+			id: "16DB81853FE04475"
+			tasks: [
+				{
+					id: "4DFD422C7C5FBD72"
+					item: "tfmg:ethylene_bucket"
+					type: "item"
+				}
+				{
+					id: "37F0D97B9D8BCC4D"
+					item: "tfmg:propylene_bucket"
+					type: "item"
+				}
+			]
+			title: "Ethylene and Propylene"
+			x: 22.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["16DB81853FE04475"]
+			description: ["This can be casted into Plastic Sheets, or combined with Wool in a Mixer to create &6Ballistic Polymer&r."]
+			id: "6338D03BE10F739E"
+			subtitle: "Actually Plastic in a Bucket"
+			tasks: [{
+				id: "7063A674D2D30064"
+				item: "tfmg:molten_plastic_bucket"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["317EA96B3A2FE169"]
+			description: [
+				"The Centrifuge allows you to separate things into component parts."
+				""
+				"This can be done to &6recycle Dyes&r, and &6process fluids&r later on!"
+				""
+				"In order for it to be useable, you need to attach &64 Basins&r to it."
+				""
+				"The Centrifuge will only &6process recipes while spinning&r, and will only &6input/output while stopped&r."
+				""
+				"Using a &cRedstone Module&r on the Centrifuge will cause it to produce a &6comparator output&r depending on its state. "
+			]
+			icon: "vintageimprovements:centrifuge"
+			id: "6F4033CD17DC1B1D"
+			subtitle: "Separate things!"
+			tasks: [
+				{
+					id: "41F9DB87EB971083"
+					item: "vintageimprovements:centrifuge"
+					type: "item"
+				}
+				{
+					id: "360C9945C366D9FF"
+					item: "vintageimprovements:redstone_module"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["29EFF0FC6DF38022"]
+			description: ["The Space Suit Chestplate can be inserted into an &6Oxygen Loader&r to fill it with Oxygen."]
+			id: "3F67B8B61D47E707"
+			subtitle: "I'm up in space, maaaaaannn"
+			tasks: [
+				{
+					id: "31425C88770BC4E1"
+					item: {
+						Count: 1
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03F00E0ED3FA4BE7"
+					item: {
+						Count: 1
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01201DF6B26E20EF"
+					item: {
+						Count: 1
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3668B3BA8B916C2D"
+					item: {
+						Count: 1
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Space Suit"
+			x: 28.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1D5A1EA06E762E4D"]
+			id: "0A073E3D5266A4F3"
+			tasks: [
+				{
+					id: "39D488ACCC43304C"
+					item: {
+						Count: 1
+						id: "vintageimprovements:concave_curving_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F578158BE4459A3"
+					item: "planetsandportals:fan_curving_head"
+					type: "item"
+				}
+			]
+			x: 28.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["26E358962925354D"]
+			description: ["The recipe for Launch pads makes 2 Launch Pads each, remember to &6bring one with you&r on the Rocket so you can get home!"]
+			id: "7B5C3B90C0B78596"
+			subtitle: "Don't get stranded!"
+			tasks: [{
+				id: "3BEF217FADDD348A"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6338D03BE10F739E"]
+			description: ["Ballistic Polymer is a tough version of Wool, which can be woven into advanced clothing, such as a &6Space Suit&r."]
+			id: "29EFF0FC6DF38022"
+			subtitle: "Tough Fabric"
+			tasks: [{
+				id: "71754B1CA3820AB1"
+				item: "planetsandportals:ballistic_polymer"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"3F67B8B61D47E707"
+				"5AD048E39D8608BE"
+				"3D7A12D5890015E2"
+				"7B5C3B90C0B78596"
+				"728C8F6FF3C684AA"
+				"16EE5351E835C9FF"
+				"0CBFA86ECD51DB76"
+			]
+			description: [
+				"You've &afinished the progression&r that was planned for Planets and Portals 3 &6v0.9.0&r!"
+				""
+				"There will be a lot more content down the line, but currently I'm looking for &aYOUR feedback&r!"
+				""
+				"If you're in the Discord server, leave any comments and suggestions in the &6#feedback&r or &6#modpack-suggestions&r channels, and report anything that seems unintentional or broken in the &6#bug-reports&r channel. "
+				""
+				"Alternatively, you can use the &6GitHub Issues&r, found by clicking &athe bug at the bottom of the Welcome chapter&r."
+			]
+			icon: {
+				Count: 1
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "61C59E438AB38EF3"
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Congratulations!"
+			tasks: [
+				{
+					id: "5B3559A854C044B2"
+					item: {
+						Count: 1
+						id: "ad_astra:tier_1_rocket"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0A0D14C25646795A"
+					title: "Yippee!"
+					type: "checkmark"
+				}
+			]
+			x: 33.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5AC709B2EAF4183E"]
+			description: [
+				"Stay in the vacuum of space longer with this one simple trick!"
+				""
+				"You can refill your Space Suit's air supply with one of these by simply using it while it's in your hand."
+			]
+			id: "0CBFA86ECD51DB76"
+			subtitle: "Running out of air?"
+			tasks: [{
+				id: "4FC797B7EF8D3E7B"
+				item: {
+					Count: 1
+					id: "ad_astra:gas_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A073E3D5266A4F3"]
+			description: [
+				"This nifty little device will turn &6Water&r into &6Oxygen&r."
+				""
+				"Use it to fill up your Space Suit chestplate, or your Gas Tanks!"
+			]
+			id: "16EE5351E835C9FF"
+			subtitle: "Electrolysis in a box"
+			tasks: [{
+				id: "1363C54EFE1C2ECE"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: 33.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["61C59E438AB38EF3"]
+			description: [
+				"The &6main thing&r I wanted to mention: you will have to go back to the &cNether&r in later chapters. "
+				""
+				"In the Brass Age, you get a taste for how much more precarious the Nether can be due to the &6amplified terrain&r, and I'm looking for feedback on how to improve the experience. "
+				""
+				"Right now, fall damage in the Nether is &centirely disabled&r, as I felt the amplified terrain was too difficult to traverse normally if you weren't prepared, especially considering you spawn in the ceiling whenever you go to the Nether via Portaberries."
+				""
+				"If anyone thinks they have suggestions on ways to improve the early-game Nether, &aplease let me know&r! I want it to be somewhere you go back to regularly to do something new in later chapters, and every time you go back there's a way to get around more easily than the last time."
+				""
+				"Please read the next page of this quest too :P"
+				"{@pagebreak}"
+				"Quickfire round:"
+				""
+				"- The pre-Moon questline is currently &cvery barebones&r. It will be fleshed out with more side content such as &6Backpacks&r in later updates."
+				""
+				"- Planets will have their own Portaberries nearer to the end of their respective progression focus points."
+				""
+				"- All Portaberries will be automatable."
+				""
+				"- Planets will not lose all meaning after obtaining their Portaberry, they'll likely be similar to the Nether where you'll have to &6come back for something new&r that you couldn't do before."
+				""
+				"- Mining for space metals will be able to &6be done from Earth&r later-game, and I already have an idea for how that will be done."
+			]
+			icon: "ad_astra:moon_globe"
+			id: "06F12BCEBBD9E25F"
+			shape: "gear"
+			size: 3.0d
+			subtitle: "Roadmap for the future"
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "ad_astra:moon_globe"
+					id: "65D00CA64604228A"
+					optional_task: true
+					title: "Above... and Beyond?"
+					type: "dimension"
+				}
+				{
+					id: "7A5A35D0F5339BAF"
+					title: "Completionist"
+					type: "checkmark"
+				}
+			]
+			x: 38.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["317EA96B3A2FE169"]
+			description: [
+				"The &6Ore Vein Finder&r, when used, will send out a scan for the &6nearest deep vein or well&r. It only shows you the distance to the nearest one, and a radius on your map, so you'll have to do some triangulation!"
+				""
+				"In tandem with the &6Vein Atlas&r, you can &6blacklist veins that you've identified&r, so you don't have to keep travelling thousands of blocks to find the next vein!"
+			]
+			id: "26FD73DDD86E3021"
+			subtitle: "Can't find the deep vein you're looking for?"
+			tasks: [{
+				id: "3B5208F76BD7E434"
+				item: "createoreexcavation:vein_finder"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3BB2FD96B285AF43"]
+			id: "53E8A774D1CF4D91"
+			tasks: [{
+				id: "0753797A54A39F9E"
+				item: "planetsandportals:blasting_mixture"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+	]
 	title: "The Industrial Age"
 }

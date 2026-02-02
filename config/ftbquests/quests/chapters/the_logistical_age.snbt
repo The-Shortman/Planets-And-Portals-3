@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "the_logistical_age"
 	group: "532EC9E85F995F06"
+	hide_quest_until_deps_visible: true
 	icon: "create:brass_ingot"
 	id: "6C21098434FA506F"
 	order_index: 1
@@ -13,7 +14,7 @@
 			description: [
 				"Welcome to the Logistical Age!"
 				""
-				"Get your Brass together, because it's going to be useful for a bunch of powerful machines in a minute."
+				"Get your Brass together, because it's going to be useful for a bunch of &6powerful machines&r in a minute."
 			]
 			id: "73145F7A60B570D9"
 			shape: "octagon"
@@ -91,7 +92,7 @@
 				"36C9E3BEFD478E3E"
 				"288254BD051F9334"
 			]
-			description: ["The encased fan hasn't had any buffs, it just looks really fancy now."]
+			description: ["The Encased Fan hasn't had any buffs, it just looks really fancy now."]
 			id: "72692432503FCF85"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -110,8 +111,13 @@
 		}
 		{
 			dependencies: [
-				"1FF68C2DED8D8273"
 				"66010DEEC09F5415"
+				"14DD14A15D92EB5F"
+			]
+			description: [
+				"Copper Casing can also be used to &6lock the orientation of Pipes&r."
+				""
+				"Encase a Pipe in a Copper Casing, and it won't automatically adjust itself anymore!"
 			]
 			id: "01D4EFCAC0E7F886"
 			rewards: [{
@@ -120,6 +126,7 @@
 				table_id: 2472966632232065416L
 				type: "loot"
 			}]
+			shape: "rsquare"
 			subtitle: "Not just for Spouts"
 			tasks: [{
 				id: "153D92CA48863671"
@@ -136,15 +143,15 @@
 				"465529C79295FFFF"
 			]
 			description: [
-				"You may or may not have noticed that the Nether Portal you're used to making doesn't work."
+				"You may or may not have noticed that the &6Nether Portal&r you're used to making &cdoesn't work&r."
 				""
-				"Instead, you must craft Portaberries to move between dimensions easily. Eating an Infernal Portaberry will teleport you to the top of the world, where you will either get stuck in a wall in the Nether, or fall from the sky in the Overworld."
+				"Instead, you must craft &6Portaberries&r to move between dimensions easily. Eating an &6Infernal Portaberry&r will teleport you to the top of the world, where you be in a pocket of Netherrack in the Nether, or fall from the sky in the Overworld."
 				""
-				"Bring a Pickaxe so you don't suffocate, and spare berries so you can get back!"
+				"&6Bring spare berries&r so you can get back! Portaberries &6aren't hard to automate&r, so you should probably do that!"
 				""
-				"Upon entering the dimension, however, you get Feather Falling and Fire Resistance for 30 seconds, so don't worry about falling into Lava or anything. It's enough to save you from a fall down to sea level, but not much further."
+				"Upon entering the dimension, however, you get &6Feather Falling and Fire Resistance for 30 seconds&r, so don't worry about falling into Lava or anything. It's enough to save you from a fall down to &6sea level&r, but not much further."
 				""
-				"This also means you can immediately return to the Overworld or Nether at any point. The 8:1 Overworld to Nether travel ratio still applies, so make sure you know where your base is."
+				"This also means you can immediately return to the Overworld or Nether at &6any point&r. The 8:1 Overworld to Nether travel ratio &6still applies&r, so make sure you know where your base is."
 			]
 			id: "23C3E8FBF1DF4615"
 			rewards: [{
@@ -154,7 +161,7 @@
 				type: "loot"
 			}]
 			shape: "hexagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "Portaberries?"
 			tasks: [{
 				id: "0B4A8FCE0D877B2D"
@@ -207,8 +214,11 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["66010DEEC09F5415"]
-			description: ["You can find berries in many places, and some are easier to farm than others. Sweet berries are the best!"]
+			dependencies: [
+				"66010DEEC09F5415"
+				"2BC7202742BC1535"
+			]
+			description: ["You can find berries in many places, and &6some are easier to farm&r than others. Sweet berries are the best!"]
 			id: "673235A3CD3F1FEB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -216,6 +226,7 @@
 				table_id: 2472966632232065416L
 				type: "loot"
 			}]
+			shape: "rsquare"
 			subtitle: "Berry nice to meet you"
 			tasks: [{
 				id: "3A198830A2D9A04C"
@@ -235,7 +246,7 @@
 		}
 		{
 			dependencies: ["414501968148DB60"]
-			description: ["Now you can set this on fire to use it in Bulk Haunting!"]
+			description: ["Now you can set this on fire to use it in &6Bulk Haunting&r!"]
 			id: "465529C79295FFFF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -253,7 +264,10 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["66010DEEC09F5415"]
+			dependencies: [
+				"66010DEEC09F5415"
+				"2BC7202742BC1535"
+			]
 			id: "2FF14140EED4078F"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -261,6 +275,7 @@
 				table_id: 2472966632232065416L
 				type: "loot"
 			}]
+			shape: "rsquare"
 			subtitle: "Sand under the table"
 			tasks: [{
 				id: "54F84B272A297EFB"
@@ -271,7 +286,10 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["66010DEEC09F5415"]
+			dependencies: [
+				"66010DEEC09F5415"
+				"2BC7202742BC1535"
+			]
 			id: "138FAC6AB8CA0017"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -279,6 +297,7 @@
 				table_id: 2472966632232065416L
 				type: "loot"
 			}]
+			shape: "rsquare"
 			subtitle: "What came first? The Chicken or the Egg?"
 			tasks: [{
 				id: "395103F550A4CEB7"
@@ -293,7 +312,7 @@
 				"138FAC6AB8CA0017"
 				"2FF14140EED4078F"
 			]
-			description: ["I hope nothing evil happens to that egg"]
+			description: ["I hope nothing evil happens to that egg."]
 			id: "414501968148DB60"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -335,7 +354,7 @@
 		}
 		{
 			dependencies: ["23C3E8FBF1DF4615"]
-			description: ["Nether wart is vital for some important recipes, so you'll definitely want to pick some up as you pass by the local Nether Fortress."]
+			description: ["Nether wart is vital for some important recipes, so you'll definitely want to pick some up as you pass by the local &6Nether Fortress&r."]
 			id: "2EC58E2A27D1526D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -376,7 +395,10 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["0B4A8FCE0D877B2D"]
+			dependencies: [
+				"0B4A8FCE0D877B2D"
+				"2BC7202742BC1535"
+			]
 			id: "3F1CE71F7678EA04"
 			subtitle: "Make sure you know your gemstone cutting"
 			tasks: [{
@@ -505,7 +527,7 @@
 		}
 		{
 			dependencies: ["2F74AFE394C6B24D"]
-			description: ["You can turn Stony Wart into Lava using a Press over a Basin!"]
+			description: ["You can turn Stony Wart into Lava using a &6Press over a Basin&r!"]
 			id: "37035A845CF8B46F"
 			tasks: [{
 				id: "6EA285F08C96EA61"
@@ -520,6 +542,7 @@
 				"0B4A8FCE0D877B2D"
 				"7A33F0543A7D0B1E"
 			]
+			description: ["A bottle can carry 250 mB."]
 			id: "7E3DFBFA20D90FFE"
 			subtitle: "Sticky situation"
 			tasks: [{
@@ -557,7 +580,7 @@
 			description: [
 				"Rubber is a great heat-resistant material, useful for sealing mechanisms and devices."
 				""
-				"It can also be used in certain synthetic products."
+				"It can also be used in certain &6synthetic products&r."
 			]
 			id: "032AB0D2004D4672"
 			rewards: [{
@@ -577,7 +600,7 @@
 		}
 		{
 			dependencies: ["73145F7A60B570D9"]
-			description: ["The Large Water Wheel is heavily buffed from what you might be used to. It now generates 512 SU per Wheel!"]
+			description: ["The Large Water Wheel is heavily &6buffed&r from what you might be used to. It now generates &6512 SU&r per Wheel!"]
 			id: "7977A0FA52E32D29"
 			subtitle: "Enhanced with Brass!"
 			tasks: [{
@@ -632,7 +655,7 @@
 		{
 			dependencies: ["163DBB6FA7235F16"]
 			description: [
-				"Deployers can do a lot of things, such as placing blocks, using items, breaking blocks, and attacking entities."
+				"Deployers can do a lot of things, such as &6placing blocks&r, &6using items&r, &6breaking blocks&r, and &6attacking entities&r."
 				""
 				"They're also used as a machine for making things!"
 			]
@@ -659,7 +682,7 @@
 				"49BE35DAD3C11504"
 			]
 			description: [
-				"The Precision Mechanism is your first Mechanism required for almost every machine at this stage of the game. As you progress, you will craft better mechanisms for better machines."
+				"The Precision Mechanism is your &6first Mechanism&r required for almost every machine at this stage of the game. As you progress, you will craft &6better mechanisms&r for better machines."
 				""
 				"Let's get automating!"
 			]
@@ -682,8 +705,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["46058208F4DF36E1"]
-			description: ["Saw a Brass Sheet twice to split it into three Slot covers."]
+			dependencies: [
+				"46058208F4DF36E1"
+				"2BC7202742BC1535"
+			]
+			description: ["&6Saw a Brass Sheet twice&r to split it into three Slot covers."]
 			id: "41C5541D6740088A"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -691,6 +717,7 @@
 				table_id: 2472966632232065416L
 				type: "loot"
 			}]
+			shape: "rsquare"
 			subtitle: "There is an easy recipe for these"
 			tasks: [{
 				id: "6A72DC468500DEA6"
@@ -781,7 +808,7 @@
 		}
 		{
 			dependencies: ["49BE35DAD3C11504"]
-			description: ["There is a sequenced assembly recipe that allows you to assemble Electron Tubes automatically, without the need for Mechanical Crafters!"]
+			description: ["There is a &6sequenced assembly&r recipe that allows you to assemble Electron Tubes &6automatically&r, without the need for Mechanical Crafters!"]
 			icon: "create:electron_tube"
 			id: "02F795A1F6E75441"
 			shape: "pentagon"
@@ -797,9 +824,9 @@
 		{
 			dependencies: ["49BE35DAD3C11504"]
 			description: [
-				"If you have access to a Blaze Spawner and some Deployers, you can automatically fill Blaze Burners with Blazes without the need for your constant presence, or a \"questionably humane\" moss creature farm."
+				"If you have access to a Blaze Spawner and some Deployers, you can &6automatically fill Blaze Burners&r with Blazes without the need for your constant presence, or a \"questionably humane\" moss creature farm."
 				""
-				"Simply set the deployer to use Empty Blaze Burners on a Blaze Spawner and it'll fill them right up!"
+				"Simply set the Deployer to use &6Empty Blaze Burners on a Blaze Spawner&r and it'll fill them right up!"
 			]
 			icon: "create:blaze_burner"
 			id: "65DE21153F761BD2"
@@ -841,6 +868,7 @@
 				table_id: 1637137211716645685L
 				type: "loot"
 			}]
+			subtitle: "CRUSH!"
 			tasks: [{
 				id: "6C03FC6DF02C16E3"
 				item: "create:crushing_wheel"
@@ -889,7 +917,7 @@
 		}
 		{
 			dependencies: ["44EFA3F284FA7E14"]
-			description: ["Mechanical Arms are super useful for fueling Blaze Burners and moving items to places that are otherwise difficult to reach with Belts."]
+			description: ["Mechanical Arms are super useful for &6fueling Blaze Burners&r and &6moving items&r to places that are otherwise difficult to reach with Belts."]
 			id: "2373B10E661909D4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -908,7 +936,7 @@
 		}
 		{
 			dependencies: ["44EFA3F284FA7E14"]
-			description: ["Tired of gearing up all your rotational sources? Slap a Large Cogwheel on top of this, and let it rip!"]
+			description: ["Tired of gearing up all your rotational sources? Slap a &6Large Cogwheel on top&r of this, and let it rip!"]
 			id: "5A3F70284E8FB0AD"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -928,9 +956,9 @@
 		{
 			dependencies: ["02E8407FD3A80665"]
 			description: [
-				"Crushed ores can be put through Crushing Wheels to procude Dirty Dusts. These need to be washed with an Encased Fan before blasting."
+				"Crushed ores can be put through Crushing Wheels to procude &6Dirty Dusts&r. These need to be &6washed with an Encased Fan&r before blasting. This will &6increase your yields&r dramatically!"
 				""
-				"You &ocan&r crush Raw Ores directly, but you'll get much worse yields than if you use a Millstone to do the initial grind."
+				"You &ocan&r crush Raw Ores directly, but you'll get much &cworse yields&r than if you use a Millstone to do the initial grind."
 			]
 			icon: "minecraft:iron_ore"
 			id: "5459B0FAC98F839C"
@@ -946,7 +974,7 @@
 		}
 		{
 			dependencies: ["72692432503FCF85"]
-			description: ["You can use Encased Fans to bulk blast Crushed Ores for you without the need for fuel. No need to keep that Furnace around anymore."]
+			description: ["You can use Encased Fans to bulk blast Crushed Ores for you &6without the need for fuel&r. No need to keep that Furnace around anymore."]
 			icon: "minecraft:iron_ore"
 			id: "1F8206070DD0EED7"
 			shape: "pentagon"
@@ -981,9 +1009,9 @@
 		{
 			dependencies: ["715DF090D1C45326"]
 			description: [
-				"Congratulations! You've (hopefully) set up some of your first automation lines!"
+				"Congratulations! You've (hopefully) set up some of your &6first automation lines&r!"
 				""
-				"In the next chapter you'll automate ores and start managing fluids in a more involved capacity. Good luck!"
+				"In the next chapter you'll &6automate ores&r and start &6managing fluids&r in a more involved capacity. Good luck!"
 			]
 			id: "3D777F02FBAA30E6"
 			shape: "gear"
@@ -994,12 +1022,16 @@
 				item: "tfmg:cast_iron_ingot"
 				type: "item"
 			}]
-			x: 30.0d
-			y: -3.0d
+			x: 33.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0B4A8FCE0D877B2D"]
+			dependencies: [
+				"0B4A8FCE0D877B2D"
+				"2BC7202742BC1535"
+			]
 			id: "357756DBE5F04B90"
+			shape: "rsquare"
 			subtitle: "Have you automated this yet?"
 			tasks: [{
 				id: "4B5FDE37E67A8593"
@@ -1010,9 +1042,13 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0B4A8FCE0D877B2D"]
+			dependencies: [
+				"0B4A8FCE0D877B2D"
+				"2BC7202742BC1535"
+			]
 			description: ["Hook up some Pipes and a Pump to a Beehive and watch the Honey flow!"]
 			id: "7A33F0543A7D0B1E"
+			shape: "rsquare"
 			subtitle: "You can pump honey straight out of Beehives!"
 			tasks: [{
 				icon: "minecraft:beehive"
@@ -1029,7 +1065,11 @@
 		}
 		{
 			dependencies: ["032AB0D2004D4672"]
-			description: ["The Windmill has been HEAVILY buffed compared to what you're used to. A Windmill with 128 Sails can generate over 32k SU!"]
+			description: [
+				"The Windmill has been HEAVILY &6buffed&r compared to what you're used to. A Windmill with 128 Sails can generate over &632k SU&r!"
+				""
+				"Pro tip: if you have a &6Flax&r farm, you can mill it to get String, allowing for a great way to get &6a lot of Sails&r for Wind Mills!"
+			]
 			id: "3D67FB25F31C76B4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1038,21 +1078,25 @@
 				type: "loot"
 			}]
 			subtitle: "Now we're getting power!"
-			tasks: [{
-				id: "1418D7AF48FCF01D"
-				item: "create:windmill_bearing"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1418D7AF48FCF01D"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "236A332427078842"
+					item: { Count: 8, id: "create:white_sail" }
+					type: "item"
+				}
+			]
 			x: 18.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["032AB0D2004D4672"]
-			description: [
-				"Rubber can be used to make substitutes for String and Leather. "
-				""
-				"If you automate Rubber, you can quite easily make the sails required for a Windmill!"
-			]
+			description: ["Rubber can be used to make substitutes for String and Leather. "]
 			id: "241DF361086653CE"
 			subtitle: "Rubbery substitutes"
 			tasks: [
@@ -1074,15 +1118,14 @@
 		{
 			dependencies: ["02E8407FD3A80665"]
 			description: [
-				"Gravel can be crushed into Sand using Crushing Wheels. With that, Sand can be washed into Clay."
+				"Gravel can be &6crushed into Sand&r using Crushing Wheels. With that, Sand can be &6washed into Clay&r."
 				""
-				"Combine Gravel, Sand, and Clay in a Mixer to get Grout!"
+				"Combine &6Gravel&r, &6Sand&r, and &6Clay&r in a &6Mixer&r to get Grout!"
 				""
-				"You can also make Powdered Andesite with Crushing Wheels to get the better yield."
+				"You can also &6make Powdered Andesite&r with Crushing Wheels to get the better yield."
 			]
 			id: "0877B13C3FCFEDA7"
 			shape: "pentagon"
-			subtitle: "CRUSH!"
 			tasks: [{
 				id: "726C39804F6815EB"
 				item: "create:andesite_alloy"
@@ -1152,10 +1195,14 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["66010DEEC09F5415"]
-			description: ["Mossies can be found in Lush Caves or Ancient Deltas underground, or in Jungle biomes above ground."]
+			dependencies: [
+				"66010DEEC09F5415"
+				"2BC7202742BC1535"
+			]
+			description: ["Mossies can be found in &6Lush Caves&r or &6Ancient Deltas&r underground, or in &6Jungle biomes&r above ground."]
 			icon: "mobsandfamiliars:mossie"
 			id: "1C899C0BE98ACD24"
+			shape: "rsquare"
 			subtitle: "LOOK AT HIM GOOOOOO!!!"
 			tasks: [{
 				icon: "mobsandfamiliars:mossie"
@@ -1182,6 +1229,83 @@
 			}]
 			x: 10.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["02E8407FD3A80665"]
+			description: [
+				"Not automated Diorite yet? You can make it by &6mixing Salt and Cobblestone&r together. "
+				""
+				"Salt can be automated by Bulk Blasting &6buckets of Water&r to get Salt Buckets, then &6cutting&r them with a Mechanical Saw to get the Salt and the Bucket."
+				""
+				"Crushing &6Diorite&r yields Quartz."
+			]
+			id: "6F4A423F7C358535"
+			shape: "pentagon"
+			subtitle: "Diorite for Days"
+			tasks: [
+				{
+					id: "5D476865C2C44223"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "5307FEA03A53E819"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					id: "022F9EBC4A711BE6"
+					item: "mekanism:salt"
+					type: "item"
+				}
+			]
+			title: "Automatic Quartz"
+			x: 28.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2EC58E2A27D1526D"]
+			description: [
+				"The List Filter allows you to set the recipe of your Basin &6without needing the item&r!"
+				""
+				"Simply open its GUI, and drag in the item you want to craft from EMI on the left."
+			]
+			id: "42717C2BF95A0727"
+			shape: "pentagon"
+			subtitle: "Conflicting recipes?"
+			tasks: [{
+				id: "28031E4D789CF7C1"
+				item: "create:filter"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["23C3E8FBF1DF4615"]
+			description: [
+				"Dev note: I am uncertain about keeping the complete lack of fall damage in the Nether. "
+				""
+				"On the one hand, it makes traversal through the amplified terrain much easier in the early game. On the other hand, it might be too easy."
+				""
+				"So, take the current state of mobility with a grain of salt and expect it to change later."
+				""
+				"---------------------------------"
+				""
+				"You can craft an &6Ender Staff&r to zip around the Nether at high speeds, but watch out for &cLava hazards&r! It also works in the Overworld, but watch out for heights, as it &cdoesn't nullify fall damage&r."
+			]
+			id: "23D5CA4C2FB9FB86"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "No fall damage?"
+			tasks: [{
+				id: "2AC6994806C1A59E"
+				item: "grapplemod:launcheritem"
+				type: "item"
+			}]
+			title: "Useful Mobility in the Nether"
+			x: 9.0d
+			y: -4.5d
 		}
 	]
 	title: "The Logistical Age"

@@ -9,7 +9,9 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome! This is where your progression begins, same as a typical Minecraft playthrough. Punch a tree and get some logs."]
+			dependencies: ["7C289CC7B7FC0A63"]
+			description: ["Welcome! This is where your progression begins, same as a typical Minecraft playthrough. &6Punch a tree&r and &6get some logs&r."]
+			hide_until_deps_complete: true
 			icon: "minecraft:oak_log"
 			id: "2BC7202742BC1535"
 			rewards: [{
@@ -42,9 +44,9 @@
 			description: [
 				"Don't worry! You aren't crazy!"
 				""
-				"Raw metals can't be smelted as-is. You need to grind it up first before you can pack it into a furnace to get turned into a nicely baked ingot."
+				"Raw metals &6can't be smelted&r as-is. You need to &6grind it up&r first before you can pack it into a furnace to get turned into a nicely baked ingot."
 				""
-				"Follow the questline to learn how to make a millstone."
+				"Follow the questline to learn how to make a &6millstone&r."
 			]
 			id: "2D2CF91CDD25D91B"
 			rewards: [{
@@ -64,7 +66,7 @@
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
-			description: ["Andesite alloy doesn't require iron in this modpack. Instead, get yourself some grout. This can be crafted with sand, gravel, and clay, so I'd recommend setting up by a river."]
+			description: ["Andesite Alloy &6doesn't require Iron&r in this modpack. Instead, get yourself some &6Grout&r. This can be crafted with Sand, Gravel, and Clay, so I'd recommend setting up by a &6river&r."]
 			id: "49F88BFF272C28E9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -87,9 +89,9 @@
 			description: [
 				"Put those muscles to work!"
 				""
-				"The millstone has a shaft attachment on its bottom face that allows you to directly power it without a cogwheel. Neat!"
+				"The Millstone has a &6shaft attachment on its bottom face&r that allows you to directly power it &6without a Cogwheel&r. Neat!"
 				""
-				"Using the handcrank depletes your hunger, and continuing to use it while starving can kill you depending on your difficulty setting!"
+				"Using the Handcrank depletes your hunger, and continuing to use it while starving &6can kill you&r depending on your difficulty setting!"
 			]
 			id: "7B098E8B56711166"
 			rewards: [{
@@ -119,7 +121,7 @@
 				"7B098E8B56711166"
 				"2D2CF91CDD25D91B"
 			]
-			description: ["Slam it in a furnace and watch the magic happen."]
+			description: ["Slam it in a Furnace and watch the magic happen."]
 			id: "3E37A26B2D01AF21"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -138,7 +140,7 @@
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
-			description: ["Copper is vital for transporting fluids and some more advanced logistics later on. Gather a bunch of this stuff, you'll need it."]
+			description: ["Copper is vital for transporting &6fluids&r and some more advanced logistics later on. Gather a bunch of this stuff, you'll need it."]
 			id: "6468315FCDCBC306"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -160,7 +162,7 @@
 				"7B098E8B56711166"
 				"6468315FCDCBC306"
 			]
-			description: ["Don't smelt all of this! You'll need some extra for making Brass in a minute."]
+			description: ["&6Don't smelt all of this&r! You'll need some extra for making &6Brass&r in a minute."]
 			id: "6829C762D39BEBFB"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -179,7 +181,7 @@
 		}
 		{
 			dependencies: ["3E37A26B2D01AF21"]
-			description: ["Iron is, as always, probably the most useful metal you have at your disposal. In the future, you'll have (and need) the infrastructure to produce a LOT of it."]
+			description: ["Iron is, as always, probably &6the most useful metal&r you have at your disposal. In the future, you'll have (and &6need&r) the infrastructure to produce a LOT of it."]
 			id: "6B084540ABAFE35D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -201,7 +203,7 @@
 			description: [
 				"The Press is one of your most useful kinetic machines. "
 				""
-				"It allows you to press metals into sheets, smush things into other things, and compact items and fluids into blocks."
+				"It allows you to press metals into &6sheets&r, smush things into other things, and compact items and fluids into blocks."
 			]
 			id: "5EEE72EE808F1AE3"
 			rewards: [{
@@ -221,7 +223,7 @@
 		}
 		{
 			dependencies: ["5EEE72EE808F1AE3"]
-			description: ["Iron sheets are a vital product of iron, used in the majority of machines in one form or another. Keep well stocked on these!"]
+			description: ["Iron Sheets are a vital product of Iron, used in the majority of machines in one form or another. Keep well stocked on these!"]
 			id: "50EAF870216F4134"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -241,9 +243,9 @@
 		{
 			dependencies: ["50EAF870216F4134"]
 			description: [
-				"The Saw can cut logs faster than the Drill. It also removes whole trees in one go. Give it a try in a forest with a Hand Crank!"
+				"The Saw can cut logs faster than the Drill. It also removes &6whole trees&r in one go. Give it a try in a forest with a Hand Crank!"
 				""
-				"Alternatively you can use it for automating (most) Stonecutter recipes - it has a filter slot on the side so you can choose which recipe you want. Use the List Filter item to pick the recipe if you don't already have the item you want!"
+				"Alternatively you can use it for automating (most) Stonecutter recipes - it has a &6filter slot on the side&r so you can choose which recipe you want. Use the &6List Filter item&r to pick the recipe if you don't already have the item you want!"
 				""
 				"It also has its own recipes unique to itself, such as Shafts, which are required to progress further."
 			]
@@ -307,7 +309,7 @@
 				"4FFDF77885D875EB"
 				"7B098E8B56711166"
 			]
-			description: ["Gold allows you to craft some quite useful items down the line, such as steam engines and Create's suite of tools and equipment!"]
+			description: ["Gold allows you to craft some quite &6useful items&r down the line, such as &6Steam Engines&r and Create's suite of &6tools and equipment&r!"]
 			id: "0AC0F1B01251534D"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -435,6 +437,11 @@
 					title: "Any #create:toolboxes"
 					type: "item"
 				}
+				{
+					id: "5AA51A211863A7A7"
+					item: "create:clipboard"
+					type: "item"
+				}
 			]
 			title: "Engineer's Gear"
 			x: 10.5d
@@ -442,7 +449,7 @@
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
-			description: ["Zinc isn't useful now, but it'll become a lot more useful soon, as its main usage is in alloying with copper to make brass."]
+			description: ["Zinc isn't useful now, but it'll become a lot more useful soon, as its main usage is in alloying with Copper to make &6Brass&r."]
 			id: "38A2A7643B6C4F5C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -465,7 +472,7 @@
 				"38A2A7643B6C4F5C"
 			]
 			description: [
-				"Zinc is currently only useful for alloying with Copper to make Brass."
+				"Zinc is currently only useful for alloying with &6Copper&r to make &6Brass&r."
 				""
 				"Don't worry, you'll find more uses for this stuff later on."
 			]
@@ -487,7 +494,13 @@
 		}
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
-			description: ["Chaining small and large cogwheels allows you to double or halve the speed of your system. Check the ponder index for a more detailed guide."]
+			description: [
+				"Chaining small and large cogwheels allows you to &6double or halve the speed&r of your system. Check the ponder index for a more detailed guide."
+				""
+				"Big driver -> Small driven = 2x speed"
+				""
+				"Small driver -> Big driven = 0.5x speed"
+			]
 			id: "69D46D16B36DF0D4"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -513,7 +526,7 @@
 		}
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
-			description: ["Finally, you can stop chowing down on those raw potatoes when you're pressing your iron sheets."]
+			description: ["Finally, you can stop chowing down on those Raw Potatoes when you're pressing your Iron Sheets."]
 			id: "6E44B94C9FE63CAF"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -532,7 +545,7 @@
 		}
 		{
 			dependencies: ["14DD14A15D92EB5F"]
-			description: ["Pipes allow you to move fluids around, although they're pretty useless without pumps."]
+			description: ["Pipes allow you to &6move fluids around&r, although they're pretty useless without Pumps."]
 			id: "395D4B6B2AAE10CA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -573,9 +586,9 @@
 		{
 			dependencies: ["69D46D16B36DF0D4"]
 			description: [
-				"I honestly cannot tell you how often I've seen 'Mixing things up' used as a title and/or subtitle for the Mixer quest in modpacks, it is so overused."
+				"Oops! All Mixer recipes!"
 				""
-				"This machine needs to be spinning with at least 32 RPM, or it won't do anything. Better learn how to shift gears!"
+				"This machine needs to be spinning with &6at least 32 RPM&r, or it won't do anything. Better learn how to shift gears!"
 			]
 			id: "4BEDA9BDB2B8BE8E"
 			rewards: [{
@@ -602,6 +615,7 @@
 		}
 		{
 			dependencies: ["4BEDA9BDB2B8BE8E"]
+			description: ["Check the Mixing recipes for Andesite Alloy."]
 			id: "300C9B39C4303BC6"
 			subtitle: "Using a Mixer and a Millstone, you can double your Andesite Alloy yields!"
 			tasks: [
@@ -621,7 +635,7 @@
 		}
 		{
 			dependencies: ["14DD14A15D92EB5F"]
-			description: ["These don't retain liquid when you break them, but they can be mounted to contraptions and moved around that way!"]
+			description: ["These &6don't retain liquid&r when you break them, but they can be &6mounted to contraptions&r and moved around that way!"]
 			id: "2BDBCEABA69AFF46"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -635,7 +649,7 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
@@ -664,13 +678,13 @@
 		{
 			dependencies: ["50EAF870216F4134"]
 			description: [
-				"The Harvester automatically harvests and replants crops such as Wheat or Carrots."
+				"&lThe Harvester&r automatically &6harvests and replants crops&r such as Wheat or Carrots."
 				""
-				"The Plough can break blocks that don't have collision, such as Mushrooms, Grass, or Flowers. It can also convert Dirt into Farmland."
+				"&lThe Plough&r can &6break blocks that don't have collision&r, such as Mushrooms, Grass, or Flowers. It can also &6convert Dirt into Farmland&r."
 				""
-				"The Drill breaks blocks in front of it."
+				"&lThe Drill&r &6breaks blocks&r in front of it."
 				""
-				"Super Glue sticks things together."
+				"&lSuper Glue&r &6sticks things together&r."
 				""
 				"Ponder them all for more information!"
 			]
@@ -692,6 +706,7 @@
 				{
 					id: "1874117B82E551D5"
 					item: "create:mechanical_plough"
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -712,7 +727,7 @@
 				}
 			]
 			title: "Other useful machines"
-			x: 13.5d
+			x: 12.0d
 			y: -4.5d
 		}
 		{
@@ -721,7 +736,7 @@
 				"1679A823F116353A"
 				"6829C762D39BEBFB"
 			]
-			description: ["Mix Zinc and Copper to make a Brass Mixture. Smelt it in a furnace and..."]
+			description: ["Mix Zinc and Copper to make a Brass Mixture. Smelt it in a Furnace and..."]
 			id: "067A30C4375F22A6"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -744,7 +759,7 @@
 			description: [
 				"Feel the power flow through your veins, pre-Nether brass at your disposal."
 				""
-				"You can't do much with this now, as you probably don't have Electron Tubes yet, which unfortunately you need to go to the Nether for. We can fix that though."
+				"You can't do much with this now, as you probably don't have &6Electron Tubes&r yet, which unfortunately you need to go to the &6Nether&r for. We can fix that though."
 				""
 				"Completing this quest unlocks the next main progression chapter."
 			]
@@ -769,7 +784,7 @@
 		{
 			dependencies: ["4BEDA9BDB2B8BE8E"]
 			description: [
-				"As you progress you'll get better access to things like ore duplication to increase the yields of your metal refining."
+				"As you progress you'll get better access to things like ore duplication to &6increase the yields of your metal refining&r."
 				""
 				"This quest unlocks a chapter dedicated to guiding you through how to achieve this."
 			]
@@ -789,9 +804,9 @@
 		{
 			dependencies: ["2BC7202742BC1535"]
 			description: [
-				"The Furnace has had a makeover (it definitely hasn't been removed and replaced with a rebranded Blast Furnace). "
+				"The &6Furnace&r has had a &6makeover&r &7(it definitely hasn't been removed and replaced with a rebranded Blast Furnace)&r. "
 				""
-				"It smelts everything much quicker now, but can't do food. You need the Smoker for that."
+				"It smelts everything much quicker now, but can't do food. You need the &6Smoker&r for that."
 			]
 			id: "079D5A61E952C38C"
 			rewards: [{
@@ -820,9 +835,9 @@
 		{
 			dependencies: ["2BC7202742BC1535"]
 			description: [
-				"You may find large rocks around the surface with different types of ore embedded in them. Make a note of these because they're important later!"
+				"You may find &6large rocks&r around the surface with different types of ore embedded in them. &6Make a note of these&r because they're important later!"
 				""
-				"Underneath these rocks are deep, hidden deposits of ore which can only be extracted once you enter the Logistical Age."
+				"Underneath these rocks are &6deep, hidden deposits of ore&r which can only be extracted once you enter the &6Industrial Age&r."
 			]
 			icon: "minecraft:iron_ore"
 			id: "5FA3EF6CDA9E4087"
@@ -845,9 +860,9 @@
 		{
 			dependencies: ["55F39E3B00DAE2EF"]
 			description: [
-				"Now we're going places! You can start moving items automatically between machines now."
+				"Now we're going places! You can start moving items &6automatically&r between machines now."
 				""
-				"This quest opens up a few related items. Ponder them to see what they can do..."
+				"This quest opens up a few related items. &6Ponder them&r to see what they can do..."
 			]
 			id: "0BBE79A422F392AE"
 			rewards: [{
@@ -1001,7 +1016,7 @@
 		{
 			dependencies: ["6B084540ABAFE35D"]
 			description: [
-				"Gemstones have some extra processes that they need to go through to be processed into useful materials."
+				"Gemstones have some &6extra processes&r that they need to go through to be processed into useful materials."
 				""
 				"This quest unlocks a chapter in the Index dedicated to guiding you through the processes."
 			]
@@ -1036,9 +1051,9 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7F8252B36E67D31F"]
+			dependencies: ["50EAF870216F4134"]
 			description: [
-				"Starting off with a few basic contraptions, you should set up some automations now so you don't have to do it later."
+				"Starting off with a few basic contraptions, you should &6set up some automations now&r, so you don't have to do it later."
 				""
 				"This quest unlocks a chapter dedicated to guiding you with what automations you should set up, and when."
 			]
@@ -1052,8 +1067,8 @@
 				title: "Useful Automations"
 				type: "checkmark"
 			}]
-			x: 15.0d
-			y: -6.0d
+			x: 13.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2BC7202742BC1535"]
@@ -1414,6 +1429,94 @@
 			}]
 			x: -10.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["50EAF870216F4134"]
+			description: [
+				"&lThe Mechanical Bearing&r makes things &6spin&r in a circle."
+				""
+				"&lThe Cart Assembler&r can place a contraption on a Minecart to move in &6whatever direction&r you want."
+				""
+				"&lThe Gantry Carriage&r moves in &6straight lines&r when placed on a Gantry Shaft."
+				""
+				"Ponder them all for more info!"
+			]
+			id: "418316991B9D89F2"
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "7BF9B884DC4CAF66"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "62B8C8D7712DA482"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "0E60B810551A31B6"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+			]
+			title: "Things that move"
+			x: 15.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"14DD14A15D92EB5F"
+				"55F39E3B00DAE2EF"
+			]
+			description: [
+				"Get yourself loaded up with some Copper Diving Gear!"
+				""
+				"Spin the &6shaft on top of the Backtank&r to fill it up with air."
+				""
+				"Ores have lowered spawn rates when generating next to air blocks, and &6Water isn't air&r. If you don't like strip mining, try &6underwater cave diving&r!"
+			]
+			id: "17788F751C36E718"
+			subtitle: "Cave mining anybody?"
+			tasks: [
+				{
+					id: "1E7A4B4B5B3B7FB6"
+					item: {
+						Count: 1
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E74A82F81DC7195"
+					item: {
+						Count: 1
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F9F564A547F9224"
+					item: {
+						Count: 1
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Copper Diving Gear"
+			x: 13.5d
+			y: 0.0d
 		}
 	]
 	title: "The Mechanical Age"
