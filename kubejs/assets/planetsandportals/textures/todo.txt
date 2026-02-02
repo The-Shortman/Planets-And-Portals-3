@@ -1,5 +1,4 @@
 Undone item textures:
-planetsandportals:unfinshed_rose_quartz
 planetsandportals:incomplete_generator_coil
 
 Current "dev" item textures (roughly done, can do with better):
