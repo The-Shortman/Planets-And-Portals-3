@@ -214,38 +214,42 @@
         id: "oxygen_gear",
       },
       {
-        pattern: ["AAA", "ACA"],
+        pattern: ["AAA", "ACA", " B "],
         key: {
           A: "planetsandportals:ballistic_polymer",
+          B: "tfmg:rubber_sheet",
           C: "minecraft:glass_pane",
         },
         output: "ad_astra:space_helmet",
         id: "space_helmet",
       },
       {
-        pattern: ["A A", "BCB", "AAA"],
+        pattern: ["ADA", "BCB", "AAA"],
         key: {
           A: "planetsandportals:ballistic_polymer",
           B: "ad_astra:gas_tank",
           C: "ad_astra:oxygen_gear",
+          D: "tfmg:rubber_sheet",
         },
         output: "ad_astra:space_suit",
         id: "space_suit",
       },
       {
-        pattern: ["AAA", "B B", "A A"],
+        pattern: ["CCC", "B B", "A A"],
         key: {
           A: "planetsandportals:ballistic_polymer",
           B: "tfmg:steel_ingot",
+          C: "tfmg:rubber_sheet",
         },
         output: "ad_astra:space_pants",
         id: "space_pants",
       },
       {
-        pattern: ["A A", "B B"],
+        pattern: ["A A", "B B", "C C"],
         key: {
-          A: "planetsandportals:ballistic_polymer",
-          B: "tfmg:steel_ingot",
+          A: "tfmg:rubber_sheet",
+          B: "planetsandportals:ballistic_polymer",
+          C: "tfmg:steel_ingot",
         },
         output: "ad_astra:space_boots",
         id: "space_boots",
