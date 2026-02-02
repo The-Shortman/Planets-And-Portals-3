@@ -1,5 +1,4 @@
 Undone item textures:
-planetsandportals:unfinished_crafter_slot_cover
 planetsandportals:unfinshed_rose_quartz
 planetsandportals:incomplete_generator_coil
 
