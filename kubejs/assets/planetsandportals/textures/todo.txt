@@ -5,7 +5,6 @@ planetsandportals:concave_heavy_plate
 planetsandportals:unevacuated_steel_mechanism
 planetsandportals:unfinished_crafter_slot_cover
 planetsandportals:unfinshed_rose_quartz
-planetsandportals:incomplete_cardboard_mechanism
 planetsandportals:incomplete_generator_coil
 planetsandportals:ballistic_polymer
 
