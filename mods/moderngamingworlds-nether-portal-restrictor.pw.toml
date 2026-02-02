@@ -1,0 +1,13 @@
+name = "Nether Portal Restrictor"
+filename = "noportals-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c813fed42a9025c5e161869d745442749a463777"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6286785
+project-id = 1216404

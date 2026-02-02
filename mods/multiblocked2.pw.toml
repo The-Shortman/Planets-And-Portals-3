@@ -1,0 +1,13 @@
+name = "Multiblocked2"
+filename = "multiblocked2-1.20.1-1.0.37.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57b37144e27828ad5271c17ec87e87fdc9abcf35"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7237964
+project-id = 1104057

@@ -1,0 +1,23 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_industrial_age"
+	group: "30A216F1693DCE58"
+	icon: "tfmg:cast_iron_ingot"
+	id: "37D5D017B31404D7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "5391869C3BF99BCB"
+		shape: "octagon"
+		size: 3.0d
+		tasks: [{
+			id: "7EB3B92693EFE0A7"
+			item: "tfmg:cast_iron_ingot"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Industrial Age"
+}

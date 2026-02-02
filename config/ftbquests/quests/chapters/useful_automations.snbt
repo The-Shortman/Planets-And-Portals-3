@@ -23,7 +23,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["49036BE9818DF8DA"]
+			dependencies: ["385B52F801228EE6"]
+			icon: "minecraft:oak_log"
 			id: "1583CCF3F26E4908"
 			tasks: [
 				{
@@ -44,17 +45,23 @@
 					type: "item"
 				}
 				{
-					id: "7A8A8449126228F6"
+					id: "56A0EAD5DD66BE0B"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "5F8159398BB3E03F"
 					title: "Done"
 					type: "checkmark"
 				}
 			]
 			title: "Tree Farm"
-			x: 3.0d
-			y: 0.0d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["49036BE9818DF8DA"]
+			icon: "minecraft:apple"
 			id: "47CBE2FD120FD6B9"
 			tasks: [
 				{
@@ -81,11 +88,12 @@
 				}
 			]
 			title: "Food Farm"
-			x: -3.0d
-			y: 0.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["49036BE9818DF8DA"]
+			icon: "minecraft:kelp"
 			id: "6F3CBCCDF3F75F6B"
 			tasks: [
 				{
@@ -105,8 +113,263 @@
 				}
 			]
 			title: "Kelp Farm"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["73145F7A60B570D9"]
+			icon: "create:brass_ingot"
+			id: "385B52F801228EE6"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "4BC97CDF0C7CD796"
+				title: "Logistical Age"
+				type: "checkmark"
+			}]
 			x: 0.0d
-			y: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C28B4D46339503B"]
+			icon: "minecraft:cobblestone"
+			id: "207486EBC9DB7665"
+			tasks: [
+				{
+					id: "67690FDA21007B46"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "5A923B48A6C62530"
+					title: "Done"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EC58E2A27D1526D"]
+			id: "3F3DE7D62F9C70CB"
+			tasks: [{
+				id: "35A6E774CC473F96"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"207486EBC9DB7665"
+				"3F3DE7D62F9C70CB"
+			]
+			id: "70DCF951242840ED"
+			tasks: [{
+				id: "7E9E222F1F37C0F1"
+				item: "planetsandportals:stony_wart"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["43747A6FC284E092"]
+			id: "53715C3B60788B44"
+			tasks: [{
+				id: "1B6DA7CF712A4642"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["207486EBC9DB7665"]
+			id: "5B55246D8DA2BC17"
+			tasks: [{
+				id: "3EF344E1DE81F47D"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5B55246D8DA2BC17"]
+			id: "150E795F177583F5"
+			tasks: [{
+				id: "2C533D5B8C0F7574"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["150E795F177583F5"]
+			id: "1DE8778C9BB0CCDD"
+			tasks: [{
+				id: "3981551C33FB219D"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"150E795F177583F5"
+				"1DE8778C9BB0CCDD"
+				"5B55246D8DA2BC17"
+			]
+			id: "71E42D5281A527B4"
+			tasks: [{
+				id: "77014BE39F9B2678"
+				item: "planetsandportals:grout"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["70DCF951242840ED"]
+			id: "43747A6FC284E092"
+			tasks: [{
+				id: "35F05AC2360C39D6"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"53715C3B60788B44"
+				"71E42D5281A527B4"
+			]
+			id: "53429B9AD7133DB8"
+			tasks: [{
+				id: "5F1EC4232B4FE583"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5FCDC9612265D254"
+				"3F3DE7D62F9C70CB"
+			]
+			id: "59E0908344A33B9C"
+			tasks: [{
+				id: "2D7A9AB23AA55175"
+				item: "planetsandportals:sticky_wart"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4CD9C5E509CD23F0"]
+			id: "5FCDC9612265D254"
+			tasks: [{
+				id: "2384115CCCBFDD75"
+				item: "create:honey_bucket"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C28B4D46339503B"]
+			id: "4CD9C5E509CD23F0"
+			tasks: [{
+				id: "6D273A74A4522D98"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59E0908344A33B9C"]
+			id: "0B92AC253B626083"
+			tasks: [{
+				id: "5C72D02B1E4E63EA"
+				item: "tfmg:rubber_sheet"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B92AC253B626083"]
+			id: "24783D3BD6037489"
+			tasks: [{
+				id: "6ED38EE07F8CD0EF"
+				item: "tfmg:synthetic_string"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B92AC253B626083"]
+			id: "09270CF60DE00E51"
+			tasks: [{
+				id: "5E1ACE365B9A3F23"
+				item: "tfmg:synthetic_leather"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["24783D3BD6037489"]
+			id: "0609B804E259AAAD"
+			tasks: [{
+				id: "6CCA7FF884EF0EF4"
+				item: "minecraft:white_wool"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1C899C0BE98ACD24"]
+			id: "2ECECA4353060DDF"
+			tasks: [{
+				id: "239AB089F38699FB"
+				item: "mobsandfamiliars:mossie"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2ECECA4353060DDF"]
+			id: "77BAD9DA4E8DB70D"
+			tasks: [{
+				id: "36CD8049A30491C3"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["77BAD9DA4E8DB70D"]
+			id: "100B7B5B4EF4858B"
+			tasks: [{
+				id: "3CFF9095E757CA77"
+				item: "planetsandportals:blaze_blood_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 7.5d
 		}
 	]
 	title: "Useful Automations"

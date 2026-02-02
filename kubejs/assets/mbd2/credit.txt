@@ -1,0 +1,3 @@
+Most of the textures in this folder come from Masterful Machinery, a now discontinued mod. All assets from Masterful Machinery are licensed under the MIT Licence.
+
+Some textures come from an older version of Create: The Factory Must Grow, which is also licensed under the MIT Licence.

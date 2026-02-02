@@ -1,6 +1,7 @@
 config/**
 defaultconfigs/**
 kubejs/config/**
+kubejs/server_scripts/server_constants.js
 *.pw.toml
 index.toml
 pack.toml

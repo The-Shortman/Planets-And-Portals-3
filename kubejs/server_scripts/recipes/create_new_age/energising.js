@@ -13,7 +13,7 @@
       event
         .custom({
           type: "create_new_age:energising",
-          energy_needed: recipe.energy,
+          energyNeeded: recipe.energy,
           ingredients: [{ item: recipe.input }],
           results: [{ item: recipe.output }],
         })

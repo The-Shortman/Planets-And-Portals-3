@@ -1,0 +1,22 @@
+{
+  "mbd2.coke_oven": "Coke Oven",
+  "mbd2.coking": "Coking",
+  "block.mbd2.coke_oven_controller": "Coke Oven Controller",
+  "block.mbd2.coke_oven_fluid_output": "Coke Oven Fluid Output",
+  "block.mbd2.coke_oven_item_input": "Coke Oven Item Input",
+  "block.mbd2.coke_oven_item_output": "Coke Oven Item Output",
+
+  "mbd2.pulp_churner": "Pulp Churner",
+  "mbd2.pulp_churning": "Pulp Churning",
+  "block.mbd2.pulp_churner_controller": "Pulp Churner Controller",
+  "block.mbd2.pulp_churner_fluid_input": "Pulp Churner Fluid Input",
+  "block.mbd2.pulp_churner_item_input": "Pulp Churner Item Input",
+  "block.mbd2.pulp_churner_item_output": "Pulp Churner Item Output",
+  "block.mbd2.pulp_churner_stirrer": "Pulp Churner Stirrer",
+
+  "mbd2.blast_furnace": "Blast Furnace",
+  "mbd2.steel_blasting": "Steel Blasting",
+  "block.mbd2.blast_furnace_controller": "Blast Furnace Controller",
+  "block.mbd2.blast_furnace_fluid_output": "Blast Furnace Fluid Output",
+  "block.mbd2.blast_furnace_item_input": "Blast Furnace Item Input"
+}

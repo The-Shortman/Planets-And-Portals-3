@@ -48,16 +48,18 @@
     "tfmg:lead_bars",
     "tfmg:nickel_bars",
 
-    "mm:coke_oven_controller",
-    "mm:coke_oven_item_input",
-    "mm:coke_oven_item_output",
-    "mm:coke_oven_fluid_input",
-    "mm:coke_oven_fluid_output",
-    "mm:coke_oven_filler",
-    "mm:steel_furnace_controller",
-    "mm:steel_furnace_item_input",
-    "mm:steel_furnace_item_output",
-    "mm:steel_furnace_fluid_input",
-    "mm:steel_furnace_fluid_output"
+    "mbd2:blast_furnace_controller",
+    "mbd2:blast_furnace_item_input",
+    "mbd2:blast_furnace_fluid_output",
+    "mbd2:coke_oven_controller",
+    "mbd2:coke_oven_item_input",
+    "mbd2:coke_oven_item_output",
+    "mbd2:coke_oven_fluid_output",
+    "mbd2:coke_oven_filler",
+    "mbd2:pulp_churner_controller",
+    "mbd2:pulp_churner_fluid_input",
+    "mbd2:pulp_churner_item_input",
+    "mbd2:pulp_churner_item_output",
+    "mbd2:pulp_churner_stirrer"
   ]
 }

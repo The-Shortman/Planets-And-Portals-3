@@ -1,7 +1,1 @@
-// unused event to detect when a player swaps main hand item
-
-global.onLivingSwapItemsEvent = function (event) {}; // placeholder
-ForgeEvents.onEvent(
-  "net.minecraftforge.event.entity.living.LivingSwapItemsEvent",
-  global.onLivingSwapItemsEvent
-);
+console.info("Planets and Portals Modpack version = v0.9.0-alpha");

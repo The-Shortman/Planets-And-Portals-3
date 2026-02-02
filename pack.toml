@@ -1,6 +1,6 @@
 name = "Planets and Portals 3"
 author = "_Shortman"
-version = "v0.9-alpha"
+version = "v0.9.0-alpha"
 pack-format = "packwiz:1.1.0"
 
 [index]

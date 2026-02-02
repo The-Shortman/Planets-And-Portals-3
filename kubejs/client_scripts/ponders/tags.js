@@ -4,21 +4,9 @@
       {
         id: "planetsandportals:tier_1_machines",
         icon: "minecraft:paper",
-        name: "Book 1 Multiblocks",
-        desc: "Placeholder",
+        name: "Early Game Multiblocks",
+        desc: "Ponders coming soon!",
         items: "minecraft:paper",
-      },
-      {
-        id: "planetsandportals:tier_2_machines",
-        icon: "mm:coke_oven_controller",
-        name: "Book 2 Multiblocks",
-        desc: "Machines designed for early industry",
-        items: [
-          "mm:coke_oven_controller",
-          "mm:blast_furnace_controller",
-          "mm:steel_furnace_controller",
-          "mm:fuel_mixer_controller",
-        ],
       },
     ].forEach((ponder) => {
       event.createTag(
@@ -26,7 +14,7 @@
         ponder.icon,
         ponder.name,
         ponder.desc,
-        ponder.items
+        ponder.items,
       );
     });
   });

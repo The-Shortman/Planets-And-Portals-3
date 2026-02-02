@@ -2,68 +2,60 @@
   ServerEvents.recipes((event) => {
     const crushingRecipes = [
       {
-        input: "minecraft:andesite",
-        outputs: "planetsandportals:andesite_dust",
-        id: "andesite",
+        input: "minecraft:coal",
+        output: ["mekanism:dust_coal"],
+        id: "coal_dust",
       },
       {
-        input: "ad_astra:raw_desh",
-        outputs: [
-          "planetsandportals:crushed_raw_desh",
-          Item.of("create:experience_nugget").withChance(0.75),
-        ],
-        id: "raw_desh",
+        input: "minecraft:raw_iron",
+        output: [Item.of("mekanism:dirty_dust_iron").withChance(0.5)],
+        id: "dirty_iron_dust_from_raw",
       },
       {
-        input: "ad_astra:raw_ostrum",
-        outputs: [
-          "planetsandportals:crushed_raw_ostrum",
-          Item.of("create:experience_nugget").withChance(0.75),
-        ],
-        id: "raw_ostrum",
+        input: "create:crushed_raw_iron",
+        output: [Item.of("mekanism:dirty_dust_iron", 2)],
+        id: "dirty_iron_dust_from_crushed",
       },
       {
-        input: "ad_astra:raw_calorite",
-        outputs: [
-          "planetsandportals:crushed_raw_calorite",
-          Item.of("create:experience_nugget").withChance(0.75),
-        ],
-        id: "raw_calorite",
+        input: "minecraft:raw_gold",
+        output: [Item.of("mekanism:dirty_dust_gold").withChance(0.5)],
+        id: "dirty_gold_dust_from_raw",
       },
       {
-        input: "create:crushed_raw_osmium",
-        outputs: [
-          "mekanism:dust_osmium",
-          Item.of("create:experience_nugget").withChance(0.75),
-        ],
-        id: "crushed_raw_osmium",
+        input: "create:crushed_raw_gold",
+        output: [Item.of("mekanism:dirty_dust_gold", 2)],
+        id: "dirty_gold_dust_from_crushed",
       },
       {
-        input: "create:crushed_raw_lead",
-        outputs: [
-          "mekanism:dust_lead",
-          Item.of("create:experience_nugget").withChance(0.75),
-        ],
-        id: "crushed_raw_lead",
+        input: "minecraft:raw_copper",
+        output: [Item.of("mekanism:dirty_dust_copper").withChance(0.5)],
+        id: "dirty_copper_dust_from_raw",
       },
       {
-        input: "create:crushed_raw_uranium",
-        outputs: [
-          "mekanism:dust_uranium",
-          Item.of("create:experience_nugget").withChance(0.75),
-        ],
-        id: "crushed_raw_uranium",
+        input: "create:crushed_raw_copper",
+        output: [Item.of("mekanism:dirty_dust_copper", 2)],
+        id: "dirty_copper_dust_from_crushed",
       },
       {
-        input: "planetsandportals:crushed_raw_desh",
-        outputs: "planetsandportals:desh_dust",
-        id: "crushed_raw_desh",
+        input: "create:raw_zinc",
+        output: [Item.of("planetsandportals:dirty_zinc_dust").withChance(0.5)],
+        id: "dirty_zinc_dust_from_raw",
+      },
+      {
+        input: "create:crushed_raw_zinc",
+        output: [Item.of("planetsandportals:dirty_zinc_dust", 2)],
+        id: "dirty_zinc_dust_from_crushed",
+      },
+      {
+        input: "tfmg:slag_block",
+        output: [Item.of("tfmg:slag", 9)],
+        id: "slag_from_slag_block",
       },
     ];
 
     crushingRecipes.forEach((recipe) => {
       event.recipes.create
-        .crushing(recipe.outputs, recipe.input)
+        .crushing(recipe.output, recipe.input)
         .id(`kubejs:create/crushing/${recipe.id}`);
     });
   });

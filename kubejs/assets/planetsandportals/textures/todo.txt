@@ -1,0 +1,15 @@
+Undone item textures:
+planetsandportals:sticky_wart
+planetsandportals:stony_wart
+planetsandportals:concave_heavy_plate
+planetsandportals:unevacuated_steel_mechanism
+planetsandportals:unfinished_crafter_slot_cover
+planetsandportals:unfinshed_rose_quartz
+planetsandportals:incomplete_generator_coil
+planetsandportals:ballistic_polymer
+
+Current "dev" item textures (roughly done, can do with better):
+planetsandportals:infernal_portaberries
+planetsandportals:lavaberries
+planetsandportals:soaked_lavaberries
+planetsandportals:cardboard_mechanism

@@ -2,41 +2,23 @@
   ServerEvents.recipes((event) => {
     const distillationRecipes = [
       {
-        input: {
-          fluid: "planetsandportals:xeolum",
-          amount: 300,
-        },
+        input: { fluid: "tfmg:crude_oil", amount: 150 },
         output: [
-          {
-            fluid: "planetsandportals:ilene",
-            amount: 50,
-          },
-          {
-            fluid: "planetsandportals:ferrosine",
-            amount: 50,
-          },
-          {
-            fluid: "planetsandportals:olivelle",
-            amount: 50,
-          },
-          {
-            fluid: "planetsandportals:ilene",
-            amount: 50,
-          },
-          {
-            fluid: "planetsandportals:orthosilene",
-            amount: 50,
-          },
-          {
-            fluid: "planetsandportals:anorline",
-            amount: 50,
-          },
-          {
-            fluid: "planetsandportals:light_helium",
-            amount: 50,
-          },
+          { fluid: "tfmg:heavy_oil", amount: 50 },
+          { fluid: "tfmg:naphtha", amount: 20 },
+          { fluid: "tfmg:gasoline", amount: 40 },
+          { fluid: "tfmg:lpg", amount: 40 },
         ],
-        id: "xeolum",
+        id: "crude_oil",
+      },
+      {
+        input: { fluid: "tfmg:heavy_oil", amount: 100 },
+        output: [
+          { fluid: "tfmg:lubrication_oil", amount: 30 },
+          { fluid: "tfmg:diesel", amount: 50 },
+          { fluid: "tfmg:kerosene", amount: 20 },
+        ],
+        id: "heavy_oil",
       },
     ];
 
