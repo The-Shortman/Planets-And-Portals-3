@@ -25,11 +25,11 @@
     builder.sized(0.5, 0.3);
     builder.modelSize(1, 1);
     builder.mobCategory("ambient");
-    builder.setDeathSound("minecraft:entity.generic.death");
+    builder.setDeathSound(
+      "mobsandfamiliars:sounds/entity/mossiedeathsound.ogg"
+    );
     builder.canJump(true);
     builder.setWaterSlowDown(0.6);
-    builder.followLeashSpeed(1.5);
-
     builder.isFood([
       "minecraft:moss_block",
       Ingredient.of("minecraft:moss_block"),
