@@ -1037,12 +1037,12 @@
 				"188F7BF0DB573E9B"
 				"7624B50E0B0EA997"
 			]
-			icon: "tfmg:steel_ingot"
+			icon: "ad_astra:steel_ingot"
 			id: "2A4A0BD9FF645FAE"
 			tasks: [
 				{
 					id: "70B0763482EFB44A"
-					item: "tfmg:steel_ingot"
+					item: "ad_astra:steel_ingot"
 					type: "item"
 				}
 				{
@@ -1210,12 +1210,12 @@
 		}
 		{
 			dependencies: ["2A4A0BD9FF645FAE"]
-			icon: "tfmg:steel_block"
+			icon: "ad_astra:steel_block"
 			id: "0BC3A7283EF0FC16"
 			tasks: [
 				{
 					id: "08EDDDAD8FFC4692"
-					item: "tfmg:steel_block"
+					item: "ad_astra:steel_block"
 					type: "item"
 				}
 				{

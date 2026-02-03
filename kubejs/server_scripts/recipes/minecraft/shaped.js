@@ -190,7 +190,7 @@
           A: "ad_astra:etrionic_core",
           B: "ad_astra:etrium_nugget",
           C: "tfmg:heavy_machinery_casing",
-          D: "tfmg:steel_block",
+          D: "ad_astra:steel_block",
           E: "ad_astra:desh_plate",
         },
         output: "ad_astra:gravity_normalizer",
@@ -199,7 +199,7 @@
       {
         pattern: ["AA"],
         key: {
-          A: "tfmg:steel_ingot",
+          A: "ad_astra:steel_ingot",
         },
         output: Item.of("tfmg:steel_pipe", 6),
         id: "steel_pipe",
@@ -207,7 +207,7 @@
       {
         pattern: [" B ", "ABA", "ABA"],
         key: {
-          A: "tfmg:steel_ingot",
+          A: "ad_astra:steel_ingot",
           B: "vintageimprovements:steel_rod",
         },
         output: "ad_astra:oxygen_gear",
@@ -248,7 +248,7 @@
         pattern: ["CCC", "B B", "A A"],
         key: {
           A: "planetsandportals:ballistic_polymer",
-          B: "tfmg:steel_ingot",
+          B: "ad_astra:steel_ingot",
           C: "tfmg:rubber_sheet",
         },
         output: "ad_astra:space_pants",
@@ -259,7 +259,7 @@
         key: {
           A: "tfmg:rubber_sheet",
           B: "planetsandportals:ballistic_polymer",
-          C: "tfmg:steel_ingot",
+          C: "ad_astra:steel_ingot",
         },
         output: "ad_astra:space_boots",
         id: "space_boots",
@@ -612,7 +612,7 @@
         key: {
           A: "create_new_age:copper_wire",
           B: "create:framed_glass",
-          C: "tfmg:steel_nugget",
+          C: "ad_astra:steel_nugget",
         },
         output: Item.of("tfmg:light_bulb", 4),
         id: "light_bulb",
@@ -648,7 +648,7 @@
         key: {
           A: "tfmg:steel_mechanism",
           B: "tfmg:cast_iron_sheet",
-          C: "tfmg:steel_ingot",
+          C: "ad_astra:steel_ingot",
         },
         output: "createoreexcavation:vein_finder",
         id: "vein_finder",
@@ -672,7 +672,7 @@
         pattern: [" A ", "ABA", " A "],
         key: {
           A: "create:andesite_alloy",
-          B: "tfmg:steel_block",
+          B: "ad_astra:steel_block",
         },
         output: "vintageimprovements:spring_coiling_machine_wheel",
         id: "spring_coiling_machine_wheel",
@@ -844,7 +844,7 @@
         pattern: ["AAA", "BCB", "AAA"],
         key: {
           A: "minecraft:redstone",
-          B: "tfmg:steel_ingot",
+          B: "ad_astra:steel_ingot",
           C: "mekanism:basic_logistical_transporter",
         },
         output: Item.of("mekanism:diversion_transporter", 2),
@@ -853,7 +853,7 @@
       {
         pattern: ["ABA"],
         key: {
-          A: "tfmg:steel_ingot",
+          A: "ad_astra:steel_ingot",
           B: "mekanism:basic_logistical_transporter",
         },
         output: Item.of("mekanism:restrictive_transporter", 2),

@@ -261,7 +261,7 @@
 			subtitle: "DEFINTELY automate this"
 			tasks: [{
 				id: "3269C711CC5523E0"
-				item: "tfmg:steel_ingot"
+				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
 			x: 10.5d
@@ -442,7 +442,7 @@
 			id: "08A7873691D3287C"
 			tasks: [{
 				id: "1B33C2DB79D7A678"
-				item: "tfmg:steel_block"
+				item: "ad_astra:steel_block"
 				type: "item"
 			}]
 			x: 13.5d

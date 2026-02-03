@@ -14,7 +14,7 @@
       {
         filter: { input: "mekanism:dust_steel" },
         remove: "mekanism:dust_steel",
-        replace: "tfmg:steel_ingot",
+        replace: "ad_astra:steel_ingot",
       },
       {
         filter: { mod: "create_new_age" },
@@ -44,17 +44,17 @@
       {
         filter: { input: "#forge:storage_blocks/steel" },
         remove: "#forge:storage_blocks/steel",
-        replace: "tfmg:steel_block",
+        replace: "ad_astra:steel_block",
       },
       {
         filter: { input: "#forge:ingots/steel" },
         remove: "#forge:ingots/steel",
-        replace: "tfmg:steel_ingot",
+        replace: "ad_astra:steel_ingot",
       },
       {
         filter: { input: "#forge:nuggets/steel" },
         remove: "#forge:ingots/steel",
-        replace: "tfmg:steel_ingot",
+        replace: "ad_astra:steel_ingot",
       },
       {
         filter: { input: "#forge:plates/steel" },

@@ -4,7 +4,7 @@
       {
         pattern: [" A BB", "ACCCD", "AA EF"],
         key: {
-          A: "tfmg:steel_block",
+          A: "ad_astra:steel_block",
           B: "vintageimprovements:cast_iron_spring",
           C: "#minecraft:logs",
           D: "tfmg:steel_casing",
@@ -19,7 +19,7 @@
         key: {
           A: "create:precision_mechanism",
           B: "vintageimprovements:cast_iron_spring",
-          C: "tfmg:steel_ingot",
+          C: "ad_astra:steel_ingot",
           D: "create:shaft",
           E: "tfmg:heavy_machinery_casing",
           F: "tfmg:cast_iron_block",

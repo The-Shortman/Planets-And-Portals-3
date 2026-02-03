@@ -2,7 +2,7 @@
   ServerEvents.recipes((event) => {
     const energisingRecipes = [
       {
-        input: "tfmg:steel_ingot",
+        input: "ad_astra:steel_ingot",
         output: "planetsandportals:steel_electrode",
         energy: 5000,
         id: "steel_electrode",
