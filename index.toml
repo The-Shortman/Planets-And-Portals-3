@@ -474,7 +474,7 @@ hash = "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
 
 [[files]]
 file = "config/fancymenu/user_variables.db"
-hash = "a14fa41534fdea3bd34f97fe3fb349cbe77e974558fc94ba186508afab9a8d45"
+hash = "2a251402e4b635583bef25aade5ae21eb8bb33a15d0a0fa1f4fb642a0a98fb97"
 
 [[files]]
 file = "config/farsight.json"
@@ -2754,7 +2754,7 @@ hash = "d9541b499dc5098374793f6c394a666d03a5adb8f908593d724807c64e9cab0a"
 
 [[files]]
 file = "kubejs/startup_scripts/startup.js"
-hash = "123c03a8d467397f2e69e0aee145d44712eac1ea209797c2164047ea52f087c6"
+hash = "23d59ce94eb8792d5bf402c802b6bc94eb5bd4278498d14fc3d3604255b081c0"
 
 [[files]]
 file = "ldlib/assets/mbd2/kinetic_machine/pulp_churner_stirrer.km"
