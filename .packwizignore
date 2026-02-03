@@ -1,7 +1,4 @@
-README.md
 LICENSE*.md
-PLAYTESTING.md
-CONTRIBUTING.md
 CHANGELOG.md
 .editorconfig
 .prettierignore
@@ -10,6 +7,9 @@ CHANGELOG.md
 .github
 .git/**
 .vscode
+
+# Exclude docs folder
+docs
 
 # Exclude executables from building
 packwiz
