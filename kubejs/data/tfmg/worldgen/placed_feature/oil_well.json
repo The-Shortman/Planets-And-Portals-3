@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "feature": "tfmg:oil_well",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}

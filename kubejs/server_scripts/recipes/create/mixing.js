@@ -41,6 +41,31 @@
         heat: "heated",
         id: "blaze_blood",
       },
+      {
+        input: ["minecraft:iron_ingot", Item.of("mekanism:dust_coal", 2)],
+        output: "tfmg:cast_iron_ingot",
+        heat: "heated",
+        id: "cast_iron_ingot",
+      },
+      {
+        input: [
+          { fluid: "planetsandportals:blaze_blood", amount: BUCKET },
+          Item.of("tfmg:limesand", 4),
+        ],
+        output: "tfmg:fireclay",
+        heat: "heated",
+        id: "fireclay_from_blaze_blood",
+      },
+      {
+        input: ["mekanism:salt", "minecraft:cobblestone"],
+        output: "minecraft:diorite",
+        id: "diorite_from_salt",
+      },
+      {
+        input: ["create:crushed_raw_iron", "tfmg:limesand"],
+        output: "planetsandportals:blasting_mixture",
+        id: "blasting_mixture",
+      },
     ];
 
     mixingRecipes.forEach((recipe) => {

@@ -1,2 +1,8 @@
 type = user_variables
 
+variable {
+  name = version
+  value = v0.9.0-beta
+  reset_on_launch = false
+}
+

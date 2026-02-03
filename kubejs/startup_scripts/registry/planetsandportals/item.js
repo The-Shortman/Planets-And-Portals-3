@@ -23,6 +23,7 @@
             Utils.server.runCommandSilent(
               `execute in minecraft:the_nether run tp ${player.uuid} ${x} ${y} ${z}`
             );
+            player.stages.add("nether_teleport");
           } else if (dim == "minecraft:the_nether") {
             let x = Math.floor(player.x * 8.0) + 0.5;
             let y = 248.0;
@@ -51,6 +52,11 @@
       {
         id: "planetsandportals:crushed_raw_desh", // Texture from Create Ad Astra Compat
         name: "Crushed Desh Ore",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:dirty_desh_dust",
+        name: "Dirty Desh Dust",
         stackSize: 64,
       },
       {
@@ -115,13 +121,56 @@
         name: "Stony Wart",
         stackSize: 64,
       },
+      {
+        id: "planetsandportals:concave_heavy_plate",
+        name: "Concave Heavy Plate",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:unevacuated_steel_mechanism",
+        name: "Unevacuated Steel Mechanism",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:cardboard_mechanism",
+        name: "Cardboard Mechanism",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:salt_bucket",
+        name: "Salt Bucket",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:blasting_mixture",
+        name: "Blasting Mixture",
+        stackSize: 64,
+      },
+      {
+        id: "planetsandportals:ballistic_polymer",
+        name: "Ballistic Polymer",
+        stackSize: 16,
+      },
+      {
+        id: "planetsandportals:complex_iron_parts",
+        name: "Complex Iron Parts",
+        stackSize: 64,
+      },
+
+      // Curving Press Heads
+
+      {
+        id: "planetsandportals:fan_curving_head",
+        name: "Fan Curving Head",
+        stackSize: 1,
+      },
     ];
 
     basicItems.forEach((item) => {
       event
         .create(item.id, "basic")
         .displayName(item.name)
-        .maxStackSize(item.stackSize ?? 64)
+        .maxStackSize(item.stackSize)
         .rarity(item.rarity ?? "common");
     });
 
@@ -129,14 +178,32 @@
 
     const transitionalItems = [
       {
-        id: "planetsandportals:unfinished_engine_frame",
-        name: "Unfinished Engine Frame",
-        stackSize: 1,
-      },
-      {
         id: "planetsandportals:unfinished_soul_sand",
         name: "Unfinished Soul Sand",
-        stackSize: 1,
+      },
+      {
+        id: "planetsandportals:unfinished_crafter_slot_cover",
+        name: "Unfinished Crafter Slot Cover",
+      },
+      {
+        id: "planetsandportals:unfinished_rose_quartz",
+        name: "Unfinished Rose Quartz",
+      },
+      {
+        id: "planetsandportals:incomplete_electron_tube",
+        name: "Incomplete Electron Tube",
+      },
+      {
+        id: "planetsandportals:incomplete_cardboard_mechanism",
+        name: "Incomplete Cardboard Mechanism",
+      },
+      {
+        id: "planetsandportals:incomplete_generator_coil",
+        name: "Incomplete Generator Coil",
+      },
+      {
+        id: "planetsandportals:incomplete_nose_cone",
+        name: "Incomplete Nose Cone",
       },
     ];
 
@@ -144,7 +211,7 @@
       event
         .create(item.id, "create:sequenced_assembly")
         .displayName(item.name)
-        .maxStackSize(item.stackSize ?? 64)
+        .maxStackSize(1)
         .rarity(item.rarity ?? "common");
     });
   });

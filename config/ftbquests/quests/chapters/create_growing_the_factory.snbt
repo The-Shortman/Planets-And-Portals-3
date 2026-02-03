@@ -119,7 +119,10 @@
 				{
 					count: 2L
 					id: "5C27FA2936DB2B6D"
-					item: { Count: 2, id: "mm:blast_furnace_item_input" }
+					item: {
+						Count: 2
+						id: "mm:blast_furnace_item_input"
+					}
 					type: "item"
 				}
 				{
@@ -235,7 +238,7 @@
 				{
 					count: 5L
 					id: "635EE5F9D6F26464"
-					item: { Count: 5, id: "mm:coke_oven_filler" }
+					item: { Count: 5, id: "mbd2:coke_oven_filler" }
 					type: "item"
 				}
 			]
@@ -950,7 +953,10 @@
 				{
 					count: 2L
 					id: "77567E2AF8103AAD"
-					item: { Count: 2, id: "mm:fuel_mixer_fluid_input" }
+					item: {
+						Count: 2
+						id: "mm:fuel_mixer_fluid_input"
+					}
 					type: "item"
 				}
 				{

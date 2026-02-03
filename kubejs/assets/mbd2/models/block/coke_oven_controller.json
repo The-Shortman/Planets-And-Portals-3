@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "mbd2:block/coke_oven_controller",
+    "side": "mbd2:block/coke_oven_filler",
+    "top": "mbd2:block/coke_oven_filler"
+  }
+}

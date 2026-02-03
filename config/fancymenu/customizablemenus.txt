@@ -3,51 +3,54 @@ type = customizablemenus
 de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
 }
 
-net.minecraft.class_442 {
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
 }
 
-net.minecraft.class_525 {
+net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen {
 }
 
-net.minecraft.class_500 {
+net.minecraft.client.gui.screens.worldselection.SelectWorldScreen {
 }
 
-net.minecraft.class_526 {
+net.minecraft.client.gui.screens.EditServerScreen {
 }
 
-com.terraformersmc.modmenu.gui.ModsScreen {
+net.minecraft.client.gui.screens.SkinCustomizationScreen {
 }
 
-net.minecraft.class_422 {
+net.minecraft.client.gui.screens.SoundOptionsScreen {
 }
 
-net.minecraft.class_429 {
+net.minecraft.client.gui.screens.LanguageSelectScreen {
 }
 
-net.minecraft.class_6777 {
+net.minecraft.client.gui.screens.AccessibilityOptionsScreen {
 }
 
-net.minecraft.class_440 {
+net.minecraft.client.gui.screens.PauseScreen {
 }
 
-net.minecraft.class_443 {
+net.minecraft.client.gui.screens.controls.ControlsScreen {
 }
 
-net.minecraft.class_426 {
+net.minecraft.client.gui.screens.MouseSettingsScreen {
 }
 
-net.minecraft.class_4189 {
+net.minecraft.client.gui.screens.ChatOptionsScreen {
 }
 
-net.minecraft.class_433 {
+net.minecraft.client.gui.screens.TitleScreen {
 }
 
-net.minecraft.class_458 {
+net.minecraftforge.client.gui.ModListScreen {
 }
 
-net.minecraft.class_4288 {
+com.blamejared.controlling.client.NewKeyBindsScreen {
 }
 
-net.minecraft.class_404 {
+net.minecraft.client.gui.screens.OnlineOptionsScreen {
+}
+
+net.minecraft.client.gui.screens.OptionsScreen {
 }
 

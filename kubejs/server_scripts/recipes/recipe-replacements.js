@@ -41,6 +41,31 @@
         remove: "#forge:plates/iron",
         replace: "create:iron_sheet",
       },
+      {
+        filter: { input: "#forge:storage_blocks/steel" },
+        remove: "#forge:storage_blocks/steel",
+        replace: "tfmg:steel_block",
+      },
+      {
+        filter: { input: "#forge:ingots/steel" },
+        remove: "#forge:ingots/steel",
+        replace: "tfmg:steel_ingot",
+      },
+      {
+        filter: { input: "#forge:nuggets/steel" },
+        remove: "#forge:ingots/steel",
+        replace: "tfmg:steel_ingot",
+      },
+      {
+        filter: { input: "#forge:plates/steel" },
+        remove: "#forge:plates/steel",
+        replace: "tfmg:heavy_plate",
+      },
+      {
+        filter: { input: "#forge:plates/cast_iron" },
+        remove: "#forge:plates/cast_iron",
+        replace: "tfmg:cast_iron_sheet",
+      },
     ];
 
     const outputReplacements = [

@@ -10,6 +10,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["7C289CC7B7FC0A63"]
 			description: [
 				"Everyone who has contributed to this modpack in any substantial way is listed here!"
 				""

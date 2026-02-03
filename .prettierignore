@@ -4,3 +4,6 @@ kubejs/config/**
 *.pw.toml
 index.toml
 pack.toml
+
+# Formatting this file bricks it
+kubejs/server_scripts/server_constants.js

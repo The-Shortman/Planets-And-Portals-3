@@ -1,4 +1,7 @@
 {
+  "mm": {
+    "controller_progress": true
+  },
   "minecraft": {
     "item_storage.show_name_amount": 5,
     "furnace": true,
@@ -19,6 +22,7 @@
     "crop_progress": true,
     "command_block": true,
     "mob_growth": true,
+    "waxed": true,
     "harvest_tool.new_line": false,
     "entity_health.max_for_render": 40,
     "entity_health.show_fractions": false,
@@ -50,34 +54,13 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "remove_builtin": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true,
-    "tooltip_renderer": true
-  },
-  "supplementaries": {
-    "hat_stand": true
-  },
-  "create": {
+  "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,
     "goggles.requires_goggles": true,
     "goggles": false,
     "blaze_burner": true,
     "exact_block": true,
-    "crafting_blueprint": true,
     "goggles.detailed": false,
     "placard": true
   },
@@ -96,11 +79,8 @@
     "block": true,
     "note_block": true
   },
-  "lootr": {
-    "info": true
-  },
-  "corpse": {
-    "corpse": true
+  "balm": {
+    "jade": true
   },
   "ae2": {
     "part_icon": true,
@@ -113,6 +93,36 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "mbd2": {
+    "recipe_logic_provider": true,
+    "multiblock_provider": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "jadeaddons.lootr": {
+    "info": true
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "corpse": {
+    "corpse": true
   },
   "storagedrawers": {
     "display.stacklimit": true,

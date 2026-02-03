@@ -1,0 +1,25 @@
+(function tfmgCastingRecipes() {
+  const { BUCKET, BOTTLE, BLOCK, INGOT, NUGGET } = global.fluids;
+
+  ServerEvents.recipes((event) => {
+    const castingRecipes = [
+      {
+        input: { fluid: "tfmg:molten_slag", amount: INGOT },
+        output: "tfmg:slag_block",
+        time: 80,
+        id: "slag_block",
+      },
+    ];
+
+    castingRecipes.forEach((recipe) => {
+      event
+        .custom({
+          type: "tfmg:casting",
+          ingredients: [recipe.input],
+          processingTime: recipe.time,
+          results: [{ item: recipe.output }],
+        })
+        .id(`kubejs:tfmg/casting/${recipe.id}`);
+    });
+  });
+})();

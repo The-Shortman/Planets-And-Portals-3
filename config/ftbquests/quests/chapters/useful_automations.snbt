@@ -3,92 +3,59 @@
 	default_quest_shape: ""
 	filename: "useful_automations"
 	group: "69C6C562BC012F34"
+	hide_quest_until_deps_visible: true
 	icon: "create:schematic_and_quill"
 	id: "7F45279F563D48D2"
+	images: [
+		{
+			height: 0.2d
+			image: "mekanism:block/models/multipart/logistical_transporter_glass_colored"
+			rotation: 0.0d
+			width: 60.0d
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			height: 0.2d
+			image: "mekanism:block/models/multipart/logistical_transporter_glass_colored"
+			rotation: 0.0d
+			width: 60.0d
+			x: -4.5d
+			y: 3.0d
+		}
+	]
 	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1C28B4D46339503B"]
+			dependencies: [
+				"2C7CC42E3CF997C7"
+				"2BC7202742BC1535"
+			]
 			icon: "create:andesite_alloy"
 			id: "49036BE9818DF8DA"
 			shape: "octagon"
-			size: 2.0d
+			size: 3.0d
+			subtitle: "Check this to unlock the Mechanical Age automations"
 			tasks: [{
 				id: "12BA0FFC1E598C92"
 				title: "Mechanical Age"
 				type: "checkmark"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: 0.0d
-		}
-		{
-			dependencies: ["385B52F801228EE6"]
-			icon: "minecraft:oak_log"
-			id: "1583CCF3F26E4908"
-			tasks: [
-				{
-					id: "1C9F331D32B71FA8"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "minecraft:saplings"
-						}
-					}
-					title: "Any #minecraft:saplings"
-					type: "item"
-				}
-				{
-					id: "471A0A5E0235B8FC"
-					item: "create:mechanical_saw"
-					type: "item"
-				}
-				{
-					id: "56A0EAD5DD66BE0B"
-					item: "create:deployer"
-					type: "item"
-				}
-				{
-					id: "5F8159398BB3E03F"
-					title: "Done"
-					type: "checkmark"
-				}
-			]
-			title: "Tree Farm"
-			x: 1.5d
-			y: 6.0d
 		}
 		{
 			dependencies: ["49036BE9818DF8DA"]
 			icon: "minecraft:apple"
 			id: "47CBE2FD120FD6B9"
-			tasks: [
-				{
-					id: "0FD99E948B5DDCB1"
-					item: {
-						Count: 1
-						id: "itemfilters:tag"
-						tag: {
-							value: "forge:crops"
-						}
-					}
-					title: "Any #forge:crops"
-					type: "item"
-				}
-				{
-					id: "701A88753DE83A02"
-					item: "create:mechanical_harvester"
-					type: "item"
-				}
-				{
-					id: "5C3DA90C8D7B8E38"
-					title: "Done"
-					type: "checkmark"
-				}
-			]
+			tasks: [{
+				id: "5C3DA90C8D7B8E38"
+				title: "Automated"
+				type: "checkmark"
+			}]
 			title: "Food Farm"
-			x: 1.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -102,36 +69,43 @@
 					type: "item"
 				}
 				{
-					id: "5FC3EFFD5B197E0F"
-					item: "create:mechanical_harvester"
-					type: "item"
-				}
-				{
 					id: "58B5F904811EBAA6"
-					title: "Done"
+					title: "Automated"
 					type: "checkmark"
 				}
 			]
 			title: "Kelp Farm"
-			x: 1.5d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
-			dependencies: ["73145F7A60B570D9"]
+			dependencies: [
+				"73145F7A60B570D9"
+				"2C7CC42E3CF997C7"
+			]
 			icon: "create:brass_ingot"
 			id: "385B52F801228EE6"
 			shape: "octagon"
-			size: 2.0d
+			size: 3.0d
+			subtitle: "Check this to unlock the Logistical Age automations"
 			tasks: [{
-				id: "4BC97CDF0C7CD796"
+				id: "6B49CF17C336380D"
 				title: "Logistical Age"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["1C28B4D46339503B"]
+			dependencies: [
+				"12BA0FFC1E598C92"
+				"2BC7202742BC1535"
+			]
+			description: [
+				"Automation method:"
+				""
+				"- Harvest from a Cobblestone generator using Create Drills."
+			]
 			icon: "minecraft:cobblestone"
 			id: "207486EBC9DB7665"
 			tasks: [
@@ -142,7 +116,7 @@
 				}
 				{
 					id: "5A923B48A6C62530"
-					title: "Done"
+					title: "Automated"
 					type: "checkmark"
 				}
 			]
@@ -150,13 +124,29 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2EC58E2A27D1526D"]
+			dependencies: [
+				"6B49CF17C336380D"
+				"2BC7202742BC1535"
+			]
+			description: [
+				"Automation method:"
+				""
+				"- Grow on Soul Sand and harvest using Mechanical Harvesters on a contraption."
+			]
+			icon: "minecraft:nether_wart"
 			id: "3F3DE7D62F9C70CB"
-			tasks: [{
-				id: "35A6E774CC473F96"
-				item: "minecraft:nether_wart"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "35A6E774CC473F96"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					id: "6DC54239015F3CAE"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -4.5d
 			y: 4.5d
 		}
@@ -165,56 +155,125 @@
 				"207486EBC9DB7665"
 				"3F3DE7D62F9C70CB"
 			]
+			description: [
+				"Automation method:"
+				""
+				"- Press Nether Wart in a Basin to get Wart Juice."
+				"- Mix Wart Juice and Cobblestone in a Basin with a Mechanical Mixer."
+			]
+			icon: "planetsandportals:stony_wart"
 			id: "70DCF951242840ED"
-			tasks: [{
-				id: "7E9E222F1F37C0F1"
-				item: "planetsandportals:stony_wart"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7E9E222F1F37C0F1"
+					item: "planetsandportals:stony_wart"
+					type: "item"
+				}
+				{
+					id: "1AD17F2BF2363F45"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["43747A6FC284E092"]
+			description: [
+				"Automation method:"
+				""
+				"- Compact Lava in a Basin using a Mechanical Press."
+			]
+			icon: "minecraft:andesite"
 			id: "53715C3B60788B44"
-			tasks: [{
-				id: "1B6DA7CF712A4642"
-				item: "minecraft:andesite"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1B6DA7CF712A4642"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "5AF9C8D232D09B82"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: 9.0d
 		}
 		{
 			dependencies: ["207486EBC9DB7665"]
+			description: [
+				"Automation method:"
+				""
+				"- Mill Cobblestone."
+			]
+			icon: "minecraft:gravel"
 			id: "5B55246D8DA2BC17"
-			tasks: [{
-				id: "3EF344E1DE81F47D"
-				item: "minecraft:gravel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3EF344E1DE81F47D"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "5A31A8CE3C45915B"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -7.5d
 			y: 1.5d
 		}
 		{
-			dependencies: ["5B55246D8DA2BC17"]
+			dependencies: [
+				"5B55246D8DA2BC17"
+				"6B49CF17C336380D"
+			]
+			description: [
+				"Automation method:"
+				""
+				"- Crush Gravel with Crushing Wheels."
+			]
+			icon: "minecraft:sand"
 			id: "150E795F177583F5"
-			tasks: [{
-				id: "2C533D5B8C0F7574"
-				item: "minecraft:sand"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2C533D5B8C0F7574"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "74D4FD7688BEBE9E"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["150E795F177583F5"]
+			description: [
+				"Automation method:"
+				""
+				"- Wash Sand with an Encased Fan behind Water."
+			]
+			icon: "minecraft:clay"
 			id: "1DE8778C9BB0CCDD"
-			tasks: [{
-				id: "3981551C33FB219D"
-				item: "minecraft:clay"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3981551C33FB219D"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "3B03A93F9829BB9A"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -9.0d
 			y: 6.0d
 		}
@@ -224,23 +283,49 @@
 				"1DE8778C9BB0CCDD"
 				"5B55246D8DA2BC17"
 			]
+			description: [
+				"Automation method:"
+				""
+				"- Mix Gravel, Sand, and Clay in a Basin using a Mechanical Mixer."
+			]
+			icon: "planetsandportals:grout"
 			id: "71E42D5281A527B4"
-			tasks: [{
-				id: "77014BE39F9B2678"
-				item: "planetsandportals:grout"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77014BE39F9B2678"
+					item: "planetsandportals:grout"
+					type: "item"
+				}
+				{
+					id: "58010415DC62520D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -7.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["70DCF951242840ED"]
+			description: [
+				"Automation method:"
+				""
+				"- Compact Stony Wart in a Basin using a Mechanical Press."
+			]
+			icon: "minecraft:lava_bucket"
 			id: "43747A6FC284E092"
-			tasks: [{
-				id: "35F05AC2360C39D6"
-				item: "minecraft:lava_bucket"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "35F05AC2360C39D6"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "475A3465E074351F"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -6.0d
 			y: 7.5d
 		}
@@ -249,12 +334,26 @@
 				"53715C3B60788B44"
 				"71E42D5281A527B4"
 			]
+			description: [
+				"Autoamtion method:"
+				""
+				"- Crush Andesite into Andesite Dust using Crusing Wheels."
+				"- Mix Grout and Andesite Dust in a Basin using a Mixer."
+			]
+			icon: "create:andesite_alloy"
 			id: "53429B9AD7133DB8"
-			tasks: [{
-				id: "5F1EC4232B4FE583"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5F1EC4232B4FE583"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "6160F8A895A79C4A"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -7.5d
 			y: 10.5d
 		}
@@ -263,113 +362,1215 @@
 				"5FCDC9612265D254"
 				"3F3DE7D62F9C70CB"
 			]
+			description: [
+				"Automation method:"
+				""
+				"- Press Nether Wart in a Basin to get Wart Juice."
+				"- Mix Wart Juice and Honey to in a Basin with a Mechanical Mixer."
+			]
+			icon: "planetsandportals:sticky_wart"
 			id: "59E0908344A33B9C"
-			tasks: [{
-				id: "2D7A9AB23AA55175"
-				item: "planetsandportals:sticky_wart"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D7A9AB23AA55175"
+					item: "planetsandportals:sticky_wart"
+					type: "item"
+				}
+				{
+					id: "715DFA004270312F"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -3.0d
 			y: 6.0d
 		}
 		{
-			dependencies: ["4CD9C5E509CD23F0"]
+			dependencies: [
+				"12BA0FFC1E598C92"
+				"2BC7202742BC1535"
+			]
+			description: [
+				"Automation method:"
+				""
+				"- Pump Honey out of a Beehive or Bee Nest using a Mechanical Pump."
+			]
+			icon: "create:honey_bucket"
 			id: "5FCDC9612265D254"
-			tasks: [{
-				id: "2384115CCCBFDD75"
-				item: "create:honey_bucket"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["1C28B4D46339503B"]
-			id: "4CD9C5E509CD23F0"
-			tasks: [{
-				id: "6D273A74A4522D98"
-				item: "minecraft:beehive"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2384115CCCBFDD75"
+					item: "create:honey_bucket"
+					type: "item"
+				}
+				{
+					id: "58F2E93BD33578CA"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Honey"
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["59E0908344A33B9C"]
+			description: [
+				"Automation method:"
+				""
+				"- Bulk blast Sticky Wart using an Encased Fan with Lava in front of it."
+			]
+			icon: "tfmg:rubber_sheet"
 			id: "0B92AC253B626083"
-			tasks: [{
-				id: "5C72D02B1E4E63EA"
-				item: "tfmg:rubber_sheet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5C72D02B1E4E63EA"
+					item: "tfmg:rubber_sheet"
+					type: "item"
+				}
+				{
+					id: "6306C8D7A8255B29"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -3.0d
-			y: 7.5d
+			y: 10.5d
 		}
 		{
-			dependencies: ["0B92AC253B626083"]
-			id: "24783D3BD6037489"
-			tasks: [{
-				id: "6ED38EE07F8CD0EF"
-				item: "tfmg:synthetic_string"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["0B92AC253B626083"]
-			id: "09270CF60DE00E51"
-			tasks: [{
-				id: "5E1ACE365B9A3F23"
-				item: "tfmg:synthetic_leather"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["24783D3BD6037489"]
-			id: "0609B804E259AAAD"
-			tasks: [{
-				id: "6CCA7FF884EF0EF4"
-				item: "minecraft:white_wool"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["1C899C0BE98ACD24"]
+			dependencies: [
+				"1C899C0BE98ACD24"
+				"2C7CC42E3CF997C7"
+			]
+			description: [
+				"Automation method:"
+				""
+				"- Spout Water 5 times using a Spout."
+				"- Press with a Mechanical Press."
+				"- Cut with a Mechanical Saw."
+				"- Recycle one of the Mossies to repeat the process."
+			]
+			icon: "mobsandfamiliars:mossie"
 			id: "2ECECA4353060DDF"
-			tasks: [{
-				id: "239AB089F38699FB"
-				item: "mobsandfamiliars:mossie"
-				type: "item"
-			}]
-			x: -10.5d
+			tasks: [
+				{
+					id: "239AB089F38699FB"
+					item: "mobsandfamiliars:mossie"
+					type: "item"
+				}
+				{
+					id: "79BD36CA579F309C"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -13.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2ECECA4353060DDF"]
+			description: [
+				"Automation method:"
+				""
+				"- Compact a Mossie with an Empty Blaze Burner in a Basin using a Mechanical Press."
+			]
+			icon: "create:blaze_burner"
 			id: "77BAD9DA4E8DB70D"
-			tasks: [{
-				id: "36CD8049A30491C3"
-				item: "create:blaze_burner"
-				type: "item"
-			}]
-			x: -10.5d
-			y: 6.0d
+			tasks: [
+				{
+					id: "36CD8049A30491C3"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "43DBACB78DCC2550"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -13.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["77BAD9DA4E8DB70D"]
+			description: [
+				"Automation method:"
+				""
+				"- Mix a Blaze Burner by itself in a Basin using a Mixer."
+			]
+			icon: "planetsandportals:blaze_blood_bucket"
 			id: "100B7B5B4EF4858B"
+			tasks: [
+				{
+					id: "3CFF9095E757CA77"
+					item: "planetsandportals:blaze_blood_bucket"
+					type: "item"
+				}
+				{
+					id: "6A2E0D9F63592462"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -13.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["49036BE9818DF8DA"]
+			icon: "supplementaries:flax"
+			id: "0A98C0FF44E05583"
+			tasks: [
+				{
+					id: "4237C7438F5429A9"
+					item: "supplementaries:flax"
+					type: "item"
+				}
+				{
+					id: "5679268754C88E64"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			title: "Flax Farm"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F3CBCCDF3F75F6B"]
+			id: "4276AF5D9F5FE9A2"
 			tasks: [{
-				id: "3CFF9095E757CA77"
-				item: "planetsandportals:blaze_blood_bucket"
+				id: "0917A969C911FCEE"
+				item: "minecraft:dried_kelp"
 				type: "item"
 			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A98C0FF44E05583"]
+			id: "0FC024C32262EFD6"
+			tasks: [{
+				id: "2BF5F08F690D40B5"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"13AD3BBC493EB83C"
+				"2BC7202742BC1535"
+			]
+			icon: "create:limestone"
+			id: "74CDB5135B7877F2"
+			tasks: [
+				{
+					id: "264AD3525F2825F0"
+					item: "create:limestone"
+					type: "item"
+				}
+				{
+					id: "1F7F322B0D905E97"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["74CDB5135B7877F2"]
+			icon: "tfmg:limesand"
+			id: "2A3F68E75C204D8B"
+			tasks: [
+				{
+					id: "356E61FE59FC304C"
+					item: "tfmg:limesand"
+					type: "item"
+				}
+				{
+					id: "3A6FC37D3EB4A09E"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -15.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5A6BCB1F9919922A"]
+			description: [
+				"Automation method:"
+				""
+				"- Cut a Salt Bucket with a Mechanical Saw."
+			]
+			icon: "mekanism:salt"
+			id: "22DDC52C508B876A"
+			tasks: [
+				{
+					id: "03488D0C809575B1"
+					item: "mekanism:salt"
+					type: "item"
+				}
+				{
+					id: "7313FAF0A7AD4735"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"6B49CF17C336380D"
+				"2BC7202742BC1535"
+			]
+			description: [
+				"Automation method:"
+				""
+				"- Fill a Bucket using a Spout and bulk blast it with a Mechanical Fan."
+				"- Recycle the Bucket from this process as it is reusable."
+			]
+			icon: "planetsandportals:salt_bucket"
+			id: "5A6BCB1F9919922A"
+			tasks: [
+				{
+					id: "3E9D39808ABDAA1D"
+					item: "planetsandportals:salt_bucket"
+					type: "item"
+				}
+				{
+					id: "40650D8AD0EBF511"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["22DDC52C508B876A"]
+			description: [
+				"Automation method:"
+				""
+				"- Mix Salt and Cobblestone in a Basin using a Mixer."
+			]
+			icon: "minecraft:diorite"
+			id: "7CC1C3F54316725D"
+			tasks: [
+				{
+					id: "3C7920D07B3B3E1C"
+					item: "minecraft:diorite"
+					type: "item"
+				}
+				{
+					id: "1F0B0A1178AF8969"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7CC1C3F54316725D"]
+			description: [
+				"Automation method:"
+				""
+				"- Crush Diorite using Crushing Wheels."
+			]
+			icon: "minecraft:quartz"
+			id: "4670F58160FC79C4"
+			tasks: [
+				{
+					id: "07119F980FE7C73D"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					id: "4FAE905C04950623"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"4670F58160FC79C4"
+				"55108303D479D4C0"
+			]
+			icon: "create:polished_rose_quartz"
+			id: "4683E55697635F53"
+			tasks: [
+				{
+					id: "2BFF15C0C8926C9B"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+				{
+					id: "2E777F7A058140F2"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"13AD3BBC493EB83C"
+				"2BC7202742BC1535"
+			]
+			icon: "createoreexcavation:raw_redstone"
+			id: "364F6DADCC1053A5"
+			tasks: [
+				{
+					id: "4978CA8FC85349F9"
+					item: "createoreexcavation:raw_redstone"
+					type: "item"
+				}
+				{
+					id: "0E625CB7D303899B"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["364F6DADCC1053A5"]
+			icon: "minecraft:redstone"
+			id: "55108303D479D4C0"
+			tasks: [
+				{
+					id: "78BA2A2D6BED7779"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "7F156218B8AAA098"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"4683E55697635F53"
+				"0B92AC253B626083"
+				"7C875AB4570E6733"
+			]
+			icon: "create:electron_tube"
+			id: "435D23E49F2705A0"
+			tasks: [
+				{
+					id: "428152E9F0612658"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					id: "21EED179A4B78F70"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"13AD3BBC493EB83C"
+				"2BC7202742BC1535"
+			]
+			icon: "minecraft:raw_iron"
+			id: "0E192669622A4E9F"
+			tasks: [
+				{
+					id: "700BF0AE5C9C46C2"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					id: "0F498C16664A0EF0"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7624B50E0B0EA997"]
+			icon: "minecraft:iron_ingot"
+			id: "4E1417F1D91FB421"
+			tasks: [
+				{
+					id: "25DCED7897BB0BDC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "308DF1B0B4D4967C"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["4E1417F1D91FB421"]
+			icon: "create:iron_sheet"
+			id: "7C875AB4570E6733"
+			tasks: [
+				{
+					id: "1D352F98A7C257D0"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					id: "4030E0A55E2430C8"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0E192669622A4E9F"]
+			icon: "create:crushed_raw_iron"
+			id: "7624B50E0B0EA997"
+			tasks: [
+				{
+					id: "35188645A672881C"
+					item: "create:crushed_raw_iron"
+					type: "item"
+				}
+				{
+					id: "6F94F43C9B207D0D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"63E6BFEE7385F384"
+				"4E1417F1D91FB421"
+			]
+			icon: "tfmg:cast_iron_ingot"
+			id: "5A5577D60348C473"
+			tasks: [
+				{
+					id: "1DFA00BE64A4BC89"
+					item: "tfmg:cast_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "6EE4B0E59D009B77"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["40C9B3D223770035"]
+			description: [
+				"Automation method:"
+				""
+				"- Bulk blast Logs with an Encased Fan behind Lava."
+			]
+			icon: "minecraft:charcoal"
+			id: "28178430FE76DDFE"
+			tasks: [
+				{
+					id: "3EE8C8F1643524A8"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					id: "3A6FAB9BF4FBC946"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
 			x: -10.5d
 			y: 7.5d
+		}
+		{
+			dependencies: [
+				"6B49CF17C336380D"
+				"2BC7202742BC1535"
+			]
+			description: [
+				"Automation method:"
+				""
+				"- Plant Saplings on Dirt and harvest Trees with Mechanical Saws on a contraption."
+				"- Saplings can be re-planted with Deployers on the same contraption."
+			]
+			icon: "minecraft:oak_log"
+			id: "40C9B3D223770035"
+			tasks: [
+				{
+					id: "488D8DF15A3FE00D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:logs_that_burn"
+						}
+					}
+					title: "Any #minecraft:logs_that_burn"
+					type: "item"
+				}
+				{
+					id: "733CBEF85120BCC3"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["28178430FE76DDFE"]
+			description: [
+				"Automation method:"
+				""
+				"- Bulk haunt Charcoal using an Encased Fan with Soul Fire in front of it."
+			]
+			icon: "minecraft:coal"
+			id: "33010AA7432C6FEA"
+			tasks: [
+				{
+					id: "539D9ED4550614C6"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "43D30DB325BD9891"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5C05D0D8C4833775"]
+			icon: "tfmg:coal_coke_dust"
+			id: "188F7BF0DB573E9B"
+			tasks: [
+				{
+					id: "6300F5099439F354"
+					item: "tfmg:coal_coke_dust"
+					type: "item"
+				}
+				{
+					id: "4BEB6494CED3751D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -13.5d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"33010AA7432C6FEA"
+				"13AD3BBC493EB83C"
+			]
+			icon: "mekanism:dust_coal"
+			id: "63E6BFEE7385F384"
+			tasks: [
+				{
+					id: "23F8850FEAD70458"
+					item: "mekanism:dust_coal"
+					type: "item"
+				}
+				{
+					id: "68DDF1461B1736FD"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -9.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"33010AA7432C6FEA"
+				"13AD3BBC493EB83C"
+			]
+			icon: "tfmg:coal_coke"
+			id: "5C05D0D8C4833775"
+			tasks: [
+				{
+					id: "1AEA7F9F3367A604"
+					item: "tfmg:coal_coke"
+					type: "item"
+				}
+				{
+					id: "7FC9E8E856365000"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -13.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"2A3F68E75C204D8B"
+				"188F7BF0DB573E9B"
+				"7624B50E0B0EA997"
+			]
+			icon: "tfmg:steel_ingot"
+			id: "2A4A0BD9FF645FAE"
+			tasks: [
+				{
+					id: "70B0763482EFB44A"
+					item: "tfmg:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "2405660A063B6958"
+					item: "tfmg:slag"
+					type: "item"
+				}
+				{
+					id: "6388326DE43F3163"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -13.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"13AD3BBC493EB83C"
+				"2BC7202742BC1535"
+			]
+			icon: "create:raw_zinc"
+			id: "503D195D92365B60"
+			tasks: [
+				{
+					id: "19BDA819247982DD"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+				{
+					id: "441E9127383EB552"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"13AD3BBC493EB83C"
+				"2BC7202742BC1535"
+			]
+			icon: "minecraft:raw_copper"
+			id: "7E3AE7FCF39BA059"
+			tasks: [
+				{
+					id: "3F778B784AF31FC0"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "55DCA3F6C2C5F7F1"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7E3AE7FCF39BA059"
+				"503D195D92365B60"
+			]
+			icon: "planetsandportals:brass_mixture"
+			id: "2FEC18719A3A7969"
+			tasks: [
+				{
+					id: "48C05B91B3185956"
+					item: "planetsandportals:brass_mixture"
+					type: "item"
+				}
+				{
+					id: "0CB1D55DAB4DB6DF"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2FEC18719A3A7969"]
+			icon: "create:brass_ingot"
+			id: "52D9DB235D3FAC00"
+			tasks: [
+				{
+					id: "4F929010E561AC52"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "0BC2E031C593F876"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["52D9DB235D3FAC00"]
+			icon: "create:crafter_slot_cover"
+			id: "7E7358E18ED73687"
+			tasks: [
+				{
+					id: "3A8F1804D5B5AB0C"
+					item: "create:crafter_slot_cover"
+					type: "item"
+				}
+				{
+					id: "18674B47EFEA914C"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"7E7358E18ED73687"
+				"09B008993814B72C"
+				"435D23E49F2705A0"
+			]
+			icon: "create:precision_mechanism"
+			id: "12321B2B6D9136D6"
+			tasks: [
+				{
+					id: "64BC0448317EE732"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					id: "2F6C6F573772F2DD"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -3.0d
+			y: 21.0d
+		}
+		{
+			dependencies: [
+				"53429B9AD7133DB8"
+				"13AD3BBC493EB83C"
+			]
+			icon: "create:shaft"
+			id: "09B008993814B72C"
+			tasks: [
+				{
+					id: "460B46E0EB6D26B0"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "2F41013B7882DD25"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -7.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2A4A0BD9FF645FAE"]
+			icon: "tfmg:steel_block"
+			id: "0BC3A7283EF0FC16"
+			tasks: [
+				{
+					id: "08EDDDAD8FFC4692"
+					item: "tfmg:steel_block"
+					type: "item"
+				}
+				{
+					id: "423E2B0DDC094C60"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -13.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["0BC3A7283EF0FC16"]
+			icon: "tfmg:heavy_plate"
+			id: "23DD5C158EB4C06C"
+			tasks: [
+				{
+					id: "7FA85059FB47F3EE"
+					item: "tfmg:heavy_plate"
+					type: "item"
+				}
+				{
+					id: "6A6B92F1893350A2"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -13.5d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"33010AA7432C6FEA"
+				"13AD3BBC493EB83C"
+			]
+			icon: "tfmg:creosote_bucket"
+			id: "4190AAAD7CB4D361"
+			tasks: [
+				{
+					id: "5B9184DF10A9E011"
+					item: "tfmg:creosote_bucket"
+					type: "item"
+				}
+				{
+					id: "2D3AF696F9BAB896"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4190AAAD7CB4D361"]
+			icon: "tfmg:hardened_planks"
+			id: "5BA55FBC76E20D12"
+			tasks: [
+				{
+					id: "3099D7CFBB7B4FF6"
+					item: "tfmg:hardened_planks"
+					type: "item"
+				}
+				{
+					id: "51FDA4F269AF78A7"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"5BA55FBC76E20D12"
+				"2A4A0BD9FF645FAE"
+			]
+			icon: "tfmg:steel_casing"
+			id: "67DDD6EF4A5710C7"
+			tasks: [
+				{
+					id: "302259ED87B44547"
+					item: "tfmg:steel_casing"
+					type: "item"
+				}
+				{
+					id: "2C4D7C72B53705AF"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"33010AA7432C6FEA"
+				"13AD3BBC493EB83C"
+			]
+			icon: "tfmg:carbon_dioxide_bucket"
+			id: "323D59318C9E664D"
+			tasks: [
+				{
+					id: "338D138917AD210B"
+					item: "tfmg:carbon_dioxide_bucket"
+					type: "item"
+				}
+				{
+					id: "65871CD4E32C4BF9"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5A5577D60348C473"
+				"323D59318C9E664D"
+			]
+			icon: "create:sturdy_sheet"
+			id: "107A5684743CAAD7"
+			tasks: [
+				{
+					id: "32F77764A559EF80"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "3807B23B212BF6EE"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -10.5d
+			y: 19.5d
+		}
+		{
+			dependencies: [
+				"23DD5C158EB4C06C"
+				"12321B2B6D9136D6"
+			]
+			icon: "tfmg:steel_mechanism"
+			id: "32EA082674DCE576"
+			tasks: [
+				{
+					id: "556BF9E0253547AC"
+					item: "tfmg:steel_mechanism"
+					type: "item"
+				}
+				{
+					id: "6D406CDAFB432C95"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -4.5d
+			y: 22.5d
+		}
+		{
+			dependencies: [
+				"13AD3BBC493EB83C"
+				"2BC7202742BC1535"
+			]
+			icon: "minecraft:bamboo"
+			id: "6FE6DC5C2F6E818A"
+			tasks: [
+				{
+					id: "41622995F5BFC037"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "create:pulpifiable"
+						}
+					}
+					title: "Any #create:pulpifiable"
+					type: "item"
+				}
+				{
+					id: "2B27D738352DC4CF"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"6FE6DC5C2F6E818A"
+				"435D23E49F2705A0"
+			]
+			icon: "planetsandportals:cardboard_mechanism"
+			id: "694B5A747C03FC76"
+			tasks: [
+				{
+					id: "46FDE2863A47CFAB"
+					item: "planetsandportals:cardboard_mechanism"
+					type: "item"
+				}
+				{
+					id: "528E5FAA8A6B4653"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["107A5684743CAAD7"]
+			icon: "create:railway_casing"
+			id: "4F173CF8C4FDC56E"
+			tasks: [
+				{
+					id: "340A2C7503FB931E"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "7C0A418A80DDA1BA"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -10.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["1C28B4D46339503B"]
+			description: [
+				"This is a guide intended to help you with what needs automating and when. Not everything has to be fully automated, but it is heavily recommended."
+				""
+				"The automations are split into sections, representing the chapter you're able to start them in."
+				""
+				"Each quest has a checkmark so you can note when you've actually automated each item/fluid/block etc."
+				""
+				"This is probably not exhaustive. If something's missing, report it as a bug!"
+				""
+				"&cExperimental:&r"
+				""
+				"In the first 2 chapters, the quest also details how to automate each item. &aLet me know if this is something you would like to see continued/removed!&r"
+			]
+			hide_until_deps_complete: true
+			icon: "create:schematic_and_quill"
+			id: "6190F07DCFBBB765"
+			shape: "hexagon"
+			size: 4.0d
+			subtitle: "A guide to the Useful Automations chapter"
+			tasks: [{
+				id: "2C7CC42E3CF997C7"
+				title: "Understood!"
+				type: "checkmark"
+			}]
+			title: "What am I looking at?"
+			x: -13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E3AE7FCF39BA059"]
+			icon: "minecraft:copper_ingot"
+			id: "1A40C428AF6DFAED"
+			tasks: [
+				{
+					id: "0F8C05A59BA1D386"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					id: "50F851AC8DCA489D"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["503D195D92365B60"]
+			icon: "create:zinc_ingot"
+			id: "436469A8FB6B4F14"
+			tasks: [
+				{
+					id: "155C65BE4090E100"
+					item: "create:zinc_ingot"
+					type: "item"
+				}
+				{
+					id: "43C608ED168F4E20"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"23DD5C158EB4C06C"
+				"67DDD6EF4A5710C7"
+			]
+			icon: "tfmg:heavy_machinery_casing"
+			id: "6A15E364AFF0D426"
+			tasks: [
+				{
+					id: "40B34B7E0457C85B"
+					item: "tfmg:heavy_machinery_casing"
+					type: "item"
+				}
+				{
+					id: "540ABF77BC86968E"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -12.0d
+			y: 24.0d
+		}
+		{
+			dependencies: ["2A4A0BD9FF645FAE"]
+			icon: "create_new_age:electrical_connector"
+			id: "53E56473A08F6A73"
+			tasks: [
+				{
+					id: "7CE8B9096774F66D"
+					item: "create_new_age:electrical_connector"
+					type: "item"
+				}
+				{
+					id: "5BFAAA4072D16A59"
+					title: "Automated"
+					type: "checkmark"
+				}
+			]
+			x: -15.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"5391869C3BF99BCB"
+				"2C7CC42E3CF997C7"
+			]
+			icon: "tfmg:cast_iron_ingot"
+			id: "29A31A7FEC824A4C"
+			shape: "octagon"
+			size: 3.0d
+			subtitle: "Check this to unlock the Industrial Age automations"
+			tasks: [{
+				id: "13AD3BBC493EB83C"
+				title: "Industrial Age"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 18.0d
 		}
 	]
 	title: "Useful Automations"

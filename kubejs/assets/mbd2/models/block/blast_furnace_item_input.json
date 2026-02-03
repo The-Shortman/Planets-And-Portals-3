@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mbd2:block/blast_furnace_item_input"
+  }
+}

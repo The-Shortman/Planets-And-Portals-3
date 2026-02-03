@@ -9,13 +9,17 @@ layout-meta {
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:88f4c492-29ba-4bd6-892b-bf9dcf39090a-1737825168674] = [groups:][instances:]
+  [loading_requirement_container_meta:b70b3baf-fa8d-4a6f-b8ce-0db882a8cc6d-1766089316729] = [groups:][instances:]
 }
 
 menu_background {
   image_path = [source:local]/config/fancymenu/assets/loadingscreen.png
   slide = false
   repeat_texture = false
+  parallax = false
+  parallax_intensity = 0.02
+  invert_parallax = false
+  instance_identifier = 505c4395-edbe-4b5c-812a-bc9a3078432f-1766089316729
   background_type = image
 }
 
@@ -31,6 +35,11 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
 }
 
 element {

@@ -1,7 +1,4 @@
-/README.md
 LICENSE*.md
-PLAYTESTING.md
-CONTRIBUTING.md
 CHANGELOG.md
 .editorconfig
 .prettierignore
@@ -10,11 +7,20 @@ CHANGELOG.md
 .github
 .git/**
 .vscode
+
+# Exclude docs folder
+docs
+
+# Exclude executables from building
 packwiz
 packwiz.exe
 
-# This file directory bricks packwiz for some reason
+# This file directory bricks packwiz
 config/mm/pack/.cache
+
+# Ignore cached mod jars
+temp-jar
 
 # Serverpack gets lifted to root on build
 serverpack
+*.packwizignore

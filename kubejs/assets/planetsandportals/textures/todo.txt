@@ -1,0 +1,12 @@
+Undone item textures:
+NONE! :D
+
+Current "dev" item textures (roughly done, can do with better):
+planetsandportals:infernal_portaberries
+planetsandportals:lavaberries
+planetsandportals:soaked_lavaberries
+planetsandportals:cardboard_mechanism
+planetsandportals:fan_curving_head
+planetsandportals:ballistic_polymer
+planetsandportals:complex_iron_parts
+planetsandportals:incomplete_generator_coil
