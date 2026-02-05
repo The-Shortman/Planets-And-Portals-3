@@ -23,10 +23,7 @@
     const vintageRecipe = event.recipes.vintageimprovements;
 
     vintageRecipe
-      .vacuumizing(
-        "tfmg:steel_mechanism",
-        "planetsandportals:unevacuated_steel_mechanism"
-      )
+      .vacuumizing("ppfmg:steel_mechanism", "ppfmg:unevacuated_steel_mechanism")
       .heated()
       .processingTime(200)
       .id("kubejs:vintageimprovements/vacuumizing/steel_mechanism");

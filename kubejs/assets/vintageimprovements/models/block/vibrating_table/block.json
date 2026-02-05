@@ -3,9 +3,9 @@
   "ambientocclusion": false,
   "textures": {
     "6": "vintageimprovements:block/vibrating_table",
-    "8": "tfmg:block/steel_casing",
-    "9": "tfmg:block/steel_gearbox",
-    "particle": "tfmg:block/hardened_planks"
+    "8": "ppfmg:block/steel_casing",
+    "9": "ppfmg:block/steel_gearbox",
+    "particle": "ppfmg:block/hardened_planks"
   },
   "elements": [
     {

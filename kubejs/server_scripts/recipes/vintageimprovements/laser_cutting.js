@@ -2,7 +2,7 @@
   ServerEvents.recipes((event) => {
     const laserCuttingRecipes = [
       {
-        input: "tfmg:heavy_plate",
+        input: "ppfmg:heavy_plate",
         output: "ad_astra:rocket_fin",
         energy: 4000,
         chargeRate: 50,

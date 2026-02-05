@@ -2,7 +2,7 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "front": "mbd2:block/pulp_churner_controller",
-    "side": "tfmg:block/steel_casing",
-    "top": "tfmg:block/steel_casing"
+    "side": "ppfmg:block/steel_casing",
+    "top": "ppfmg:block/steel_casing"
   }
 }

@@ -14,8 +14,8 @@
         id: "raw_redstone_from_block",
       },
       {
-        inputs: "tfmg:fireclay",
-        output: Item.of("tfmg:fireclay_ball", 4),
+        inputs: "ppfmg:fireclay",
+        output: Item.of("ppfmg:fireclay_ball", 4),
         id: "fireclay_ball",
       },
 
@@ -47,7 +47,7 @@
         inputs: [
           "minecraft:writable_book",
           "minecraft:map",
-          "tfmg:cast_iron_sheet",
+          "ppfmg:cast_iron_sheet",
         ],
         output: "createoreexcavation:vein_atlas",
         id: "ore_vein_atlas",
@@ -56,12 +56,12 @@
       // Blast Furnace
 
       {
-        inputs: ["tfmg:fireproof_bricks", "create:andesite_funnel"],
+        inputs: ["ppfmg:fireproof_bricks", "create:andesite_funnel"],
         output: "mbd2:blast_furnace_item_input",
         id: "blast_furnace_item_input",
       },
       {
-        inputs: ["tfmg:fireproof_bricks", "create:fluid_valve"],
+        inputs: ["ppfmg:fireproof_bricks", "create:fluid_valve"],
         output: "mbd2:blast_furnace_fluid_output",
         id: "blast_furnace_fluid_output",
       },

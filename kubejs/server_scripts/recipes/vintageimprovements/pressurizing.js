@@ -24,9 +24,9 @@
 
     vintageRecipe
       .pressurizing("create:sturdy_sheet", [
-        Fluid.of("tfmg:carbon_dioxide", 100),
+        Fluid.of("ppfmg:carbon_dioxide", 100),
         "create:powdered_obsidian",
-        "tfmg:cast_iron_sheet",
+        "ppfmg:cast_iron_sheet",
       ])
       .secondaryFluidInput(0)
       .heated()

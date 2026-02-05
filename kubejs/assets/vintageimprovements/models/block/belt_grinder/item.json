@@ -5,10 +5,10 @@
     "0": "create:block/axis",
     "1": "create:block/axis_top",
     "2": "vintageimprovements:block/grinder_belt_static",
-    "4": "tfmg:block/steel_casing",
+    "4": "ppfmg:block/steel_casing",
     "5": "vintageimprovements:block/filter_slot",
-    "particle": "tfmg:block/steel_casing",
-    "gearbox": "tfmg:block/steel_gearbox"
+    "particle": "ppfmg:block/steel_casing",
+    "gearbox": "ppfmg:block/steel_gearbox"
   },
   "elements": [
     {

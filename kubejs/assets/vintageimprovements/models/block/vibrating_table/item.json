@@ -3,15 +3,15 @@
   "parent": "block/block",
   "textures": {
     "0": "vintageimprovements:block/coiling_machine_parts",
-    "1": "tfmg:block/hardened_planks",
-    "2": "tfmg:block/steel_casing",
+    "1": "ppfmg:block/hardened_planks",
+    "2": "ppfmg:block/steel_casing",
     "3": "create:block/axis",
     "4": "create:block/axis_top",
     "6": "vintageimprovements:block/vibrating_table",
-    "7": "tfmg:block/steel_casing",
-    "8": "tfmg:block/steel_casing",
-    "9": "tfmg:block/steel_gearbox",
-    "particle": "tfmg:block/hardened_planks"
+    "7": "ppfmg:block/steel_casing",
+    "8": "ppfmg:block/steel_casing",
+    "9": "ppfmg:block/steel_gearbox",
+    "particle": "ppfmg:block/hardened_planks"
   },
   "elements": [
     {

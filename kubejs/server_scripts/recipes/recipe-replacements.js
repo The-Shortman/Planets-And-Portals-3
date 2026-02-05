@@ -19,12 +19,12 @@
       {
         filter: { mod: "create_new_age" },
         remove: "create:andesite_casing",
-        replace: "tfmg:steel_casing",
+        replace: "ppfmg:steel_casing",
       },
       {
         filter: { mod: "create_new_age" },
         remove: ["create:brass_casing", "create:andesite_alloy_block"],
-        replace: "tfmg:heavy_machinery_casing",
+        replace: "ppfmg:heavy_machinery_casing",
       },
       {
         filter: { mod: "mekanism" },
@@ -59,12 +59,12 @@
       {
         filter: { input: "#forge:plates/steel" },
         remove: "#forge:plates/steel",
-        replace: "tfmg:heavy_plate",
+        replace: "ppfmg:heavy_plate",
       },
       {
         filter: { input: "#forge:plates/cast_iron" },
         remove: "#forge:plates/cast_iron",
-        replace: "tfmg:cast_iron_sheet",
+        replace: "ppfmg:cast_iron_sheet",
       },
     ];
 

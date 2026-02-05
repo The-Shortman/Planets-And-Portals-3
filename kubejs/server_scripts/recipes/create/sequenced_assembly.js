@@ -42,7 +42,7 @@
       outputs: ["create:electron_tube"],
       id: "electron_tube",
     })
-      .addDeployingStep("tfmg:rubber_sheet")
+      .addDeployingStep("ppfmg:rubber_sheet")
       .addDeployingStep("create:polished_rose_quartz")
       .build();
 
@@ -78,14 +78,14 @@
       .build();
 
     createSequencedAssembly(event, {
-      input: "planetsandportals:concave_heavy_plate",
-      transitional: "tfmg:unfinished_steel_mechanism",
-      outputs: ["planetsandportals:unevacuated_steel_mechanism"],
+      input: "ppfmg:concave_heavy_plate",
+      transitional: "ppfmg:unfinished_steel_mechanism",
+      outputs: ["ppfmg:unevacuated_steel_mechanism"],
       id: "unevacuated_steel_mechanism",
     })
       .addDeployingStep("create:precision_mechanism")
       .addDeployingStep("vintageimprovements:steel_spring")
-      .addDeployingStep("tfmg:rubber_sheet")
+      .addDeployingStep("ppfmg:rubber_sheet")
       .addPressingStep()
       .build();
 
@@ -102,7 +102,7 @@
       .build();
 
     createSequencedAssembly(event, {
-      input: "tfmg:heavy_machinery_casing",
+      input: "ppfmg:heavy_machinery_casing",
       transitional: "planetsandportals:incomplete_generator_coil",
       outputs: ["create_new_age:generator_coil"],
       id: "generator_coil",
@@ -111,7 +111,7 @@
       .addDeployingStep("create_new_age:copper_wire_block")
       .addDeployingStep("create_new_age:copper_wire_block")
       .addDeployingStep("create_new_age:copper_wire_block")
-      .addFillingStep({ fluid: "tfmg:lubrication_oil", amount: BUCKET })
+      .addFillingStep({ fluid: "ppfmg:lubrication_oil", amount: BUCKET })
       .build();
 
     createSequencedAssembly(event, {
@@ -125,7 +125,7 @@
       .build();
 
     createSequencedAssembly(event, {
-      input: "tfmg:heavy_plate",
+      input: "ppfmg:heavy_plate",
       transitional: "planetsandportals:incomplete_nose_cone",
       outputs: ["ad_astra:rocket_nose_cone"],
       id: "nose_cone",

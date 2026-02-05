@@ -2,7 +2,7 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "front": "mbd2:block/blast_furnace_controller",
-    "side": "tfmg:block/fireproof_bricks",
-    "top": "tfmg:block/fireproof_bricks"
+    "side": "ppfmg:block/fireproof_bricks",
+    "top": "ppfmg:block/fireproof_bricks"
   }
 }

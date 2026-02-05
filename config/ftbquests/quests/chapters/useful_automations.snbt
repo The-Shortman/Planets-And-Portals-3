@@ -420,12 +420,12 @@
 				""
 				"- Bulk blast Sticky Wart using an Encased Fan with Lava in front of it."
 			]
-			icon: "tfmg:rubber_sheet"
+			icon: "ppfmg:rubber_sheet"
 			id: "0B92AC253B626083"
 			tasks: [
 				{
 					id: "5C72D02B1E4E63EA"
-					item: "tfmg:rubber_sheet"
+					item: "ppfmg:rubber_sheet"
 					type: "item"
 				}
 				{
@@ -581,12 +581,12 @@
 		}
 		{
 			dependencies: ["74CDB5135B7877F2"]
-			icon: "tfmg:limesand"
+			icon: "ppfmg:limesand"
 			id: "2A3F68E75C204D8B"
 			tasks: [
 				{
 					id: "356E61FE59FC304C"
-					item: "tfmg:limesand"
+					item: "ppfmg:limesand"
 					type: "item"
 				}
 				{
@@ -868,12 +868,12 @@
 				"63E6BFEE7385F384"
 				"4E1417F1D91FB421"
 			]
-			icon: "tfmg:cast_iron_ingot"
+			icon: "ppfmg:cast_iron_ingot"
 			id: "5A5577D60348C473"
 			tasks: [
 				{
 					id: "1DFA00BE64A4BC89"
-					item: "tfmg:cast_iron_ingot"
+					item: "ppfmg:cast_iron_ingot"
 					type: "item"
 				}
 				{
@@ -970,12 +970,12 @@
 		}
 		{
 			dependencies: ["5C05D0D8C4833775"]
-			icon: "tfmg:coal_coke_dust"
+			icon: "ppfmg:coal_coke_dust"
 			id: "188F7BF0DB573E9B"
 			tasks: [
 				{
 					id: "6300F5099439F354"
-					item: "tfmg:coal_coke_dust"
+					item: "ppfmg:coal_coke_dust"
 					type: "item"
 				}
 				{
@@ -1014,12 +1014,12 @@
 				"33010AA7432C6FEA"
 				"13AD3BBC493EB83C"
 			]
-			icon: "tfmg:coal_coke"
+			icon: "ppfmg:coal_coke"
 			id: "5C05D0D8C4833775"
 			tasks: [
 				{
 					id: "1AEA7F9F3367A604"
-					item: "tfmg:coal_coke"
+					item: "ppfmg:coal_coke"
 					type: "item"
 				}
 				{
@@ -1047,7 +1047,7 @@
 				}
 				{
 					id: "2405660A063B6958"
-					item: "tfmg:slag"
+					item: "ppfmg:slag"
 					type: "item"
 				}
 				{
@@ -1229,12 +1229,12 @@
 		}
 		{
 			dependencies: ["0BC3A7283EF0FC16"]
-			icon: "tfmg:heavy_plate"
+			icon: "ppfmg:heavy_plate"
 			id: "23DD5C158EB4C06C"
 			tasks: [
 				{
 					id: "7FA85059FB47F3EE"
-					item: "tfmg:heavy_plate"
+					item: "ppfmg:heavy_plate"
 					type: "item"
 				}
 				{
@@ -1251,12 +1251,12 @@
 				"33010AA7432C6FEA"
 				"13AD3BBC493EB83C"
 			]
-			icon: "tfmg:creosote_bucket"
+			icon: "ppfmg:creosote_bucket"
 			id: "4190AAAD7CB4D361"
 			tasks: [
 				{
 					id: "5B9184DF10A9E011"
-					item: "tfmg:creosote_bucket"
+					item: "ppfmg:creosote_bucket"
 					type: "item"
 				}
 				{
@@ -1270,12 +1270,12 @@
 		}
 		{
 			dependencies: ["4190AAAD7CB4D361"]
-			icon: "tfmg:hardened_planks"
+			icon: "ppfmg:hardened_planks"
 			id: "5BA55FBC76E20D12"
 			tasks: [
 				{
 					id: "3099D7CFBB7B4FF6"
-					item: "tfmg:hardened_planks"
+					item: "ppfmg:hardened_planks"
 					type: "item"
 				}
 				{
@@ -1292,12 +1292,12 @@
 				"5BA55FBC76E20D12"
 				"2A4A0BD9FF645FAE"
 			]
-			icon: "tfmg:steel_casing"
+			icon: "ppfmg:steel_casing"
 			id: "67DDD6EF4A5710C7"
 			tasks: [
 				{
 					id: "302259ED87B44547"
-					item: "tfmg:steel_casing"
+					item: "ppfmg:steel_casing"
 					type: "item"
 				}
 				{
@@ -1314,12 +1314,12 @@
 				"33010AA7432C6FEA"
 				"13AD3BBC493EB83C"
 			]
-			icon: "tfmg:carbon_dioxide_bucket"
+			icon: "ppfmg:carbon_dioxide_bucket"
 			id: "323D59318C9E664D"
 			tasks: [
 				{
 					id: "338D138917AD210B"
-					item: "tfmg:carbon_dioxide_bucket"
+					item: "ppfmg:carbon_dioxide_bucket"
 					type: "item"
 				}
 				{
@@ -1358,12 +1358,12 @@
 				"23DD5C158EB4C06C"
 				"12321B2B6D9136D6"
 			]
-			icon: "tfmg:steel_mechanism"
+			icon: "ppfmg:steel_mechanism"
 			id: "32EA082674DCE576"
 			tasks: [
 				{
 					id: "556BF9E0253547AC"
-					item: "tfmg:steel_mechanism"
+					item: "ppfmg:steel_mechanism"
 					type: "item"
 				}
 				{
@@ -1518,12 +1518,12 @@
 				"23DD5C158EB4C06C"
 				"67DDD6EF4A5710C7"
 			]
-			icon: "tfmg:heavy_machinery_casing"
+			icon: "ppfmg:heavy_machinery_casing"
 			id: "6A15E364AFF0D426"
 			tasks: [
 				{
 					id: "40B34B7E0457C85B"
-					item: "tfmg:heavy_machinery_casing"
+					item: "ppfmg:heavy_machinery_casing"
 					type: "item"
 				}
 				{
@@ -1559,7 +1559,7 @@
 				"5391869C3BF99BCB"
 				"2C7CC42E3CF997C7"
 			]
-			icon: "tfmg:cast_iron_ingot"
+			icon: "ppfmg:cast_iron_ingot"
 			id: "29A31A7FEC824A4C"
 			shape: "octagon"
 			size: 3.0d

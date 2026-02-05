@@ -4,10 +4,10 @@
   "textures": {
     "0": "create:block/axis",
     "1": "create:block/axis_top",
-    "2": "tfmg:block/steel_gearbox",
+    "2": "ppfmg:block/steel_gearbox",
     "3": "create:block/funnel/andesite_funnel_frame",
     "5": "vintageimprovements:block/helve_hammer",
-    "7": "tfmg:block/steel_casing",
+    "7": "ppfmg:block/steel_casing",
     "11": "block/anvil_top",
     "12": "block/anvil",
     "particle": "create:block/axis"

@@ -47,8 +47,8 @@
         id: "dirty_zinc_dust_from_crushed",
       },
       {
-        input: "tfmg:slag_block",
-        output: [Item.of("tfmg:slag", 9)],
+        input: "ppfmg:slag_block",
+        output: [Item.of("ppfmg:slag", 9)],
         id: "slag_from_slag_block",
       },
     ];

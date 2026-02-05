@@ -2,7 +2,7 @@
   "credit": "Made with Blockbench",
   "parent": "block/block",
   "textures": {
-    "3": "tfmg:block/steel_gearbox",
+    "3": "ppfmg:block/steel_gearbox",
     "4": "create:block/axis",
     "5": "create:block/axis_top",
     "6": "vintageimprovements:block/helve_hammer",

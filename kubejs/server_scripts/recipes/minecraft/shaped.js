@@ -94,7 +94,7 @@
       {
         pattern: ["AA", "AA"],
         key: {
-          A: "tfmg:synthetic_string",
+          A: "ppfmg:synthetic_string",
         },
         output: "minecraft:white_wool",
         id: "wool_from_synthetic_string",
@@ -146,9 +146,9 @@
         key: {
           A: "create:sturdy_sheet",
           B: "create:precision_mechanism",
-          C: "tfmg:steel_mechanism",
+          C: "ppfmg:steel_mechanism",
           D: "ad_astra:engine_frame",
-          E: "tfmg:heavy_plate",
+          E: "ppfmg:heavy_plate",
           F: "ad_astra:fan",
         },
         output: "ad_astra:steel_engine",
@@ -189,20 +189,12 @@
         key: {
           A: "ad_astra:etrionic_core",
           B: "ad_astra:etrium_nugget",
-          C: "tfmg:heavy_machinery_casing",
+          C: "ppfmg:heavy_machinery_casing",
           D: "ad_astra:steel_block",
           E: "ad_astra:desh_plate",
         },
         output: "ad_astra:gravity_normalizer",
         id: "gravity_normalizer",
-      },
-      {
-        pattern: ["AA"],
-        key: {
-          A: "ad_astra:steel_ingot",
-        },
-        output: Item.of("tfmg:steel_pipe", 6),
-        id: "steel_pipe",
       },
       {
         pattern: [" B ", "ABA", "ABA"],
@@ -217,7 +209,7 @@
         pattern: ["AB", "CC", "CC"],
         key: {
           A: "planetsandportals:complex_iron_parts",
-          B: "tfmg:rubber_sheet",
+          B: "ppfmg:rubber_sheet",
           C: "create:iron_sheet",
         },
         output: "ad_astra:gas_tank",
@@ -227,7 +219,7 @@
         pattern: ["AAA", "ACA", " B "],
         key: {
           A: "planetsandportals:ballistic_polymer",
-          B: "tfmg:rubber_sheet",
+          B: "ppfmg:rubber_sheet",
           C: "minecraft:glass_pane",
         },
         output: "ad_astra:space_helmet",
@@ -239,7 +231,7 @@
           A: "planetsandportals:ballistic_polymer",
           B: "ad_astra:gas_tank",
           C: "ad_astra:oxygen_gear",
-          D: "tfmg:rubber_sheet",
+          D: "ppfmg:rubber_sheet",
         },
         output: "ad_astra:space_suit",
         id: "space_suit",
@@ -249,7 +241,7 @@
         key: {
           A: "planetsandportals:ballistic_polymer",
           B: "ad_astra:steel_ingot",
-          C: "tfmg:rubber_sheet",
+          C: "ppfmg:rubber_sheet",
         },
         output: "ad_astra:space_pants",
         id: "space_pants",
@@ -257,7 +249,7 @@
       {
         pattern: ["A A", "B B", "C C"],
         key: {
-          A: "tfmg:rubber_sheet",
+          A: "ppfmg:rubber_sheet",
           B: "planetsandportals:ballistic_polymer",
           C: "ad_astra:steel_ingot",
         },
@@ -349,7 +341,7 @@
         pattern: ["A", "B", "C"],
         key: {
           A: "create:polished_rose_quartz",
-          B: "tfmg:rubber_sheet",
+          B: "ppfmg:rubber_sheet",
           C: "create:iron_sheet",
         },
         output: "create:electron_tube",
@@ -379,7 +371,7 @@
       {
         pattern: ["A", "B", "C"],
         key: {
-          A: "tfmg:rubber_sheet",
+          A: "ppfmg:rubber_sheet",
           B: "#forge:stone",
           C: "create:shaft",
         },
@@ -535,8 +527,8 @@
       {
         pattern: ["AAA", "ABA", "ACA"],
         key: {
-          A: "tfmg:cast_iron_ingot",
-          B: "tfmg:fireproof_bricks",
+          A: "ppfmg:cast_iron_ingot",
+          B: "ppfmg:fireproof_bricks",
           C: "tfmg:cast_iron_pipe",
         },
         output: "mbd2:blast_furnace_controller",
@@ -546,7 +538,7 @@
         pattern: ["AAA", "BCB", "AAA"],
         key: {
           A: "create:sturdy_sheet",
-          B: "tfmg:steel_casing",
+          B: "ppfmg:steel_casing",
           C: "create:display_board",
         },
         output: "mbd2:pulp_churner_controller",
@@ -557,7 +549,7 @@
         key: {
           A: "create:smart_fluid_pipe",
           B: "create:sturdy_sheet",
-          C: "tfmg:steel_casing",
+          C: "ppfmg:steel_casing",
         },
         output: "mbd2:pulp_churner_fluid_input",
         id: "pulp_churner_fluid_input",
@@ -567,7 +559,7 @@
         key: {
           A: "create:chute",
           B: "create:sturdy_sheet",
-          C: "tfmg:steel_casing",
+          C: "ppfmg:steel_casing",
         },
         output: "mbd2:pulp_churner_item_input",
         id: "pulp_churner_item_input",
@@ -577,7 +569,7 @@
         key: {
           A: "create:chute",
           B: "create:sturdy_sheet",
-          C: "tfmg:steel_casing",
+          C: "ppfmg:steel_casing",
         },
         output: "mbd2:pulp_churner_item_output",
         id: "pulp_churner_item_output",
@@ -586,7 +578,7 @@
         pattern: ["AAA", "ABA", "AAA"],
         key: {
           A: "#minecraft:planks",
-          B: "tfmg:heavy_machinery_casing",
+          B: "ppfmg:heavy_machinery_casing",
         },
         output: "mbd2:pulp_churner_stirrer",
         id: "pulp_churner_stirrer",
@@ -601,21 +593,11 @@
           B: "tfmg:industrial_pipe",
           C: "create:electron_tube",
           D: "create:display_board",
-          E: "tfmg:steel_mechanism",
-          F: "tfmg:heavy_machinery_casing",
+          E: "ppfmg:steel_mechanism",
+          F: "ppfmg:heavy_machinery_casing",
         },
         output: "tfmg:steel_distillation_controller",
         id: "steel_distillation_controller",
-      },
-      {
-        pattern: ["ABA", "CCC"],
-        key: {
-          A: "create_new_age:copper_wire",
-          B: "create:framed_glass",
-          C: "ad_astra:steel_nugget",
-        },
-        output: Item.of("tfmg:light_bulb", 4),
-        id: "light_bulb",
       },
 
       // Create New Age stuff
@@ -624,7 +606,7 @@
         pattern: ["A", "B"],
         key: {
           A: "create:copper_nugget",
-          B: "tfmg:slag",
+          B: "ppfmg:slag",
         },
         output: "create_new_age:electrical_connector",
         id: "electrical_connector",
@@ -646,8 +628,8 @@
       {
         pattern: ["AB ", "BC ", "  C"],
         key: {
-          A: "tfmg:steel_mechanism",
-          B: "tfmg:cast_iron_sheet",
+          A: "ppfmg:steel_mechanism",
+          B: "ppfmg:cast_iron_sheet",
           C: "ad_astra:steel_ingot",
         },
         output: "createoreexcavation:vein_finder",
@@ -657,9 +639,9 @@
         pattern: [" A ", "BCB", "DED"],
         key: {
           A: "create:precision_mechanism",
-          B: "tfmg:cast_iron_sheet",
+          B: "ppfmg:cast_iron_sheet",
           C: "create:brass_casing",
-          D: "tfmg:rubber_sheet",
+          D: "ppfmg:rubber_sheet",
           E: "create:mechanical_drill",
         },
         output: "createoreexcavation:sample_drill",
@@ -680,11 +662,11 @@
       {
         pattern: ["AB ", "CDE", "AB "],
         key: {
-          A: "tfmg:cast_iron_ingot",
+          A: "ppfmg:cast_iron_ingot",
           B: "create:shaft",
           C: "vintageimprovements:spring_coiling_machine_wheel",
           D: "create:precision_mechanism",
-          E: "tfmg:steel_casing",
+          E: "ppfmg:steel_casing",
         },
         output: "vintageimprovements:spring_coiling_machine",
         id: "spring_coiling_machine",
@@ -693,8 +675,8 @@
         pattern: ["ABA", "CDC", " E "],
         key: {
           A: "vintageimprovements:steel_spring",
-          B: "tfmg:heavy_machinery_casing",
-          C: "tfmg:cast_iron_ingot",
+          B: "ppfmg:heavy_machinery_casing",
+          C: "ppfmg:cast_iron_ingot",
           D: "create:mechanical_pump",
           E: "create:precision_mechanism",
         },
@@ -704,7 +686,7 @@
       {
         pattern: [" A ", "BCB"],
         key: {
-          A: "tfmg:steel_casing",
+          A: "ppfmg:steel_casing",
           B: "vintageimprovements:cast_iron_spring",
           C: "create:precision_mechanism",
         },
@@ -724,7 +706,7 @@
         pattern: ["A", "B", "C"],
         key: {
           A: "vintageimprovements:grinder_belt",
-          B: "tfmg:steel_casing",
+          B: "ppfmg:steel_casing",
           C: "create:precision_mechanism",
         },
         output: "vintageimprovements:belt_grinder",
@@ -734,8 +716,8 @@
         pattern: ["ABA", "ACA"],
         key: {
           A: "vintageimprovements:steel_spring",
-          B: "tfmg:hardened_planks_slab",
-          C: "tfmg:steel_casing",
+          B: "ppfmg:hardened_planks_slab",
+          C: "ppfmg:steel_casing",
         },
         output: "vintageimprovements:vibrating_table",
         id: "vibrating_table",
@@ -747,7 +729,7 @@
           B: "minecraft:redstone",
           C: "create:electron_tube",
           D: "minecraft:red_stained_glass",
-          E: "tfmg:rubber_sheet",
+          E: "ppfmg:rubber_sheet",
         },
         output: "vintageimprovements:laser_item",
         id: "laser_item",
@@ -757,8 +739,8 @@
         key: {
           A: "create_new_age:copper_wire_block",
           B: "minecraft:redstone_block",
-          C: "tfmg:steel_mechanism",
-          D: "tfmg:heavy_machinery_casing",
+          C: "ppfmg:steel_mechanism",
+          D: "ppfmg:heavy_machinery_casing",
           E: "vintageimprovements:steel_spring",
           F: "vintageimprovements:laser_item",
         },
@@ -769,7 +751,7 @@
       {
         pattern: ["A", "A"],
         key: {
-          A: "tfmg:heavy_plate",
+          A: "ppfmg:heavy_plate",
         },
         output: Item.of("vintageimprovements:steel_rod", 24),
         id: "steel_rod",

@@ -4,10 +4,10 @@
 
     const centrifugationRecipes = [
       {
-        input: { fluid: "tfmg:naphtha", amount: 20 },
+        input: { fluid: "ppfmg:naphtha", amount: 20 },
         output: [
-          { fluid: "tfmg:ethylene", amount: 10 },
-          { fluid: "tfmg:propylene", amount: 10 },
+          { fluid: "ppfmg:ethylene", amount: 10 },
+          { fluid: "ppfmg:propylene", amount: 10 },
         ],
         time: 10,
         minRPM: 128,

@@ -3,11 +3,11 @@
   "ambientocclusion": false,
   "textures": {
     "0": "vintageimprovements:block/coiling_machine_parts",
-    "1": "tfmg:block/hardened_planks",
-    "2": "tfmg:block/steel_casing",
+    "1": "ppfmg:block/hardened_planks",
+    "2": "ppfmg:block/steel_casing",
     "6": "vintageimprovements:block/vibrating_table",
-    "7": "tfmg:block/industrial_barrel_front_open",
-    "particle": "tfmg:block/hardened_planks"
+    "7": "ppfmg:block/industrial_barrel_front_open",
+    "particle": "ppfmg:block/hardened_planks"
   },
   "elements": [
     {

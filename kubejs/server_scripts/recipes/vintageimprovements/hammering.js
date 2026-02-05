@@ -3,7 +3,7 @@
     const hammeringRecipes = [
       {
         input: "ad_astra:steel_block",
-        output: "tfmg:heavy_plate",
+        output: "ppfmg:heavy_plate",
         loops: 1,
       },
     ];

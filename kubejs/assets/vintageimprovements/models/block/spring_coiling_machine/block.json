@@ -1,11 +1,11 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "tfmg:block/steel_casing",
+    "0": "ppfmg:block/steel_casing",
     "1": "vintageimprovements:block/coiling_machine_parts",
-    "2": "tfmg:block/steel_gearbox",
+    "2": "ppfmg:block/steel_gearbox",
     "3": "vintageimprovements:block/filter_slot",
-    "particle": "tfmg:block/steel_casing"
+    "particle": "ppfmg:block/steel_casing"
   },
   "elements": [
     {

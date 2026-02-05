@@ -317,13 +317,13 @@
         id: "ash_brick",
       },
       {
-        input: "tfmg:fireclay_ball",
-        output: "tfmg:fireproof_brick",
+        input: "ppfmg:fireclay_ball",
+        output: "ppfmg:fireproof_brick",
         id: "fireproof_brick",
       },
       {
         input: "planetsandportals:sticky_wart",
-        output: "tfmg:rubber_sheet",
+        output: "ppfmg:rubber_sheet",
         id: "rubber_sheet",
       },
       {

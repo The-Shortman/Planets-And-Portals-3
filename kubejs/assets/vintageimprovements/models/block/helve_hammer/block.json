@@ -1,9 +1,9 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "2": "tfmg:block/steel_gearbox",
+    "2": "ppfmg:block/steel_gearbox",
     "3": "create:block/funnel/andesite_funnel_frame",
-    "4": "tfmg:block/steel_casing",
+    "4": "ppfmg:block/steel_casing",
     "5": "vintageimprovements:block/helve_hammer",
     "particle": "create:block/axis"
   },
