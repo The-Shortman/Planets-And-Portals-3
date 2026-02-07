@@ -743,7 +743,7 @@
 			subtitle: "Kinda rare"
 			tasks: [{
 				id: "6E3F9A242B1BB7F8"
-				item: "ppfmg:crude_oil_bucket"
+				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
 			x: 18.0d
