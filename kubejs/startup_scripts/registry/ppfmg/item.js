@@ -1,96 +1,96 @@
 (function ppfmgItemRegistry() {
   // This is a set of items that were intitially part of TFMG.
   // However, the mod has been removed due to a plethora of bugs present within it.
-  // Instead, PPFMG is now used to register the items. TFMG is fully licensed under the MIT License.
+  // Instead, Ppfmg is now used to register the items. TFMG is fully licensed under the MIT License.
   StartupEvents.registry("item", (event) => {
     const basicItems = [
       {
-        id: "ppfmg:bitumen",
+        id: "ppfmg:bitumen", // craftable
         name: "Bitumen",
         stackSize: 64,
       },
       {
-        id: "ppfmg:blasting_mixture",
+        id: "ppfmg:blasting_mixture", // craftable
         name: "Blasting Mixture",
         stackSize: 64,
       },
       {
-        id: "ppfmg:cast_iron_ingot",
+        id: "ppfmg:cast_iron_ingot", //craftable
         name: "Cast Iron Ingot",
         stackSize: 64,
       },
       {
-        id: "ppfmg:cast_iron_nugget",
+        id: "ppfmg:cast_iron_nugget", // craftable
         name: "Cast Iron Nugget",
         stackSize: 64,
       },
       {
-        id: "ppfmg:cast_iron_sheet",
+        id: "ppfmg:cast_iron_sheet", // craftable
         name: "Cast Iron Sheet",
         stackSize: 64,
       },
       {
-        id: "ppfmg:coal_coke",
+        id: "ppfmg:coal_coke", // needs mbd2 file edit
         name: "Coal Coke",
         stackSize: 64,
       },
       {
-        id: "ppfmg:coal_coke_dust",
+        id: "ppfmg:coal_coke_dust", // craftable
         name: "Coal Coke Dust",
         stackSize: 64,
       },
       {
-        id: "ppfmg:concave_heavy_plate",
+        id: "ppfmg:concave_heavy_plate", // craftable
         name: "Concave Heavy Plate",
         stackSize: 64,
       },
       {
-        id: "ppfmg:fireclay_ball",
+        id: "ppfmg:fireclay_ball", // craftable
         name: "Fireclay Ball",
         stackSize: 64,
       },
       {
-        id: "ppfmg:fireproof_brick",
+        id: "ppfmg:fireproof_brick", // craftable
         name: "Fireproof Brick",
         stackSize: 64,
       },
       {
-        id: "ppfmg:heavy_plate",
+        id: "ppfmg:heavy_plate", // craftable
         name: "Heavy Plate",
         stackSize: 64,
       },
       {
-        id: "ppfmg:limesand",
+        id: "ppfmg:limesand", // craftable
         name: "Limesand",
         stackSize: 64,
       },
       {
-        id: "ppfmg:rubber_sheet",
+        id: "ppfmg:rubber_sheet", // craftable
         name: "Rubber Sheet",
         stackSize: 64,
       },
       {
-        id: "ppfmg:slag",
+        id: "ppfmg:slag", // craftable
         name: "Slag",
         stackSize: 64,
       },
       {
-        id: "ppfmg:steel_mechanism",
+        id: "ppfmg:steel_mechanism", // craftable
         name: "Steel Mechanism",
         stackSize: 64,
       },
       {
-        id: "ppfmg:synthetic_leather",
+        id: "ppfmg:synthetic_leather", // craftable, not useful
         name: "Synthetic Leather",
         stackSize: 64,
       },
       {
-        id: "ppfmg:synthetic_string",
+        id: "ppfmg:synthetic_string", // craftable, not useful
         name: "Synthetic String",
         stackSize: 64,
       },
       {
-        id: "ppfmg:unevacuated_steel_mechanism",
+        id: "ppfmg:unevacuated_steel_mechanism", // craftable
         name: "Unevacuated Steel Mechanism",
         stackSize: 64,
       },

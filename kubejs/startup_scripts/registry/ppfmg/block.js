@@ -1,11 +1,11 @@
 (function ppfmgBlockRegistry() {
   // This is a set of blocks that were intitially part of TFMG.
   // However, the mod has been removed due to a plethora of bugs present within it.
-  // Instead, PPFMG is now used to register the items. TFMG is fully licensed under the MIT License.
+  // Instead, Ppfmg is now used to register the items. TFMG is fully licensed under the MIT License.
   StartupEvents.registry("block", (event) => {
     const basicBlocks = [
       {
-        id: "ppfmg:cast_iron_block",
+        id: "ppfmg:cast_iron_block", // craftable
         name: "Cast Iron Block",
         material: "metal",
         hardness: 1.0,
@@ -13,7 +13,7 @@
         tool: "pickaxe",
       },
       {
-        id: "ppfmg:fireclay",
+        id: "ppfmg:fireclay", // craftable
         name: "Fireclay",
         material: "sand",
         hardness: 0.2,
@@ -21,7 +21,7 @@
         tool: "shovel",
       },
       {
-        id: "ppfmg:fireproof_bricks",
+        id: "ppfmg:fireproof_bricks", // craftable
         name: "Fireproof Bricks",
         material: "stone",
         hardness: 0.7,
@@ -29,7 +29,7 @@
         tool: "pickaxe",
       },
       {
-        id: "ppfmg:hardened_planks",
+        id: "ppfmg:hardened_planks", // craftable
         name: "Hardened Planks",
         material: "wood",
         hardness: 0.7,
@@ -37,7 +37,7 @@
         tool: "axe",
       },
       {
-        id: "ppfmg:heavy_machinery_casing",
+        id: "ppfmg:heavy_machinery_casing", // craftable
         name: "Heavy Machinery Casing",
         material: "metal",
         hardness: 1.0,
@@ -45,7 +45,7 @@
         tool: "pickaxe",
       },
       {
-        id: "ppfmg:slag_block",
+        id: "ppfmg:slag_block", // requires tinkers
         name: "Slag Block",
         material: "stone",
         hardness: 0.5,
@@ -53,7 +53,7 @@
         tool: "axe",
       },
       {
-        id: "ppfmg:slag_bricks",
+        id: "ppfmg:slag_bricks", // craftable
         name: "Slag Bricks",
         material: "stone",
         hardness: 0.5,
@@ -61,7 +61,7 @@
         tool: "axe",
       },
       {
-        id: "ppfmg:steel_casing",
+        id: "ppfmg:steel_casing", // craftable
         name: "Steel Casing",
         material: "wood",
         hardness: 0.5,
@@ -72,7 +72,7 @@
 
     const wallBlocks = [
       {
-        id: "ppfmg:fireproof_brick_wall",
+        id: "ppfmg:fireproof_brick_wall", // craftable
         name: "Fireproof Brick Wall",
         material: "stone",
         hardness: 0.5,
@@ -83,7 +83,7 @@
 
     const slabBlocks = [
       {
-        id: "ppfmg:hardened_planks_slab",
+        id: "ppfmg:hardened_planks_slab", // craftable
         name: "Hardened Planks Slab",
         material: "wood",
         hardness: 0.5,
@@ -92,6 +92,7 @@
       },
     ];
 
+    //TODO: caution blocks
     const cautionBlockColours = [
       "blue",
       "brown",
