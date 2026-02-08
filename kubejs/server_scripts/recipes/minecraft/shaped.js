@@ -610,6 +610,14 @@
         output: "ppfmg:fireproof_bricks",
         id: "fireproof_bricks",
       },
+      {
+        pattern: ["AA", "AA"],
+        key: {
+          A: "ppfmg:slag_block",
+        },
+        output: Item.of("ppfmg:slag_bricks", 4),
+        id: "slag_bricks",
+      },
 
       // Create New Age stuff
 
