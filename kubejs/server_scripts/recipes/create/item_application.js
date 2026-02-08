@@ -14,6 +14,18 @@
         id: "incomplete_coke_oven_t1",
       },
       {
+        block: "ppfmg:hardened_planks",
+        item: "ad_astra:steel_ingot",
+        output: "ppfmg:steel_casing",
+        id: "steel_casing",
+      },
+      {
+        block: "ppfmg:steel_casing",
+        item: "ppfmg:heavy_plate",
+        output: "ppfmg:heavy_machinery_casing",
+        id: "heavy_machinery_casing",
+      },
+      {
         block: "planetsandportals:incomplete_coke_oven_t1",
         item: "ppfmg:cast_iron_ingot",
         output: "planetsandportals:incomplete_coke_oven_t2",
