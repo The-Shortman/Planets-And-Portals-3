@@ -52,6 +52,11 @@
         id: "slag_from_slag_block",
       },
       {
+        input: "ppfmg:slag_bricks",
+        output: [Item.of("ppfmg:slag", 9)],
+        id: "slag_from_slag_bricks",
+      },
+      {
         input: "ppfmg:coal_coke",
         output: "ppfmg:coal_coke_dust",
         id: "coal_coke_dust",
