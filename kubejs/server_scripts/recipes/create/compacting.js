@@ -34,6 +34,11 @@
         heat: "heated",
         id: "blaze_burner_from_mossie",
       },
+      {
+        input: { fluid: "ppfmg:heavy_oil", amount: 100 },
+        output: "ppfmg:bitumen",
+        id: "bitumen",
+      },
     ];
 
     compactingRecipes.forEach((recipe) => {
