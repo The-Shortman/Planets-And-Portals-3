@@ -41,7 +41,12 @@
       {
         input: "ppfmg:fireclay",
         output: Item.of("ppfmg:fireclay_ball", 4),
-        id: "fireclay_ball",
+        id: "fireclay_ball_from_fireclay",
+      },
+      {
+        input: Item.of("ppfmg:fireclay_ball", 4),
+        output: "ppfmg:fireclay",
+        id: "fireclay_from_fireclay_ball",
       },
       {
         input: "ppfmg:cast_iron_ingot",
