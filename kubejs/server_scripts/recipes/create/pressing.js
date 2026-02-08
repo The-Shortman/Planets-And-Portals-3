@@ -6,6 +6,11 @@
         output: "mobsandfamiliars:flattened_mossie",
         id: "flattened_mossie",
       },
+      {
+        input: "ppfmg:cast_iron_ingot",
+        output: "ppfmg:cast_iron_sheet",
+        id: "cast_iron_sheet",
+      },
     ];
 
     pressingRecipes.forEach((recipe) => {
