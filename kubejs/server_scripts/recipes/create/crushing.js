@@ -56,6 +56,11 @@
         output: "ppfmg:coal_coke_dust",
         id: "coal_coke_dust",
       },
+      {
+        input: "create:limestone",
+        output: Item.of("ppfmg:limesand", 2),
+        id: "limesand",
+      },
     ];
 
     crushingRecipes.forEach((recipe) => {
