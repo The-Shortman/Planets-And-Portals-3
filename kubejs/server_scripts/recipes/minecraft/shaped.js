@@ -600,6 +600,17 @@
         id: "steel_distillation_controller",
       },
 
+      // Ppfmg
+
+      {
+        pattern: ["AA", "AA"],
+        key: {
+          A: "ppfmg:fireproof_brick",
+        },
+        output: "ppfmg:fireproof_bricks",
+        id: "fireproof_bricks",
+      },
+
       // Create New Age stuff
 
       {
