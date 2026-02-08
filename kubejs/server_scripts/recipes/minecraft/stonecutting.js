@@ -61,6 +61,11 @@
         output: "create:framed_glass",
         id: "framed_glass_from_tiled_glass",
       },
+      {
+        input: "ppfmg:hardened_planks",
+        output: Item.of("ppfmg:hardened_planks_slab", 2),
+        id: "hardened_planks_slab",
+      },
     ];
 
     const manualStonecuttingRecipes = [

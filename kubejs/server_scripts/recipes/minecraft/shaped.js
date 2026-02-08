@@ -634,6 +634,14 @@
         output: Item.of("ppfmg:fireproof_brick_wall", 8),
         id: "fireproof_brick_wall_from_fireproof_bricks",
       },
+      {
+        pattern: ["AAA"],
+        key: {
+          A: "ppfmg:hardened_planks",
+        },
+        output: Item.of("ppfmg:hardened_planks_slab", 6),
+        id: "hardened_planks_slab",
+      },
 
       // Create New Age stuff
 
