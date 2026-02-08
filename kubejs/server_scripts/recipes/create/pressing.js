@@ -11,6 +11,11 @@
         output: "ppfmg:cast_iron_sheet",
         id: "cast_iron_sheet",
       },
+      {
+        input: "ppfmg:rubber_sheet",
+        output: "ppfmg:synthetic_leather",
+        id: "synthetic_leather",
+      },
     ];
 
     pressingRecipes.forEach((recipe) => {
