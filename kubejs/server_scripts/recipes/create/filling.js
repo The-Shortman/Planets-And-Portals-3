@@ -7,6 +7,13 @@
         input: "#planetsandportals:berries",
         fluid: { fluid: "minecraft:lava", amount: BUCKET / 2 },
         output: "planetsandportals:lavaberries",
+        id: "lavaberries",
+      },
+      {
+        input: "#c:unhardened_planks",
+        fluid: { fluid: "ppfmg:creosote", amount: 250 },
+        output: "ppfmg:hardened_planks",
+        id: "hardened_planks",
       },
     ];
 
