@@ -63,8 +63,8 @@ jobs:
         id: get-game-versions
         shell: bash
         run: |
-          echo MINECRAFT_VERSION="$(echo "$(<pack.toml)" | grep "forge =" | cut -d '"' -f 2)" >> "$GITHUB_OUTPUT"
-          echo FORGE_VERSION="$(echo "$(<pack.toml)" | grep "minecraft =" | cut -d '"' -f 2)" >> "$GITHUB_OUTPUT"
+          echo MINECRAFT_VERSION="$(echo "$(<pack.toml)" | grep "minecraft =" | cut -d '"' -f 2)" >> "$GITHUB_OUTPUT"
+          echo FORGE_VERSION="$(echo "$(<pack.toml)" | grep "forge =" | cut -d '"' -f 2)" >> "$GITHUB_OUTPUT"
 
       - name: 🖥️ Prepare for CurseForge client zip creation
         shell: bash
