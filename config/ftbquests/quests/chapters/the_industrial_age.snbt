@@ -232,7 +232,7 @@
 				{
 					count: 12L
 					id: "5ADDB6C19C14F49B"
-					item: { Count: 12, id: "ppfmg:fireproof_brick_wall" }
+					item: { Count: 12, id: "ppfmg:fireproof_bricks_wall" }
 					type: "item"
 				}
 			]

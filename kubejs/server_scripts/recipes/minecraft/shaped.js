@@ -623,7 +623,7 @@
         key: {
           A: "ppfmg:fireproof_brick",
         },
-        output: Item.of("ppfmg:fireproof_brick_wall", 2),
+        output: Item.of("ppfmg:fireproof_bricks_wall", 2),
         id: "fireproof_brick_wall_from_fireproof_brick",
       },
       {
@@ -631,7 +631,7 @@
         key: {
           A: "ppfmg:fireproof_bricks",
         },
-        output: Item.of("ppfmg:fireproof_brick_wall", 8),
+        output: Item.of("ppfmg:fireproof_bricks_wall", 8),
         id: "fireproof_brick_wall_from_fireproof_bricks",
       },
       {

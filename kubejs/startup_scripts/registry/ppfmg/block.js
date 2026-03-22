@@ -72,7 +72,7 @@
 
     const wallBlocks = [
       {
-        id: "ppfmg:fireproof_brick_wall", // craftable
+        id: "ppfmg:fireproof_bricks_wall", // craftable
         name: "Fireproof Brick Wall",
         material: "stone",
         hardness: 0.5,
