@@ -4,7 +4,7 @@
 	filename: "the_industrial_age"
 	group: "30A216F1693DCE58"
 	hide_quest_until_deps_visible: true
-	icon: "tfmg:cast_iron_ingot"
+	icon: "ppfmg:cast_iron_ingot"
 	id: "37D5D017B31404D7"
 	order_index: 0
 	quest_links: [ ]
@@ -22,7 +22,7 @@
 			subtitle: "Welcome to Industry!"
 			tasks: [{
 				id: "7EB3B92693EFE0A7"
-				item: "tfmg:cast_iron_ingot"
+				item: "ppfmg:cast_iron_ingot"
 				type: "item"
 			}]
 			x: 0.0d
@@ -82,7 +82,7 @@
 			id: "39419E86892F9481"
 			tasks: [{
 				id: "2E64507488D81F11"
-				item: "tfmg:coal_coke"
+				item: "ppfmg:coal_coke"
 				type: "item"
 			}]
 			x: 6.0d
@@ -109,7 +109,7 @@
 			id: "29C9E6F5ABEF32E9"
 			tasks: [{
 				id: "5D9113B1FB886F3F"
-				item: "tfmg:coal_coke_dust"
+				item: "ppfmg:coal_coke_dust"
 				type: "item"
 			}]
 			x: 7.5d
@@ -124,7 +124,7 @@
 			id: "5AF3046EECEA0652"
 			tasks: [{
 				id: "033AA9C1FBF7DBFF"
-				item: "tfmg:fireclay_ball"
+				item: "ppfmg:fireclay_ball"
 				type: "item"
 			}]
 			x: 6.0d
@@ -135,7 +135,7 @@
 			id: "3C80453E0C468FF7"
 			tasks: [{
 				id: "172AE3E860E50788"
-				item: "tfmg:fireproof_brick"
+				item: "ppfmg:fireproof_brick"
 				type: "item"
 			}]
 			x: 7.5d
@@ -146,7 +146,7 @@
 			id: "01100A3D4FA60C4E"
 			tasks: [{
 				id: "4D3DD6DD81FD31B0"
-				item: "tfmg:fireproof_bricks"
+				item: "ppfmg:fireproof_bricks"
 				type: "item"
 			}]
 			x: 10.5d
@@ -161,7 +161,7 @@
 			tasks: [
 				{
 					id: "00C43690A72868F1"
-					item: "tfmg:limesand"
+					item: "ppfmg:limesand"
 					type: "item"
 				}
 				{
@@ -226,13 +226,13 @@
 				{
 					count: 13L
 					id: "118EB1EA547B6226"
-					item: { Count: 13, id: "tfmg:fireproof_bricks" }
+					item: { Count: 13, id: "ppfmg:fireproof_bricks" }
 					type: "item"
 				}
 				{
 					count: 12L
 					id: "5ADDB6C19C14F49B"
-					item: { Count: 12, id: "tfmg:fireproof_brick_reinforcement" }
+					item: { Count: 12, id: "ppfmg:fireproof_bricks_wall" }
 					type: "item"
 				}
 			]
@@ -261,7 +261,7 @@
 			subtitle: "DEFINTELY automate this"
 			tasks: [{
 				id: "3269C711CC5523E0"
-				item: "tfmg:steel_ingot"
+				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
 			x: 10.5d
@@ -302,7 +302,7 @@
 			subtitle: "Craft with Iron"
 			tasks: [{
 				id: "69D786320875E1EE"
-				item: "tfmg:limesand"
+				item: "ppfmg:limesand"
 				type: "item"
 			}]
 			x: 15.0d
@@ -331,7 +331,7 @@
 			subtitle: "Fireclay source #1"
 			tasks: [{
 				id: "306ADD6406C34A57"
-				item: "tfmg:fireclay"
+				item: "ppfmg:fireclay"
 				type: "item"
 			}]
 			title: "Worldgen"
@@ -341,13 +341,13 @@
 		{
 			dependencies: ["49CA9132BF82101B"]
 			description: ["Slag is the thin layer of &6waste material&r skimmed off the top of Molten Steel during the Blast Furnace process."]
-			icon: "tfmg:molten_slag_bucket"
+			icon: "ppfmg:molten_slag_bucket"
 			id: "3DEF745C0FBDC637"
 			subtitle: "Blast Furnace byproduct"
 			tasks: [
 				{
 					id: "74A4F33519471752"
-					item: "tfmg:molten_slag_bucket"
+					item: "ppfmg:molten_slag_bucket"
 					optional_task: true
 					type: "item"
 				}
@@ -366,7 +366,7 @@
 			id: "1505AC0988F942AC"
 			tasks: [{
 				id: "4F2398698F3E9881"
-				item: "tfmg:slag_block"
+				item: "ppfmg:slag_block"
 				type: "item"
 			}]
 			x: 18.0d
@@ -377,7 +377,7 @@
 			id: "19F1C768A7EEEE2A"
 			tasks: [{
 				id: "502CCD3EC29C8C9D"
-				item: "tfmg:slag"
+				item: "ppfmg:slag"
 				type: "item"
 			}]
 			x: 22.5d
@@ -400,7 +400,7 @@
 			subtitle: "Mechanism number 2"
 			tasks: [{
 				id: "66DE5B20E3BD4B8C"
-				item: "tfmg:steel_mechanism"
+				item: "ppfmg:steel_mechanism"
 				type: "item"
 			}]
 			x: 16.5d
@@ -414,7 +414,7 @@
 			id: "7C9A78DE6E56C1E6"
 			tasks: [{
 				id: "1CF5AC3D325A426F"
-				item: "tfmg:heavy_plate"
+				item: "ppfmg:heavy_plate"
 				type: "item"
 			}]
 			x: 13.5d
@@ -442,7 +442,7 @@
 			id: "08A7873691D3287C"
 			tasks: [{
 				id: "1B33C2DB79D7A678"
-				item: "tfmg:steel_block"
+				item: "ad_astra:steel_block"
 				type: "item"
 			}]
 			x: 13.5d
@@ -481,7 +481,7 @@
 			id: "72489AA9C47A8765"
 			tasks: [{
 				id: "0F5D9A45D8AF15DA"
-				item: "tfmg:steel_casing"
+				item: "ppfmg:steel_casing"
 				type: "item"
 			}]
 			x: 10.5d
@@ -494,13 +494,13 @@
 				""
 				"You don't need to fill a Bucket to complete this quest, just &6tick the checkmark&r."
 			]
-			icon: "tfmg:carbon_dioxide_bucket"
+			icon: "ppfmg:carbon_dioxide_bucket"
 			id: "5F4A83BC52F1F162"
 			subtitle: "Useful byproduct, or waste?"
 			tasks: [
 				{
 					id: "0AC7CF316D07DBFF"
-					item: "tfmg:carbon_dioxide_bucket"
+					item: "ppfmg:carbon_dioxide_bucket"
 					optional_task: true
 					type: "item"
 				}
@@ -518,7 +518,7 @@
 			id: "4D9FD53239BE3D03"
 			tasks: [{
 				id: "7B33F87C52457657"
-				item: "tfmg:creosote_bucket"
+				item: "ppfmg:creosote_bucket"
 				type: "item"
 			}]
 			x: 6.0d
@@ -529,7 +529,7 @@
 			id: "5AA5DCCC96395707"
 			tasks: [{
 				id: "010E89BCDAFAECE1"
-				item: "tfmg:hardened_planks"
+				item: "ppfmg:hardened_planks"
 				type: "item"
 			}]
 			x: 9.0d
@@ -540,7 +540,7 @@
 			id: "4E8DC586CC481A0E"
 			tasks: [{
 				id: "37A731097E569565"
-				item: "tfmg:heavy_machinery_casing"
+				item: "ppfmg:heavy_machinery_casing"
 				type: "item"
 			}]
 			x: 15.0d
@@ -743,7 +743,7 @@
 			subtitle: "Kinda rare"
 			tasks: [{
 				id: "6E3F9A242B1BB7F8"
-				item: "tfmg:crude_oil_bucket"
+				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
 			x: 18.0d
@@ -796,7 +796,7 @@
 			id: "5408F6BC75AABFF2"
 			tasks: [{
 				id: "5DBFC650EA57D83F"
-				item: "tfmg:lubrication_oil_bucket"
+				item: "ppfmg:lubrication_oil_bucket"
 				type: "item"
 			}]
 			x: 24.0d
@@ -889,7 +889,7 @@
 			id: "3D9E82B11BC4EC4C"
 			tasks: [{
 				id: "2E773B8946674924"
-				item: "tfmg:heavy_oil_bucket"
+				item: "ppfmg:heavy_oil_bucket"
 				type: "item"
 			}]
 			x: 22.5d
@@ -986,7 +986,7 @@
 			subtitle: "Plastic in a Bucket if it was useless"
 			tasks: [{
 				id: "3B6BB883F0A7A942"
-				item: "tfmg:naphtha_bucket"
+				item: "ppfmg:naphtha_bucket"
 				type: "item"
 			}]
 			x: 21.0d
@@ -997,7 +997,7 @@
 			id: "246A820BC39BC635"
 			tasks: [{
 				id: "1689EDE9E386FC29"
-				item: "tfmg:gasoline_bucket"
+				item: "ppfmg:gasoline_bucket"
 				type: "item"
 			}]
 			x: 22.5d
@@ -1009,7 +1009,7 @@
 			subtitle: "&6[WIP]&r"
 			tasks: [{
 				id: "5989A633197A00B7"
-				item: "tfmg:lpg_bucket"
+				item: "ppfmg:lpg_bucket"
 				type: "item"
 			}]
 			x: 19.5d
@@ -1041,7 +1041,7 @@
 			subtitle: "&6[WIP]&r"
 			tasks: [{
 				id: "738AC994A231ECE4"
-				item: "tfmg:diesel_bucket"
+				item: "ppfmg:diesel_bucket"
 				type: "item"
 			}]
 			x: 21.0d
@@ -1052,7 +1052,7 @@
 			id: "0C01A2A85ED53FF8"
 			tasks: [{
 				id: "727AF50BE90272E2"
-				item: "tfmg:kerosene_bucket"
+				item: "ppfmg:kerosene_bucket"
 				type: "item"
 			}]
 			x: 24.0d
@@ -1063,7 +1063,7 @@
 			id: "26E358962925354D"
 			tasks: [{
 				id: "51BFE4C4C002F9B4"
-				item: "tfmg:bitumen"
+				item: "ppfmg:bitumen"
 				type: "item"
 			}]
 			x: 25.5d
@@ -1121,12 +1121,12 @@
 			tasks: [
 				{
 					id: "4DFD422C7C5FBD72"
-					item: "tfmg:ethylene_bucket"
+					item: "ppfmg:ethylene_bucket"
 					type: "item"
 				}
 				{
 					id: "37F0D97B9D8BCC4D"
-					item: "tfmg:propylene_bucket"
+					item: "ppfmg:propylene_bucket"
 					type: "item"
 				}
 			]
@@ -1141,7 +1141,7 @@
 			subtitle: "Actually Plastic in a Bucket"
 			tasks: [{
 				id: "7063A674D2D30064"
-				item: "tfmg:molten_plastic_bucket"
+				item: "ppfmg:molten_plastic_bucket"
 				type: "item"
 			}]
 			x: 24.0d
@@ -1440,7 +1440,7 @@
 			id: "53E8A774D1CF4D91"
 			tasks: [{
 				id: "0753797A54A39F9E"
-				item: "planetsandportals:blasting_mixture"
+				item: "ppfmg:blasting_mixture"
 				type: "item"
 			}]
 			x: 13.5d

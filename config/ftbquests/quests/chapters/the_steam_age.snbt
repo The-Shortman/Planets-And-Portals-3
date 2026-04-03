@@ -87,13 +87,13 @@
 				{
 					count: 4L
 					id: "704A62384AAC4A30"
-					item: { Count: 4, id: "tfmg:heavy_machinery_casing" }
+					item: { Count: 4, id: "ppfmg:heavy_machinery_casing" }
 					type: "item"
 				}
 				{
 					count: 44L
 					id: "0C5432C40F9533E6"
-					item: { Count: 44, id: "tfmg:steel_casing" }
+					item: { Count: 44, id: "ppfmg:steel_casing" }
 					type: "item"
 				}
 				{

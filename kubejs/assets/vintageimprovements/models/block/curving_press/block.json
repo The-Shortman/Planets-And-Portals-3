@@ -3,8 +3,8 @@
   "textures": {
     "4": "vintageimprovements:block/curving_press_side",
     "particle": "vintageimprovements:block/curving_press_side",
-    "gearbox_top": "tfmg:block/steel_casing",
-    "gearbox": "tfmg:block/steel_gearbox",
+    "gearbox_top": "ppfmg:block/steel_casing",
+    "gearbox": "ppfmg:block/steel_gearbox",
     "mechanical_press_top": "vintageimprovements:block/curving_press_top",
     "mechanical_press_bottom": "vintageimprovements:block/curving_press_bottom"
   },

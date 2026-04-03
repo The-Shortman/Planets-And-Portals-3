@@ -24,8 +24,8 @@
       {
         // OIL
         id: "oil_ov",
-        display: "tfmg:crude_oil_bucket",
-        resource: "tfmg:crude_oil",
+        display: "ad_astra:oil_bucket",
+        resource: "ad_astra:oil",
         name: "Oil Well (Earth)",
         salt: 245626,
         baseTime: 600,

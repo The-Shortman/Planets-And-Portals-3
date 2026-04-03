@@ -2,7 +2,7 @@
   "credit": "Made with Blockbench",
   "textures": {
     "6": "create:block/mechanical_press_head",
-    "particle": "tfmg:block/heavy_machinery_casing"
+    "particle": "ppfmg:block/heavy_machinery_casing"
   },
   "elements": [
     {

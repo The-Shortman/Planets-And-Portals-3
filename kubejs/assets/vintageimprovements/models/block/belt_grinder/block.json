@@ -1,8 +1,8 @@
 {
   "credit": "Made with Blockbench",
   "textures": {
-    "0": "tfmg:block/steel_gearbox",
-    "1": "tfmg:block/steel_casing",
+    "0": "ppfmg:block/steel_gearbox",
+    "1": "ppfmg:block/steel_casing",
     "2": "vintageimprovements:block/filter_slot",
     "particle": "create:block/gearbox"
   },

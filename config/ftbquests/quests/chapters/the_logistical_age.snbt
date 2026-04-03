@@ -592,7 +592,7 @@
 			subtitle: "Seal things up"
 			tasks: [{
 				id: "58355A7E91F90FCA"
-				item: "tfmg:rubber_sheet"
+				item: "ppfmg:rubber_sheet"
 				type: "item"
 			}]
 			x: 18.0d
@@ -1019,7 +1019,7 @@
 			subtitle: "Don't think about it too hard"
 			tasks: [{
 				id: "7995BD44A079B7CD"
-				item: "tfmg:cast_iron_ingot"
+				item: "ppfmg:cast_iron_ingot"
 				type: "item"
 			}]
 			x: 33.0d
@@ -1102,12 +1102,12 @@
 			tasks: [
 				{
 					id: "1538F5A9CFD3DD9B"
-					item: "tfmg:synthetic_string"
+					item: "ppfmg:synthetic_string"
 					type: "item"
 				}
 				{
 					id: "5387161FF799C4FF"
-					item: "tfmg:synthetic_leather"
+					item: "ppfmg:synthetic_leather"
 					type: "item"
 				}
 			]

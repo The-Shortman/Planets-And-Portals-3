@@ -4,25 +4,20 @@
       // Misc
 
       {
-        inputs: Item.of("createoreexcavation:raw_redstone", 9),
+        input: Item.of("createoreexcavation:raw_redstone", 9),
         output: "regions_unexplored:raw_redstone_block",
         id: "raw_redstone_block",
       },
       {
-        inputs: "regions_unexplored:raw_redstone_block",
+        input: "regions_unexplored:raw_redstone_block",
         output: Item.of("createoreexcavation:raw_redstone", 9),
         id: "raw_redstone_from_block",
-      },
-      {
-        inputs: "tfmg:fireclay",
-        output: Item.of("tfmg:fireclay_ball", 4),
-        id: "fireclay_ball",
       },
 
       // Create
 
       {
-        inputs: [
+        input: [
           Item.of("minecraft:gravel", 4),
           Item.of("minecraft:sand", 4),
           "minecraft:clay",
@@ -31,23 +26,56 @@
         id: "grout_large",
       },
       {
-        inputs: ["minecraft:gravel", "minecraft:sand", "minecraft:clay_ball"],
+        input: ["minecraft:gravel", "minecraft:sand", "minecraft:clay_ball"],
         output: Item.of("planetsandportals:grout", 2),
         id: "grout_small",
       },
       {
-        inputs: [Item.of("create:shaft", 4), "create:zinc_ingot"],
+        input: [Item.of("create:shaft", 4), "create:zinc_ingot"],
         output: Item.of("copycats:copycat_shaft", 4),
         id: "copycat_shaft",
+      },
+
+      // Ppfmg
+
+      {
+        input: "ppfmg:fireclay",
+        output: Item.of("ppfmg:fireclay_ball", 4),
+        id: "fireclay_ball_from_fireclay",
+      },
+      {
+        input: Item.of("ppfmg:fireclay_ball", 4),
+        output: "ppfmg:fireclay",
+        id: "fireclay_from_fireclay_ball",
+      },
+      {
+        input: "ppfmg:cast_iron_ingot",
+        output: Item.of("ppfmg:cast_iron_nugget", 9),
+        id: "cast_iron_nugget",
+      },
+      {
+        input: Item.of("ppfmg:cast_iron_nugget", 9),
+        output: "ppfmg:cast_iron_ingot",
+        id: "cast_iron_ingot_from_nuggets",
+      },
+      {
+        input: "ppfmg:cast_iron_block",
+        output: Item.of("ppfmg:cast_iron_ingot", 9),
+        id: "cast_iron_ingot_from_block",
+      },
+      {
+        input: Item.of("ppfmg:cast_iron_ingot", 9),
+        output: "ppfmg:cast_iron_block",
+        id: "cast_iron_block",
       },
 
       // Create Ore Excavation
 
       {
-        inputs: [
+        input: [
           "minecraft:writable_book",
           "minecraft:map",
-          "tfmg:cast_iron_sheet",
+          "ppfmg:cast_iron_sheet",
         ],
         output: "createoreexcavation:vein_atlas",
         id: "ore_vein_atlas",
@@ -56,12 +84,12 @@
       // Blast Furnace
 
       {
-        inputs: ["tfmg:fireproof_bricks", "create:andesite_funnel"],
+        input: ["ppfmg:fireproof_bricks", "create:andesite_funnel"],
         output: "mbd2:blast_furnace_item_input",
         id: "blast_furnace_item_input",
       },
       {
-        inputs: ["tfmg:fireproof_bricks", "create:fluid_valve"],
+        input: ["ppfmg:fireproof_bricks", "create:fluid_valve"],
         output: "mbd2:blast_furnace_fluid_output",
         id: "blast_furnace_fluid_output",
       },
@@ -69,7 +97,7 @@
 
     shapelessRecipes.forEach((recipe) => {
       event
-        .shapeless(recipe.output, recipe.inputs)
+        .shapeless(recipe.output, recipe.input)
         .id(`kubejs:minecraft/shapeless/${recipe.id}`);
     });
   });

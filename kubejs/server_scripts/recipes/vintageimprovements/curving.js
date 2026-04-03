@@ -8,13 +8,13 @@
 
     const curvingRecipes = [
       {
-        input: "tfmg:heavy_plate",
-        output: "planetsandportals:concave_heavy_plate",
+        input: "ppfmg:heavy_plate",
+        output: "ppfmg:concave_heavy_plate",
         head: convex,
         id: "concave_heavy_plate",
       },
       {
-        input: "tfmg:heavy_plate",
+        input: "ppfmg:heavy_plate",
         output: "ad_astra:fan",
         head: cylinder,
         id: "steel_fan",

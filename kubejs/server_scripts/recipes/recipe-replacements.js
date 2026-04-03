@@ -14,17 +14,17 @@
       {
         filter: { input: "mekanism:dust_steel" },
         remove: "mekanism:dust_steel",
-        replace: "tfmg:steel_ingot",
+        replace: "ad_astra:steel_ingot",
       },
       {
         filter: { mod: "create_new_age" },
         remove: "create:andesite_casing",
-        replace: "tfmg:steel_casing",
+        replace: "ppfmg:steel_casing",
       },
       {
         filter: { mod: "create_new_age" },
         remove: ["create:brass_casing", "create:andesite_alloy_block"],
-        replace: "tfmg:heavy_machinery_casing",
+        replace: "ppfmg:heavy_machinery_casing",
       },
       {
         filter: { mod: "mekanism" },
@@ -44,27 +44,27 @@
       {
         filter: { input: "#forge:storage_blocks/steel" },
         remove: "#forge:storage_blocks/steel",
-        replace: "tfmg:steel_block",
+        replace: "ad_astra:steel_block",
       },
       {
         filter: { input: "#forge:ingots/steel" },
         remove: "#forge:ingots/steel",
-        replace: "tfmg:steel_ingot",
+        replace: "ad_astra:steel_ingot",
       },
       {
         filter: { input: "#forge:nuggets/steel" },
         remove: "#forge:ingots/steel",
-        replace: "tfmg:steel_ingot",
+        replace: "ad_astra:steel_ingot",
       },
       {
         filter: { input: "#forge:plates/steel" },
         remove: "#forge:plates/steel",
-        replace: "tfmg:heavy_plate",
+        replace: "ppfmg:heavy_plate",
       },
       {
         filter: { input: "#forge:plates/cast_iron" },
         remove: "#forge:plates/cast_iron",
-        replace: "tfmg:cast_iron_sheet",
+        replace: "ppfmg:cast_iron_sheet",
       },
     ];
 

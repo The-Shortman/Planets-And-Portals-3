@@ -47,9 +47,24 @@
         id: "dirty_zinc_dust_from_crushed",
       },
       {
-        input: "tfmg:slag_block",
-        output: [Item.of("tfmg:slag", 9)],
+        input: "ppfmg:slag_block",
+        output: [Item.of("ppfmg:slag", 9)],
         id: "slag_from_slag_block",
+      },
+      {
+        input: "ppfmg:slag_bricks",
+        output: [Item.of("ppfmg:slag", 9)],
+        id: "slag_from_slag_bricks",
+      },
+      {
+        input: "ppfmg:coal_coke",
+        output: "ppfmg:coal_coke_dust",
+        id: "coal_coke_dust",
+      },
+      {
+        input: "create:limestone",
+        output: Item.of("ppfmg:limesand", 2),
+        id: "limesand",
       },
     ];
 

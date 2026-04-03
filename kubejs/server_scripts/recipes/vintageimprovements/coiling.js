@@ -10,8 +10,14 @@
       {
         input: "vintageimprovements:steel_rod",
         output: "vintageimprovements:steel_spring",
-        springColor: "ffffff",
+        springColor: "4d4a4e",
         id: "steel_spring",
+      },
+      {
+        input: "ppfmg:rubber_sheet",
+        output: Item.of("ppfmg:synthetic_string", 6),
+        springColor: "cce9e2",
+        id: "synthetic_string",
       },
     ];
 

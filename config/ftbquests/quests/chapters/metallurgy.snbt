@@ -245,7 +245,7 @@
 				"7995BD44A079B7CD"
 			]
 			hide_dependency_lines: true
-			icon: "tfmg:cast_iron_ingot"
+			icon: "ppfmg:cast_iron_ingot"
 			id: "14F1147ADDE4ACC3"
 			shape: "octagon"
 			size: 2.0d

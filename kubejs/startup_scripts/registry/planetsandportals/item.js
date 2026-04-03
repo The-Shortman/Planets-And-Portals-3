@@ -122,16 +122,6 @@
         stackSize: 64,
       },
       {
-        id: "planetsandportals:concave_heavy_plate",
-        name: "Concave Heavy Plate",
-        stackSize: 64,
-      },
-      {
-        id: "planetsandportals:unevacuated_steel_mechanism",
-        name: "Unevacuated Steel Mechanism",
-        stackSize: 64,
-      },
-      {
         id: "planetsandportals:cardboard_mechanism",
         name: "Cardboard Mechanism",
         stackSize: 64,
@@ -139,11 +129,6 @@
       {
         id: "planetsandportals:salt_bucket",
         name: "Salt Bucket",
-        stackSize: 64,
-      },
-      {
-        id: "planetsandportals:blasting_mixture",
-        name: "Blasting Mixture",
         stackSize: 64,
       },
       {

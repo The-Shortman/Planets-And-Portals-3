@@ -4,10 +4,10 @@
       {
         pattern: [" A BB", "ACCCD", "AA EF"],
         key: {
-          A: "tfmg:steel_block",
+          A: "ad_astra:steel_block",
           B: "vintageimprovements:cast_iron_spring",
           C: "#minecraft:logs",
-          D: "tfmg:steel_casing",
+          D: "ppfmg:steel_casing",
           E: "create:precision_mechanism",
           F: "create:shaft",
         },
@@ -19,10 +19,10 @@
         key: {
           A: "create:precision_mechanism",
           B: "vintageimprovements:cast_iron_spring",
-          C: "tfmg:steel_ingot",
+          C: "ad_astra:steel_ingot",
           D: "create:shaft",
-          E: "tfmg:heavy_machinery_casing",
-          F: "tfmg:cast_iron_block",
+          E: "ppfmg:heavy_machinery_casing",
+          F: "ppfmg:cast_iron_block",
         },
         output: "vintageimprovements:lathe",
         id: "lathe",
@@ -32,8 +32,8 @@
         key: {
           A: "vintageimprovements:steel_spring",
           B: "#minecraft:logs",
-          C: "tfmg:steel_casing",
-          D: "tfmg:steel_mechanism",
+          C: "ppfmg:steel_casing",
+          D: "ppfmg:steel_mechanism",
         },
         output: "vintageimprovements:centrifuge",
         id: "centrifuge",
@@ -41,7 +41,7 @@
       {
         pattern: [" ABA ", "AACAA", "BDEDB", "AAFAA", " AFA "],
         key: {
-          A: "tfmg:cast_iron_sheet",
+          A: "ppfmg:cast_iron_sheet",
           B: "create:copper_casing",
           C: "create:brass_casing",
           D: "create:precision_mechanism",
@@ -54,7 +54,7 @@
       {
         pattern: [" ABA ", "AACAA", "BDEDB", "AAFAA", " AGA "],
         key: {
-          A: "tfmg:cast_iron_sheet",
+          A: "ppfmg:cast_iron_sheet",
           B: "create:copper_casing",
           C: "create:brass_casing",
           D: "create:precision_mechanism",
@@ -68,8 +68,8 @@
       {
         pattern: [" AAA ", "AABAA", "ABBBA", "AABAA", " AAA "],
         key: {
-          A: "tfmg:bitumen",
-          B: "tfmg:heavy_plate",
+          A: "ppfmg:bitumen",
+          B: "ppfmg:heavy_plate",
         },
         output: Item.of("ad_astra:launch_pad", 2),
         id: "launch_pad",

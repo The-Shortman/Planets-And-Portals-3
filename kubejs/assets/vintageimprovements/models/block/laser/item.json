@@ -2,13 +2,13 @@
   "credit": "Made with Blockbench",
   "parent": "block/block",
   "textures": {
-    "0": "tfmg:block/heavy_machinery_casing",
-    "1": "tfmg:block/heavy_gearbox",
+    "0": "ppfmg:block/heavy_machinery_casing",
+    "1": "ppfmg:block/heavy_gearbox",
     "2": "create:block/axis",
     "3": "create:block/axis_top",
     "4": "vintageimprovements:block/laser_bottom",
     "5": "vintageimprovements:block/laser",
-    "particle": "tfmg:block/heavy_machinery_casing"
+    "particle": "ppfmg:block/heavy_machinery_casing"
   },
   "elements": [
     {

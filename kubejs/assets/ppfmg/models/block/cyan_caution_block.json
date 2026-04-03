@@ -1,0 +1,7 @@
+{
+  "parent": "ppfmg:block/caution_block",
+  "textures": {
+    "0": "ppfmg:block/caution_block/cyan",
+    "particle": "ppfmg:block/caution_block/cyan"
+  }
+}

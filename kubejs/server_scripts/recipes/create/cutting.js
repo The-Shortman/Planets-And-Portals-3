@@ -16,6 +16,11 @@
         output: [Item.of("mekanism:salt", 8), "minecraft:bucket"],
         id: "salt_from_bucket",
       },
+      {
+        input: "ppfmg:rubber_sheet",
+        output: Item.of("ppfmg:synthetic_string", 2),
+        id: "synthetic_string",
+      },
     ];
 
     cuttingRecipes.forEach((recipe) => {

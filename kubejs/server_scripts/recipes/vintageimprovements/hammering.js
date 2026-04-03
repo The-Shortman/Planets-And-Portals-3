@@ -2,8 +2,8 @@
   ServerEvents.recipes((event) => {
     const hammeringRecipes = [
       {
-        input: "tfmg:steel_block",
-        output: "tfmg:heavy_plate",
+        input: "ad_astra:steel_block",
+        output: "ppfmg:heavy_plate",
         loops: 1,
       },
     ];

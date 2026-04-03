@@ -3,7 +3,7 @@
   "parent": "block/block",
   "textures": {
     "5": "vintageimprovements:block/laser",
-    "particle": "tfmg:block/heavy_machinery_casing"
+    "particle": "ppfmg:block/heavy_machinery_casing"
   },
   "elements": [
     {
